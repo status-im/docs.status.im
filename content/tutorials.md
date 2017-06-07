@@ -31,7 +31,7 @@ OK, let's learn how to build our first DApp on Status (mobile-first ftw!). To pr
 * in an iOS simulator.
 
 You can go to [https://test.status.im](https://test.status.im) to download for Android.
-Or you can DM @jarradhope with your email in our [Slack](status-im.slack) for ios Testflight.
+Or you can DM @jarradhope with your email in our [Slack](status-im.slack) for iOS TestFlight.
 
  <aside class="success">
 Please note that these documents are intended for the latest version of "status-dev-cli" (^3.2.8) and the latest release of Status app (^0.9.8). To update `status-dev-cli` please run "npm uninstall -g status-dev-cli" and then "npm i -g status-dev-cli".
@@ -89,18 +89,18 @@ status-dev-cli log <DAPP-IDENTITY> --ip <DEVICE-IP>
 
 We give instructions here for Genymotion (a popular Android emulator). 
 
-1. Install genymotion
-1. Create a genymotion virtual device
+1. Install Genymotion
+1. Create a Genymotion virtual device
 1. Switch to network bridge mode (in the settings of your virtual device)
 
 ![Switch to "Bridge"](images/networking.png)  
 
 1. Start virtual device
-1. Install status.im apk from nightly builds by dragging onto emulator window
-1. Start status.im app on virtual device
+1. Install Status.im APK from nightly builds by dragging onto emulator window
+1. Start Status.im app on virtual device
 1. Turn on debugging in console (/debug On).
 1. Open terminal and run `status-dev-cli scan` it returns two `<DEVICE-IP>` addresses, use `192.168.1.*`, and ignore `192.168.56.*`. Alternately retrieve the device ip from the emulator window `Settings > About phone > Status > IP address`.
-1. Run `status-dev-cli add [dapp] --ip <DEVICE-IP>`. **Replace** `[dapp]` with your dapp details (`whisper-identity`, etc) as stringified json or **remove** `[dapp]` if those details are specified in a `package.json` in the current directory.
+1. Run `status-dev-cli add [dapp] --ip <DEVICE-IP>`. **Replace** `[dapp]` with your DApp details (`whisper-identity`, etc) as stringified JSON or **remove** `[dapp]` if those details are specified in a `package.json` in the current directory.
 
 
 
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", onContentLoaded);
 
 You then need to install a really simple `http-server` from NPM (we recommend it for ease-of-use), and start it in the `my-dapp` directory we just created.
 
-Open a new terminal session, navigate back to your `my-dapp` directory, and go ahead and add your dapp to Status! Make sure to pass in the `--ip` flag using the address returned to you by Console, when you [enabled debugging](#enabling-debugging).
+Open a new terminal session, navigate back to your `my-dapp` directory, and go ahead and add your DApp to Status! Make sure to pass in the `--ip` flag using the address returned to you by Console, when you [enabled debugging](#enabling-debugging).
 
 `<MACHINE-IP>` needs to be the internal IPv4 address returned when you run `ifconfig | grep inet`.
 
@@ -216,7 +216,7 @@ status-dev-cli switch-node "http://<MACHINE-IP>:8546" --ip <DEVICE-IP>
 ```
 
 <aside class="success">
-    Please note that "switch-node" only works for DApps, and NOT for bots. You javascript is still confined to the Otto VM jail for now. We are working on a solution, but please use "dapp-url" if developing against a local network for now.
+    Please note that "switch-node" only works for DApps, and NOT for bots. You JavaScript is still confined to the Otto VM jail for now. We are working on a solution, but please use "dapp-url" if developing against a local network for now.
 </aside>
 
 Open a new shell (i.e. a new Terminal window or tab) for the next part. You’ll leave `testrpc` running in the first window, and use the second window for the rest of the tutorial.
@@ -255,7 +255,7 @@ As you run the `migrate` command - which is what deploys your contracts to the n
 Now we are ready to see our DApp running on Status. From within your DApp directory, run:
 
 ```shell
-# Run your Javascript
+# Run your JavaScript
 npm run start
 
 #(Remember to set ENV variable if working with real device)
@@ -425,7 +425,7 @@ Later we’ll have an easy mechanism to make your DApp available for others to u
 
 ### Do It Yourself
 
-First, we're going to create a new `bots` directory and add file to keep our javascript in.
+First, we're going to create a new `bots` directory and add file to keep our JavaScript in.
 
 ```shell
 cd ~/my-dapp
@@ -488,11 +488,11 @@ adb reverse tcp:8080 tcp:8080
 
 OK, so even though `status-dev-cli` is lightweight and awesome, the frameworks offer some really cool features and make development significantly easier for many projects. Let's see what it's like to add the same chatbot to Status using Embark.
 
-First, go back to the `embark_demo/` directory we created [earlier](#my-first-dapp), where we set up the correct configuration for Embark and Status. Essentially, you just want to make sure - as with the Truffle Box example - that you put the javascript file in the right place so that you can reference it correctly.
+First, go back to the `embark_demo/` directory we created [earlier](#my-first-dapp), where we set up the correct configuration for Embark and Status. Essentially, you just want to make sure - as with the Truffle Box example - that you put the JavaScript file in the right place so that you can reference it correctly.
 
-Instead of adding a new DApp, we can now include a `bot-url` parameter in our call to `status-dev-cli`. The chatbot url targets a `js` file, and this file will be loaded in the Otto VM shown in the anatomy. Code in this file сan interact with the input field, messages and react however we program it to.
+Instead of adding a new DApp, we can now include a `bot-url` parameter in our call to `status-dev-cli`. The chatbot URL targets a `js` file, and this file will be loaded in the Otto VM shown in the anatomy. Code in this file can interact with the input field, messages and react however we program it to.
 
-Let's create a bot.js in the `/embark_demo/app/js/` directory and put the short snippet of javascript we need into it.
+Let's create a bot.js in the `/embark_demo/app/js/` directory and put the short snippet of JavaScript we need into it.
 
 ```shell
 touch ~/embark_demo/app/js/bot.js
@@ -563,7 +563,7 @@ cd ~/truffle-box-status
 truffle migrate --reset
 ```
 
-So, all we need to do here is add a `bot` directory in Truffle's `public` directory (i.e. the one accessible from the web) and write some simple javascript and - hey presto! - we'll have a decentralized chatbot. Copy the code provided into another `bot.js` file. The `bot-url` targets a `js` file, and this file will be loaded in the Otto VM shown in the anatomy. Code in this file сan interact with the input field, messages and react however we program it to.
+So, all we need to do here is add a `bot` directory in Truffle's `public` directory (i.e. the one accessible from the web) and write some simple JavaScript and - hey presto! - we'll have a decentralized chatbot. Copy the code provided into another `bot.js` file. The `bot-url` targets a `js` file, and this file will be loaded in the Otto VM shown in the anatomy. Code in this file can interact with the input field, messages and react however we program it to.
 
 ```shell
 cd ~/truffle-box-status/public/ && mkdir bot/
@@ -599,7 +599,7 @@ status-dev-cli list --ip <DEVICE-IP>
 The first value returned there is the DApp's `whisper-identity`, which is what we need to pass to the `watch` command to tell it what to look for. Using it, we can now tell `status-dev-cli` to watch for our changes and go find that brand new bot.
 
 ```shell
-# Make sure you're in the truflle-box-status/ directory as that is what $PWD refers to below
+# Make sure you're in the truffle-box-status/ directory as that is what $PWD refers to below
 cd ~/truffle-box-status
 
 # I would use dapp-0x74727566666c652d626f782d737461747573 for <whisper-identity> below, Substitute your own one in.
@@ -614,11 +614,11 @@ And you're away! You should be able to see your DApp, browse to the same site as
 
 Once you have worked through the first tutorials and understood the basic steps to building a DApp and adding it into Status, it's time to get our hands a little more dirty by actually writing a simple, one-response chatbot that will begin to utilise the awesome power of the Status API.
 
-We kind of cheated a little in the previous tutorials. While it is totally possible to have your html5 DApp work perfectly in Status via `webView`, it's obviously not the most optimal way to do things. There are essentailly two different ways for developers to interact with Status, best illustrated by the Status Anatomy below:
+We kind of cheated a little in the previous tutorials. While it is totally possible to have your HTML5 DApp work perfectly in Status via `webView`, it's obviously not the most optimal way to do things. There are essentially two different ways for developers to interact with Status, best illustrated by the Status Anatomy below:
 
 ![status-anatomy.png](images/status-anatomy.png)
 
-The main take away here is that the chat context itself is actually an Otto VM jail that executes the javascript you write, and then integrates that directly with Status. So, we can actually write bots that are purely javascript-based. Please see [here](https://github.com/status-im/status-react/tree/develop/bots) for a full list of all our current bots and their source code.
+The main take away here is that the chat context itself is actually an Otto VM jail that executes the JavaScript you write, and then integrates that directly with Status. So, we can actually write bots that are purely JavaScript-based. Please see [here](https://github.com/status-im/status-react/tree/develop/bots) for a full list of all our current bots and their source code.
 
 
 ## My First Status Command
@@ -629,9 +629,9 @@ The main take away here is that the chat context itself is actually an Otto VM j
 
 ### Do It Yourself with `status-dev-cli`
 
-So, we have set up Status in `debug` mode, added our DApp to it (hopefully run the `status-dev-cli watch` command to get some live-reloading going) and learned how to start a conversation with a simple javascript chatbot. Now it's time to start using the API proper and start using the provided commands to interact with our users and help them out.
+So, we have set up Status in `debug` mode, added our DApp to it (hopefully run the `status-dev-cli watch` command to get some live-reloading going) and learned how to start a conversation with a simple JavaScript chatbot. Now it's time to start using the API proper and start using the provided commands to interact with our users and help them out.
 
-Navigate back to your `bots` directory and open the `bot.js` file where we put the `status.addListener` function in the previous tutorials. We will again pass this fils in as a `bot-url` parameter to `status-dev-cli`, which will then execute the code in an Otto VM jail.
+Navigate back to your `bots` directory and open the `bot.js` file where we put the `status.addListener` function in the previous tutorials. We will again pass this file in as a `bot-url` parameter to `status-dev-cli`, which will then execute the code in an Otto VM jail.
 
 ```shell
 cd ~/my-dapp/bots/ && nano bot.js
@@ -664,11 +664,11 @@ status.command({
  });
 ```
 
-We then set a color for the command to appear in set up our preview function. You can read about exactly what the preview function can achieve in the formal API specififcation but, in a nutshell, the preview defines what the user will see returned in the markup - i.e. where the messages appear.
+We then set a color for the command to appear in set up our preview function. You can read about exactly what the preview function can achieve in the formal API specification but, in a nutshell, the preview defines what the user will see returned in the markup - i.e. where the messages appear.
 
-Here, we are creating a simple text response by setting up a variable that we pass to `status.components.text`, which the perceptive will notice is a React Native component - a whole bunch more of which are available and detailed in the formal specification. Beneath the text, we are creating a standard response of "Hello from the other side!", all of which will be returned as json to the markup. Note again the use of another React Native component - `status.components.view`.
+Here, we are creating a simple text response by setting up a variable that we pass to `status.components.text`, which the perceptive will notice is a React Native component - a whole bunch more of which are available and detailed in the formal specification. Beneath the text, we are creating a standard response of "Hello from the other side!", all of which will be returned as JSON to the markup. Note again the use of another React Native component - `status.components.view`.
 
-Go ahead and serve your dapp again:
+Go ahead and serve your DApp again:
 
 ```shell
 http-server
@@ -678,7 +678,7 @@ status-dev-cli list --ip <DEVICE-IP>
 status-dev-cli watch $PWD "<whisper-identity>" --ip <DEVICE-IP>
 ```
 
-And there you go - we are now capable of greeting and interacting with our bot in two ways! You should be able to see your DApp, navigate to it, tap the new `/hello` command you see above the text input field and see your new Dapp respond.
+And there you go - we are now capable of greeting and interacting with our bot in two ways! You should be able to see your DApp, navigate to it, tap the new `/hello` command you see above the text input field and see your new DApp respond.
 
 {{% /tab %}}
 
@@ -689,7 +689,7 @@ And there you go - we are now capable of greeting and interacting with our bot i
 ```shell
 cd ~/embark_demo/app/js/bot.js && nano bot.js
 ```
-Here, we are going to create a simple text response by setting up a variable that we pass to `status.components.text`, which the perceptive will notice is a React Native component - a whole bunch more of which are available and detailed in the formal specification. Beneath the text, we are creating a standard response of "Hello from the other side!", all of which will be returned as json to the markup. Note again the use of another React Native component - `status.components.view`.
+Here, we are going to create a simple text response by setting up a variable that we pass to `status.components.text`, which the perceptive will notice is a React Native component - a whole bunch more of which are available and detailed in the formal specification. Beneath the text, we are creating a standard response of "Hello from the other side!", all of which will be returned as JSON to the markup. Note again the use of another React Native component - `status.components.view`.
 
 ```js
 status.command({
@@ -726,7 +726,7 @@ status-dev-cli list --ip <DEVICE-IP>
 status-dev-cli watch $PWD "<whisper-identity>" --ip
 ```
 
-And there you go - we are now capable of greeting and interacting with our bot in two ways! You should be able to see your DApp, navigate to it, tap the new `/hello` command you see above the text input field and see your new Dapp respond.
+And there you go - we are now capable of greeting and interacting with our bot in two ways! You should be able to see your DApp, navigate to it, tap the new `/hello` command you see above the text input field and see your new DApp respond.
 
 {{% /tab %}}
 
@@ -873,7 +873,7 @@ function helloSuggestions() {
 
 The main point of this example is that your `suggestions` parameter should accept users’ input, and then return a component to be rendered.
 
-We have already added this contact to Status, so let's se if we can set up our environment to do some live reloading so that we don't have to revert to the cli every time we want to change something in the process of building all the new things.
+We have already added this contact to Status, so let's see if we can set up our environment to do some live reloading so that we don't have to revert to the cli every time we want to change something in the process of building all the new things.
 
 ```shell
 http-server
@@ -961,7 +961,7 @@ Currently they are only available to 1-1 chat with bots. At some stage in the fu
 
 ### How can I set the text input value?
 
-You can use `status.components.dispatch` in tandem with the `SET_VALUE` object. For instance, if you wanted to sugeest a url, you would do the following: `status.components.dispatch([status.events.SET_VALUE, "@browse url"])}`. A more complete example is also given alongside.
+You can use `status.components.dispatch` in tandem with the `SET_VALUE` object. For instance, if you wanted to suggest a url, you would do the following: `status.components.dispatch([status.events.SET_VALUE, "@browse url"])}`. A more complete example is also given alongside.
 
 ```javascript
 return {markup: status.components.touchable(
@@ -977,7 +977,7 @@ return {markup: status.components.touchable(
 
 ### How can I send a command a display result back?
 
-This one is fairly self-explanantory, and just reuses code from the above tutorials in a slightly different pattern.
+This one is fairly self-explanatory, and just reuses code from the above tutorials in a slightly different pattern.
 
 ```javascript
 status.command({
@@ -1004,7 +1004,7 @@ status.command({
 });
 ```
 
-### Can I send a message asynchrounously after a request has been sent?
+### Can I send a message asynchronously after a request has been sent?
 
 Use the latest nightlies and `status.sendMessage` will now be available.
 
@@ -1068,7 +1068,7 @@ status.addListener("on-message-send", function (params, context) {
 });
 ```
 
-### Can I interract with `web3` object?
+### Can I interact with `web3` object?
 
 Yes! The snippet provided showcases both `localStrage` and the `web3` object operating in tandem.
 

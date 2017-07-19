@@ -610,7 +610,7 @@ web3.eth.defaultBlock = 231;
     // or async
     web3.eth.getSyncing(callback(error, result){ ... })
 
-This property is read only and returns the either a sync object, when the node is syncing or `false`.
+This property is read only and returns either a sync object, when the node is syncing, or `false`.
 
 ###  Returns
 
@@ -636,7 +636,7 @@ console.log(sync);
 
     web3.eth.isSyncing(callback);
 
-This convenience function calls the `callback` everytime a sync starts, updates and stops.
+This convenience function calls the `callback` everytime a sync starts, updates or stops.
 
 ###  Returns
 
@@ -681,7 +681,7 @@ web3.eth.isSyncing(function(error, sync){
     // or async
     web3.eth.getCoinbase(callback(error, result){ ... })
 
-This property is read only and returns the coinbase address were the mining rewards go to.
+This property is read only and returns the coinbase address where the mining rewards go to.
 
 ###  Returns
 

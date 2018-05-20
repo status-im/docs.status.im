@@ -23,4 +23,4 @@ OK, but what if `(a)` I don't have a DApp but want to learn how to build one on 
 
 # Examples
 
-At Status, we eat our own dogfood! All commands within Status are written with our API, take a look at the [status-react/bots](https://github.com/status-im/status-react/tree/develop/bots) directory for examples.
+At Status, we eat our own dogfood! All commands within Status are written with our API, take a look at the [status-react/resources/js/bots](https://github.com/status-im/status-react/tree/develop/resources/js/bots) directory for examples.

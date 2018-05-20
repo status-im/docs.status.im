@@ -5,7 +5,7 @@ title: Status API Reference
 
 # status (API)
 
-https://github.com/status-im/status-react/blob/develop/resources/status.js#L160
+https://github.com/status-im/status-react/blob/develop/resources/js/status.js
 
 ## status
 
@@ -165,7 +165,7 @@ status.response({
 
 Now that you’ve covered all the parameters for `status.command()`, you can easily understand `status.response()`. This method takes the same parameters that `status.command()` does. The difference is that, with this method, you can actively ask a user to issue a command of their own.
 
-For example, the Status DApp Wallet allows you to `/request` money. In that case, the person you’re requesting money from will see the result of `status.response(send)`. In other words, they’ll be asked to give a command, `/send`, in response to your `/request` command. Please check line 77-158 [here](https://github.com/status-im/status-react/blob/30596f743f0a6ac0b7aec575cc1483dd306cc1ef/bots/wallet/bot.js#L77) for more code.
+For example, the Status DApp Wallet allows you to `/request` money. In that case, the person you’re requesting money from will see the result of `status.response(send)`. In other words, they’ll be asked to give a command, `/send`, in response to your `/request` command. Please check line 160-217 [here](https://github.com/status-im/status-react/blob/30596f743f0a6ac0b7aec575cc1483dd306cc1ef/bots/wallet/bot.js#L160) for more code.
 
 The Wallet example illustrates that, as a DApp developer, you may wish to use `status.command()` and `status.response()` together to create dialogues of commands. You can also just use `status.response()` by itself to prompt your users to enter necessary information as part of the onboarding process for your DApp.
 
@@ -225,7 +225,7 @@ status.addListener("on-message-send",
 
 Listener |  Description
 -------------------------- |  -----------
-on-message-input-change | This is analogous to a `text-change` event, except that it targets the chat’s input. You can find the jsSuggestions that are passed in in the example [here](https://github.com/status-im/status-react/blob/develop/bots/console/bot.js#L312).
+on-message-input-change | This is analogous to a `text-change` event, except that it targets the chat’s input. You can find the jsSuggestions that are passed in in the example [here](https://github.com/status-im/status-react/blob/2862af86c960b481ddf64ec1713e14908a366616/bots/console/bot.js#L708).
 init | Is called once, when a new session begins ("session" is currently taken to mean the interval between login and logout from a user's account). In the example provided the bot will just send the "Hey, man!" message to the user, but it could also it could return `markup` which will be shown in the suggestions area, etc.
 on-message-send | Will be called when any (not command) message is sent. The example provided shows you how to send ether to yourself as a neat way of testing the functionality.
 
@@ -322,7 +322,7 @@ var phoneConfig = {
     }]
 };
 ```
-Defining `phone` will result in the keyboard opening to it's number section as well. One example should suffice to give you a general idea of how this works, so we have provided an excerpt of how we do phone cofirmation using the `PHONE` type. You can find the full code [here](https://github.com/status-im/status-react/blob/develop/bots/console/bot.js#L450)
+Defining `phone` will result in the keyboard opening to it's number section as well. One example should suffice to give you a general idea of how this works, so we have provided an excerpt of how we do phone cofirmation using the `PHONE` type. You can find the full code [here](https://github.com/status-im/status-react/blob/30596f743f0a6ac0b7aec575cc1483dd306cc1ef/bots/console/bot.js#L450)
 
 ## status.types.PASSWORD
 
@@ -513,7 +513,7 @@ validator: function (params, context) {
 }
 ```
 
-This is the only custom Status component and it takes just two strings, and will return them wrapped in text components inside a view. You can find the full example [here](https://github.com/status-im/status-react/blob/develop/bots/console/bot.js#L550).
+This is the only custom Status component and it takes just two strings, and will return them wrapped in text components inside a view. You can find the full example [here](https://github.com/status-im/status-react/blob/2862af86c960b481ddf64ec1713e14908a366616/bots/console/bot.js#L550).
 
 ## status.components.bridgedWebview
 
@@ -599,7 +599,7 @@ function superSuggestion(params, context) {
 };
 ```
 
-It is easiest to show you an example of these two methods at work in our [demo-bot](https://github.com/status-im/status-react/blob/develop/bots/demo_bot/bot.js#L31) within a superSuggestions object we have created.
+It is easiest to show you an example of these two methods at work in our [demo-bot](https://github.com/status-im/status-react/blob/2862af86c960b481ddf64ec1713e14908a366616/bots/demo_bot/bot.js#L31) within a superSuggestions object we have created.
 
 `status.setDefaultDb` is a method that can be used to add default values to bot-db. These values will be applied to app-db only when markup is rendered the first time. For instance, on each change in command input suggestions handler for particular command's parameter is called, and this handler returns some markup. If markup wasn't changed between calls values passed to setDefaultDb will not be applied to bot-db
 
@@ -607,7 +607,7 @@ It is easiest to show you an example of these two methods at work in our [demo-b
 
 ## status.sendMessage
 
-This has just been implemented in the latest nightlies! Go and grab one of those and you'll have access to this route, as demonstrated by our updated [demo bot](https://github.com/status-im/status-react/blob/develop/bots/demo_bot/bot.js#L106). The snippet provided also reveals how to work with the javascript concept of `localStorage`.
+This has just been implemented in the latest nightlies! Go and grab one of those and you'll have access to this route, as demonstrated by our updated [demo bot](https://github.com/status-im/status-react/blob/883b702fcba7d94b93828ccfaa6d6053100fe52d/resources/js/bots/demo_bot/bot.js#L102). The snippet provided also reveals how to work with the javascript concept of `localStorage`.
 
 ```js
 status.addListener("on-message-send", function (params, context) {

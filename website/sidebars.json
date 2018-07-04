@@ -2,7 +2,7 @@
   "docs": {
     "Introduction": ["introduction", "faqs"],
     "Build DApps": ["intro_dapps", "embark", "dapp_curation"],
-    "Build Status": ["build_status_osx", "build_status_linux"],
+    "Build Status": ["build_status_macos", "build_status_linux"],
     "Status Desktop": ["intro_desktop"],
     "Research": ["intro_research", "nimbus"],
     "SNT Use Cases": ["tribute_to_talk", "ens_usernames", "mail_server_incentives"],

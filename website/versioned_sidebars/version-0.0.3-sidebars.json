@@ -1,0 +1,56 @@
+{
+  "version-0.0.3-docs": {
+    "Introduction": [
+      "version-0.0.3-introduction",
+      "version-0.0.3-faqs"
+    ],
+    "Build DApps": [
+      "version-0.0.3-intro_dapps",
+      "version-0.0.3-embark",
+      "version-0.0.3-dapp_curation"
+    ],
+    "Build Status": [
+      "version-0.0.3-build_status_macos",
+      "version-0.0.3-build_status_linux"
+    ],
+    "Status Desktop": [
+      "version-0.0.3-intro_desktop"
+    ],
+    "Research": [
+      "version-0.0.3-intro_research",
+      "version-0.0.3-nimbus"
+    ],
+    "SNT Use Cases": [
+      "version-0.0.3-tribute_to_talk",
+      "version-0.0.3-ens_usernames",
+      "version-0.0.3-mail_server_incentives"
+    ],
+    "Status Open Bounty": [
+      "version-0.0.3-intro_openbounty",
+      "version-0.0.3-faq_openbounty",
+      "version-0.0.3-status_uses_openbounty",
+      "version-0.0.3-testing_openbounty",
+      "version-0.0.3-payout_flow_openbounty"
+    ],
+    "Architecture": [
+      "version-0.0.3-status_react_structure",
+      "version-0.0.3-send_transaction_flow"
+    ]
+  },
+  "version-0.0.3-testing": {
+    "Testing": [
+      "version-0.0.3-testing",
+      "version-0.0.3-report_a_bug"
+    ]
+  },
+  "version-0.0.3-whisper": {
+    "Whisper": [
+      "version-0.0.3-intro_whisper"
+    ]
+  },
+  "version-0.0.3-userguide": {
+    "User Guide": [
+      "version-0.0.3-userguide"
+    ]
+  }
+}

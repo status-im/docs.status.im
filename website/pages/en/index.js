@@ -75,7 +75,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
           <Button href={docUrl('intro_dapps.html', language)}>Build DApps</Button>
             <Button href={docUrl('introduction.html', language)}>Introduction</Button>
-            <Button href={docUrl('build_status_osx.html', language)}>Build Status</Button>
+            <Button href={docUrl('build_status_macos.html', language)}>Build Status</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -105,7 +105,7 @@ const Features = props => (
         content: 'Build the future of a new web',
         image: imgUrl('status_logo_blue.svg'),
         imageAlign: 'top',
-        title: '[Status](build_status_osx.md)',
+        title: '[Status](build_status_macos.md)',
       },
       {
         content: 'Learn what web3 is really all about',

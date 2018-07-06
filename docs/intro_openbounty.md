@@ -79,7 +79,7 @@ You’ve now issued your first bounty - congratulations!
 
 You can also easily revoke bounties by navigating to the "Manage bounties" page, scrolling down to "Unclaimed bounties", clicking the 3 dots in the bottom right of the issue you're wanting to claim your funds back from and selecting "Revoke". 
 
-You'll be prompted after a time to confirm the refund via Metamask. Be sure to make sure you have set a high enough gas price to get your funds back quickly!
+You'll be prompted after a time to confirm the refund via Metamask. Be sure to set a high enough gas price to get your funds back quickly! It never hurts to check [Eth Gas Station](https://ethgasstation.info/).
 
 Obviously, it is not possible to revoke a bounty once a PR fixing the issue has been merged.
 

@@ -1,7 +1,7 @@
 {
   "docs": {
     "Introduction": ["introduction", "faqs"],
-    "Build Status": ["build_status_osx", "build_status_linux", "contributing"],
+    "Build Status": ["build_status", "contributing"],
     "Build DApps": ["intro_dapps", "embark", "dapp_curation"]
   }
 }

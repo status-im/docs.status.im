@@ -1,6 +1,8 @@
 /public
 
+/.idea
 .DS_Store
+*.iml
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js

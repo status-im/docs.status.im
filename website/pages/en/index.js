@@ -73,9 +73,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-          <Button href={docUrl('intro_dapps.html', language)}>Build DApps</Button>
-            <Button href={docUrl('introduction.html', language)}>Introduction</Button>
             <Button href={docUrl('build_status_osx.html', language)}>Build Status</Button>
+            <Button href={docUrl('introduction.html', language)}>Learn more</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -145,15 +144,6 @@ const LearnHow = props => (
   </Block>
 );
 
-const StatusHero = props => (
-  <div
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
-    <h2>Building a Better Web</h2>
-    <MarkdownBlock>Come and explore the far reaches of decentralised technologies with us, so we can build together the kind of world we all want to live in.</MarkdownBlock>
-  </div>
-);
-
 const TryOut = props => (
   <Block id="try" background="light">
     {[
@@ -173,49 +163,6 @@ const TryOut = props => (
   </Block>
 );
 
-const Description = props => (
-  <Block background="dark">
-    {[
-      {
-        content: 'Every time you cried out in anguish over an incomprehensible error; every time you lay awake at night, sobbing over a gas fee induced heisenbug; some secret part of you has known that there has to be a better way. The Status Technikon has the material you need to be united forevermore with the delights of decentralisation.',
-        image: imgUrl('browse_icon.png'),
-        imageAlign: 'right',
-        title: 'Welcome to #TheStateOfUs',
-      },
-    ]}
-  </Block>
-);
-
-const Showcase = props => {
-  if ((siteConfig.users || []).length === 0) {
-    return null;
-  }
-  const showcase = siteConfig.users
-    .filter(user => {
-      return user.pinned;
-    })
-    .map((user, i) => {
-      return (
-        <a href={user.infoLink} key={i}>
-          <img src={user.image} alt={user.caption} title={user.caption} />
-        </a>
-      );
-    });
-
-  return (
-    <div className="productShowcaseSection paddingBottom">
-      <h2>{"Optimised For Status"}</h2>
-      <p>These awesome DApps all work well in Status</p>
-      <div className="logos">{showcase}</div>
-      <div className="more-users">
-        <a className="button" href={pageUrl('users.html', props.language)}>
-          More {siteConfig.title} Users
-        </a>
-      </div>
-    </div>
-  );
-};
-
 class Index extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -225,12 +172,8 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <DAppsHero />
           <LearnHow />
-          <StatusHero />
           <TryOut />
-          <Description />
-          <Showcase language={language} />
         </div>
       </div>
     );

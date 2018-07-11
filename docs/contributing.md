@@ -1,6 +1,6 @@
 ---
 id: userguide
-title: Contributing to Status
+title: Contribute to Status
 ---
 
 __TODO__ General contributing instructions.

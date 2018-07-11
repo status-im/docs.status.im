@@ -39,6 +39,24 @@ nav.toc .toggleNav ul li a {
     flex: none;
 }
 
+.button {
+    display: block;
+    font-family: "PostGrotesk-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 24px;
+    padding: 10px 32px 9px;
+    border-radius: 22px;
+    background-color: rgb(74, 90, 181);
+}
+
+.button:hover {
+    background-color: rgba(74, 90, 181, 0.8);
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

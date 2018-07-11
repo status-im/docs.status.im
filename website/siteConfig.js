@@ -15,7 +15,7 @@ const users = [
 
 const siteConfig = {
   title: 'Status Technikon',
-  tagline: 'Decentralised technologies at your fingertips',
+  tagline: 'Build the future of a new web',
   url: 'https://status.im',
   baseUrl: '/',
   projectName: 'docs.status.im',
@@ -23,13 +23,16 @@ const siteConfig = {
   users,
   editUrl: 'https://github.com/status-im/docs.status.im/edit/develop/docs/',
   headerLinks: [
-    {doc: 'introduction', label: 'Docs'},
-    {href: 'https://ideas.status.im', label: 'Ideas'},
-    {doc: 'testing', label: 'Testing'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
-    {languages: false}
+    { search: true },
+    {href: 'https://blog.status.im', label: 'Blog'},
+    {href: 'https://chat.status.im/#/register', label: 'Riot'},
+    {href: 'https://github.com/status-im/', label: 'GitHub'}
   ],
+  algolia: {
+    apiKey: '78347ae6233a1a7d26038d8f024cfc33',
+    indexName: 'status',
+    algoliaOptions: {} 
+  },
   headerIcon: 'img/logo_white.png',
   footerIcon: 'img/logo_white.png',
   favicon: 'img/favicon.png',

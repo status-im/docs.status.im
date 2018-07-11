@@ -1,5 +1,5 @@
 ---
-id: userguide
+id: contributing
 title: Contribute to Status
 ---
 

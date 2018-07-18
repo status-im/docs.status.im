@@ -37,7 +37,7 @@ This script prepares and installs the following:
 * Maven
 * Cocoapods
 
-*Note 1:* it can up to 20 minutes depending on your machine and internet connection speed.
+*Note 1:* it can take up to 20 minutes depending on your machine and internet connection speed.
 
 *Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew. 
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen. 

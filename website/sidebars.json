@@ -3,5 +3,8 @@
     "Introduction": ["introduction", "faqs"],
     "Build Status": ["build_status", "contributor_guide"],
     "Build DApps": ["embark", "status_optimized", "status_web_api"]
+  },
+  "testing": {
+    "Testing": ["testing", "report_a_bug"]
   }
 }

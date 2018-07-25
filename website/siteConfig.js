@@ -26,6 +26,7 @@ const siteConfig = {
     { search: true },
     {href: 'https://blog.status.im', label: 'Blog'},
     {href: 'https://chat.status.im/#/register', label: 'Riot'},
+    {doc: 'testing', label: 'Test Status'},
     {href: 'https://github.com/status-im/', label: 'GitHub'}
   ],
   algolia: {

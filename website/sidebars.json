@@ -2,6 +2,6 @@
   "docs": {
     "Introduction": ["introduction", "faqs"],
     "Build Status": ["build_status", "contributor_guide"],
-    "Build DApps": ["embark", "status_optimized"]
+    "Build DApps": ["embark", "status_optimized", "status_web_api"]
   }
 }

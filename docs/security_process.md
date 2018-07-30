@@ -38,9 +38,9 @@ Security champion works with the security community.
 
 ## Security Champions
 
-DApps: TBD
+DApps: Andrey Shovkoplyas (Slack: `@andrey`)
 
-Wallet: TBD
+Wallet: Goran Jovic (Slack: `@goranjovic`)
 
 
 ## Informaton & Education

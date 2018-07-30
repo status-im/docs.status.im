@@ -5,11 +5,12 @@ title: Quick Start
 
 ## The easiest way
 
-### 1. Clone the repository
+### 1. Clone the repository and prepare sources for Mobile build
 
 ```shell
 git clone https://github.com/status-im/status-react
 cd status-react
+scripts/prepare-for-platform.sh mobile
 ```
 
 ### 2. Install the dependencies

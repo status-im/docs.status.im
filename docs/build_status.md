@@ -30,7 +30,7 @@ This script prepares and installs the following:
 * Homebrew
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
-* Node.js and Yarn (see note below)
+* Node.js (see note below)
 * React Native CLI and Watchman
 * Android SDK 
 * Android NDK r10e (under `~/Android/Sdk/`)
@@ -49,13 +49,17 @@ After you installed all the dependencies, you need to run two processes — the 
 
 ### 1. Build process
 
-Just run this command in the first terminal window:
+Just run **one of these commands** in the first terminal window:
 
 ```shell
-clj -R:repl build.clj figwheel --platform ios,android --ios-device simulator --android-device genymotion --nrepl-port 3456
+make startdev-ios-simulator
+make startdev-ios-real
+make startdev-android-avd
+make startdev-android-genymotion
+make startdev-android-real
 ```
 
-This command starts the compilation of ClojureScript sources and runs re-frisk (a tool for debugging).
+By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging).
 
 For additional information check the following:
 * [clj-rn](https://github.com/status-im/clj-rn);
@@ -111,7 +115,7 @@ Check the following docs if you still have problems:
 
 ## Optional: Advanced build notes
 
-### Node.js and Yarn
+### Node.js
 
 There are several ways of installing Node.js on your machine. 
 One of the most convenient and easy is by using [Node Version Manager (nvm)](https://github.com/creationix/nvm). However, our setup script installs `node` from Homebrew if `nvm` is not installed on your machine.

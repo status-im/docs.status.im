@@ -11,9 +11,8 @@ When [Status is the host browser](https://docs.status.im/docs/status_optimized.h
 
 To make requests to the Status JavaScript API, send a message using the `window.postMessage` API. This message must be sent with a payload object containing a type property with a value of `'STATUS_API_REQUEST'` and a `permissions` property for the requested permissions, e.g. `“CONTACT_CODE”`.
 
-Status will notify the DApp of successful API exposure by returning a message via the `window.postMessage` API. This message will contain a payload object with a type property value of `'STATUS_API_SUCCESS'` as well as a property for granted permissions, e.g. `“CONTACT_CODE”`.
+Status will notify the DApp of successful API exposure by dispatching an event on `window` object. This event will contain a `detail` object with allowed `permissions` and `data` properties.
 
-Status will expose a JavaScript API as a global `STATUS_API` variable on the `window` object.
 
 #### JavaScript API properties
 
@@ -22,12 +21,9 @@ Status will expose a JavaScript API as a global `STATUS_API` variable on the `wi
 #### Example implementation
 
 ```JavaScript
-window.addEventListener('message', function (event) {
-    if (!event.data || !event.data.type) { return; }
-    if (event.data.type === 'STATUS_API_SUCCESS') {
-        console.log(event.data.permissions) //=> ["CONTACT_CODE"] if allowed , and [] if not allowed
-        console.log(STATUS_API["CONTACT_CODE"]) //=> "0x0012300..123" if allowed
-    }
+window.addEventListener('statusapi', function (event) {
+    console.log(event.detail.permissions) //=> ["CONTACT_CODE"] if allowed 
+    console.log(event.detail.data["CONTACT_CODE"]) //=> "0x0012300..123" if allowed
 });
 // request status API
 window.postMessage({ type: 'STATUS_API_REQUEST', permissions: ["CONTACT_CODE"] }, '*');

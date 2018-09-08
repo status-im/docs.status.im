@@ -80,7 +80,7 @@ Our preview definition:
 ```clojure
 {views/preview
  (let [{{{symbol :symbol token :token tx-hash :tx-hash} :params} :content outgoing :outgoing timestamp-str :timestamp-str} properties
-        collectible-token [get-collectible-token {:symbol symbol :token token}]
+        collectible-token [get-collectible-token {:symbol symbol :token token}]]
     [view {:flex-direction :column
            :align-items    :flex-start}
     [status/nft-token collectible-token]
@@ -163,7 +163,7 @@ You can now use your new extension from within a 1-1 chat.
 
  views/preview
  (let [{{{symbol :symbol token :token tx-hash :tx-hash} :params} :content outgoing :outgoing timestamp-str :timestamp-str} properties
-        collectible-token [get-collectible-token {:symbol symbol :token token}]
+        collectible-token [get-collectible-token {:symbol symbol :token token}]]
     [view {:flex-direction :column
            :align-items    :flex-start}
     [status/nft-token collectible-token]

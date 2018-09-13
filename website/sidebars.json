@@ -1,7 +1,8 @@
 {
   "docs": {
     "Introduction": ["introduction", "faqs"],
-    "Build Status": ["build_status", "contributor_guide"],
+    "Build Status Mobile": ["build_status", "contributor_guide"],
+    "Build Status Desktop": ["build_desktop", "build_desktop_troubleshooting", "build_desktop_google_breakpad", "build_desktop_jenkins"],
     "Build DApps": ["embark", "intro_dapps", "status_optimized", "status_web_api", "extensions_tutorial_chat_command"]
   },
   "testing": {

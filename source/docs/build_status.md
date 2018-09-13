@@ -14,10 +14,10 @@ cd status-react
 
 ### 2. Install the dependencies
 
-We created a special script that installs everything Status needs. However, this script works only 
+We created a special script that installs everything Status needs. However, this script works only
 for macOS and Ubuntu Linux. If you use another Linux distribution, please, install all dependencies manually (you can find the list below).
 
-It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script. 
+It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script.
 The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
 
 Just run this to install all dependencies:
@@ -32,15 +32,15 @@ This script prepares and installs the following:
 * Clojure and Leiningen
 * Node.js (see note below)
 * React Native CLI and Watchman
-* Android SDK 
+* Android SDK
 * Android NDK r10e (under `~/Android/Sdk/`)
 * Maven
 * Cocoapods
 
 *Note 1:* it can take up to 20 minutes depending on your machine and internet connection speed.
 
-*Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew. 
-If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen. 
+*Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew.
+If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
 Type `npm version` and make sure you don't use Node.js v10 because it's not supported by Realm.js (see **Troubleshooting** section for additional details).
 
 ## Running development processes
@@ -83,7 +83,7 @@ Just execute
 react-native run-ios
 ```
 
-If you wish to specify the simulator, just run `react-native run-ios --simulator="iPhone 7"`. 
+If you wish to specify the simulator, just run `react-native run-ios --simulator="iPhone 7"`.
 You can check your available devices by running `xcrun simctl list devices` from the console.
 
 You can also start XCode and run the application there. Execute `open ios/StatusIm.xcworkspace`, select a device/simulator and click **Run**.
@@ -94,7 +94,7 @@ You can also start XCode and run the application there. Execute `open ios/Status
 
 Installation script installs Android NDK, but you still need to install Android SDK manually to build and run Status on Android.
 
-The easiest way to do this is to install Android Studio — it will install almost everything for you. 
+The easiest way to do this is to install Android Studio — it will install almost everything for you.
 There is a difficult way for those who don't want/need Android Studio.
 
 In this case you have to do the following:
@@ -117,7 +117,7 @@ Check the following docs if you still have problems:
 
 ### Node.js
 
-There are several ways of installing Node.js on your machine. 
+There are several ways of installing Node.js on your machine.
 One of the most convenient and easy is by using [Node Version Manager (nvm)](https://github.com/creationix/nvm). However, our setup script installs `node` from Homebrew if `nvm` is not installed on your machine.
 
 That's why we suggest to install `nvm` first if you want to have more flexible development environment.

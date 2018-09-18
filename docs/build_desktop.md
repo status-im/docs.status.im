@@ -10,6 +10,7 @@ title: Build Desktop
 lein, node.js v.8, cmake, Qt 5.9.1 (with QtWebEngine components installed), Qt's qmake available in PATH. If building on Ubuntu newer than 16.10, then Qt 5.10.1 is recommended (although not fully tested).
 
 Qt 5.9.1 for Linux is available here: https://download.qt.io/archive/qt/5.9/5.9.1/qt-opensource-linux-x64-5.9.1.run
+
 Note: add qmake to PATH via
 
 - On MacOS: `export PATH=<QT_PATH>/clang_64/bin:$PATH`

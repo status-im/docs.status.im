@@ -4,9 +4,9 @@
             <a href="{{ url_for_lang('') }}" id="logo"></a>
         </h1>
         <nav id="main-nav">
-            <a href="/docs/build_status.html" class="main-nav-link">Build Status</a>
-            <a href="/tutorials/" class="main-nav-link">Tutorials</a>
-            <a href="/extensions/" class="main-nav-link">Extensions</a>
+            <a href="/docs.status.im/docs/build_status.html" class="main-nav-link">Build Status</a>
+            <a href="/docs.status.im/tutorials/" class="main-nav-link">Tutorials</a>
+            <a href="/docs.status.im/extensions/" class="main-nav-link">Extensions</a>
         </nav>
 
         <div class="secondary-nav">

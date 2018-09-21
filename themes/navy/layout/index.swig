@@ -6,9 +6,9 @@
             </div>
 
             <ul class="main-nav">
-                <li><a href="/docs/build_status.html">Build Status</a></li>
-                <li><a href="/tutorials/">Tutorials</a></li>
-                <li><a href="/extensions/">Extensions</a></li>
+                <li><a href="/docs.status.im/docs/build_status.html">Build Status</a></li>
+                <li><a href="/docs.status.im/tutorials/">Tutorials</a></li>
+                <li><a href="/docs.status.im/extensions/">Extensions</a></li>
             </ul>
         </div>
 
@@ -29,8 +29,8 @@
         <h1>Build A Better Web</h1>
         <p>Begin your journey to a more equitable and secure internet here.</p>
         <div class="intro-buttons">
-            <a class="button button--main" href="/tutorials/extensions_tutorial_chat_command.html">Extend Your DApp</a>
-            <a class="button button--secondary" href="/docs/build_status.html">Build Status</a>
+            <a class="button button--main" href="/docs.status.im/tutorials/extensions_tutorial_chat_command.html">Extend Your DApp</a>
+            <a class="button button--secondary" href="/docs.status.im/docs/build_status.html">Build Status</a>
         </div>
     </div>
 
@@ -57,7 +57,7 @@
                         </p>
                     </div>
                     <div class="features-button-wrap">
-                        <a class="button button--features button--light" href="/tutorials/extensions_tutorial_chat_command.html" >Tutorials</a>
+                        <a class="button button--features button--light" href="/docs.status.im/tutorials/extensions_tutorial_chat_command.html" >Tutorials</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                         </p>
                     </div>
                     <div class="features-button-wrap">
-                        <a class="button button--features button--light" href="/docs/build_status.html">Buidl Status</a>
+                        <a class="button button--features button--light" href="/docs.status.im/docs/build_status.html">Buidl Status</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                         </p>
                     </div>
                     <div class="features-button-wrap">
-                        <a class="button button--features button--light" href="/docs/nimbus.html">Technical specs</a>
+                        <a class="button button--features button--light" href="/docs.status.im/docs/nimbus.html">Technical specs</a>
                     </div>
                 </div>
             </div>

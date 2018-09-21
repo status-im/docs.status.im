@@ -1,6 +1,6 @@
 - name: How to extend your DApp via chat in Status
   description: Send collectibles directly in chat
-  link: /tutorials/extensions_tutorial_chat_command.html
+  link: /docs.status.im/tutorials/extensions_tutorial_chat_command.html
   tags:
     - extensions
     - chat

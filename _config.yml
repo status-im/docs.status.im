@@ -5,8 +5,8 @@ author: Status
 language: en
 timezone: UTC
 
-url: https://status.im
-root: /
+url: https://andytudhope.github.io
+root: /docs.status.im/
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
 code_dir: downloads/code

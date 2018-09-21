@@ -1,0 +1,47 @@
+// Fonts
+@font-face {
+  font-family: "Post Grotesk Medium";
+  src: url("/fonts/PostGrotesk-Medium.ttf") format("ttf"),
+          url("/fonts/PostGrotesk-Medium.woff") format("woff"),
+          url("/fonts/PostGrotesk-Medium.eot") format("eot");
+}
+@font-face {
+  font-family: "Post Grotesk Book";
+  src: url("/fonts/PostGrotesk-Book.ttf") format("ttf"),
+          url("/fonts/PostGrotesk-Book.woff") format("woff"),
+          url("/fonts/PostGrotesk-Book.eot") format("eot");
+}
+
+// Config
+support-for-ie = false
+vendor-prefixes = webkit moz ms official
+
+// Colors
+color-default = #40444b
+color-title = #000
+color-gray = #777F86
+color-border = #e3e3e3
+color-navy = #363763
+color-background = #F2F2F5
+color-background-light = #fff
+color-main-link = #fff
+color-link = #7c7db6
+color-link-hover = lighten(color-link, 10%)
+
+// Typography
+font-sans = "Post Grotesk Book", "Helvetica Neue", Helvetica, Arial, sans-serif
+font-mono = "Source Code Pro", Monaco, Menlo, Consolas, monospace
+font-title = "Post Grotesk Medium", font-sans
+font-size = 16px
+line-height = 24px
+
+// Layout
+max-width = 1024px
+gutter-width = 20px
+sidebar-width = 220px
+mobile-nav-width = 260px
+
+// Media queries
+mq-mobile = "screen and (max-width: 819px)"
+mq-normal = "screen and (min-width: 820px)"
+mq-tablet = "screen and (min-width: 480px)"

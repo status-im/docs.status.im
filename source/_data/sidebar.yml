@@ -1,0 +1,49 @@
+docs:
+  use_status: 
+    who_we_are: introduction.html
+    user_guide: userguide.html
+    contributor_guide: contributor_guide.html
+    ens_usernames: ens_usernames.html
+    FAQs: FAQs.html
+  
+  build_status:
+    quick_start: build_status.html
+    build_status_go: build_status_go.html
+    status_react_structure: status_react_structure.html
+    send_transaction_flow: send_transaction_flow.html
+    
+  build_status_desktop: 
+    introduction_desktop: intro_desktop.html
+    building_desktop: build_desktop.html
+    troubleshooting: build_desktop_troubleshooting.html
+    using_breakpad: build_desktop_google_breakpad.html
+    jenkins_pipeline: build_desktop_jenkins.html
+
+  status_extensions:
+    add_your_dapp: add_your_dapp.html
+    js_api: status_web_api.html
+    http_debugging: http-debugging.html
+    manifesto: intro_dapps.html
+    extensions_spec: extensions_spec.html
+    embark: embark.html
+    optimised_for_status: status_optimized.html
+
+  research:
+    nimbus: nimbus.html
+
+  testing:
+    introduction_testing: testing.html
+    report_a_bug: report_a_bug.html
+
+  security:
+    security_champions: security_champions.html
+    security_existing_features: security_existing_features.html
+    security_experiment: security_experiment.html
+    security_process: security_process.html
+    security_threat_modeling: security_threat_modeling.html
+    security_github_labels: security_github_labels.html
+    security_sensitive_data: security_sensitive_data.html
+
+tutorials:
+  extensions:
+    your_first_chat_extension: extensions_tutorial_chat_command.html

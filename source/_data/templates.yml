@@ -1,0 +1,28 @@
+- name: Embark Vortex Template
+  description: A React Application showing what can be done with Vortex when using Embark.
+  link: https://github.com/Horyus/vortex-demo-embark/
+  tags:
+    - react
+
+- name: Solidity Gas Golfing Contest Template
+  description: Boilerplate and tests for the first Solidity Gas Golfing Contest
+  link: https://github.com/embark-framework/sggc
+  tags:
+    - solidity
+    - tests
+    - fun
+
+- name: Vyper Template
+  description: Template to demonstrate the use of the Vyper contracts
+  link: https://github.com/embark-framework/embark-vyper-template
+  tags:
+    - vyper
+    - contracts
+
+- name: Bamboo Template
+  description: Template to demonstrate use of the Bamboo contracts
+  link: https://github.com/embark-framework/embark-bamboo-template
+  tags:
+    - bamboo
+    - contracts
+

@@ -1,0 +1,65 @@
+menu:
+  docs: Docs
+  api: API
+  news: News
+  plugins: Plugins
+  themes: Themes
+  search: Search
+  chat: Chat
+  blog: Blog
+  tutorials: Tutorials
+
+index:
+  get_started: Get started
+
+page:
+  contents: Contents
+  back_to_top: Back to Top
+  improve: Improve this doc
+  prev: Prev
+  next: Next
+  last_updated: "Last updated: %s"
+
+sidebar:
+  docs:
+    use_status: Use Status
+    who_we_are: Who We Are
+    user_guide: User Guide 
+    contributor_guide: Contributor Guide
+    ens_usernames: ENS Usernames
+    FAQs: FAQs
+    build_status: Build Status
+    quick_start: Building Status
+    build_status_go: Building Status-Go
+    status_react_structure: Status-React Structure
+    send_transaction_flow: Send Transaction Flow
+    build_status_desktop: Build Status Desktop
+    introduction_desktop: Getting Started
+    building_desktop: Building Desktop
+    troubleshooting: Troubleshooting 
+    using_breakpad: Using Breakpad
+    jenkins_pipeline: Using Jenkins
+    status_extensions: Status Extensions
+    add_your_dapp: Add Your DApp to Status
+    js_api: JS API
+    http_debugging: Debugging
+    manifesto: Manifesto
+    extensions_spec: Extensions Technical Spec
+    embark: Embark
+    optimised_for_status: Optimised for Status
+    research: Research
+    nimbus: Nimbus
+    testing: Testing
+    introduction_testing: How We Test
+    report_a_bug: Report a Bug
+    security: Security
+    security_champions: Security Champions
+    security_existing_features: Existing Features
+    security_experiment: Security Experiment
+    security_process: Our Process
+    security_threat_modeling: Threat Modeling
+    security_github_labels: Github Labels
+    security_sensitive_data: Sensitive Data
+  tutorials:
+    extensions: Extensions
+    your_first_chat_extension: Your First Chat Extension

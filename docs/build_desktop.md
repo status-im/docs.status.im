@@ -56,6 +56,19 @@ npm install -g
 1. In separate terminal tab: `lein figwheel-repl desktop` (note: wait until sources are compiled)
 1. In separate terminal tab: `react-native run-desktop`
 
+## Cleanup data
+
+To completely clean up data from previous development sessions, such as accounts, you need to delete the following directories
+
+### On Linux
+
+First kill the ubuntu-server because it has a cache of realm db then
+```
+rm -rf ~/.local/share/StatusIm
+rm -rf ~/.cache/StatusIm
+rm -rf status-react/default.realm*
+```
+
 ## Editor setup
 
 Running `lein figwheel-repl desktop` will run a REPL on port 7888 by default. Some additional steps might be needed to connect to it.

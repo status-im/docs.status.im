@@ -7,14 +7,11 @@ title: How To Help With Testing
 
 | Summary                |	Detailed Explanation                                  |
 | -------------------- | ---------------------------------------------------------|
-| The app is unstable | If you are not ready to deal with unstable/crashing/weird and other typical traits of the untested app then you should probably avoid testing. |
-| Create backup of the device BEFORE testing | If you are ready to help with testing then make sure you have a recent backup of your device as there is no guarantee that next build will not introduce critical issues that cause complete device reset and data loss. |
-| Use 2 devices for testing | This is app with lot's of messaging functionality, so you need at least 2 devices to test it. Ideally, it's 2 real devices. Ok: 1 real and 1 emulator like Android emulator or Genymotion. |
-| Test on wifi | Current versions consume lots of traffic and battery, make sure you are using wifi for testing. |
+| It's best to use 2 devices for testing | This is app with lot's of messaging functionality, so you need at least 2 devices to fully test it. Ideally, it's 2 real devices. Ok: 1 real and 1 emulator like Android emulator or Genymotion. You can still use single device to test wallet and dapps. |
 | Do not send real ETH or SNT to the app | We test mostly on Testnets (Ropsten and Rinkeby). Test ether should be used to check transactions are working. We will never ask you to send real SNT or ETH for testing. |
 | Test all features in the nightly develop build | The most useful would be to check nightly develop build on Android. We expect that features merged in the develop build are stable enough and this build is free of obvious bugs. This is of course just an assumption and should be verified. There are end-to-end tests that cover some common scenarios. |
 
-If this sounds good, we test manually once in 2-3 days, so anyone who can find and report not-known issue is welcome to the club. 
+If this sounds good, we test manually once in 2-3 days, so anyone who can find and report not-known issue is welcome to the club.
 
 Each European night there is a new nightly build created and it’s very important to take the latest because issues you will find in 2-days old build might be already fixed in the recent build. The [list of the builds](http://artifacts.status.im:8081/artifactory/nightlies-local/) is not sorted by the latest date, so to find the latest search by the date, e.g. 06-dec
 

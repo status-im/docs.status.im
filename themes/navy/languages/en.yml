@@ -24,7 +24,7 @@ sidebar:
   docs:
     use_status: Use Status
     who_we_are: Who We Are
-    user_guide: User Guide 
+    user_guide: User Guide
     contributor_guide: Contributor Guide
     ens_usernames: ENS Usernames
     FAQs: FAQs
@@ -36,7 +36,9 @@ sidebar:
     build_status_desktop: Build Status Desktop
     introduction_desktop: Getting Started
     building_desktop: Building Desktop
-    troubleshooting: Troubleshooting 
+    status_node: Status Node
+    run_status_node: Run Status Node
+    troubleshooting: Troubleshooting
     using_breakpad: Using Breakpad
     jenkins_pipeline: Using Jenkins
     status_extensions: Status Extensions

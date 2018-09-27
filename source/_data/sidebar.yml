@@ -1,23 +1,26 @@
 docs:
-  use_status: 
+  use_status:
     who_we_are: introduction.html
     user_guide: userguide.html
     contributor_guide: contributor_guide.html
     ens_usernames: ens_usernames.html
     FAQs: FAQs.html
-  
+
   build_status:
     quick_start: build_status.html
     build_status_go: build_status_go.html
     status_react_structure: status_react_structure.html
     send_transaction_flow: send_transaction_flow.html
-    
-  build_status_desktop: 
+
+  build_status_desktop:
     introduction_desktop: intro_desktop.html
     building_desktop: build_desktop.html
     troubleshooting: build_desktop_troubleshooting.html
     using_breakpad: build_desktop_google_breakpad.html
     jenkins_pipeline: build_desktop_jenkins.html
+
+  status_node:
+    run_status_node: run_status_node.html
 
   status_extensions:
     add_your_dapp: add_your_dapp.html

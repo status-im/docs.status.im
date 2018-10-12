@@ -41,14 +41,6 @@ sidebar:
     testing: Testing
     introduction_testing: How We Test
     report_a_bug: Report a Bug
-    security: Security
-    security_champions: Security Champions
-    security_existing_features: Existing Features
-    security_experiment: Security Experiment
-    security_process: Our Process
-    security_threat_modeling: Threat Modeling
-    security_github_labels: Github Labels
-    security_sensitive_data: Sensitive Data
 
   developer_tools:
     connecting_to_web3: Connecting to web3
@@ -76,3 +68,18 @@ sidebar:
     dark_routing: Dark Routing
     whisper_pss: Comparison with PSS 
     whisper_faqs: Whisper FAQs
+
+  security: 
+    security: Security at Status
+    introduction_security: Status Security Processes
+    security_champions: Security Champions
+    security_existing_features: Existing Features
+    security_experiment: Security Experiment
+    security_process: Our Process
+    security_threat_modeling: Threat Modeling
+    security_github_labels: Github Labels
+    security_sensitive_data: Sensitive Data
+
+  fiddle:
+    fiddle: Status Fiddle
+    introduction_fiddle: An Introduction to Fiddle

@@ -25,16 +25,6 @@ docs:
     introduction_testing: testing.html
     report_a_bug: report_a_bug.html
 
-  security:
-    security_champions: security_champions.html
-    security_existing_features: security_existing_features.html
-    security_experiment: security_experiment.html
-    security_process: security_process.html
-    security_threat_modeling: security_threat_modeling.html
-    security_github_labels: security_github_labels.html
-    security_sensitive_data: security_sensitive_data.html
-
-
 developer_tools:
   connecting_to_web3:
     access_an_ethereum_provider: access_eth_provider.html
@@ -64,3 +54,17 @@ technical_specs:
     dark_routing: dark_routing.html
     whisper_pss: whisper_pss.html
     whisper_faqs: whisper_faqs.html
+
+security:
+  security:
+    introduction_security: index.html
+    security_champions: security_champions.html
+    security_existing_features: security_existing_features.html
+    security_experiment: security_experiment.html
+    security_threat_modeling: security_threat_modeling.html
+    security_github_labels: security_github_labels.html
+    security_sensitive_data: security_sensitive_data.html
+
+fiddle:
+  fiddle:
+    introduction_fiddle: intro_fiddle.html

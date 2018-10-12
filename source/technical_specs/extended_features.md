@@ -51,7 +51,7 @@ Any determination that the message is indeed from a particular sender is left fo
 ```
 1. flags: 1 byte
 2. (signature: 65 bytes)
-3. auxiliary field: 4 bytes
+3. auxiliary field: up to 4 bytes
 4. payload: not fixed
 ```
 

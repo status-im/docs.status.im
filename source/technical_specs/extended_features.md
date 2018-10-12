@@ -46,15 +46,16 @@ A message is formed as the concatenation of a single byte for flags, followed by
 
 In the present protocol version, no explicit authentication token is given to indicate that the data field is encrypted; any would-be readers of the message must know ahead of time, through the choice of topic that they have specifically filtered for, that the message is encrypted with a particular key. This is likely to be altered to include a MAC.
 
-Any determination that the message is indeed from a particular sender is left for a higher-level to address. This is achieved through the Javascript API, which allows the `_to` parameter to be passed only at the point of specifying the filter. **Since the signature is a part of the message** and not outside the envelope, those unable to decrypt the message data are also unable to access any signature. Any message istherefore constructed as follows:
+Any determination that the message is indeed from a particular sender is left for a higher-level to address. This is achieved through the Javascript API, which allows the `_to` parameter to be passed only at the point of specifying the filter. **Since the signature is a part of the message** and not outside the envelope, those unable to decrypt the message data are also unable to access any signature. Any message is therefore constructed as follows:
 
 ```
 1. flags: 1 byte
 2. (signature: 65 bytes)
-3. payload: not fixed
+3. auxiliary field: 4 bytes
+4. payload: not fixed
 ```
 
-Bit `0` of the flags determines whether the signature exists. All other bits are not yet given a purpose and should be set randomly. A message is invalid if bit 0 is set but the total data is less than 66 bytes (since this wouldn't allow it to contain a signature).
+The first 2 bits of the `flags` field specifies the size of the auxiliary field and the third bit indicates whether a signature is present. A message is invalid if bit `2` is set but the total data is less than 66 bytes (since this wouldn't allow it to contain a signature).
 
 **Encrypting**
 

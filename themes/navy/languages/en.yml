@@ -147,6 +147,7 @@ sidebar:
     examples: See Some Examples
     roadmap: Roadmap
     development: Get Your Hands Dirty
+    build: Build
     concepts: Important Concepts
     concept_anatomy: Anatomy
     concept_block: Block
@@ -156,4 +157,6 @@ sidebar:
     concept_reference: Reference
     concept_registry: Registry
     concept_view: View
-
+    building_blocks: Building blocks
+    chat_command: Chat command hook
+    tutorial_chat_command: Chat command tutorial

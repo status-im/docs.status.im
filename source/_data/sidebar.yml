@@ -124,10 +124,12 @@ extensions:
   extensions:
     introduction: index.html
     principles: principles.html
+  build:  
+    concepts: concepts.html
+    building_blocks: building_blocks.html
+    chat_command: chat_command.html
+    tutorial_chat_command: tutorial_chat_command.html
     try: https://status-im.github.io/pluto/try.html
-    examples: https://github.com/status-im/pluto/tree/master/examples
-    roadmap: roadmap.html
-    development: development.html
   concepts:
     concept_anatomy: concept_anatomy.html
     concept_block: concept_block.html
@@ -137,3 +139,7 @@ extensions:
     concept_reference: concept_reference.html
     concept_registry: concept_registry.html
     concept_view: concept_view.html
+  contribute:
+    examples: https://github.com/status-im/pluto/tree/master/examples
+    roadmap: roadmap.html
+    development: development.html

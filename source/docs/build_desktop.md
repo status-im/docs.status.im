@@ -49,6 +49,16 @@ npm update
 npm install -g
 ```
 
+### Install dependencies
+
+Usage of snorenotify introduced dependency on additional dev package to be installed in development environment:
+
+Linux:
+```sudo apt install extra-cmake-modules```
+
+MacOS:
+```brew install kde-mac/kde/kf5-extra-cmake-modules```
+
 ## To setup re-natal dev builds of status-react for Desktop
 
 1. Run the following commands:

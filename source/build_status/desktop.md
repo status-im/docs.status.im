@@ -8,7 +8,6 @@ title: Build Desktop
 ## Prerequisites
 
 You will need the following tools installed:
-  - Leiningen (Clojure build tool, get it from https://leiningen.org)
   - Node.js v.8
   - CMake 3.1.0 or higher
   - Additional packages: `extra-cmake-modules`; Keychain access on `Linux` requires `libgnome-keyring0`.
@@ -69,11 +68,10 @@ npm install -g
     ``` bash
     git clone https://github.com/status-im/status-react.git
     cd status-react
-    make dev-desktop
     ```
 1. In separate terminal tab: `npm start` (note: it starts react-native packager )
 1. In separate terminal tab: `node ./ubuntu-server.js`
-1. In separate terminal tab: `lein figwheel-repl desktop` (note: wait until sources are compiled)
+1. In separate terminal tab: `clj -m clj-rn.main watch --platform desktop` (note: wait until sources are compiled)
 1. In separate terminal tab: `react-native run-desktop`
 
 ## Clean up data
@@ -98,7 +96,7 @@ Go to `~/Library/Application Support/` and delete any Status directories. Delete
 
 ## Editor setup
 
-Running `lein figwheel-repl desktop` will run a REPL on port 7888 by default. Some additional steps might be needed to connect to it.
+Running `clj -m clj-rn.main watch --platform desktop` will run a REPL on port 7888 by default. Some additional steps might be needed to connect to it.
 
 ### emacs-cider
 

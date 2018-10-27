@@ -120,7 +120,7 @@
         </div>
     </div>
 </div>
-        
+
 <div class="home-wrap">
     <div class="section-header section-header--main">
         <h2 id="top-header">The Status Ecosystem</h2>
@@ -156,7 +156,7 @@
             </a>
         </div>
         <div class="card card--studio">
-            <a href="#" class="card-inner">
+            <a href="https://studio.status.im/" class="card-inner">
                 <div class="card-content">
                     <h3>Studio</h3>
                     <p class="secondary-text">Studio is an integrated developer environment and educational platform designed to be a one-stop-shop for ÐApp development.</p>

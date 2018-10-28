@@ -4,7 +4,7 @@ id: index
 title: Build Status Yourself
 ---
 
-# #Buidl Status Yourself and Particpate in a Better Web
+# Build Status Yourself and Participate in a Better Web
 
 ## The easiest way
 
@@ -17,11 +17,9 @@ cd status-react
 
 ### 2. Install the dependencies
 
-We created a special script that installs everything Status needs. However, this script works only
-for macOS and Ubuntu Linux. If you use another Linux distribution, please, install all dependencies manually (you can find the list below).
+We created a special script that installs everything Status needs. However, this script works only for macOS and Ubuntu Linux. If you use another Linux distribution, please, install all dependencies manually (you can find the list below).
 
-It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script.
-The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
+It is also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script. The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
 
 Just run this to install all dependencies:
 
@@ -30,6 +28,7 @@ make setup
 ```
 
 This script prepares and installs the following:
+
 * Homebrew
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
@@ -43,7 +42,9 @@ This script prepares and installs the following:
 *Note 1:* it can take up to 20 minutes depending on your machine and internet connection speed.
 
 *Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew.
+
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
+
 Type `npm version` and make sure you don't use Node.js v10 because it's not supported by Realm.js (see **Troubleshooting** section for additional details).
 
 ## Running development processes
@@ -168,4 +169,4 @@ cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd ../..
 cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh && cd ../../../../
 ```
 
-Now you should be able to compile again. The issue reference is [here](ttps://github.com/facebook/react-native/issues/21168#issuecomment-422431294).
+Now you should be able to compile again. The issue reference is [here](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294).

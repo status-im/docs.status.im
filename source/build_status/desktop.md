@@ -9,7 +9,7 @@ title: Build Desktop
 
 You will need the following tools installed:
   - Clojure CLI tool `clj` https://clojure.org/guides/getting_started#_installation_on_mac_via_code_brew_code
-  - Node.js v.8
+  - Node.js v.8.9.4, npm 5.5.1 (can be installed via `npm install -g npm@5.5.1`)
   - CMake 3.1.0 or higher
   - Additional packages: `extra-cmake-modules`; Keychain access on `Linux` requires `libgnome-keyring0`.
     - Linux: `sudo apt install extra-cmake-modules libgnome-keyring0`
@@ -25,10 +25,6 @@ Set Qt's environment variables:
     - On MacOS: `export PATH=<QT_PATH>/clang_64/bin:$PATH`
     - On Linux: `export PATH=<QT_PATH>/gcc_64/bin:$PATH`
 
-## Caveats
-
-- If npm hangs at some step, check the version. If it's 5.6.0 or higher, try downgrading to 5.5.1 via `npm install -g npm@5.5.1`
-
 # Building a release package
 
 Run the following commands to build a Desktop package for the host environment (Linux or Mac OS):
@@ -36,7 +32,6 @@ Run the following commands to build a Desktop package for the host environment (
 ``` bash
 git clone https://github.com/status-im/status-react.git
 cd status-react
-make setup
 make prepare-desktop
 make release-desktop
 ```

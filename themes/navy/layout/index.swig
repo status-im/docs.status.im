@@ -120,11 +120,11 @@
         </div>
     </div>
 </div>
-        
+
 <div class="home-wrap">
     <div class="section-header section-header--main">
         <h2 id="top-header">The Status Ecosystem</h2>
-        <p class="secondary-text">Status is more than an app - it's a community of people creating the tools and infrastructure we need to #buidl a better web. Our collective goal is the mass adoption of Ethereum. Find out about all the different ways we're achieving that below...</p>
+        <p class="secondary-text">Status is more than an app - it's a community of people creating the tools and infrastructure we need to #buidl a better web. Our collective goal is the mass adoption of Ethereum.</p>
     </div>
 
     <div class="cards cards--projects cards--three">
@@ -156,7 +156,7 @@
             </a>
         </div>
         <div class="card card--studio">
-            <a href="#" class="card-inner">
+            <a href="https://studio.status.im/" class="card-inner">
                 <div class="card-content">
                     <h3>Studio</h3>
                     <p class="secondary-text">Studio is an integrated developer environment and educational platform designed to be a one-stop-shop for ÐApp development.</p>

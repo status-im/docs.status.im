@@ -4,7 +4,7 @@ id: index
 title: Build Status Yourself
 ---
 
-# Buidl Status Yourself and Participate in a Better Web
+# #Buidl Status Yourself and Participate in a Better Web
 
 ## The easiest way
 
@@ -39,7 +39,7 @@ This script prepares and installs the following:
 * Maven
 * Cocoapods
 
-*Note 1:* it can take up to 20 minutes depending on your machine and internet connection speed.
+*Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
 
 *Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew.
 
@@ -109,7 +109,7 @@ In this case you have to do the following:
 * Run `sdkmanager` from your machine and install the latest Android SDKs;
 * *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
 * *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
-* Execute `react-native run-android`.
+* Execute `make run-android`.
 
 Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that.
 
@@ -137,7 +137,7 @@ nvm use status-im
 
 ### Custom Android SDK location
 
-Some of developers prefer to use Android SDK integrated to Android Studio. Of course, it doesn't matter
+Some developers prefer to use Android SDK integrated in Android Studio. Of course, it doesn't matter
 for the build process — just make sure that `ANDROID_SDK_ROOT` points to a right location and you have all the SDKs installed.
 
 ## Troubleshooting
@@ -172,7 +172,6 @@ cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-config
 ```
 
 Now you should be able to compile again. The issue reference [here](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294).
-
 
 ### I get a compilation error when running `clj -R:dev build.clj watch`
 

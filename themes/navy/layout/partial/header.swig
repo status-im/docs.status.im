@@ -77,7 +77,7 @@
                         <div class="card-content">
                             <div class="latest-posts"></div>
                         </div>
-                        <div class="card-community-more__link"><a href="https://our.status.im/" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://our.status.im/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
                 <div class="card">
@@ -86,7 +86,7 @@
                             <h4>Life at Status</h4>
                             <p class="secondary-text">What's it like to live the decentralized lifestyle? Find out here.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="/contribute/" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="/contribute/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
                 <div class="card">
@@ -95,7 +95,7 @@
                             <h4>Follow us on Twitter</h4>
                             <p class="secondary-text">Join the conversation on our social channels to learn more.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://twitter.com/ethstatus/" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://twitter.com/ethstatus/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                             <h4>Embark</h4>
                             <p class="secondary-text">Embark is a simple and easy to use development framework that enables you to build and deploy your own decentralized applications smoothly.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://embark.status.im/" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://embark.status.im/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
                 <div class="card">
@@ -126,7 +126,7 @@
                             <h4>Nimbus</h4>
                             <p class="secondary-text">A research project and light client for Ethereum 2.0 designed to perform well on embedded systems and resource-restricted hardware.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://nimbus.status.im" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://nimbus.status.im" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
                 <div class="card">
@@ -135,7 +135,7 @@
                             <h4>Status Studio</h4>
                             <p class="secondary-text">Studio is an integrated developer environment and educational platform designed to be a one-stop-shop for ÐApp development.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://studio.status.im" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://studio.status.im" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                             <h4>Incubate</h4>
                             <p class="secondary-text">Incubate supports open source, early stage startups with funding, technical mentorship, legal and regulatory compliance and much more.</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://incubate.status.im/" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://incubate.status.im/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
                 <div class="card">
@@ -157,7 +157,7 @@
                             <h4>Status Hardwallet</h4>
                             <p class="secondary-text">A hardware wallet in the form of a card with a safe, contactless transaction experience</p>
                         </div>
-                        <div class="card-community-more__link"><a href="https://hardwallet.status.im/" class="link-arrow">Learn More</a></div>
+                        <div class="card-community-more__link"><a href="https://hardwallet.status.im/" class="link-arrow">Learn more</a></div>
                     </div>
                 </div>
             </div>

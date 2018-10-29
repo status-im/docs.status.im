@@ -6,7 +6,7 @@ title: Perks & Benefits
 # All The Things!
 
 **People**
-- Work with some of the most passionate & dedicated minds in the Ethereum space.  
+- Work with some of the most passionate & dedicated minds in the Ethereum space. 
 
 **Compensation**
 - We ask that you're willing to be paid in a combination of fiat and cryptocurrency.

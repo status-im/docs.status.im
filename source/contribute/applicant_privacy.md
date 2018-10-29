@@ -22,8 +22,8 @@ As you can see from [our principles](./our_principles.html), we are serious abou
 
 ## HOW:
 
-1. Your data is stored on our Applicant Tracking System during the application process and for 365 days after you have been rejected or hired from all applications. After 365 days, your data is automatically deleted. If you would like your data deleted before that, please email us on [candidate_privacy@status.im](mailto:andidate_privacy@status.im).
+1. Your data is stored on our Applicant Tracking System during the application process and for 365 days after you have been rejected or hired from all applications. After 365 days, your data is automatically deleted. If you would like your data deleted before that, please email us on [candidate_privacy@status.im](mailto:candidate_privacy@status.im).
 2. Access to the data is tightly controlled to only members of the organisation that have a valid reason to access your information.
 3. If your application is successful, your data will be transferred to our HR system.
 
-If you have any questions please contact us at [candidate_privacy@status.im](mailto:andidate_privacy@status.im). If you wish us to delete your data immediately, please contact us and we will take care of this for you.
+If you have any questions please contact us at [candidate_privacy@status.im](mailto:candidate_privacy@status.im). If you wish us to delete your data immediately, please contact us and we will take care of this for you.

@@ -13,7 +13,7 @@ A `chat command` hook requires the following properties to be set:
 Scope can be any combination of:
 
 * personal-chats
-* group-chats
+* group-chats (not currently functioning; will be implemented)
 * public-chats
 
 Here we will demonstrate `personal-chats`.
@@ -21,7 +21,7 @@ Here we will demonstrate `personal-chats`.
 ```clojure
 {hooks/commands.collectible
  {...
-  :scope #{:personal-chats}} ;; Could be #{:personal-chats :group-chats}
+  :scope #{:personal-chats}} ;; Could be #{:personal-chats :public-chats}
 ```
 
 ## Previews 

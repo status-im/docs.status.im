@@ -101,4 +101,3 @@ It really helps to specify not only the OS, but also
 3. Build version
 4. Link to apk and date if it's a nightly build
 5. Logs (logcat at least)
-6. For nightly builds we record session info in the TestFairy (video and logs) if you are on WiFi, so you can specify exact time when issue happened, your country and build number - this will help to locate your session in TestFairy and tester from the core team can update your bug report with a link

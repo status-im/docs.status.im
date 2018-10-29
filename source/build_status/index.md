@@ -4,7 +4,7 @@ id: index
 title: Build Status Yourself
 ---
 
-# #Build Status Yourself and Participate in a Better Web
+# Buidl Status Yourself and Participate in a Better Web
 
 ## The easiest way
 
@@ -17,11 +17,9 @@ cd status-react
 
 ### 2. Install the dependencies
 
-We created a special script that installs everything Status needs. However, this script works only
-for macOS and Ubuntu Linux. If you use another Linux distribution, please, install all dependencies manually (you can find the list below).
+We created a special script that installs everything Status needs. However, this script works only for macOS and Ubuntu Linux. If you use another Linux distribution, please, install all dependencies manually (you can find the list below).
 
-It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script.
-The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
+It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script. The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
 
 Just run this to install all dependencies:
 
@@ -30,6 +28,7 @@ make setup
 ```
 
 This script prepares and installs the following:
+
 * Homebrew
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
@@ -43,7 +42,9 @@ This script prepares and installs the following:
 *Note 1:* it can take up to 20 minutes depending on your machine and internet connection speed.
 
 *Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew.
+
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
+
 Type `npm version` and make sure you don't use Node.js v10 because it's not supported by Realm.js (see **Troubleshooting** section for additional details).
 
 ## Running development processes
@@ -86,8 +87,7 @@ Just execute
 react-native run-ios
 ```
 
-If you wish to specify the simulator, just run `react-native run-ios --simulator="iPhone 7"`.
-You can check your available devices by running `xcrun simctl list devices` from the console.
+If you wish to specify the simulator, just run `react-native run-ios --simulator="iPhone 7"`. You can check your available devices by running `xcrun simctl list devices` from the console.
 
 You can also start XCode and run the application there. Execute `open ios/StatusIm.xcworkspace`, select a device/simulator and click **Run**.
 
@@ -98,9 +98,11 @@ You can also start XCode and run the application there. Execute `open ios/Status
 Installation script installs Android NDK, but you still need to install Android SDK manually to build and run Status on Android.
 
 The easiest way to do this is to install Android Studio — it will install almost everything for you.
+
 There is a difficult way for those who don't want/need Android Studio.
 
 In this case you have to do the following:
+
 * Install Android SDK from you package manager (`brew install android-sdk`, `sudo apt-get install android-sdk`, ...) or download it manually [here](https://developer.android.com/studio/#downloads);
 * Add several env variables to your profile (.bashrc, .zshrc, ...) — installer should say what are these variables and their values;
 * Run `android update sdk --no-ui` to update SDKs;
@@ -112,6 +114,7 @@ In this case you have to do the following:
 Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that.
 
 Check the following docs if you still have problems:
+
 * [macOS](https://gist.github.com/patrickhammond/4ddbe49a67e5eb1b9c03);
 * [Ubuntu Linux](https://gist.github.com/zhy0/66d4c5eb3bcfca54be2a0018c3058931);
 * [Arch Linux](https://wiki.archlinux.org/index.php/android) (can also be useful for other Linux distributions).

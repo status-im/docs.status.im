@@ -172,3 +172,16 @@ cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-config
 ```
 
 Now you should be able to compile again. The issue reference [here](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294).
+
+
+### I get a compilation error when running `clj -R:dev build.clj watch`
+
+Some developers see the error `Exception in thread "main" java.lang.NoSuchFieldError: VAR, compiling:((..)/status-react/build.clj:1:1)` when running the `clj -R:dev buid.clj watch` command (e.g., via `make startdev-android-avd`).
+
+This happens when you are running an earlier version of Clojure that is incompatible with `cljs.build.api`. The solution is to upgrade to the latest version of Clojure. E.g., for macOS
+
+```
+$ brew upgrade clojure
+==> Upgrading 1 outdated package:
+clojure 1.9.0.302 -> 1.9.0.397
+```

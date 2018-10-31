@@ -1,63 +1,75 @@
-# Chat command hook
+# Extension types
 
-A `chat command` hook requires the following properties to be set:
+Extension types are determined by the available [hooks](https://dev-docs.status.im/extensions/concept_hook.html).
 
-* `description`
-* `scope`
-* `preview` and `short-preview`
-* `parameters`
-* optionally `on-send` and `on-receive`
+The first hook supported by Status is the chat command.
 
-## Scope
+### Chat Commands
 
-Scope can be any combination of:
+The root identifier for a chat command is `hooks/commands`. 
 
-* personal-chats
-* group-chats (not currently functioning; will be implemented)
-* public-chats
+Each extension requires a unique identifier, e.g. `hooks/commands.collectible`.
 
-Here we will demonstrate `personal-chats`.
+In the case of a chat command, the unique identifier is what a user is required to type (e.g. `/collectible`) in order to execute a command within a chat.
 
-```clojure
-{hooks/commands.collectible
- {...
-  :scope #{:personal-chats}} ;; Could be #{:personal-chats :public-chats}
+#### Properties
+
+Once declared, a chat command requires the following properties to be mapped:
+
+- Scope
+- Description
+- Preview
+- Short preview
+- Parameters
+- _Optional_: `on-send` and `on-receive`
+
+This is declared like so:
+
+```
+hooks/command.collectible
+{:description    "Send collectible"
+:scope            #{:personal-chats}
+:preview          [collectible-preview]
+:short-preview    [collectible-short-preview]
+:on-send          [send-collectible]
+:parameters       [{:id            :id
+                    :type          :text
+                    :placeholder   "Collectible name"}]}
 ```
 
-## Previews 
+##### Scope
 
-`Previews` are used to display the result of a command execution in a chat. 
+A chat command can be executed within any combination of the following scopes:
 
-`Short previews` will be displayed as last message in the chat item of the Home tab of Status.
+- `personal-chat`: a 1-1 chat between users
+- `group-chats`: a private chat between multiple users
+- `public-chats`: a public chat open to any user
 
-Previews receive data from status encapsulating the parameters provided by the end user and some relevant contextual information.
+##### Description
 
-Short previews will get injected payload of the following form:
+The description is a short phrase exposed in the interface after the unique identifier, e.g. `Send collectible`.
 
-```clojure
-{:message-id 0x..., 
- :content {:command-path [dtwitter #{:personal-chats}]
-           :params {:symbol 0}}
- :show? true
- :message-type :user-message
- :clock-value 154020622416101
- :from 0x...
- :chat-id 0x...
- :content-type command
- :appearing? true
- :timestamp 1540206224139
- :outgoing true}
+A user sees: 
+
+```
+/collectible Send collectible
 ```
 
-Previews will get injected payload of the following form:
+##### Preview
 
-```clojure
+The preview is a `view` that a user sees as the result of a command's execution within a chat. It is declared with `views/[name-of-my-preview]`.
+
+A developer can customize previews using the syntax described for defining a view.
+
+Previews also come with an injected payload, accessible via a `properties` symbol:
+
+```
 {:incoming-group false
  :message-id 0x..
  :last? true
  :current-public-key 0x...
- :content {:command-path [dtwitter #{:personal-chats}]
-           :params {:symbol 0}}
+ :content {:command-path [collectible #{:personal-chats}]
+           :params {:collectible-id    "CK"}}
  :display-photo? false
  :last-in-group? true
  :datemark today
@@ -77,59 +89,61 @@ Previews will get injected payload of the following form:
  :timestamp 1540207735840
  :display-username? false
  :outgoing true}
+ ```
+
+##### Short preview
+
+The short preview is a `view` that a user sees on the chat screen when the last message in a given item is a chat command. It is declared with `views/[name-of-my-short-preview]`.
+
+A developer can customize short previews using the syntax described for defining a view.
+
+Short previews also come with an injected payload, accessible via a `properties` symbol:
+
+```
+{:message-id 0x..., 
+ :content {:command-path [collectible #{:personal-chats}]
+           :params {:collectible-id    "CK"}}
+ :show? true
+ :message-type :user-message
+ :clock-value 154020622416101
+ :from 0x...
+ :chat-id 0x...
+ :content-type command
+ :appearing? true
+ :timestamp 1540206224139
+ :outgoing true}
+ ```
+
+##### Parameters
+
+Parameters prompt the user to make selections or input data.
+
+They are identified by an `id` and must define an input `type` as well as some `placeholder` text for the user.
+
+They can optionally include `suggestions` to cue the user with additional UI components.
+
+Declare parameters like this:
+
+```
+:parameters   [{:id            :collectible-id
+                :type          :text
+                :suggestions   [user-collectibles]
+                :placeholder   "Collectible name"}]
 ```
 
-## Parameters
+This example allows a user to select between their various collectibles, either by typing in the "Collectible name" or using the UI's suggestions.
 
-A parameter is identified by its `id` and must define a `type` and a `placeholder` (any string).
-In this tutorial `:text` and `:number` will be used.
-`suggestions` can be optionally provided and must point to a `view`. 
+##### on-send and on-receive
 
-```clojure
-{hooks/commands.collectible
- {...
-  :parameters    [{:id          :symbol
-                   :type        :text
-                   :placeholder "Parameter"
-                   :suggestions status/asset-selector}]}}
+`on-send` and `on-receive` allow a command to fire events when a message is sent or received.
+
+In the collectible example, `on-send` creates a transaction to move the collectible from user A's wallet to user B's wallet.
+
+`on-send` and `on-receive` both come with the injected payload:
+
 ```
-
-## on-send and on-receive
-
-`on-send` and `on-receive` allow to fire events when a command message will respectively be sent or received.
-
-Both will get injected payload of the following form:
-
-```clojure
 {:chat-id 0x...     
  :content-type command
- :content {:command-path [dtwitter #{:personal-chats}]
-           :params {:symbol 0}}}
-```
-
-# Chat command hello world
-
-
-```clojure
-{meta
- {:name          "Hello world"
-  :description   ""
-  :documentation ""}
-
- views/preview
- [text "This is a preview"]
-
- views/short-preview
- [text "This is a short preview"]
-
-hooks/commands.collectible
-{:description   "Hello world command"
- :scope         #{:personal-chats}
- :preview       preview
- :short-preview short-preview
- :on-send       [alert {:value "Command executed!"}]
- :parameters   
- [{:id          :symbol
-   :type        :text
-   :placeholder "First argument"}]}}
+ :content {:command-path [collectible #{:personal-chats}]
+           :params {:collectible-id    "CK"}}}
 ```

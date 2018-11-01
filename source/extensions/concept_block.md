@@ -54,7 +54,7 @@ No namespaced keyword support, no short syntax
 
 #### Nesting
 
-Both structure type destrucuring can be combined 
+Both structure type destructuring can be combined 
 
 ```clojure
 [{[a1 _ a3] :a {d :d #{f 7} :f [[_ g2] 8}] :b [_ e2] :e :all all}

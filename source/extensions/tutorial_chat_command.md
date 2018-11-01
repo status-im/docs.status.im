@@ -43,7 +43,6 @@ When executed, the chat command will load the DTwitt details from the contract t
 
 ```clojure
 :on-send       [load-dtwitt]
-
 ```
 
 The `posts(uint256)` method is called to retrieve the post details. The encapsulated IPFS hash is then used to retrieve the post content.
@@ -120,7 +119,7 @@ Our preview definition displays some details about a dtwitt and allows to upvote
   :preview       [preview]
   :short-preview [short-preview]
   :on-send       [load-dtwitt]
-  :parameters    [{:id          :id
+  :parameters    [{:id          :vote-id
                    :type        :text
                    :placeholder "Vote id"}]}}
 ```

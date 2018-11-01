@@ -118,23 +118,14 @@ contribute:
 extensions:
   extensions:
     introduction: index.html
-    principles: principles.html
+    concepts: key_concepts.html
   build:  
-    important_concepts: important_concepts.html
-    building_blocks: building_blocks.html
-    chat_command: chat_command.html
+    syntax: syntax.html
+    extension_types: extension_types.html
     tutorial_chat_command: tutorial_chat_command.html
-    try: https://status-im.github.io/pluto/try.html
-  concepts:
-    concept_anatomy: concept_anatomy.html
-    concept_block: concept_block.html
-    concept_event: concept_event.html
-    concept_hook: concept_hook.html
-    concept_query: concept_query.html
-    concept_reference: concept_reference.html
-    concept_registry: concept_registry.html
-    concept_view: concept_view.html
-  contribute:
-    examples: https://github.com/status-im/pluto/tree/master/examples
-    roadmap: roadmap.html
-    development: development.html
+  references:
+    reference_views: reference_views.html
+    reference_queries: reference_queries.md
+    reference_events: reference_queries.md
+  installation:
+    install_guide: installation.html

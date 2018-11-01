@@ -140,25 +140,16 @@ sidebar:
     jobs: Jobs at Status
 
   extensions:
-    extensions: Status Extensions
-    introduction: Extensions Manifesto
-    principles: First Principles
+    extensions: Introduction
+    introduction: What are extensions?
+    concepts: Key concepts
     build: Build
-    important_concepts: Important Concepts
-    building_blocks: Building Blocks
-    chat_command: Extend Chat Commands
-    tutorial_chat_command: Chat Command Tutorial
-    try: Try It Yourself
-    concepts: Other Concepts
-    concept_anatomy: Anatomy
-    concept_block: Block
-    concept_event: Event
-    concept_hook: Hook
-    concept_query: Query
-    concept_reference: Reference
-    concept_registry: Registry
-    concept_view: View
-    contribute: Contribute
-    examples: Examples
-    roadmap: Roadmap
-    development: Development
+    syntax: Syntax
+    extension_types: Extension types
+    tutorial_chat_command: Tutorial
+    references: References
+    reference_views: Views
+    reference_queries: Queries
+    reference_events: Events
+    installation: Installation
+    install_guide: Install an extension

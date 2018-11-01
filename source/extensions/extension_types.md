@@ -4,13 +4,19 @@ Extension types are determined by the available [hooks](https://dev-docs.status.
 
 The first hook supported by Status is the chat command.
 
+
+
 ### Chat Commands
 
-The root identifier for a chat command is `hooks/commands`. 
+#### Identifiers
 
-Each extension requires a unique identifier, e.g. `hooks/commands.collectible`.
+The root identifier for any chat command is `hooks/commands`. Use this to build a chat command extension.
+
+Each extension also requires a unique identifier, e.g. `hooks/commands.collectible`.
 
 In the case of a chat command, the unique identifier is what a user is required to type (e.g. `/collectible`) in order to execute a command within a chat.
+
+This unique ID must be _unique from all other command IDs_. It is recommended to use the DApp or company's name in the ID to ensure this.
 
 #### Properties
 
@@ -90,6 +96,7 @@ Previews also come with an injected payload, accessible via a `properties` symbo
  :display-username? false
  :outgoing true}
  ```
+
 
 ##### Short preview
 

@@ -28,11 +28,6 @@ Views must point to definition of UI in [Hiccup syntax](https://github.com/weave
 
 More details can be found [here](https://status-im.github.io/pluto/docs/concepts/Anatomy.html).
 
-
-```clojure
-
-```
-
 `properties` data is accessed using [destructuring](https://status-im.github.io/pluto/docs/concepts/View.html#destructuring).
 `text` and `view` are view elements available for all hosts.
 `if` is a block providing conditional logic.

@@ -1,15 +1,8 @@
----
-id: building_blocks
-title: Building Blocks
----
-
-# Extensions Building Blocks
-
-## Hooks
+# Hooks
 
 The only hook available currently is the [chat command](chat_command) hook.
 
-## Components
+# Components
 
 | Symbol             | Properties              |
 | -------------      | -------------           |
@@ -22,7 +15,7 @@ The only hook available currently is the [chat command](chat_command) hook.
 | link               | style, uri :string  |
 | checkbox           | style, on-change :event, checked: boolean  |
 
-## Events
+# Events
 
 | Symbol             | Arguments                  |
 | -------------      | -------------              |
@@ -38,7 +31,7 @@ The only hook available currently is the [chat command](chat_command) hook.
 | ethereum/send-transaction          | to :string, gas? :string, gas-price? :string, value? :string, method? :string, params? :vector, nonce? :string, on-result? :event |
 | ethereum/call          | to :string, method? :string, params? :vector, on-result? :event |
 
-## Queries
+# Queries
 
 | Symbol             | Arguments               |
 | -------------      | -------------           |

@@ -253,11 +253,11 @@ h5 {
     margin: 12px;
   }
 
-  .cards.cards--three .card:nth-child(odd) .card-inner { 
+  .cards.cards--three .card:nth-child(odd) .card-inner {
     margin-left: 0
   }
 
-  .cards.cards--three .card:nth-child(even) .card-inner { 
+  .cards.cards--three .card:nth-child(even) .card-inner {
     margin-right: 0
   }
 
@@ -283,12 +283,12 @@ h5 {
     width: 100%;
   }
 
-  .cards.cards--three.cards--three--even .card:nth-child(odd) .card-inner { 
+  .cards.cards--three.cards--three--even .card:nth-child(odd) .card-inner {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .cards.cards--three.cards--three--even .card:nth-child(even) .card-inner { 
+  .cards.cards--three.cards--three--even .card:nth-child(even) .card-inner {
     margin-right: 0;
     margin-left: 0;
   }
@@ -320,12 +320,12 @@ h5 {
     width: 100%;
   }
 
-  .cards.cards--three .card:nth-child(odd) .card-inner { 
+  .cards.cards--three .card:nth-child(odd) .card-inner {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .cards.cards--three .card:nth-child(even) .card-inner { 
+  .cards.cards--three .card:nth-child(even) .card-inner {
     margin-right: 0;
     margin-left: 0;
   }
@@ -351,23 +351,9 @@ h5 {
   .section-header h2 {
     font-size: 23px;
   }
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+code.hljs {
+    background-color: #f0f2f3;
+    padding: 20px;
+}

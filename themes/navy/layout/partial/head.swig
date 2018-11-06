@@ -23,8 +23,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152.png?v=0.0.5">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png?v=0.0.5">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon-1024.png?v=0.0.5">
-  {{ css('css/main.min.css') }}
-  {{ css('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/atelier-sulphurpool-light.min.css') }}
+  {{ css('scss/main.css') }}
+  {{ css('js/styles/atelier-sulphurpool-light.css') }}
   {{ feed_tag('atom.xml') }}
   <meta property="og:image" content="/img/share.png" />
   <meta property="og:title" content="Status, a Mobile Client for Ethereum 2.0" />

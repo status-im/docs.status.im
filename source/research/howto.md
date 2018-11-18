@@ -1,5 +1,5 @@
 ---
-id: tutorial_basic_cli
+id: Research
 title: Getting Started with Swarm
 ---
 
@@ -15,4 +15,4 @@ Swarm offers a DDoS-resistant peer - to - peer storage and service solution with
 
 Swarm is a **persistent data structure**. Persistent data structures always preserves the previous version of itself when it is modified. Such data structures are effectively as their operations do not (visibly) update the structure in-place, but instead always yield a new updated structure. 
 
-**HAMT - Hash Array Mapped Trie** is one of the best examples for persistent data structures, As they will preserve previous versions of itself on any updates. It is often used to implement a general purpose persistent map data structure. HAMT'S composped of Ideal Hash Trees which are mutable.
+**HAMT - Hash Array Mapped Trie** is one of the best examples for persistent data structures, As they will preserve previous versions of itself on any updates. It is often used to implement a general purpose persistent map data structure. HAMT'S composped of `Ideal Hash Trees` which are mutable.

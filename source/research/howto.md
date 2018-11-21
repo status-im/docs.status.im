@@ -93,4 +93,13 @@ swarm up filepath
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:8500/bzz:/8fdc5065b87541c1daf247a15b18e60458d46f1c19a62c8fb35f6002b4f4033c/
 ```
 The Swarm Hash in the above example should return the following image.
+
 ![](https://swarm-gateways.net/bzz:/8fdc5065b87541c1daf247a15b18e60458d46f1c19a62c8fb35f6002b4f4033c/)
+
+
+By following the same set of instruction you can be able to upload and retrive any files on Swarm. We can use the similar procedure for uploading static html websites. Now that we were able to know how to upload and access files on Swarm. Lets see how we can upload folders on Swarm.
+
+```
+swarm recursive up <<folder path>>
+9200062ff5f4c9cf9fee77e396f8e7db6b1ad1fcbd4492b34377aba2e2c82f98
+```

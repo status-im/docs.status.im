@@ -81,4 +81,5 @@ swarm --bzzaccount 3acce0a2760799ad89883949f0332cb4e1052b7a
 /* This will prompt for the passphrase, Pass your passphrase and your swarm will be started */
 Passphrase: 
 ```
-You can access the swarm on yout browser at 8500 port `http://localhost:8500`
+You can access the swarm on your browser at `http://localhost:8500`
+

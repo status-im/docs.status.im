@@ -59,9 +59,9 @@ open geth.exe
 ```
 After successful installtion of Geth, You need to [install Swarm](https://swarm-guide.readthedocs.io/en/latest/installation.html)
 
-#### Install the 
+#### Install Swarm
 ```
-go install ./cmd/geth
 go install ./cmd/swarm
 ```
-You 
+You can check if Swarm is installed properly or not using the following command ```swarm```
+

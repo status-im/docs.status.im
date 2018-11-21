@@ -84,3 +84,13 @@ Passphrase:
 You can access the swarm on your browser at `http://localhost:8500`
 
 #### Upload and Retrieve files on swarm
+You can use swarm to upload files & Folders. In our case we can upload some files on to swarm with 
+```
+swarm up filepath
+/* This will generate a swarm hash for your file, Which you can access via Your localhost or swarm-gateways*/
+8fdc5065b87541c1daf247a15b18e60458d46f1c19a62c8fb35f6002b4f4033c
+/* You can access the above swarm hash as shown below*/
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:8500/bzz:/8fdc5065b87541c1daf247a15b18e60458d46f1c19a62c8fb35f6002b4f4033c/
+```
+The Swarm Hash in the above example should return the following image.
+![](https://swarm-gateways.net/bzz:/8fdc5065b87541c1daf247a15b18e60458d46f1c19a62c8fb35f6002b4f4033c/)

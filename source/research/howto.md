@@ -59,9 +59,26 @@ open geth.exe
 ```
 After successful installtion of Geth, You need to [install Swarm](https://swarm-guide.readthedocs.io/en/latest/installation.html)
 
-#### Install Swarm
+#### Install the 
 ```
+go install ./cmd/geth
 go install ./cmd/swarm
 ```
-You can check if Swarm is installed properly or not using the following command ```swarm```
+#### Getting Started with Swarm
+One Swarm & Geth had successfully installed. A Geth account can be created using the following command
 
+```
+Geth account new
+/* Set a password for your account */
+Passpharse:
+Repeat passphrase:
+/* A new account will be created */
+Address:{3acce0a2760799ad89883949f0332cb4e1052b7a}
+```
+Once your account is created you start swarm using the following command
+```
+swarm --bzzaccount 3acce0a2760799ad89883949f0332cb4e1052b7a
+/* This will prompt for the passphrase, Pass your passphrase and your swarm will be started */
+Passphrase: 
+```
+You can access the swarm on yout browser at 8500 port `http://localhost:8500`

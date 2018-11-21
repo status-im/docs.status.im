@@ -109,3 +109,7 @@ Inorder to surpress the manifest you can set the manifest to false while uploadi
 /* If you wish to download a directory from the swarm  */
 swarm down --recursive bzz:/<hash>
 ```
+
+Mainfests are used to address http api. Manifests can currently have the empty path as a 'default entry' - a hash that will be loaded when the manifest is addressed on the http api. Manifest entries are key/value pairs resolving keys to hashes; these hashes are either swarm hashes of files or of further manifests. In practice this often means that a manifest might have an empty path entry and an 'index.html' entry that resolve to the same hash. Current manifest implementation stores only the hash for the empty path. Manifest entry type that will allow us to describe metadata entries better and we can this in upcoming updates from swarm.
+
+#### Hosting a website on Swarm

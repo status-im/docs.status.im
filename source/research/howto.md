@@ -83,3 +83,4 @@ Passphrase:
 ```
 You can access the swarm on your browser at `http://localhost:8500`
 
+#### Upload and Retrieve files on swarm

@@ -113,3 +113,11 @@ swarm down --recursive bzz:/<hash>
 Mainfests are used to address http api. Manifests can currently have the empty path as a 'default entry' - a hash that will be loaded when the manifest is addressed on the http api. Manifest entries are key/value pairs resolving keys to hashes; these hashes are either swarm hashes of files or of further manifests. In practice this often means that a manifest might have an empty path entry and an 'index.html' entry that resolve to the same hash. Current manifest implementation stores only the hash for the empty path. Manifest entry type that will allow us to describe metadata entries better and we can this in upcoming updates from swarm.
 
 #### Hosting a website on Swarm
+Uploading a website on Swarm is quite straight forward than you think.
+
+```
+/* Lets say our File directory is Named as Test and it got two files Index.htm & Concat.js */
+swarm --defaultpath=/home/ubuntu/Test/index.html --recursive up Test/
+2e37b90efbf098802f8456358aa1f3a1bee8ce2c4367a247161b59f7e922e38a
+/* In the above instruction we are Passing the index.html which we need to serve when we querry, As a Default Path where as the Recursive up part of the instruction is helpful in uploading the entire file directory to Swarm. */
+```

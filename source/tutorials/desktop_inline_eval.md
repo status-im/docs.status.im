@@ -91,7 +91,7 @@ And finally: open emacs and evaluate the elisp code in the manner agreeable to y
 
 ## Conclusion
 
-The above steps are meant to make it a little easier to get started with, and reason about, status-react. This should hopefully help you, an intrepid new contributor to building a better web, get a foot in the door. Gaining some sense of momentum when participating in a new project for the first time is important, so let us know how we can improve this further! (And don't hesitate to reach out to us within Status in the #clojure channel).
+The above steps are meant to make it a little easier to get started with, and reason about, status-react. This should hopefully help you, an intrepid new contributor to building a better web, get a foot in the door. Gaining some sense of momentum when participating in a new project for the first time is important, so let us know how we can improve this further! (And don't hesitate to reach out to us within Status in the [#clojure channel](https://get.status.im/chat/public/clojure)).
 
 Inline eval is something I find fun about clojure and status-react, which is why I’ve chosen to outline my experience getting to that point. The process outlined above is certainly rough, but my hope is that by taking a stab at a set of reproducible steps, it will be easier for people to reach a “tipping point” where status-react is something they can get their arms around. Improvements and suggestions are both welcome. I’m sure there’s a lot I’ve put forth that is at best janky or at worst downright incorrect. It’s meant as a starting point from which, over time, we can hopefully continue to bring more tribal knowledge into the light.
 

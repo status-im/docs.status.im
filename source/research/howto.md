@@ -116,8 +116,23 @@ Mainfests are used to address http api. Manifests can currently have the empty p
 Uploading a website on Swarm is quite straight forward than you think.
 
 ```
-/* Lets say our File directory is Named as Test and it got two files Index.htm & Concat.js */
-swarm --defaultpath=/home/ubuntu/Test/index.html --recursive up Test/
-2e37b90efbf098802f8456358aa1f3a1bee8ce2c4367a247161b59f7e922e38a
+/* Lets say our File directory is Named as Documents and it got two files Index.htm & swarmlogo.png */
+swarm --defaultpath=/home/ubuntu/Documents/index.html --recursive up Documents/
+0ed5277b2db1dd0b5b565dd4d09a436c6535953ef466a2a11e1fd17793aab23e
 /* In the above instruction we are Passing the index.html which we need to serve when we querry, As a Default Path where as the Recursive up part of the instruction is helpful in uploading the entire file directory to Swarm. */
+/* If we upload the directory itself to swarm */
+swarm --recursive up Test/
+a189e9099d458576e33b80f685d55d1cf866fca23279f4ea51f693910a9ed62c
+```
+The following manifest will be can be genrated for the Documents directory that we had uploaded.
+````
+{"entries":[{"hash":"855ed44578437cb0d4fe0ceec60a6badb85fd9ede51df8f94e8e9e4a35f3a87e","path":"index.html","contentType":"text/html; charset=utf-8","mode":420,"size":142,"mod_time":"2018-07-06T15:37:23+02:00"},{"hash":"fdbbdbbd6fcda18714cc7098e1ba64b1051c0a7cff777c4531be6f6fad57db37","path":"swarmlogo.png","contentType":"image/png","mode":420,"size":377098,"mod_time":"2018-04-04T16:15:42+02:00"}]}
+```
+Inorder for us to access the files we can access them as follows.
+```
+/* We can access the webpage that we uploaded via the swarm hash as we set the default path to index.html */
+https://swarm-gateways.net/bzz:/0ed5277b2db1dd0b5b565dd4d09a436c6535953ef466a2a11e1fd17793aab23e/ 
+/* The above url is when we set the default path to index.html the below url is when we upload a directory */
+https://swarm-gateways.net/bzz:/a189e9099d458576e33b80f685d55d1cf866fca23279f4ea51f693910a9ed62c/index.html
+
 ```

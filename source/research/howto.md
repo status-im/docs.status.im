@@ -115,8 +115,29 @@ Mainfests are used to address http api. Manifests can currently have the empty p
 #### Hosting a website on Swarm
 Uploading a website on Swarm is quite straight forward than you think.
 
+Lets create folder named Documents and create a file `index.html`
 ```
-/* Lets say our File directory is Named as Documents and it got two files Index.htm & swarmlogo.png */
+> pwd
+/home/ubuntu/
+> mkdir Documents
+> cd Documents
+> touch index.html
+/* Lets write some code inside the index.html*/
+> sudo nano index.html
+   <html>
+   <head>
+   <title>Swarm :)</title>
+   </head>
+   <body>
+   <h1>We're on Swarm!!!</h1><br>
+   <img src=swarmlogo.png" width="200"><br>
+   </body>
+  </html>
+
+```
+
+```
+/* Lets say our File directory is Named as Documents and it got two files Index.html & swarmlogo.png */
 swarm --defaultpath=/home/ubuntu/Documents/index.html --recursive up Documents/
 0ed5277b2db1dd0b5b565dd4d09a436c6535953ef466a2a11e1fd17793aab23e
 /* In the above instruction we are Passing the index.html which we need to serve when we querry, As a Default Path where as the Recursive up part of the instruction is helpful in uploading the entire file directory to Swarm. */
@@ -138,3 +159,5 @@ https://swarm-gateways.net/bzz:/0ed5277b2db1dd0b5b565dd4d09a436c6535953ef466a2a1
 https://swarm-gateways.net/bzz:/a189e9099d458576e33b80f685d55d1cf866fca23279f4ea51f693910a9ed62c/index.html
 
 ```
+
+Now that we set up the first website on swarm. Lets learn how we can host it on a ENS Domain. 

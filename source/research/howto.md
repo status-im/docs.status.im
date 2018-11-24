@@ -160,4 +160,4 @@ https://swarm-gateways.net/bzz:/a189e9099d458576e33b80f685d55d1cf866fca23279f4ea
 
 ```
 
-Now that we set up the first website on swarm. Lets learn how we can host it on a ENS Domain. 
+Now that we set up the first website on swarm. Lets learn how to setup a ENS Domain. 

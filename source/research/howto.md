@@ -125,10 +125,12 @@ swarm --recursive up Test/
 a189e9099d458576e33b80f685d55d1cf866fca23279f4ea51f693910a9ed62c
 ```
 The following manifest will be can be genrated for the Documents directory that we had uploaded.
-````
+```
 {"entries":[{"hash":"855ed44578437cb0d4fe0ceec60a6badb85fd9ede51df8f94e8e9e4a35f3a87e","path":"index.html","contentType":"text/html; charset=utf-8","mode":420,"size":142,"mod_time":"2018-07-06T15:37:23+02:00"},{"hash":"fdbbdbbd6fcda18714cc7098e1ba64b1051c0a7cff777c4531be6f6fad57db37","path":"swarmlogo.png","contentType":"image/png","mode":420,"size":377098,"mod_time":"2018-04-04T16:15:42+02:00"}]}
 ```
+
 Inorder for us to access the files we can access them as follows.
+
 ```
 /* We can access the webpage that we uploaded via the swarm hash as we set the default path to index.html */
 https://swarm-gateways.net/bzz:/0ed5277b2db1dd0b5b565dd4d09a436c6535953ef466a2a11e1fd17793aab23e/ 

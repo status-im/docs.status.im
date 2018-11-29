@@ -9,7 +9,7 @@ title: Build Desktop
 
 You will need the following tools installed:
   - Clojure CLI tool `clj` https://clojure.org/guides/getting_started#_installation_on_mac_via_code_brew_code
-  - Node.js v.8.9.4
+  - Node.js v.10.14.0
   - yarn 1.12.3 (can be installed via `npm install -g yarn@1.12.3`)
   - CMake 3.1.0 or higher
   - Additional packages: `extra-cmake-modules`; Keychain access on `Linux` requires `libgnome-keyring0`.

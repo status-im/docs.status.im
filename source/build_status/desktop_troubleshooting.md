@@ -6,7 +6,7 @@ title: Troubleshooting
 ## Initial setup issues
 
 ### `npm install` hangs
-Downgrade to version 5.5.1: `npm install -g npm@5.5.1`.
+Use yarn instead. `npm install -g yarn@1.12.3` and use `yarn install`.
 
 ### `re-natal` missing
 Create a link:

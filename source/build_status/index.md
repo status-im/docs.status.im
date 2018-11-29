@@ -34,6 +34,7 @@ This script prepares and installs the following:
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
 * Node.js (see note below)
+* yarn 1.12.3
 * React Native CLI and Watchman
 * Android SDK
 * Android NDK r10e (under `~/Android/Sdk/`)
@@ -44,7 +45,7 @@ This script prepares and installs the following:
 
 *Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew.
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
-Type `npm version` and make sure you don't use Node.js v10 because it's not supported by Realm.js (see **Troubleshooting** section for additional details).
+Type `node -v` and make sure you don't use Node.js v10 because it's not supported by Realm.js (see **Troubleshooting** section for additional details).
 
 ## Running development processes
 

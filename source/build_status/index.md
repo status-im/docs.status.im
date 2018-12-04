@@ -30,6 +30,7 @@ make setup
 ```
 
 This script prepares and installs the following:
+
 * Homebrew
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
@@ -43,9 +44,8 @@ This script prepares and installs the following:
 
 *Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
 
-*Note 2:* If you don't have `nvm`, `node@8` will be installed from Homebrew.
+*Note 2:* If you don't have `nvm`, `node@10` will be installed from Homebrew.
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
-Type `node -v` and make sure you don't use Node.js v10 because it's not supported by Realm.js (see **Troubleshooting** section for additional details).
 
 ## Running development processes
 
@@ -66,9 +66,9 @@ make startdev-android-real
 By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging).
 
 For additional information check the following:
+
 * [clj-rn](https://github.com/status-im/clj-rn);
 * [re-frisk](https://github.com/flexsurfer/re-frisk).
-
 
 ### 2. React Native packager
 
@@ -83,6 +83,7 @@ make react-native
 ### iOS (macOS only)
 
 Just execute
+
 ```shell
 make run-ios
 ```
@@ -102,6 +103,7 @@ The easiest way to do this is to install Android Studio — it will install almo
 There is a difficult way for those who don't want/need Android Studio.
 
 In this case you have to do the following:
+
 * Install Android SDK from you package manager (`brew install android-sdk`, `sudo apt-get install android-sdk`, ...) or download it manually [here](https://developer.android.com/studio/#downloads);
 * Add several env variables to your profile (.bashrc, .zshrc, ...) — installer should say what are these variables and their values;
 * Run `android update sdk --no-ui` to update SDKs;
@@ -109,6 +111,7 @@ In this case you have to do the following:
 * *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
 * *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
 * Execute:
+
   ```shell
   make run-android`
   ```
@@ -116,6 +119,7 @@ In this case you have to do the following:
 Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that.
 
 Check the following docs if you still have problems:
+
 * [macOS](https://gist.github.com/patrickhammond/4ddbe49a67e5eb1b9c03);
 * [Ubuntu Linux](https://gist.github.com/zhy0/66d4c5eb3bcfca54be2a0018c3058931);
 * [Arch Linux](https://wiki.archlinux.org/index.php/android) (can also be useful for other Linux distributions).
@@ -127,12 +131,13 @@ Check the following docs if you still have problems:
 There are several ways of installing Node.js on your machine.
 One of the most convenient and easy is by using [Node Version Manager (nvm)](https://github.com/creationix/nvm). However, our setup script installs `node` from Homebrew if `nvm` is not installed on your machine.
 
-That's why we suggest to install `nvm` first if you want to have more flexible development environment.
+That's why we suggest installing `nvm` first if you want to have a more flexible development environment.
 
 If `nvm` is already installed, `make setup` simply does the following:
+
 ```shell
-nvm install 9
-nvm alias status-im 9
+nvm install 10
+nvm alias status-im 10
 nvm use status-im
 ```
 
@@ -141,18 +146,23 @@ nvm use status-im
 Some developers prefer to use Android SDK integrated in Android Studio. Of course, it doesn't matter
 for the build process — just make sure that `ANDROID_SDK_ROOT` points to a right location and you have all the SDKs installed.
 
+### Locally built status-go dependency
+
+If you need to test a mobile build with a custom locally built status-go dependency, you can build it by following this process:
+
+1. Ensure the `STATUS_GO_HOME` environment variable is set to the path of your local status-go repo (see [Build status-go](https://status.im/build_status/status_go.html) page for more information on requirements);
+1. From the root of the status-react repo, run `scripts/bundle-status-go.sh <platform>`, where `platform` can be `android` or `ios`;
+1. This will generate a build artifact under the status-react repo, and will be considered prioritary in the dependencies until it is deleted (e.g. by running `make clean` or `make prod-build`).
+
+NOTE: Desktop builds currently always download and build status-go locally.
+
 ## Troubleshooting
-
-### I see lots of yarn errors while installing Realm.js!
-
-Unfortunately, Realm doesn't support Node.js v10. Which means that you need to use Node < 10 to build Status.
-One of the best ways to install any older version of Node.js is to use `nvm`.
 
 ### I have issues compiling on Xcode 10
 
 Some developers are experiencing errors compiling for iOS on Xcode 10 on MacOs Mojave:
 
-```
+```txt
 error: Build input file cannot be found:
 
 'status-react/node_modules/react-native/third-party/double-conversion-1.1.6/src/cached-powers.cc'
@@ -180,7 +190,7 @@ Some developers see the error `Exception in thread "main" java.lang.NoSuchFieldE
 
 This happens when you are running an earlier version of Clojure that is incompatible with `cljs.build.api`. The solution is to upgrade to the latest version of Clojure. E.g., for macOS
 
-```
+```shell
 $ brew upgrade clojure
 ==> Upgrading 1 outdated package:
 clojure 1.9.0.302 -> 1.9.0.397

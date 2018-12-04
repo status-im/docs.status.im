@@ -5,13 +5,13 @@ title: Build status-go
 
 ## Introduction
 
-status-go is an underlying part of Status. It uses a lightly patched version of the [go-ethereum](https://github.com/ethereum/go-ethereum) node, located under `vendor/` directory. See [geth patches README](https://github.com/status-im/status-go/blob/develop/_assets/patches/geth/README.md) for more info.
+status-go is an underlying part of Status. It heavily depends on [go-ethereum](https://github.com/ethereum/go-ethereum) which is [forked](https://github.com/status-im/go-ethereum) and slightly modified by us.
 
 The project output can take several forms:
 
 - A cross-platform static library providing Status bindings for go-ethereum, ready to be used in other Go projects, or in [status-react](https://github.com/status-im/status-react) through [cgo](https://golang.org/cmd/cgo/).
 
-  **NOTE**: Normally `status-react` uses a precompiled version of `status-go`, but you can build a custom version of `status-go` to include in `status-react` (see how-to in [TODO]());
+  **NOTE**: Normally `status-react` uses a precompiled version of `status-go`, but you can build a custom version of `status-go` to include in `status-react` (see how-to in [Build Status Yourself](https://status.im/build_status/#Locally-built-status-go-dependency));
 - A command line interface, which can be used to run a full, LES or ULC node, with support for Whisper mailserver functionality;
 - A command line tool to test availability of a given Whisper mailserver (used to check uptime of the Status cluster).
 
@@ -20,6 +20,7 @@ The project output can take several forms:
 ### 1. Requirements
 
 - Go version 1.10;
+- Set `GOPATH`;
 - Docker (only if cross-compiling).
 
 ### 2. Clone the repository
@@ -41,10 +42,12 @@ make setup
 
 This script prepares and installs the following:
 
-- [mockgen](github.com/golang/mock/mockgen)
-- [go-bindata](github.com/kevinburke/go-bindata/go-bindata)
+- [dep](https://github.com/golang/dep/cmd/dep)
+- [mockgen](https://github.com/golang/mock/mockgen)
+- [go-bindata](https://github.com/kevinburke/go-bindata/go-bindata)
 - [golangci-lint](https://github.com/golangci/golangci-lint)
 - [protobuf compiler](https://github.com/protocolbuffers/protobuf)
+- [github-release](https://github.com/c4milo/github-release)
 
 ### 4. Build the statusd CLI
 
@@ -104,7 +107,7 @@ There are a few standard configuration files located in the [config/cli](https:/
 make statusgo-library
 ```
 
-This command will build a status-go library for the host platform under `build/bin/libstatus.a`. You can also cross compile for different platforms using the appropriate `make` commands, e.g. `make statusgo-android`, `make statusgo-linux`, etc. These will be built in a Docker container using `xgo`.
+This command will build a status-go library for the host platform under `build/bin/libstatus.a`. You can also cross compile for different platforms using the appropriate `make` commands, e.g. `make statusgo-android`, `make statusgo-linux`, etc. These will be built in a Docker container using `xgo`, which can be obtained by running `make xgo`.
 
 ### 6. Build a bootnode
 

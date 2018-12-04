@@ -156,6 +156,20 @@ If you need to test a mobile build with a custom locally built status-go depende
 
 NOTE: Desktop builds currently always download and build status-go locally.
 
+## Debugging tips
+
+### Inspecting app DB inside Clojure REPL
+
+E.g. if you want to check existing accounts in the device, run this function in the REPL:
+
+```clojure
+(get-in @re-frame.db.app-db [:accounts/accounts])
+```
+
+### Inspecting current app state in re-frisk web UI
+
+Assuming re-frisk is running in port 4567, you can just navigate to http://localhost:4567/ in a web browser to monitor app state and events.
+
 ## Troubleshooting
 
 ### I have issues compiling on Xcode 10

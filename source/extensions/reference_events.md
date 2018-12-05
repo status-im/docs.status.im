@@ -26,7 +26,7 @@ An event is defined by a name and an optional map of arguments.
 | chat.command/send-plaintext-message         | value :string |
 | chat.command/send-message         | params :map |
 | schedule/start         | interval :number, on-created :event, on-result :event |
-| chat.command/cancel         | value :number |
+| schedule/cancel         | value :number |
 | http/get           | url :string, timeout? :string, on-success :event, on-failure? :event |
 | http/post          | url :string, body :string, timeout? :string, on-success :event, on-failure? :event |
 | ipfs/cat          | hash :string, on-success :event, on-failure? :event |

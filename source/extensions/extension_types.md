@@ -5,7 +5,7 @@ title: Extension Types
 
 # Understand All the Different Typs
 
-Extension types are determined by the available [hooks](https://dev-docs.status.im/extensions/concept_hook.html).
+Extension types are determined by the available [hooks](https://docs.status.im/extensions/concept_hook.html).
 
 The first hook supported by Status is the chat command.
 
@@ -13,9 +13,9 @@ The first hook supported by Status is the chat command.
 
 ## Identifiers
 
-The root identifier for any chat command is `hooks/commands`. Use this to build a chat command extension.
+The root identifier for any chat command is `hooks/chat.command`. Use this to build a chat command extension.
 
-Each extension also requires a unique identifier, e.g. `hooks/commands.collectible`.
+Each extension also requires a unique identifier, e.g. `hooks/chat.command.collectible`.
 
 In the case of a chat command, the unique identifier is what a user is required to type (e.g. `/collectible`) in order to execute a command within a chat.
 
@@ -35,7 +35,7 @@ Once declared, a chat command requires the following properties to be mapped:
 This is declared like so:
 
 ```
-hooks/command.collectible
+hooks/chat.command.collectible
 {:description    "Send collectible"
 :scope            #{:personal-chats}
 :preview          [collectible-preview]

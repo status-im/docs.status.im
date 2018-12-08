@@ -147,6 +147,7 @@ extensions:
   build:  
     syntax: syntax.html
     extension_types: extension_types.html
+  tutorial:
     tutorial_chat_command: ../tutorials/extensions_chat_command.html
     tutorial_wallet_settings: ../tutorials/extensions_wallet_settings.html
   references:

@@ -148,6 +148,7 @@ extensions:
     syntax: syntax.html
     extension_types: extension_types.html
     tutorial_chat_command: ../tutorials/extensions_chat_command.html
+    tutorial_wallet_settings: ../tutorials/extensions_wallet_settings.html
   references:
     reference_views: reference_views.html
     reference_queries: reference_queries.html

@@ -174,8 +174,10 @@ sidebar:
     concepts: Key concepts
     build: Build
     syntax: Syntax
+    examples: Examples
     extension_types: Extension types
-    tutorial_chat_command: Tutorial
+    tutorial_chat_command: Tutorial chat command
+    tutorial_wallet_settings: Tutorial wallet settings
     references: References
     reference_views: Views
     reference_queries: Queries

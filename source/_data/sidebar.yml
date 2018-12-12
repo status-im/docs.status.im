@@ -155,5 +155,5 @@ extensions:
     reference_queries: reference_queries.html
     reference_events: reference_events.html
   create:
-    examples: examples.md
+    examples: examples.html
     create_your_own: play.html

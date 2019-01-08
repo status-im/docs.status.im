@@ -4,7 +4,7 @@ id: index
 title: Build Status Yourself
 ---
 
-# #Buidl Status Yourself and Participate in a Better Web
+# #Build Status Yourself and Participate in a Better Web
 
 ## The easiest way
 
@@ -113,7 +113,7 @@ In this case you have to do the following:
 * Execute:
 
   ```shell
-  make run-android`
+  make run-android
   ```
 
 Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that.

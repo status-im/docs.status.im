@@ -32,7 +32,7 @@ This will require either a Mac or Linux machine. We recommend using Ubuntu for L
 
 Building a decentralized app for different mobile environments, using different PCs and Operating Systems is an adventure. However, we have put everything we can into a simple script and detailed everything else we can think of [here](/build_status/).
 
-Ping us in the [#developers channel in Status](https://get.status.im/chat/public/status-core-developers) itself if you can't build Status following that guide.
+Ping us in the [#developers channel in Status](https://get.status.im/chat/public/status-core-devs) itself if you can't build Status following that guide.
 
 >If you're wanting to contribute to Embark it's best to go to [those specific docs](https://embark.status.im/). If you want to work on our smart contract and cryptoeconomic systems around Identity, Voting, ENS, Curation, and a bunch of other awesome things, then you can just start at Step 2.
 
@@ -57,7 +57,7 @@ If there's something you'd like to see included or fixed properly in Status, Des
 
 Search our repository for [relevant keywords](https://github.com/status-im/status-react/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+keyboard+android). The link provided demonstrates how to do so.
 
-Either comment on the issue related to your pet peeve, or create a new issue and ask for the info you need to start working on it. Best is to look at our [most active contributors](https://github.com/status-im/status-react/graphs/contributors), and tag one of them for more details. Alternatively, just ask in the [#developers channel in Status](https://get.status.im/chat/public/status-core-developers).
+Either comment on the issue related to your pet peeve, or create a new issue and ask for the info you need to start working on it. Best is to look at our [most active contributors](https://github.com/status-im/status-react/graphs/contributors), and tag one of them for more details. Alternatively, just ask in the [#developers channel in Status](https://get.status.im/chat/public/status-core-devs).
 
 Bugs or features listed as 'Assigned' are not usually a good place to start, unless you're sure you have something worthy to contribute. Even with no assignee, it is polite to check if someone has recently commented that they're looking at fixing the issue.
 
@@ -79,7 +79,7 @@ Once submitted, PRs are generally tracked through GitHub Project Boards. You can
 
 Otherwise, you can:
 
-*   Ask for help in a comment on the bug, or in #introduction or #developers in the [#developers channel in Status](https://get.status.im/chat/public/status-core-developers)
+*   Ask for help in a comment on the bug, or in #introduction or #developers in the [#developers channel in Status](https://get.status.im/chat/public/status-core-devs)
 
 ## Step 4: Get Your Code Reviewed
 

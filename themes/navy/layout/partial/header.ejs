@@ -4,7 +4,7 @@
         <%- include('shared-partials/partials/header-nav'); %>
     </div>
     <div class="header-right">
-        <a href="https://get.status.im/chat/public/status" class="button">Join Status Chat</a>
+        <a href="https://get.status.im/chat/public/status" class="button"><%= __('header_nav.join_chat') %></a>
     </div>
 </div>
 
@@ -13,26 +13,22 @@
         <a class="logo" href="<% url_for_lang('/')%>"></a>
         <a class="icon-close mobile-nav-close" href="#"></a>
         <ul class="mobile-nav">
-            <li><a href="https://our.status.im/">Blog</a></li>
-            <li><a href="<% url_for_lang('docs')%>">Docs</a></li>
+            <li><a href="https://our.status.im/"><%= __('header_nav.blog') %></a></li>
+            <li><a href="<% url_for_lang('docs')%>"><%= __('header_nav.docs') %></a></li>
             <li class="item--dropdown item--to-show">
-              <span>Projects</span>
+              <span><%= __('header_nav.projects') %></span>
               <ul class="mobile-sub-nav">
-                <li><a href="https://incubate.status.im/" class="">Incubate</a></li>
-                <li><a href="https://nimbus.status.im/" class="">Nimbus</a></li>
-                <li><a href="https://embark.status.im/" class="">Embark</a></li>
-                <li><a href="https://hardwallet.status.im/" class="">Keycard</a></li>
+                <li><a href="https://incubate.status.im/" class=""><%= __('footer.projects.incubate') %></a></li>
+                <li><a href="https://nimbus.status.im/" class=""><%= __('footer.projects.nimbus') %></a></li>
+                <li><a href="https://embark.status.im/" class=""><%= __('footer.projects.embark') %></a></li>
+                <li><a href="https://hardwallet.status.im/" class=""><%= __('footer.projects.keykard') %></a></li>
               </ul>
             </li>
-            <li><a href="<% url_for_lang('contribute')%>" class="">Contribute</a></li>
+            <li><a href="<% url_for_lang('contribute')%>" class=""><%= __('header_nav.contribute') %></a></li>
         </ul>
         <div class="mobile-nav-footer">
-            <a href="https://get.status.im/chat/public/status" class="button button--blue">Join Status Chat</a>
+            <a href="https://get.status.im/chat/public/status" class="button button--blue"><%= __('header_nav.join_chat') %></a>
         </div>
     </div>
     <div class="mobile-nav-overlay"></div>
 </div>
-
-<%- include('partial/shared-partials/partials/community-popup') %>
-
-<%- include('partial/shared-partials/partials/projects-popup') %>

@@ -15,6 +15,64 @@ page:
   next: Next
   last_updated: "Last updated: %s"
 
+footer:
+  address: Status Research & Development GmbH
+  join:
+    chat: Join the chat in Status
+    chat_desc: Whisper sweet, encrypted nothings on a distributed network that no-one owns.
+    discussion: Join the Discussion
+    discussion_desc: Join longer discussions, work in progress, and our research here.
+    contribute: Contribute to our Repos
+    contribute_desc: "Help us #build the future by getting involved in the most active code base in Ethereum."
+  nav:
+    open_positions: Open Positions
+    principles: Principles
+    get_status: Get Status
+  social:
+    more: More
+    facebook: Facebook
+    twitter: Twitter
+    riot: Riot
+    github: Github
+    reddit: Reddit
+    youtube: Youtube
+    links: Social links
+    doc: Status Docs
+    blog: Status Blog
+    jobs: Jobs
+    follow: Follow @ethstatus
+    fork: Fork
+    star: Star
+    privacy_policy: Privacy Policy
+  projects:
+    title: Projects
+    embark: Embark
+    keycard: Keycard
+    incubate: Incubate
+    nimbus: Nimbus
+
+header_nav:
+  app: App
+  blog: Blog
+  docs: Docs
+  projects: Projects
+  contribute: Contribute
+  community: Community
+  more: More
+  join_chat: Join Status Chat
+
+projects-popup:
+  statusphere: Statusphere
+  statusphere_description: Get involved in our community today, no matter who you are.
+  incubate_description: Incubate supports open source, early stage startups with funding, technical mentorship, legal and regulatory compliance and much more.
+  enable_everyone: Enable Everyone
+  keycard_description: A hardware wallet in the form of a card with a safe, contactless transaction experience.
+  nimbus_description: A research project and light client for Ethereum 2.0 designed to perform well on embedded systems and resource-restricted hardware.
+  embark_description: Embark is a simple and easy to use development framework that enables you to build and deploy your own decentralized applications smoothly.
+  help: "Help us #buidl"
+
+
+
 sidebar:
   docs:
     index: Technical Documentation
@@ -31,7 +89,7 @@ sidebar:
     tutorials: Learn More!
     guide: Guides
     guides: Start Contributing
-    analytics: Analytics  
+    analytics: Analytics
     analytics_status: Analysing Status
 
   build_status:
@@ -84,7 +142,7 @@ sidebar:
     secret: Do You Want To Know A Secret?
     extended_features: Extended Features
     dark_routing: Dark Routing
-    whisper_pss: Comparison with PSS 
+    whisper_pss: Comparison with PSS
     whisper_faqs: Whisper FAQs
     secure_messaging_compendium: Secure Messaging Compendium
     research_blog: Research Blog
@@ -115,24 +173,24 @@ sidebar:
     tutorials: Tutorials
     basic_cli: Whisper in Your CLI
 
-  audits: 
+  audits:
     audits: Audits
     introduction_audits: Status External Audits
-  
-  guides: 
+
+  guides:
     guides: Guides
     introduction_guides: Contribute More
     product: Product
     pm_guide: Product Managers' Guide
-    desktop: Desktop 
+    desktop: Desktop
     desktop_inline_eval: Clojure and Inline-Eval
     testing: Testing
     introduction_testing: How We Test
     report_a_bug: Report a Bug
     security: Security
     security_month: Security Month
-  
-  org_sec: 
+
+  org_sec:
     org: Organization
     introduction_organization: Policy and Procedure
     security_champions: Security Champions
@@ -159,7 +217,7 @@ sidebar:
     perks_benefits: Perks and Benefits
     applicant_privacy: Applicant Privacy
     apply_now: Applying to Status
-    open_positions: Open Positions 
+    open_positions: Open Positions
     working_status: Working at Status
     statusphere: The Statusphere
     our_principles: Our Principles

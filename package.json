@@ -8,9 +8,9 @@
   "scripts": {
     "clean": "rm -rf public/*",
     "build": "gulp run && hexo generate",
+    "index": "gulp index",
     "eslint": "eslint .",
     "deploy": "hexo deploy",
-    "index": "hexo elasticsearch",
     "update-submodules": "git submodule update --recursive --remote"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "d3-scale": "^1.0.4",
     "es6-promise": "^4.2.5",
     "gulp": "^3.9.1",
+    "gulp-run-command": "0.0.9",
     "hexo": "^3.7.1",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",

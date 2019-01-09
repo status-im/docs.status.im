@@ -6,6 +6,7 @@
 	background-image: url("../img/header_bg.svg");
 	background-repeat: no-repeat;
 	background-position-x: 70%;
+	background-position-y: center;
 	background-size: 18%;
 	flex-direction: column;
 }
@@ -13,7 +14,6 @@
 .docs-header-first-page {
 	background-image: none;
 }
-
 .docs-header h1 {
 	font-family: $InterUI;
 	font-weight: bold;
@@ -38,6 +38,10 @@
 	margin-bottom: -18px;
 	margin-top: 24px;
 	overflow: auto;
+}
+
+.docs-intro {
+	margin-left: 20px;
 }
 
 @media screen and (max-width: break-xl) {
@@ -87,10 +91,6 @@
 	
 	.docs-header li:nth-child(3n) {
 		margin-right: 24px;
-	}
-
-	.docs-intro {
-		margin-left: 20px;
 	}
 }
 

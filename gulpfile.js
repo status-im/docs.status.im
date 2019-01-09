@@ -1,21 +1,25 @@
-var gulp = require('gulp')
-var log = require('fancy-log')
-var source = require('vinyl-source-stream')
-var babelify = require('babelify')
-var watchify = require('watchify')
-var exorcist = require('exorcist')
-var browserify = require('browserify')
-var browserSync = require('browser-sync').create()
-var sass = require('gulp-sass')
-var imagemin = require('gulp-imagemin')
-var Hexo = require('hexo');
-var runSequence = require('run-sequence');
-var minify = require('gulp-minify');
-let cleanCSS = require('gulp-clean-css');
-var rename = require("gulp-rename");
+const gulp = require('gulp')
+const log = require('fancy-log')
+const source = require('vinyl-source-stream')
+const babelify = require('babelify')
+const watchify = require('watchify')
+const exorcist = require('exorcist')
+const browserify = require('browserify')
+const browserSync = require('browser-sync').create()
+const sass = require('gulp-sass')
+const imagemin = require('gulp-imagemin')
+const Hexo = require('hexo');
+const runSequence = require('run-sequence');
+const minify = require('gulp-minify');
+const cleanCSS = require('gulp-clean-css');
+const rename = require("gulp-rename");
+const run = require('gulp-run-command').default;
 
 const gen_qr = require('./scripts/gen-qr');
 const nightlies = require('./scripts/nightlies');
+
+/* this usallly comes as a parameter from Jenkinsfile */
+const env = process.env.ENV
 
 // generate html with 'hexo generate'
 var hexo = new Hexo(process.cwd(), {});
@@ -23,14 +27,14 @@ var hexo = new Hexo(process.cwd(), {});
 gulp.task('generate', function(cb) {
     hexo.init().then(function() {
         return hexo.call('generate', {
-            watch: false
+            config: `_config.${env}.yml`,
+            watch: false,
         });
     }).then(function() {
         return hexo.exit();
     }).then(function() {
         return cb()
-    }).catch(function(err) {
-        console.log(err);
+    }).catch(function(err) { console.log(err);
         hexo.exit(err);
         return cb(err);
     })
@@ -115,6 +119,8 @@ gulp.task('sass', function() {
         .pipe(gulp.dest(config.paths.dist.css))
         .pipe(browserSync.stream())
 })
+
+gulp.task('index', run(`hexo --config _config.${env}.yml elasticsearch`))
 
 gulp.task('watch', function() {
     gulp.watch(config.paths.src.scss, ['compress'])

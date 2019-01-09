@@ -19,14 +19,14 @@ First step is to create the skeleton extension with some relevant metadata:
 
 # Define entry point
 
-In this tutorial a chat command is created: it's specific id is `dtwitter` and the generic hook type for a chat command is `commands`.
+In this tutorial a chat command is created: it's specific id is `dtwitter` and the generic hook type for a chat command is `chat.command`.
 
 # Scope
 
 This chat command will be available for `personal-chats`.
 
 ```clojure
-{hooks/commands.collectible
+{hooks/chat.command.dtwitter
  {...
   :scope #{:personal-chats}} ;; Could be #{:personal-chats :group-chats}
 ```
@@ -36,7 +36,7 @@ This chat command will be available for `personal-chats`.
 The DTwitter chat command has 1 required parameters: the post id, of type text.
 
 ```clojure
-{hooks/commands.dtwitter
+{hooks/chat.command.dtwitter
  {...
   :parameters    [{:id          :id
                    :type        :text
@@ -118,7 +118,7 @@ Our preview definition displays some details about a dtwitt and allows to upvote
  (let [{{id :id} :params} properties]
    [ethereum/call {:to "0x255ee755f4b88350ec6ddea5d193b11634dc7b95" :method "posts(uint256)" :params [id] :on-result [put-dtwitt]}])
  
- hooks/commands.dtwitter
+ hooks/chat.command.dtwitter
  {:description   "DTwitter vote"
   :scope         #{:personal-chats}
   :preview       [preview]

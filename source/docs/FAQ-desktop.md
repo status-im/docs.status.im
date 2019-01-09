@@ -27,6 +27,7 @@ To have gnome-keyring keychain working install following package:
 
 ``` bash
 sudo apt-get install libgnome-keyring0
+```
 
 Download AppImage; 
 if required, rename it to be exactly “Status.AppImage” (If you would have another name, app will start fresh without previously stored data).
@@ -94,12 +95,13 @@ Release builds do not log by default. When enabled logs can be found here:
 
 
 ### Linux 
-~/.local/share/Status/Status.log
-~/.local/share/Status/ethereum/mainnet_rpc/geth.log
+`~/.local/share/Status/Status.log`
+`~/.local/share/Status/ethereum/mainnet_rpc/geth.log`
 
 ### Windows
-%LOCALAPPDATA%\Status\Status.log
-%LOCALAPPDATA%\Status\ethereum\mainnet_rpc\geth.log
+`%LOCALAPPDATA%\Status\Status.log`
+`%LOCALAPPDATA%\Status\ethereum\mainnet_rpc\geth.log`
+
 
 ## Where is feature X from mobile?
 

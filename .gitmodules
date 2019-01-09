@@ -1,3 +1,3 @@
 [submodule "themes/navy/layout/partial/shared-partials"]
 	path = themes/navy/layout/partial/shared-partials
-	url = git@github.com:status-im/status.im-partials.git
+	url = https://github.com/status-im/status.im-partials.git

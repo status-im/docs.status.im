@@ -52,3 +52,9 @@ id: index
 and then create the appropriate `extensions.swig` layout file in `themes/navy/layout`. `.swig` files are _exactly_ like html - so just write html in there and don't stress.
 
 Unfortunately, adding subdirectories within subdirectories like `status.im/security/guides` doesn't really work right now if you want to have a sidebar too, because it routes you to the wrong place. This could be the subject of a bounty.
+
+## Search Cluster
+
+For providing search an [ElasticSearch](https://www.elastic.co/products/elasticsearch) cluster is used, which is available at https://search.status.im/.
+
+For more information see our [article on the Search Cluster](https://github.com/status-im/infra-docs/blob/master/articles/search_cluster.md).

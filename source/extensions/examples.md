@@ -15,7 +15,7 @@ Hello world with button and use of storage: ([Modify](https://status.im/extensio
 
 DTwitter: ([Modify](https://status.im/extensions/play.html?hash=QmZjmcwcsUefSpxnR6qqELEQTrU7xS612qxsaoBwRu1QAC), [Install](https://get.status.im/extension/ipfs@QmZjmcwcsUefSpxnR6qqELEQTrU7xS612qxsaoBwRu1QAC))
 
-Ethereum logs tests: ([Modify](https://status.im/extensions/play.html?hash=Qmb7opEFGGTrjo6mt5DxjfZUJFLKEDFsTVsfb7LyTv7sxp), [Install](https://get.status.im/extension/ipfs@Qmb7opEFGGTrjo6mt5DxjfZUJFLKEDFsTVsfb7LyTv7sxp))
+Ethereum logs tests: ([Modify](https://status.im/extensions/play.html?hash=QmaKKKUgDsJKQJ5Q9BJg8V1SRDhhiKbyyQycoExF3eehUZ), [Install](https://get.status.im/extension/ipfs@QmaKKKUgDsJKQJ5Q9BJg8V1SRDhhiKbyyQycoExF3eehUZ))
 
 Status Principles: ([Modify](https://status.im/extensions/play.html?hash=QmcfsYnFvKXApcFTCNttpQvQKYxiMCqVx5MvsocFyrr2KA), [Install](https://get.status.im/extension/ipfs@QmcfsYnFvKXApcFTCNttpQvQKYxiMCqVx5MvsocFyrr2KA))
 

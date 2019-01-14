@@ -7,26 +7,28 @@ title: Build Desktop
 
 ## Prerequisites
 
-You will need the following tools installed:
-  - Clojure CLI tool `clj` https://clojure.org/guides/getting_started#_installation_on_mac_via_code_brew_code
-  - Node.js v.10.14.0
-  - yarn 1.12.3 (can be installed via `npm install -g yarn@1.12.3`)
-  - CMake 3.1.0 or higher
-  - Additional packages: `extra-cmake-modules`; Keychain access on `Linux` requires `libgnome-keyring0`.
-    - Linux: `sudo apt install extra-cmake-modules libgnome-keyring0`
-    - MacOS: `brew install kde-mac/kde/kf5-extra-cmake-modules`
-  - Linux and MacOS:
-    - Qt 5.11.2 or higher. You'll only need macOS and QtWebEngine components installed. 
-      - Linux: Qt 5.11.2 is available here: https://download.qt.io/archive/qt/5.11/5.11.2/qt-opensource-linux-x64-5.11.2.run
+You will need the following tools installed (running `make setup` is the preferred way to install prerequisites, as it will ensure you have the versions specified in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file):
+
+- Clojure CLI tool `clj` https://clojure.org/guides/getting_started#_installation_on_mac_via_code_brew_code
+- Node.js
+- yarn (can be installed via `npm install -g yarn`)
+- CMake 3.1.0 or higher
+- Additional packages: `extra-cmake-modules`; Keychain access on `Linux` requires `libgnome-keyring0`.
+  - Linux: `sudo apt install extra-cmake-modules libgnome-keyring0`
+  - MacOS: `brew install kde-mac/kde/kf5-extra-cmake-modules`
+- Linux and MacOS:
+  - Qt 5.11.2 or higher. You'll only need macOS and QtWebEngine components installed.
+    - Linux: Qt 5.11.2 is available here: https://download.qt.io/archive/qt/5.11/5.11.2/qt-opensource-linux-x64-5.11.2.run
 
 ## Qt setup (Linux and MacOS only)
 
-Set Qt's environment variables: 
-  - set `QT_PATH` to point to the location of Qt's distribution. It should not end with a slash.
-	- On MacOS and Linux: `export QT_PATH=/Users/<user_name>/Qt/5.11.2`
-  - add path to qmake to `PATH` environment variable via 
-    - On MacOS: `export PATH=<QT_PATH>/clang_64/bin:$PATH`
-    - On Linux: `export PATH=<QT_PATH>/gcc_64/bin:$PATH`
+Set Qt's environment variables:
+
+- set `QT_PATH` to point to the location of Qt's distribution. It should not end with a slash.
+  - On MacOS and Linux: `export QT_PATH=/Users/<user_name>/Qt/5.11.2`
+- add path to qmake to `PATH` environment variable via
+  - On MacOS: `export PATH=<QT_PATH>/clang_64/bin:$PATH`
+  - On Linux: `export PATH=<QT_PATH>/gcc_64/bin:$PATH`
 
 # Building a release package
 
@@ -68,16 +70,17 @@ npm install -g
 
 ## Notes
 
-  - in order to run multiple Status Desktop instances, please specify values for the `REACT_SERVER_PORT`, `STATUS_NODE_PORT`, `STATUS_DATA_DIR` environment variables:
+- in order to run multiple Status Desktop instances, please specify values for the `REACT_SERVER_PORT`, `STATUS_NODE_PORT`, `STATUS_DATA_DIR` environment variables:
 
   ```bash
   export REACT_SERVER_PORT=5001 # any value different from default 5000 will work; this has to be specified for both the Node.JS server process and the Qt process
   export STATUS_NODE_PORT=12345 # no need to specify this if just running dev instance alongside release build
   export STATUS_DATA_DIR=~/status-files/data1 # this is where Realm data files, Geth node data, and logs will reside; also not strictly needed for dev alongside release
   ```
+
   Please be sure to run the instance with default parameters (without any explicit specification of variables above) first, as otherwise it will kill `ubuntu-server` processes that belong to other instances.
 
-  - for complete cleanup of generated files and Realm data, issue:
+- for complete cleanup of generated files and Realm data, issue:
 
   ```bash
   git clean -fdx

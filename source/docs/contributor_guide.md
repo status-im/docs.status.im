@@ -79,7 +79,7 @@ Once submitted, PRs are generally tracked through GitHub Project Boards. You can
 
 Otherwise, you can:
 
-*   Ask for help in a comment on the bug, or in #introduction or #developers in the [#developers channel in Status](https://get.status.im/chat/public/status-core-devs)
+*   Ask for help in a comment on the bug, or in #introduction or in the [#status-core-devs channel in Status](https://get.status.im/chat/public/status-core-devs)
 
 ## Step 4: Get Your Code Reviewed
 

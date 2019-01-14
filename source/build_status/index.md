@@ -35,17 +35,19 @@ This script prepares and installs the following:
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
 * Node.js (see note below)
-* yarn 1.12.3
+* yarn
 * React Native CLI and Watchman
 * Android SDK
-* Android NDK r10e (under `~/Android/Sdk/`)
+* Android NDK (under `~/Android/Sdk/`)
 * Maven
 * Cocoapods
 
 *Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
 
-*Note 2:* If you don't have `nvm`, `node@10` will be installed from Homebrew.
+*Note 2:* If you don't have `nvm`, `node` will be installed from Homebrew.
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
+
+*Note 3:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file. On Homebrew (MacOS) the scripts will attempt to upgrade/downgrade as required to ensure the environment matches the requirements.
 
 ## Running development processes
 
@@ -53,7 +55,7 @@ After you installed all the dependencies, you need to run two processes — the 
 
 ### 1. Build process
 
-Just run **one of these commands** in the first terminal window:
+Just run **one** of these commands in the first terminal window:
 
 ```shell
 make startdev-ios-simulator

@@ -34,6 +34,7 @@ This script prepares and installs the following:
 * Homebrew
 * Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
 * Clojure and Leiningen
+* nvm (see note below)
 * Node.js (see note below)
 * yarn
 * React Native CLI and Watchman
@@ -44,7 +45,7 @@ This script prepares and installs the following:
 
 *Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
 
-*Note 2:* If you don't have `nvm`, `node` will be installed from Homebrew.
+*Note 2:* If you don't have `nvm` nor `node`, `nvm` will be installed, and then used to install the required version of `node`.
 If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
 
 *Note 3:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file. On Homebrew (MacOS) the scripts will attempt to upgrade/downgrade as required to ensure the environment matches the requirements.
@@ -131,9 +132,7 @@ Check the following docs if you still have problems:
 ### Node.js
 
 There are several ways of installing Node.js on your machine.
-One of the most convenient and easy is by using [Node Version Manager (nvm)](https://github.com/creationix/nvm). However, our setup script installs `node` from Homebrew if `nvm` is not installed on your machine.
-
-That's why we suggest installing `nvm` first if you want to have a more flexible development environment.
+One of the most convenient and easy is by using [Node Version Manager (nvm)](https://github.com/creationix/nvm). Our setup script installs `nvm` if needed and `node` is not found on your system.
 
 If `nvm` is already installed, `make setup` simply does the following:
 

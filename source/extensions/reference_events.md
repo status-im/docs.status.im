@@ -30,10 +30,10 @@ An event is defined by a name and an optional map of arguments.
 | http/get           | url :string, timeout? :string, on-success :event, on-failure? :event |
 | http/post          | url :string, body :string, timeout? :string, on-success :event, on-failure? :event |
 | ipfs/cat          | hash :string, on-success :event, on-failure? :event |
-| ethereum/send-transaction          | to :string, gas? :string, gas-price? :string, value? :string, method? :string, params? :vector, nonce? :string, on-result? :event |
-| ethereum/call          | to :string, method? :string, params? :vector, on-result? :event |
-| ethereum/logs          | fromBlock? :string, toBlock? :string, address? :vector, topics? :vector, blockhash? :string, on-result  :event |
-| ethereum/resolve-ens          | name :string, on-result :event |
+| ethereum/send-transaction          | to :string, gas? :string, gas-price? :string, value? :string, method? :string, params? :vector, nonce? :string, on-success  :event, on-failure? :event |
+| ethereum/call          | to :string, method :string, params? :vector, on-success  :event, on-failure? :event |
+| ethereum/logs          | from? :string, to? :string, address? :vector, topics? :vector, block-hash? :string, on-success  :event, on-failure? :event |
+| ethereum.ens/resolve          | name :string, on-success  :event, on-failure? :event |
 
 Example usage:
 

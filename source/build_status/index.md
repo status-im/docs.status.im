@@ -8,9 +8,14 @@ title: Build Status Yourself
 
 ## The easiest way
 
+### Prerequisites
+
+- Linux: git and make
+  - Run `sudo apt install git make` on the terminal
+
 ### 1. Clone the repository
 
-```shell
+```bash
 git clone https://github.com/status-im/status-react
 cd status-react
 ```
@@ -23,25 +28,27 @@ for macOS and Ubuntu Linux. If you use another Linux distribution, please, insta
 It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script.
 The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
 
-Just run this to install all dependencies:
+Just run this to install all dependencies (you might need to enter your account password). In order to make things as practical as possible, the script will auto-accept the Android SDK license agreements:
 
-```shell
+```bash
 make setup
 ```
 
-This script prepares and installs the following:
+At the end of the script, close the terminal and open a new one, so that the build environment is properly set up with your updated profile.
 
-* Homebrew
-* Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
-* Clojure and Leiningen
-* nvm (see note below)
-* Node.js (see note below)
-* yarn
-* React Native CLI and Watchman
-* Android SDK
-* Android NDK (under `~/Android/Sdk/`)
-* Maven
-* Cocoapods
+The `make setup` script prepares and installs the following:
+
+- Homebrew
+- Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
+- Clojure and Leiningen
+- nvm (see note below)
+- Node.js (see note below)
+- yarn
+- React Native CLI and Watchman
+- Android SDK (at `~/Android/Sdk/` on Linux and `/usr/local/share/android-sdk` on MacOS)
+- Android NDK (at `~/Android/Sdk/ndk` on Linux and `/usr/local/share/android-sdk/ndk` on MacOS)
+- Maven
+- Cocoapods
 
 *Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
 
@@ -58,7 +65,7 @@ After you installed all the dependencies, you need to run two processes — the 
 
 Just run **one** of these commands in the first terminal window:
 
-```shell
+```bash
 make startdev-ios-simulator
 make startdev-ios-real
 make startdev-android-avd
@@ -70,14 +77,14 @@ By doing this you will start the compilation of ClojureScript sources and run re
 
 For additional information check the following:
 
-* [clj-rn](https://github.com/status-im/clj-rn);
-* [re-frisk](https://github.com/flexsurfer/re-frisk).
+- [clj-rn](https://github.com/status-im/clj-rn);
+- [re-frisk](https://github.com/flexsurfer/re-frisk).
 
 ### 2. React Native packager
 
 Do this in the second terminal window:
 
-```shell
+```bash
 make react-native
 ```
 
@@ -87,7 +94,8 @@ make react-native
 
 Just execute
 
-```shell
+```bash
+make prepare-ios # first time only, or whenever you switch target platforms
 make run-ios
 ```
 
@@ -100,32 +108,34 @@ You can also start XCode and run the application there. Execute `open ios/Status
 
 ### Android
 
-Installation script installs Android NDK, but you still need to install Android SDK manually to build and run Status on Android.
+Installation script installs Android SDK (if your environment doesn't define `ANDROID_SDK_ROOT`) and Android NDK.
 
-The easiest way to do this is to install Android Studio — it will install almost everything for you.
+Should you run into any issues getting the Android SDK set up, then you need to install it yourself. The easiest way to do this is to install Android Studio — it will install almost everything for you.
 There is a difficult way for those who don't want/need Android Studio.
 
 In this case you have to do the following:
 
-* Install Android SDK from you package manager (`brew install android-sdk`, `sudo apt-get install android-sdk`, ...) or download it manually [here](https://developer.android.com/studio/#downloads);
-* Add several env variables to your profile (.bashrc, .zshrc, ...) — installer should say what are these variables and their values;
-* Run `android update sdk --no-ui` to update SDKs;
-* Run `sdkmanager` from your machine and install the latest Android SDKs;
-* *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
-* *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
-* Execute:
+- Install Android SDK from you package manager (`brew install android-sdk`, `sudo apt-get install android-sdk`, ...) or download it manually [here](https://developer.android.com/studio/#downloads);
+- Add several env variables to your profile (.bashrc, .zshrc, ...) — installer should say what are these variables and their values;
+- Run `android update sdk --no-ui` to update SDKs;
+- Run `sdkmanager` from your machine and install the latest Android SDKs;
+- *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
+- *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
 
-  ```shell
+Once Android SDK is set up, execute:
+
+  ```bash
+  make prepare-android # first time only, or whenever you switch target platforms
   make run-android
   ```
 
-Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that.
+_Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that._
 
 Check the following docs if you still have problems:
 
-* [macOS](https://gist.github.com/patrickhammond/4ddbe49a67e5eb1b9c03);
-* [Ubuntu Linux](https://gist.github.com/zhy0/66d4c5eb3bcfca54be2a0018c3058931);
-* [Arch Linux](https://wiki.archlinux.org/index.php/android) (can also be useful for other Linux distributions).
+- [macOS](https://gist.github.com/patrickhammond/4ddbe49a67e5eb1b9c03);
+- [Ubuntu Linux](https://gist.github.com/zhy0/66d4c5eb3bcfca54be2a0018c3058931);
+- [Arch Linux](https://wiki.archlinux.org/index.php/android) (can also be useful for other Linux distributions).
 
 ## Optional: Advanced build notes
 
@@ -136,7 +146,7 @@ One of the most convenient and easy is by using [Node Version Manager (nvm)](htt
 
 If `nvm` is already installed, `make setup` simply does the following:
 
-```shell
+```bash
 nvm install 10
 nvm alias status-im 10
 nvm use status-im
@@ -185,7 +195,7 @@ error: Build input file cannot be found:
 
 To fix similar errors run the following commands:
 
-```shell
+```bash
 make clean
 
 cd ios
@@ -205,7 +215,7 @@ Some developers see the error `Exception in thread "main" java.lang.NoSuchFieldE
 
 This happens when you are running an earlier version of Clojure that is incompatible with `cljs.build.api`. The solution is to upgrade to the latest version of Clojure. E.g., for macOS
 
-```shell
+```bash
 $ brew upgrade clojure
 ==> Upgrading 1 outdated package:
 clojure 1.9.0.302 -> 1.9.0.397

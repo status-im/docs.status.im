@@ -53,7 +53,7 @@
                     <div class="nightly-builds-wrap">
                         <div class="box-desktop">
                             <h2>Linux</h2>
-                            <a href="<%= site.data.nightlies['APP'] %>" class="nightly-download" id="app" download>
+                            <a href="<%= site.data.nightlies['APP'] %>" class="app-download" id="nightly:app" download>
                                 <img src="../nightly/img/linux.png" width="150" />
                                 <br><br>
                                 <span><%= site.data.nightlies['APP'].split('/').pop() %></span>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="box-desktop">
                             <h2>macOS</h2>
-                            <a href="<%= site.data.nightlies['MAC'] %>" class="nightly-download" id="mac" download>
+                            <a href="<%= site.data.nightlies['MAC'] %>" class="app-download" id="nightly:mac" download>
                                 <img src="../nightly/img/macos.png" width="150" />
                                 <br><br>
                                 <span><%= site.data.nightlies['MAC'].split('/').pop() %></span>
@@ -70,7 +70,7 @@
                         <div class="clear"></div>
                         <div class="box-desktop">
                             <h2>Windows</h2>
-                            <a href="<%= site.data.nightlies['WIN'] %>" class="nightly-download" id="win" download>
+                            <a href="<%= site.data.nightlies['WIN'] %>" class="app-download" id="nightly:win" download>
                                 <img src="../nightly/img/windows.png" width="150" />
                                 <br><br>
                                 <span><%= site.data.nightlies['WIN'].split('/').pop() %></span>
@@ -79,7 +79,7 @@
                         <div class="clear"></div>
                         <div class="box-mobile">
                             <h2>Android</h2>
-                            <a href="<%= site.data.nightlies['APK'] %>" class="nightly-download" id="apk" download>
+                            <a href="<%= site.data.nightlies['APK'] %>" class="app-download" id="nightly:apk" download>
                                 <img src="../nightly/img/qr-apk.png" width="150" />
                                 <br><br>
                                 <span><%= site.data.nightlies['APK'].split('/').pop() %></span>
@@ -87,7 +87,7 @@
                         </div>
                         <div class="box-mobile">
                             <h2>iOS</h2>
-                            <a href="<%= site.data.nightlies['IOS'] %>" class="nightly-download" id="ios" download>
+                            <a href="<%= site.data.nightlies['IOS'] %>" class="app-download" id="nightly:ios" download>
                                 <img src="../nightly/img/qr-ios.png" width="150px" />
                                 <br><br>
                                 <span><%= site.data.nightlies['IOS'] %></span>
@@ -104,4 +104,4 @@
     </div>
   </div>
 </div>
-<script defer src="./nightly_downloads_counter.js"></script>
+<script defer src="../app_downloads_counter.js"></script>

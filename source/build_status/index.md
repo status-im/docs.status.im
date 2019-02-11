@@ -73,7 +73,7 @@ make startdev-android-genymotion
 make startdev-android-real
 ```
 
-By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging).
+By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging). You should wait until it shows you `Prompt will show when Figwheel connects to your application` before running the React Native packager.
 
 For additional information check the following:
 
@@ -162,8 +162,8 @@ for the build process — just make sure that `ANDROID_SDK_ROOT` points to a rig
 If you need to test a mobile build with a custom locally built status-go dependency, you can build it by following this process:
 
 1. Ensure the `STATUS_GO_HOME` environment variable is set to the path of your local status-go repo (see [Build status-go](https://status.im/build_status/status_go.html) page for more information on requirements);
-1. From the root of the status-react repo, run `scripts/bundle-status-go.sh <platform>`, where `platform` can be `android` or `ios`;
-1. This will generate a build artifact under the status-react repo, and will be considered prioritary in the dependencies until it is deleted (e.g. by running `make clean` or `make prod-build`).
+2. From the root of the status-react repo, run `scripts/bundle-status-go.sh <platform>`, where `platform` can be `android` or `ios`;
+3. This will generate a build artifact under the status-react repo, and will be considered prioritary in the dependencies until it is deleted (e.g. by running `make clean` or `make prod-build`).
 
 NOTE: Desktop builds currently always download and build status-go locally.
 
@@ -196,8 +196,6 @@ error: Build input file cannot be found:
 To fix similar errors run the following commands:
 
 ```bash
-make clean
-
 cd ios
 pod update
 cd ..

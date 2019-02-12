@@ -29,6 +29,8 @@ sidebar:
     run_status_node: Run a Status Node
     tutorial: Tutorials
     tutorials: Learn More!
+    keycard: Keycard
+    api: API
     guide: Guides
     guides: Start Contributing
     analytics: Analytics  
@@ -69,6 +71,44 @@ sidebar:
     fiddle: Status Fiddle
     status_storybook: Storybook
     storybook: Status React Storybook
+
+  keycard:
+    overview: Overview
+    applet_installation: Preparing the card
+    resources: Resources
+    java_sdk: Java SDK
+    sdk_installation: Installation
+    sdk_connection: Connecting the card
+    sdk_preparation: Working with the applet
+    sdk_securechannel: Secure Channel
+    sdk_authentication: User authentication
+    sdk_create_wallet: Wallet creation
+    sdk_derivation_sign: Derivation & signing
+    sdk_export: Exporting keys
+    sdk_duplication: Card duplication
+    apdu: Protocol
+    apdu_overview: Ovierview
+    apdu_changelog: Changelog
+    apdu_select: SELECT
+    apdu_init: INIT
+    apdu_opensecurechannel: OPEN SECURE CHANNEL
+    apdu_mutuallyauthenticate: MUTUALLY AUTHENTICATE
+    apdu_pair: PAIR
+    apdu_unpair: UNPAIR
+    apdu_getstatus: GET STATUS
+    apdu_setndef: SET NDEF
+    apdu_verifypin: VERIFY PIN
+    apdu_changepin: CHANGE PIN
+    apdu_unblockpin: UNBLOCK PIN
+    apdu_loadkey: LOAD KEY
+    apdu_derivekey: DERIVE KEY
+    apdu_generatemnemonic: GENERATE MNEMONIC
+    apdu_removekey: REMOVE KEY
+    apdu_generatekey: GENERATE KEY
+    apdu_duplicatekey: DUPLICATE KEY
+    apdu_sign: SIGN
+    apdu_setpinlesspath: SET PINLESS PATH
+    apdu_exportkey: EXPORT KEY
 
   tutorials:
     whisper: Whisper

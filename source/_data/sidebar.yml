@@ -9,6 +9,8 @@ docs:
     send_transaction_flow: send_transaction_flow.html
   status_node:
     run_status_node: run_status_node.html
+  keycard:
+    api: ../keycard_api/
   tutorial:
     tutorials: ../tutorials/
   guide:
@@ -57,6 +59,45 @@ tutorials:
     whisper_embark: whisper_embark.html
   extensions:
     extensions_chat_command: extensions_chat_command.html
+
+keycard_api:
+  getting_started:
+    overview: index.html
+    applet_installation: applet_installation.html
+    resources: resources.html
+  java_sdk:
+    sdk_installation: sdk_installation.html
+    sdk_connection: sdk_connection.html
+    sdk_preparation: sdk_preparation.html
+    sdk_securechannel: sdk_securechannel.html
+    sdk_authentication: sdk_authentication.html
+    sdk_create_wallet: sdk_create_wallet.html
+    sdk_derivation_sign: sdk_derivation_sign.html
+    sdk_export: sdk_export.html
+    sdk_duplication: sdk_duplication.html
+  apdu:
+    apdu_overview: apdu_overview.html
+    apdu_changelog: apdu_changelog.html
+    apdu_select: apdu_select.html
+    apdu_init: apdu_init.html
+    apdu_opensecurechannel: apdu_opensecurechannel.html
+    apdu_mutuallyauthenticate: apdu_mutuallyauthenticate.html
+    apdu_pair: apdu_pair.html
+    apdu_unpair: apdu_unpair.html
+    apdu_getstatus: apdu_getstatus.html
+    apdu_setndef: apdu_setndef.html
+    apdu_verifypin: apdu_verifypin.html
+    apdu_changepin: apdu_changepin.html
+    apdu_unblockpin: apdu_unblockpin.html
+    apdu_loadkey: apdu_loadkey.html
+    apdu_derivekey: apdu_derivekey.html
+    apdu_generatemnemonic: apdu_generatemnemonic.html
+    apdu_removekey: apdu_removekey.html
+    apdu_generatekey: apdu_generatekey.html
+    apdu_duplicatekey: apdu_duplicatekey.html
+    apdu_sign: apdu_sign.html
+    apdu_setpinlesspath: apdu_setpinlesspath.html
+    apdu_exportkey: apdu_exportkey.html
 
 research:
   whisper: 

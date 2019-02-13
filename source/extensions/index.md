@@ -4,6 +4,8 @@ title: Status Extensions
 layout: extensions
 ---
 
+ _DISCLAIMER_ Extensions are alpha quality and offered for the brave to play with. Feedback is always encouraged, reach us on #status-core-dapps public channel.
+
 # What are extensions?
 
 Extensions are a tool for developers to integrate DApp functionality with Status in a native way.

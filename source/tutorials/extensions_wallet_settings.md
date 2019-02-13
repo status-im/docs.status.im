@@ -64,7 +64,7 @@ When clicked, the optional wallet settings `on-click` event will be executed.
    )
  
  hooks/wallet.settings
- {:label    "Hello"
-  :view     [settings-view]
-  :on-click [preload]}}
+ {:label   "Hello"
+  :view    [settings-view]
+  :on-open [preload]}}
 ```

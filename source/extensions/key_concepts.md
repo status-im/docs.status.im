@@ -5,15 +5,15 @@ title: Key Concepts
 
 # Understand All the Important Details
 
-Every extension begins with a [hook](hook) into some part of the Status application. Status is the `host` application, and hooks define which of the host's capabilities can be extended.
+Every extension begins with a [hook](https://status.im/extensions/extension_types.html) into some part of the Status application. Status is the `host` application, and hooks define which of the host's capabilities can be extended.
 
 These hooks expose certain Status primitives for developers to customize with their own logic and UI.
 
 By implementing one or multiple hooks, developers can access:
 
-- [Views](views) to create native UI. Views are comprised of nestable _components_, e.g. `text`, `lists`, `images`, etc.
-- [Queries](queries) to access local host data, e.g. `contacts`, `contact code`, etc. 
-- [Events](events) to interact with the host environment, e.g. `create a contact`, `scan a QR code`, `send a message`, etc.
+* [Views](https://status.im/extensions/reference_views.html) to create native UI. Views are comprised of nestable _components_, e.g. `text`, `lists`, `images`, etc.
+* [Queries](https://status.im/extensions/reference_queries.html) to access local host data, e.g. `contacts`, `contact code`, etc. 
+* [Events](https://status.im/extensions/reference_events.html) to interact with the host environment, e.g. `create a contact`, `scan a QR code`, `send a message`, etc.
 
 ### Relationship between primitives
 

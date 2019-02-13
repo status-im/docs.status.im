@@ -185,6 +185,7 @@ extensions:
   extensions:
     introduction: index.html
     concepts: key_concepts.html
+    workflow: workflow.html
   build:  
     syntax: syntax.html
     extension_types: extension_types.html

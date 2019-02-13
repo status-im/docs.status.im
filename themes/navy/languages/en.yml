@@ -213,6 +213,7 @@ sidebar:
     extensions: Introduction
     introduction: What are extensions?
     concepts: Key concepts
+    workflow: Workflow
     build: Build
     syntax: Syntax
     examples: Examples

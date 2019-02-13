@@ -13,10 +13,10 @@ EDN extends JSON by introducing syntax for extra data structures. Those can be l
 
 The main elements of this syntax are:
 
-* Maps: `{}`
-* Vectors: `[]`
-* Symbols: `symbol`, with namespace: `namespace/symbol`
-* Keywords: `:keyword`
+* Maps     `{}`
+* Vectors  `[]`
+* Symbols  `symbol`, with namespace: `namespace/symbol`
+* Keywords `:keyword`
 
 In practice:
 
@@ -28,9 +28,9 @@ In practice:
 
 ## Hook syntax
 
-Each [hook type](Extension types) requires specific details to be mapped and declared according to the hook's specifications. 
+Each [hook type](https://status.im/extensions/extension_types.html) requires specific details to be mapped and declared according to the hook's specifications. 
 
-To learn about the available hooks and their specifications, see [extension types](extension types).
+To learn about the available hooks and their specifications, see [extension types](https://status.im/extensions/extension_types.html).
 
 This map is associated to a unique identifier, which follows the hook's root identifier.
 
@@ -54,7 +54,7 @@ If the unique ID is _not_ unique, it will not be operable for some users.
 
 Views are used to define the UI components of an extension. 
 
-The syntax follows the [Hiccup format]((https://github.com/weavejester/hiccup/wiki/Syntax)) and is semantically similar to HTML. 
+The syntax follows the [Hiccup format](https://github.com/weavejester/hiccup/wiki/Syntax)) and is semantically similar to HTML. 
 
 It makes it possible to declare UI in EDN as a tree of components.
 
@@ -64,7 +64,7 @@ It makes it possible to declare UI in EDN as a tree of components.
  [text {:style {:color "red"}} "World"]]
 ```
 
-See the list of available [view components]().
+See the list of available [view components](https://status.im/extensions/reference_views.html).
 
 ## Blocks
 

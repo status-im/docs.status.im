@@ -3,9 +3,7 @@ id: extension_types
 title: Extension Types
 ---
 
-# Understand All the Different Typs
-
-Extension types are determined by the available [hooks](https://docs.status.im/extensions/concept_hook.html).
+Extension types are determined by the available hooks.
 
 The first hooks supported by Status are `chat command` and `wallet settings`.
 
@@ -30,20 +28,21 @@ Once declared, a chat command requires the following properties to be mapped:
 - Preview
 - Short preview
 - Parameters
-- _Optional_: `on-send` and `on-receive`
+- _Optional_: `on-send`, `on-send-sync` and `on-receive`
 
 This is declared like so:
 
 ```
 hooks/chat.command.collectible
-{:description    "Send collectible"
-:scope            #{:personal-chats}
-:preview          [collectible-preview]
-:short-preview    [collectible-short-preview]
-:on-send          [send-collectible]
-:parameters       [{:id            :id
-                    :type          :text
-                    :placeholder   "Collectible name"}]}
+{:description   "Send collectible"
+ :scope         #{:personal-chats}
+ :preview       [collectible-preview]
+ :short-preview [collectible-short-preview]
+ :on-send       [send-collectible]
+ :parameters
+ [{:id          :id
+   :type        :text
+   :placeholder "Collectible name"}]}
 ```
 
 ## Scope
@@ -73,33 +72,41 @@ A developer can customize previews using the syntax described for defining a vie
 Previews also come with an injected payload, accessible via a `properties` symbol:
 
 ```
-{:incoming-group false
- :message-id 0x..
- :last? true
- :current-public-key 0x...
- :content {:command-path [collectible #{:personal-chats}]
-           :params {:collectible-id    "CK"}}
- :display-photo? false
- :last-in-group? true
- :datemark today
- :show? true
- :message-type :user-message
- :clock-value 154020773584601
- :user-statuses {0x... {:chat-id ..., :message-id 0x..., :whisper-identity 0x..., :status :sending}}
- :first-in-group? true,
- :from 0x...
- :timestamp-str 1:28 PM
- :group-chat false
- :chat-id 0x...
- :content-type command
- :modal? false
- :last-outgoing? true
- :appearing? true
- :timestamp 1540207735840
- :display-username? false
- :outgoing true}
- ```
+{:incoming-group     false
+ :message-id         "0x.."
+ :last?              true
+ :current-public-key "0x..."
+ :content
+ {:command-path [collectible #{:personal-chats}]
+  :params       {:collectible-id "CK"}}
+ :display-photo?     false
+ :last-in-group?     true
+ :datemark           "today"
+ :show?              true
+ :message-type       :user-message
+ :clock-value        154020773584601
+ :user-statuses      {0x... {:chat-id ..., :message-id 0x..., :whisper-identity 0x..., :status :sending}}
+ :first-in-group?    true
+ :from               "0x..."
+ :timestamp-str      "1:28 PM"
+ :group-chat         false
+ :chat-id            "0x..."
+ :content-type       "command"
+ :modal?             false
+ :last-outgoing?     true
+ :appearing?         true
+ :timestamp          1540207735840
+ :display-username?  false
+ :outgoing           true}
+```
 
+ Depending on the chat type the payload also contains `contact` details:
+
+```
+{:contact  ""   ;; in 1-1 chats
+ :contacts [""] ;; in private group chats
+ ...}
+```
 
 ## Short preview
 
@@ -110,19 +117,28 @@ A developer can customize short previews using the syntax described for defining
 Short previews also come with an injected payload, accessible via a `properties` symbol:
 
 ```
-{:message-id 0x..., 
- :content {:command-path [collectible #{:personal-chats}]
-           :params {:collectible-id    "CK"}}
- :show? true
+{:message-id   "0x..." 
+ :content
+ {:command-path [collectible #{:personal-chats}]
+  :params      {:collectible-id "CK"}}
+ :show?        true
  :message-type :user-message
- :clock-value 154020622416101
- :from 0x...
- :chat-id 0x...
- :content-type command
- :appearing? true
- :timestamp 1540206224139
- :outgoing true}
- ```
+ :clock-value  154020622416101
+ :from         "0x..."
+ :chat-id      "0x..."
+ :content-type "command"
+ :appearing?   true
+ :timestamp    1540206224139
+ :outgoing     true}
+```
+
+ Depending on the chat type the payload also contains `contact` details:
+
+```
+{:contact  ""   ;; in 1-1 chats
+ :contacts [""] ;; in private group chats
+ ...}
+```
 
 ## Parameters
 
@@ -135,9 +151,10 @@ They can optionally include `suggestions` to cue the user with additional UI com
 Declare parameters like this:
 
 ```
-:parameters   [{:id            :collectible-id
-                :type          :text
-                :placeholder   "Collectible name"}]
+:parameters
+[{:id          :collectible-id
+  :type        :text
+  :placeholder "Collectible name"}]
 ```
 
 This example allows a user to select between their various collectibles, either by typing in the "Collectible name" or using the UI's suggestions.
@@ -149,10 +166,11 @@ Type can be one of `:text`, `:phone`, `:password` or `:number`. The keyboard lay
 A parameter can optionally include `suggestions` to cue the user with additional UI components.
 
 ```
-:parameters   [{:id            :collectible-id
-                :type          :text
-                :suggestions   [user-collectibles]
-                :placeholder   "Collectible name"}]
+:parameters
+[{:id          :collectible-id
+  :type        :text
+  :suggestions [user-collectibles]
+  :placeholder "Collectible name"}]
 ```
 
 This example allows a user to select between their various collectibles, either by typing in the "Collectible name" or using the UI's suggestions.
@@ -177,10 +195,11 @@ In the collectible example, `on-send` creates a transaction to move the collecti
 `on-send` and `on-receive` both come with the injected payload:
 
 ```
-{:chat-id 0x...     
- :content-type command
- :content {:command-path [collectible #{:personal-chats}]
-           :params {:collectible-id    "CK"}}}
+{:chat-id      "0x..."
+ :content-type "command"
+ :content
+ {:command-path [collectible #{:personal-chats}]
+  :params       {:collectible-id "CK"}}}
 ```
 
 ## on-send-sync
@@ -189,10 +208,9 @@ In the collectible example, `on-send` creates a transaction to move the collecti
 To send a message, use the `chat.command/send-message` or `chat.command/send-plain-text-message` events.
 
 ```
- events/on-send-sync
- (let [{{{title :title text :text} :params} :content} properties]
-   [chat.command/send-plain-text-message {:value "*${title}*\n${text}\nhttps://people-ops.status.im/status-principles/"}])
-
+events/on-send-sync
+(let [{{{title :title text :text} :params} :content} properties]
+  [chat.command/send-plain-text-message {:value "*${title}*\n${text}\nhttps://people-ops.status.im/status-principles/"}])
 ```
 
 Note that `on-send` is then ignored. Messages views still rely on `preview` and `short-preview`.
@@ -203,17 +221,20 @@ Wallet settings hook allow you to plug extra panels in the wallet. Those will be
 
 To implement a wallet settings you will need to provide the following properties:
 
-* label (the name that will be displayed in the wallet settings menu)
-* view (the view that will be displayed fullscreen)
-
+* `label` the name that will be displayed in the wallet settings menu
+* `view` the view that will be displayed fullscreen
+* `on-open` an event triggered when the view is about to be opened
+* `on-close` an event triggered when the view is about to be closed
 
 ```
- views/view
- [text "Hello"]
+views/view
+[text "Hello"]
  
- hooks/wallet.settings.hello
- {:label   "Test wallet settings"
-  :view    [view]}
+hooks/wallet.settings.hello
+{:label    "Test wallet settings"
+ :view     [view]
+ :on-open  [open]
+ :on-close [close]}
 ```
 
 You can find a simple example [here](https://status-im.github.io/pluto/try.html?hash=QmYnUj7v3UiP6X1YfRuhea5mXpjTGG1KKnCwFS4TKzKTpD)

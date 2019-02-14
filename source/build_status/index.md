@@ -10,8 +10,9 @@ title: Build Status Yourself
 
 ### Prerequisites
 
-- Linux: git and make
-  - Run `sudo apt install git make` on the terminal
+- Linux: `git`, `curl` and `make`
+  - Run `sudo apt install -y git curl make` on the terminal
+- macOS: Make sure you have `curl` installed
 
 ### 1. Clone the repository
 
@@ -22,40 +23,44 @@ cd status-react
 
 ### 2. Install the dependencies
 
-We created a special script that installs everything Status needs. However, this script works only
-for macOS and Ubuntu Linux. If you use another Linux distribution, please, install all dependencies manually (you can find the list below).
+We created a special script that leverages [Nix](https://nixos.org/nix) to install everything Status needs with minimal impact to the user's system. However, this script has only been tested on macOS and Ubuntu Linux 18.04. If it doesn't work for you on another Linux distribution, please install all dependencies manually (you can find the list below).
+In order to make things as practical as possible, the script will auto-accept the Android SDK license agreements.
 
-It's also better to make sure that you have [Node Version Manager](https://github.com/creationix/nvm) installed before running this script.
-The reason is simple — NVM provides much more flexibility and allows to have several NPM versions installed.
+If you're on NixOS, please run the following to ensure you have the necessary prerequisites available:
 
-Just run this to install all dependencies (you might need to enter your account password). In order to make things as practical as possible, the script will auto-accept the Android SDK license agreements:
+```bash
+nix-env --install git gnumake
+```
+
+**(Ignore this if you're on NixOS)** Just run this to install all dependencies (you might need to enter your account password, namely on Arch Linux):
 
 ```bash
 make setup
 ```
 
-At the end of the script, close the terminal and open a new one, so that the build environment is properly set up with your updated profile.
+At the end of the script, follow the instructions to ensure that Nix is properly set up on your system. From then on, in order to work with status-react, you need to be inside a Nix shell. You can get there by typing `make shell`.
 
-The `make setup` script prepares and installs the following:
+The `make shell` script prepares and installs the following:
 
-- Homebrew
-- Java 8 (from Homebrew on Mac and from `ppa:webupd8team/java` on Ubuntu)
+- Java 8
 - Clojure and Leiningen
-- nvm (see note below)
 - Node.js (see note below)
 - yarn
 - React Native CLI and Watchman
-- Android SDK (at `~/Android/Sdk/` on Linux and `/usr/local/share/android-sdk` on MacOS)
-- Android NDK (at `~/Android/Sdk/ndk` on Linux and `/usr/local/share/android-sdk/ndk` on MacOS)
+- Android SDK (at `~/.status/Android/Sdk/`)
+- Android NDK
 - Maven
 - Cocoapods
+- CMake and extra-cmake-modules
+- Go
+- Python 2.7
+- Conan (Linux-only)
+- unzip
+- wget
 
 *Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
 
-*Note 2:* If you don't have `nvm` nor `node`, `nvm` will be installed, and then used to install the required version of `node`.
-If you don't have `nvm` AND already have `node` installed on your machine then nothing will happen.
-
-*Note 3:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file. On Homebrew (MacOS) the scripts will attempt to upgrade/downgrade as required to ensure the environment matches the requirements.
+*Note 2:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file.
 
 ## Running development processes
 
@@ -106,21 +111,10 @@ You can also start XCode and run the application there. Execute `open ios/Status
 
 *Note:* Of course, you need to install XCode first in both cases. Just go to Mac AppStore to do this.
 
-*Note for XCode 10/macOS Mojave users*: as Status is built against React Native 0.56, it does not support a new build system that is used by default in XCode 10. This results in build errors when invoking `make run-ios`. In order to fix this, follow the advice given [here](https://github.com/facebook/react-native/issues/19573) and switch to the legacy build system. Open `ios/StatusIm.xcodeproj` project in Xcode, click on File->Project Settings, and there change the value in the `Build System` dropdown to `Legacy Build System`.
-
 ### Android
 
-Installation script installs Android SDK (if your environment doesn't define `ANDROID_SDK_ROOT`) and Android NDK.
+Installation script installs Android SDK and Android NDK (if they are not present in `~/Android/Sdk/`).
 
-Should you run into any issues getting the Android SDK set up, then you need to install it yourself. The easiest way to do this is to install Android Studio — it will install almost everything for you.
-There is a difficult way for those who don't want/need Android Studio.
-
-In this case you have to do the following:
-
-- Install Android SDK from you package manager (`brew install android-sdk`, `sudo apt-get install android-sdk`, ...) or download it manually [here](https://developer.android.com/studio/#downloads);
-- Add several env variables to your profile (.bashrc, .zshrc, ...) — installer should say what are these variables and their values;
-- Run `android update sdk --no-ui` to update SDKs;
-- Run `sdkmanager` from your machine and install the latest Android SDKs;
 - *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
 - *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
 
@@ -140,24 +134,6 @@ Check the following docs if you still have problems:
 - [Arch Linux](https://wiki.archlinux.org/index.php/android) (can also be useful for other Linux distributions).
 
 ## Optional: Advanced build notes
-
-### Node.js
-
-There are several ways of installing Node.js on your machine.
-One of the most convenient and easy is by using [Node Version Manager (nvm)](https://github.com/creationix/nvm). Our setup script installs `nvm` if needed and `node` is not found on your system.
-
-If `nvm` is already installed, `make setup` simply does the following:
-
-```bash
-nvm install 10
-nvm alias status-im 10
-nvm use status-im
-```
-
-### Custom Android SDK location
-
-Some developers prefer to use Android SDK integrated in Android Studio. Of course, it doesn't matter
-for the build process — just make sure that `ANDROID_SDK_ROOT` points to a right location and you have all the SDKs installed.
 
 ### Locally built status-go dependency
 
@@ -187,7 +163,7 @@ Assuming re-frisk is running in port 4567, you can just navigate to http://local
 
 ### I have issues compiling on Xcode 10
 
-Some developers are experiencing errors compiling for iOS on Xcode 10 on MacOs Mojave:
+Some developers are experiencing errors compiling for iOS on Xcode 10 on macOS Mojave:
 
 ```txt
 error: Build input file cannot be found:
@@ -208,15 +184,3 @@ cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-config
 ```
 
 Now you should be able to compile again. The issue reference is [here](ttps://github.com/facebook/react-native/issues/21168#issuecomment-422431294).
-
-### I get a compilation error when running `clj -R:dev build.clj watch`
-
-Some developers see the error `Exception in thread "main" java.lang.NoSuchFieldError: VAR, compiling:((..)/status-react/build.clj:1:1)` when running the `clj -R:dev buid.clj watch` command (e.g., via `make startdev-android-avd`).
-
-This happens when you are running an earlier version of Clojure that is incompatible with `cljs.build.api`. The solution is to upgrade to the latest version of Clojure. E.g., for macOS
-
-```bash
-$ brew upgrade clojure
-==> Upgrading 1 outdated package:
-clojure 1.9.0.302 -> 1.9.0.397
-```

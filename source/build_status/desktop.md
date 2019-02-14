@@ -5,31 +5,6 @@ title: Build Desktop
 
 # Build Status Desktop for Yourself!
 
-## Prerequisites
-
-You will need the following tools installed (running `make setup` is the preferred way to install prerequisites, as it will ensure you have the versions specified in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file):
-
-- Clojure CLI tool `clj` https://clojure.org/guides/getting_started#_installation_on_mac_via_code_brew_code
-- Node.js
-- yarn (can be installed via `npm install -g yarn`)
-- CMake 3.1.0 or higher
-- Additional packages: `extra-cmake-modules`; Keychain access on `Linux` requires `libgnome-keyring0`.
-  - Linux: `sudo apt install extra-cmake-modules libgnome-keyring0`
-  - MacOS: `brew install kde-mac/kde/kf5-extra-cmake-modules`
-- Linux and MacOS:
-  - Qt 5.11.2 or higher. You'll only need macOS and QtWebEngine components installed.
-    - Linux: Qt 5.11.2 is available here: https://download.qt.io/archive/qt/5.11/5.11.2/qt-opensource-linux-x64-5.11.2.run
-
-## Qt setup (Linux and MacOS only)
-
-Set Qt's environment variables:
-
-- set `QT_PATH` to point to the location of Qt's distribution. It should not end with a slash.
-  - On MacOS and Linux: `export QT_PATH=/Users/<user_name>/Qt/5.11.2`
-- add path to qmake to `PATH` environment variable via
-  - On MacOS: `export PATH=<QT_PATH>/clang_64/bin:$PATH`
-  - On Linux: `export PATH=<QT_PATH>/gcc_64/bin:$PATH`
-
 # Building a release package
 
 Run the following commands to build a Desktop package for the host environment:
@@ -37,7 +12,9 @@ Run the following commands to build a Desktop package for the host environment:
 ``` bash
 git clone https://github.com/status-im/status-react.git
 cd status-react
-npm install -g react-native-cli
+make setup
+. ~/.nix-profile/etc/profile.d/nix.sh
+make shell
 make prepare-desktop
 make release-desktop
 ```
@@ -58,15 +35,19 @@ npm install -g
 ## To setup dev builds of status-react for Desktop
 
 1. Run the following commands:
+
     ``` bash
     git clone https://github.com/status-im/status-react.git
     cd status-react
-    make prepare-desktop
+    make setup
+    . ~/.nix-profile/etc/profile.d/nix.sh
+    make shell
+    make startdev-desktop # note: wait until sources are compiled
     ```
-1. In separate terminal tab: `npm start` (note: it starts react-native packager )
+
+1. In separate terminal tab: `make react-native` (note: it starts react-native packager)
 1. In separate terminal tab: `node ./ubuntu-server.js`
-1. In separate terminal tab: `make watch-desktop` (note: wait until sources are compiled)
-1. In separate terminal tab: `react-native run-desktop`
+1. In separate terminal tab: `make run-desktop`
 
 ## Notes
 

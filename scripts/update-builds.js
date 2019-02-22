@@ -4,11 +4,12 @@ const log = require('fancy-log')
 const err = log.error
 const request = require('request')
 
-const nightliesFile = 'source/_data/nightlies.yml'
-const bucketUrl = 'https://status-im.ams3.digitaloceanspaces.com'
-const latestUrl = `${bucketUrl}/latest.json`
+const url = 'https://status-im.ams3.digitaloceanspaces.com'
 
-const nightlies = () => {
+const updateBuilds = (type, jsonFile) => {
+  const nightliesFile = `source/_data/${type}.yml`
+  const latestUrl = `${url}/${jsonFile}`
+
   return new Promise((resolve, reject) => {
     request(latestUrl, {json: true},
       (err, res) => {
@@ -28,4 +29,4 @@ const nightlies = () => {
   })
 }
 
-module.exports = nightlies
+module.exports = updateBuilds

@@ -16,7 +16,7 @@ const rename = require("gulp-rename");
 const run = require('gulp-run-command').default;
 
 const gen_qr = require('./scripts/gen-qr');
-const nightlies = require('./scripts/nightlies');
+const updateBuilds = require('./scripts/update-builds');
 
 /* this usallly comes as a parameter from Jenkinsfile */
 const env = process.env.ENV
@@ -105,7 +105,11 @@ gulp.task('compress', ['sass'], function() {
 });
 
 gulp.task('nightlies', function() {
-    return nightlies()
+    return updateBuilds('nightlies', 'latest.json')
+})
+
+gulp.task('releases', function() {
+    return updateBuilds('releases', 'release.json')
 })
 
 gulp.task('genqr', function() {
@@ -130,8 +134,12 @@ gulp.task('watch', function() {
     gulp.watch(config.paths.src.scss, ['compress'])
 });
 
+gulp.task('artifacts', function(cb) {
+    runSequence('nightlies', 'releases')
+});
+
 gulp.task('build', function(cb) {
-    runSequence('nightlies', 'generate', 'compress', 'genqr', 'bundle', 'watch')
+    runSequence('artifacts', 'generate', 'compress', 'genqr', 'bundle', 'watch')
 });
 
 gulp.task('exit', function(cb) {
@@ -139,7 +147,7 @@ gulp.task('exit', function(cb) {
 });
 
 gulp.task('run', function(cb) {
-    runSequence('nightlies', 'generate', 'compress', 'genqr', 'bundle', 'exit')
+    runSequence('artifacts', 'generate', 'compress', 'genqr', 'bundle', 'exit')
     
 });
 

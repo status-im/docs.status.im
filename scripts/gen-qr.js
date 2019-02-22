@@ -16,8 +16,8 @@ const gen_qr = () => {
   
   //log(qr_path + 'qr-apk.png (' + nightlies['APK'] + ')')
   qrc.toFile(qr_path + 'qr-apk.png', nightlies['APK'], {}, err_handler)
-  //log(qr_path + 'qr-ios.png (' + nightlies['IOS'] + ')')
-  qrc.toFile(qr_path + 'qr-ios.png', nightlies['IOS'], {}, err_handler)
+  //log(qr_path + 'qr-ios.png (' + nightlies['DIAWI'] + ')')
+  qrc.toFile(qr_path + 'qr-ios.png', nightlies['DIAWI'], {}, err_handler)
 }
 
 module.exports = gen_qr

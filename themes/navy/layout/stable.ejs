@@ -3,7 +3,7 @@
   <header class="docs-header">
     <div class="docs-intro">
       <h1>Get the latest web</h1>
-      <p>You can download our nightly builds here. Beware of dragons!</p>
+      <p>You can download builds from our current release.</p>
       <br/>
     </div>
     <ul>
@@ -43,56 +43,52 @@
             <div class="inner">
                 <div class="article-content" itemprop="articleBody">
                     <div class="builds-headings">
-                        <h1>Status Nightly Builds - Beware the Dragons!</h1>
+                        <h1>Status Stable Builds</h1>
                         <h3>Updated: <%= date(Date.now(), 'YYYY/MM/DD HH:mm:ss') %> UTC</h3>
-                        <p>
-                          <strong>Warning:</strong> Nightly builds are intended for development testing and may include bugs and other issues. You might want to use the <a href="/stable/">stable builds</a> instead.
-                        </p>
-                        <p>By downloading and installing these builds you assume the full responsibility for all risks concerning your data and funds.
-                        Status makes no claims of security or integrity of funds in these builds. Status advises the use of different recovery phrases in nightlies and stable builds.</p>
+                        <p>If you are interested in more recent but also more unstable builds you can visit our <a href="/nightly/">nightly builds</a> page.</p>
                         See our <a href="../docs/FAQs.html" target="_blank">General FAQ</a> and 
                         <a href="../docs/FAQ-desktop.html" target="_blank">Desktop FAQ</a> for more information.
                     </div>
                     <div class="builds-builds-wrap">
                         <div class="box-desktop">
                             <h2>Linux</h2>
-                            <a href="<%= site.data.nightlies['APP'] %>" class="app-download" id="nightly:app" download>
+                            <a href="<%= site.data.releases['APP'] %>" class="app-download" id="release:app" download>
                                 <img src="../nightly/img/linux.png" width="150" />
                                 <br><br>
-                                <span><%= site.data.nightlies['APP'].split('/').pop() %></span>
+                                <span><%= site.data.releases['APP'].split('/').pop() %></span>
                             </a>
                         </div>
                         <div class="box-desktop">
                             <h2>macOS</h2>
-                            <a href="<%= site.data.nightlies['MAC'] %>" class="app-download" id="nightly:mac" download>
+                            <a href="<%= site.data.releases['MAC'] %>" class="app-download" id="release:mac" download>
                                 <img src="../nightly/img/macos.png" width="150" />
                                 <br><br>
-                                <span><%= site.data.nightlies['MAC'].split('/').pop() %></span>
+                                <span><%= site.data.releases['MAC'].split('/').pop() %></span>
                             </a>
                         </div>
                         <div class="box-desktop">
                             <h2>Windows</h2>
-                            <a href="<%= site.data.nightlies['WIN'] %>" class="app-download" id="nightly:win" download>
+                            <a href="<%= site.data.releases['WIN'] %>" class="app-download" id="release:win" download>
                                 <img src="../nightly/img/windows.png" width="150" />
                                 <br><br>
-                                <span><%= site.data.nightlies['WIN'].split('/').pop() %></span>
+                                <span><%= site.data.releases['WIN'].split('/').pop() %></span>
                             </a>
                         </div>
                         <div class="clear"></div>
                         <div class="box-mobile">
                             <h2>Android</h2>
-                            <a href="<%= site.data.nightlies['APK'] %>" class="app-download" id="nightly:apk" download>
+                            <a href="<%= site.data.releases['APK'] %>" class="app-download" id="release:apk" download>
                                 <img src="../nightly/img/qr-apk.png" width="150" />
                                 <br><br>
-                                <span><%= site.data.nightlies['APK'].split('/').pop() %></span>
+                                <span><%= site.data.releases['APK'].split('/').pop() %></span>
                             </a>
                         </div>
                         <div class="box-mobile">
                             <h2>iOS</h2>
-                            <a href="<%= site.data.nightlies['DIAWI'] %>" class="app-download" id="nightly:ios" download>
+                            <a href="<%= site.data.releases['DIAWI'] %>" class="app-download" id="release:ios" download>
                                 <img src="../nightly/img/qr-ios.png" width="150px" />
                                 <br><br>
-                                <span><%= site.data.nightlies['DIAWI'] %></span>
+                                <span><%= site.data.releases['DIAWI'] %></span>
                             </a>
                             <small>(Requires diawi access)</small>
                         </div>

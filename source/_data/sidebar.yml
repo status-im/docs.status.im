@@ -24,6 +24,7 @@ developer_tools:
   connecting_to_web3: 
     access_an_ethereum_provider: access_eth_provider.html
     detecting_status: detecting_status.html
+    debug: debug.html
   optimised_for_status:
     assets_guidelines: assets_guidelines.html
     js_api: status_web_api.html

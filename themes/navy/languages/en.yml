@@ -54,6 +54,7 @@ sidebar:
     connecting_to_web3: Connecting to web3
     access_an_ethereum_provider: Accessing Web3 Providers
     detecting_status: Detecting Status
+    debug: Debug
     optimised_for_status: Optimizing for Mobile
     assets_guidelines: Assets and Guidelines
     js_api: JavaScript API

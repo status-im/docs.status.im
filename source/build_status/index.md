@@ -100,7 +100,6 @@ make react-native
 Just execute
 
 ```bash
-make prepare-ios # first time only, or whenever you switch target platforms
 make run-ios
 ```
 
@@ -121,7 +120,6 @@ Installation script installs Android SDK and Android NDK (if they are not presen
 Once Android SDK is set up, execute:
 
   ```bash
-  make prepare-android # first time only, or whenever you switch target platforms
   make run-android
   ```
 

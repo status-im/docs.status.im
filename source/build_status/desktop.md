@@ -15,7 +15,6 @@ cd status-react
 make setup
 . ~/.nix-profile/etc/profile.d/nix.sh
 make shell
-make prepare-desktop
 make release-desktop
 ```
 

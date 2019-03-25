@@ -11,7 +11,7 @@ title: Protocol
 * P2 = 0x00
 * Data = a sequence of 32-bit integers (most significant byte first). Empty if the master key must be used.
 * Response SW = 0x9000 on success, 0x6A80 if the format is invalid, 0x6984 if one of the components in the path generates an invalid key, 0x6B00 if derivation from parent keys is selected but no valid parent key is cached.
-* Preconditions: Secure Channel must be opened, user PIN must be verified (if no PIN-less key is defined), an extended keyset must be loaded
+* Preconditions: Secure Channel must be opened, user PIN must be verified, an extended keyset must be loaded
 
 This command is used before a signing session to generate a private key according to the [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) specifications. This command always aborts open signing sessions, if any. The generated key is used for all subsequent SIGN sessions. The maximum depth of derivation from the master key is 10. Any attempt to get deeper results in 0x6A80 being returned. The BIP32 specifications define a few checks which must be performed on the derived keys. If these fail, the 0x6984 is returned and the invalid key is discarded. A client should perform a GET STATUS command to get the actual current key path and resume derivation using a different path.
 

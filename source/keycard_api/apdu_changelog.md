@@ -5,6 +5,9 @@ title: Protocol
 
 # Changelog
 
+## Version 2.2
+* Added additional options to the SIGN command to facilitate usage in POS transactions.
+
 ## Version 2.1
 * Added concept of capabilities, making some APDU conditional and extending the SELECT response.
 

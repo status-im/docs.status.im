@@ -26,6 +26,33 @@ In practice:
   :on-send     [event {:keyword "value"}]}
 ```
 
+## LifeCycle
+
+An extension can define a number of `events` that will be triggered during its lifecycle:
+
+* `on-installation` when a user installs an extension
+* `on-activation` when a user activates an extension
+* `on-deinstallation` when a user desinstalls an extension
+* `on-deactivation` when a user deactivates an extension
+
+Activcation occurs right after an extension is installed and when it is (de-)activated in the extensions settings panel.
+
+```clojure
+{lifecycle
+ {:on-installation   [on-installation]
+  :on-activation     [on-activation]
+  :on-deinstallation [on-deinstallation]
+  :on-deactivation   [on-deactivation]}}
+```
+
+`ephemeral?` extension are not installed and won't be persisted after an application restart. The `on-activation` will be called during their installation.
+
+```clojure
+{lifecycle
+ {:ephemeral     true
+  :on-activation [on-activation]}}
+```
+
 ## Hook syntax
 
 Each [hook type](https://status.im/extensions/extension_types.html) requires specific details to be mapped and declared according to the hook's specifications. 
@@ -165,6 +192,21 @@ Local events define `let blocks` that can destructure arguments, allowing a deve
 
 ```clojure
 (let [{name :name} properties]
-  [button {:on-click [store/put {:key "name" :value {:key name}}]}
-   "Click me !"])
+  [http/put {:data "Some content for ${name}"}])
+```
+
+Multiple events can be defined in a let block, potentially guarded by a `if` condition:
+
+```clojure
+(let [{cond? :cond?} properties]
+  [http/put {:data "Some content"}]
+  (if cond?
+    [http/put {:data "Some extra conditional content"}]))
+```
+
+Queries can also be resolved in let block, giving access to a static view of the local application state.
+
+```clojure
+(let [{name :name} [chat/contact {:id ""}]]
+  [http/put {:data "Some content for ${name}"}])
 ```

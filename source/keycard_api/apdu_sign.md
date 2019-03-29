@@ -9,7 +9,7 @@ title: Protocol
 * INS = 0xC0
 * P1 = derivation options
 * P2 = 0x00
-* Data = sequence of 32-bit integers (if P1=01 or P1=02) | the hash to sign (32 bytes)
+* Data = the hash to sign (32 bytes) | sequence of 32-bit integers (if P1=01 or P1=02)
 * Response = public key and the signature
 * Response SW = 0x9000 on success, 0x6A80 if the data is less than 32-byte long (36 bytes if P1=01 or P1=02), 0x6A88 if P1=0x03 but no PIN-less path is defined
 * Preconditions: Secure Channel must be opened, user PIN must be verified (or a PIN-less key must be active), a valid keypair must be loaded

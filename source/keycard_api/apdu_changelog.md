@@ -7,6 +7,7 @@ title: Protocol
 
 ## Version 2.2
 * Added additional options to the SIGN command to facilitate usage in POS transactions.
+* Make SET NDEF more tolerant on the input format by automatically appending missing length.
 
 ## Version 2.1
 * Added concept of capabilities, making some APDU conditional and extending the SELECT response.

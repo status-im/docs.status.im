@@ -55,6 +55,14 @@ pipeline {
       }
     }
 
+    stage('Robot') {
+      steps { script {
+        if ( env.GIT_BRANCH !=~ /.*master/ ) {
+          sh 'echo "Disallow: /" >> public/robots.txt'
+        }
+      } }
+    }
+
     stage('Publish Prod') {
       when { expression { env.GIT_BRANCH ==~ /.*master/ } }
       steps { script {
@@ -65,7 +73,7 @@ pipeline {
     }
 
     stage('Publish Devel') {
-      when { expression { env.GIT_BRANCH ==~ /.*develop/ } }
+      when { expression { env.GIT_BRANCH !=~ /.*master/ } }
       steps { script {
         sshagent(credentials: ['jenkins-ssh']) {
           sh '''

@@ -5,9 +5,9 @@ title: Status JavaScript API
 
 # Status DApp API
 
-On top of regular `web3` access, Status offers a set of API available to DApps developers. This API follows the [EIP1102](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1102.md) standard that will soon be used for web3 injection.
+On top of regular `web3` access, Status offers a set of API available to DApps developers.
 
-When [Status is the host browser](https://docs.status.im/docs/status_optimized.html#detecting-status), DApp developers can request access to Status-specific data using the JavaScript API available at `window.web3.currentProvider.status`. 
+When [Status is the host browser](https://docs.status.im/docs/status_optimized.html#detecting-status), DApp developers can request access to Status-specific data using the JavaScript API available at `window.ethereum.status`. 
 
 #### JavaScript API methods
 
@@ -16,7 +16,7 @@ When [Status is the host browser](https://docs.status.im/docs/status_optimized.h
 #### Example implementation
 
 ```JavaScript
-window.web3.currentProvider.status
+window.ethereum.status
  .getContactCode()
  .then(data => {
    console.log('Contact code:', data)
@@ -31,7 +31,7 @@ window.web3.currentProvider.status
 #### Example implementation
 
 ```JavaScript
-window.web3.currentProvider.status.installExtension("https://get.status.im/extension/ipfs@Qmb1B3jXNdc9WZCcWFzpkTXtrurnKxYQFvUDhp2J4SVCCX")
+window.ethereum.status.installExtension("https://get.status.im/extension/ipfs@Qmb1B3jXNdc9WZCcWFzpkTXtrurnKxYQFvUDhp2J4SVCCX")
 ```
 
 ## Other APIs
@@ -45,7 +45,7 @@ Status also implements a number of APIs standardized by EIPs.
 #### Example
 
 ```JavaScript
-window.web3.currentProvider
+window.ethereum
  .scanQRCode()
  .then(data => {
    console.log('QR Scanned:', data)

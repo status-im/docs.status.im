@@ -42,48 +42,44 @@ docs:
     keycard_api: index.html (Keycard API)
     applet_installation: applet_installation.html
     resources: resources.html
-  java_sdk:
-    sdk_installation: sdk_installation.html
-    sdk_connection: sdk_connection.html
-    sdk_preparation: sdk_preparation.html
-    sdk_securechannel: sdk_securechannel.html
-    sdk_authentication: sdk_authentication.html
-    sdk_create_wallet: sdk_create_wallet.html
-    sdk_derivation_sign: sdk_derivation_sign.html
-    sdk_pinless: sdk_pinless.html
-    sdk_export: sdk_export.html
-    sdk_duplication: sdk_duplication.html
-  apdu:
-    apdu_overview: apdu_overview.html
-    apdu_changelog: apdu_changelog.html
-    apdu_select: apdu_select.html
-    apdu_init: apdu_init.html
-    apdu_opensecurechannel: apdu_opensecurechannel.html
-    apdu_mutuallyauthenticate: apdu_mutuallyauthenticate.html
-    apdu_pair: apdu_pair.html
-    apdu_unpair: apdu_unpair.html
-    apdu_getstatus: apdu_getstatus.html
-    apdu_setndef: apdu_setndef.html
-    apdu_verifypin: apdu_verifypin.html
-    apdu_changepin: apdu_changepin.html
-    apdu_unblockpin: apdu_unblockpin.html
-    apdu_loadkey: apdu_loadkey.html
-    apdu_derivekey: apdu_derivekey.html
-    apdu_generatemnemonic: apdu_generatemnemonic.html
-    apdu_removekey: apdu_removekey.html
-    apdu_generatekey: apdu_generatekey.html
-    apdu_duplicatekey: apdu_duplicatekey.html
-    apdu_sign: apdu_sign.html
-    apdu_setpinlesspath: apdu_setpinlesspath.html
-    apdu_exportkey: apdu_exportkey.html
-
-research:
-  whisper: 
-    secret: index.html
-    extended_features: extended_features.html
-    dark_routing: dark_routing.html
-    whisper_pss: whisper_pss.html
-    whisper_faqs: whisper_faqs.html
+    sdk_installation: sdk_installation.html (SDK Installation)
+    sdk_connection: sdk_connection.html (SDK Connection)
+    sdk_preparation: sdk_preparation.html (SDK Preparation)
+    sdk_securechannel: sdk_securechannel.html (SDK Secure Channel)
+    sdk_authentication: sdk_authentication.html (SDK Authentication)
+    sdk_create_wallet: sdk_create_wallet.html (SDK Create Wallet)
+    sdk_derivation_sign: sdk_derivation_sign.html (SDK Derivation Sign)
+    sdk_pinless: sdk_pinless.html (SDK Pinless)
+    sdk_export: sdk_export.html (SDK Export)
+    sdk_duplication: sdk_duplication.html (SDK Duplication)
+    apdu_overview: apdu_overview.html (APDU Overview)
+    apdu_changelog: apdu_changelog.html (APDU Changelog)
+    apdu_select: apdu_select.html (APDU SELECT)
+    apdu_init: apdu_init.html (APDU INIT)
+    apdu_opensecurechannel: apdu_opensecurechannel.html (APDU OPEN SECURE CHANNEL)
+    apdu_mutuallyauthenticate: apdu_mutuallyauthenticate.html (APDU MUTUALLY AUTHENTICATE)
+    apdu_pair: apdu_pair.html (APDU PAIR)
+    apdu_unpair: apdu_unpair.html (APDU UNPAIR)
+    apdu_getstatus: apdu_getstatus.html (APDU GET STATUS)
+    apdu_setndef: apdu_setndef.html (APDU SET NDEF)
+    apdu_verifypin: apdu_verifypin.html (APDU VERIFY PIN)
+    apdu_changepin: apdu_changepin.html (ADPU CHANGE PIN)
+    apdu_unblockpin: apdu_unblockpin.html (ADPU UNBLOCK PIN)
+    apdu_loadkey: apdu_loadkey.html (ADPU LOAD KEY)
+    apdu_derivekey: apdu_derivekey.html (ADPU DERIVE KEY)
+    apdu_generatemnemonic: apdu_generatemnemonic.html (ADPU GENERATE MNEMONIC)
+    apdu_removekey: apdu_removekey.html (ADPU REMOVE KEY)
+    apdu_generatekey: apdu_generatekey.html (ADPU GENERATE KEY)
+    apdu_duplicatekey: apdu_duplicatekey.html (ADPU DUPLICATE KEY)
+    apdu_sign: apdu_sign.html (ADPU SIGN)
+    apdu_setpinlesspath: apdu_setpinlesspath.html (ADPU SET PINLESS PATH)
+    apdu_exportkey: apdu_exportkey.html (APDU EXPORT KEY)
+  research:
+    research: index.html (Research)
+    extended_features: extended_features.html (Whisper Extended Features)
+    dark_routing: dark_routing.html (Whisper Dark Routing)
+    whisper_pss: whisper_pss.html (Whisper Comparison with PSS)
+    whisper_faqs: whisper_faqs.html (Whisper FAQs)
     secure_messaging_compendium: secure_messaging_compendium.html
     research_blog: https://our.status.im/tag/research (Research Blog)
     pfs: pfs.html (Perfect Forward Secrecy)

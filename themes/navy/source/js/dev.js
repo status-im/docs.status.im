@@ -106,12 +106,12 @@ $(document).ready(function($) {
         success: function(response) {
           $.each(response, function(index, program) {
             var description = program.description.substr(0, 200) + '...';
-            $('#advocacy-programs').prepend(`<div class="inner">
-                <a href="https://statusphere.status.im/b/${program.uuid}/view" class="card-inner">
-                  ${program.title}
-                </a>
-                <p class="details">${description}</p>
-              </div>`);
+            $('#advocacy-programs').prepend('<div class="inner"> \
+                <a href="https://statusphere.status.im/b/'+ program.uuid+'/view" class="card-inner"> \
+                  '+program.title+'\
+                </a> \
+                <p class="details">'+description+'</p> \
+              </div>');
           });
         }
       });
@@ -213,8 +213,7 @@ $(document).ready(function($) {
         .then(
           function(response) {
             if (response.status !== 200) {
-              console.log('Looks like there was a problem. Status Code: '
-                + response.status);
+              console.log('Looks like there was a problem. Status Code: ' + response.status);
               return;
             }
 
@@ -228,7 +227,7 @@ $(document).ready(function($) {
                     var current= new Date();
                     var labelsHtml = '<div class="tags">';
                     var labels = element.labels;
-                    labels.forEach(label => {
+                    labels.forEach(function(label){
                       labelsHtml += '<div class="tag">'+ label.name +'</div>'
                     });
                     labelsHtml += '</div>';
@@ -288,7 +287,7 @@ $(document).ready(function($) {
                     var current= new Date();
                     var labelsHtml = '<div class="tags">';
                     var labels = element.labels;
-                    labels.forEach(label => {
+                    labels.forEach(function(label){
                       labelsHtml += '<div class="tag">'+ label.name +'</div>'
                     });
                     labelsHtml += '</div>';

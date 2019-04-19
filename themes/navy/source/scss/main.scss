@@ -779,6 +779,11 @@ header{
             display: none;
         }
     }
+    .btns{
+        a:not(.btn){
+            display: inline-block;
+        }
+    }
     .mobile-nav-trigger{
         padding: 0 15px;
         display: none;
@@ -1403,6 +1408,7 @@ footer{
                 text-align: center;
                 padding: 0 10px;
                 height: 15px;
+                max-width: 100%;
             }
             ul{
                 list-style-type: none;
@@ -3346,7 +3352,7 @@ footer{
         .inline-links{
             margin-top: 50px;
             li{
-                font-size: 14px;
+                margin-right: 20px;
                 .img-holder{
                     width: 40px;
                     height: 40px;

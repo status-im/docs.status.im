@@ -3346,6 +3346,13 @@ footer{
         }
         .inner{
             margin: 0 -10px 10px -10px;
+            .authors{
+                margin-bottom: 20px;
+                li{
+                    width: 36px;
+                    height: 36px;
+                }
+            }
         }
     }
     .apps-content{

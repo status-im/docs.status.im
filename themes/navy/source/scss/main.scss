@@ -24,6 +24,10 @@ body{
     padding-right: 40px;
 }
 
+.row{
+    align-self: stretch;
+}
+
 .text-black{
     color: $black;
 }
@@ -42,6 +46,7 @@ p{
     font-size: 18px;
     color: rgba( $black, .8 );
     margin-bottom: 40px;
+    align-self: stretch;
 }
 
 .teaser-1,
@@ -52,6 +57,7 @@ p{
     font-family: $manrope;
     font-weight: $manrope-medium;
     margin-bottom: 50px;
+    align-self: stretch;
 }
 
 .teaser-2{
@@ -605,6 +611,7 @@ header{
             li{
                 height: 100%;
                 display: flex;
+                align-self: stretch;
                 &.active{
                     a{
                         color: $purple;
@@ -713,10 +720,12 @@ header{
                         }
                         .social-links{
                             flex-wrap: nowrap;
+                            width: 100%;
+                            justify-content: space-between;
                             li{
-                                margin-right: 10px;
                                 width: auto;
                                 a{
+                                    padding-right: 0;
                                     &:hover{
                                         svg{
                                             path{
@@ -1426,6 +1435,7 @@ footer{
     }
     .p-large{
         max-width: 420px;
+        align-self: flex-start;
     }
     .buttons{
         padding: 0;
@@ -2042,6 +2052,7 @@ footer{
         }
         p{
             color: rgba( $white, .8 );
+            align-self: stretch;
             &:last-of-type{
                 margin-bottom: 40px;
             }
@@ -2155,6 +2166,9 @@ footer{
 
 .development-contribute-to-status{
     background-color: $lighter-grey;
+    .inner{
+        flex: 1;
+    }
     .quick-start-guide{
         font-size: 20px;
         font-family: $manrope;
@@ -2455,6 +2469,9 @@ footer{
     .row{
         .col-xl-4{
             margin-bottom: 30px;
+            img{
+                align-self: center;
+            }
         }
     }
 }
@@ -3289,10 +3306,9 @@ footer{
         .inner{
             text-align: left;
             .teaser-1{
-                display: none;
+                margin: 30px 0;
             }
             .inline-links{
-                display: none;
                 justify-content: flex-start;
                 li{
                     margin: 0 0 10px 0;
@@ -3330,7 +3346,7 @@ footer{
         .inline-links{
             margin-top: 50px;
             li{
-                font-size: 16px;
+                font-size: 14px;
                 .img-holder{
                     width: 40px;
                     height: 40px;

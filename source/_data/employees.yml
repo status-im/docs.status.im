@@ -4,7 +4,6 @@ employees:
     displayName: Adam Babik
     firstName: Adam
     lastName: Babik
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/29-1-1.jpg'
     jobTitle: Go Programmer
     workEmail: adam@status.im
@@ -14,7 +13,6 @@ employees:
     displayName: Michele Balistreri
     firstName: Michele
     lastName: Balistreri
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/51-1-1.jpg'
     jobTitle: Javacard applet
     workEmail: michele@status.im
@@ -24,9 +22,7 @@ employees:
     displayName: Jonathan Barker
     firstName: Jonathan
     lastName: Barker
-    photoUploaded: true
-    photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/107-0-1.jpg'
-    jobTitle: null
+    jobTitle: People Operator
     workEmail: jonathanb@status.im
     customStatusPublicKey: '0x044b76588cbe06b625e3c8885bd3e2207f62f8b61bf09aa4dfc4237d3246f97c3bcd2049df6d897e74a6ffd94c0f1f4c4cc0ca00762d6f0dea29f6b82105cf72e1'
     customGitHubusername: jonathanbarker
@@ -34,7 +30,6 @@ employees:
     displayName: Carl Bennetts
     firstName: Carl
     lastName: Bennetts
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/3-0-1.jpg'
     jobTitle: Co-Founder
     workEmail: carl@status.im
@@ -44,7 +39,6 @@ employees:
     displayName: Michael Bradley Jr.
     firstName: Michael
     lastName: Bradley Jr.
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/126-0-1.jpg'
     jobTitle: 'Senior Software Developer '
     workEmail: michaelb@status.im
@@ -54,7 +48,6 @@ employees:
     displayName: Dustin Brody
     firstName: Dustin
     lastName: Brody
-    photoUploaded: false
     photoUrl: 'https://statusim.bamboohr.com/images/photo_placeholder.gif'
     jobTitle: Senior Data Scientist
     workEmail: dustin@status.im
@@ -64,7 +57,6 @@ employees:
     displayName: Hester Bruikman
     firstName: Hester
     lastName: Bruikman
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/66-1-1.jpg'
     jobTitle: UX Researcher
     workEmail: hester@status.im
@@ -74,7 +66,6 @@ employees:
     displayName: Serhii Chumak
     firstName: Serhii
     lastName: Chumak
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/65-1-1.jpg'
     jobTitle: Testing Engineer
     workEmail: sergii@status.im
@@ -84,7 +75,6 @@ employees:
     displayName: Tetiana Churikova
     firstName: Tetiana
     lastName: Churikova
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/56-0-1.jpg'
     jobTitle: Testing Engineer
     workEmail: tetiana@status.im
@@ -94,7 +84,6 @@ employees:
     displayName: Anna Danchenko
     firstName: Anna
     lastName: Danchenko
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/22-0-1.jpg'
     jobTitle: Head of QA
     workEmail: anna@status.im
@@ -104,7 +93,6 @@ employees:
     displayName: Anton Danchenko
     firstName: Anton
     lastName: Danchenko
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/35-0-1.jpg'
     jobTitle: Automation Engineer (Testing)
     workEmail: anton@status.im
@@ -114,7 +102,6 @@ employees:
     displayName: Kim De Mey
     firstName: Kim
     lastName: De Mey
-    photoUploaded: false
     photoUrl: 'https://statusim.bamboohr.com/images/photo_placeholder.gif'
     jobTitle: Nim Developer
     workEmail: kimdemey@status.im
@@ -124,7 +111,6 @@ employees:
     displayName: Eric Dvorsak
     firstName: Eric
     lastName: Dvorsak
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/8-0-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: eric@status.im
@@ -134,7 +120,6 @@ employees:
     displayName: Dean Eigenmann
     firstName: Dean
     lastName: Eigenmann
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/154-1-1.jpg'
     jobTitle: Protocol Researcher
     workEmail: dean@status.im
@@ -144,7 +129,6 @@ employees:
     displayName: Julien Eluard
     firstName: Julien
     lastName: Eluard
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/14-1-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: julien@status.im
@@ -154,7 +138,6 @@ employees:
     displayName: Jason Foote
     firstName: Jason
     lastName: Foote
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/37-1-1.jpg'
     jobTitle: HR Assistant
     workEmail: jason.foote@status.im
@@ -164,7 +147,6 @@ employees:
     displayName: Andrea Franz
     firstName: Andrea
     lastName: Franz
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/85-1-1.jpg'
     jobTitle: Go Programmer
     workEmail: andrea@status.im
@@ -174,7 +156,6 @@ employees:
     displayName: Barry Gitarts
     firstName: Barry
     lastName: Gitarts
-    photoUploaded: false
     photoUrl: 'https://statusim.bamboohr.com/images/photo_placeholder.gif'
     jobTitle: Smart Contract Engineer
     workEmail: barry@status.im
@@ -184,7 +165,6 @@ employees:
     displayName: Iurii Glukhov
     firstName: Iurii
     lastName: Glukhov
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/80-0-1.jpg'
     jobTitle: Nim Developer
     workEmail: iurii@status.im
@@ -194,7 +174,6 @@ employees:
     displayName: Guy-Louis Grau
     firstName: Guy-Louis
     lastName: Grau
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/123-1-1.jpg'
     jobTitle: Product Manager
     workEmail: guylouis@status.im
@@ -204,7 +183,6 @@ employees:
     displayName: Rachel Hamlin
     firstName: Rachel
     lastName: Hamlin
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/92-0-1.jpg'
     jobTitle: Product Manager
     workEmail: rachel@status.im
@@ -214,7 +192,6 @@ employees:
     displayName: Rajanie Henry
     firstName: Rajanie
     lastName: Henry
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/57-0-1.jpg'
     jobTitle: Executive Assistant to the COO
     workEmail: rajanie@status.im
@@ -224,7 +201,6 @@ employees:
     displayName: Jarrad Hope
     firstName: Jarrad
     lastName: Hope
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/2-0-1.jpg'
     jobTitle: Co-Founder
     workEmail: jarrad@status.im
@@ -234,7 +210,6 @@ employees:
     displayName: Chris Hutchinson
     firstName: Chris
     lastName: Hutchinson
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/21-1-1.jpg'
     jobTitle: Community Manager
     workEmail: chris.hutchinson@status.im
@@ -244,17 +219,15 @@ employees:
     displayName: Jinho Jang
     firstName: Jinho
     lastName: Jang
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/131-0-1.jpg'
     jobTitle: Community Manager
     workEmail: jinho@status.im
     customStatusPublicKey: '0x048cb499b5d77deebf9ad064878dafeb90df81e8cc6baeba8c97c89f849baf6a7eac07be2ee89e0a863cdece3d6b7847ee3f20b9c3a0a50d90a131e6bce3de185a'
-    customGitHubusername: jinhojang93
+    customGitHubusername: jinhojang6
   - id: '26'
     displayName: Goran Jovic
     firstName: Goran
     lastName: Jovic
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/26-0-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: goran@status.im
@@ -264,7 +237,6 @@ employees:
     displayName: Yevhen Kabanov
     firstName: Yevhen
     lastName: Kabanov
-    photoUploaded: false
     photoUrl: 'https://statusim.bamboohr.com/images/photo_placeholder.gif'
     jobTitle: Nim Developer
     workEmail: eugene.kabanov@status.im
@@ -274,7 +246,6 @@ employees:
     displayName: Zahary Karadjov
     firstName: Zahary
     lastName: Karadjov
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/68-0-1.jpg'
     jobTitle: Nim Developer
     workEmail: zahary@status.im
@@ -284,7 +255,6 @@ employees:
     displayName: Volodymyr Kozieiev
     firstName: Volodymyr
     lastName: Kozieiev
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/33-0-1.jpg'
     jobTitle: Port React Native to Desktop using QT
     workEmail: volodymyr@status.im
@@ -294,7 +264,6 @@ employees:
     displayName: Richard Roy López
     firstName: Richard Roy
     lastName: López
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/89-2-1.jpg'
     jobTitle: Smart Contract Developers
     workEmail: richard@status.im
@@ -304,7 +273,6 @@ employees:
     displayName: Igor Mandrigin
     firstName: Igor
     lastName: Mandrigin
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/69-0-1.jpg'
     jobTitle: Go Programmer
     workEmail: igor@status.im
@@ -314,7 +282,6 @@ employees:
     displayName: Daniel Marfurt
     firstName: Daniel
     lastName: Marfurt
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/110-0-1.jpg'
     jobTitle: Manager in Finance and Operations
     workEmail: daniel@status.im
@@ -324,7 +291,6 @@ employees:
     displayName: Eric Mastro
     firstName: Eric
     lastName: Mastro
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/105-0-1.jpg'
     jobTitle: Software Developer
     workEmail: ericmastro@status.im
@@ -334,7 +300,6 @@ employees:
     displayName: Iuri Matias
     firstName: Iuri
     lastName: Matias
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/95-0-1.jpg'
     jobTitle: Software Developer
     workEmail: iuri@status.im
@@ -344,7 +309,6 @@ employees:
     displayName: André Filipe Medeiros
     firstName: André Filipe
     lastName: Medeiros
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/120-1-1.jpg'
     jobTitle: 'Senior Software Developer '
     workEmail: andre@status.im
@@ -354,7 +318,6 @@ employees:
     displayName: Andrei Mironov
     firstName: Andrei
     lastName: Mironov
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/18-1-1.jpg'
     jobTitle: Head of Design
     workEmail: andrei@status.im
@@ -364,9 +327,8 @@ employees:
     displayName: Ben Morris
     firstName: Ben
     lastName: Morris
-    photoUploaded: true
+    jobTitle: Head of Status Incubate
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/91-1-1.jpg'
-    jobTitle: null
     workEmail: ben@status.im
     customStatusPublicKey: '0x04a10f9b6031f71d31fb722415f2067f62f99bac0230c19900b56e02ec3bdf25cb9c290db240aed8946e94dc81000eebe0b8ba4fd17572914e4e35f238e67b317a'
     customGitHubusername: benhmorris
@@ -374,7 +336,6 @@ employees:
     displayName: Nabil Naghdy
     firstName: Nabil
     lastName: Naghdy
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/44-0-1.jpg'
     jobTitle: COO
     workEmail: nabil@status.im
@@ -384,7 +345,6 @@ employees:
     displayName: Dmitry Novotochinov
     firstName: Dmitry
     lastName: Novotochinov
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/60-3-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: dmitry@status.im
@@ -394,7 +354,6 @@ employees:
     displayName: Corey Petty
     firstName: Corey
     lastName: Petty
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/132-0-1.jpg'
     jobTitle: Senior Security Engineer
     workEmail: corey@status.im
@@ -404,7 +363,6 @@ employees:
     displayName: Andrea Maria Piana
     firstName: Andrea Maria
     lastName: Piana
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/87-0-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: andreap@status.im
@@ -414,7 +372,6 @@ employees:
     displayName: Pedro Pombeiro
     firstName: Pedro
     lastName: Pombeiro
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/76-0-1.jpg'
     jobTitle: Go Developer / Chat Team Tech Owner
     workEmail: pedro@status.im
@@ -424,7 +381,6 @@ employees:
     displayName: Ceri Power
     firstName: Ceri
     lastName: Power
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/112-0-1.jpg'
     jobTitle: People Ops Partner
     workEmail: ceri@status.im
@@ -434,7 +390,6 @@ employees:
     displayName: Pascal Precht
     firstName: Pascal
     lastName: Precht
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/142-0-1.jpg'
     jobTitle: Software Developer
     workEmail: pascal@status.im
@@ -444,17 +399,15 @@ employees:
     displayName: Sonja Prstec
     firstName: Sonja
     lastName: Prstec
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/145-0-1.jpg'
     jobTitle: Senior Legal Counsel
     workEmail: sonja@status.im
     customStatusPublicKey: '0x04e11734c33f145d0c7f331e2d840cb7944335d270a47e660f9a3a02a31b76d0afd43554dfab153e80f995cfbc4c97c1e2f81f0c34f232a058c56fed81e94c62ef'
-    customGitHubusername: '@sonyx6'
+    customGitHubusername: sonyx6
   - id: '104'
     displayName: Jonathan Rainville
     firstName: Jonathan
     lastName: Rainville
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/104-0-1.jpg'
     jobTitle: Software Developer
     workEmail: jonathanrainville@status.im
@@ -464,7 +417,6 @@ employees:
     displayName: Mamy Ratsimbazafy
     firstName: Mamy
     lastName: Ratsimbazafy
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/73-0-1.jpg'
     jobTitle: Nim Developer
     workEmail: mamy@status.im
@@ -474,7 +426,6 @@ employees:
     displayName: Andreas Rumpf
     firstName: Andreas
     lastName: Rumpf
-    photoUploaded: false
     photoUrl: 'https://statusim.bamboohr.com/images/photo_placeholder.gif'
     jobTitle: Nim Development
     workEmail: rumpf_a@web.de
@@ -484,7 +435,6 @@ employees:
     displayName: Ricardo Schmidt
     firstName: Ricardo
     lastName: Schmidt
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/19-2-1.jpg'
     jobTitle: Smart Contract Developers
     workEmail: ricardo3@status.im
@@ -494,7 +444,6 @@ employees:
     displayName: Anastasiya Semiankevich
     firstName: Anastasiya
     lastName: Semiankevich
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/31-0-1.jpg'
     jobTitle: Manual Functional Tester
     workEmail: anastasiya@status.im
@@ -504,7 +453,6 @@ employees:
     displayName: Andrey Shovkoplyas
     firstName: Andrey
     lastName: Shovkoplyas
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/4-1-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: andrey@status.im
@@ -514,7 +462,6 @@ employees:
     displayName: Dmitry Shulyak
     firstName: Dmitry
     lastName: Shulyak
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/75-0-1.jpg'
     jobTitle: Go Programmer
     workEmail: dmitry.shulyak@status.im
@@ -524,7 +471,6 @@ employees:
     displayName: Jacek Sieka
     firstName: Jacek
     lastName: Sieka
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/84-0-1.jpg'
     jobTitle: Head of Research Development
     workEmail: jacek@status.im
@@ -534,7 +480,6 @@ employees:
     displayName: Bruno Škvorc
     firstName: Bruno
     lastName: Škvorc
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/150-0-1.jpg'
     jobTitle: Technical Writer
     workEmail: bruno@status.im
@@ -544,7 +489,6 @@ employees:
     displayName: Jakub Sokołowski
     firstName: Jakub
     lastName: Sokołowski
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/109-0-1.jpg'
     jobTitle: DevOps
     workEmail: jakub@status.im
@@ -554,7 +498,6 @@ employees:
     displayName: Ștefan Talpalaru
     firstName: Ștefan
     lastName: Talpalaru
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/148-0-1.jpg'
     jobTitle: Nim Developer
     workEmail: stefan@status.im
@@ -564,7 +507,6 @@ employees:
     displayName: Oskar Thoren
     firstName: Oskar
     lastName: Thoren
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/25-0-1.jpg'
     jobTitle: Head of Engineering
     workEmail: oskar@status.im
@@ -574,7 +516,6 @@ employees:
     displayName: Andy Tudhope
     firstName: Andy
     lastName: Tudhope
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/46-0-1.jpg'
     jobTitle: Community Organizer
     workEmail: andy@status.im
@@ -584,17 +525,15 @@ employees:
     displayName: Vitaliy Vlasov
     firstName: Vitaliy
     lastName: Vlasov
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/71-0-1.jpg'
     jobTitle: Clojure Programmer
     workEmail: vitaliy@status.im
     customStatusPublicKey: '0x04340cb6d7ddee1302676fb9e7a4b33de62c7f4fe90da11edec6d242d40103d1634ab9b591a8eaacd0e494ee48c742a44edda8d1d7ecfd8b999b54132e1fc5d5a4'
-    customGitHubusername: github.com/siphiuel
+    customGitHubusername: siphiuel
   - id: '12'
     displayName: Roman Volosovskyi
     firstName: Roman
     lastName: Volosovskyi
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/12-0-1.jpg'
     jobTitle: Clojure Team Lead
     workEmail: roman@status.im
@@ -604,7 +543,6 @@ employees:
     displayName: Jacques Wagener
     firstName: Jacques
     lastName: Wagener
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/41-0-1.jpg'
     jobTitle: Python Engineer
     workEmail: jacques@status.im
@@ -614,7 +552,6 @@ employees:
     displayName: Maciej Zadykowicz
     firstName: Maciej
     lastName: Zadykowicz
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/115-0-1.jpg'
     jobTitle: UI/UX Designer
     workEmail: maciej@status.im
@@ -624,7 +561,6 @@ employees:
     displayName: Jonathan Zerah
     firstName: Jonathan
     lastName: Zerah
-    photoUploaded: true
     photoUrl: 'https://db3f45fa865bad3fdfd3-25de215eee9c76b2eb80db218eca41a1.ssl.cf1.rackcdn.com/photos/43-0-1.jpg'
     jobTitle: Head of Marketing
     workEmail: jonathan@status.im

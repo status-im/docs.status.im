@@ -13,7 +13,7 @@ const API_ORG = 'statusim' || process.env.BAMBOO_API_ORG
 const API_TOKEN = process.env.BAMBOO_API_TOKEN
 
 const API_URL = `https://api.bamboohr.com/api/gateway.php/${API_ORG}/v1`
-const PHOTO_URL = `http://${API_ORG}.bamboohr.com/employees/photos`
+const PHOTO_URL = `https://${API_ORG}.bamboohr.com/employees/photos`
 const DEFAULT_FIELDS = [
   'displayName', 'firstName', 'lastName',
   'jobTitle', 'division', 'workEmail',

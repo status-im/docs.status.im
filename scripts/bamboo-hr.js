@@ -20,6 +20,8 @@ const DEFAULT_FIELDS = [
   'customStatusPublicKey', 'customGitHubusername',
 ].join(',')
 
+const SKIP_EMAILS = [ 'rumpf_a@web.de' ]
+
 const DEFAULT_OPTIONS = {
   auth: { user: API_TOKEN, pass: 'x' },
   headers: { 'Accept': 'application/json' },
@@ -67,6 +69,9 @@ const saveEmployees = async (outFilePath) => {
 
   let employees = []
   for (let employee of data.employees) {
+    if (SKIP_EMAILS.indexOf(employee.workEmail) > -1) {
+      continue
+    }
     let rval = await getEmployee(employee)
     cleanGitHubUsername(rval)
     addPhotoUrl(rval)

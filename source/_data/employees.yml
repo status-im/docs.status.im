@@ -423,15 +423,6 @@ employees:
     customStatusPublicKey: '0x040b120403d77718a614fcb79f6dee7b164f151692483c2fd06838ed8fba8088786ec1e7b01374b9e86deec5157f1225bb187b79db60d965082cf798d563d7ef07'
     customGitHubusername: mratsim
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=89634367f4899f1dbfe8408100b031fd'
-  - id: '151'
-    displayName: Andreas Rumpf
-    firstName: Andreas
-    lastName: Rumpf
-    jobTitle: Nim Development
-    workEmail: rumpf_a@web.de
-    customStatusPublicKey: null
-    customGitHubusername: null
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=ad1ada3bea74a6afab83d2e40da1dcf3'
   - id: '19'
     displayName: Ricardo Schmidt
     firstName: Ricardo

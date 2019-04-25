@@ -156,7 +156,7 @@ $(document).ready(function($) {
   });
 
   if ($('.home-intro .announcement').length) {
-    var ghostContentKey = 'c6717eab3d9a3e6be361980f66';
+    var ghostContentKey = '10e7f8c1f793d2945ea1177076';
     $.ajax({
       url: 'https://our.status.im/ghost/api/v2/content/posts/?key='+ ghostContentKey +'&limit=1&fields=title,url'
     })

@@ -6,8 +6,14 @@ title: Optimize Your DApp for Status
 # What does it mean to be Optimised for Status?
 
 - Your DApp looks great on mobile
-- You use our name & logo if featuring mobile wallets 
+- You use our name & logo if featuring mobile wallets. You can use the badges below to do so.
 - Your DApp is available on Mainnet and HTTP Secure
+
+Badges
+
+![Open with Status](./img/open-with-status.svg)
+
+![Connect with Status](./img/connect-with-status.svg)
 
 Once these items are checked off, you can [submit your DApp](https://docs.google.com/forms/d/1YeYi5MC6LaJJR8iso52cLwSqQPJpmnqIfAWTT6bwTDE/edit) to be included in our registry. 
 

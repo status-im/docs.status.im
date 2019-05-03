@@ -40,8 +40,8 @@ hexo.extend.helper.register('employees', function(type) {
         <b>'+ employee['displayName'] +'</b> \
         <span>'+ employee['jobTitle'] +'</span> \
         <ul>\
-          <li><a href="https://get.status.im/user/'+ employee['customStatusPublicKey'] +'"><img src="/img/icon-status-purple.svg"></a></li> \
-          <li><a href="https://github.com/'+ employee['customGitHubusername'] +'"><img src="/img/icon-github-purple.svg"></a></li> \
+          <li><a href="https://get.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
+          <li><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
         </ul>\
       </div>\
     </li>'

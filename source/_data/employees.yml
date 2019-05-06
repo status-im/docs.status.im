@@ -151,7 +151,7 @@ employees:
     jobTitle: Go Programmer
     workEmail: andrea@status.im
     customStatusPublicKey: '0x04b40ac542157ab4e6cf09a2bad5a12ade51d809cc079de1facaa45aaebfb272b0ed64b9b5275877f367127179d972149a294ecc2a78fc8d4688438f5730d8828a'
-    customGitHubusername: pilu
+    customGitHubusername: gravityblast
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=52956cd0a1bd9a14a312816e6e385dbd'
   - id: '111'
     displayName: Barry Gitarts

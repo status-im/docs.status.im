@@ -40,7 +40,7 @@ The `make shell` script prepares and installs the following:
 - Node.js (see note below)
 - yarn
 - React Native CLI and Watchman
-- Android SDK (at `~/.status/Android/Sdk/`)
+- Android SDK
 - Android NDK
 - Maven
 - Cocoapods
@@ -55,7 +55,9 @@ The `make shell` script prepares and installs the following:
 
 *Note 2:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file.
 
-*Note 3:* On macOS, the build environment is set up to rely on XCode 10.1. If you want to use an unsupported version, you'll need to edit the version in the [derivation.nix](https://github.com/status-im/status-react/blob/develop/derivation.nix) file (`xcodewrapperArgs.version`).
+*Note 3:* An environment variable called `TARGET_OS` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `TARGET_OS=android make shell`. Most of the makefile targets already include a sensible default.
+
+*Note 4:* On macOS, the build environment is set up to rely on XCode 10.1. If you want to use an unsupported version, you'll need to edit the version in the [derivation.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
 
 ## Running development processes
 
@@ -85,7 +87,7 @@ For additional information check the following:
 Do this in the second terminal window:
 
 ```bash
-make react-native
+make react-native-android # (ios and desktop are also available targets)
 ```
 
 ## Build and run the application itself
@@ -107,7 +109,7 @@ You can also start XCode and run the application there. Execute `open ios/Status
 
 ### Android
 
-Installation script installs Android SDK and Android NDK (if they are not present in `~/.status/Android/Sdk/`).
+Installation script installs Android SDK and Android NDK.
 
 - *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
 - *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
@@ -117,8 +119,6 @@ Once Android SDK is set up, execute:
   ```bash
   make run-android
   ```
-
-_Errors like `android-sdk-16 not found` usually mean that you simply need to install missing SDKs. Run `sdkmanager` for that._
 
 Check the following docs if you still have problems:
 

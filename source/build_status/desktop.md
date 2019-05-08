@@ -15,11 +15,13 @@ cd status-react
 make release-desktop
 ```
 
-For a Windows build cross-compiled from Linux, replace `make release-desktop` with `make release-windows-desktop`.
+Note: for a Windows build cross-compiled from Linux, replace `make release-desktop` with `make release-windows-desktop`.
 
 # Development environment setup
 
 ## To install react-native-cli with desktop commands support
+
+Comment out the `"react-native-cli-2.0.1" = nodeEnv.buildNodePackage` block in https://github.com/status-im/status-react/blob/develop/nix/global-node-packages/output/node-packages.nix and run:
 
 ``` bash
 git clone https://github.com/status-im/react-native-desktop.git
@@ -38,7 +40,7 @@ npm install -g
     make startdev-desktop # note: wait until sources are compiled
     ```
 
-1. In separate terminal tab: `make react-native` (note: it starts react-native packager)
+1. In separate terminal tab: `make react-native-desktop` (note: it starts react-native packager)
 1. In separate terminal tab: `make desktop-server` (note: it runs `node ./ubuntu-server.js`)
 1. In separate terminal tab: `make run-desktop`
 

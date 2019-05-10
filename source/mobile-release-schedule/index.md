@@ -22,37 +22,34 @@ var releases = [
         released: true,
     },
     {
-        dates: [new Date(2019, 3, 9)],
+        dates: [new Date(2019, 3, 23)],
         title: "Release 0.12.0",
-        cancelled: true,
+        released: true,
     },
     {
         dates: [new Date(2019, 3, 23)],
-        title: "Release 0.12.0",
-    },
-    {
-        dates: [new Date(2019, 4, 7)],
-        title: "Release 0.13.0",
+        title: "Release 0.12.1",
+        released: true,
     },
     {
         dates: [new Date(2019, 4, 21)],
-        title: "Release 0.14.0",
+        title: "Release 0.13.0",
     },
     {
         dates: [new Date(2019, 5, 4)],
-        title: "Release 0.15.0",
+        title: "Release 0.14.0",
     },
     {
         dates: [new Date(2019, 5, 18)],
-        title: "Release 0.16.0",
+        title: "Release 0.15.0",
     },
     {
         dates: [new Date(2019, 6, 2)],
-        title: "Release 0.17.0",
+        title: "Release 0.16.0",
     },
     {
         dates: [new Date(2019, 6, 16)],
-        title: "Release 0.18.0",
+        title: "Release 0.17.0",
     },
     {
         dates: [new Date(2019, 6, 30)],

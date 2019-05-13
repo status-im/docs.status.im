@@ -32,30 +32,25 @@ var releases = [
         released: true,
     },
     {
-        dates: [new Date(2019, 4, 21)],
+        dates: [new Date(2019, 4, 28)],
         title: "Release 0.13.0",
     },
     {
-        dates: [new Date(2019, 5, 4)],
+        dates: [new Date(2019, 5, 11)],
         title: "Release 0.14.0",
     },
     {
-        dates: [new Date(2019, 5, 18)],
+        dates: [new Date(2019, 5, 25)],
         title: "Release 0.15.0",
     },
     {
-        dates: [new Date(2019, 6, 2)],
+        dates: [new Date(2019, 6, 9)],
         title: "Release 0.16.0",
     },
     {
-        dates: [new Date(2019, 6, 16)],
-        title: "Release 0.17.0",
-    },
-    {
-        dates: [new Date(2019, 6, 30)],
+        dates: [new Date(2019, 6, 23)],
         title: "Release 1.0.0",
     },
-
 ];
 </script>
 

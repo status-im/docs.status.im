@@ -32,6 +32,11 @@ var releases = [
         released: true,
     },
     {
+        dates: [new Date(2019, 4, 15)],
+        title: "Release 0.12.2",
+        released: true,
+    },
+    {
         dates: [new Date(2019, 4, 28)],
         title: "Release 0.13.0",
     },

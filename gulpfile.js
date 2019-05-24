@@ -17,20 +17,22 @@ const run = require('gulp-run-command').default;
 const bamboo = require('./scripts/bamboo-hr');
 
 const genqr = require('./scripts/gen-qr');
+const gitBranch = require('./scripts/git-branch');
 const updateBuilds = require('./scripts/update-builds');
 
-/* this usallly comes as a parameter from Jenkinsfile */
-const env = process.env.ENV
-
-// generate html with 'hexo generate'
-var hexo = new Hexo(process.cwd(), {});
+const getEnv = function () {
+    return gitBranch() == 'master' ? 'prod' : 'dev'
+}
 
 gulp.task('generate', function(cb) {
+    /* generate html with 'hexo generate' */
+    var hexo = new Hexo(process.cwd(), {
+        config: `_config.${getEnv()}.yml`,
+        watch: false,
+    });
+
     hexo.init().then(function() {
-        return hexo.call('generate', {
-            config: `_config.${env}.yml`,
-            watch: false,
-        });
+        return hexo.call('generate');
     }).then(function() {
         return hexo.exit();
     }).then(function() {
@@ -134,7 +136,7 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream())
 })
 
-gulp.task('index', run(`hexo --config _config.${env}.yml elasticsearch`))
+gulp.task('index', run(`hexo --config _config.${getEnv()}.yml elasticsearch`))
 
 gulp.task('watch', function() {
     gulp.watch(config.paths.src.scss, ['compress'])

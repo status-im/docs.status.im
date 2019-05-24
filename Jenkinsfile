@@ -13,8 +13,6 @@ pipeline {
   environment {
     GIT_USER = 'status-im-auto'
     GIT_MAIL = 'auto@status.im'
-    /* This assumes the NODE_ENV parameter is defined in the job */
-    ENV = "${params.ENV}"
   }
 
   stages {

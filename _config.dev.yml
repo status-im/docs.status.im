@@ -32,7 +32,7 @@ deploy:
 
 disqus_shortname: hexojs
 twitter: ethstatus
-github: staus-im
+github: status-im
 
 graphviz:
   enable: true

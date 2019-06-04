@@ -265,3 +265,18 @@ hexo.extend.helper.register('global_header', function() {
   });
   return 'asd';
 });
+
+/* DigitalOcean Spaces links don't use the CDN by default */
+hexo.extend.helper.register('get_build_url', function(type, platform) {
+  const buildType = this.site.data[type];
+  if (buildType == undefined) {
+    throw `Unable to find data for build type: ${type}`
+  }
+  const buildUrl = buildType[platform];
+  if (buildUrl == undefined) {
+    throw `Unable to find build for platform: ${platform}`
+  }
+  /* modify the URL to use the DigitalOcean CDN */
+  const url = buildUrl.replace(/(cdn.)?digitaloceanspaces/, 'cdn.digitaloceanspaces')
+  return url;
+});

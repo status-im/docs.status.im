@@ -9,13 +9,13 @@
 	            	<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
 						<div class="row">
 							<div class="col-md-11">
-								<h1>Private, Secure Communication</h1>
-								<p class="teaser-1">Status is a messenger, crypto wallet, and Web3 browser built with state of the art technology.</p>
+								<h1><%- __('site.home.intro.title') %></h1>
+								<p class="teaser-1"><%- __('site.home.intro.description') %></p>
 								<div class="d-flex">
-									<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white m-r-30">Get Status</a>
-									<a href="/get-involved/" class="btn btn-arrow">Get Involved</a>
+									<a href="<%- url_for('/get/') %>" class="btn btn-purple-fill btn-arrow btn-arrow-white m-r-30"><%- __('site.link.get-status') %></a>
+									<a href="/get-involved/" class="btn btn-arrow"><%- __('site.link.get-involved') %></a>
 								</div>
-								<a href="#" target="_blank" class="announcement inactive"><span>news</span><b></b></a>
+								<a href="#" target="_blank" class="announcement inactive"><span><%- __('site.home.intro.news') %></span><b></b></a>
 							</div>
 						</div>
 	            	</div>
@@ -34,20 +34,20 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="inner">
-						<h3>An Open Source Project</h3>
-						<p class="teaser-2">Status is completely open source and made by contributors all over the world. Developers, designers, creators, educators, hobbyists, enthusiasts, and more – everyone has free and open access to the repos, assets, and information.</p>
+						<h3><%- __('site.home.about.open-source.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.about.open-source.description') %></p>
 						<ul class="inline-links">
-							<li><a href="/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> Developers</a></li>
-							<li><a href="/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> Educators</a></li>
-							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> Community Groups</a></li>
+							<li><a href="/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
+							<li><a href="/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
+							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="inner">
-						<h3>Mission & Principles</h3>
-						<p class="teaser-2">Status strives to be a secure communication tool that upholds human rights. We enable community money, community law and through privacy, preserve culture.</p>
-						<a href="/about/" class="link-arrow">Learn More</a>
+						<h3><%- __('site.home.about.mission.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.about.mission.description') %></p>
+						<a href="/about/" class="link-arrow"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>
@@ -64,10 +64,10 @@
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
 								<%- image_tag("/img/decentralized-illustration.png", { srcset: '/img/decentralized-illustration-2x.png 2x'}) %>
-								<p class="teaser-2">Decentralized Communication</p>
-								<h3>Chat, Browse, Transact on Your Terms</h3>
-								<p class="p-large">Status combines a decentralized messenger, wallet, and DApp browser into a powerful, private, and secure communication tool.</p>
-								<a href="/features/" class="btn btn-arrow">Explore all features</a>
+								<p class="teaser-2"><%- __('site.home.decentralized.subtitle') %></p>
+								<h3><%- __('site.home.decentralized.title') %></h3>
+								<p class="p-large"><%- __('site.home.decentralized.description') %></p>
+								<a href="/features/" class="btn btn-arrow"><%- __('site.home.decentralized.link') %></a>
 							</div>
 						</div>
 					</div>
@@ -76,10 +76,10 @@
 					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
 						<div class="row">
 							<div class="col-lg-11 d-flex align-items-start flex-column">
-								<p class="teaser-2">Preserving Privacy</p>
-								<h3>Truly Private Messaging</h3>
-								<p class="p-large">Status uses the peer-to-peer protocol Whisper and end-to-end encryption to protect your communication from third party interference. Only you can view your messages.</p>
-								<a href="/features/#secure-messenger" class="btn btn-white btn-arrow btn-arrow-white">Learn More</a>
+								<p class="teaser-2"><%- __('site.home.private.subtitle') %></p>
+								<h3><%- __('site.home.private.title') %></h3>
+								<p class="p-large"><%- __('site.home.private.description') %></p>
+								<a href="/features/#secure-messenger" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
 								<%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
 							</div>
 						</div>
@@ -98,10 +98,10 @@
 					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
-								<p class="teaser-2">Enabling Community Money</p>
-								<h3>Secure Crypto Wallet</h3>
-								<p class="p-large">Safely send, store and receive crypto assets including ERC20 and some ERC721 tokens. Only you hold the keys to your serverless wallet. Intuitive design protects you from attack.</p>
-								<a href="/features/#integrated-ethereum-wallet" class="btn btn-white btn-arrow btn-arrow-white">Learn more</a>
+								<p class="teaser-2"><%- __('site.home.wallet.subtitle') %></p>
+								<h3><%- __('site.home.wallet.title') %></h3>
+								<p class="p-large"><%- __('site.home.wallet.description') %></p>
+								<a href="/features/#integrated-ethereum-wallet" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
 								<div class="img-holder">
 									<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x'}) %>
 								</div>
@@ -112,10 +112,10 @@
 				<div class="col-md-6 col-grey home-browser">
 					<div class="inner d-flex align-items-start flex-column h-100">
 						<%- image_tag("/img/browser-illustration.png", {srcset: "/img/browser-illustration-2x.png 2x"}) %>
-						<p class="teaser-2">Own Your Data</p>
-						<h3>Decentralized Web3 Browser</h3>
-						<p class="p-large">Navigate the growing ecosystem of decentralized applications from our Web3-enabled browser, without being tracked. Browse the latest marketplaces, exchanges, games, and more.</p>
-						<a href="/features/#web3-browser" class="btn btn-arrow">Learn More</a>
+						<p class="teaser-2"><%- __('site.home.browser.subtitle') %></p>
+						<h3><%- __('site.home.browser.title') %></h3>
+						<p class="p-large"><%- __('site.home.browser.description') %></p>
+						<a href="/features/#web3-browser" class="btn btn-arrow"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>
@@ -132,9 +132,9 @@
 						<div class="img-holder">
 							<%- image_tag("/img/lock.svg") %>
 						</div>
-						<h3>Private and Secure by Design</h3>
-						<p class="teaser-2">Status uses state of the art technology to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Communicate with confidence.</p>
-						<a href="/security/" class="link-arrow">Learn More</a>
+						<h3><%- __('site.home.security.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.security.description') %></p>
+						<a href="/security/" class="link-arrow"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>

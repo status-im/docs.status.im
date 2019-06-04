@@ -6,15 +6,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-7 col-md-6">
-					<h1>The Power of Ethereum <br> in Your Pocket</h1>
+					<h1><%- __('site.features.intro.title') %></h1>
 					<ul class="inline-links">
-						<li><a href="#secure-messenger"><%- image_tag("/img/messenger.svg") %>Messenger</a></li>
-						<li><a href="#integrated-ethereum-wallet"><%- image_tag("/img/crypto-wallet.svg") %>Crypto-wallet</a></li>
-						<li><a href="#web3-browser"><%- image_tag("/img/browser-and-dapps.svg") %>Browser & DApps</a></li>
+						<li><a href="#secure-messenger"><%- image_tag("/img/messenger.svg") %> <%- __('site.features.intro.link-messenger') %></a></li>
+						<li><a href="#integrated-ethereum-wallet"><%- image_tag("/img/crypto-wallet.svg") %> <%- __('site.features.intro.link-wallet') %></a></li>
+						<li><a href="#web3-browser"><%- image_tag("/img/browser-and-dapps.svg") %> <%- __('site.features.intro.link-browser') %></a></li>
 					</ul>
 				</div>
 				<div class="col-xl-5 col-md-6">
-					<p class="teaser-1">Status is a multi-purpose communication tool that combines a peer-to-peer messenger, decentralized crypto-wallet, and Web3 browser.</p>
+					<p class="teaser-1"><%- __('site.features.intro.description') %></p>
 				</div>
 			</div>
 		</div>
@@ -27,16 +27,16 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="inner">
-						<h2 class="m-b-100">Secure Messenger</h2>
-						<h4 class="m-b-25">Public, Private and Group Chats</h4>
-						<p>Join any number of public channels or send private 1:1 or group chats. You can even send and receive crypto payments directly in your private chats.</p>
-						<a href="https://get.status.im/chat/public/status" target="_blank" class="link-arrow link-arrow-white">Join Status Public Channel</a>
-						<h4 class="m-t-90 m-b-25">Private Messaging with Whisper </h4>
-						<p>Whisper uses peer-to-peer dark routing–making it impossible for anyone (including us) to know anything about you or who you're communicating with. We're also conducting R&D in improved messaging protocols.</p>
-						<a href="/research/" class="link-arrow link-arrow-white">Learn more</a>
-						<h4 class="m-t-90 m-b-25">Perfect Forward Secrecy & <br> E2E Encryption</h4>
-						<p>Status uses the ‘Double Ratchet’ algorithm on top of Whisper and end-to-end encryption for the highest grade of security and privacy.</p>
-						<a href="/research/pfs.html" class="link-arrow link-arrow-white">Learn more</a>
+						<h2 class="m-b-100"><%- __('site.features.messenger.title') %></h2>
+						<h4 class="m-b-25"><%- __('site.features.messenger.feature-1.title') %></h4>
+						<p><%- __('site.features.messenger.feature-1.description') %></p>
+						<a href="https://get.status.im/chat/public/status" target="_blank" class="link-arrow link-arrow-white"><%- __('site.features.messenger.feature-1.link') %></a>
+						<h4 class="m-t-90 m-b-25"><%- __('site.features.messenger.feature-2.title') %></h4>
+						<p><%- __('site.features.messenger.feature-2.description') %></p>
+						<a href="/research/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+						<h4 class="m-t-90 m-b-25"><%- __('site.features.messenger.feature-3.title') %></h4>
+						<p><%- __('site.features.messenger.feature-3.description') %></p>
+						<a href="/research/pfs.html" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -52,26 +52,26 @@
 	<!-- FEATURES-WALLET -->
 	<section class="features-wallet col-black p-t-160" id="integrated-ethereum-wallet">
 		<div class="container">
-			<h2 class="m-b-100">Integrated <br> Ethereum Wallet</h2>
+			<h2 class="m-b-100"><%- __('site.features.wallet.title') %></h2>
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="inner">
-						<h4 class="m-b-25">A Safe Wallet</h4>
-						<p>Removal of intermediaries puts you in control of your funds. You and only you hold your private keys to your cryptocurrency, and no middle man has access.</p>
-						<a href="/security/" class="link-arrow link-arrow-white">Learn more</a>
+						<h4 class="m-b-25"><%- __('site.features.wallet.feature-1.title') %></h4>
+						<p><%- __('site.features.wallet.feature-1.description') %></p>
+						<a href="/security/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="inner">
-						<h4 class="m-b-25">ERC20 & ERC721 Compatible</h4>
-						<p>Support for ERC20 and ERC721 tokens on the Ethereum network. Send, store, and receive your tokens confidently in Status. Contact us in the channel below to add your tokens.</p>
-						<a href="https://get.status.im/chat/public/status-core-wallet" target="_blank" class="link-arrow link-arrow-white">Join Status Wallet Public Channel</a>
+						<h4 class="m-b-25"><%- __('site.features.wallet.feature-2.title') %></h4>
+						<p><%- __('site.features.wallet.feature-2.description') %></p>
+						<a href="https://get.status.im/chat/public/status-core-wallet" target="_blank" class="link-arrow link-arrow-white"><%- __('site.features.wallet.feature-2.link') %></a>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="inner">
-						<h4 class="m-b-25">Interact with Peers & DApps</h4>
-						<p>The Status wallet integrates with the messenger and browser–enabling you to interact with peers and DApps. All transactions require verification of a signing phrase to protect you from phishing attacks.</p>
+						<h4 class="m-b-25"><%- __('site.features.wallet.feature-3.title') %></h4>
+						<p><%- __('site.features.wallet.feature-3.description') %></p>
 					</div>
 				</div>
 			</div>
@@ -89,27 +89,27 @@
 	<!-- FEATURES-BROWSER -->
 	<section class="features-browser p-t-160" id="web3-browser">
 		<div class="container">
-			<h2 class="m-b-100">Web3 Browser</h2>
+			<h2 class="m-b-100"><%- __('site.features.browser.title') %></h2>
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="inner">
-						<h4 class="m-b-25">Access Decentralized Applications</h4>
-						<p>A growing ecosystem of DApps in your pocket. Browse the latest decentralized exchanges, marketplaces, games, social networks, and more.</p>
-						<a href="/get/" class="link-arrow link-arrow-black">Install Status</a>
+						<h4 class="m-b-25"><%- __('site.features.browser.feature-1.title') %></h4>
+						<p><%- __('site.features.browser.feature-1.description') %></p>
+						<a href="/get/" class="link-arrow link-arrow-black"><%- __('site.features.browser.feature-1.link') %></a>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="inner">
-						<h4 class="m-b-25">Private & Secure <br>Browsing</h4>
-						<p>Status implements the latest security standards to ensure you are safe and free from tracking and data collection. Browse on your terms.</p>
-						<a href="/security/" class="link-arrow link-arrow-black">Learn more</a>
+						<h4 class="m-b-25"><%- __('site.features.browser.feature-2.title') %></h4>
+						<p><%- __('site.features.browser.feature-2.description') %></p>
+						<a href="/security/" class="link-arrow link-arrow-black"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="inner">
-						<h4 class="m-b-25">Extend your DApp <br> with Status</h4>
-						<p>Extensions are a tool for developers to integrate their DApp functionality within Status in a native way. They create a seamless user experience directly in Status.</p>
-						<a href="/extensions/" class="link-arrow link-arrow-black">Documentation</a>
+						<h4 class="m-b-25"><%- __('site.features.browser.feature-3.title') %></h4>
+						<p><%- __('site.features.browser.feature-3.description') %></p>
+						<a href="/extensions/" class="link-arrow link-arrow-black"><%- __('site.features.browser.feature-3.link') %></a>
 					</div>
 				</div>
 			</div>
@@ -130,10 +130,10 @@
 			<div class="row">
 				<div class="col-md-5 mr-auto">
 					<div class="inner">
-						<h2>Status Desktop</h2>
-						<p class="teaser-2">Install the desktop alpha and enjoy secure and private messaging while you work. The desktop app syncs with your mobile account for a seamless experience.</p>
-						<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white">Get Status Desktop</a>
-						<p class="announcement">Status Desktop is still in alpha. Install the nightly, help test and build it. <a href="/docs/FAQ-desktop.html">Desktop FAQ's</a></p>	
+						<h2><%- __('site.features.desktop.title') %></h2>
+						<p class="teaser-2"><%- __('site.features.desktop.description') %></p>
+						<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.desktop.link') %></a>
+						<p class="announcement"><%- __('site.features.desktop.announcement.title') %> <a href="/docs/FAQ-desktop.html"><%- __('site.features.desktop.announcement.link') %></a></p>	
 					</div>
 				</div>
 				<div class="col-md-6 d-flex justify-content-end">
@@ -152,19 +152,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h3 class="m-t-50">An Open Source Project</h3>
-					<p class="teaser-2">Status is completely open source and made by contributors all over the world. Developers, designers, creators, educators, hobbyists, enthusiasts, and more – everyone has free and open access to the repos, assets, and information.</p>
+					<h3 class="m-t-50"><%- __('site.home.about.open-source.title') %></h3>
+					<p class="teaser-2"><%- __('site.home.about.open-source.description') %></p>
 					<ul class="inline-links">
-						<li><a href="/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> Developers</a></li>
-						<li><a href="/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> Educators</a></li>
-						<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> Community Groups</a></li>
+						<li><a href="/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
+						<li><a href="/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
+						<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
 					</ul>
 				</div>
 				<div class="col-md-6">
 					<div class="get-status">
-						<h3>Get Status</h3>
-						<p class="teaser-2">Start enjoying Status on iOS, Android, MacOS, Windows and Linux.</p>
-						<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white">Download Apps</a>
+						<h3><%- __('site.features.get.title') %></h3>
+						<p class="teaser-2"><%- __('site.features.get.description') %></p>
+						<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
 					</div>
 				</div>
 			</div>

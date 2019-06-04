@@ -6,9 +6,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h4>An Open Source Community</h4>
-					<h1 class="community-nav-trigger">Development</h1>
-					<p class="teaser-1">Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or extending your work with the natives features of Status.</p>
+					<h4><%- __('site.get-involved.developers.intro.subtitle') %></h4>
+					<h1 class="community-nav-trigger"><%- __('site.get-involved.developers.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.get-involved.developers.intro.description') %></p>
 					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
 				</div>
 			</div>
@@ -23,9 +23,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li><a href="/get-involved/developers/" class="active"><%- image_tag("/img/development-small-icon.svg") %>Developers</a></li>
-							<li><a href="/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %>Educators</a></li>
-							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %>Community Groups</a></li>
+							<li><a href="/get-involved/developers/" class="active"><%- image_tag("/img/development-small-icon.svg") %><%- __('site.link.developers') %></a></li>
+							<li><a href="/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
+							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -39,12 +39,12 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li><a href="#contribute-to-status">Contribute to Status</a></li>
-							<li><a href="#build-dapps">Build DApps</a></li>
-							<li><a href="#extend-dapps">Extend DApps</a></li>
-							<li><a href="#developer-resources">Developer Resources</a></li>
+							<li><a href="#contribute-to-status"><%- __('site.get-involved.developers.quick-nav-sub.link-1') %></a></li>
+							<li><a href="#build-dapps"><%- __('site.get-involved.developers.quick-nav-sub.link-2') %></a></li>
+							<li><a href="#extend-dapps"><%- __('site.get-involved.developers.quick-nav-sub.link-3') %></a></li>
+							<li><a href="#developer-resources"><%- __('site.get-involved.developers.quick-nav-sub.link-4') %></a></li>
 						</ul>
-						<a href="https://github.com/status-im" target="_blank"><%- image_tag("/img/github-white-logo.svg") %>Github</a>
+						<a href="https://github.com/status-im" target="_blank"><%- image_tag("/img/github-white-logo.svg") %><%- __('site.get-involved.developers.quick-nav-sub.link-5') %></a>
 					</div>
 				</div>
 			</div>
@@ -57,8 +57,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Contribute to Status</h2>
-					<p class="teaser-2">Get set up with this Contributor Guide. <a href="/docs/contributor_guide.html" class="link-arrow quick-start-guide">Quick Start Guide</a></p>
+					<h2><%- __('site.get-involved.developers.contribute-to-status.title') %></h2>
+					<p class="teaser-2"><%- __('site.get-involved.developers.contribute-to-status.description') %> <a href="/docs/contributor_guide.html" class="link-arrow quick-start-guide"><%- __('site.get-involved.developers.contribute-to-status.link') %></a></p>
 				</div>
 			</div>
 		</div>
@@ -68,9 +68,9 @@
 					<div class="box-with-icon m-t-50">
 						<%- image_tag("/img/github-black-logo.svg") %>
 						<div class="inner">
-							<h3>Status-React</h3>
-							<p class="p-large">Written in Clojure - this is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives.</p>
-							<a href="https://github.com/status-im/status-react" target="_blank" class="link-arrow">View Repository</a>
+							<h3><%- __('site.get-involved.developers.contribute-to-status.status-react.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.status-react.description') %></p>
+							<a href="https://github.com/status-im/status-react" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.status-react.link') %></a>
 						</div>
 					</div>
 				</div>
@@ -78,9 +78,9 @@
 					<div class="box-with-icon m-t-50">
 						<%- image_tag("/img/github-black-logo.svg") %>
 						<div class="inner">
-							<h3>Status-Go</h3>
-							<p class="p-large">Written in Go - this is where all of the blockchain logic, transactions, and light client work we do lives. </p>
-							<a href="https://github.com/status-im/status-go" target="_blank" class="link-arrow">View Repository</a>
+							<h3><%- __('site.get-involved.developers.contribute-to-status.status-go.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.status-go.description') %> </p>
+							<a href="https://github.com/status-im/status-go" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.status-go.link') %></a>
 						</div>
 					</div>
 				</div>
@@ -89,14 +89,14 @@
 		<div class="container m-t-90 open-issues">
 			<div class="row">
 				<div class="col-md-6">
-					<h3>Open Issues Status-React</h3>
+					<h3><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-react.title') %></h3>
 					<ul class="open-issues-react"></ul>
-					<a href="https://github.com/status-im/status-react/issues/" target="_blank" class="link-arrow">View all open issues</a>
+					<a href="https://github.com/status-im/status-react/issues/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-react.link') %></a>
 				</div>
 				<div class="col-md-6">
-					<h3>Open Issues Status-Go</h3>
+					<h3><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-go.title') %></h3>
 					<ul class="open-issues-go"></ul>
-					<a href="https://github.com/status-im/status-go/issues/" target="_blank" class="link-arrow">View all open issues</a>
+					<a href="https://github.com/status-im/status-go/issues/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-go.link') %></a>
 				</div>
 			</div>
 		</div>
@@ -106,8 +106,8 @@
 					<div class="box-with-icon m-t-50">
 						<%- image_tag("/img/crypto-logo.svg") %>
 						<div class="inner">
-							<h3>Earn crypto for <br>completing bounties</h3>
-							<p class="p-large">See the full list of technical bounties on <a href="https://gitcoin.co/explorer?network=mainnet&idx_status=open&keywords=status&order_by=-web3_created" target="_blank" class="link-arrow">Gitcoin</a></p>
+							<h3><%- __('site.get-involved.developers.contribute-to-status.earn-crypto.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.earn-crypto.description') %> <a href="https://gitcoin.co/explorer?network=mainnet&idx_status=open&keywords=status&order_by=-web3_created" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.earn-crypto.link') %></a></p>
 						</div>
 					</div>
 				</div>
@@ -115,8 +115,8 @@
 					<div class="box-with-icon m-t-50">
 						<%- image_tag("/img/bounty-program.svg") %>
 						<div class="inner">
-							<h3>Report a security <br>vulnerability and fix it</h3>
-							<p class="p-large">Learn more about the <a href="https://blog.status.im/status-network-token-bug-bounty-a66fc2324359" target="_blank" class="link-arrow">Bug bounty program</a></p>
+							<h3><%- __('site.get-involved.developers.contribute-to-status.report-a-security-vulnerability.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.report-a-security-vulnerability.description') %> <a href="https://blog.status.im/status-network-token-bug-bounty-a66fc2324359" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.report-a-security-vulnerability.link') %></a></p>
 						</div>
 					</div>
 				</div>
@@ -133,13 +133,13 @@
 					<div class="inner d-flex align-items-start flex-column h-100">
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
-								<h2>Build your own DApp</h2>
-								<p class="teaser-2">Get started with our tools and frameworks to build your own decentralized application.</p>
+								<h2><%- __('site.get-involved.developers.development-dapp.build-dapp.title') %></h2>
+								<p class="teaser-2"><%- __('site.get-involved.developers.development-dapp.build-dapp.description') %></p>
 								<ul>
-									<li><a href="/developer_tools/status_web_api.html" class="link-arrow">Optimize for mobile with the Javascript API</a></li>
-									<li><a href="https://embark.status.im/" target="_blank" class="link-arrow">Build your own DApp with Embark</a></li>
-									<li><a href="/developer_tools/access_eth_provider.html" class="link-arrow">Access Web3 providers and detect Status</a></li>
-									<li><a href="/developer_tools/add_your_dapp.html" class="link-arrow">Submit your DApp to the Status DApp list</a></li>
+									<li><a href="/developer_tools/status_web_api.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-1') %></a></li>
+									<li><a href="https://embark.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-2') %></a></li>
+									<li><a href="/developer_tools/access_eth_provider.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-3') %></a></li>
+									<li><a href="/developer_tools/add_your_dapp.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-4') %></a></li>
 								</ul>
 							</div>
 						</div>
@@ -149,12 +149,12 @@
 					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
 						<div class="row">
 							<div class="col-lg-11 d-flex align-items-start flex-column">
-								<h2>Extend your DApp</h2>
-								<p class="teaser-2">Extensions allow you to leverage the native of features of Status within your DApp.</p>
+								<h2><%- __('site.get-involved.developers.development-dapp.extend-dapp.title') %></h2>
+								<p class="teaser-2"><%- __('site.get-involved.developers.development-dapp.extend-dapp.description') %></p>
 								<ul>
-									<li><a href="/extensions/" class="link-arrow link-arrow-white">Introduction to Extensions</a></li>
-									<li><a href="/tutorials/" class="link-arrow link-arrow-white">Tutorials</a></li>
-									<li><a href="/extensions/examples.html" class="link-arrow link-arrow-white">Examples & Existing Extensions</a></li>
+									<li><a href="/extensions/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-1') %></a></li>
+									<li><a href="/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-2') %></a></li>
+									<li><a href="/extensions/examples.html" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-3') %></a></li>
 								</ul>
 							</div>
 						</div>
@@ -171,40 +171,40 @@
 			<div class="row">
 				<div class="col-md-5 mr-auto contribute-support">
 					<div class="inner">
-						<h2>Contribute Support</h2>
+						<h2><%- __('site.get-involved.developers.development-resources.contribute-support.title') %></h2>
 						<ul>
 							<li>
-								<a href="/docs/" class="link-arrow link-arrow-white">Write Documentation</a>
-								<p>Dive in and help write, edit, and fix the docs. Edits are all made via GitHub.</p>
+								<a href="/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-1') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-1-description') %></p>
 							</li>
 							<li>
-								<a href="https://lokalise.co/projects" target="_blank" class="link-arrow link-arrow-white">Translate Documentation</a>
-								<p>We need help translating all of our documentation into your local language.</p>
+								<a href="https://lokalise.co/projects" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-2') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-2-description') %></p>
 							</li>
 							<li>
-								<a href="https://get.status.im/chat/public/introductions" target="_blank" class="link-arrow link-arrow-white">Welcome New Contributors</a>
-								<p>Join the Status #introductions channel and help out new contributors and community members.</p>
+								<a href="https://get.status.im/chat/public/introductions" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-3') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-3-description') %></p>
 							</li>
 							<li>
-								<a href="mailto:contribute@status.im" class="link-arrow link-arrow-white">Create Tutorials</a>
-								<p>Contact us and learn how you can have your tutorials featured in the docs and the Status blog.</p>
+								<a href="mailto:contribute@status.im" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-4') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-4-description') %></p>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-6 developer-resources">
 					<div class="inner">
-						<h2>Developer Resources</h2>
+						<h2><%- __('site.get-involved.developers.development-resources.developer-resources.title') %></h2>
 						<ul>
-							<li><a href="https://github.com/status-im" target="_blank" class="link-arrow link-arrow-white">Github Repositories</a></li>
-							<li><a href="/docs/" class="link-arrow link-arrow-white">Documentation</a></li>
-							<li><a href="https://embark.status.im/" target="_blank" class="link-arrow link-arrow-white">Embark</a></li>
-							<li><a href="/tutorials/" class="link-arrow link-arrow-white">Tutorials</a></li>
-							<li><a href="/nightly/" class="link-arrow link-arrow-white">Nightly Builds</a></li>
-							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white">Blog</a></li>
-							<li><a href="https://www.youtube.com/playlist?list=PLbrz7IuP1hrjyCQqEpkpho41JpaFF3czG" target="_blank" class="link-arrow link-arrow-white">Listen to the latest core developer call</a></li>
-							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white">Check out the latest release notes</a></li>
-							<li><a href="/about/#active-swarms" class="link-arrow link-arrow-white">See the list of active swarms</a></li>
+							<li><a href="https://github.com/status-im" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-1') %></a></li>
+							<li><a href="/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-2') %></a></li>
+							<li><a href="https://embark.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-3') %></a></li>
+							<li><a href="/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-4') %></a></li>
+							<li><a href="/nightly/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-5') %></a></li>
+							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-6') %></a></li>
+							<li><a href="https://www.youtube.com/playlist?list=PLbrz7IuP1hrjyCQqEpkpho41JpaFF3czG" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-7') %></a></li>
+							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-8') %></a></li>
+							<li><a href="/about/#active-swarms" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-9') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -218,32 +218,32 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Get in touch</h3>
+					<h3><%- __('site.get-involved.developers.get-in-touch.title') %></h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="https://get.status.im/chat/public/status" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %>Join #status</a>
-						<p>General Status news and discussion.</p>
+						<a href="https://get.status.im/chat/public/status" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-status.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-status.description') %></p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="https://get.status.im/chat/public/status-core" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %>Join #status-core</a>
-						<p>Public channel about core development.</p>
+						<a href="https://get.status.im/chat/public/status-core" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-status-core.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-status-core.description') %></p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="https://get.status.im/chat/public/introductions" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %>Join #introductions</a>
-						<p>New to Status? Introduce yourself and say hello!</p>
+						<a href="https://get.status.im/chat/public/introductions" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-introductions.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-introductions.description') %></p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="mailto:contribute@status.im">Contact us</a>
-						<p>For everything else, email us directly.</p>
+						<a href="mailto:contribute@status.im"><%- __('site.get-involved.developers.get-in-touch.contact-us.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.contact-us.description') %></p>
 					</div>
 				</div>
 			</div>
@@ -257,9 +257,9 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="/get-involved/developers/" class="active">Developers</a></li>
-				<li><a href="/get-involved/educators/">Educators</a></li>
-				<li><a href="/get-involved/community-groups/">Community Groups</a></li>
+				<li><a href="/get-involved/developers/" class="active"><%- __('site.link.developers') %></a></li>
+				<li><a href="/get-involved/educators/"><%- __('site.link.educators') %></a></li>
+				<li><a href="/get-involved/community-groups/"><%- __('site.link.community-groups') %></a></li>
 			</ul>
 		</nav>
 	</div>

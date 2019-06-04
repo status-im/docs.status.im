@@ -6,9 +6,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h4>An Open Source Community</h4>
-					<h1 class="community-nav-trigger">Education</h1>
-					<p class="teaser-1">Everyone is welcome to help educate others on how to build Status, use Status, get started in the community, or even share their own experiences with the project.</p>
+					<h4><%- __('site.get-involved.educators.intro.subtitle') %></h4>
+					<h1 class="community-nav-trigger"><%- __('site.get-involved.educators.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.get-involved.educators.intro.description') %></p>
 					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
 				</div>
 			</div>
@@ -23,9 +23,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li><a href="/get-involved/developers/"><%- image_tag("/img/development-small-icon.svg") %>Developers</a></li>
-							<li><a href="/get-involved/educators/" class="active"><%- image_tag("/img/educate-small-icon.svg") %>Educators</a></li>
-							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %>Community Groups</a></li>
+							<li><a href="/get-involved/developers/"><%- image_tag("/img/development-small-icon.svg") %><%- __('site.link.developers') %></a></li>
+							<li><a href="/get-involved/educators/"  class="active"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
+							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -39,11 +39,11 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li><a href="#educate-and-create">Educate and create</a></li>
-							<li><a href="#translate">Translate</a></li>
-							<li><a href="#educator-resources">Educator Resources</a></li>
+							<li><a href="#educate-and-create"><%- __('site.get-involved.educators.quick-nav-sub.link-1') %></a></li>
+							<li><a href="#translate"><%- __('site.get-involved.educators.quick-nav-sub.link-2') %></a></li>
+							<li><a href="#educator-resources"><%- __('site.get-involved.educators.quick-nav-sub.link-3') %></a></li>
 						</ul>
-						<a href="https://github.com/status-im" target="_blank"><%- image_tag("/img/github-white-logo.svg") %>Github</a>
+						<a href="https://github.com/status-im" target="_blank"><%- image_tag("/img/github-white-logo.svg") %><%- __('site.get-involved.educators.quick-nav-sub.link-4') %></a>
 					</div>
 				</div>
 			</div>
@@ -57,37 +57,37 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="inner how-to-get-started">
-						<h2>How to Get Started</h2>
+						<h2><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.title') %></h2>
 						<ul>
 							<li>
-								<a href="https://our.status.im/status-im-a-beginners-guide/" target="_blank" class="link-arrow">Community Member Beginners Guide</a>
-								<p>Check out this guide created by community member, Warsoverjohn.</p>
+								<a href="https://our.status.im/status-im-a-beginners-guide/" target="_blank" class="link-arrow"><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.link-1') %></a>
+								<p><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.link-1-description') %></p>
 							</li>
 							<li>
-								<a href="https://notes.status.im/s/HkbYNN8veN#TOC" class="link-arrow">Glossary</a>
-								<p>Refer to this open source doc for terms, definitions, resources and concepts. Feel free to add to it.</p>
+								<a href="https://notes.status.im/s/HkbYNN8veN#TOC" class="link-arrow"><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.link-2') %></a>
+								<p><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.link-2-description') %></p>
 							</li>
 							<li>
-								<a href="/docs/FAQs.html" class="link-arrow">FAQ’s</a>
-								<p>Here is an ongoing list of frequently asked questions from everyone in the Status community.</p>
+								<a href="/docs/FAQs.html" class="link-arrow"><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.link-3') %></a>
+								<p><%- __('site.get-involved.educators.educate-contribute.how-to-get-started.link-3-description') %></p>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="inner create">
-						<h2>Create</h2>
+						<h2><%- __('site.get-involved.educators.educate-contribute.create.title') %></h2>
 						<ul>
 							<li>
-								<a href="mailto:contribute@status.im" class="link-arrow">Create Non-Technical Tutorials</a>
-								<p>Help newcomers set up their account and navigate the Status app and community. Contact us to have your tutorial shared on the blog.</p>
+								<a href="mailto:contribute@status.im" class="link-arrow"><%- __('site.get-involved.educators.educate-contribute.create.link-1') %></a>
+								<p><%- __('site.get-involved.educators.educate-contribute.create.link-1-description') %></p>
 							</li>
 							<li>
-								<a href="mailto:contribute@status.im" class="link-arrow">Create Technical Tutorials</a>
-								<p>Help developers build Status, build DApps, create an extension or anything else you would like to share. Contact us.</p>
+								<a href="mailto:contribute@status.im" class="link-arrow"><%- __('site.get-involved.educators.educate-contribute.create.link-2') %></a>
+								<p><%- __('site.get-involved.educators.educate-contribute.create.link-2-description') %></p>
 							</li>
 							<li>
-								<a href="mailto:contribute@status.im" class="link-arrow">Write a blog post</a>
+								<a href="mailto:contribute@status.im" class="link-arrow"><%- __('site.get-involved.educators.educate-contribute.create.link-3') %></a>
 								<p>Share a story on the Status blog <a href="https://our.status.im">our.status.im</a>. Become a publisher on the Status Blog.</p>
 							</li>
 						</ul>
@@ -109,10 +109,13 @@
 				</div>
 				<div class="col-md-6">
 					<div class="inner">
-						<h2>Translate</h2>
-						<p class="teaser-2">Help us localise Status into your language. We use lokalise to translate everything from the application, the website, the documentation and more.</p>
+						<h2><%- __('site.get-involved.educators.translate.title') %></h2>
+						<p class="teaser-2"><%- __('site.get-involved.educators.translate.description') %></p>
 						<ul>
-							<li><a href="https://translate.status.im/" target="_blank" class="link-arrow">Translate Status</a></li>
+							<li><a href="https://lokalise.co/projects" class="link-arrow"><%- __('site.get-involved.educators.translate.link-1') %></a></li>
+							<li><a href="https://lokalise.co/projects" class="link-arrow"><%- __('site.get-involved.educators.translate.link-2') %></a></li>
+							<li><a href="https://lokalise.co/projects" class="link-arrow"><%- __('site.get-involved.educators.translate.link-3') %></a></li>
+							<li><a href="mailto:contribute@status.im" class="link-arrow"><%- __('site.get-involved.educators.translate.link-4') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -126,7 +129,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Educator Resources</h2>
+					<h2><%- __('site.get-involved.educators.educator-resources.title') %></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -134,16 +137,16 @@
 					<div class="inner">
 						<ul>
 							<li>
-								<a href="https://github.com/status-im/design-guides" target="_blank" class="link-arrow link-arrow-white">Styleguide & Assets</a>
-								<p>Find the latest Styleguide along with branded assets, templates, and fonts.</p>
+								<a href="https://github.com/status-im/design-guides" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-1') %></a>
+								<p><%- __('site.get-involved.educators.educator-resources.link-1-description') %></p>
 							</li>
 							<li>
-								<a href="https://discuss.status.im/" target="_blank" class="link-arrow link-arrow-white">Discuss</a>
-								<p>Join long form discussion about all things Status.</p>
+								<a href="https://discuss.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-2') %></a>
+								<p><%- __('site.get-involved.educators.educator-resources.link-2-description') %></p>
 							</li>
 							<li>
-								<a href="/tutorials/" class="link-arrow link-arrow-white">Tutorials</a>
-								<p>Learn how to build something or see some examples of other community made tutorials.</p>
+								<a href="/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-3') %></a>
+								<p><%- __('site.get-involved.educators.educator-resources.link-3-description') %></p>
 							</li>
 						</ul>
 					</div>
@@ -152,21 +155,21 @@
 					<div class="inner educate-join">
 						<ul>
 							<li>
-								<a href="https://our.status.im/" class="link-arrow link-arrow-white">Blog</a>
-								<p>Check out the latest Status news and updates.</p>
+								<a href="https://our.status.im/" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-4') %></a>
+								<p><%- __('site.get-involved.educators.educator-resources.link-4-description') %></p>
 							</li>
 							<li>
-								<a href="/nightly/" class="link-arrow link-arrow-white">Nightlies</a>
-								<p>Install and test the latest nightly build for mobile and desktop.</p>
+								<a href="/nightly/" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-5') %></a>
+								<p><%- __('site.get-involved.educators.educator-resources.link-5-description') %></p>
 							</li>
 							<li>
-								<a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white">Check out the latest release notes</a>
+								<a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-6') %></a>
 							</li>
 							<li>
-								<a href="/about/#active-swarms" class="link-arrow link-arrow-white">See the list of active swarms</a>
+								<a href="/about/#active-swarms" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-7') %></a>
 							</li>
 							<li>
-								<a href="https://people-ops.status.im/status-channels/" target="_blank" class="link-arrow link-arrow-white">See full list of Status Public Channels</a>
+								<a href="https://people-ops.status.im/status-channels/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.educators.educator-resources.link-8') %></a>
 							</li>
 						</ul>
 					</div>
@@ -181,32 +184,32 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Get in touch</h3>
+					<h3><%- __('site.get-involved.developers.get-in-touch.title') %></h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="https://get.status.im/chat/public/status" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %>Join #status</a>
-						<p>General Status news and discussion.</p>
+						<a href="https://get.status.im/chat/public/status" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-status.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-status.description') %></p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="https://get.status.im/chat/public/statusphere" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %>Join #statusphere</a>
-						<p>A growing community of Status Ambassadors and enthusiasts</p>
+						<a href="https://get.status.im/chat/public/statusphere" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.educators.get-in-touch.join-statusphere.link') %></a>
+						<p><%- __('site.get-involved.educators.get-in-touch.join-statusphere.description') %></p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="https://get.status.im/chat/public/introductions" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %>Join #introductions</a>
-						<p>New to Status? Introduce yourself and say hello!</p>
+						<a href="https://get.status.im/chat/public/introductions" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-introductions.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-introductions.description') %></p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="inner">
-						<a href="mailto:contribute@status.im">Contact us</a>
-						<p>For everything else, email us directly.</p>
+						<a href="mailto:contribute@status.im"><%- __('site.get-involved.developers.get-in-touch.contact-us.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.contact-us.description') %></p>
 					</div>
 				</div>
 			</div>
@@ -220,9 +223,9 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="/get-involved/developers/">Developers</a></li>
-				<li><a href="/get-involved/educators/" class="active">Educators</a></li>
-				<li><a href="/get-involved/community-groups/">Community Groups</a></li>
+				<li><a href="/get-involved/developers/"><%- __('site.link.developers') %></a></li>
+				<li><a href="/get-involved/educators/" class="active"><%- __('site.link.educators') %></a></li>
+				<li><a href="/get-involved/community-groups/"><%- __('site.link.community-groups') %></a></li>
 			</ul>
 		</nav>
 	</div>

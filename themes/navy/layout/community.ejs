@@ -6,11 +6,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h4>An Open Source Community</h4>
-					<h1 class="community-nav-trigger">Community Groups</h1>
-					<p class="teaser-1">There are a number of both Status run and community organized groups within Status. Join an existing group or start your own group based on your personal interests. </p>
-					<p><a href="#groups" class="link-arrow">See the groups below</a></p>
-					<p><a href="mailto:contribute@status.im" class="link-arrow">Submit a new group</a></p>
+					<h4><%- __('site.get-involved.community.intro.subtitle') %></h4>
+					<h1 class="community-nav-trigger"><%- __('site.get-involved.community.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.get-involved.community.intro.description') %> </p>
+					<p><a href="#groups" class="link-arrow"><%- __('site.get-involved.community.intro.link-1') %></a></p>
+					<p><a href="mailto:contribute@status.im" class="link-arrow"><%- __('site.get-involved.community.intro.link-2') %></a></p>
 					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
 				</div>
 			</div>
@@ -25,9 +25,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li><a href="/get-involved/developers/"><%- image_tag("/img/development-small-icon.svg") %>Developers</a></li>
-							<li><a href="/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %>Educators</a></li>
-							<li><a href="/get-involved/community-groups/" class="active"><%- image_tag("/img/community-groups-small-icon.svg") %>Community Groups</a></li>
+							<li><a href="/get-involved/developers/"><%- image_tag("/img/development-small-icon.svg") %><%- __('site.link.developers') %></a></li>
+							<li><a href="/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
+							<li><a href="/get-involved/community-groups/" class="active"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -43,55 +43,55 @@
 				<div class="col-lg-6 col-xl-4">
 					<div class="account-creation">
 						<%- image_tag("/img/status-ambassadors.svg") %>
-						<a href="https://get.status.im/chat/public/statusphere" target="_blank">#Status-ambassadors</a>
-						<p>A group of people dedicated to helping, contributing, and building the Status community.</p>
+						<a href="https://get.status.im/chat/public/statusphere" target="_blank"><%- __('site.get-involved.community.community-groups.account-group-1.link') %></a>
+						<p><%- __('site.get-involved.community.community-groups.account-group-1.description') %></p>
 						<div class="meta">
-							<span class="occupation">Organizer</span>
-							<span class="name">Us</span>
+							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-1.occupation') %></span>
+							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-1.name') %></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-xl-4">
 					<div class="account-creation">
 						<%- image_tag("/img/status-korea.svg") %>
-						<a href="https://get.status.im/chat/public/status-korean" target="_blank">#Status-Korean</a>
-						<p>A group of passionate developers, makers, creators, and enthusiasts based in South Korea.</p>
+						<a href="https://get.status.im/chat/public/status-korean" target="_blank"><%- __('site.get-involved.community.community-groups.account-group-2.link') %></a>
+						<p><%- __('site.get-involved.community.community-groups.account-group-2.description') %></p>
 						<div class="meta">
-							<span class="occupation">Organizer</span>
-							<span class="name">Jinho Jang</span>
+							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-2.occupation') %></span>
+							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-2.name') %></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-xl-4">
 					<div class="account-creation">
 						<%- image_tag("/img/status-en-espanol.svg") %>
-						<a href="https://get.status.im/chat/public/status-spanish" target="_blank">#status-spanish</a>
-						<p>Status en Español</p>
+						<a href="https://get.status.im/chat/public/status-spanish" target="_blank"><%- __('site.get-involved.community.community-groups.account-group-3.link') %></a>
+						<p><%- __('site.get-involved.community.community-groups.account-group-3.description') %></p>
 						<div class="meta">
-							<span class="occupation">Organizer</span>
-							<span class="name">Lalo Garza</span>
+							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-3.occupation') %></span>
+							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-3.name') %></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-xl-4">
 					<div class="account-creation">
 						<%- image_tag("/img/status-chinese.svg") %>
-						<a href="https://get.status.im/chat/public/status-chinese" target="_blank">#status-chinese </a>
-						<p>Status in Chinese</p>
+						<a href="https://get.status.im/chat/public/status-chinese" target="_blank"><%- __('site.get-involved.community.community-groups.account-group-4.link') %> </a>
+						<p><%- __('site.get-involved.community.community-groups.account-group-4.description') %></p>
 						<div class="meta">
-							<span class="occupation">Organizer</span>
-							<span class="name">Steven Zhu</span>
+							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-4.occupation') %></span>
+							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-4.name') %></span>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-xl-4">
 					<div class="account-creation">
 						<%- image_tag("/img/philosophers.svg") %>
-						<a href="https://get.status.im/chat/public/philosophers" target="_blank">#philosophers</a>
-						<p>What is the meaning of life?</p>
+						<a href="https://get.status.im/chat/public/philosophers" target="_blank"><%- __('site.get-involved.community.community-groups.account-group-5.link') %></a>
+						<p><%- __('site.get-involved.community.community-groups.account-group-5.description') %></p>
 						<div class="meta">
-							<span class="occupation">Organizer</span>
-							<span class="name">Aristotle</span>
+							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-5.occupation') %></span>
+							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-5.name') %></span>
 						</div>
 					</div>
 				</div>
@@ -106,9 +106,9 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="/get-involved/developers/">Developers</a></li>
-				<li><a href="/get-involved/educators/">Educators</a></li>
-				<li><a href="/get-involved/community-groups/" class="active">Community Groups</a></li>
+				<li><a href="/get-involved/developers/"><%- __('site.link.developers') %></a></li>
+				<li><a href="/get-involved/educators/"><%- __('site.link.educators') %></a></li>
+				<li><a href="/get-involved/community-groups/" class="active"><%- __('site.link.community-groups') %></a></li>
 			</ul>
 		</nav>
 	</div>

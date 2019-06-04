@@ -6,8 +6,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					<h1>An Open Source Community</h1>
-					<p class="teaser-1">Here you'll find everything you need to know about how to get involved and contribute to Status. Whether you are a developer, educator, community organizer, or a passionate supporter, there are ways for you to contribute to Status. Here are the resources to get you started.</p>
+					<h1><%- __('site.get-involved.index.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.get-involved.index.intro.description') %></p>
 					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
 				</div>
 			</div>
@@ -21,26 +21,23 @@
 			<div class="row">
 				<div class="col-xl-4">
 					<div class="box-link">
-						<h3 class="title"><a href="/get-involved/developers/"><%- image_tag("/img/get-involved-development.svg") %>Developers</a></h3>
-						<p>Status is building free and open source software licensed under the Mozilla Public License v2.0.</p>
-						<p>Community members of all backgrounds, skill levels, and interests contribute to the official Status releases. This includes open contribution to Status funded bounties and community driven initiatives for new features.</p>
-						<a href="/get-involved/developers/" class="link-arrow link-arrow-white">Learn More</a>
+						<h3 class="title"><a href="/get-involved/developers/"><%- image_tag("/img/get-involved-development.svg") %> <%- __('site.get-involved.index.resources.resource-1.title') %></a></h3>
+						<p><%- __('site.get-involved.index.resources.resource-1.description') %></p>
+						<a href="/get-involved/developers/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="box-link">
-						<h3 class="title"><a href="/get-involved/educators/"><%- image_tag("/img/get-involved-educate.svg") %>Educators</a></h3>
-						<p>Status considers education and a welcoming environment crucial for a successful open source project.</p>
-						<p>We welcome anyone to help educate others on how to build Status, use Status, get started in the community, or even share their own experiences with the project.</p>
-						<a href="/get-involved/educators/" class="link-arrow link-arrow-white">Learn More</a>
+						<h3 class="title"><a href="/get-involved/educators/"><%- image_tag("/img/get-involved-educate.svg") %> <%- __('site.get-involved.index.resources.resource-2.title') %></a></h3>
+						<p><%- __('site.get-involved.index.resources.resource-2.description') %></p>
+						<a href="/get-involved/educators/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 				<div class="col-xl-4">
 					<div class="box-link">
-						<h3 class="title"><a href="/get-involved/community-groups/"><%- image_tag("/img/get-involved-community-groups.svg") %>Community Groups</a></h3>
-						<p>There are a number of both Status run and community organized groups within the Status community. Join an existing group or start your own group based on your personal interests.</p>
-						<p>People organize all over the world to help promote and grow this open source project.</p>
-						<a href="/get-involved/community/" class="link-arrow link-arrow-white">Learn More</a>
+						<h3 class="title"><a href="/get-involved/community-groups/"><%- image_tag("/img/get-involved-community-groups.svg") %> <%- __('site.get-involved.index.resources.resource-3.title') %></a></h3>
+						<p><%- __('site.get-involved.index.resources.resource-3.description') %></p>
+						<a href="/get-involved/community/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>
@@ -54,7 +51,7 @@
 			<div class="row">
 				<div class="col-md-8">
 					<div class="inner">
-						<h3>Top Community Contributors</h3>
+						<h3><%- __('site.get-involved.index.contributors.title') %></h3>
 					</div>
 				</div>
 				<div class="col-md-5"></div>
@@ -203,7 +200,7 @@
 							</div>    
 						</li>
 					</ul>
-					<a href="/contribute/open_positions.html" class="link-arrow">Join the Status Team. See all Open Position</a>
+					<a href="/contribute/open_positions.html" class="link-arrow"><%- __('site.get-involved.index.contributors.link') %></a>
 				</div>
 			</div>
 		</div>

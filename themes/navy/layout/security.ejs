@@ -7,27 +7,27 @@
 		<div class="container m-b-100">
 			<div class="row">
 				<div class="col-lg-8">
-					<h1>Secure By Design</h1>
-					<p class="teaser-1">Status aims to be a truly decentralized communication tool – eventually removing all third parties and minimizing the attack vectors for malicious actors.</p>
-					<p class="teaser-1">The true benefit of Web3 is the ability to transact and communicate on our own terms – without middle men. In order to enjoy this type of free communication, we must be confident that our messages, transactions, identities, and funds are safe and secure. Learn more about Status’ approach to security below.</p>
+					<h1><%- __('site.security.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.security.intro.description-1') %></p>
+					<p class="teaser-1"><%- __('site.security.intro.description-2') %></p>
 				</div>
 			</div>
 		</div>
 
 		<div class="container m-b-100">
-			<h2 class="m-b-100">Security at Status</h2>
+			<h2 class="m-b-100"><%- __('site.security.security-at-status.title') %></h2>
 			<div class="row">
 				<div class="col-lg-4">
-					<h4 class="m-b-25">Secure <br> Messaging</h4>
-					<p>Messages are not censored, blocked, and they remain anonymous if the user chooses so. Only intended recipients are able to view messages and no metadata is leaked.</p>
+					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-1.title') %></h4>
+					<p><%- __('site.security.security-at-status.secure-inner-1.description') %></p>
 				</div>
 				<div class="col-lg-4">
-					<h4 class="m-b-25">Secure Financial <br> Transactions</h4>
-					<p>Sending, storing, and receiving cryptocurrencies or tokens within the Status wallet is safe from attack. Private keys are never exposed. Transactions are only processed when initiated and confirmed by the owner of the private keys.</p>
+					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-2.title') %></h4>
+					<p><%- __('site.security.security-at-status.secure-inner-2.description') %></p>
 				</div>
 				<div class="col-lg-4">
-					<h4 class="m-b-25">Secure <br>Browsing</h4>
-					<p>When browsing Web3, end user data and browsing information is not accessible by any third parties without consent. Any transactions made while using the Status browser implement the same security standards and best practices used in the Status wallet.</p>
+					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-3.title') %></h4>
+					<p><%- __('site.security.security-at-status.secure-inner-3.description') %></p>
 				</div>
 			</div>
 		</div>
@@ -35,39 +35,39 @@
 		<div class="container security-content">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Secure Identity</h3>
-					<p class="p-large">Your identity in Status starts with a locally generated cryptographic keypair, which is then protected via a password.  That’s all that is required.  The user then has the ability to add information to their profile to build up who they are in Status.  At all times the user has full control over their information, and who has access to it.  The end user can be as public or private as they want.</p>
-					<h3>Peer-to-Peer Serverless Messaging</h3>
-					<p class="p-large">Status uses the Whisper protocol for peer-to-peer (p2p) communication, which means that there are no servers processing or storing your messages. Instead, Whisper relies on a network of peers to route messages to each other. Each message sent is broadcast to the entire network, and encrypted for only the intended recipient to open. The effect of every message flooding the network is known as dark routing, and protects not only the content of your messages but also metadata about where you are communicating from, to whom, etc. This is the highest standard of security and privacy in online messaging, and the Status team is researching more scalable and efficient means of delivering this standard.</p> 
-					<p><a href="/research/" class="link-arrow">Learn more about Whisper</a></p>
-					<h3>End-to-End Encryption by Default</h3>
-					<p class="p-large">All private messages sent over Whisper are encrypted end-to-end by default. When you create a Status account, a cryptographic keypair is generated to encrypt your messages and stored locally on your device. When you add a new contact in Status, you exchange public keys so that that person can decrypt your messages when received over the network.</p>
-					<h3>Perfect Forward Secrecy</h3>
-					<p class="p-large">PFS is a feature of specific key-agreement protocols which provide assurances that your session keys will not be compromised even if the private keys of the participants are compromised. Specifically, past messages cannot be decrypted by a third-party who manages to get a hold of a private key. It builds on the X3DH and Double Ratchet specifications from Open Whisper Systems, with some adaptations to operate in a decentralized environment. Perfect Forward Secrecy is an added layer of security for all of your 1:1 private chats.</p>
-					<p><a href="/research/pfs.html" class="link-arrow">Learn more about PFS</a></p>
-					<h3>Serverless Account Creation</h3>
-					<p class="p-large">When you create a new account on Status, you will never be asked for third party verification such as an email or phone number. This means you can sign up for and create a Status account completely anonymously. When you create an account, it is simply you and your keys. This also means that two factor authentication and password recovery are not features within Status - so be sure to remember your password and mnemonic phrase and store them offline somewhere extremely safe.</p>
-					<h3>How are my keys stored?</h3>
-					<p class="p-large">Status will never use third party services for managing and storing your public and private keys. Once generated, the first BIP44 key is saved in a keystore json file locally on your device. This file is encrypted with the password you choose for your Status account and only accessible by the Status app. We prioritize storing sensitive information in secure hardware when it is available on your device.</p>
-					<p class="p-large">For an additional layer of security, we have introduced Keycard which serves as offline cold storage for private key management and their operations.</p>
-					<p class="p-large">For more information on Keycard, visit <a href="https://keycard.status.im" target="_blank">keycard.status.im</a></p>
-					<h3>Secure Browsing</h3>
-					<p class="p-large">The Status browser is designed to keep the end user informed and their funds safe. Browser Privacy mode is enabled by default. This means that DApps will be required to ask permission before connecting to your wallet, and it may cause some DApps to break (if they are not compatible with this security measure). Finally, the Status browser implements EIP712 which aims to improve the usability of off-chain message signing for use on-chain. We are seeing growing adoption of off-chain message signing as it saves gas and reduces the number of transactions on the blockchain. Currently signed messages are an opaque hex string displayed to the user with little context about the items that make up the message. </p>
-					<p><a href="https://eips.ethereum.org/EIPS/eip-712" target="_blank" class="link-arrow">Learn more about the EIP</a></p>
-					<h3>How does Status protect my cryptocurrency?</h3>
-					<p class="p-large">Status is built with a non-custodial wallet, giving you full control over your funds without the use of a server. The private keys are stored in an encrypted manner on your device. Your money is under your control, and cannot be accessed by anyone without the private key. Therefore, if you lose your mnemonic phrase, you will never be able to restore access to your funds. So keep your private keys somewhere safely offline.</p>
-					<h3>Signing Phrase to protect from phishing attacks</h3>
-					<p class="p-large">Status implements a signing phrase required to confirm and “sign” all transactions. The signing phrase is a 3 word phrase randomly generated for you and stored locally on your device that is presented each time you attempt to send a transaction. You will be presented your signing phrase and be required to accept it before a transaction will be confirmed. If you do not recognize your three words, or are not presented with the three words at all, cancel the transaction, log out of Status and report the issue to <a href="mailto:security@status.im">security@status.im</a></p>
-					<h3>Rigorous Auditing</h3>
-					<p class="p-large">As we reach major milestones in development, after rounds of internal review and auditing, we reach out to industry leading, third-party auditing firms to verify our sanity, and double/triple check the work that we do. These security audits are not guarantees of security in the projects they pertain to. They are additional checks from objective third parties to help bolster confidence in the security of intended functionality.</p>
-					<p class="p-large">If you find a bug or vulnerability in our code, please report it to <a href="mailto:security@status.im">security@status.im</a></p>
-					<h3>Educate yourself to stay safe</h3>
-					<p class="p-large">Decentralized, serverless products such as Status remove a number of unnecessary intermediaries, enabling you to chat, transact, and browse without fear of surveillance, censorship, and data leakage. This is because you are in control of your data and your own digital safety. Therefore, it is important you understand how to protect yourself. Learn more about how to stay safe with this Status Security Best Practice Guide.</p>
-					<p><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow">See the Best Practice Guide</a></p>
-					<h3>Security Support</h3>
-					<p class="p-large">We’re here to help. If you have any questions or concerns about security, send an email to <a href="mailto:security@status.im">security@status.im</a> or reach out to us in the Status Security Public Channel <a href="https://get.status.im/chat/public/status-security" target="_blank">#status-security</a>.</p>
-					<h3>Bug Bounty Program</h3>
-					<p class="p-large">If you are a security researcher or developer and want to report a vulnerability, please contact <a href="mailto:security@status.im">security@status.im</a> regarding the Status Bug Bounty Program.  We also have a campaign with HackerOne, a bug bounty program that incentivizes hackers to look at projects. We’re actively ramping up our private campaign, and will open it to public disclosures soon! For more information on the Bug Bounty Program, please contact <a href="mailto:security@status.im">security@status.im</a></p>
+					<h3><%- __('site.security.security-content.content-1.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-1.description') %></p>
+					<h3><%- __('site.security.security-content.content-2.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-2.description') %></p> 
+					<p><a href="/research/" class="link-arrow"><%- __('site.security.security-content.content-2.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-3.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-3.description') %></p>
+					<h3><%- __('site.security.security-content.content-4.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-4.description') %></p>
+					<p><a href="/research/pfs.html" class="link-arrow"><%- __('site.security.security-content.content-4.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-5.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-5.description') %></p>
+					<h3><%- __('site.security.security-content.content-6.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-6.description-1') %></p>
+					<p class="p-large"><%- __('site.security.security-content.content-6.description-2') %></p>
+					<p class="p-large"><%- __('site.security.security-content.content-6.description-3', '<a href="https://keycard.status.im" target="_blank">keycard.status.im</a>') %></p>
+					<h3><%- __('site.security.security-content.content-7.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-7.description') %> </p>
+					<p><a href="https://eips.ethereum.org/EIPS/eip-712" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-7.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-8.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-8.description') %></p>
+					<h3><%- __('site.security.security-content.content-9.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-9.description', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
+					<h3><%- __('site.security.security-content.content-10.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-10.description-1') %></p>
+					<p class="p-large"><%- __('site.security.security-content.content-10.description-2', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
+					<h3><%- __('site.security.security-content.content-11.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-11.description') %></p>
+					<p><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-12.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://get.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
+					<h3><%- __('site.security.security-content.content-13.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
 				</div>
 			</div>
 		</div>
@@ -75,18 +75,18 @@
 		<div class="container p-t-160 p-b-160">
 			<div class="row">
 				<div class="col-md-6">
-					<h3 class="m-t-50">Protect Yourself</h3>
-					<p class="teaser-2">Status is built with state of the art technology to ensure the product is a secure as possible. When it comes to navigating Web3, you are in control. See our list of security best practices and take control.</p>
+					<h3 class="m-t-50"><%- __('site.security.protect-yourself.title') %></h3>
+					<p class="teaser-2"><%- __('site.security.protect-yourself.description') %></p>
 					<ul class="inline-links">
-						<li><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow">Learn More</a></li>
-						<li><a href="https://get.status.im/chat/public/status-security" target="_blank"><%- image_tag("img/join-status-security.svg") %> Join Status Security Channel</a></li>
+						<li><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.protect-yourself.link-1') %></a></li>
+						<li><a href="https://get.status.im/chat/public/status-security" target="_blank"><%- image_tag("img/join-status-security.svg") %><%- __('site.security.protect-yourself.link-2') %></a></li>
 					</ul>
 				</div>
 				<div class="col-md-6">
 					<div class="get-status">
-						<h3>Get Status</h3>
-						<p class="teaser-2">Start enjoying Status on iOS, Android, MacOS, Windows and Linux.</p>
-						<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white">Download Apps</a>
+						<h3><%- __('site.features.get.title') %></h3>
+						<p class="teaser-2"><%- __('site.features.get.description') %></p>
+						<a href="/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
 					</div>
 				</div>
 			</div>

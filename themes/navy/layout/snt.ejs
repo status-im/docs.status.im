@@ -7,15 +7,15 @@
 				<div class="col-md-12">
 					<div class="inner">
 						<%- image_tag("/img/status-token.svg") %>
-						<h1>Status Network Token</h1>
-						<p class="teaser-1">SNT powers and incentivizes participation <br>in the Status Network.</p>
+						<h1><%- __('site.snt.intro.title') %></h1>
+						<p class="teaser-1"><%- __('site.snt.intro.description') %></p>
 					</div>
 					<nav class="m-t-90">
 						<ul class="inline-links">
-							<li><a href="#basics" class="link">The Basics</a></li>
-							<li><a href="#using-snt">Using SNT</a></li>
-							<li><a href="#research">Research</a></li>
-							<li><a href="#get-involved">Get Involved</a></li>
+							<li><a href="#basics" class="link"><%- __('site.snt.intro.link-1') %></a></li>
+							<li><a href="#using-snt"><%- __('site.snt.intro.link-2') %></a></li>
+							<li><a href="#research"><%- __('site.snt.intro.link-3') %></a></li>
+							<li><a href="#get-involved"><%- __('site.snt.intro.link-4') %></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -27,36 +27,36 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="m-b-100">The Basics</h2>
+					<h2 class="m-b-100"><%- __('site.snt.the-basics.title') %></h2>
 					<ul>
 						<li class="has-link">
 							<div class="inner">
-								<h4><a href="#using-snt">ERC-20 Token</a></h4>
-								<p>SNT is an ERC-20 token used to access and power decentralized services in the Status Network and application.</p>
-								<a href="#using-snt" class="link-arrow link-arrow-white">See all SNT Use Cases</a>
+								<h4><a href="#using-snt"><%- __('site.snt.the-basics.inner-1.title') %></a></h4>
+								<p><%- __('site.snt.the-basics.inner-1.description') %></p>
+								<a href="#using-snt" class="link-arrow link-arrow-white"><%- __('site.snt.the-basics.inner-1.link') %></a>
 							</div>
 							<%- image_tag("/img/basic-icon-1.svg") %>
 						</li>
 						<li>
 							<div class="inner">
-								<h4>Open Source</h4>
-								<p>Status is an entirely open source project in which anyone can use the code and token to suit their needs. Our research shows that open source and governance structures impact project economic value.</p>
+								<h4><%- __('site.snt.the-basics.inner-2.title') %></h4>
+								<p><%- __('site.snt.the-basics.inner-2.description') %></p>
 							</div>
 							<%- image_tag("/img/basic-icon-2.svg") %>
 						</li>
 						<li class="has-link">
 							<div class="inner">
-								<h4><a href="/whitepaper.pdf" target="_blank">Users-as-Stakeholders</a></h4>
-								<p>With SNT, we create a Users-as-Stakeholders network, allowing the behaviour of the network and its software, to become aligned with the interests of its Users.</p>
-								<a href="/whitepaper.pdf" class="link-arrow link-arrow-white" target="_blank">Learn more in the White Paper</a>
+								<h4><a href="/whitepaper.pdf" target="_blank"><%- __('site.snt.the-basics.inner-3.title') %></a></h4>
+								<p><%- __('site.snt.the-basics.inner-3.description') %></p>
+								<a href="/whitepaper.pdf" class="link-arrow link-arrow-white" target="_blank"><%- __('site.snt.the-basics.inner-3.link') %></a>
 							</div>
 							<%- image_tag("/img/basic-icon-3.svg") %>
 						</li>
 						<li class="has-link">
 							<div class="inner">
-								<h4><a href="#research">Research</a></h4>
-								<p>We conduct research on cryptoeconomic models, and peer-to-peer technologies to ensure long term health of the Status Network. </p>
-								<a href="#research" class="link-arrow link-arrow-white">Learn more about the research</a>
+								<h4><a href="#research"><%- __('site.snt.the-basics.inner-4.title') %></a></h4>
+								<p><%- __('site.snt.the-basics.inner-4.description') %></p>
+								<a href="#research" class="link-arrow link-arrow-white"><%- __('site.snt.the-basics.inner-4.link') %></a>
 							</div>
 							<%- image_tag("/img/basic-icon-4.svg") %>
 						</li>
@@ -70,19 +70,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Using SNT</h2>
+					<h2><%- __('site.snt.using-snt.title') %></h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p class="teaser-2">SNT is required to power certain application features and create an open source, decentralized economy. Dive deeper into each of the SNT Use Cases below to learn more about the cryptoeconomic research and how value flows throughout the network. </p>
+							<p class="teaser-2"><%- __('site.snt.using-snt.description') %></p>
 						</div>
 					</div>
 					<div class="items">
 						<div class="item">
 							<%- image_tag("/img/snt-item-1.svg") %>
 							<div class="inner">
-								<h3>Network Incentivization</h3>
-								<div class="status">In research</div>
-								<p>Create a framework and incentivization structure for people to deploy and use Status nodes. SNT is used to incentivize and reward network participants to run a node in order to ensure the app continues to work if all nodes in the Status-hosted cluster are down. This includes paying for forwarded messages and paying for offline messages.</p>
+								<h3><%- __('site.snt.using-snt.network-incentivization.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.network-incentivization.status') %></div>
+								<p><%- __('site.snt.using-snt.network-incentivization.description') %></p>
 							</div>
 							<ul class="hover-links">
 								<li>
@@ -101,9 +101,9 @@
 						</div>
 						<div class="item">
 							<div class="inner">
-								<h3>Teller Network</h3>
-								<div class="status">In development</div>
-								<p>Designed as a DApp within Status which provides a borderless, peer-to-peer, fiat-to-crypto ‘Teller Network’ that allows Stakeholders to find nearby users to exchange their cash for digital assets and currency. SNT is required to become a seller in the network.</p>
+								<h3><%- __('site.snt.using-snt.teller-network.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.teller-network.status') %></div>
+								<p><%- __('site.snt.using-snt.teller-network.description') %></p>
 							</div>
 							<ul class="hover-links">
 								<li>
@@ -124,11 +124,11 @@
 						</div>
 						<div class="item">
 							<div class="inner">
-								<h3>ENS User Name</h3>
-								<div class="status">Live</div>
-								<p>ENS addresses are like usernames. Jenny.eth names can point to a personal account, enabling others to send tokens or find on Status chat. ENS addresses can be searched in Status chat, wallet and browser. <br><br>Registering a stateofus.eth ENS name costs 10 SNT. Once a name is reserved, the SNT is locked into a registry contract for 1 year. After the year is up, the name can be released to get the tokens back—or take no action to hold on to it.</p>
+								<h3><%- __('site.snt.using-snt.ens-user-name.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.ens-user-name.status') %></div>
+								<p><%- __('site.snt.using-snt.ens-user-name.description') %></p>
 								<ul class="inline-links">
-									<li><a href="https://get.status.im/browse/names.statusnet.eth" target="_blank" class="link-arrow">Register an ENS</a></li>
+									<li><a href="https://get.status.im/browse/names.statusnet.eth" target="_blank" class="link-arrow"><%- __('site.snt.using-snt.ens-user-name.link') %></a></li>
 								</ul>
 							</div>
 							<ul class="hover-links">
@@ -145,9 +145,9 @@
 						<div class="item">
 							<%- image_tag("/img/snt-item-3.png", { srcset: '/img/snt-item-3-2x.png 2x'}) %>
 							<div class="inner">
-								<h3>Sticker Market</h3>
-								<div class="status">In development</div>
-								<p>Stickers offer a fun way for users to visually interact with their friends and family. The Sticker Market within Status will allow anyone to create and sell their own designs to users all over the world, and begin using stickers within any Status chat.<br><br>SNT will be required to buy stickers through a curated marketplace.</p>
+								<h3><%- __('site.snt.using-snt.sticker-market.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.sticker-market.status') %></div>
+								<p><%- __('site.snt.using-snt.sticker-market.description') %></p>
 							</div>
 							<ul class="hover-links">
 								<li>
@@ -166,9 +166,9 @@
 						</div>
 						<div class="item">
 							<div class="inner">
-								<h3>Tribute to Talk</h3>
-								<div class="status">In development</div>
-								<p>Tribute to Talk will introduce an economics-based anti-spam filter – in this case for receiving messages and “cold” contact requests from users. This enables stakeholders to set a minimum amount of SNT that must be deposited in order for someone outside of their network contact him/her directly. </p>
+								<h3><%- __('site.snt.using-snt.tribute-to-talk.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.tribute-to-talk.status') %></div>
+								<p><%- __('site.snt.using-snt.tribute-to-talk.description') %> </p>
 							</div>
 							<ul class="hover-links">
 								<li>
@@ -189,9 +189,9 @@
 						<div class="item">
 							<%- image_tag("/img/snt-item-5.png", { srcset: '/img/snt-item-5-2x.png 2x'}) %>
 							<div class="inner">
-								<h3>DAO & Governance</h3>
-								<div class="status">In research</div>
-								<p>A core part of the Status Network Token is giving stakeholders the ability to choose the direction that the software is developed. SNT is used to make decisions on proposals, which can be made by any Stakeholder.  For each decision, the token is cloned into a separate decision token. The amount of tokens you hold at that time becomes your voting power for that decision and it does not cost SNT to vote.</p>
+								<h3><%- __('site.snt.using-snt.dao-governance.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.dao-governance.status') %></div>
+								<p><%- __('site.snt.using-snt.dao-governance.description') %></p>
 							</div>
 							<ul class="hover-links">
 								<li>
@@ -210,11 +210,11 @@
 						</div>
 						<div class="item">
 							<div class="inner">
-								<h3>DApp Curation</h3>
-								<div class="status">Live</div>
-								<p>The Status DApp Directory provides a way for stakeholders in the network to discover DApps, as curated by other community members. It will also provide a way to navigate by category and rating, enabling users to find exactly what they are looking for. SNT will be required for curation and signaling in the directory. A deposit of SNT will be required by DApp Developers who wish to attain greater attention to their DApp.</p>
+								<h3><%- __('site.snt.using-snt.dapp-curation.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.dapp-curation.status') %></div>
+								<p><%- __('site.snt.using-snt.dapp-curation.description') %></p>
 								<ul class="inline-links">
-									<li><a href="https://get.status.im/browse/https://dap.ps" target="_blank" class="link-arrow">Browse DApps</a></li>
+									<li><a href="https://get.status.im/browse/https://dap.ps" target="_blank" class="link-arrow"><%- __('site.snt.using-snt.dapp-curation.link') %></a></li>
 								</ul>
 							</div>
 							<ul class="hover-links">
@@ -236,19 +236,19 @@
 						<div class="item">
 							<%- image_tag("/img/snt-item-7.svg") %>
 							<div class="inner">
-								<h3>Voting DApp</h3>
-								<div class="status">Live</div>
-								<p>A first step towards community governance, the Status Voting DApp enables stakeholders to influence the future of the network. The Voting DApp can be used by anyone to set up a community vote with SNT. Leveraging quadratic voting, the amount of SNT in your wallet determines how many votes you can cast. </p>
+								<h3><%- __('site.snt.using-snt.voting-dapp.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.voting-dapp.status') %></div>
+								<p><%- __('site.snt.using-snt.voting-dapp.description') %></p>
 								<ul class="inline-links">
-									<li><a href="https://get.status.im/browse/https://vote.status.im/" target="_blank" class="link-token">Check out the Voting DApp</a></li>
+									<li><a href="https://get.status.im/browse/https://vote.status.im/" target="_blank" class="link-token"><%- __('site.snt.using-snt.voting-dapp.link') %></a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="item">
 							<div class="inner">
-								<h3>Acquisition Engine</h3>
-								<div class="status">In research</div>
-								<p>Achieving our mission ultimately requires one thing: widespread end-user adoption. Using the Status Network Token, we can design mechanisms for growth that have been tried and tested in Web 2.0, whilst providing greater transparency and better alignment of incentives for participants. The Status Acquisition Engine provides a cryptographically provable and transparent means of growing the user base.</p>
+								<h3><%- __('site.snt.using-snt.acquisition-engine.title') %></h3>
+								<div class="status"><%- __('site.snt.using-snt.acquisition-engine.status') %></div>
+								<p><%- __('site.snt.using-snt.acquisition-engine.description') %></p>
 							</div>
 							<%- image_tag("/img/snt-item-9.svg") %>
 						</div>
@@ -262,22 +262,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 ml-auto mr-auto">
-					<h2>Cryptoeconomic <br>Research</h2>
-					<p class="p-large">The Status team is conducting research on the cryptoeconomic models for each SNT use case to inform product and feature development as well as incentivization of the Status Network.
-						<br><br>
-						These cryptoeconomic models are an ongoing research effort and we encourage anyone to explore, critique, and review the work. 
-						<br><br>
-						The models help project the value of a SNT Utility feature and its impact on the Status Network Combined Utility Values based on usage, growth rate, SNT supply and circulation.
+					<h2><%- __('site.snt.crypto-research.title') %></h2>
+					<p class="p-large"><%- __('site.snt.crypto-research.description-1') %>
 					</p>
 					<ul class="inline-links">
-						<li><a href="http://get.status.im/chat/public/token-economics" target="_blank" class="link"><%- image_tag("/img/status-purple-logo.svg") %> Join #token-economics</a></li>
+						<li><a href="http://get.status.im/chat/public/token-economics" target="_blank" class="link"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.snt.crypto-research.link-1') %></a></li>
 					</ul>
-					<p>Join the public channel & learn more about the research</p>
+					<p><%- __('site.snt.crypto-research.description-2') %></p>
 				</div>
 				<div class="col-md-4 mr-auto">
 					<%- image_tag("/img/utility-value.png", { srcset: '/img/utility-value-2x.png 2x', class: 'utility-value'}) %>
-					<a href="https://observablehq.com/@bgits/status-network-combined-utility-values" target="_blank" class="btn btn-purple">Combined Utility Value Workbook</a>
-					<p>Review the Status Network Combined Utility Values Workbook and test our own models.</p>
+					<a href="https://observablehq.com/@bgits/status-network-combined-utility-values" target="_blank" class="btn btn-purple"><%- __('site.snt.crypto-research.link-2') %></a>
+					<p><%- __('site.snt.crypto-research.description-3') %></p>
 				</div>
 			</div>
 		</div>
@@ -287,17 +283,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h3 class="m-t-50">Learn More</h3>
-					<p class="teaser-2">Many of the SNT use cases are in active research and development. Join the public discussions or read the SNT FAQ's to learn more about the SNT use cases and token economic research.</p>
+					<h3 class="m-t-50"><%- __('site.snt.learn-more.title') %></h3>
+					<p class="teaser-2"><%- __('site.snt.learn-more.description') %></p>
 					<ul class="inline-links">
-						<li><a href="http://get.status.im/chat/public/token-economics" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %> Join #token-economics</a></li>
+						<li><a href="http://get.status.im/chat/public/token-economics" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.snt.learn-more.link') %></a></li>
 					</ul>
 				</div>
 				<div class="col-md-6">
 					<div class="get-status">
-						<h3>Create Your Own SNT Financial Model</h3>
-						<p class="teaser-2">We encourage anyone to get involved and test the economic models outlined in the workbooks. If you are a researcher, economist, or simply curious about the financial models, please get involved.</p>
-						<a href="https://observablehq.com/@bgits/status-network-combined-utility-values" target="_blank" class="btn btn-purple-fill btn-arrow btn-arrow-white">Test the SNT Token Models</a>
+						<h3><%- __('site.snt.create-your-snt.title') %></h3>
+						<p class="teaser-2"><%- __('site.snt.create-your-snt.description') %></p>
+						<a href="https://observablehq.com/@bgits/status-network-combined-utility-values" target="_blank" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.snt.create-your-snt.link') %></a>
 					</div>
 				</div>
 			</div>

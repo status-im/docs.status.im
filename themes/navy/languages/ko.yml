@@ -1,654 +1,655 @@
-site:
-  home:
-    intro:
-      title: "Private, Secure Communication"
-      description: "Status is a messenger, crypto wallet, and Web3 browser built with state of the art technology."
-      news: "News"
-    about:
-      open-source:
-        title: "An Open Source Project"
-        description: "Status is completely open source and made by contributors all over the world. Developers, designers, creators, educators, hobbyists, enthusiasts, and more – everyone has free and open access to the repos, assets, and information."
-      mission:
-        title: "Mission & Principles"
-        description: "Status strives to be a secure communication tool that upholds human rights. We enable community money, community law and through privacy, preserve culture."
-    decentralized:
-      subtitle: "Decentralized Communication"
-      title: "Chat, Browse, Transact on Your Terms"
-      description: "Status combines a decentralized messenger, wallet, and DApp browser into a powerful, private, and secure communication tool."
-      link: "Explore all features"
-    private:
-      subtitle: "Preserving Privacy"
-      title: "Truly Private Messaging"
-      description: "Status uses the peer-to-peer protocol Whisper and end-to-end encryption to protect your communication from third party interference. Only you can view your messages."
-    wallet:
-      subtitle: "Enabling Community Money"
-      title: "Secure Crypto Wallet"
-      description: "Safely send, store and receive crypto assets including ERC20 and some ERC721 tokens. Only you hold the keys to your serverless wallet. Intuitive design protects you from attack."
-    browser:
-      subtitle: "Own Your Data"
-      title: "Decentralized Web3 Browser"
-      description: "Navigate the growing ecosystem of decentralized applications from our Web3-enabled browser, without being tracked. Browse the latest marketplaces, exchanges, games, and more."
-    security:
-      title: "Private and Secure by Design"
-      description: "Status uses state of the art technology to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Communicate with confidence."
-  about:
-    intro:
-      title: "The Mission"
-      link-1: "Our Principles"
-      link-2: "Active Swarms"
-      link-3: "Core Contributors"
-      description: "Status strives to be a secure communication tool that upholds human rights. We enable community money, community law and through privacy, preserve culture."
-    principles:
-      title: "Our Principles"
-      description: "These principles act as tools. Tools for thinking, for communication, and for decentralized decision making. They keep us honest about where we are failing short of our vision."
-      principle-1:
-        title: "Liberty"
-        description: "We believe in the sovereignty of individuals. As a platform that stands for the cause of personal liberty, we aim to maximize social, political, and economic freedoms. This includes being coercion-resistant."
-      principle-2:
-        title: "Censorship Resistance"
-        description: "We enable free flow of information. No content is under surveillance. We abide by the cryptoeconomic design principle of censorship resistance. Even stronger, Status is an agnostic platform for information."
-      principle-3:
-        title: "Security"
-        description: "We don't compromise on security when building features. We use state-of-the-art technologies, and research new security methods and technologies to make strong security guarantees."
-      principle-4:
-        title: "Privacy"
-        description: "Privacy is the power to selectively reveal oneself to the world. For us, it's essential to protect privacy in both communications and transactions, as well as being a pseudo-anonymous platform. Additionally, we strive to provide the right of total anonymity."
-      principle-5:
-        title: "Transparency"
-        description: "We strive for complete openness and symmetry of information within the organization, and have no border between our core contributors and our community. We are frank about our shortcomings, especially when making short-term tradeoffs in service of our long-term goals."
-      principle-6:
-        title: "Openness"
-        description: "The software we create is a public good. It is made available via a free and open source license, for anyone to share, modify and benefit from. We believe in permission-less participation."
-      principle-7:
-        title: "Decentralization"
-        description: "We minimize centralization across both the software and the organization itself. In other words, we maximize the number of physical computers composing the network, and maximize the number of individuals who have control over the system(s) we are building."
-      principle-8:
-        title: "Inclusivity"
-        description: "We believe in fair and widespread access to our software, with an emphasis on ease-of-use. This also extends to social inclusivity, permissionless participation, interoperability, and investing in educational efforts."
-      principle-9:
-        title: "Continuance"
-        description: "We create software incentivized to continue to exist and improve, without the stewardship of a single entity or any of the current team members."
-      principle-10:
-        title: "Resourcefulness"
-        description: "We are relentlessly resourceful. As we grow and have ready access to capital, it is our obligation to token holders to fight bureaucracy and inefficiencies within the organization. This means solving problems in the most effective way possible at lower economic costs (in terms of capital, time and resources)."
-    how-we-work:
-      title: "How we work"
-      description: "We are a team distributed across the world working remotely from all corners of the world. We work in Swarms which are small teams of 2-5 people with a very specific goal. Swarms follow a structured approach for feature and product development."
-      research:
-        title: "Research"
-      specifications-planning:
-        title: "Specifications & Planning"
-      implementation:
-        title: "Implementation"
-      communication-post-mortem:
-        title: "Communication & Post-mortem"
-    active-swarms:
-      title: "Active Swarms"
-      link: " View all Swarms on Github"
-      inner-1:
-        title: "Core Network Incentives"
-        swarm-meta: "SNT Utility"
-      inner-2:
-        title: "Sticker Market"
-        swarm-meta: "SNT Utility"
-      inner-3:
-        title: "Tribute to Talk"
-        swarm-meta: "SNT Utility"
-      inner-4:
-        title: "DApp Store"
-        swarm-meta: "SNT Utility"
-      inner-5:
-        title: "Teller Network"
-        swarm-meta: "SNT Utility"
-      inner-6:
-        title: "Token Economics"
-        swarm-meta: "Essentials"
-      inner-7:
-        title: "Core Improvements"
-        swarm-meta: "Essentials"
-      inner-8:
-        title: "Protocol"
-        swarm-meta: "Research"
-      inner-9:
-        title: "DAO"
-        swarm-meta: "Essentials"
-      inner-10:
-        title: "Janitors"
-        swarm-meta: "Essentials"
-      inner-11:
-        title: "Core"
-        swarm-meta: "Teams"
-      inner-12:
-        title: "Core Browser"
-        swarm-meta: "Core Teams"
-      inner-13:
-        title: "Core Chat"
-        swarm-meta: "Core Teams"
-      inner-14:
-        title: "Desktop"
-        swarm-meta: "Core Teams"
-      inner-15:
-        title: "Core Wallet"
-        swarm-meta: "Core Teams"
-      inner-16:
-        title: "Keycard"
-        swarm-meta: "Status Network"
-      inner-17:
-        title: "Embark"
-        swarm-meta: "Status Network"
-      inner-18:
-        title: "Nimbus"
-        swarm-meta: "Status Network"
-    core-contributors:
-      title: "Core Contributors"
-      description: "Status is not a traditional organization. We don’t have hierarchy, there are no offices and no managers. We’re all here to achieve our mission, and we have the freedom to choose how we do it."
-      link-1: "Join us. See all open positions"
-      link-2: "Learn more about life at Status"
-  snt:
-    intro: 
-      title: "Status Network Token"
-      description: SNT powers and incentivizes participation <br>in the Status Network.
-      link-1: "The Basics"
-      link-2: "Using SNT"
-      link-3: "Research"
-      link-4: "Get Involved"
-    the-basics:
-      title: "The Basics"
-      inner-1:
-        title: "ERC-20 Token"
-        description: "SNT is an ERC-20 token used to access and power decentralized services in the Status Network and application."
-        link: "See all SNT Use Cases"
-      inner-2:
-        title: "Open Source"
-        description: "Status is an entirely open source project in which anyone can use the code and token to suit their needs. Our research shows that open source and governance structures impact project economic value."
-      inner-3:
-        title: "Users-as-Stakeholders"
-        description: "With SNT, we create a Users-as-Stakeholders network, allowing the behaviour of the network and its software, to become aligned with the interests of its Users."
-        link: "Learn more in the White Paper"
-      inner-4:
-        title: "Research"
-        description: "We conduct research on cryptoeconomic models, and peer-to-peer technologies to ensure long term health of the Status Network. "
-        link: "Learn more about the research"
-    using-snt:
-      title: "Using SNT"
-      description: "SNT is required to power certain application features and create an open source, decentralized economy. Dive deeper into each of the SNT Use Cases below to learn more about the cryptoeconomic research and how value flows throughout the network."
-      teller-network:
-        title: "Teller Network"
-        status: "In development"
-        description: "Designed as a DApp within Status which provides a borderless, peer-to-peer, fiat-to-crypto ‘Teller Network’ that allows Stakeholders to find nearby users to exchange their cash for digital assets and currency. SNT is required to become a seller in the network."
-      network-incentivization:
-        title: "Network Incentivization"
-        status: "In research"
-        description: "Create a framework and incentivization structure for people to deploy and use Status nodes. SNT is used to incentivize and reward network participants to run a node in order to ensure the app continues to work if all nodes in the Status-hosted cluster are down. This includes paying for forwarded messages and paying for offline messages."
-      ens-user-name:
-        title: "ENS User Name"
-        status: "Live"
-        description: "ENS addresses are like usernames. Jenny.eth names can point to a personal account, enabling others to send tokens or find on Status chat. ENS addresses can be searched in Status chat, wallet and browser. <br><br>Registering a stateofus.eth ENS name costs 10 SNT. Once a name is reserved, the SNT is locked into a registry contract for 1 year. After the year is up, the name can be released to get the tokens back—or take no action to hold on to it."
-        link: "Register an ENS"
-      sticker-market:
-        title: "Sticker Market"
-        status: "In development"
-        description: Stickers offer a fun way for users to visually interact with their friends and family. The Sticker Market within Status will allow anyone to create and sell their own designs to users all over the world, and begin using stickers within any Status chat. <br><br>SNT will be required to buy stickers through a curated marketplace.
-      tribute-to-talk:
-        title: "Tribute to Talk"
-        status: "In development"
-        description: "Tribute to Talk will introduce an economics-based anti-spam filter – in this case for receiving messages and “cold” contact requests from users. This enables stakeholders to set a minimum amount of SNT that must be deposited in order for someone outside of their network contact him/her directly."
-      dao-governance:
-        title: "DAO & Governance"
-        status: "In research"
-        description: "A core part of the Status Network Token is giving stakeholders the ability to choose the direction that the software is developed. SNT is used to make decisions on proposals, which can be made by any Stakeholder. For each decision, the token is cloned into a separate decision token. The amount of tokens you hold at that time becomes your voting power for that decision and it does not cost SNT to vote."
-      dapp-curation:
-        title: "DApp Curation"
-        status: "Live"
-        description: "The Status DApp Directory provides a way for stakeholders in the network to discover DApps, as curated by other community members. It will also provide a way to navigate by category and rating, enabling users to find exactly what they are looking for. SNT will be required for curation and signaling in the directory. A deposit of SNT will be required by DApp Developers who wish to attain greater attention to their DApp."
-        link: "Browse DApps"
-      voting-dapp:
-        title: "Voting DApp"
-        status: "Live"
-        description: "A first step towards community governance, the Status Voting DApp enables stakeholders to influence the future of the network. The Voting DApp can be used by anyone to set up a community vote with SNT. Leveraging quadratic voting, the amount of SNT in your wallet determines how many votes you can cast."
-        link: "Check out the Voting DApp"
-      acquisition-engine:
-        title: "Acquisition Engine"
-        status: "In research"
-        description: "Achieving our mission ultimately requires one thing: widespread end-user adoption. Using the Status Network Token, we can design mechanisms for growth that have been tried and tested in Web 2.0, whilst providing greater transparency and better alignment of incentives for participants. The Status Acquisition Engine provides a cryptographically provable and transparent means of growing the user base."
-    crypto-research:
-      title: "Cryptoeconomic Research" 
-      description-1: "The Status team is conducting research on the cryptoeconomic models for each SNT use case to inform product and feature development as well as incentivization of the Status Network. <br><br>These cryptoeconomic models are an ongoing research effort and we encourage anyone to explore, critique, and review the work. <br><br>The models help project the value of a SNT Utility feature and its impact on the Status Network Combined Utility Values based on usage, growth rate, SNT supply and circulation. "
-      link-1: " Join #token-economics"
-      description-2: "Join the public channel & learn more about the research"
-      link-2: "Combined Utility Value Workbook"
-      description-3: "Review the Status Network Combined Utility Values Workbook and test our own models."
-    learn-more:
-      title: "Learn More"
-      description: "Many of the SNT use cases are in active research and development. Join the public discussions or read the SNT FAQ's to learn more about the SNT use cases and token economic research."
-      link: "Join #token-economics"
-    create-your-snt:
-      title: "Create Your Own SNT Financial Model"
-      description: "We encourage anyone to get involved and test the economic models outlined in the workbooks. If you are a researcher, economist, or simply curious about the financial models, please get involved."
-      link: "Test the SNT Token Models"
-  features:
-    intro:
-      title: "The Power of Ethereum in Your Pocket"
-      description: "Status is a multi-purpose communication tool that combines a peer-to-peer messenger, decentralized crypto-wallet, and Web3 browser."
-      link-messenger: "Messenger"
-      link-wallet: "Crypto-wallet"
-      link-browser: "Browser & DApps"
-    messenger:
-      title: "Secure Messenger"
-      feature-1:
-        title: "Public, Private and Group Chats"
-        description: "Join any number of public channels or send private 1:1 or group chats. You can even send and receive crypto payments directly in your private chats."
-        link: "Join Status Public Channel"
-      feature-2:
-        title: "Private Messaging with Whisper"
-        description: "Whisper uses peer-to-peer dark routing–making it impossible for anyone (including us) to know anything about you or who you're communicating with. We're also conducting R&D in improved messaging protocols."
-      feature-3:
-        title: "Perfect Forward Secrecy & <br>E2E Encryption"
-        description: "Status uses the ‘Double Ratchet’ algorithm on top of Whisper and end-to-end encryption for the highest grade of security and privacy."
-    wallet:
-      title: "Integrated <br>Ethereum Wallet"
-      feature-1:
-        title: "A Safe Wallet"
-        description: "Removal of intermediaries puts you in control of your funds. You and only you hold your private keys to your cryptocurrency, and no middle man has access."
-      feature-2:
-        title: "ERC20 & ERC721 Compatible"
-        description: "Support for ERC20 and ERC721 tokens on the Ethereum network. Send, store, and receive your tokens confidently in Status. Contact us in the channel below to add your tokens."
-        link: "Join Status Wallet Public Channel"
-      feature-3:
-        title: "Interact with Peers & DApps"
-        description: "The Status wallet integrates with the messenger and browser–enabling you to interact with peers and DApps. All transactions require verification of a signing phrase to protect you from phishing attacks."
-    browser:
-      title: "Web3 Browser"
-      feature-1:
-        title: "Access Decentralized Applications"
-        description: "A growing ecosystem of DApps in your pocket. Browse the latest decentralized exchanges, marketplaces, games, social networks, and more."
-        link: "Install Status"
-      feature-2:
-        title: "Private & Secure <br>Browsing"
-        description: "Status implements the latest security standards to ensure you are safe and free from tracking and data collection. Browse on your terms."
-      feature-3:
-        title: "Extend your DApp <br>with Status"
-        description: "Extensions are a tool for developers to integrate their DApp functionality within Status in a native way. They create a seamless user experience directly in Status."
-        link: "Documentation"
-    desktop:
-      title: "Status Desktop"
-      description: "Install the desktop alpha and enjoy secure and private messaging while you work. The desktop app syncs with your mobile account for a seamless experience."
-      link: "Get Status Desktop"
-      announcement:
-        title: "Status Desktop is still in alpha. Install the nightly, help test and build it."
-        link: "Desktop FAQ's"
-    get:
-      title: "Get Status"
-      description: "Start enjoying Status on iOS, Android, MacOS, Windows and Linux."
-      link: "Download Apps"
-  get-involved:
-    index:
+ko:
+  site:
+    home:
       intro:
-        title: "An Open Source Community"
-        description: "Here you'll find everything you need to know about how to get involved and contribute to Status. Whether you are a developer, educator, community organizer, or a passionate supporter, there are ways for you to contribute to Status. Here are the resources to get you started."
-      resources:
-        resource-1:
-          title: "Developers"
-          description: "Status is building free and open source software licensed under the Mozilla Public License v2.0. <br><br>Community members of all backgrounds, skill levels, and interests contribute to the official Status releases. This includes open contribution to Status funded bounties and community driven initiatives for new features."
-        resource-2:
-          title: "Educators"
-          description: "Status considers education and a welcoming environment crucial for a successful open source project. <br><br>We welcome anyone to help educate others on how to build Status, use Status, get started in the community, or even share their own experiences with the project."
-        resource-3:
-          title: "Community Groups"
-          description: "There are a number of both Status run and community organized groups within the Status community. <br><br>Join an existing group or start your own group based on your personal interests. People organize all over the world to help promote and grow this open source project."
-      contributors:
-        title: "Top Community Contributors"
-        link: "Join the Status Team. See all Open Position"
-    developers:
-      intro:
-        subtitle: "An Open Source Community"
-        title: "Development"
-        description: "Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or extending your work with the natives features of Status."
-      quick-nav-sub:
-        link-1: "Contribute to Status"
-        link-2: "Build DApps"
-        link-3: "Extend DApps"
-        link-4: "Developer Resources"
-        link-5: "Github"
-      contribute-to-status: 
-        title: "Contribute to Status"
-        description: "Get set up with this Contributor Guide."
-        link: "Quick Start Guide"
-        status-react:
-          title: "Status-React"
-          description: "Written in Clojure - this is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives."
-          link: "View Repository"
-        status-go:
-          title: "Status-Go"
-          description: "Written in Go - this is where all of the blockchain logic, transactions, and light client work we do lives."
-          link: "View Repository"
-        open-issues-status-react:
-          title: "Open Issues Status-React"
-          link: "View all open issues"
-        open-issues-status-go: 
-          title: "Open Issues Status-Go"
-          link: "View all open issues"
-        earn-crypto: 
-          title: "Earn crypto for <br>completing bounties"
-          description: "See the full list of technical bounties on"
-          link: "Gitcoin"
-        report-a-security-vulnerability: 
-          title: "Report a security <br>vulnerability and fix it"
-          description: "Learn more about the"
-          link: "Bug bounty program"
-      development-dapp:
-        build-dapp:
-          title: "Build your own DApp"
-          description: "Get started with our tools and frameworks to build your own decentralized application."
-          link-1: "Optimize for mobile with the Javascript API"
-          link-2: "Build your own DApp with Embark"
-          link-3: "Access Web3 providers and detect Status"
-          link-4: "Submit your DApp to the Status DApp list"
-        extend-dapp:
-          title: "Extend your DApp"
-          description: "Extensions allow you to leverage the native of features of Status within your DApp."
-          link-1: "Introduction to Extensions"
-          link-2: "Tutorials"
-          link-3: "Examples & Existing Extensions"
-      development-resources:
-        contribute-support:
-          title: "Contribute Support"
-          link-1: "Write Documentation"
-          link-1-description: "Dive in and help write, edit, and fix the docs. Edits are all made via GitHub."
-          link-2: "Translate Documentation"
-          link-2-description: "We need help translating all of our documentation into your local language."
-          link-3: "Welcome New Contributors"
-          link-3-description: "Join the Status #introductions channel and help out new contributors and community members."
-          link-4: "Create Tutorials"
-          link-4-description: "Contact us and learn how you can have your tutorials featured in the docs and the Status blog."
-        developer-resources:
-          title: "Developer Resources"
-          link-1: "Github Repositories"
-          link-2: "Documentation"
-          link-3: "Embark"
-          link-4: "Tutorials"
-          link-5: "Nightly Builds"
-          link-6: "Blog"
-          link-7: "Listen to the latest core developer call"
-          link-8: "Check out the latest release notes"
-          link-9: "See the list of active swarms"
-      get-in-touch:
-        title: "Get in touch"
-        join-status:
-          link: "Join #status"
-          description: "General Status news and discussion."
-        join-status-core:
-          link: "Join #status-core"
-          description: "Public channel about core development."
-        join-introductions:
-          link: "Join #introductions"
-          description: "New to Status? Introduce yourself and say hello!"
-        contact-us:
-          link: "Contact us"
-          description: "For everything else, email us directly."
-    educators:
-      intro:
-        subtitle: "An Open Source Community"
-        title: "Education"
-        description: "Everyone is welcome to help educate others on how to build Status, use Status, get started in the community, or even share their own experiences with the project."
-      quick-nav-sub:
-        link-1: "Educate and create"
-        link-2: "Translate"
-        link-3: "Educator Resources"
-        link-4: "Github"
-      educate-contribute:
-        how-to-get-started:
-          title: "How to Get Started"
-          link-1: "Community Member Beginners Guide"
-          link-1-description: "Check out this guide created by community member, Warsoverjohn."
-          link-2: "Glossary"
-          link-2-description: "Refer to this open source doc for terms, definitions, resources and concepts. Feel free to add to it."
-          link-3: "FAQ’s"
-          link-3-description: "Here is an ongoing list of frequently asked questions from everyone in the Status community."
-        create:
-          title: "Create"
-          link-1: "Create Non-Technical Tutorials"
-          link-1-description: "Help newcomers set up their account and navigate the Status app and community. Contact us to have your tutorial shared on the blog."
-          link-2: "Create Technical Tutorials"
-          link-2-description: "Help developers build Status, build DApps, create an extension or anything else you would like to share. Contact us."
-          link-3: "Write a blog post"
-          link-3-description: "Share a story on the Status blog Become a publisher on the Status Blog"
-      translate:
-        title: "Translate"
-        description: "Help us localise Status into your language. We use lokalise to translate everything from the application, the website, the documentation and more."
-        link: "Translate Status"
-      educator-resources:
-        title: "Educator Resources"
-        link-1: "Styleguide & Assets"
-        link-1-description: "Find the latest Styleguide along with branded assets, templates, and fonts."
-        link-2: "Discuss"
-        link-2-description: "Join long form discussion about all things Status."
-        link-3: "Tutorials"
-        link-3-description: "Learn how to build something or see some examples of other community made tutorials."
-        link-4: "Blog"
-        link-4-description: "Check out the latest Status news and updates."
-        link-5: "Nightlies"
-        link-5-description: "Install and test the latest nightly build for mobile and desktop."
-        link-6: "Check out the latest release notes"
-        link-7: "See the list of active swarms"
-        link-8: "See full list of Status Public Channels"
-      get-in-touch:
-        join-statusphere:
-          link: "Join #statusphere"
-          description: "A growing community of Status Ambassadors and enthusiasts"
-    community:
-      intro:
-        subtitle: "An Open Source Community"
-        title: "Community Groups"
-        description: "There are a number of both Status run and community organized groups within Status. Join an existing group or start your own group based on your personal interests."
-        link-1: "See the groups below"
-        link-2: "Submit a new group"
-      community-groups:
-        account-group-1:
-          link: "#Status-ambassadors"
-          description: "A group of people dedicated to helping, contributing, and building the Status community."
-          occupation: "Organizer"
-          name: "Us"
-        account-group-2:
-          link: "#Status-Korean"
-          description: "A group of passionate developers, makers, creators, and enthusiasts based in South Korea."
-          occupation: "Organizer"
-          name: "Jinho Jang"
-        account-group-3:
-          link: "#status-spanish"
-          description: "Status en Español"
-          occupation: "Organizer"
-          name: "Lalo Garza"
-        account-group-4:
-          link: "#status-chinese"
-          description: "Status in Chinese"
-          occupation: "Organizer"
-          name: "Steven Zhu"
-        account-group-5:
-          link: "#philosophers"
-          description: "What is the meaning of life?"
-          occupation: "Organizer"
-          name: "Aristotle"
-  security:
-    intro:
-      title: "Secure By Design"
-      description-1: "Status aims to be a truly decentralized communication tool – eventually removing all third parties and minimizing the attack vectors for malicious actors."
-      description-2: "The true benefit of Web3 is the ability to transact and communicate on our own terms – without middle men. In order to enjoy this type of free communication, we must be confident that our messages, transactions, identities, and funds are safe and secure. Learn more about Status’ approach to security below."
-    security-at-status:
-      title: "Security at Status"
-      secure-inner-1:
-        title: "Secure <br>Messaging"
-        description: "Messages are not censored, blocked, and they remain anonymous if the user chooses so. Only intended recipients are able to view messages and no metadata is leaked."
-      secure-inner-2:
-        title: "Secure Financial <br>Transactions"
-        description: "Sending, storing, and receiving cryptocurrencies or tokens within the Status wallet is safe from attack. Private keys are never exposed. Transactions are only processed when initiated and confirmed by the owner of the private keys."
-      secure-inner-3:
-        title: "Secure <br>Browsing"
-        description: "When browsing Web3, end user data and browsing information is not accessible by any third parties without consent. Any transactions made while using the Status browser implement the same security standards and best practices used in the Status wallet."
-    security-content:
-      content-1:
-        title: "Secure Identity"
-        description: "Your identity in Status starts with a locally generated cryptographic keypair, which is then protected via a password. That’s all that is required. The user then has the ability to add information to their profile to build up who they are in Status. At all times the user has full control over their information, and who has access to it. The end user can be as public or private as they want."
-      content-2:
-        title: "Peer-to-Peer Serverless Messaging"
-        description: "Status uses the Whisper protocol for peer-to-peer (p2p) communication, which means that there are no servers processing or storing your messages. Instead, Whisper relies on a network of peers to route messages to each other. Each message sent is broadcast to the entire network, and encrypted for only the intended recipient to open. The effect of every message flooding the network is known as dark routing, and protects not only the content of your messages but also metadata about where you are communicating from, to whom, etc. This is the highest standard of security and privacy in online messaging, and the Status team is researching more scalable and efficient means of delivering this standard."
-        link: "Learn more about Whisper"
-      content-3:
-        title: "End-to-End Encryption by Default"
-        description: "All private messages sent over Whisper are encrypted end-to-end by default. When you create a Status account, a cryptographic keypair is generated to encrypt your messages and stored locally on your device. When you add a new contact in Status, you exchange public keys so that that person can decrypt your messages when received over the network."
-      content-4:
-        title: "Perfect Forward Secrecy"
-        description: "PFS is a feature of specific key-agreement protocols which provide assurances that your session keys will not be compromised even if the private keys of the participants are compromised. Specifically, past messages cannot be decrypted by a third-party who manages to get a hold of a private key. It builds on the X3DH and Double Ratchet specifications from Open Whisper Systems, with some adaptations to operate in a decentralized environment. Perfect Forward Secrecy is an added layer of security for all of your 1:1 private chats."
-        link: "Learn more about PFS"
-      content-5:
-        title: "Serverless Account Creation"
-        description: "When you create a new account on Status, you will never be asked for third party verification such as an email or phone number. This means you can sign up for and create a Status account completely anonymously. When you create an account, it is simply you and your keys. This also means that two factor authentication and password recovery are not features within Status - so be sure to remember your password and mnemonic phrase and store them offline somewhere extremely safe."
-      content-6: 
-        title: "How are my keys stored?"
-        description-1: "Status will never use third party services for managing and storing your public and private keys. Once generated, the first BIP44 key is saved in a keystore json file locally on your device. This file is encrypted with the password you choose for your Status account and only accessible by the Status app. We prioritize storing sensitive information in secure hardware when it is available on your device."
-        description-2: "For an additional layer of security, we have introduced Keycard which serves as offline cold storage for private key management and their operations."
-        description-3: "For more information on Keycard, visit %s."
-      content-7:
-        title: "Secure Browsing"
-        description: "The Status browser is designed to keep the end user informed and their funds safe. Browser Privacy mode is enabled by default. This means that DApps will be required to ask permission before connecting to your wallet, and it may cause some DApps to break (if they are not compatible with this security measure). Finally, the Status browser implements EIP712 which aims to improve the usability of off-chain message signing for use on-chain. We are seeing growing adoption of off-chain message signing as it saves gas and reduces the number of transactions on the blockchain. Currently signed messages are an opaque hex string displayed to the user with little context about the items that make up the message."
-        link: "Learn more about the EIP"
-      content-8:
-        title: "How does Status protect my cryptocurrency?"
-        description: "Status is built with a non-custodial wallet, giving you full control over your funds without the use of a server. The private keys are stored in an encrypted manner on your device. Your money is under your control, and cannot be accessed by anyone without the private key. Therefore, if you lose your mnemonic phrase, you will never be able to restore access to your funds. So keep your private keys somewhere safely offline."
-      content-9:
-        title: "Signing Phrase to protect from phishing attacks"
-        description: "Status implements a signing phrase required to confirm and “sign” all transactions. The signing phrase is a 3 word phrase randomly generated for you and stored locally on your device that is presented each time you attempt to send a transaction. You will be presented your signing phrase and be required to accept it before a transaction will be confirmed. If you do not recognize your three words, or are not presented with the three words at all, cancel the transaction, log out of Status and report the issue to %s"
-      content-10:
-        title: "Rigorous Auditing"
-        description-1: "As we reach major milestones in development, after rounds of internal review and auditing, we reach out to industry leading, third-party auditing firms to verify our sanity, and double/triple check the work that we do. These security audits are not guarantees of security in the projects they pertain to. They are additional checks from objective third parties to help bolster confidence in the security of intended functionality."
-        description-2: "If you find a bug or vulnerability in our code, please report it to %s."
-      content-11:
-        title: "Educate yourself to stay safe"
-        description: "Decentralized, serverless products such as Status remove a number of unnecessary intermediaries, enabling you to chat, transact, and browse without fear of surveillance, censorship, and data leakage. This is because you are in control of your data and your own digital safety. Therefore, it is important you understand how to protect yourself. Learn more about how to stay safe with this Status Security Best Practice Guide."
-        link: "See the Best Practice Guide"
-      content-12:
-        title: "Security Support"
-        description: "We’re here to help. If you have any questions or concerns about security, send an email to %s or reach out to us in the Status Security Public Channel %s."
-      content-13:
-        title: "Bug Bounty Program"
-        description: "If you are a security researcher or developer and want to report a vulnerability, please contact %s regarding the Status Bug Bounty Program. We also have a campaign with HackerOne, a bug bounty program that incentivizes hackers to look at projects. We’re actively ramping up our private campaign, and will open it to public disclosures soon! For more information on the Bug Bounty Program, please contact %s."
-    protect-yourself:
-      title: "Protect Yourself"
-      description: "Status is built with state of the art technology to ensure the product is a secure as possible. When it comes to navigating Web3, you are in control. See our list of security best practices and take control."
-      link-1: "Learn More"
-      link-2: " Join Status Security Channel"
-  get:
-    mobile:
-      title: "Mobile"
-      description: "Chat, transact, and access a revolutionary world of DApps. Install the latest beta version and say hello in the public channel #introductions. Access this release"
-      apk-file: "APK file here"
-      link-1: "iOS App"
-      link-2: "Android App"
-    desktop:
-      title: "Mac, Windows or Linux"
-      description: "Download & install the latest Desktop alpha and start messaging from where you work."
-      link-1: "macOS App"
-      link-2: "Linux App"
-      link-3: "Windows App"
-      announcement: "This is alpha software and may contain vulnerabilities. <br>Please expect changes."
-  docs:
-    stripe:
-      title: "Status Documentation"
-    title: "Welcome to the Status Documentation!"
-    description: "Get familiar with or workflows and projects:"
-    categories:
-      technical-documentation:
-        title: "Technical Documentation"
-        description: "Growing our distributed ecosystem"
-      developer-tools:
-        title: "Developer Tools"
-        description: "JS API and Extensions"
-      build-status:
-        title: "Build Status"
-        description: "For mobile and desktop"
-      extensions:
-        title: "Extensions"
-        description: "Extend into the future"
-      research:
-        title: "Research"
-        description: "Dive in! Learn more."
+        title: '검열 없는, 안전한 커뮤니케이션'
+        description: '스테이터스는 최첨단 기술로 개발된 메신저, 암호화폐 지갑 및 Web3 브라우저입니다.'
+        news: 뉴스
+      about:
+        open-source:
+          title: '오픈소스 프로젝트'
+          description: '스테이터스는 완전한 오픈소스 프로젝트로서, 전세계의 기여자들에 의해 개발되고있습니다. 개발자, 디자이너, 크리에이터, 교육자, 취미 활동가, 매니아 등 모든 사람들이 스테이터스의 소스 코드, 자산 및 정보에 자유롭게 접근할 수 있습니다.'
+        mission:
+          title: '미션 & 원칙'
+          description: '스테이터스는 인권을 지키는 안전한 커뮤니케이션 도구가 되기 위해 노력합니다. 우리는 커뮤니티와 함께 수익을 창출하고, 커뮤니티 법률을 제정하고, 안전하게 개인정보를 보호하고, 커뮤니티 문화를 보존합니다.'
+      decentralized:
+        subtitle: '탈중앙화된 커뮤니케이션'
+        title: '원하는 만큼 채팅하고, 검색하고, 거래하세요'
+        description: '스테이터스는 탈중앙 메신저, 지갑, 디앱 브라우저를 강력하고 안전한 커뮤니케이션 도구로 통합합니다.'
+        link: '모든 기능 확인하기'
+      private:
+        subtitle: '개인 정보 보호'
+        title: '진정한 개인화 메시징'
+        description: '스테이터스는 위스퍼 P2P 프로토콜을 사용하며, 제 3자로부터 여러분의 대화 내용을 안전하게 보호하기 위해 엔드 투 엔드(end-to-end) 암호화 기술을 사용하고 있습니다. 오직 여러분만이 여러분의 메시지를 열람할 수 있습니다.'
+      wallet:
+        subtitle: '커뮤니티 자산 활성화'
+        title: '안전한 암호화폐 지갑'
+        description: 'ERC20 및 일부 ERC721 토큰을 포함한 암호화폐 자산을 안전하게 주고 받을 수 있습니다. 오직 여러분만이 여러분의 서버리스(serverless) 지갑 열쇠를 쥐고 있으며, 이는 사이버 공격으로부터 효율적으로 보호합니다. 직관적인 디자인으로 매끄러운 사용자 경험을 제공합니다.'
+      browser:
+        subtitle: '여러분의 데이터를 소유하세요'
+        title: '탈중앙 Web3 브라우저'
+        description: '스테이터스의 웹3 지원 브라우저를 활용하여 빠르게 성장하고 있는 탈중앙 앱 생태계를 체험해보세요. 여러분의 활동내용은 그 누구도 추적할 수 없습니다. 마켓 플레이스, 거래소, 게임 등 다양한 컨텐츠를 확인해보세요.'
       security:
-        title: "Security"
-        description: "Status best practices"
-      guides:
-        title: "Guides"
-        description: "How we handle things"
-      tutorials:
-        title: "Tutorials"
-        description: "Learn for yourself"
-      life-at-status:
-        title: "Life at Status"
-        description: "Day-to-day decentralization"
-    pinned-repositories:
-      title: "Pinned Repositories"
-      status-react:
-        title: "status-react"
-        description: "A free (libre) open source, mobile OS for Ethereum."
-      status-go:
-        title: "status-go"
-        description: "The Status module that consumes go-ethereum."
-      swarms:
-        title: "swarms"
-        description: "Swarm Home. New, completed and in-progress features for Status."
-    help:
-      title: "We are here to help!"
-      description: "We're always happy to help with code or any questions you have."
-      link-1: "Report a Bug"
-      link-2: "Status Community Chat"
-      link-3: "Email Us"
-      link-4: "Ask on reddit"
-    update:
-      title: "Recently updated"
-  header:
-    nav:
-      features: "Features"
-      get-involved:
-        title: "Get Involved"
-        description: "Status is an open source project <br>made by people all over the world."
-      security: "Security"
-      snt-utility: "SNT Utility"
-      docs:
-        title: "Documentation"
-        description: "Everything you need to start <br>developing with Status"
-        link: "Docs"
-        link-1: "Get Started"
-        link-2: "Build Status"
-        link-3: "Nightlies"
-        link-4: "Developer Tools"
-        link-5: "Research"
-        link-6: "Tutorials"
-      about: "About"
-      blog: "Blog"
-  footer:
-    title: "Ready to get started <br>with Status?"
-    product:
-      title: "Product"
-      apps: "Apps"
-    status:
-      title: "Status"
-      jobs: "Jobs"
-      white-paper: "White Paper"
-    documentation:
-      title: "Documentation"
-    status-network:
-      title: "Status Network"
-      embark: "Embark"
-      nimbus: "Nimbus"
-      keycard: "Keycard"
-    connect: "Connect"
-    privacy-policy:
-      title: "Privacy Policy"
-      description: "Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland"
-  link:
-    get-status: "Get Status"
-    get-involved: "Get Involved"
-    developers: "Developers"
-    educators: "Educators"
-    community-groups: "Community Groups"
-    learn-more: "Learn More"
-    read-all: "Read All"
+        title: '개인정보 보호 및 보안'
+        description: '스테이터스는 여러분의 메시지와 거래내역이 온전히 여러분만의 소유물이 되도록 하기 위해, 여러가지 최신 기술을 사용합니다. 스테이터스는 메시지와 자산을 안전하게 보호하기 위해 중개자를 완전히 제거합니다. 지금부터 자신 있게 소통하세요.'
+    features:
+      intro:
+        title: '내 주머니 속의 이더리움'
+        description: '스테이터스는 P2P(Peer-to-Peer) 메신저, 탈중앙 암호화폐 지갑, Web3 브라우저를 결합한 다목적 커뮤니케이션 도구입니다.'
+        link-messenger: 메신저
+        link-wallet: '암호화폐 지갑'
+        link-browser: '브라우저 & 디앱'
+      messenger:
+        title: '안전한 메신저'
+        feature-1:
+          title: '공개, 비밀, 그룹 채팅'
+          description: '여러개의 오픈채팅방에 가입하거나 개인 간 1:1 채팅 또는 그룹 채팅을 이용할 수 있습니다. 사용자는 개인 간 채팅 도중에 암호화폐를 주고 받을 수 있습니다.'
+          link: '스테이터스 오픈채팅방 참여하기'
+        feature-2:
+          title: '위스퍼를 통한 개인정보 보호 메시징'
+          description: '위스퍼(Whisper)는 P2P(Peer-to-Peer)의 다크 라우팅을 사용하므로, 그 누구도(스테이터스 포함) 여러분이 누구와 통신하는지 알 수 없습니다. 또한 스테이터스는 개선된 메시징 프로토콜에 대한 연구개발을 수행하고 있습니다.'
+        feature-3:
+          title: 'Perfect Forward Secrecy & <br>E2E Encryption'
+          description: '스테이터스는 더블 래칫(Double Ratchet) 알고리즘을 사용할 뿐만 아니라 위스퍼, 엔드 투 엔드 암호화 기술을 이용하여, 보안과 개인정보 보호에 있어 최고의 서비스를 제공하고 있습니다.'
+      wallet:
+        title: '이더리움 지갑과의 <br> 매끄러운 통합'
+        feature-1:
+          title: '안전한 지갑'
+          description: '중개인을 제거하면 여러분의 자산을 완벽히 관리할 수 있습니다. 여러분만이 여러분의 개인키로 암호화폐를 관리할 수 있으며, 어떤 중개인도 여러분의 암호화폐 자산에 접근할 수 없습니다.'
+        feature-2:
+          title: 'ERC20 & ERC721 토큰 호환'
+          description: '이더리움 네트워크의 ERC20 및 ERC721 토큰들을 지원합니다. 모든 토큰 자산은 스테이터스 앱에서 안전하게 보관되며, 다른 사람과 간편하게 주고 받을 수 있습니다. 여러분의 토큰을 추가하고 싶으시다면 아래 채널로 문의해주시기 바랍니다.'
+          link: 'Status 지갑 오픈채팅 참여하기'
+        feature-3:
+          title: '피어 및 디앱과의 상호 작용'
+          description: '스테이터스 지갑은 메신저 및 브라우저와 통합되어 피어(Peer) 및 디앱(DApp)과 상호 작용할 수 있습니다. 모든 트랜잭션은 피싱 공격으로부터 사용자를 보호하기 위해 서명 구문을 검증해야 합니다.'
+      browser:
+        title: '웹3 브라우저'
+        feature-1:
+          title: '탈중앙 애플리케이션 접속'
+          description: '여러분의 주머니 안에서도 디앱 생태계는 계속 성장하고 있습니다. 최신 탈중앙 거래소, 마켓 플레이스, 게임, 소셜 네트워크 등을 확인해보세요!'
+          link: '스테이터스 설치'
+        feature-2:
+          title: '프라이버시와 <br> 안전한 브라우징'
+          description: '스테이터스는 최신 보안 표준을 적용하여, 안전하고 추적 및 데이터 수집으로부터 자유로운 서비스를 제공합니다. 안전하게 브라우징하세요.'
+        feature-3:
+          title: '스테이터스와 함께 <br> 디앱 확장하기'
+          description: '확장 프로그램은 개발자가 자신의 디앱(DApp) 기능을 자연스럽게 스테이터스에서 통합할 수 있는 도구입니다. 디앱 개발자들은 이 도구를 사용하여 매끄러운 사용자 경험을 구현할 수 있습니다.'
+          link: '개발 문서'
+      desktop:
+        title: '스테이터스 데스크톱'
+        description: '스테이터스 데스크톱 알파버전을 설치하여 프라이버시를 안전하게 보장하는 메시지 기능을 이용해보세요. 데스크톱 앱은 사용자의 모바일 계정과 매끄럽게 연동됩니다.'
+        link: '스테이터스 데스크톱 설치'
+        announcement:
+          title: '스테이터스 데스크톱 버전은 현재 알파 버전입니다. 개발자용 나이틀리 버전을 설치한 다음, 알파버전 테스트와 개발에 기여하실 수 있습니다.'
+          link: '데스크톱 FAQ'
+      get:
+        title: '스테이터스 설치'
+        description: '스테이터스를 iOS, 안드로이드, 맥OS, 윈도우 그리고 리눅스에서 사용해보세요'
+        link: '앱 다운로드'
+    get-involved:
+      index:
+        intro:
+          title: '오픈소스 커뮤니티'
+          description: '스테이터스에 기여할 방법에 대한 모든 것을 확인하실 수 있습니다. 개발자, 교육자, 커뮤니티 조직자 또는 열정적인 지지자들 모두가 스테이터스에 기여할 수 있습니다. 여기에서부터 시작하시면 됩니다.'
+        resources:
+          resource-1:
+            title: 개발자
+            description: '스테이터스는 Mozilla Public License v2.0를 준수하는 무료 오픈소스 소프트웨어입니다.<br><br> 커뮤니티 멤버라면 어떠한 배경이나 기술 수준에 관련 없이 스테이터스의 공식 릴리즈에 기여할 수 있습니다. 스테이터스가 후원하는 바운티 프로그램 및 커뮤니티가 주도하는 새로운 기능 개발에 참여하실 수 있습니다.'
+          resource-2:
+            title: 교육자
+            description: '스테이터스는 교육과 호의적인 환경이 오픈소스 프로젝트의 성공에 매우 중요한 요소라고 생각합니다. <br><br> 우리는 다른 사람에게 스테이터스를 빌드하거나, 스테이터스를 사용하거나, 커뮤니티를 시작하거나, 프로젝트를 진행하며 얻은 자신의 경험을 공유하는 것을 환영합니다.'
+          resource-3:
+            title: '커뮤니티 그룹'
+            description: '스테이터스는 여러 커뮤니티 그룹이 있습니다. <br><br>기존 커뮤니티에 가입하거나 개인적인 관심사에 따라 여러분만의 커뮤니티를 시작할 수 있습니다. 스테이터스와 함께 오픈소스 프로젝트를 빠르게 성장시키기 위해, 많은 사람들이 글로벌 커뮤니티를 시작했습니다.'
+        contributors:
+          title: 'Top 커뮤니티 기여자'
+          link: '스테이터스 팀에 합류하세요! 채용 정보 확인'
+      developers:
+        intro:
+          subtitle: '오픈소스 커뮤니티'
+          title: 개발
+          description: '스테이터스 개발자 포탈(Status Developer Portal)에 오신 것을 환영합니다. 스테이터스에 기여하기 위한 모든 정보들을 확인하시고, 여러분만의 디앱을 직접 구축하거나, 효율적 작업에 필요한 스테이터스의 모든 기능을 확인할 수 있습니다.'
+        quick-nav-sub:
+          link-1: '스테이터스에 기여하기'
+          link-2: '디앱 빌드'
+          link-3: '디앱 확장'
+          link-4: '개발자 리소스'
+          link-5: 깃허브
+        contribute-to-status:
+          title: '스테이터스에 참여하기'
+          description: '이 침여자 가이드와 함께 시작하세요.'
+          link: '빠른 시작 안내서'
+          status-react:
+            title: Status-React
+            description: '위스퍼(Whisper)와 앱의 상호 작용, 지갑, 사용자 및 사용자가 액세스하고자 하는 모든 디앱(DApp) 간의 상호 작용 및 UI 로직은 Clojure로 작성되었습니다.'
+            link: '리포지터리 보기'
+          status-go:
+            title: Status-Go
+            description: '모든 블록체인 로직, 거래, 라이트 클라이언트 작업은 Go로 작성되었습니다.'
+            link: '리포지터리 보기'
+          open-issues-status-react:
+            title: 'Status-React 오픈 이슈'
+            link: '모든 이슈 확인하기'
+          open-issues-status-go:
+            title: 'Status-Go 오픈 이슈'
+            link: '모든 이슈 확인하기'
+          earn-crypto:
+            title: '바운티 수행을 통해 <br> 암호화폐 받기'
+            description: '기술적인 바운티 전체 목록을 참고하세요'
+            link: 깃코인(Gitcoin)
+          report-a-security-vulnerability:
+            title: '보안 취약점 <br> 보고 및 해결'
+            description: '더 자세히 알아보기'
+            link: '버그 바운티 프로그램'
+        development-dapp:
+          build-dapp:
+            title: '직접 디앱을 빌드하세요'
+            description: '여러분의 툴과 프레임워크로 탈중앙 애플리케이션을 빌드하세요.'
+            link-1: 'Javascript API를 통한 모바일 최적화'
+            link-2: '엠바크와 함께 여러분만의 디앱을 만들어보세요'
+            link-3: 'Web3 제공자에 액세스하고 스테이터스 확인하기'
+            link-4: '스테이터스 디앱 목록에 여러분의 디앱을 제출하세요'
+          extend-dapp:
+            title: '여러분의 디앱을 확장하세요'
+            description: '확장 프로그램을 통해 디앱 내에서 스테이터스의 기본 기능을 확장해서 활용할 수 있습니다.'
+            link-1: '확장 프로그램을 소개합니다'
+            link-2: 튜토리얼
+            link-3: '예제 & 기존 확장 프로그램'
+        development-resources:
+          contribute-support:
+            title: '기여자 지원'
+            link-1: '문서를 작성하기'
+            link-1-description: '개발 문서 작성, 편집 및 수정할 수 있도록 도와주실 수 있습니다. 모든 편집은 GitHub을 통해 진행됩니다.'
+            link-2: '개발 문서 번역하기'
+            link-2-description: '스테이터스의 모든 개발 문서를 현지 언어로 번역하는 데 여러분의 도움이 필요합니다.'
+            link-3: '새로운 기여자를 환영합니다.'
+            link-3-description: '스테이터스 #introductions 채널에 참여하여 신규 기여자 및 커뮤니티 구성원들과 함께 합니다.'
+            link-4: '튜토리얼 만들기'
+            link-4-description: '개발 문서 및 스테이터스 블로그에 튜토리얼을 작성하는 방법에 대해 알아보려면, 스테이터스에 문의해주시기 바랍니다.'
+          developer-resources:
+            title: '개발자 리소스'
+            link-1: '깃허브 저장소'
+            link-2: '개발 문서'
+            link-3: 엠바크
+            link-4: 튜토리얼
+            link-5: '개발용 버전'
+            link-6: 블로그
+            link-7: '최신 개발자 회의 확인하기'
+            link-8: '최신 릴리즈 노트 확인하기'
+            link-9: '주요 스웜 프로젝트 리스트 조회'
+        get-in-touch:
+          title: 연락하기
+          join-status:
+            link: '#status 채널에 참여하기'
+            description: '스테이터스 뉴스 및 토론'
+          join-status-core:
+            link: '#status-core 채널에 참여하기'
+            description: '코어 개발 관련 오픈채팅 채널'
+          join-introductions:
+            link: '#Introductions 채널에 참여하기'
+            description: '스테이터스가 처음이신가요? 먼저 채널에 입장해 인사해보세요!'
+          contact-us:
+            link: '이메일 보내기'
+            description: '어떤 것이든, 저희에게 바로 이메일 부탁드립니다.'
+      educators:
+        intro:
+          subtitle: '오픈 소스  커뮤니티'
+          title: 교육
+          description: '다른 사람에게 스테이터스를 빌드하거나, 스테이터스를 사용하거나, 커뮤니티를 시작하거나, 프로젝트를 진행하며 얻은 자신의 경험을 공유하는 것을 환영합니다.'
+        quick-nav-sub:
+          link-1: '교육 및 만들기'
+          link-2: 번역하기
+          link-3: '교육자 리소스'
+          link-4: 깃허브
+        educate-contribute:
+          how-to-get-started:
+            title: '어떻게 시작하나요?'
+            link-1: '커뮤니티 구성원 초보자 가이드'
+            link-1-description: '커뮤니티 구성원 Warsoverjohn님이 만든 이 가이드를 확인해보세요.'
+            link-2: '용어 사전'
+            link-2-description: '용어, 정의, 리소스 및 개념은 이 오픈 소스 문서를 참조하시기 바랍니다. 얼마든지 추가할 수 있습니다.'
+            link-3: '자주 묻는 질문'
+            link-3-description: '다음은 스테이터스 커뮤니티 사용자들로부터 받은 자주 묻는 질문 목록입니다.'
+          create:
+            title: 만들기
+            link-1: '비 기술 튜토리얼 작성하기'
+            link-1-description: '신규 사용자가 계정을 설정하고 스테이터스 앱 및 커뮤니티를 활용할 수 있도록 돕습니다. 블로그에 튜토리얼를 공유하려면 저희에게 연락주시기 바랍니다.'
+            link-2: '기술 튜토리얼 작성하기'
+            link-2-description: '개발자가 스테이터스를 빌드하고, 디앱(DApp)을 만들고, 확장 프로그램 및 다른 유용한 것들을만들 수 있도록 돕습니다. 스테이터스에게 연락주시기 바랍니다.'
+            link-3: '블로그 게시물을 작성하기'
+            link-3-description: '스테이터스 블로그에 이야기를 공유하고, 블로그 퍼블리셔가 되보세요'
+        translate:
+          title: 번역하기
+          description: '여러분의 언어로 스테이터스를 번역하는 데 도울 수 있습니다. 스테이터스는 Lokalise를 통해 애플리케이션, 웹사이트, 개발 문서 등에 대한 번역을 진행하고 있습니다.'
+          link: '스테이터스 번역하기'
+        educator-resources:
+          title: '교육자 리소스'
+          link-1: '스타일 가이드 및 디자인 자산'
+          link-1-description: '브랜드 자산, 템플릿 및 폰트와 함께 최신 스타일가이드를 확인하세요'
+          link-2: 토론
+          link-2-description: '스테이터스 모든 것에 대한 토론에 참여하세요'
+          link-3: 튜토리얼
+          link-3-description: '무언가를 빌드하는 방법을 배우거나 다른 커뮤니티에서 만든 튜토리얼의 예제를 참고 할 수 있습니다.'
+          link-4: 블로그
+          link-4-description: '최신 스테이터스 뉴스 및 업데이트를 확인하세요'
+          link-5: 나이틀리
+          link-5-description: '모바일과 데스크톱을 위한 최신 나이틀리 빌드를 설치하고 테스트 할 수 있습니다.'
+          link-6: '최신 버전 릴리즈 노트를 확인하세요'
+          link-7: '현재 진행 중인 스웜 프로젝트 확인'
+          link-8: '스테이터스 오픈채팅 전체 목록보기'
+        get-in-touch:
+          join-statusphere:
+            link: '#statusphere 에 참가하세요.'
+            description: '스테이터스 앰버서더 및 지지자들의 커뮤니티'
+      community:
+        intro:
+          subtitle: '오픈 소스 커뮤니티'
+          title: '커뮤니티 그룹'
+          description: '스테이터스 내에 여러 개의 커뮤니티 그룹이 있습니다. 기존 그룹에 가입하거나 개인적인 관심사에 따라 그룹을 시작해보세요.'
+          link-1: '아래 그룹을 참고해주세요'
+          link-2: '새 그룹 등록하기'
+        community-groups:
+          account-group-1:
+            link: '#Status-ambassadors'
+            description: '스테이터스 커뮤니티를 돕고, 기여하고, 만들어나가는 데 전념하는 사람들의 그룹.'
+            occupation: 주최자
+            name: '우리 모두'
+          account-group-2:
+            link: '#Status-Korean'
+            description: '한국에 기반한 열정적인 개발자, 메이커, 크리에이터, 애호가들의 모임.'
+            occupation: 주최자
+            name: 장진호
+          account-group-3:
+            link: '#status-spanish'
+            description: '스테이터스 스페인어 커뮤니티'
+            occupation: 주최자
+            name: '랄로 가르자'
+          account-group-4:
+            link: '#status-chinese'
+            description: '스테이터스 중국어 커뮤니티'
+            occupation: 주최자
+            name: '스티븐 주'
+          account-group-5:
+            link: '#philosophers'
+            description: '인생의 의미는 무엇인가?'
+            occupation: 주최자
+            name: 아리스토텔레스
+    security:
+      intro:
+        title: '설계적으로 검증된 보안성'
+        description-1: '스테이터스는 진정한 탈중앙화 커뮤니케이션 도구가 되는 것을 목표로 하며, 제 3자 솔루션을 사용하지 않고, 악의적인 행위자의 공격을 최소화합니다.'
+        description-2: 'Web 3의 진정한 가치는 중개자 없이 언제 어디서나 거래하고 커뮤니케이션 할 수 있다는 것입니다. 이런 식의 자유로운 소통을 즐기기 위해서는 우리의 메시지, 거래, 신원, 자산이 안전하다는 확신을 가져야 합니다. 아래에서 보안에 대한 스테이터스의 접근 방식에 대해 자세히 알아봅니다.'
+      security-at-status:
+        title: '스테이터스의 보안'
+        secure-inner-1:
+          title: 보안<br>메시징
+          description: '메시지는 검열되거나 차단되지 않으며, 사용자가 희망할 경우 익명으로 남습니다. 의도된 수신자만이 메시지를 볼 수 있으며, 어떤 메타데이터도 유출되지 않습니다.'
+        secure-inner-2:
+          title: '안전한 <br> 금융 거래'
+          description: '스테이터스 지갑 내에서 암호 또는 토큰을 보내고, 저장하고, 수신하는 것은 사이버 공격으로부터 안전합니다. 여러분의 개인키는 절대 노출되지 않습니다. 각각의 트랜젝션은 개인 키의 소유자가 시작하고 확인할 때만 처리될 수 있도록 구현되었습니다.'
+        secure-inner-3:
+          title: '안전한 <br>브라우징'
+          description: '사용자가 Web3를 브라우징 할 때, 사용자 데이터 및 검색 정보는 타사에서 동의 없이 접근할 수 없습니다. 스테이터스 브라우저를 사용하는 동안 이루어진 모든 트랜잭션은 스테이터스 지갑에서 사용되는 것과 동일한 보안 표준 및 모범 사례들로 구현되어 있습니다.'
+      security-content:
+        content-1:
+          title: '안전한 신원'
+          description: '여러분의 스테이터스 ID는 로컬에서 암호화 키(Key)를 한 쌍 생성하며, 이 키페어는 패스워드를 통해 보호됩니다. 사용자는 자신의 프로필에 개인정보를 추가할 수 있습니다. 사용자는 항상 자신의 정보에 대한 모든 제어 권한을 가지고 있으며, 누가 내 개인정보에 접근할 수 있는지 확인할 수 있습니다. 사용자는 원하는대로 정보 공개 범위를 조절할 수 있습니다.'
+        content-2:
+          title: '서버를 사용하지 않는 P2P 메세징'
+          description: '스테이터스는 P2P(Peer-to-Peer) 통신에 위스퍼(Whisper) 프로토콜을 사용합니다. 즉, 메시지를 처리하거나 저장하는 서버가 없습니다. 대신 위스퍼는 메시지를 서로 라우팅하기 위해 Peer 네트워크를 사용합니다. 전송된 메시지는 전체 네트워크로 전파되며, 의도된 수신인만 열 수 있도록 암호화됩니다. 네트워크에 모든 메시지가 범람하여 수신자와 발신자를 숨기는 것을 다크 라우팅이라고 하며, 이는 메시지의 내용뿐 아니라 사용자가 통신하는 위치, 누구와 통신하는지에 대한 메타데이터도 안전하게 보호합니다. 이는 온라인 메시징에서 보안 및 개인정보 보호 관련 최고의 표준이며, 스테이터스 팀은 이 표준을 제공하기 위해 보다 확장 가능하고 효율적인 방법을 연구하고 있습니다.'
+          link: '위스퍼에 대해 더 알아보기'
+        content-3:
+          title: '엔드 투 엔드(End-to-End) 암호화'
+          description: '위스퍼(Whisper)를 통해 전송된 모든 개인 메시지는 기본적으로 엔드 투 엔드로 암호화됩니다. 스테이터스 계정을 생성하면 메시지를 암호화하는 암호화 키페어(keypair)가 생성되어 디바이스에 로컬로 저장됩니다. 스테이터스에서 새 연락처를 추가하면, 상대방과 공개키를 교환하게 됩니다. 이를 통해 네트워크를 통해 메시지를 주고 받을 때 해당 사용자가 수신한 메시지를 해독할 수 있도록 합니다.'
+        content-4:
+          title: 'Perfect Forward Secrecy'
+          description: 'PFS(Perfect Forward Secrecy)는 사용자의 개인키가 손상되더라도 세션키가 손상되지 않도록 키 관리(key-agreement) 프로토콜입니다. 이를 통해 제 3자가 개인키를 탈취하더라도 이전 메시지의 암호를 해독할 수 없습니다. 이 프로토콜은 오픈 위스퍼 시스템즈(Open Whisper Systems)의 X3DH 및 Double Ratchet 사양을 기반으로 하며, 탈중앙화 된 환경에서 작동하도록 구현되었습니다. Perfect Forward Secrety는 모든 1:1 개인 채팅에 추가된 보안 레이어입니다.'
+          link: 'PFS에 대해 더 알아보기'
+        content-5:
+          title: '서버리스(Serverless) 계정 생성'
+          description: '스테이터스는 새 계정을 만들 때 이메일이나 전화번호와 같은 제 3자 확인을 요청하지 않습니다. 즉, 스테이터스 계정은 완벽히 익명으로 생성됩니다. 계정 정보로는 단지 사용자 이름과 키(Key) 밖에 없습니다. 사용자의 이름과 키를 알고 있더라도 스테이터스를 재설치 했을 때 계정에 바로 접근이 않되기 때문에, 키와 니모닉 구문(12개의 복구 단어)을 매우 안전한 곳에 오프라인으로 백업하시는 것을 권장 합니다.'
+        content-6:
+          title: '나의 키(Key)가 어떻게 저장되나요?'
+          description-1: '스테이터스는 개인 및 개인 키를 관리하고 저장하는 데 타사 서비스를 전대로 사용하지 않습니다. 생성된 첫 번째 BIP44 키는 디바이스의 keystore json 파일에 로컬로 저장됩니다. 이 파일은 여러분이 스테이터스 계정에서 설정한 암호로 암호화되며, 스테이터스 앱에서만 액세스 할 수 있습니다. 우리는 하드웨어에 안전하게 저장된 중요하고 민감한 정보는 오직 사용자의 기기에서만 사용할 있게 설계 했습니다.'
+          description-2: '추가적인 보안 레이어로, 효과적으로 개인키를 관리하는 오프라인 콜드 스토리지인 키카드(Keycard)를 도입했습니다.'
+          description-3: '키카드에 대해 더 알고 싶으시다면 %s을 방문하세요'
+        content-7:
+          title: '안전한 브라우징'
+          description: '스테이터스 브라우저는 사용자에게 유용한 정보를 제공하고 자산을 안전하게 보호하도록 설계되었습니다. 브라우저의 개인정보 보호 모드는 기본적으로 활성화되어 있습니다. 즉, 디앱(DApp)은 사용자의 지갑에 연결하기 전에 사용 권한을 요청해야 하며, 보안 조치를 따르지 않는 일부 디앱은 실행되지 않습니다. 마지막으로, 스테이터스 브라우저는 온체인 사용을 위한 오프체인 메시지 서명의 사용성을 향상시키기 위해 EIP(Ethereum Improvement Proposal)712를 구현했습니다. 최근 사용빈도가 증가하고 있는 오프체인 메시지 서명을 통해, 사용자는 가스를 절약하고 블록체인을 통한 거래 수를 줄일 수 있습니다. 현재 서명 메시지는 메시지를 구성하는 내용에 대한 어떤 정보도 포함하지 않는16진수 문자열로 표현됩니다.'
+          link: 'EIP에 대해 더 알아보기'
+        content-8:
+          title: '스테이터스는 어떻게 암호화폐 자산을 보호하나요?'
+          description: '스테이터스는 구속되지 않는(non-custodial) 지갑으로 설계되어, 서버를 사용하지 않고도 자산을 완벽하게 제어할 수 있습니다. 개인키는 디바이스에 암호화된 방식으로 저장됩니다. 사용자의 자산은 사용자가 완전히 통제하며, 개인 키가 없으면 아무도 사용자의 자산에 접근할 수 없습니다. 따라서 초기 세팅에 등장하는 12개의 복구 구문을 잃어버리면, 사용자의 암호화폐 자산에 접근할 수 없게 됩니다. 개인키를 안전하게 오프라인 상태로 유지해주세요.'
+        content-9:
+          title: '피싱 공격으로부터 보호하기 위한 암호 구문'
+          description: '스테이터스는 모든 트랜잭션을 확인하고 "서명"하는 데 필요한 서명 구문을 제공합니다. 서명 구문은 무작위로 생성되어 디바이스에 로컬로 저장되며, 트랜잭션을 보낼 때마다 표시되는 3단어의 구입니다. 거래가 확인되기 전에 화면에 나타난 서명 구문을 확인해야 합니다. 이 세 단어를 인식하지 못하거나 세 단어가 전혀 표시되지 않으면, 트랜잭션을 취소하고 스테이터스를 로그아웃 한 후 %s으로 이슈를 제기 해주시기 바랍니다.'
+        content-10:
+          title: '엄격한 감사'
+          description-1: '주요 개발 분기점에 도달하면, 일련의 내부 검토 및 감사를 거친 후 업계 선두의 보안 감사 회사에 의뢰하여 기능의 안정성과 건전성을 검증합니다. 이를 통해 스테이터스가 개발한 내용을 이중/삼중으로 점검합니다. 이러한 제 3자에 의한 객관적인 보안 감사는 비용과 시간이 소모되지만, 보안에 대한 신뢰를 훨씬 강화할 수 있습니다.'
+          description-2: '만약 우리의 소스 코드에서 버그나 취약점을 발견하시면, %s으로 리포트 부탁드립니다.'
+        content-11:
+          title: '개인정보 보호 교육'
+          description: '스테이터스와 같은 탈중앙화되고 서버 없이 운영되는 서비스는 불필요한 중개자를 제거하여 감시, 검열 및 데이터 유출의 염려 없이 안전하게 채팅하고, 거래 및 탐색할 수 있습니다. 이는 개인 정보와 디지털 자산을 사용자가 스스로 제어기 때문입니다. 그러므로, 여러분이 자신을 안전하게 보호하는 방법을 이해하는 것이 중요합니다. 이 스테이터스 보안 모범사례 가이드를 통해 여러분의 안전을 유지하는 방법에 대해 알아봅니다.'
+          link: '모범 사례 가이드 확인하기'
+        content-12:
+          title: '보안 지원'
+          description: '보안에 대해 궁금한 점이나 우려되는 점이 있으시면 %s 로 이메일을 보내시거나, 스테이터스 보안 오픈 채팅 %s 에 연락해주세요.'
+        content-13:
+          title: '버그 바운티 프로그램'
+          description: '보안 연구원 또는 개발자이신가요? 취약점을 보고하려면, %s에 연락하여 스테이터스 버그 바운티 프로그램(Status Bug Bounty Program)에 문의해주세요. 또한 스테이터스는 해커들이 프로젝트를 분석하도록 유도하는 버그 현상금 프로그램을 HackerOne과 진행 중입니다. 스테이터스는 적극적으로 캠페인을 준비하고 있고, 버그 바운티 프로젝트가 곧 공개될 것입니다! 버그 바운티 프로그램에 대한 자세한 내용은 다음 연락처로 문의해주세요 %s'
+      protect-yourself:
+        title: '스스로 보호하세요'
+        description: '스테이터스는 제품의 보안성을 극대화하기 위해 최첨단 기술로 개발합니다. Web3를  탐색 할 때, 사용자는 보안과 관련된 모든 것들을 제어할 수 있습니다. 스테이터스의 보안 관련 모범 사례를 확인하실 수 있습니다.'
+        link-1: '더 알아보기'
+        link-2: '스테이터스 보안 채널에 참가하기'
+    header:
+      nav:
+        features: 기능
+        get-involved:
+          title: 참여하기
+          description: '스테이터스는 전세계 사람들이 <br> 함께 만들어가는 오픈소스 프로젝트입니다.'
+        security: 보안
+        docs:
+          title: '개발 문서'
+          description: '스테이터스 <br> 개발을 시작하기 위해 필요한 모든 것'
+          link: '개발 문서'
+          link-1: 시작하기
+          link-2: '스테이터스 빌드하기'
+          link-3: 나이틀리
+          link-4: '개발자 도구'
+          link-5: 연구
+          link-6: 튜토리얼
+        about: 소개
+        blog: 블로그
+        snt-utility: 'SNT 유틸리티'
+    link:
+      get-status: '스테이터스 사용하기'
+      get-involved: 참여하기
+      developers: 개발자
+      educators: 교육자
+      community-groups: '커뮤니티 그룹'
+      learn-more: '더 알아보기'
+      read-all: '모두 읽기'
+    about:
+      intro:
+        title: 미션
+        link-1: '스테이터스의 원칙'
+        link-2: '주요 스웜'
+        link-3: '핵심 기여자'
+        description: '스테이터스는 인권을 지키는 안전한 커뮤니케이션 도구가 되기 위해 노력합니다. 우리는 커뮤니티와 함께 수입을 창출하고, 공동체 법률을 제정하고, 사생활을 보호하고, 문화를 보존합니다.'
+      principles:
+        title: '스테이터스의 원칙'
+        description: '이러한 원리들은 스테이터스의 도구로써 작용 합니다. 사고, 의사소통 및 분산된 의사 결정을 위한 도구입니다. 이 원칙들은 우리의 비전에 못 미칠 경우 대해 정직한 태도를 유지하게 합니다.'
+        principle-1:
+          title: 자유
+          description: '스테이터스는 개인의 주권을 믿습니다. 개인의 자유를 보장하는 플랫폼으로서, 스테이터스는 사회적, 정치적, 경제적 자유를 극대화합니다. 어떤 강압적인 것도 포함하지 않습니다.'
+        principle-2:
+          title: '검열 저항'
+          description: '스테이터스는 자유로운 정보의 흐름을 가능하게 합니다. 그 어떤 컨텐츠도 검열이 불가능 합니다. 스테이터스는 완벽한 검열저항 원칙에 입각한 암호 경제 모델을 설계했습니다. 스테이터스는 정보 를 위한 강력한 독립적 플랫폼입니다.'
+        principle-3:
+          title: 보안
+          description: '스테이터스는 기능을 개발할 때  보안에 대해 절대 타협하지 않습니다. 우리는 최첨단 기술을 사용하고 새로운 보안 기술과 방법을 연구하여 강력한 보안성을 보장합니다.'
+        principle-4:
+          title: '개인 정보 보호'
+          description: '개인정보(Privacy)는 세상에 자신을 선택적으로 드러내는 것을 의미합니다. 익명성을 중요시하는 스테이터스에게, 일 뿐만 아니라 통신과 거래 모든 요소에서 개인정보를 보호하는 것은 필수적입니다. 스테이터스는 완전한 익명성을 제공하기 위해 노력합니다.'
+        principle-5:
+          title: 투명성
+          description: '스테이터스는 조직 내의 완전한 정보의 개방성과 대칭성을 위해 노력하고 있으며, 스테이터스 핵심 기여자와 커뮤니티 사이에 경계는 없습니다. 특히 장기적인 목표를 위해 단기적인 절충을 할 때 우리의 단점에 대해 솔직해지려 합니다.'
+        principle-6:
+          title: 개방성
+          description: '스테이터스가 개발하는 소프트웨어는 공공재입니다. 이는 누구든지 공유하고, 수정하고, 이익을 얻을 수 있는 오픈소스 라이선스를 의미합니다. 우리는 허가 없는 참여(permission-less participation)을 지지합니다.'
+        principle-7:
+          title: 탈중앙화
+          description: '스테이터스는 소프트웨어와 조직 자체에 대한 중앙 집중화를 최소화합니다. 즉, 네트워크를 구성하는 물리적 컴퓨터의 수와 시스템을 통제할 수 있는 개인의 수를 최대화합니다.'
+        principle-8:
+          title: 포괄성
+          description: '스테이터스는 소프트웨어에 대한 공정하고 광범위한 접근을 믿으며, 사용 편의성을 중요시 합니다. 이는 또한 사회적 포괄성, 허가 없는 참여, 상호운용성, 교육적 노력에 대한 투자로까지 확대됩니다.'
+        principle-9:
+          title: 지속성
+          description: '스테이터스는 단일 기관 또는 현재 팀 구성원의 없이도 계속 존재하고, 지속적으로 개선되는 소프트웨어를 만듭니다.'
+        principle-10:
+          title: '자원 효율성'
+          description: '스테이터스는 끈질기게 효율성을 추구합니다. 스테이터스가 성장하고 경제적인 면에 접근할 준비가 되면 조직 내의 관료주의와 비효율성에 맞서 싸울 것이며, 이는 토큰 소유자에들에 대한 우리의 의무입니다. 이는 자본, 시간 및 자원 측면에서 최소의 경제적 비용으로 가장 효과적인 방법으로 문제를 해결한다는 것을 의미합니다.'
+      how-we-work:
+        title: '스테이터스는 어떻게 일하나요?'
+        description: '스테이터스는 세계 각지에서 원격으로 일하는 분산화된 팀입니다. 스테이터스는 매우 구체적인 목표를 가진 2-5명의 소규모 팀이 조직을 이루어 하나의 스웜(Swarm) 프로젝트를 진행합니다. 스테이터스는 기능과 제품 개발을 위해 구조화된 접근방식을 따릅니다.'
+        research:
+          title: 연구
+        specifications-planning:
+          title: '스펙화 및 기획'
+        implementation:
+          title: 실행
+        communication-post-mortem:
+          title: '커뮤니케이션 & 사후 분석'
+      active-swarms:
+        title: '주요 스웜(Swarm)'
+        link: 'Gitub에서 모든 스웜(Swarm) 보기'
+        inner-1:
+          title: '코어 네트워크 인센티브'
+          swarm-meta: 'SNT 유틸리티'
+        inner-2:
+          title: '이모티콘 마켓'
+          swarm-meta: 'SNT 유틸리티'
+        inner-3:
+          title: '트리뷰트 투 토크'
+          swarm-meta: 'SNT 유틸리티'
+        inner-4:
+          title: '디앱 스토어'
+          swarm-meta: 'SNT 유틸리티'
+        inner-5:
+          title: '텔러 네트워크'
+          swarm-meta: 'SNT 유틸리티'
+        inner-6:
+          title: '토큰 이코노미스트'
+          swarm-meta: '필수 요소'
+        inner-7:
+          title: '코어 개선'
+          swarm-meta: '필수 요소'
+        inner-8:
+          title: 프로토콜
+          swarm-meta: 연구
+        inner-9:
+          title: DAO
+          swarm-meta: '필수 요소'
+        inner-10:
+          title: 재니터스
+          swarm-meta: '필수 요소'
+        inner-11:
+          title: 코어
+          swarm-meta: 팀
+        inner-12:
+          title: '코어 브라우저'
+          swarm-meta: '코어 팀'
+        inner-13:
+          title: '코어 채팅'
+          swarm-meta: '코어 팀'
+        inner-14:
+          title: 데스크톱
+          swarm-meta: '코어 팀'
+        inner-15:
+          title: '코어 지갑'
+          swarm-meta: '코어 팀'
+        inner-16:
+          title: 키카드
+          swarm-meta: '스테이터스 네트워크'
+        inner-17:
+          title: 엠바크
+          swarm-meta: '스테이터스 네트워크'
+        inner-18:
+          title: 님버스
+          swarm-meta: '스테이터스 네트워크'
+      core-contributors:
+        title: '핵심 기여자'
+        description: '스테이터스는 전통적인 조직이 아닙니다. 우리는 수평화 되어있으며, 사무실도 없고, 관리자도 없습니다. 우리는 모두 우리의 미션을 달성하기 위해 여기에 있으며, 우리의 일하는 방식을 선택할 자유가 있습니다.'
+        link-1: '스테이터스의 채용 포지션을 확인하세요'
+        link-2: '스테이터스에서의 라이프에 대해 알아보기'
+    snt:
+      intro:
+        title: '스테이터스 네트워크 토큰'
+        description: 'SNT는 스테이터스 네트워크의 참여를 장려하고 <br> 인센티브를 제공 합니다.'
+        link-1: '기본 지식'
+        link-2: 'SNT 사용하기'
+        link-3: 연구
+        link-4: '함께 하기'
+      the-basics:
+        title: '기본 지식'
+        inner-1:
+          title: 'ERC-20 토큰'
+          description: 'SNT는 스테이터스 네트워크 및 응용 프로그램의 탈중앙 서비스를 활용하는 데 사용되는 ERC-20 토큰입니다'
+          link: 'SNT의 모든 사용 사례 확인하기'
+        inner-2:
+          title: '오픈소스 프로젝트'
+          description: '스테이터스는 누구든지 필요에 맞게 코드와 토큰을 사용할 수 있는 완전한 오픈소스 프로젝트입니다. 우리의 연구는 오픈소스 및 거버넌스 구조가 프로젝트 경제적 가치에 영향을 미친다는 것을 보여줍니다.'
+        inner-3:
+          title: '이해 관계자로서의 사용자'
+          description: 'SNT와 함께, 사용자가 네트워크의 이해 당사자(stakeholder)가 되는 네트워크를 만듭니다. 이를 통해 네트워크와 소프트웨어의 동작이 사용자의 이익에 부합할 수 있도록 합니다.'
+          link: '백서에 대해 알아보기'
+        inner-4:
+          title: 연구
+          description: '우리는 스테이터스 네트워크가 장기적으로 올바르게 동작하도록 하기 위해, 암호화 경제 모델 및 P2P 기술에 대한 연구를 지속적으로 수행합니다.'
+          link: '연구에 대해 더 알아보기'
+      using-snt:
+        title: 'SNT 사용하기'
+        description: 'SNT는 특정 애플리케이션 기능을 활용하거나, 오픈소스 프로젝트를 만들거나, 탈중앙화 경제를 구축해 나가기 위해 필요합니다. 아래에서 각 SNT 사용 사례에 대해 자세히 알아보고, 암호화 경제 연구 및 네트워크 전반에 걸쳐 SNT 가치가 어떻게 전달되는지에 대해 알아봅니다.'
+        teller-network:
+          title: '텔러 네트워크'
+          status: '개발 중'
+          description: '''텔러 네트워크''는 스테이터스가 제공하는 디앱(DApp)으로, 사용자가 주변 사용자와 자신의 현금 및 디지털 자산을 거래할 수 있도록 돕는 국경 없는 P2P 거래 플랫폼입니다. SNT는 텔러 네트워크에서 판매자로 등록하기 위해 필요합니다.'
+        network-incentivization:
+          title: '네트워크 인센티브'
+          status: '연구 중'
+          description: '사용자가 스테이터스 노드를 배포하고 운영할 수 있는 프레임워크 및 인센티브 구조를 만듭니다. SNT는 네트워크에서 노드를 운영하는 사람들에게 인센티브로 작용하며, 이를 통해 스테이터스가 호스팅하는 클러스터와 연동된 모든 노드가 중단되더라도 앱이 문제 없이 작동하도록 합니다. 노드는 전달된 메시지 뿐만 아니라 오프라인 메시지도 원활히 전달되도록 돕습니다.'
+        ens-user-name:
+          title: 'ENS 사용자 이름'
+          status: 라이브
+          description: 'ENS 주소는 사용자 이름과 같습니다. Jenny.eth와 같은 ENS 이름을 특정 계정과 연동할 수 있으며, 이를 통해 다른 사람이 조금 더 쉽게 특정 사용자에게 토큰을 보내거나 특정 스테이터스 계정을 찾을 수 있도록 합니다. 스테이터스 채팅, 지갑 및 브라우저에서 언제든지 ENS 주소를 검색 할 수 있습니다. <br><br> stateofus.eth ENS 이름 등록 계약금은 연 10 SNT입니다. ENS 이름이 예약되면, 10 SNT는 1년 간 ENS 등록 컨트랙트에 잠깁니다. 일년이 지난 후에는 ENS 이름에 대한 계약을 취소하여 토큰을 다시 가져올 수 있습니다.'
+          link: 'ENS 등록하기'
+        sticker-market:
+          title: '이모티콘 마켓'
+          status: '개발 중'
+          description: '이모티콘은 사용자가 친구 및 가족과 시각적으로 소통할 수 있는 재미있는 방법을 제공합니다. 스테이터스의 이모티콘 마켓은 누구나 자신의 디자인 컨텐츠를 만들고 전세계의 사용자에게 디자인 컨텐츠를 판매 할 수 있도록 하며, 구입한 이모티콘은 모든 스테이터스 채팅 내에서 사용할 수 있습니다. <br><br>SNT는 선별 된 시장을 통해 스티커를 구입해야합니다.'
+        tribute-to-talk:
+          title: '트리뷰트 투 토크'
+          status: '개발 중'
+          description: '트리뷰트 투 토크는 경제학 모델에 기반한 안티스팸 필터를 제공합니다. 트리뷰트 투 토크를 통해 불특정 사용자로부터 불필요한 메시지 수신 및 연락처 공유 요청을 차단할 수 있습니다. 이는 여러분의 연락처 외부의 사람들이 여러분에게 직접 연락하기 위해 필요한 최소 SNT 계약금을 설정하도록 합니다.'
+        dao-governance:
+          title: 'DAO 및 거버넌스'
+          status: '연구 중'
+          description: '스테이터스네트워크토큰(SNT)의 핵심은 이해당사자(stakeholder)들이 소프트웨어 개발 방향에 본인의 의사를 반영할 수 있도록 하는 것 입니다. 이해당사자들은 제안서를 제출할 수 있으며, SNT는 제안서에 대한 결정을 내리는 데 사용됩니다. 각 결정에 대해 토큰은 별도의 의사결정 토큰으로 복제됩니다. 이 때 보유하고 있는 토큰의 양은 의사결정에 대한 투표권의 수가 되며, 투표하는데 SNT가 소모되지 않습니다.'
+        dapp-curation:
+          title: '디앱 큐레이션'
+          status: 라이브
+          description: '스테이터스 디앱 디렉토리는 네트워크 내 이해당사자들이 다른 커뮤니티 구성원에 의해 큐레이션된 디앱 리스트를 브라우징 할 수 있도록 합니다. 큐레이션은 카테고리와 평점을 기준으로 디앱을 탐색할 수 있는 방법을 제공하며, 사용자는 원하는 디앱을 정확히 찾을 수 있게 됩니다. SNT는 디렉토리의 큐레이션과 참여에 필요합니다. 본인이 개발한 디앱을 홍보하고 싶은 개발자는 홍보를 위해 SNT 계약금을 예치해야 합니다.'
+          link: '디앱 브라우징'
+        voting-dapp:
+          title: '투표 디앱'
+          status: 라이브
+          description: '커뮤니티 거버넌스를 향한 첫 번째 단계인 스테이터스 투표 디앱(DApp)은 이해당사자들이 네트워크의 미래에 영향을 미칠 수 있도록 합니다. 투표 디앱을 활용하면 누구든지 SNT를 기반으로 커뮤니티 투표를 시작할 수 있습니다. 투표 디앱은 제곱 투표(quadratic voting) 방식을 활용하여, 여러분의 지갑에 있는 SNT 갯수는 여러분이 얼마나 많은 표를 행사할 수 있는지 결정하고 소수의 독점을 방지합니다.'
+          link: '투표 디앱(Voting DApp) 확인하기'
+        acquisition-engine:
+          title: '사용자 확보 엔진'
+          status: '연구 중'
+          description: '스테이터스의 미션을 달성하기 위해 꼭 필요한 한가지가 있습니다. 바로 많은 스테이터스 사용자들을 확보하는 것입니다. 우리는 스테이터스네트워크토큰(SNT)를 활용하여, Web 2.0에서 이미 검증된 메커니즘을 바탕으로 참여자들에게 더 나은 인센티브와 투명성을 제공하는 메커니즘을 디자인 해야 합니다. 스테이터스 사용자 확보 엔진은 암호학적으로 증명 가능한 방법으로 사용자 기반을 증가시키고, 이에 상응한 투명성을 제공합니다.'
+      crypto-research:
+        title: '암호화 경제 연구'
+        description-1: '스테이터스 팀은 각 SNT 사용 사례에 대한 암호화 경제 모델 연구를 수행하여, 제품 및 기능 개발을 널리 알리고 스테이터스 네트워크에 인센티브를 제공하고 있습니다. <br><br> 이러한 암호화 경제 모델은 지속적으로 연구되고 있으며, 스테이터스는 모든 사람들이 함께 논의하고, 비평 및 검토할 것을 희망합니다. <br><br> 이와 같은 모델은 SNT 유틸리티 기능 및 사용량 증가율, SNT 공급 및 순환이 스테이터스 네트워크에 미치는 영향 등을 파악하는데 중요한 역할을 합니다.'
+        link-1: '#token-economics 참여'
+        description-2: '오픈채팅에 참여하여 연구에 대해 조금 더 자세히 알아보세요'
+        link-2: '유틸리티 가치 워크북'
+        description-3: '스테이터스 네트워크의 유틸리티 가치 워크북(Utility Value Workbook)을 검토하고, 직접 모델을 테스트 해보세요.'
+      learn-more:
+        title: '더 알아보기'
+        description: '다수의 SNT 사용 사례를  활발히 연구 개발 하고 있습니다. SNT 사용 사례 및 토큰 경제 연구에 대한 자세한 내용은 공개 토론 및 SNT FAQ를 참고해주세요.'
+        link: '#token-economics 오픈채팅에 참여하세요'
+      create-your-snt:
+        title: '나만의 SNT 재무 모델 만들기'
+        description: '우리는 누구든지 참여하여 워크북에 요약된 토큰 경제 모델을 테스트 해보실 것을 권장합니다. 만약 여러분이 연구원 또는 경제학자이시거나 단순히 재무 모델에 대해 궁금하다면, 연구에 함께 참여해주시기 바랍니다.'
+        link: 'SNT 토큰 모델 테스트'
+    get:
+      mobile:
+        title: 모바일
+        description: '혁신적인 디앱들에 접속하여 다른 사람들과 채팅 및 거래할 수 있습니다. 최신 베타 버젼을 설치하고 #introductions 채널에서 인사해주세요. 가장 최신의'
+        apk-file: 'APK 파일을 여기에서 다운로드하세요!'
+        link-1: 'iOS 앱'
+        link-2: '안드로이드 앱'
+      desktop:
+        title: '맥, 윈도우 및 리눅스'
+        description: '데스크톱 앱 최신 알파 버전을 다운로드하고 설치하세요. 언제 어디서든지 메시지를 보낼 수 있습니다.'
+        link-1: '맥OS 앱'
+        link-2: '리눅스 앱'
+        link-3: '윈도우 앱'
+        announcement: '이 소프트웨어는 알파 소프트웨어로서, 몇가지 취약점을 포함할 수 있습니다. <br> 소프트웨어의 변경이 있을 수 있으니 참고 부탁드립니다.'
+    docs:
+      stripe:
+        title: 'Status 문서'
+      title: '스테이터스 개발 문서에 오신 것을 환영합니다!'
+      description: '워크 플로우 및 프로젝트 알아보기 :'
+      categories:
+        technical-documentation:
+          title: '기술 문서'
+          description: '탈중앙 생태계의 성장'
+        developer-tools:
+          title: '개발자 도구'
+          description: 'JS API 및 확장 프로그램'
+        build-status:
+          title: '스테이터스 빌드하기'
+          description: '모바일 및 데스크톱'
+        extensions:
+          title: '확장 프로그램'
+          description: '미래로의 확장'
+        research:
+          title: 연구
+          description: '더 자세히 알아보세요!'
+        security:
+          title: 보안
+          description: '스테이터스의 모범 사례'
+        guides:
+          title: 가이드
+          description: '우리가 일 하는 방법'
+        tutorials:
+          title: 튜토리얼
+          description: '직접 배워 보세요'
+        life-at-status:
+          title: '스테이터스 문화'
+          description: '일상 속의 탈중앙화'
+      pinned-repositories:
+        title: '즐겨 찾는 저장소(Repository)'
+        status-react:
+          title: status-react
+          description: '이더리움을 위한 오픈 소스 모바일 OS'
+        status-go:
+          title: status-go
+          description: '스테이터스가 사용하는 go-ethereum 모듈.'
+        swarms:
+          title: '스웜 (Swarm)'
+          description: '스웜 홈.  스테이터스가 개발 완료 및 개발 중인 기능들.'
+      help:
+        title: '언제든지 여러분들을 돕겠습니다!'
+        description: '소스 코드 및 기타 질문이 있으실 경우, 언제든지 도와 드리겠습니다.'
+        link-1: '버그 신고'
+        link-2: '스테이터스 커뮤니티 채팅'
+        link-3: '이메일 문의'
+        link-4: '레딧에 문의'
+      update:
+        title: '최근 업데이트'
+    footer:
+      title: '스테이터스와 함께 <br>를 시작할 준비가 되었습니까?'
+      product:
+        title: 제품
+        apps: 앱
+      status:
+        title: 스테이터스
+        jobs: 채용
+        white-paper: 백서
+      documentation:
+        title: '개발 문서'
+      status-network:
+        title: '스테이터스 네트워크'
+        embark: 엠바크
+        nimbus: 님버스
+        keycard: 키카드
+      connect: '소셜 미디어'
+      privacy-policy:
+        title: '개인정보 보호 정책'
+        description: '스테이터스 연구 개발 GmbH, Baarerstrasse 10, Zug, Switzerland'

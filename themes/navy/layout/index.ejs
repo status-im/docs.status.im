@@ -12,8 +12,8 @@
 								<h1><%- __('site.home.intro.title') %></h1>
 								<p class="teaser-1"><%- __('site.home.intro.description') %></p>
 								<div class="d-flex">
-									<a href="<%- url_for('/get/') %>" class="btn btn-purple-fill btn-arrow btn-arrow-white m-r-30"><%- __('site.link.get-status') %></a>
-									<a href="/get-involved/" class="btn btn-arrow"><%- __('site.link.get-involved') %></a>
+									<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white m-r-30"><%- __('site.link.get-status') %></a>
+									<a href="<%- show_lang() %>/get-involved/" class="btn btn-arrow"><%- __('site.link.get-involved') %></a>
 								</div>
 								<a href="#" target="_blank" class="announcement inactive"><span><%- __('site.home.intro.news') %></span><b></b></a>
 							</div>
@@ -37,9 +37,9 @@
 						<h3><%- __('site.home.about.open-source.title') %></h3>
 						<p class="teaser-2"><%- __('site.home.about.open-source.description') %></p>
 						<ul class="inline-links">
-							<li><a href="/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
-							<li><a href="/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
-							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -47,7 +47,7 @@
 					<div class="inner">
 						<h3><%- __('site.home.about.mission.title') %></h3>
 						<p class="teaser-2"><%- __('site.home.about.mission.description') %></p>
-						<a href="/about/" class="link-arrow"><%- __('site.link.learn-more') %></a>
+						<a href="<%- show_lang() %>/about/" class="link-arrow"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 								<p class="teaser-2"><%- __('site.home.decentralized.subtitle') %></p>
 								<h3><%- __('site.home.decentralized.title') %></h3>
 								<p class="p-large"><%- __('site.home.decentralized.description') %></p>
-								<a href="/features/" class="btn btn-arrow"><%- __('site.home.decentralized.link') %></a>
+								<a href="<%- show_lang() %>/features/" class="btn btn-arrow"><%- __('site.home.decentralized.link') %></a>
 							</div>
 						</div>
 					</div>
@@ -79,7 +79,7 @@
 								<p class="teaser-2"><%- __('site.home.private.subtitle') %></p>
 								<h3><%- __('site.home.private.title') %></h3>
 								<p class="p-large"><%- __('site.home.private.description') %></p>
-								<a href="/features/#secure-messenger" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
+								<a href="<%- show_lang() %>/features/#secure-messenger" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
 								<%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
 							</div>
 						</div>
@@ -101,7 +101,7 @@
 								<p class="teaser-2"><%- __('site.home.wallet.subtitle') %></p>
 								<h3><%- __('site.home.wallet.title') %></h3>
 								<p class="p-large"><%- __('site.home.wallet.description') %></p>
-								<a href="/features/#integrated-ethereum-wallet" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
+								<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
 								<div class="img-holder">
 									<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x'}) %>
 								</div>
@@ -115,7 +115,7 @@
 						<p class="teaser-2"><%- __('site.home.browser.subtitle') %></p>
 						<h3><%- __('site.home.browser.title') %></h3>
 						<p class="p-large"><%- __('site.home.browser.description') %></p>
-						<a href="/features/#web3-browser" class="btn btn-arrow"><%- __('site.link.learn-more') %></a>
+						<a href="<%- show_lang() %>/features/#web3-browser" class="btn btn-arrow"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>
@@ -134,7 +134,7 @@
 						</div>
 						<h3><%- __('site.home.security.title') %></h3>
 						<p class="teaser-2"><%- __('site.home.security.description') %></p>
-						<a href="/security/" class="link-arrow"><%- __('site.link.learn-more') %></a>
+						<a href="<%- show_lang() %>/security/" class="link-arrow"><%- __('site.link.learn-more') %></a>
 					</div>
 				</div>
 			</div>

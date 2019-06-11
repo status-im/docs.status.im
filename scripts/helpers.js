@@ -280,3 +280,9 @@ hexo.extend.helper.register('get_build_url', function(type, platform) {
   const url = buildUrl.replace(/(cdn.)?digitaloceanspaces/, 'cdn.digitaloceanspaces')
   return url;
 });
+
+hexo.extend.helper.register('show_lang', function(lang) {
+  if(this.page.lang != 'en'){
+    return '/' + this.page.lang;
+  }
+});

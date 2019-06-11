@@ -23,9 +23,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li><a href="/get-involved/developers/" class="active"><%- image_tag("/img/development-small-icon.svg") %><%- __('site.link.developers') %></a></li>
-							<li><a href="/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
-							<li><a href="/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/developers/" class="active"><%- image_tag("/img/development-small-icon.svg") %><%- __('site.link.developers') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h2><%- __('site.get-involved.developers.contribute-to-status.title') %></h2>
-					<p class="teaser-2"><%- __('site.get-involved.developers.contribute-to-status.description') %> <a href="/docs/contributor_guide.html" class="link-arrow quick-start-guide"><%- __('site.get-involved.developers.contribute-to-status.link') %></a></p>
+					<p class="teaser-2"><%- __('site.get-involved.developers.contribute-to-status.description') %> <a href="<%- show_lang() %>/docs/contributor_guide.html" class="link-arrow quick-start-guide"><%- __('site.get-involved.developers.contribute-to-status.link') %></a></p>
 				</div>
 			</div>
 		</div>
@@ -136,10 +136,10 @@
 								<h2><%- __('site.get-involved.developers.development-dapp.build-dapp.title') %></h2>
 								<p class="teaser-2"><%- __('site.get-involved.developers.development-dapp.build-dapp.description') %></p>
 								<ul>
-									<li><a href="/developer_tools/status_web_api.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-1') %></a></li>
+									<li><a href="<%- show_lang() %>/developer_tools/status_web_api.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-1') %></a></li>
 									<li><a href="https://embark.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-2') %></a></li>
-									<li><a href="/developer_tools/access_eth_provider.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-3') %></a></li>
-									<li><a href="/developer_tools/add_your_dapp.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-4') %></a></li>
+									<li><a href="<%- show_lang() %>/developer_tools/access_eth_provider.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-3') %></a></li>
+									<li><a href="<%- show_lang() %>/developer_tools/add_your_dapp.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-4') %></a></li>
 								</ul>
 							</div>
 						</div>
@@ -152,9 +152,9 @@
 								<h2><%- __('site.get-involved.developers.development-dapp.extend-dapp.title') %></h2>
 								<p class="teaser-2"><%- __('site.get-involved.developers.development-dapp.extend-dapp.description') %></p>
 								<ul>
-									<li><a href="/extensions/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-1') %></a></li>
-									<li><a href="/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-2') %></a></li>
-									<li><a href="/extensions/examples.html" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-3') %></a></li>
+									<li><a href="<%- show_lang() %>/extensions/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-1') %></a></li>
+									<li><a href="<%- show_lang() %>/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-2') %></a></li>
+									<li><a href="<%- show_lang() %>/extensions/examples.html" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-3') %></a></li>
 								</ul>
 							</div>
 						</div>
@@ -174,7 +174,7 @@
 						<h2><%- __('site.get-involved.developers.development-resources.contribute-support.title') %></h2>
 						<ul>
 							<li>
-								<a href="/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-1') %></a>
+								<a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-1') %></a>
 								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-1-description') %></p>
 							</li>
 							<li>
@@ -197,14 +197,14 @@
 						<h2><%- __('site.get-involved.developers.development-resources.developer-resources.title') %></h2>
 						<ul>
 							<li><a href="https://github.com/status-im" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-1') %></a></li>
-							<li><a href="/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-2') %></a></li>
+							<li><a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-2') %></a></li>
 							<li><a href="https://embark.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-3') %></a></li>
-							<li><a href="/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-4') %></a></li>
-							<li><a href="/nightly/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-5') %></a></li>
+							<li><a href="<%- show_lang() %>/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-4') %></a></li>
+							<li><a href="<%- show_lang() %>/nightly/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-5') %></a></li>
 							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-6') %></a></li>
 							<li><a href="https://www.youtube.com/playlist?list=PLbrz7IuP1hrjyCQqEpkpho41JpaFF3czG" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-7') %></a></li>
 							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-8') %></a></li>
-							<li><a href="/about/#active-swarms" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-9') %></a></li>
+							<li><a href="<%- show_lang() %>/about/#active-swarms" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-9') %></a></li>
 						</ul>
 					</div>
 				</div>
@@ -257,9 +257,9 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="/get-involved/developers/" class="active"><%- __('site.link.developers') %></a></li>
-				<li><a href="/get-involved/educators/"><%- __('site.link.educators') %></a></li>
-				<li><a href="/get-involved/community-groups/"><%- __('site.link.community-groups') %></a></li>
+				<li><a href="<%- show_lang() %>/get-involved/developers/" class="active"><%- __('site.link.developers') %></a></li>
+				<li><a href="<%- show_lang() %>/get-involved/educators/"><%- __('site.link.educators') %></a></li>
+				<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- __('site.link.community-groups') %></a></li>
 			</ul>
 		</nav>
 	</div>

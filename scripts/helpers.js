@@ -76,7 +76,12 @@ hexo.extend.helper.register('sidebar', function(type) {
   var self = this,
       path = this.page.path,
       sidebar = this.site.data.sidebar[type],
-      result = '<ul class="sidebar-menu">';
+      result = '<ul class="sidebar-menu">',
+      show_lang = '';
+
+  if(this.page.lang != 'en'){
+    show_lang = this.page.lang + '/';
+  }
 
   _.each(sidebar, function(menu, category) {
       var title = generateSidebarTitle(category);
@@ -86,31 +91,33 @@ hexo.extend.helper.register('sidebar', function(type) {
         title = generateSidebarTitle(menu[category]);
       }
       if(category == 'security'){
-        result += '<li class="'+ checkIfActive(path, category+'/') +'"><a href="/'+ category + '/sec_matters.html">' + title + '</a>';
+        result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/sec_matters.html">' + title + '</a>';
       }else if(category == 'docs'){
         if(path == 'docs/index.html'){
-          result += '<li><a href="/docs/technical_documentation.html">' + title + '</a>';
+          result += '<li><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
         }else{
-          result += '<li class="'+ checkIfActive(path, category+'/') +'"><a href="/docs/technical_documentation.html">' + title + '</a>';
+          result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
         }
       }else{
-        result += '<li class="'+ checkIfActive(path, category+'/') +'"><a href="/'+ category + '/">' + title + '</a>';
+        result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/">' + title + '</a>';
       }
       if(typeof menu == 'object'){
           result += '<ul class="sidebar-submenu">';
           _.each(menu, function(title, link) {
               if(menu[category] != title){
                 var href = '';
-                href = '/'+ category +'/'+ link +'.html';
+                href = category +'/'+ link +'.html';
+                href = '/' + show_lang + href;
                 if(title.startsWith("..")){
-                  href = title.replace("..","");
+                  href = title.replace("../","");
                   href = href.substring(0, href.indexOf(' '));
+                  href = '/' + show_lang + href;
                 }else if(title.startsWith("http")){
                   href = title;
                   href = href.substring(0, href.indexOf(' '));
                 }
                 title = generateSidebarTitle(title);
-                result += '<li class="'+ checkIfActive(path, category+'/'+link+'.html') +'"><a href="'+ href +'">' + title + '</a></li>';
+                result += '<li class="'+ checkIfActive(path, show_lang + category +'/'+ link+'.html') +'"><a href="'+ href +'">' + title + '</a></li>';
               }
           });
           result += '</ul>';
@@ -142,9 +149,9 @@ function toTitleCase(str) {
 
 function checkIfActive(path, link){
   if(path.indexOf(link)){
-      return '';
+    return '';
   }else{
-      return 'active';
+    return 'active';
   }
 }
 

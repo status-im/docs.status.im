@@ -596,6 +596,43 @@ header{
     font-family: $manrope;
     position: relative;
     z-index: 990;
+    .language-selector{
+        display: inline-block;
+        position: relative;
+        .language-selector-trigger{
+            padding-right: 40px;
+            &:after{
+                display: flex;
+                transform: rotate(90deg);
+            }
+        }
+        ul{
+            position: absolute;
+            background: $white;
+            box-shadow: 0px 2px 14px rgba(9, 9, 9, 0.25);
+            border-radius: 4px;
+            z-index: 9;
+            left: 15px;
+            top: 100%;
+            padding: 15px 20px 20px 20px;
+            flex-direction: column;
+            list-style-type: none;
+            // opacity: 0;
+            // transform: translate3d(0,15px,0) scale(.96);
+            // visibility: hidden;
+            transition: all .3s ease;
+            // pointer-events: none;
+            li{
+                a{
+                    font-size: 14px;
+                    padding: 8px 0;
+                    display: block;
+                    width: 100%;
+                    border-bottom: 1px solid #EBEBEB;
+                }
+            }
+        }
+    }
     nav{
         margin-top: -30px;
         margin-bottom: -30px;
@@ -739,7 +776,7 @@ header{
                     }
                 }
                 a{
-                    padding: 10px 30px;
+                    padding: 10px 20px;
                     font-size: 16px;
                     color: $dark-grey;
                     font-weight: $manrope-semi-bold;
@@ -2970,11 +3007,14 @@ img.qr-code{
             ul{
                 li{
                     a{
-                        padding: 10px 20px;
+                        padding: 10px 15px;
                         font-size: 15px;
                     }
                 }
             }
+        }
+        .btn{
+            margin-left: 15px;
         }
     }
     .home-intro{
@@ -3225,20 +3265,6 @@ img.qr-code{
     .development-get-in-touch{
         .inner {
             padding-right: 0;
-        }
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    header{
-        nav{
-            ul{
-                li{
-                    a{
-                        padding: 0 20px;
-                    }
-                }
-            }
         }
     }
 }

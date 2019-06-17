@@ -1,4 +1,9 @@
-en: English
-es: Espanol
-ko: 한국어
-
+en:
+  short: en
+  long: English
+ko:
+  short: ko
+  long: 한국어
+es:
+  short: es
+  long: Spanish

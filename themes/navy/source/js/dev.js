@@ -30,6 +30,11 @@ $(document).ready(function($) {
 
   });
 
+  $('.language-selector-trigger').on('click', function (event) {
+    event.preventDefault();
+    $('.language-selector').toggleClass('active');
+  });
+
   $('.using-snt').imagesLoaded( function() {
     if(w > 767){
       $msnry = $('.items').masonry({

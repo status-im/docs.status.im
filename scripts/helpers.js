@@ -300,43 +300,45 @@ hexo.extend.helper.register('language_selector', function() {
       shortLang = this.page.lang,
       list = '',
       self = this,
-      active = '';
+      languageSelector = '';
 
-  _.each(languages, function(l, i) {
-
-    var path = self.page.path;
-
-    if(self.page.lang == i){
-      active = 'active';
-    }
-
-    if(i == shortLang){
-      shortLang = l.short;
-    }
-
-    path = path.replace("index.html", "");
-
-    if(path.substr(0, path.indexOf('/')) == shortLang){
-      path = path.split(shortLang + '/')[1];
-    }
-
-    if(i != 'en'){
-      path = i + '/' + path;
-    }
-
-    list += '<li class="'+ active +'"><a href="/'+ path +'">'+ l.long + '</a></li>';
-
-  });
-
-  var languageSelector = `
-    <div class="language-selector">
-      <a href="#" class="language-selector-trigger btn btn-arrow">${shortLang}</a>
-      <ul>
-        ${list}
-      </ul>
-    </div>
-  `;
-
+  if(Object.keys(languages).length > 1){
+    
+    _.each(languages, function(l, i) {
+  
+      var path = self.page.path,
+          active = '';
+  
+      if(i == shortLang){
+        shortLang = l.short;
+        active = 'active';
+      }
+  
+      path = path.replace("index.html", "");
+  
+      if(path.substr(0, path.indexOf('/')) == shortLang){
+        path = path.split(shortLang + '/')[1];
+      }
+  
+      if(i != 'en'){
+        path = i + '/' + path;
+      }
+  
+      list += '<li class="'+ active +'"><a href="/'+ path +'">'+ l.long + '</a></li>';
+  
+    });
+  
+    languageSelector = `
+      <div class="language-selector">
+        <a href="#" class="language-selector-trigger btn btn-arrow">${shortLang}</a>
+        <ul>
+          ${list}
+        </ul>
+      </div>
+    `;
+  
+  }
+  
   return languageSelector;
 
 });

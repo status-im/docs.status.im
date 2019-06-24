@@ -3,6 +3,8 @@ id: faqs
 title: Frequently Asked Questions
 ---
 
+# Frequently Asked Questions
+
 ## Why a Messenger?
 When looking at how to achieve mass adoption for a client, we looked at how people interact with their devices. For instance, as of 2014 more time is spent on mobile devices compared with desktop PCs. Moreover, a third of that total time is spent within instant messaging applications. Amongst mobile apps, instant messengers have the highest retention rates. Once installed they become sticky and typically users won't uninstall immediately. Therefore, for mass adoption an instant messenger simply makes senses. Once network effects come into play and user's friends also begin to utilise the app the average user lifetime skyrockets. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built atop of Ethereum and integrated into a conversational interface begin to seem like a clear path forward.
 

@@ -9,10 +9,11 @@ This document describes all APDUs part of the Keycard APDU protocol. Any impleme
 
 ## Version
 
-This documentation is at version 2.1.
+This documentation is at version 2.2.
  
 ## Conventions
 
+* Bits are counted from 0. If this documentation talks mentions bit 7 it refers to the MSB of a byte.
 * When a command has a precondition clause and these are not met the Status Word 0x6985 is returned. 
 * When a command is unsupported the Status Word 0x6A81 is returned.
 * All tagged data structures are encoded in the [BER-TLV format](http://www.cardwerk.com/smartcards/smartcard_standard_ISO7816-4_annex-d.aspx).

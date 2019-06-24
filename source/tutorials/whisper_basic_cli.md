@@ -1,8 +1,9 @@
 ---
 id: tutorial_basic_cli
 title: Getting Started with Whisper
-layout: tutorials
 ---
+
+# Getting Started with Whisper
 
 ## Intro
 In this tutorial we'll learn how to use Ethereum's Whisper protocol to create a simple chat CLI. While everything happens in your console for this tutorial, you should be able to re-use the JS we provide in your own apps and get a good sense of how to send and display different kinds of messages, as well as the beginnings of what it is possible to build with Whisper. 

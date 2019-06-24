@@ -3,7 +3,7 @@ id: perks_benefits
 title: Perks & Benefits
 ---
 
-# All The Things!
+# Perks & benefits!
 
 **People**
 - Work with some of the most passionate & dedicated minds in the Ethereum space. 
@@ -12,8 +12,8 @@ title: Perks & Benefits
 - We ask that you're willing to be paid in a combination of fiat and cryptocurrency.
 - We'll reward you with a competitive base salary.
 - We'll also reward you with SNT (Status Network Tokens) to give you a real stake in the success of the organisation.
-- A generous budget to choose whatever phone and laptop you prefer.
-- We provide a small allowance for a co-working space.
+- A generous budget (€2000 Euros) to choose whatever laptop you prefer.
+- We provide a small allowance (up to €250 Euros per month) for a co-working space.
 
 **Freedom**
 - Work from wherever you choose. Our contributors are a varied bunch - some work from home, some from a coworking space, some from a local cafe, others are nomads. 
@@ -21,7 +21,7 @@ title: Perks & Benefits
 - We want our contributors to be healthy and take the time they need to relax and enjoy quality disconnected time away from work.
 
 **Travel**
- - Each contributor has a budget to attend conferences and meetups of their choice. 
- - 1-2 times per year the whole organisation gets together to connect (in 2018, we visited Bangkok and Prague). 
+ - Each team has a travel budget to attend conferences & team meetups of their choice. 
+ - Once per year the whole organisation gets together to connect (so far we've visited Bangkok and Prague). 
 
 **Note:** We don't offer traditional benefits like medical/dental insurance - we'd rather pay you well and give you the freedom to select your own benefits, on your terms.

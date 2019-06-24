@@ -1,7 +1,6 @@
 ---
 id: index
 title: Tutorials
-layout: tutorials
 ---
 
 # Learn More

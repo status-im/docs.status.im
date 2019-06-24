@@ -3,11 +3,13 @@ id: reference_views
 title: Extension Reference - Views
 ---
 
-# Views in Extensions
+# Extension Reference - Views
+
+## Views in Extensions
 
 A view is composed of a set of nested components. A component is defined by a name and an optional map of properties.
 
-# Components
+## Components
 
 | Symbol             | Properties              |
 | -------------      | -------------           |

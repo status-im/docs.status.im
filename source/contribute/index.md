@@ -1,5 +1,4 @@
 ---
-layout: contribute
 id: index
 title: Contribute to Status
 ---

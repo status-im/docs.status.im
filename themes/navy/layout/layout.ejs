@@ -1,18 +1,33 @@
-<!DOCTYPE html>
-<html lang="<%= page.lang %>">
-<%- include('partial/head') %>
-<body>
-  <div id="container">
-    <% if(page.source != 'index.md') { %>
-      <%- include('partial/header') %>
-    <% } %>
-    <%- body %>
-    <% if(page.source == 'index.md') { %>
-      <%- include('partial/footer-home') %>
-    <% } else { %>
-      <%- include('partial/shared-partials/partials/footer') %>
-    <% } %>
-  </div>
-  <%- include('partial/shared-partials/partials/after_footer') %>
+<%- partial('partial/head') %>
+<body class="template-<%- page.layout %>">
+
+    <div class="main-container">
+        <%- partial('partial/header') %>
+        <%- body %>
+        <%- partial('partial/footer') %>
+        
+    </div>
+
+    <!-- 3rd party scripts -->
+    <script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+
+    <script>
+      /* This POSTs to the clicks-api service to click numbers of downloads of different releases */
+      $(document).ready(function () {
+        $('a.app-download').click(function (ev) {
+          let downloadType = $(this).closest('a').attr('id')
+          $.post(`https://clicks.status.im/clicks/${downloadType}`)
+        });
+      });
+    </script>
 </body>
 </html>

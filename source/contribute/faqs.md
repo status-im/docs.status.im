@@ -12,8 +12,6 @@ title: Frequently Asked Questions When Joining Status
 
 **Is Status a company, an organization or a non-profit?** Whilst we do have a legal entitity we prefer to think of ourselves  a networked group of individuals working towards a common aim. Eventually we have aspirations to be a Decentralized Autonomous Organization (DAO). 
 
-**Will I have a manager?** No, there's no hierarchy here. You'll get a buddy assigned to you to help you navigate the first few months, and our People Operations team will also be there to look after you. You'll likely work within a small team where your priorities will be decided by consensus. 
-
 **Will I be an employee?** It depends on the work you do, and the primary location you're based in. In some locations (Switzerland and Germany) we do have employees, whereas in most other circumstances we'll set up a contract agreement with you for the services you provide. 
 
 **Will I be paid in cryptocurrency?** Our success depends on mainstream adoption of blockchain technology and cryptocurrency so where possible, we'd like to pay our contributors in crypto. At the same time we recognise there are still legal and administrative challenges to be overcome, so we can pay in fiat also. Right now, all we ask is that everyone accepts at least part of their salary in crypto. 

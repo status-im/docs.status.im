@@ -3,6 +3,8 @@ id: run_it_yourself
 title: Run Our Analytics Yourself and See What You Discover
 ---
 
+# Run Our Analytics Yourself and See What You Discover
+
 ### SETUP
 
 sudo apt-get install python-pip

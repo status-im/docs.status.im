@@ -1,29 +1,38 @@
-<div class="page-intro wrapper">
-<%- include('partial/shared-partials/partials/search') %>
-  <header class="article-header">
-    <h1 class="article-title" itemprop="name"><%= page.title %></h1>
-    <a href="<%= raw_link(page.source) %>" class="article-edit-link" title="<%= __('page.improve') %>">Edit on Github</a>
-  </header>
-</div>
-<div id="content-wrap">
-  <div id="content" class="wrapper">
-    <div id="content-inner">
-      <%- include('partial/sidebar') %>
-      <article class="article-container" itemscope itemtype="http://schema.org/Article">
-        <div class="article-inner">
-          <div class="article">
-            <div class="inner">
-              <div class="article-content" itemprop="articleBody">
-                <%- page_anchor(page.content) %>
-              </div>
-              <footer class="article-footer">
-                <time class="article-footer-updated" datetime="<%= date_xml(page.updated) %>" itemprop="dateModified"><%= __('page.last_updated', date(page.updated)) %></time>
-                <%- page_nav() %>
-              </footer>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </div>
-</div>
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<div class="stripe">
+		<b>Status Documentation</b>
+		<%- include('partial/shared-partials/partials/search') %>
+	</div>
+
+	<section class="single-docs-content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-xl-2">
+					<%- partial('partial/sidebar') %>
+				</div>
+				<div class="col-md-9 col-xl-8">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="editor-content">
+								<%- page_anchor(page.content) %>
+							</div>
+							<div class="docs-footer">
+								Last update: <%- page.updated.format(config.date_format) %>
+								<%- page_nav() %>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-xl-2 d-none d-xl-block">
+					<div class="right-sub-navigation">
+						<b>On this page</b>
+						<ul></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</main>

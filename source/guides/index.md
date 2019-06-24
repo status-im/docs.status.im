@@ -1,6 +1,5 @@
 ---
 id: index
-layout: guides
 ---
 
 # Welcome To Our Guides Route

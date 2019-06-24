@@ -3,6 +3,8 @@ id: faq-desktop
 title: Desktop Frequently Asked Questions
 ---
 
+# Desktop Frequently Asked Questions
+
 ## Where do I get Status Desktop?
 
 Release builds are available from https://status.im/get_desktop/. Nightly builds are available from https://status.im/nightly/

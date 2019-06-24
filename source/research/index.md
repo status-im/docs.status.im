@@ -1,10 +1,11 @@
 ---
-layout: research
 id: index
 title: Research at Status  
 ---
 
-# Do You Want to Know a Secret?
+# Research at Status  
+
+## Do You Want to Know a Secret?
 
 Our work began with Whisper, which is not your typical communications system. However, we now are also actively implementing [Nimbus (an Ethereum 2.0 Client)](https://nimbus.status.im), [Ultra Light Clients](./ulc_in_details.html), and a number of other things which you can also follow on our [research blog](https://our.status.im/tag/research).
 
@@ -23,7 +24,7 @@ Whisper is designed to be a building block in next generation ÐApps which requi
 
 In short, Whisper is a peer-to-peer, multicast, end-to-end encrypted, dark gossip protocol we use to communicate securely.
 
-# Basic Outline
+## Basic Outline
 
 1. **`peer-to-peer`** refers to the fact that Whisper uses Ethereum's [ÐΞVp2p wire protocol](https://github.com/ethereum/devp2p/blob/master/devp2p.md) to gossip messages around the network.
     

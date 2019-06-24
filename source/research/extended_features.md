@@ -3,7 +3,9 @@ id: extended_features
 title: Whisper - Extended Features
 ---
 
-# Deeper Down The Rabbit Hole
+# Whisper - Extended Features
+
+## Deeper Down The Rabbit Hole
 
 If you're up for it, you can instead dive directly into the [protocol specification](https://github.com/ethereum/wiki/wiki/Whisper-Wire-Protocol).
 

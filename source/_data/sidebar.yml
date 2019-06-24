@@ -1,201 +1,137 @@
 docs:
-  use_status:
-    index: index.html
+  docs:
+    docs: / (Technical Documentation)
     contributor_guide: contributor_guide.html
     FAQs: FAQs.html
-    faq-desktop: FAQ-desktop.html
-  app_structure:
+    FAQ-desktop: FAQ-desktop.html (Desktop FAQ)
     status_react_structure: status_react_structure.html
     send_transaction_flow: send_transaction_flow.html
-  status_node:
     run_status_node: run_status_node.html
-  keycard:
-    keycard_api: ../keycard_api/
-  tutorial:
-    tutorials: ../tutorials/
-  guide:
-    guides: ../guides/
-  analytics:
-    analytics_status: ../analytics/
-
-developer_tools:
-  web3_for_everyone:
-    introduction_tools: index.html
-  connecting_to_web3: 
-    access_an_ethereum_provider: access_eth_provider.html
+    keycard_api: ../keycard_api/ (Keycard API)
+    tutorials: ../tutorials/ (Tutorials)
+    guides: ../guides/ (Start Contributing)
+    analytics_status: ../analytics/ (Analysing Status)
+    mobile_release_schedule: ../mobile-release-schedule/ (Schedule)
+  developer_tools:
+    developer_tools: / (Developer Tools)
+    access_eth_provider: access_eth_provider.html (Accessing Web3 Providers)
     detecting_status: detecting_status.html
-  optimised_for_status:
-    assets_guidelines: assets_guidelines.html
-    js_api: status_web_api.html
-    http_debugging: http_debugging.html
-  submitting_to_status: 
-    submit_to_status: add_your_dapp.html
-    troubleshooting_dapps: troubleshooting_dapps.html
-  adapt_status:
-    enable_chat: enable_chat.html
-    add_your_own_network: add_your_own_network.html
-  status_extensions:
-    intro_extensions: ../extensions/
-  status_fiddle:
-    fiddle: /fiddle/
-  status_storybook: 
-    storybook: https://status-im.github.io/storybook/
-
-build_status:
+    debug: debug.html
+    assets_guidelines: assets_guidelines.html (Assets and Guidelines)
+    status_web_api: status_web_api.html (Status DApp API)
+    http_debugging: http_debugging.html (How to Test & Debug)
+    add_your_dapp: add_your_dapp.html (How to submit your DApp)
+    enable_chat: enable_chat.html (Add Your Own Chat)
+    extensions: ../extensions/ (Extensions)
+    fiddle: ../fiddle/ (Status Fiddle)
+    storybook: https://status-im.github.io/storybook/ (Status React Storybook)
   build_status:
-    introduction_build: index.html
-    build_status_go: status_go.html
-  build_status_desktop:
-    introduction_desktop: intro_desktop.html
-    building_desktop: desktop.html
-    desktop_inline_eval: ../tutorials/desktop_inline_eval.html
-    troubleshooting: desktop_troubleshooting.html
-    using_breakpad: desktop_google_breakpad.html
-    jenkins_pipeline: desktop_jenkins.html
-
-tutorials:
-  whisper: 
+    build_status: / (Build Status)
+    status_go: status_go.html (Build Status-Go)
+    intro_desktop: intro_desktop.html
+    desktop: desktop.html (Build Desktop)
+    desktop_inline_eval: ../tutorials/desktop_inline_eval.html (Learn About Our Tools)
+    desktop_troubleshooting: desktop_troubleshooting.html (Desktop Troubleshooting)
+    desktop_google_breakpad: desktop_google_breakpad.html (Google Breakpad Integration)
+    desktop_jenkins: desktop_jenkins.html (Jenkins Setup)
+  tutorials:
     whisper_basic_cli: whisper_basic_cli.html
     whisper_embark: whisper_embark.html
-  extensions:
     extensions_chat_command: extensions_chat_command.html
-
-keycard_api:
-  getting_started:
-    overview: index.html
+  keycard_api:
+    keycard_api: index.html (Keycard API)
     applet_installation: applet_installation.html
     resources: resources.html
-  java_sdk:
-    sdk_installation: sdk_installation.html
-    sdk_connection: sdk_connection.html
-    sdk_preparation: sdk_preparation.html
-    sdk_securechannel: sdk_securechannel.html
-    sdk_authentication: sdk_authentication.html
-    sdk_create_wallet: sdk_create_wallet.html
-    sdk_derivation_sign: sdk_derivation_sign.html
-    sdk_export: sdk_export.html
-    sdk_duplication: sdk_duplication.html
-  apdu:
-    apdu_overview: apdu_overview.html
-    apdu_changelog: apdu_changelog.html
-    apdu_select: apdu_select.html
-    apdu_init: apdu_init.html
-    apdu_opensecurechannel: apdu_opensecurechannel.html
-    apdu_mutuallyauthenticate: apdu_mutuallyauthenticate.html
-    apdu_pair: apdu_pair.html
-    apdu_unpair: apdu_unpair.html
-    apdu_getstatus: apdu_getstatus.html
-    apdu_setndef: apdu_setndef.html
-    apdu_verifypin: apdu_verifypin.html
-    apdu_changepin: apdu_changepin.html
-    apdu_unblockpin: apdu_unblockpin.html
-    apdu_loadkey: apdu_loadkey.html
-    apdu_derivekey: apdu_derivekey.html
-    apdu_generatemnemonic: apdu_generatemnemonic.html
-    apdu_removekey: apdu_removekey.html
-    apdu_generatekey: apdu_generatekey.html
-    apdu_duplicatekey: apdu_duplicatekey.html
-    apdu_sign: apdu_sign.html
-    apdu_setpinlesspath: apdu_setpinlesspath.html
-    apdu_exportkey: apdu_exportkey.html
-
-research:
-  whisper: 
-    secret: index.html
-    extended_features: extended_features.html
-    dark_routing: dark_routing.html
-    whisper_pss: whisper_pss.html
-    whisper_faqs: whisper_faqs.html
+    sdk_installation: sdk_installation.html (SDK Installation)
+    sdk_connection: sdk_connection.html (SDK Connection)
+    sdk_preparation: sdk_preparation.html (SDK Preparation)
+    sdk_securechannel: sdk_securechannel.html (SDK Secure Channel)
+    sdk_authentication: sdk_authentication.html (SDK Authentication)
+    sdk_create_wallet: sdk_create_wallet.html (SDK Create Wallet)
+    sdk_derivation_sign: sdk_derivation_sign.html (SDK Derivation Sign)
+    sdk_pinless: sdk_pinless.html (SDK Pinless)
+    sdk_export: sdk_export.html (SDK Export)
+    sdk_duplication: sdk_duplication.html (SDK Duplication)
+    apdu_overview: apdu_overview.html (APDU Overview)
+    apdu_changelog: apdu_changelog.html (APDU Changelog)
+    apdu_select: apdu_select.html (APDU SELECT)
+    apdu_init: apdu_init.html (APDU INIT)
+    apdu_opensecurechannel: apdu_opensecurechannel.html (APDU OPEN SECURE CHANNEL)
+    apdu_mutuallyauthenticate: apdu_mutuallyauthenticate.html (APDU MUTUALLY AUTHENTICATE)
+    apdu_pair: apdu_pair.html (APDU PAIR)
+    apdu_unpair: apdu_unpair.html (APDU UNPAIR)
+    apdu_getstatus: apdu_getstatus.html (APDU GET STATUS)
+    apdu_setndef: apdu_setndef.html (APDU SET NDEF)
+    apdu_verifypin: apdu_verifypin.html (APDU VERIFY PIN)
+    apdu_changepin: apdu_changepin.html (ADPU CHANGE PIN)
+    apdu_unblockpin: apdu_unblockpin.html (ADPU UNBLOCK PIN)
+    apdu_loadkey: apdu_loadkey.html (ADPU LOAD KEY)
+    apdu_derivekey: apdu_derivekey.html (ADPU DERIVE KEY)
+    apdu_generatemnemonic: apdu_generatemnemonic.html (ADPU GENERATE MNEMONIC)
+    apdu_removekey: apdu_removekey.html (ADPU REMOVE KEY)
+    apdu_generatekey: apdu_generatekey.html (ADPU GENERATE KEY)
+    apdu_duplicatekey: apdu_duplicatekey.html (ADPU DUPLICATE KEY)
+    apdu_sign: apdu_sign.html (ADPU SIGN)
+    apdu_setpinlesspath: apdu_setpinlesspath.html (ADPU SET PINLESS PATH)
+    apdu_exportkey: apdu_exportkey.html (APDU EXPORT KEY)
+  research:
+    research: index.html (Research)
+    extended_features: extended_features.html (Whisper Extended Features)
+    dark_routing: dark_routing.html (Whisper Dark Routing)
+    whisper_pss: whisper_pss.html (Whisper Comparison with PSS)
+    whisper_faqs: whisper_faqs.html (Whisper FAQs)
     secure_messaging_compendium: secure_messaging_compendium.html
-    research_blog: https://our.status.im/tag/research
-  research_projects:
-    pfs: pfs.html
-    ultra_light_clients: ulc_in_details.html
-    nimbus: https://nimbus.status.im/
-  tutorials:
-    basic_cli: ../tutorials/whisper_basic_cli.html
-    whisper_embark: ../tutorials/whisper_embark.html
-
-security:
+    research_blog: https://our.status.im/tag/research (Research Blog)
+    pfs: pfs.html (Perfect Forward Secrecy)
+    ulc_in_details: ulc_in_details.html (Ultra Light Client in details)
+    nimbus: https://nimbus.status.im/ (Nimbus)
+    basic_cli: ../tutorials/whisper_basic_cli.html (Whisper In Your CLI)
+    whisper_embark: ../tutorials/whisper_embark.html (Whisper with Embark)
   security:
-    introduction_security: index.html
-  security_status:
-    threat_modeling: sec_threat_modeling.html
-    existing_features: sec_existing_features.html
-    new_features: sec_new_features.html
-    security_week: sec_security_week.html
-    sensitive_data: sec_sensitive_data.html
-    experiment: sec_experiment.html
+    sec_matters: sec_matters.html (Security)
+    sec_threat_modeling: sec_threat_modeling.html (Threat Modeling)
+    sec_existing_features: sec_existing_features.html (Existing Features Project)
+    sec_new_features: sec_new_features.html (New Features Project)
+    sec_sensitive_data: sec_sensitive_data.html (What is Sensitive Data?)
+    sec_experiment: sec_experiment.html (Security Experiment)
+    introduction_audits: ../audits/ (Status External Audits)
+    introduction_guides: ../guides/ (Security Week Guides)
+    introduction_organization: ../org_sec/ (Policy and Procedure)
   audits:
-    introduction_audits: ../audits/
+    audits: index.html (Audits)
   guides:
-    introduction_guides: ../guides/
-  organization:
-    introduction_organization: ../org_sec/
-
-audits:
-  audits:
-    introduction_audits: index.html
-
-guides:
-  guides:
-    introduction_guides: index.html
-  product:
-    pm_guide: pm_guide.html
-  desktop:
-    desktop_inline_eval: desktop_inline_eval.html
-  testing:
-    introduction_testing: testing.html
-    report_a_bug: report_a_bug.html
-  security:
+    guides: index.html (Guides)
+    pm_guide: pm_guide.html (Product Manager's Guide)
+    desktop_inline_eval: desktop_inline_eval.html (Desktop Clojure and Inline-Eval)
     security_month: security_month.html
-
-org_sec:
-  org:
-    introduction_organization: index.html
-    security_champions: org_security_champions.html
-    security_github_labels: org_github_labels.html 
-
-analytics:
   analytics:
-    introduction: index.html
+    analytics: index.html (Analytics)
     app_downloads: app_downloads.html
-    messages: messages.html
-    ens_registration: ens_registration.html
-    crypto_oss: crypto_oss.html
-    oss: oss.html
-    run_it_yourself: run_it_yourself.html
-
-contribute:
-  get_involved:
-    introduction_contribute: index.html
-  jobs: 
-    perks_benefits: perks_benefits.html
-    apply_now: applying_to_status.html 
+    messages: messages.html (Whisper Messages)
+    ens_registration: ens_registration.html (ENS Registration)
+    crypto_oss: crypto_oss.html (Crypto OSS)
+    oss: oss.html (Regular OSS)
+    run_it_yourself: run_it_yourself.html (Run Our Analytics Yourself)
+  contribute:
+    contribute: index.html (Contribute)
+    perks_benefits: perks_benefits.html (Perks & Benefits)
+    applying_to_status: applying_to_status.html (Applying to Status)
     open_positions: open_positions.html 
     applicant_privacy: applicant_privacy.html
-  working_status:
     statusphere: statusphere.html
     our_principles: our_principles.html
-    life_status: life_status.html 
+    life_status: life_status.html (Life at Status)
     the_future: the_future.html
-    faqs: faqs.html
-
-extensions:
+    faqs: faqs.html (FAQs)
   extensions:
-    introduction: index.html
-    concepts: key_concepts.html
+    extensions: index.html (Extensions)
+    key_concepts: key_concepts.html
     workflow: workflow.html
-  build:  
     syntax: syntax.html
     extension_types: extension_types.html
-  tutorial:
-    tutorial_chat_command: ../tutorials/extensions_chat_command.html
-    tutorial_wallet_settings: ../tutorials/extensions_wallet_settings.html
-  references:
+    tutorial_chat_command: ../tutorials/extensions_chat_command.html (Tutorials Chat Command)
+    tutorial_wallet_settings: ../tutorials/extensions_wallet_settings.html (Tutorials Extensions Wallet Settings)
     reference_views: reference_views.html
     reference_queries: reference_queries.html
     reference_events: reference_events.html
-  create:
     examples: examples.html
-    create_your_own: play.html

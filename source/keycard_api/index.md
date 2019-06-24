@@ -19,4 +19,13 @@ If you use a different language, please first refer to the [Java SDK](sdk_instal
 
 ## Versioning
 
-The current version of the applet is 2.1. This documentation applies to said version. [Semantic versioning](https://semver.org) is used throughout the project, with the omission of the patch number for the applet, but not the SDK and related tools. The version of all components of the Keycard project are tied to the protocol version.
+The current version of the applet is 2.2. This documentation applies to said version. [Semantic versioning](https://semver.org) is used throughout the project, with the omission of the patch number for the applet, but not the SDK and related tools. The version of all components of the Keycard project are tied to the protocol version.
+
+## Get in touch
+
+You are at the right place to find informations about Keycard and get you going. 
+
+If you need more and want to discuss:
+- for live discussion and help, go to [Keycard Status channel](https://get.status.im/chat/public/status-keycard)
+- to check or raise issues/bugs/feature requests please do so in our [GitHub repos](https://status.im/keycard_api/resources.html)
+- check our latest Keycard news on [Discuss](https://discuss.status.im/c/keycard)

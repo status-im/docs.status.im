@@ -1,0 +1,144 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<div class="stripe">
+		<b><%- __('site.docs.stripe.title') %></b>
+    	<%- include('partial/shared-partials/partials/search') %>
+	</div>
+
+	<!-- DOCS-PAGE -->
+	<section class="docs-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<%- partial('partial/sidebar') %>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="section-title mb-0"><%- __('site.docs.title') %></h4>
+							<p><%- __('site.docs.description') %></p>
+						</div>
+					</div>
+					<div class="categories">
+						<div class="row">
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/docs/technical_documentation.html"><%- __('site.docs.categories.technical-documentation.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.technical-documentation.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/developer_tools/"><%- __('site.docs.categories.developer-tools.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.developer-tools.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/build_status/"><%- __('site.docs.categories.build-status.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.build-status.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/extensions/"><%- __('site.docs.categories.extensions.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.extensions.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/research/"><%- __('site.docs.categories.research.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.research.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/security_docs/"><%- __('site.docs.categories.security.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.security.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/guides/"><%- __('site.docs.categories.guides.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.guides.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/tutorials/"><%- __('site.docs.categories.tutorials.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.tutorials.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="<%- show_lang() %>/contribute/life_status.html"><%- __('site.docs.categories.life-at-status.title') %></a>
+									<span class="detail"><%- __('site.docs.categories.life-at-status.description') %></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="section-title m-t-90"><%- __('site.docs.pinned-repositories.title') %></h4>
+						</div>
+					</div>
+					<div class="pinned-repos">
+						<div class="row">
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="https://github.com/status-im/status-react" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.pinned-repositories.status-react.title') %></a>
+									<span class="detail"><%- __('site.docs.pinned-repositories.status-react.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="https://github.com/status-im/status-go" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.pinned-repositories.status-go.title') %></a>
+									<span class="detail"><%- __('site.docs.pinned-repositories.status-go.description') %></span>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6">
+								<div class="inner">
+									<a href="https://github.com/status-im/swarms" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.pinned-repositories.swarms.title') %></a>
+									<span class="detail"><%- __('site.docs.pinned-repositories.swarms.description') %></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="section-title m-t-90 mb-0"><%- __('site.docs.help.title') %></h4>
+							<p><%- __('site.docs.help.description') %></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-4 col-md-6">
+							<ul class="support">
+								<li><a href="https://github.com/status-im" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.help.link-1') %></a></li>
+								<li><a href="https://www.reddit.com/r/statusim/" target="_blank"><%- image_tag("img/icon-reddit.svg") %> <%- __('site.docs.help.link-2') %></a></li>
+							</ul>
+						</div>
+						<div class="col-xl-4 col-md-6">
+							<ul class="support">
+								<li><a href="https://get.status.im/chat/public/status" target="_blank"><%- image_tag("img/icon-status.svg") %> <%- __('site.docs.help.link-3') %></a></li>
+							</ul>
+						</div>
+						<div class="col-xl-4 col-md-6">
+							<ul class="support">
+								<li><a href="mailto:support@status.im"><%- image_tag("img/icon-email.svg") %> <%- __('site.docs.help.link-4') %></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h4 class="section-title m-t-90"><%- __('site.docs.update.title') %></h4>
+							<ul class="recently-updated"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-DOCS-PAGE -->
+
+</main>

@@ -9,7 +9,7 @@ Now is the time to create a first extension.
 
 Extensions are currently installed by QR code or URL.
 
-Once an extension is deployed via the [playground](https://status.im/extensions/play.html), a unique QR code and universal link are generated for its IPFS hash.
+Once an extension is deployed via the [fiddle](https://extensions.status.im/), a unique QR code and universal link are generated for its IPFS hash.
 
 To install the extension in Status:
 
@@ -25,7 +25,7 @@ To install the extension in Status:
 
 First get familiar with the [syntax](https://status.im/extensions/syntax.html) and decide what extension [type](https://status.im/extensions/extension_types.html) you want to rely on.
 Then look at existing [examples](https://status.im/extensions/examples.html) to get some inspiration and basis.
-Finally use the [playground](https://status.im/extensions/play.html) to create and publish your extension.
+Finally use the [fiddle](https://extensions.status.im/) to create and publish your extension.
 
 The general development workflow consists of:
 

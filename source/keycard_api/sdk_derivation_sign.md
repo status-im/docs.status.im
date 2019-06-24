@@ -54,3 +54,14 @@ RecoverableSignature signature = new RecoverableSignature(hash, cmdSet.sign(hash
 ```
 
 Signing requires user authentication.
+
+## Combined derivation and sign
+
+Since version 2.2 of the Keycard API, it is possible to combine derivation and sign in a single step. Additionally, it is possible to choose whether the given path becomes the current path or not. Example
+
+```java
+// hash is the hash to sign, the second argument is the path to use, in the same format as for the DERIVE KEY command
+// the third argument is a flag indicating whether the derived key should become the current key or not
+APDUResponse resp = cmdSet.signWithPath(hash, "m/44'/0'/0'/0/0", false);
+RecoverableSignature signature = new RecoverableSignature(hash, resp.checkOK().getData());
+```

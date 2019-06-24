@@ -1,0 +1,268 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<!-- DEVELOPMENT-OPEN-SOURCE -->
+	<section class="get-involved-intro p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h4><%- __('site.get-involved.developers.intro.subtitle') %></h4>
+					<h1 class="community-nav-trigger"><%- __('site.get-involved.developers.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.get-involved.developers.intro.description') %></p>
+					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-DEVELOPMENT-OPEN-SOURCE -->
+
+	<div class="position-relative">
+		<!-- DEVELOPMENT-QUICK-NAV -->
+		<section class="quick-nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li><a href="<%- show_lang() %>/get-involved/developers/" class="active"><%- image_tag("/img/development-small-icon.svg") %><%- __('site.link.developers') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END-DEVELOPMENT-QUICK-NAV -->
+
+		<!-- DEVELOPMENT-QUICK-NAV-SUB -->
+		<section class="quick-nav-sub">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li><a href="#contribute-to-status"><%- __('site.get-involved.developers.quick-nav-sub.link-1') %></a></li>
+							<li><a href="#build-dapps"><%- __('site.get-involved.developers.quick-nav-sub.link-2') %></a></li>
+							<li><a href="#extend-dapps"><%- __('site.get-involved.developers.quick-nav-sub.link-3') %></a></li>
+							<li><a href="#developer-resources"><%- __('site.get-involved.developers.quick-nav-sub.link-4') %></a></li>
+						</ul>
+						<a href="https://github.com/status-im" target="_blank"><%- image_tag("/img/github-white-logo.svg") %><%- __('site.get-involved.developers.quick-nav-sub.link-5') %></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END-DEVELOPMENT-QUICK-NAV-SUB -->
+	</div>
+
+	<!-- DEVELOPMENT-CONTRIBUTE-TO-STATUS -->
+	<section class="development-contribute-to-status p-t-160 p-b-160" id="contribute-to-status">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2><%- __('site.get-involved.developers.contribute-to-status.title') %></h2>
+					<p class="teaser-2"><%- __('site.get-involved.developers.contribute-to-status.description') %> <a href="<%- show_lang() %>/docs/contributor_guide.html" class="link-arrow quick-start-guide"><%- __('site.get-involved.developers.contribute-to-status.link') %></a></p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="box-with-icon m-t-50">
+						<%- image_tag("/img/github-black-logo.svg") %>
+						<div class="inner">
+							<h3><%- __('site.get-involved.developers.contribute-to-status.status-react.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.status-react.description') %></p>
+							<a href="https://github.com/status-im/status-react" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.status-react.link') %></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box-with-icon m-t-50">
+						<%- image_tag("/img/github-black-logo.svg") %>
+						<div class="inner">
+							<h3><%- __('site.get-involved.developers.contribute-to-status.status-go.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.status-go.description') %> </p>
+							<a href="https://github.com/status-im/status-go" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.status-go.link') %></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container m-t-90 open-issues">
+			<div class="row">
+				<div class="col-md-6">
+					<h3><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-react.title') %></h3>
+					<ul class="open-issues-react"></ul>
+					<a href="https://github.com/status-im/status-react/issues/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-react.link') %></a>
+				</div>
+				<div class="col-md-6">
+					<h3><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-go.title') %></h3>
+					<ul class="open-issues-go"></ul>
+					<a href="https://github.com/status-im/status-go/issues/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.open-issues-status-go.link') %></a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="box-with-icon m-t-50">
+						<%- image_tag("/img/crypto-logo.svg") %>
+						<div class="inner">
+							<h3><%- __('site.get-involved.developers.contribute-to-status.earn-crypto.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.earn-crypto.description') %> <a href="https://gitcoin.co/explorer?network=mainnet&idx_status=open&keywords=status&order_by=-web3_created" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.earn-crypto.link') %></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="box-with-icon m-t-50">
+						<%- image_tag("/img/bounty-program.svg") %>
+						<div class="inner">
+							<h3><%- __('site.get-involved.developers.contribute-to-status.report-a-security-vulnerability.title') %></h3>
+							<p class="p-large"><%- __('site.get-involved.developers.contribute-to-status.report-a-security-vulnerability.description') %> <a href="https://blog.status.im/status-network-token-bug-bounty-a66fc2324359" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.contribute-to-status.report-a-security-vulnerability.link') %></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-DEVELOPMENT-CONTRIBUTE-TO-STATUS -->
+
+	<!-- DEVELOPMENT-DAPP -->
+	<section class="development-dapp" id="build-dapps">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 development-build-dapp">
+					<div class="inner d-flex align-items-start flex-column h-100">
+						<div class="row">
+							<div class="col-md-11 col-lg-10">
+								<h2><%- __('site.get-involved.developers.development-dapp.build-dapp.title') %></h2>
+								<p class="teaser-2"><%- __('site.get-involved.developers.development-dapp.build-dapp.description') %></p>
+								<ul>
+									<li><a href="<%- show_lang() %>/developer_tools/status_web_api.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-1') %></a></li>
+									<li><a href="https://embark.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-2') %></a></li>
+									<li><a href="<%- show_lang() %>/developer_tools/access_eth_provider.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-3') %></a></li>
+									<li><a href="<%- show_lang() %>/developer_tools/add_your_dapp.html" class="link-arrow"><%- __('site.get-involved.developers.development-dapp.build-dapp.link-4') %></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-black col-offset-top development-extend-dapp" id="extend-dapps">
+					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
+						<div class="row">
+							<div class="col-lg-11 d-flex align-items-start flex-column">
+								<h2><%- __('site.get-involved.developers.development-dapp.extend-dapp.title') %></h2>
+								<p class="teaser-2"><%- __('site.get-involved.developers.development-dapp.extend-dapp.description') %></p>
+								<ul>
+									<li><a href="<%- show_lang() %>/extensions/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-1') %></a></li>
+									<li><a href="<%- show_lang() %>/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-2') %></a></li>
+									<li><a href="<%- show_lang() %>/extensions/examples.html" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-dapp.extend-dapp.link-3') %></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- DEVELOPMENT-DAPP -->
+
+	<!-- DEVELOPMENT-RESOURCES -->
+	<section class="development-resources col-dark-grey col-black p-b-160 p-t-160" id="developer-resources">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 mr-auto contribute-support">
+					<div class="inner">
+						<h2><%- __('site.get-involved.developers.development-resources.contribute-support.title') %></h2>
+						<ul>
+							<li>
+								<a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-1') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-1-description') %></p>
+							</li>
+							<li>
+								<a href="https://lokalise.co/projects" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-2') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-2-description') %></p>
+							</li>
+							<li>
+								<a href="https://get.status.im/chat/public/introductions" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-3') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-3-description') %></p>
+							</li>
+							<li>
+								<a href="mailto:contribute@status.im" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.contribute-support.link-4') %></a>
+								<p><%- __('site.get-involved.developers.development-resources.contribute-support.link-4-description') %></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 developer-resources">
+					<div class="inner">
+						<h2><%- __('site.get-involved.developers.development-resources.developer-resources.title') %></h2>
+						<ul>
+							<li><a href="https://github.com/status-im" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-1') %></a></li>
+							<li><a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-2') %></a></li>
+							<li><a href="https://embark.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-3') %></a></li>
+							<li><a href="<%- show_lang() %>/tutorials/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-4') %></a></li>
+							<li><a href="<%- show_lang() %>/nightly/" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-5') %></a></li>
+							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-6') %></a></li>
+							<li><a href="https://www.youtube.com/playlist?list=PLbrz7IuP1hrjyCQqEpkpho41JpaFF3czG" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-7') %></a></li>
+							<li><a href="https://our.status.im/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-8') %></a></li>
+							<li><a href="<%- show_lang() %>/about/#active-swarms" class="link-arrow link-arrow-white"><%- __('site.get-involved.developers.development-resources.developer-resources.link-9') %></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- DEVELOPMENT-RESOURCES  -->
+
+	<!-- DEVELOPMENT-GET-IN-TOUCH -->
+	<section class="development-get-in-touch p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3><%- __('site.get-involved.developers.get-in-touch.title') %></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="inner">
+						<a href="https://get.status.im/chat/public/status" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-status.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-status.description') %></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="inner">
+						<a href="https://get.status.im/chat/public/status-core" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-status-core.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-status-core.description') %></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="inner">
+						<a href="https://get.status.im/chat/public/introductions" target="_blank"><%- image_tag("/img/status-purple-logo.svg") %><%- __('site.get-involved.developers.get-in-touch.join-introductions.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.join-introductions.description') %></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="inner">
+						<a href="mailto:contribute@status.im"><%- __('site.get-involved.developers.get-in-touch.contact-us.link') %></a>
+						<p><%- __('site.get-involved.developers.get-in-touch.contact-us.description') %></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-DEVELOPMENT-GET-IN-TOUCH -->
+
+	<div class="community-nav">
+		<a href="#" class="community-nav-trigger-close">
+			<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909"></rect> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909"></rect> </svg>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="<%- show_lang() %>/get-involved/developers/" class="active"><%- __('site.link.developers') %></a></li>
+				<li><a href="<%- show_lang() %>/get-involved/educators/"><%- __('site.link.educators') %></a></li>
+				<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- __('site.link.community-groups') %></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="backdrop-community-nav"></div>
+
+</main>

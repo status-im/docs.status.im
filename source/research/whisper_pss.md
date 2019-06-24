@@ -3,7 +3,9 @@ id: whisper_pss
 title: Whisper - Comparison with the Postal Service over Swarm (PSS)
 ---
 
-# Overview
+# Whisper - Comparison with the Postal Service over Swarm (PSS)
+
+## Overview
 
 Whisper and PSS are two messaging procotols currently being developed in the Ethereum stack - here's a side-by-side comparison that can help guide your choice between them.
 

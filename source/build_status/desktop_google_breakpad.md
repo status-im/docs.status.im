@@ -3,6 +3,8 @@ id: google_breakpad
 title: Google Breakpad Integration
 ---
 
+# Google Breakpad Integration
+
 ## Overview
 
 Since Google's Breakpad library requires `depot` tools to checkout sources from source control and build dedicated tools used to analyze generated `minidumps` files, repackaged version with pure breakpad library source code to be compiled along with application sources was added into [repo](https://github.com/status-im/google-breakpad).

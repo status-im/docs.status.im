@@ -3,6 +3,8 @@ id: desktop_inline_eval
 title: Coming to Grips with Status-react and Desktop
 ---
 
+# Coming to Grips with Status-react and Desktop
+
 ## Inline Evaluation as a Means of Understanding Clojure
 
 Working with Clojure is awesome, but it can be daunting to get up to speed with a new project - especially one as ambitious as Status. There is a, after all,

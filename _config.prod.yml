@@ -4,7 +4,7 @@ description: "Status is the mobile windown onto Ethereum, the platform with whic
 author: Status
 timezone: UTC
 
-language: [en, es, ko]
+language: [en]
 locale: en
 i18n:
   type: [page, post]
@@ -27,18 +27,31 @@ highlight:
 theme: navy
 deploy:
   type: git
-  branch: gh-pages
-  name: status-im-auto
   repo: git@github.com:status-im/status.im.git
+  branch: gh-pages
 
 disqus_shortname: hexojs
 twitter: ethstatus
-github: staus-im
+github: status-im
 
 graphviz:
   enable: true
+
+mermaid:
+  enable: true
+  version: "7.1.2"
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
 
 elasticsearch:
   index: 'status.im'
   esHost: 'search.status.im'
   esPort: 443
+
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+   # src: custom_mathjax_source
+   # config: MathJax config
+  katex:
+   # css: custom_css_source
+   # config: KaTeX config

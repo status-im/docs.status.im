@@ -3,6 +3,8 @@ id: contributor_guide
 title: Contribute to Status
 ---
 
+# Contribute to Status
+
 This page should guide you through the initial steps of contributing to Status. Welcome to the window onto a better web, it's wonderful to see you!
 
 ## Help me!

@@ -29,63 +29,131 @@ hexo.extend.helper.register('join_status_chat', function() {
   return `<a href="${url}" class="button">Join Status Chat</a>`;
 });
 
-hexo.extend.helper.register('page_nav', function() {
-  var type = this.page.canonical_path.split('/')[0];
-  var sidebar = this.site.data.sidebar[type];
-  var path = pathFn.basename(this.path);
-  var list = {};
-  var prefix = 'sidebar.' + type + '.';
-
-  for (var i in sidebar) {
-    for (var j in sidebar[i]) {
-      list[sidebar[i][j]] = j;
-    }
-  }
-
-  var keys = Object.keys(list);
-  var index = keys.indexOf(path);
-  var result = '';
-
-  if (index > 0) {
-    result += '<a href="' + keys[index - 1] + '" class="article-footer-prev" title="' + this.__(prefix + list[keys[index - 1]]) + '">'
-      + '<i class="fa fa-chevron-left"></i><span>' + this.__('page.prev') + '</span></a>';
-  }
-
-  if (index < keys.length - 1) {
-    result += '<a href="' + keys[index + 1] + '" class="article-footer-next" title="' + this.__(prefix + list[keys[index + 1]]) + '">'
-      + '<span>' + this.__('page.next') + '</span><i class="fa fa-chevron-right"></i></a>';
-  }
-
+hexo.extend.helper.register('employees', function(type) {
+  var employees = this.site.data.employees,
+    result = '';
+  _.each(employees['employees'], function(employee, index) {
+    result += '<li class="contributor col-md-1"> \
+      <a href="#" class="contributor-trigger"><img src="'+ employee['photoUrl'] +'"></a> \
+      <div class="contributor-info">\
+        <img src="'+ employee['photoUrl'] +'"> \
+        <b>'+ employee['displayName'] +'</b> \
+        <span>'+ employee['jobTitle'] +'</span> \
+        <ul>\
+          <li><a href="https://get.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
+          <li><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
+        </ul>\
+      </div>\
+    </li>'
+  });
   return result;
 });
 
-hexo.extend.helper.register('doc_sidebar', function(className) {
-  var self = this;
-  var canonicalPathToSplit = 0;
+hexo.extend.helper.register('contributors', function(type) {
+  var employees = this.site.data.employees,
+    contributors = this.site.data.contributors,
+    result = '';
 
-  if (this.page.lang !== 'en') {
-    canonicalPathToSplit = 1;
-  }
-
-  var type = this.page.canonical_path.split('/')[canonicalPathToSplit];
-  var sidebar = this.site.data.sidebar[type];
-  var path = this.path;
-  var result = '';
-  var prefix = 'sidebar.' + type + '.';
-
-  _.each(sidebar, function(menu, title) {
-    result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
-
-    _.each(menu, function(link, text) {
-      var itemClass = className + '-link';
-      if (link === pathFn.basename(path)) itemClass += ' current';
-
-      result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
-    });
+  _.each(contributors['result'], function(contributor, index) {
+    result += '<li class="contributor col-md-1"> \
+      <a href="#" class="contributor-trigger"><img src="'+ contributor['avatar_url'] +'"></a> \
+      <div class="contributor-info">\
+        <img src="'+ contributor['avatar_url'] +'"> \
+        <b>'+ contributor['login'] +'</b> \
+        <span></span> \
+        <ul>\
+          <li><a href="'+ contributor['url'] +'"><img src="/img/icon-github-purple.svg"></a></li> \
+        </ul>\
+      </div>\
+    </li>'
   });
 
   return result;
 });
+
+hexo.extend.helper.register('sidebar', function(type) {
+    
+  var self = this,
+      path = this.page.path,
+      sidebar = this.site.data.sidebar[type],
+      result = '<ul class="sidebar-menu">',
+      show_lang = '';
+
+  if(this.page.lang != 'en'){
+    show_lang = this.page.lang + '/';
+  }
+
+  _.each(sidebar, function(menu, category) {
+      var title = generateSidebarTitle(category);
+      if(typeof menu[category] === 'undefined'){
+        title = self.__(title);
+      }else{
+        title = generateSidebarTitle(menu[category]);
+      }
+      if(category == 'security'){
+        result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/sec_matters.html">' + title + '</a>';
+      }else if(category == 'docs'){
+        if(path == 'docs/index.html'){
+          result += '<li><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
+        }else{
+          result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
+        }
+      }else{
+        result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/">' + title + '</a>';
+      }
+      if(typeof menu == 'object'){
+          result += '<ul class="sidebar-submenu">';
+          _.each(menu, function(title, link) {
+              if(menu[category] != title){
+                var href = '';
+                href = category +'/'+ link +'.html';
+                href = '/' + show_lang + href;
+                if(title.startsWith("..")){
+                  href = title.replace("../","");
+                  href = href.substring(0, href.indexOf(' '));
+                  href = '/' + show_lang + href;
+                }else if(title.startsWith("http")){
+                  href = title;
+                  href = href.substring(0, href.indexOf(' '));
+                }
+                title = generateSidebarTitle(title);
+                result += '<li class="'+ checkIfActive(path, show_lang + category +'/'+ link+'.html') +'"><a href="'+ href +'">' + title + '</a></li>';
+              }
+          });
+          result += '</ul>';
+      }
+  });
+
+  result += '</ul>';
+  return result;
+});
+
+function generateSidebarTitle(string){
+  var s = string.substring(
+      string.lastIndexOf("(") + 1, 
+      string.lastIndexOf(")")
+  );
+  if(s == ''){
+    s = string.replace(/_/g, " ");
+    s = s.replace(/.html/g, "");
+    s = toTitleCase(s);
+  }
+  return s;
+}
+
+function toTitleCase(str) {
+  return str.replace(/\w\S*/g, function(txt){
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+}
+
+function checkIfActive(path, link){
+  if(path.indexOf(link)){
+    return '';
+  }else{
+    return 'active';
+  }
+}
 
 hexo.extend.helper.register('header_menu', function(className) {
   var menu = this.site.data.menu;
@@ -103,11 +171,15 @@ hexo.extend.helper.register('header_menu', function(className) {
   return result;
 });
 
-hexo.extend.helper.register('canonical_url', function(lang) {
-  var path = this.page.canonical_path;
-  if (lang && lang !== 'en') path = lang + '/' + path;
+// hexo.extend.helper.register('canonical_url', function(lang) {
+//   var path = this.page.canonical_path;
+//   if (lang && lang !== 'en') path = lang + '/' + path;
 
-  return this.config.url + '/' + path;
+//   return this.config.url + '/' + path;
+// });
+
+hexo.extend.helper.register('page_nav', function(lang) {
+  return;
 });
 
 hexo.extend.helper.register('url_for_lang', function(path) {
@@ -183,15 +255,14 @@ hexo.extend.helper.register('hexo_version', function() {
 
 function generateMenu(){
   return fetch('https://raw.githubusercontent.com/status-im/status-global-elements/master/dist/html/header.html')
-    .then(function(response) {
+  .then(function(response) {
       return response.text();
     })
-    .then(function(response) {
+  .then(function(response) {
       console.log('t2')
       return 'abc';
-    })
-    .catch(error => console.error(`Fetch Error =\n`, error));
-  console.log('t1');
+  })
+  .catch(error => console.error(`Fetch Error =\n`, error));
 }
 
 hexo.extend.helper.register('global_header', function() {
@@ -200,4 +271,25 @@ hexo.extend.helper.register('global_header', function() {
     return response;
   });
   return 'asd';
+});
+
+/* DigitalOcean Spaces links don't use the CDN by default */
+hexo.extend.helper.register('get_build_url', function(type, platform) {
+  const buildType = this.site.data[type];
+  if (buildType == undefined) {
+    throw `Unable to find data for build type: ${type}`
+  }
+  const buildUrl = buildType[platform];
+  if (buildUrl == undefined) {
+    throw `Unable to find build for platform: ${platform}`
+  }
+  /* modify the URL to use the DigitalOcean CDN */
+  const url = buildUrl.replace(/(cdn.)?digitaloceanspaces/, 'cdn.digitaloceanspaces')
+  return url;
+});
+
+hexo.extend.helper.register('show_lang', function(lang) {
+  if(this.page.lang != 'en'){
+    return '/' + this.page.lang;
+  }
 });

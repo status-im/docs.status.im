@@ -1,28 +1,24 @@
-<div class="page-intro wrapper">
-  <header class="article-header">
-    <h1 class="article-title" itemprop="name"><%= page.title %></h1>
-    <a href="<%= raw_link(page.source) %>" class="article-edit-link" title="<%= __('page.improve') %>">Edit on Github</a>
-  </header>
-</div>
-<div id="content-wrap-privacy">
-  <div id="content" class="wrapper">
-    <div id="content-inner">
-      <article class="article-container-privacy" itemscope itemtype="http://schema.org/Article">
-        <div class="article-inner">
-          <div class="article">
-            <div class="inner">
-              <div class="article-content" itemprop="articleBody">
-                <a href="https://www.iubenda.com/privacy-policy/94457202" class="iubenda-white iubenda-embed iub-body-embed" title="Privacy Policy">Privacy Policy</a> 
-                <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+<div id="content-wrap">
+    <div class="wrapper">
+      <div class="inner">
+        <!-- The main content area -->
+        <main id="main" role="main">
+
+            <section class="single-docs-content">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-9 ml-auto mr-auto">
+                    <div class="editor-content">
+                        <%- page_anchor(page.content) %>
+                        <a href="https://www.iubenda.com/privacy-policy/94457202" class="iubenda-white iubenda-embed iub-body-embed" title="Privacy Policy">Privacy Policy</a> 
+                        <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <footer class="article-footer">
-                <time class="article-footer-updated" datetime="<%= date_xml(page.updated) %>" itemprop="dateModified"><%= __('page.last_updated', date(page.updated)) %></time>
-                <%- page_nav() %>
-              </footer>
-            </div>
-          </div>
-        </div>
-      </article>
+            </section>
+          
+          </main>
+      </div>
     </div>
   </div>
-</div>

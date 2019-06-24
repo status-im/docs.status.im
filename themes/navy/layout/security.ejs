@@ -1,58 +1,98 @@
-<div class="page-intro wrapper">
-<%- include('partial/shared-partials/partials/search') %>
-  <header class="docs-header">
-    <div class="docs-intro">
-      <h1>Securing a Better Web</h1>
-      <p>Self-reliance is critical in distributed systems. Learn how here.</p>
-      <br/>
-    </div>
-    <ul>
-      <li>
-        <div class="inner">
-          <h3>Guides</h3>
-          <p>Become a security ninja</p>
-        </div>
-        <img src="../img/arrow_blue_shaded.svg" />
-        <a href="../guides/"></a>
-      </li>
-      <li>
-        <div class="inner">
-          <h3>Policy and Procedure</h3>
-          <p>This is how we do!</p>
-        </div>
-        <img src="../img/arrow_blue_shaded.svg" />
-        <a href="../org_sec/"></a>
-      </li>
-      <li>
-        <div class="inner">
-          <h3>Audits</h3>
-          <p>See who guards the guards</p>
-        </div>
-        <img src="../img/arrow_blue_shaded.svg" />
-        <a href="/audits/"></a>
-      </li>
-    </ul>
-  </header>
-</div>
-<div id="content-wrap">
-  <div id="content" class="wrapper">
-    <div id="content-inner">
-      <%- include('partial/sidebar') %>
-      <article class="article-container" itemscope itemtype="http://schema.org/Article">
-        <div class="article-inner">
-          <div class="article">
-            <div class="inner">
-              <div class="article-content" itemprop="articleBody">
-                <%- page_anchor(page.content) %>
-              </div>
-              <footer class="article-footer">
-                <time class="article-footer-updated" datetime="<%= date_xml(page.updated) %>" itemprop="dateModified"><%= __('page.last_updated', date(page.updated)) %></time>
-                <%- page_nav() %>
-              </footer>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div>
-  </div>
-</div>
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<!-- SECURITY -->
+	<section class="security-inner">
+
+		<div class="container m-b-100">
+			<div class="row">
+				<div class="col-lg-8">
+					<h1><%- __('site.security.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.security.intro.description-1') %></p>
+					<p class="teaser-1"><%- __('site.security.intro.description-2') %></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container m-b-100">
+			<h2 class="m-b-100"><%- __('site.security.security-at-status.title') %></h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-1.title') %></h4>
+					<p><%- __('site.security.security-at-status.secure-inner-1.description') %></p>
+				</div>
+				<div class="col-lg-4">
+					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-2.title') %></h4>
+					<p><%- __('site.security.security-at-status.secure-inner-2.description') %></p>
+				</div>
+				<div class="col-lg-4">
+					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-3.title') %></h4>
+					<p><%- __('site.security.security-at-status.secure-inner-3.description') %></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container security-content">
+			<div class="row">
+				<div class="col-md-12">
+					<h3><%- __('site.security.security-content.content-1.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-1.description') %></p>
+					<h3><%- __('site.security.security-content.content-2.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-2.description') %></p> 
+					<p><a href="<%- show_lang() %>/research/" class="link-arrow"><%- __('site.security.security-content.content-2.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-3.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-3.description') %></p>
+					<h3><%- __('site.security.security-content.content-4.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-4.description') %></p>
+					<p><a href="<%- show_lang() %>/research/pfs.html" class="link-arrow"><%- __('site.security.security-content.content-4.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-5.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-5.description') %></p>
+					<h3><%- __('site.security.security-content.content-6.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-6.description-1') %></p>
+					<p class="p-large"><%- __('site.security.security-content.content-6.description-2') %></p>
+					<p class="p-large"><%- __('site.security.security-content.content-6.description-3', '<a href="https://keycard.status.im" target="_blank">keycard.status.im</a>') %></p>
+					<h3><%- __('site.security.security-content.content-7.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-7.description') %> </p>
+					<p><a href="https://eips.ethereum.org/EIPS/eip-712" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-7.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-8.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-8.description') %></p>
+					<h3><%- __('site.security.security-content.content-9.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-9.description', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
+					<h3><%- __('site.security.security-content.content-10.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-10.description-1') %></p>
+					<p class="p-large"><%- __('site.security.security-content.content-10.description-2', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
+					<h3><%- __('site.security.security-content.content-11.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-11.description') %></p>
+					<p><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
+					<h3><%- __('site.security.security-content.content-12.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://get.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
+					<h3><%- __('site.security.security-content.content-13.title') %></h3>
+					<p class="p-large"><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container p-t-160 p-b-160">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="m-t-50"><%- __('site.security.protect-yourself.title') %></h3>
+					<p class="teaser-2"><%- __('site.security.protect-yourself.description') %></p>
+					<ul class="inline-links">
+						<li><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.protect-yourself.link-1') %></a></li>
+						<li><a href="https://get.status.im/chat/public/status-security" target="_blank"><%- image_tag("img/join-status-security.svg") %><%- __('site.security.protect-yourself.link-2') %></a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<div class="get-status">
+						<h3><%- __('site.features.get.title') %></h3>
+						<p class="teaser-2"><%- __('site.features.get.description') %></p>
+						<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- END-SECURITY -->
+
+</main>

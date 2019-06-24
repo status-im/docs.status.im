@@ -1,0 +1,62 @@
+// Colors
+
+$black: #000000;
+$light-black: #090909;
+$darker-grey: #222325;
+$dark-grey: #3C4049;
+$white: #ffffff;
+$light-grey: #63666D;
+$purple: #4360DF;
+$dark-purple: #1C36AA;
+$lighter-grey: #EAECEF;
+
+// Font Family
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Semibold.woff2') format('woff2'),
+        url('../fonts/Manrope-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+$manrope: 'Manrope', sans-serif;
+$manrope-regular: 400;
+$manrope-medium: 500;
+$manrope-semi-bold: 600;
+$manrope-bold: 700;
+
+$ibm-plex-mono: 'IBM Plex Mono', monospace;
+$ibm-plex-mono-regular: 400;
+$ibm-plex-mono-medium: 500;
+$ibm-plex-mono-semi-bold: 600;
+
+$ibm-plex-sans: 'IBM Plex Sans', sans-serif;
+$ibm-plex-sans-regular: 400;
+$ibm-plex-sans-medium: 500;
+$ibm-plex-sans-semi-bold: 600;
+$ibm-plex-sans-bold: 700;

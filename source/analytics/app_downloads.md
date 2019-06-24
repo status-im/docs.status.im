@@ -3,6 +3,8 @@ id: app_downloads
 title: App Downloads and User Retention
 ---
 
+# App Downloads and User Retention
+
 ![App Downloads Daily](./img/downloads_daily.png)
 
 ![App Downloads Weekly](./img/downloads_weekly.png)

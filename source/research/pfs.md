@@ -1,3 +1,8 @@
+---
+id: whisper_pss
+title: Status Perfect Forward Secrecy Whitepaper
+---
+
 Status Perfect Forward Secrecy Whitepaper
 ====
 
@@ -45,28 +50,11 @@ Generating a user account in Status involves 3 steps:
 - Generation of a X3DH bundle. This prekey bundle will become part of the user's contact code;
 - Registration with Push Notification platform.
 
-#### 1.5.2. Contact request
-
-Once two accounts have been generated (Alice and Bob), Alice can send a contact request with an introductory message to Bob.
-
-There are two possible scenarios, which dictate the presence or absence of a prekey bundle:
-1. If Alice is using Bob's public chat key or ENS name, no prekey bundle is present;
-1. If Alice found Bob through the app or scanned Bob's QR code, a prekey bundle is embedded and can be used to set up a secure channel as described in section [2.4.1](#241-Initial-key-exchange-flow-X3DH).
-
-Bob receives a contact request, informing him of:
-- the security level of the communication;
-- Alice's introductory message.
-
-If Bob's prekey bundle was not available to Alice, Perfect Forward Secrecy hasn't yet been established. In any case, there are no implicit guarantees that Alice is whom she claims to be, and Bob should perform some form of external verification (e.g., using an Identicon).
-
-If Bob accepts the contact request, a secure channel is created (if it wasn't already), and a visual indicator is displayed to signify that PFS has been established. Bob and Alice can then start exchanging messages, making use of the Double Ratchet algorithm as explained in more detail in section [2.4.2](#242-Double-Ratchet).
-If Bob denies the request, Alice is not able to send messages and the only action available is resending the contact request.
-
-#### 1.5.3. Account recovery
+#### 1.5.2. Account recovery
 
 If Alice later recovers her account, the Double Ratchet state information will not be available, so she is no longer able to decrypt any messages received from existing contacts.
 
-If an incoming message (on the same Whisper topic) fails to decrypt, a message is shown to Alice asking whether she wants to re-establish a secure channel with Bob, repeating the procedure in the previous section. **_TODO: @cammellos for more detail, if any_**
+If an incoming message (on the same Whisper topic) fails to decrypt, a message is replied with the current bundle, so that the other end is notified of the new device. Subsequent communications will use this new bundle.
 
 ## 2. Messaging
 
@@ -112,8 +100,9 @@ In the X3DH specification, a shared server is typically used to store bundles an
 - QR codes;
 - ENS record;
 - Decentralized permanent storage (e.g. Swarm, IPFS).
+- Whisper
 
-Since bundles stored in QR codes or ENS records cannot be updated to delete already used keys, the approach taken is to make publicly available an initial generic bundle without one-time prekeys, and subsequently provide a second user-specific X3DH prekey bundle (TO BE IMPLEMENTED).
+Since bundles stored in QR codes or ENS records cannot be updated to delete already used keys, the approach taken is to rotate more frequently the bundle (once every 24 hours), which will be propagated by the app through the channel available.
 
 ### 2.4. 1:1 chat contact request
 
@@ -130,22 +119,27 @@ The initial key exchange flow is described in [section 3 of the X3DH protocol](h
 
 Bob's prekey bundle is retrieved by Alice, however it is not specific to Alice. It contains:
 
-([protobuf](https://github.com/status-im/status-go/blob/c86f8bf6ca35280e7041674f76a2ef1fe333e482/services/shhext/chat/encryption.proto#L11))
+([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L12))
 
 ``` protobuf
+// X3DH prekey bundle
 message Bundle {
+
   bytes identity = 1;
 
   map<string,SignedPreKey> signed_pre_keys = 2;
 
   bytes signature = 4;
+
+  int64 timestamp = 5;
 }
 ```
 - `identity`: Identity key $IK_B$
 - `signed_pre_keys`: Signed prekey $SPK_B$ for each device, indexed by `installation-id`
 - `signature`: Prekey signature <i>Sig($IK_B$, Encode($SPK_B$))</i>
+- `timestamp`: When the bundle was created locally
 
-([protobuf](https://github.com/status-im/status-go/blob/c86f8bf6ca35280e7041674f76a2ef1fe333e482/services/shhext/chat/encryption.proto#L5))
+([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L5))
 
 ``` protobuf
 message SignedPreKey {
@@ -164,19 +158,29 @@ Having established the initial shared secret `SK` through X3DH, we can use it to
 
 Please refer to the [Double Ratchet spec](https://signal.org/docs/specifications/doubleratchet/) for more details.
 
-The initial message sent by Alice to Bob is sent as a top-level `ProtocolMessage` ([protobuf](https://github.com/status-im/status-go/blob/1ac9dd974415c3f6dee95145b6644aeadf02f02c/services/shhext/chat/encryption.proto#L64)) containing a map of `DirectMessageProtocol` indexed by `installation-id` ([protobuf](https://github.com/status-im/status-go/blob/1ac9dd974415c3f6dee95145b6644aeadf02f02c/services/shhext/chat/encryption.proto#L56)):
+The initial message sent by Alice to Bob is sent as a top-level `ProtocolMessage` ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L65)) containing a map of `DirectMessageProtocol` indexed by `installation-id` ([protobuf](https://github.com/status-im/status-go/blob/1ac9dd974415c3f6dee95145b6644aeadf02f02c/services/shhext/chat/encryption.proto#L56)):
 
 ``` protobuf
 message ProtocolMessage {
+
   Bundle bundle = 1;
 
+  string installation_id = 2;
+
+  repeated Bundle bundles = 3;
+
+  // One to one message, encrypted, indexed by installation_id
   map<string,DirectMessageProtocol> direct_message = 101;
 
+  // Public chats, not encrypted
   bytes public_message = 102;
+
 }
 ```
 
-- `bundle`: optional bundle is exchanged with each message;
+- `bundle`: optional bundle is exchanged with each message, deprecated;
+- `bundles`: a sequence of bundles
+- `installation_id`: the installation id of the sender
 - `direct_message` is a map of `DirectMessageProtocol` indexed by `installation-id`
 - `public_message`: unencrypted public chat message.
 
@@ -191,7 +195,7 @@ message DirectMessageProtocol {
 ```
 - `X3DH_header`: the `X3DHHeader` field in `DirectMessageProtocol` contains:
 
-    ([protobuf](https://github.com/status-im/status-go/blob/features%2Fx3dh/services/shhext/chat/encryption.proto#L27))
+    ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L47))
     ``` protobuf
     message X3DHHeader {
       bytes key = 1;
@@ -204,7 +208,7 @@ message DirectMessageProtocol {
 
     Alice's identity key $IK_A$ is sent at the transport layer level (Whisper);
 
-- `DR_header`: Double ratchet header ([protobuf](https://github.com/status-im/status-go/blob/features%2Fx3dh/services/shhext/chat/encryption.proto#L16)). Used when Bob's public bundle is available:
+- `DR_header`: Double ratchet header ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L31)). Used when Bob's public bundle is available:
     ``` protobuf
     message DRHeader {
       bytes key = 1;
@@ -219,7 +223,7 @@ message DirectMessageProtocol {
     - `id`: Bob's bundle ID.
 
 - `DH_header`: Diffie-Helman header (used when Bob's bundle is not available):
-    ([protobuf](https://github.com/status-im/status-go/blob/features%2Fx3dh/services/shhext/chat/encryption.proto#L23))
+    ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L42))
     ``` protobuf
     message DHHeader {
       bytes key = 1;
@@ -248,15 +252,11 @@ Subsequent messages will use the established session until re-keying is necessar
 
 ## 3.2 Concurrent sessions
 
-If two sessions are created concurrently between two peers the one with the symmetric key first in byte order should be used, marking the other has expired (TO BE IMPLEMENTED).
+If two sessions are created concurrently between two peers the one with the symmetric key first in byte order should be used, marking the other has expired.
 
 ## 3.3 Re-keying
 
 On receiving a bundle from a given peer with a higher version, the old bundle should be marked as expired and a new session should be established on the next message sent.
-
-## 3.4 Expired session
-
-Expired session should not be used for new messages and should be deleted after 14 days from the expiration date (TO BE IMPLEMENTED), in order to be able to decrypt out-of-order and mailserver messages.
 
 ## 4. Multi-device support
 
@@ -272,43 +272,61 @@ This mean that every time a new device is paired, the bundle needs to be updated
 
 When a user adds a new account, a new `installation-id` will be generated. The device should be paired as soon as possible if other devices are present. Once paired the contacts will be notified of the new device and it will be included in further communications.
 
-Any time a bundle from your $IK$ but different `installation-id` is received, the device is added to the pairing group. From now on any message sent by one device will also be sent to any device in the pairing group. Eventually devices will have to be explicitly confirmed by the user _(TO BE IMPLEMENTED)_.
+Any time a bundle from your $IK$ but different `installation-id` is received, the device will be shown to the user and will have to be manually approved, to a maximum of 3. Once that is done any message sent by one device will also be sent to any other enabled device.
 
-Upon receiving a new bundle from it's own `$IK$` the following operation are performed:
+Once a new device is enabled, a new contact-code/bundle will be generated which will include pairing information.
 
-1) For each signed-pre-key if the local version is < then the one received or is missing, the local version will be updated/added.
-2) If the received bundle is missing the receiving installation-id, the bundle will be updated with the receiving installation-id and current signed-pre-key/version. 
+The bundle will be propagated to contacts through the usual channels.
 
-After this step a new contact-code/bundle will be generated which will include pairing information.
-
-The bundle will be propagated to contacts through contact updates. The user will be notified to update their contact-code in any other place where it might be stored. (TO BE IMPLEMENTED).
-
-Removal of paired devices is a manual step that needs to be applied on each device (TO BE IMPLEMENTED).
-
+Removal of paired devices is a manual step that needs to be applied on each device, and consist simply in disabling the device, at which point pairing information will not be propagated anymore.
 
 ## 4.2 Sending messages to a paired group
 
 When sending a message, the peer will send a message to any `installation-id` that they have seen, using pairwise encryption, including their own devices.
 
-The number of devices will be capped to a reasonable number,  ordered by last activity. (5, 10? TO BE IMPLEMENTED)
+The number of devices is capped to 3, ordered by last activity.
 
-## 4.3 Stale devices (TO BE IMPLEMENTED)
-
-When a bundle is received from $IK$ a timer is initiated on any `installation-id` belonging to $IK$ not included in the bundle. If after 7 days no bundles are received from these devices they are marked as `stale` and no message will be sent to them.
-
-## 4.4 Account recovery
+## 4.3 Account recovery
 
 Account recovery is no different from adding a new device, and it is handled in exactly the same way.
 
-## 4.5 Partitioned devices (TO BE IMPLEMENTED)
+## 4.4 Partitioned devices
 
 In some cases (i.e. account recovery when no other pairing device is available, device not paired), it is possible that a device will receive a message that is not targeted to its own `installation-id`.
-In this case the user will be presented with a prompt, notifying them that $IK$ has sent them a message, and an option will be given to send a bundle back so that further communication
-can happen.
+In this case an empty message containing bundle information is sent back, which will notify the receiving end of including this device in any further communication.
 
-# 4. Security Considerations
+# 5. Security Considerations
 
 The same considerations apply as in [section 4 of the X3DH spec](https://signal.org/docs/specifications/x3dh/#security-considerations) and [section 6 of the Double Ratchet spec](https://signal.org/docs/specifications/doubleratchet/#security-considerations), with some additions detailed below.
 
 **_TODO: Add any additional context here not covered in the X3DH and DR specs, e.g.:_**
 
+
+### To be implemented
+
+## 1. Introduction
+
+#### 1.5.x. Contact request
+
+Once two accounts have been generated (Alice and Bob), Alice can send a contact request with an introductory message to Bob.
+
+There are two possible scenarios, which dictate the presence or absence of a prekey bundle:
+1. If Alice is using Bob's public chat key or ENS name, no prekey bundle is present;
+1. If Alice found Bob through the app or scanned Bob's QR code, a prekey bundle is embedded and can be used to set up a secure channel as described in section [2.4.1](#241-Initial-key-exchange-flow-X3DH).
+
+Bob receives a contact request, informing him of:
+- Alice's introductory message.
+
+If Bob's prekey bundle was not available to Alice, Perfect Forward Secrecy hasn't yet been established. In any case, there are no implicit guarantees that Alice is whom she claims to be, and Bob should perform some form of external verification (e.g., using an Identicon).
+
+If Bob accepts the contact request, a secure channel is created (if it wasn't already), and a visual indicator is displayed to signify that PFS has been established. Bob and Alice can then start exchanging messages, making use of the Double Ratchet algorithm as explained in more detail in section [2.4.2](#242-Double-Ratchet).
+If Bob denies the request, Alice is not able to send messages and the only action available is resending the contact request.
+
+
+## 3.4 Expired session
+
+Expired session should not be used for new messages and should be deleted after 14 days from the expiration date, in order to be able to decrypt out-of-order and mailserver messages.
+
+## 4.3 Stale devices
+
+When a bundle is received from $IK$ a timer is initiated on any `installation-id` belonging to $IK$ not included in the bundle. If after 7 days no bundles are received from these devices they are marked as `stale` and no message will be sent to them.

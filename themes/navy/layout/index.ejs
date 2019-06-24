@@ -1,185 +1,145 @@
-<div class="home-cover">
-    <%- include('partial/header') %>
-    <div class="intro">
-        <h1>Access a Better Web, Anywhere</h1>
-        <p>Chat, browse and transact securely in an open source community committed to bringing the power of Ethereum and a more distributed internet to your pocket.</p>
-        <div class="intro-buttons">
-            <a class="button button-part button-get-ios app-download" id="release:apk" href="<%= site.data.releases['IOS'] %>">
-                <span class="button-icon button-icon--ios"></span>
-                GET STATUS FOR IPHONE
-            </a>
-            <a class="button button-part button-get-android app-download" id="release:ios" href="<%= site.data.releases['APK'] %>">
-                <span class="button-icon button-icon--android"></span>
-                GET STATUS FOR ANDROID
-            </a>
-        </div>
-        <div class="intro-under-buttons secondary-text">Or try out the <a href="/get_desktop/">Desktop App</a></div>
-    </div>
-</div>
+<!-- The main content area -->
+<main id="main" role="main">
 
-<div class="hero-image">
-    <div class="image-wallet">
-        <div class="image-wallet-back"></div>
-        <div class="image-wallet-front">
-            <div class="image-wallet-logo"></div>
-            <div class="image-wallet-lines">
-                <div class="image-line"></div>
-                <div class="image-line"></div>
-            </div>
-        </div>
-    </div>
-    <div class="image-token-stack image-token-stack--vertical image-token-stack--one">
-        <div class="image-token image-token--main">OMG</div>
-        <div class="image-token"></div>
-    </div>
-    <div class="image-token-stack image-token-stack--vertical image-token-stack--two">
-        <div class="image-token image-token--main">ETH</div>
-        <div class="image-token"></div>
-        <div class="image-token"></div>
-    </div>
-    <div class="image-token-stack image-token-stack--horizontal image-token-stack--three">
-        <div class="image-token image-token--main">ANT</div>
-        <div class="image-token"></div>
-        <div class="image-token"></div>
-    </div>
-    <div class="image-token-stack image-token-stack--horizontal image-token-stack--four">
-        <div class="image-token image-token--main">SNT</div>
-        <div class="image-token"></div>
-        <div class="image-token"></div>
-        <div class="image-token"></div>
-    </div>
-    <div class="image-token-stack image-token-stack--vertical image-token-stack--five">
-        <div class="image-token image-token--main">DAI</div>
-        <div class="image-token"></div>
-        <div class="image-token"></div>
-    </div>
-    <div class="image-message image-message--one">
-        <div class="image-message-avatar"></div>
-        <div class="image-message-lines">
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-        </div>
-    </div>
-    <div class="image-message image-message--two">
-        <div class="image-message-avatar"></div>
-        <div class="image-message-lines">
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-        </div>
-    </div>
-    <div class="image-status image-status--one">
-        <div class="image-status-avatar"></div>
-        <div class="image-status-lines">
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-        </div>
-    </div>
-    <div class="image-status image-status--two">
-        <div class="image-status-avatar"></div>
-        <div class="image-status-lines">
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-        </div>
-    </div>
-    <div class="image-status image-status--three">
-        <div class="image-status-avatar"></div>
-        <div class="image-status-lines">
-            <div class="image-line"></div>
-            <div class="image-line"></div>
-        </div>
-    </div>
-</div>
+	<!--HOME-INTRO-->
+	<section class="home-intro">
+		<div class="container">
+	        <div class="row">
+	            <div class="col-md-7 col-lg-6">
+	            	<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
+						<div class="row">
+							<div class="col-md-11">
+								<h1><%- __('site.home.intro.title') %></h1>
+								<p class="teaser-1"><%- __('site.home.intro.description') %></p>
+								<div class="d-flex">
+									<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white m-r-30"><%- __('site.link.get-status') %></a>
+									<a href="<%- show_lang() %>/get-involved/" class="btn btn-arrow"><%- __('site.link.get-involved') %></a>
+								</div>
+								<a href="#" target="_blank" class="announcement inactive"><span><%- __('site.home.intro.news') %></span><b></b></a>
+							</div>
+						</div>
+	            	</div>
+	            </div>
+	            <div class="col-md-4 ml-auto col-lg-6 col-black">
+					<%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<!--END-HOME-INTRO-->
 
-<div class="info">
-    <div class="info__inner">
-        <div class="info-item">
-            <div class="info-item-content">
-                <h5>DISCUSS</h5>
-                <div id="latest-announcements" class="latest-posts"></div>
-            </div>
-            <div class="info-item-link"><a href="https://discuss.status.im/" class="link-arrow">Learn more</a></div>
-        </div>
-        <div class="info-item">
-            <div class="info-item-content">
-                <h5>STATUS PRINCIPLES</h5>
-                <h4>A Principled Approach</h4>
-                <p class="secondary-text">Status is a community of people all over the world connected by a set of values and principles.</p>
-            </div>
-            <div class="info-item-link"><a href="/contribute/our_principles.html" class="link-arrow">See the full set of principles</a></div>
-        </div>
-        <div class="info-item">
-            <div class="info-item-content">
-                <h5>LATEST NEWS</h5>
-                <div class="latest-news latest-posts"></div>
-            </div>
-            <div class="info-item-link"><a href="https://our.status.im/" class="link-arrow">Read the blog</a></div>
-        </div>
-    </div>
-</div>
+	<!--HOME-ABOUT-->
+	<section class="home-about p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="inner">
+						<h3><%- __('site.home.about.open-source.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.about.open-source.description') %></p>
+						<ul class="inline-links">
+							<li><a href="<%- show_lang() %>/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
+							<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="inner">
+						<h3><%- __('site.home.about.mission.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.about.mission.description') %></p>
+						<a href="<%- show_lang() %>/about/" class="link-arrow"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-ABOUT-->
 
-<div class="home-wrap">
-    <div class="section-header section-header--main">
-        <h2 id="top-header">The Status Ecosystem</h2>
-        <p class="secondary-text">Status is more than an app - it's a community of people creating the tools and infrastructure we need to #buidl a better web. Our collective goal is the mass adoption of Ethereum.</p>
-    </div>
+	<!--HOME-DECENTRALIZED-PRIVATE-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-grey home-decentralized">
+					<div class="inner d-flex align-items-start flex-column h-100">
+						<div class="row">
+							<div class="col-md-11 col-lg-10">
+								<%- image_tag("/img/decentralized-illustration.png", { srcset: '/img/decentralized-illustration-2x.png 2x'}) %>
+								<p class="teaser-2"><%- __('site.home.decentralized.subtitle') %></p>
+								<h3><%- __('site.home.decentralized.title') %></h3>
+								<p class="p-large"><%- __('site.home.decentralized.description') %></p>
+								<a href="<%- show_lang() %>/features/" class="btn btn-arrow"><%- __('site.home.decentralized.link') %></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-black col-offset-top home-private">
+					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
+						<div class="row">
+							<div class="col-lg-11 d-flex align-items-start flex-column">
+								<p class="teaser-2"><%- __('site.home.private.subtitle') %></p>
+								<h3><%- __('site.home.private.title') %></h3>
+								<p class="p-large"><%- __('site.home.private.description') %></p>
+								<a href="<%- show_lang() %>/features/#secure-messenger" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
+								<%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-DECENTRALIZED-PRIVATE-->
 
-    <div class="cards cards--projects cards--three">
-        <div class="card">
-            <a href="/get/" class="card-inner">
-                <div class="card-content">
-                    <h3>App</h3>
-                    <p class="secondary-text">Chat, transact, and access a revolutionary new world of ÐApps. Test the mobile beta or get started with the desktop alpha.</p>
-                </div>
-                <div class="card-projects__link"><span class="link-arrow">Learn More</span></div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://incubate.status.im/" class="card-inner">
-                <div class="card-content">
-                    <h3>Incubate</h3>
-                    <p class="secondary-text">Incubate supports open source, early stage startups with funding, technical mentorship, legal and regulatory compliance and much more.</p>
-                </div>
-                <div class="card-projects__link"><span class="link-arrow">Learn More</span></div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://embark.status.im" class="card-inner">
-                <div class="card-content">
-                    <h3>Embark</h3>
-                    <p class="secondary-text">Embark is a simple and easy to use development framework that enables you to build and deploy your own decentralized applications smoothly.</p>
-                </div>
-                <div class="card-projects__link"><span class="link-arrow">Learn More</span></div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="#" class="card-inner">
-                <div class="card-content">
-                    <h3>Studio</h3>
-                    <p class="secondary-text">Studio is an integrated developer environment and educational platform designed to be a one-stop-shop for ÐApp development.</p>
-                </div>
-                <div class="card-projects__link"><span class="link-arrow">Learn More</span></div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://nimbus.status.im/" class="card-inner">
-                <div class="card-content">
-                    <h3>Nimbus</h3>
-                    <p class="secondary-text">Nimbus is a research project and light client implementation for Ethereum 2.0 designed to perform well on embedded systems and resource-restricted hardware. </p>
-                </div>
-                <div class="card-projects__link"><span class="link-arrow">Learn More</span></div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://keycard.status.im/" class="card-inner">
-                <div class="card-content">
-                    <h3>Keycard</h3>
-                    <p class="secondary-text">A hardware wallet in the form of a card with a safe, contactless transaction experience </p>
-                </div>
-                <div class="card-projects__link"><span class="link-arrow">Learn More</span></div>
-            </a>
-        </div>
-    </div>
-</div>
+	<!--HOME-WALLET-BROWSER-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-black col-offset-bottom home-wallet">
+					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
+						<div class="row">
+							<div class="col-md-11 col-lg-10">
+								<p class="teaser-2"><%- __('site.home.wallet.subtitle') %></p>
+								<h3><%- __('site.home.wallet.title') %></h3>
+								<p class="p-large"><%- __('site.home.wallet.description') %></p>
+								<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
+								<div class="img-holder">
+									<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x'}) %>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-grey home-browser">
+					<div class="inner d-flex align-items-start flex-column h-100">
+						<%- image_tag("/img/browser-illustration.png", {srcset: "/img/browser-illustration-2x.png 2x"}) %>
+						<p class="teaser-2"><%- __('site.home.browser.subtitle') %></p>
+						<h3><%- __('site.home.browser.title') %></h3>
+						<p class="p-large"><%- __('site.home.browser.description') %></p>
+						<a href="<%- show_lang() %>/features/#web3-browser" class="btn btn-arrow"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-WALLET-BROWSER-->
+
+	<!--HOME-SECURITY-->
+	<section class="home-security p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<div class="inner text-center">
+						<div class="img-holder">
+							<%- image_tag("/img/lock.svg") %>
+						</div>
+						<h3><%- __('site.home.security.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.security.description') %></p>
+						<a href="<%- show_lang() %>/security/" class="link-arrow"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-SECURITY-->
+
+</main>

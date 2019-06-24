@@ -3,7 +3,9 @@ id: dark_routing
 title: Whisper - Dark Routing
 ---
 
-# Some Routes Can't Be Discovered Without Getting Lost
+# Whisper Dark Routing
+
+## Some Routes Can't Be Discovered Without Getting Lost
 
 To understand information leakage, it is important to distinguish between mere encryption, and `darkness`. Many protocols, both p2p and more traditional client/server models, provide a level of encryption. However, even with encrypted communications, well-funded attackers are still able to compromise your privacy. 
 
@@ -15,7 +17,7 @@ Even with encryption and packet forwarding through a third relay node, there is 
 
 If you've read the previous articles, you'll notice that Whisper is designed to overcome some of the above shortcomings AND be configurable to the end user, who ought to able to specify what sort of `battery life + mobile data charges` VS `privacy and possible metadata leakage` trade-offs they are willing to make. This requires a combination of great code, education, and a deep focus on User Experience Research.
 
-# Working in the Dark
+## Working in the Dark
 
 Distributed systems must make a trade off between the efficiency of deterministic routing and `darkness` (i.e. routing privacy). This is why user-configurability matters: the people who use the technology ought to be the ones deciding between routing privacy and efficiency, and ought to be able to do so in a granular and editable way.
 

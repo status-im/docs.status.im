@@ -1,8 +1,10 @@
 ---
 id: tutorial_wallet_settings
 title: Extensions Tutorial - Wallet Settings
-layout: tutorials
 ---
+
+# Extensions Tutorial - Wallet Settings
+
 This tutorial will walk you through the creation and deployment of a new [wallet setting](wallet_settings.html).
 
 # Add meta data

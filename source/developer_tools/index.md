@@ -1,5 +1,4 @@
 ---
-layout: developer_tools
 title: DApp Developer Tools
 id: index
 ---

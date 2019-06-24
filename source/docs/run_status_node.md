@@ -3,6 +3,8 @@ id: run_status_node
 title: Running Status Node
 ---
 
+# Running Status Node
+
 Status Node is an Ethereum client usually running on a server supporting the Status app. As we operate in a decentralized model, we need some peers scattered around the globe to provide a reliable service.
 
 Status Node can be run in such a way that it supports only Whisper messages (ie. it helps propagate them), or as a permanent message store (Mail Server).

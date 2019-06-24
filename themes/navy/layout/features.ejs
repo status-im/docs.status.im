@@ -1,0 +1,175 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<!-- FEATURES-INTRO -->
+	<section class="features-intro p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-7 col-md-6">
+					<h1><%- __('site.features.intro.title') %></h1>
+					<ul class="inline-links">
+						<li><a href="#secure-messenger"><%- image_tag("/img/messenger.svg") %> <%- __('site.features.intro.link-messenger') %></a></li>
+						<li><a href="#integrated-ethereum-wallet"><%- image_tag("/img/crypto-wallet.svg") %> <%- __('site.features.intro.link-wallet') %></a></li>
+						<li><a href="#web3-browser"><%- image_tag("/img/browser-and-dapps.svg") %> <%- __('site.features.intro.link-browser') %></a></li>
+					</ul>
+				</div>
+				<div class="col-xl-5 col-md-6">
+					<p class="teaser-1"><%- __('site.features.intro.description') %></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-FEATURES-INTRO -->
+
+	<!-- FEATURES-CHAT -->
+	<section class="features-chat col-dark-grey col-black" id="secure-messenger">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="inner">
+						<h2 class="m-b-100"><%- __('site.features.messenger.title') %></h2>
+						<h4 class="m-b-25"><%- __('site.features.messenger.feature-1.title') %></h4>
+						<p><%- __('site.features.messenger.feature-1.description') %></p>
+						<a href="https://get.status.im/chat/public/status" target="_blank" class="link-arrow link-arrow-white"><%- __('site.features.messenger.feature-1.link') %></a>
+						<h4 class="m-t-90 m-b-25"><%- __('site.features.messenger.feature-2.title') %></h4>
+						<p><%- __('site.features.messenger.feature-2.description') %></p>
+						<a href="<%- show_lang() %>/research/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+						<h4 class="m-t-90 m-b-25"><%- __('site.features.messenger.feature-3.title') %></h4>
+						<p><%- __('site.features.messenger.feature-3.description') %></p>
+						<a href="<%- show_lang() %>/research/pfs.html" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="img-holder">
+						<%- image_tag("/img/secure-messenger-illustration.png", {srcset: "/img/secure-messenger-illustration-2x.png 2x"}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-FEATURES-CHAT -->
+
+	<!-- FEATURES-WALLET -->
+	<section class="features-wallet col-black p-t-160" id="integrated-ethereum-wallet">
+		<div class="container">
+			<h2 class="m-b-100"><%- __('site.features.wallet.title') %></h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="inner">
+						<h4 class="m-b-25"><%- __('site.features.wallet.feature-1.title') %></h4>
+						<p><%- __('site.features.wallet.feature-1.description') %></p>
+						<a href="<%- show_lang() %>/security/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="inner">
+						<h4 class="m-b-25"><%- __('site.features.wallet.feature-2.title') %></h4>
+						<p><%- __('site.features.wallet.feature-2.description') %></p>
+						<a href="https://get.status.im/chat/public/status-core-wallet" target="_blank" class="link-arrow link-arrow-white"><%- __('site.features.wallet.feature-2.link') %></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="inner">
+						<h4 class="m-b-25"><%- __('site.features.wallet.feature-3.title') %></h4>
+						<p><%- __('site.features.wallet.feature-3.description') %></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="img-holder">
+						<%- image_tag("/img/integrated-ethereum-wallet.png", {srcset: "/img/integrated-ethereum-wallet-2x.png 2x"}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-FEATURES-WALLET -->
+
+	<!-- FEATURES-BROWSER -->
+	<section class="features-browser p-t-160" id="web3-browser">
+		<div class="container">
+			<h2 class="m-b-100"><%- __('site.features.browser.title') %></h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="inner">
+						<h4 class="m-b-25"><%- __('site.features.browser.feature-1.title') %></h4>
+						<p><%- __('site.features.browser.feature-1.description') %></p>
+						<a href="<%- show_lang() %>/get/" class="link-arrow link-arrow-black"><%- __('site.features.browser.feature-1.link') %></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="inner">
+						<h4 class="m-b-25"><%- __('site.features.browser.feature-2.title') %></h4>
+						<p><%- __('site.features.browser.feature-2.description') %></p>
+						<a href="<%- show_lang() %>/security/" class="link-arrow link-arrow-black"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="inner">
+						<h4 class="m-b-25"><%- __('site.features.browser.feature-3.title') %></h4>
+						<p><%- __('site.features.browser.feature-3.description') %></p>
+						<a href="<%- show_lang() %>/extensions/" class="link-arrow link-arrow-black"><%- __('site.features.browser.feature-3.link') %></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="img-holder">
+						<%- image_tag("/img/web3-browser-illustration.png", {srcset: "/img/web3-browser-illustration-2x.png 2x"}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-FEATURES-BROWSER -->
+
+	<!-- FEATURES-STATUS-DESKTOP -->
+	<section class="features-desktop p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 mr-auto">
+					<div class="inner">
+						<h2><%- __('site.features.desktop.title') %></h2>
+						<p class="teaser-2"><%- __('site.features.desktop.description') %></p>
+						<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.desktop.link') %></a>
+						<p class="announcement"><%- __('site.features.desktop.announcement.title') %> <a href="<%- show_lang() %>/docs/FAQ-desktop.html"><%- __('site.features.desktop.announcement.link') %></a></p>	
+					</div>
+				</div>
+				<div class="col-md-6 d-flex justify-content-end">
+					<div class="img-holder">
+						<%- image_tag("/img/status-get-desktop-illustration.png", {srcset: "/img/status-get-desktop-illustration-2x.png 2x"}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-FEATURES-STATUS-DESKTOP -->
+
+
+	<!-- FEATURES-OPEN-SOURCE -->
+	<section class="features-open-source p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="m-t-50"><%- __('site.home.about.open-source.title') %></h3>
+					<p class="teaser-2"><%- __('site.home.about.open-source.description') %></p>
+					<ul class="inline-links">
+						<li><a href="<%- show_lang() %>/get-involved/developers/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
+						<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
+						<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<div class="get-status">
+						<h3><%- __('site.features.get.title') %></h3>
+						<p class="teaser-2"><%- __('site.features.get.description') %></p>
+						<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-FEATURES-OPEN-SOURCE -->
+
+</main>

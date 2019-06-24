@@ -5,24 +5,20 @@ title: Applying to Status
 
 # Applying to Status
 
-Your journey begins with applying to Status. This may be through one of the jobs we have posted, or simply by sending your CV to us at talent@status.im. We are fortunate to receive thousands of applications, but we'll do our best to get back to you.
+There are 3 stages of our hiring process: application, assessment and decision. 
 
-If we feel like there's a good match between your skills & experience and what we need to add here, then one of our recruiters will be in touch. In the first initial call our recruitment team will looking to understand your background, skills, interests & motivation for joining Status. If successful, from here you'll start to meet more contributors to Status.
+**Application**: To apply, you send us your CV and any other supporting information (cover letter, portfolio, website links, etc) and we use that data to determine which candidates we should invite for assessment. At this stage we're looking to see if you have relevant experience, a passion for blockchain technology, open-source software and cryptocurrencies and align with our principles (https://our.status.im/our-principles/). 
 
-There's no set approach that we have to interviewing - it always depends on you, and the role we're looking to fill.
+**Assessment**: If we determine there's a good match, we'll invite you to have an initial interivew. In the first initial call we'll be looking to understand your background, skills, interests & motivation for joining Status. We'll also share more about life at Status, answer any questions you have and describe the recruiting process in detail. If successful, from here you'll start to meet more contributors to Status via either interviews or assessments (depending on the role we'll trying to fill). 
 
-----
-
-There are a variety of ways that we use to get to know you:
-
-**Introductory period:** If you're interested, we can offer variety of paid part time or project based work to complete. If this goes, well and it works for you, we could offer to make that full time. 
-
-**Interviews**: Interviews are normally conducted over Google Hangouts or Skype, but we also do text-based interviews over messengers as well as more traditional phone interviews. Occasionally, when our worlds collide, we'll also try to meet you in person. Typically, you could expect to meet 3 -5 members of the organisation. 
-
-**Work samples:** If you're a designer: we may ask to complete a design challenge. If you're an engineer: we may ask you to complete one of our bounties, or submit some work on github for review.
-
-Typically, we use a mix of methods to determine whether we think you should join Status. But we're flexible - if there's a particular method you think would work, please let us know.
+**Decision**: At this point, we'll make a decision on whether we believe you'd be the right fit for Status - we take into account all the information gathered from your application and assessment stages. If successful, we'll make you an offer to join the team. We'll offer you a salary (in a mix of fiat and crypto) as well as a Contributor Bonus that will be paid in Status Network Tokens (SNT). Depending on the role, your location and your preference we're open to hiring employees, contractors or freelancers. 
 
 ----
 
-If everything goes well (woohoo!), you can expect to receive an offer to work for Status. We'll offer you a salary (in a fix of fiat and crypto) as well as a Contributor Bonus that will be paid in Status Network Tokens (SNT).
+Top 5 tips for applying to Status:
+
+1. Download the Status app (https://status.im/get/) and get a feel for what we're building. We'd love to hear your feedback on the app during the interviews. 
+2. Take a look at some of the [videos](https://www.youtube.com/channel/UCFzdJTUdzqyX4e9dOW7UpPQ/videos) we've published that show the features and use-cases we're developing. 
+3. Be passionate about the potential of blockchain and cryptocurrency technology - we're looking for people that share our excitement for the future of the web. 
+4. Status is an [open-source community](https://status.im/get-involved/) - contributing this way is a quick and easy way to get to know us, and experience what it's like to work remotely with a group of like-minded peers across the globe.   
+5. If you're really interested in working with us, but don't see the perfect job - email us (talent@status.im) a copy of your CV and let us know what you're interested in.

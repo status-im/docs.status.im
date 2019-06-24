@@ -3,11 +3,13 @@ id: reference_queries
 title: Extension Reference - Queries
 ---
 
-# Queries in Extensions
+# Extension Reference - Queries
+
+## Queries in Extensions
 
 A query is defined by a name and an optional map of arguments.
 
-# Queries
+## Queries
 
 | Symbol             | Arguments               |
 | -------------      | -------------           |

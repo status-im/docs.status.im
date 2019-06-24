@@ -5,7 +5,7 @@ title: Getting Started
 
 # Preparing the card
 
-If you got a Keycard and you are integrating it in your project, you will most likely want to reset the applet status completely for testing purposes. This is done by reinstalling the applet, which can be accomplished using the [Keycard Installer for Android](https://github.com/status-im/keycard-installer-android/releases).
+If you got a Keycard and you are integrating it in your project, you will most likely want to reset the applet status completely for testing purposes. This is done by reinstalling the applet, which can be accomplished using the [Keycard CLI](https://github.com/status-im/keycard-cli).
 
 Upgrading the applet is also accomplished with the installer and also involves deleting the current version. The latest version of the installer always ships with the latest version of the applet.
 

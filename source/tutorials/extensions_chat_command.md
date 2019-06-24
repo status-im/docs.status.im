@@ -1,8 +1,9 @@
 ---
 id: extensions_chat_command
 title: Extensions Tutorial - Chat Command
-layout: tutorials
 ---
+
+# Extensions Tutorial - Chat Command
 
 This tutorial will go step by step through the creation and deployment of a [chat command](../extensions/extension_types.html) allowing to interact with a smart contract.
 

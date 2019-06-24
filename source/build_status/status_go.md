@@ -3,6 +3,8 @@ id: status_go
 title: Build status-go
 ---
 
+# Build status-go
+
 ## Introduction
 
 status-go is an underlying part of Status. It heavily depends on [go-ethereum](https://github.com/ethereum/go-ethereum) which is [forked](https://github.com/status-im/go-ethereum) and slightly modified by us.

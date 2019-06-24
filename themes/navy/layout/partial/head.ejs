@@ -1,28 +1,59 @@
-<head prefix="og: http://ogp.me/ns#">
-  <meta charset="utf-8">
-  <title><% if (page.title) { %><%= page.title %> | <% } %><%= config.title %></title>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Canonical links -->
-  <link rel="canonical" href="<%= url %>">
-  <!-- Alternative links -->
-  <% if (page.layout == 'page' || page.layout == 'index') { %>
-    <% Object.keys(site.data.languages).forEach(function(lang) { %>
-      <link rel="alternative" hreflang="<%= lang %>" href="<%= canonical_url(lang) %>">
-    <% }); %>
-  <% } %>
-  <!-- Icon -->
-  <link rel="icon" type="image/png" href="/img/logo-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="/img/logo-32.png" sizes="32x32" />
+<!DOCTYPE html>
+<html lang="<%= page.lang %>">
+<head>
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76.png?v=0.0.5">
-  <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120.png?v=0.0.5">
-  <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152.png?v=0.0.5">
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180.png?v=0.0.5">
-  <link rel="apple-touch-icon" href="/img/apple-touch-icon-1024.png?v=0.0.5">
-  <%- css('css/main.min') %>
-  <%- feed_tag('atom.xml') %>
-  <%- elasticsearch_config() %>
-  <meta property="og:image" content="/img/share.png" />
-  <meta property="og:title" content="Status, a Mobile Client for Ethereum 2.0" />
+    <!-- Page Meta -->
+    <title>Status <% if (page.title) { %>- <%= page.title %><% } %></title>
+    <% if (page.description) { %><meta name="description" content="<%= page.description %>" /><% } %>
+
+    <!-- Mobile Meta -->
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Brand icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#4360DF">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#4360DF">
+
+    <meta property="og:site_name" content="Status" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Status <% if (page.title) { %>- <%= page.title %><% } %>" />
+    <% if (page.description) { %><meta property="og:description" content="<%= page.description %>" /><% } %>
+    <meta property="og:url" content="<%= page.permalink %>" />
+    <% if (page.layout == 'get') { %><meta property="og:image" content="<%= config.url %>/img/share-get-status.png" /><% } %>
+    <% if (page.layout != 'get') { %><meta property="og:image" content="<%= config.url %>/img/share.png" /><% } %>
+    <meta property="article:publisher" content="https://www.facebook.com/ethstatus" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Status <% if (page.title) { %>- <%= page.title %><% } %>" />
+    <% if (page.description) { %><meta property="twitter:description" content="<%= page.description %>" /><% } %>
+    <meta name="twitter:url" content="<%= page.permalink %>" />
+    <% if (page.layout == 'get') { %><meta property="twitter:image" content="<%= config.url %>/img/share-get-status.png" /><% } %>
+    <% if (page.layout != 'get') { %><meta property="twitter:image" content="<%= config.url %>/img/share.png" /><% } %>
+    <meta name="twitter:site" content="@ethstatus" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/monokai-sublime.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600|IBM+Plex+Sans:400,500,700" rel="stylesheet">
+    <%- css('css/main') %>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
 </head>

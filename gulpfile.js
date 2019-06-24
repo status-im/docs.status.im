@@ -14,22 +14,25 @@ const minify = require('gulp-minify');
 const cleanCSS = require('gulp-clean-css');
 const rename = require("gulp-rename");
 const run = require('gulp-run-command').default;
+const bamboo = require('./scripts/bamboo-hr');
 
-const gen_qr = require('./scripts/gen-qr');
-const nightlies = require('./scripts/nightlies');
+const genqr = require('./scripts/gen-qr');
+const gitBranch = require('./scripts/git-branch');
+const updateBuilds = require('./scripts/update-builds');
 
-/* this usallly comes as a parameter from Jenkinsfile */
-const env = process.env.ENV
-
-// generate html with 'hexo generate'
-var hexo = new Hexo(process.cwd(), {});
+const getEnv = function () {
+    return gitBranch() == 'master' ? 'prod' : 'dev'
+}
 
 gulp.task('generate', function(cb) {
+    /* generate html with 'hexo generate' */
+    var hexo = new Hexo(process.cwd(), {
+        config: `_config.${getEnv()}.yml`,
+        watch: false,
+    });
+
     hexo.init().then(function() {
-        return hexo.call('generate', {
-            config: `_config.${env}.yml`,
-            watch: false,
-        });
+        return hexo.call('generate');
     }).then(function() {
         return hexo.exit();
     }).then(function() {
@@ -45,9 +48,7 @@ var config = {
         src: {
             scss: './themes/navy/source/scss/*.scss',
             js: [
-                './themes/navy/source/js/shared-js/js/utils.js',
-                './themes/navy/source/js/shared-js/js/popups.js',
-                './themes/navy/source/js/main.js'
+                './themes/navy/source/js/dev.js',
             ],
         },
         dist: {
@@ -83,14 +84,14 @@ function bundle() {
             browserSync.notify('Browserify Error!')
             this.emit('end')
         })
-        .pipe(exorcist('./themes/navy/source/js/vendor.js.map'))
-        .pipe(source('vendor.js'))
+        .pipe(exorcist('./themes/navy/source/js/main.js.map'))
+        .pipe(source('main.js'))
         .pipe(gulp.dest('./themes/navy/source/js'))
         .pipe(browserSync.stream({ once: true }))
 }
 
 gulp.task('compress', ['sass'], function() {
-    gulp.src('./themes/navy/source/js/vendor.js')
+    gulp.src('./themes/navy/source/js/main.js')
         .pipe(minify({
             ext: {
                 min: '.min.js'
@@ -105,11 +106,22 @@ gulp.task('compress', ['sass'], function() {
 });
 
 gulp.task('nightlies', function() {
-    return nightlies()
+    return updateBuilds('nightlies', 'latest.json')
+})
+
+gulp.task('releases', function() {
+    return updateBuilds('releases', 'release.json')
+})
+
+gulp.task('employees', async function() {
+    return bamboo.saveEmployees('source/_data/employees.yml')
 })
 
 gulp.task('genqr', function() {
-    gen_qr()
+    genqr('nightlies', 'APK',   'public/nightly/img', 'qr-apk.png')
+    genqr('nightlies', 'DIAWI', 'public/nightly/img', 'qr-ios.png')
+    genqr('releases',  'APK',   'public/stable/img',  'qr-apk.png')
+    genqr('releases',  'DIAWI', 'public/stable/img',  'qr-ios.png')
 })
 
 gulp.task('bundle', function() {
@@ -124,7 +136,7 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream())
 })
 
-gulp.task('index', run(`hexo --config _config.${env}.yml elasticsearch`))
+gulp.task('index', run(`hexo --config _config.${getEnv()}.yml elasticsearch`))
 
 gulp.task('watch', function() {
     gulp.watch(config.paths.src.scss, ['compress'])

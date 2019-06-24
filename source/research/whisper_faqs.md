@@ -2,7 +2,10 @@
 id: whisper_faqs
 title: Whisper - FAQs
 ---
-# All Your Questions Answered
+
+# Whisper - FAQs
+
+## All Your Questions Answered
 
 `1. We would ideally do our off-chain communication using something that is already available to us. There is an added bonus if it uses ÐΞVp2p, since we already need that port opened anyways?`
 1. This is great! The more nodes that run ÐΞVp2p with Whisper enabled, the better the service will be - but there is also a limit to how much traffic the system can handle. It's not meant for high-volume communication, like audio and video. In fact, it's not a pure messaging system, more like an ephemeral DHT where messages "stay in the system" for a while, such that new participants can pick them up for a limited time period.

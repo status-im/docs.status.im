@@ -1,8 +1,9 @@
 ---
 id: whisper_embark
 title: Embark Into Whisper - Making Gossip Easy
-layout: tutorials
 ---
+
+# Embark Into Whisper - Making Gossip Easy
 
 ## Intro
 In this tutorial we'll learn how to use Ethereum's Whisper protocol and Embark, creating a chat application even simpler than the one we built in [our previous tutorial](./whisper_basic_cli.html). We have again setup a [Github repository](https://github.com/stauts-im/whisper-embark-tutorial) to make it easy for you to follow along.

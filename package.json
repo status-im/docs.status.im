@@ -22,7 +22,7 @@
     "es6-promise": "^4.2.8",
     "gulp": "^3.9.1",
     "gulp-run-command": "0.0.9",
-    "hexo": "^3.7.1",
+    "hexo": "^3.9.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^0.1.4",
@@ -52,7 +52,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babelify": "^8.0.0",
-    "browser-sync": "^2.23.7",
+    "browser-sync": "^2.26.7",
     "browserify": "^16.2.0",
     "del": "^3.0.0",
     "eslint": "^4.3.0",

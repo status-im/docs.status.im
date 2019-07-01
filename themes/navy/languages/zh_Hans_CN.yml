@@ -1,7 +1,7 @@
 site:
   home:
     intro:
-      title: 专用、安全通信
+      title: 隐私、安全的沟通
       description: Status是一个使用最先进技术构建的信使，加密钱包和Web3浏览器。
       news: 新闻
     about:
@@ -48,13 +48,13 @@ site:
         title: 基于Whisper的私密消息
         description: Whisper使用P2P黑暗路由模式来确保任何人（包括我们）都不可能知道您发送消息的内容以及您和谁在通信，而且我们正继续对消息协议进行研发。
       feature-3:
-        title: '完美的正向保密 & <br> E2E 加密'
+        title: '完美向前保密 & <br> E2E 加密'
         description: 'Status基于Whisper消息协议采用‘Double Ratchet‘算法进行端到端加密确保高等级的安全与隐私。'
     wallet:
       title: '集成 <br> 以太钱包'
       feature-1:
         title: 安全钱包
-        description: '清除中介会让你控制你的资金。你和只有你持有你的私人密钥到您的加密货币, 没有中间的人可以访问。'
+        description: '清除中介使您控制自己的资金。只有您的私密钥才能控制您的加密数字货币, 没有中间的人可以访问。'
       feature-2:
         title: 'ERC20&ERC721兼容'
         description: Status支持以太坊ERC20和ERC721类型通证的发送、存储、接收，可以通过下面的频道联系我们添加您自己的通证。
@@ -90,7 +90,7 @@ site:
     index:
       intro:
         title: 开源社区
-        description: '在这里, 您可以找到您需要了解的有关如何参与并为Status做出贡献的所有信息。无论您是开发人员、教育工作者、社区组织者还是热情的支持者, 您都可以为 "Status" 做出贡献。以下是让您入门的资源。'
+        description: '在这里, 您可以找到您需要了解的有关如何参与并为Status做出贡献的所有信息。无论您是开发人员、教育工作者、社区组织者还是热情的支持者, 您都可以为Status做出贡献。以下是让您入门的资源。'
       resources:
         resource-1:
           title: '开发 人员'
@@ -103,7 +103,7 @@ site:
           description: 'Status社区中已经有许多Status或社区创建的团队。 <br> <br>加入现有团队或根据您的个人兴趣创建自己的团队。人们在世界各地组织起来帮助促进和发展这个开源项目。'
       contributors:
         title: 顶级社区贡献者
-        link: '加入Status 团队。查看所有未平仓头寸'
+        link: '加入Status 团队。查看所有空缺职位'
     developers:
       intro:
         subtitle: 开源社区
@@ -122,11 +122,11 @@ site:
         status-react:
           title: Status-react
           description: 'Clojure语言用于编写 - 处理Whisper和应用程序之间的交互;钱包功能中用户与他们想要访问的任何分布式应用程序（DApp）交互; UI逻辑交互。'
-          link: 查看存储库
+          link: 查看代码仓库
         status-go:
           title: Status-go
           description: 'Go语言主要用于编写 - 我们所有区块链逻辑，交易事务和轻客户端实现。'
-          link: 查看存储库
+          link: 查看代码仓库
         open-issues-status-react:
           title: Status-react未解决问题
           link: 查看所有未解决的问题
@@ -144,7 +144,7 @@ site:
       development-dapp:
         build-dapp:
           title: '构建自己的 DApp'
-          description: 开始使用我们的工具和框架来构建您自己的分散应用程序。
+          description: 开始使用我们的工具和框架来构建您自己的去中心化应用程序。
           link-1: '使用Javascript API优化移动设备'
           link-2: 用Embark打造你自己的DAPP
           link-3: 检测Status并访问Web3提供者
@@ -158,24 +158,24 @@ site:
       development-resources:
         contribute-support:
           title: 贡献支持
-          link-1: 写的文件
+          link-1: 写文档
           link-1-description: 潜入并帮助编写，编辑和修复文档。编辑都是通过GitHub进行的。
-          link-2: 翻译的文件
+          link-2: 翻译文档
           link-2-description: 我们需要帮助将我们所有的文档翻译成您的当地语言。
           link-3: 欢迎新来者
-          link-3-description: '加入状态 #introductions 渠道, 帮助新的贡献者和社区成员。'
+          link-3-description: '加入Status 频道#introductions , 帮助新的贡献者和社区成员。'
           link-4: 创建教程
           link-4-description: 联系我们，了解如何在文档和Status博客中展示您的教程。
         developer-resources:
           title: 开发者资源
-          link-1: Github存储库
+          link-1: Github代码库
           link-2: 文档
           link-3: 'Embark '
           link-4: 教程
           link-5: 每日构建
           link-6: 博客
-          link-7: 收听最新的核心开发人员电话
-          link-8: 查看最新的发行说明
+          link-7: 收听最新的核心开发人员电话会议
+          link-8: 查看最新发行说明
           link-9: 查看活跃团队列表
       get-in-touch:
         title: 联系我们
@@ -184,10 +184,10 @@ site:
           description: 普通Status新闻和讨论
         join-status-core:
           link: '加入#status-core'
-          description: 关于核心发展的公共渠道。
+          description: 关于核心开发的公共频道。
         join-introductions:
           link: '加入 #introductions'
-          description: '新的Status?介绍一下你自己, 打个招呼!'
+          description: 'Status新手?介绍一下你自己, 打个招呼!'
         contact-us:
           link: 联系我们
           description: '对于其他一切, 请直接给我们发送电子邮件。'
@@ -207,13 +207,13 @@ site:
           link-1: 社区成员初学者指南
           link-1-description: 查看由社区成员Warsoverjohn创建的指南。
           link-2: 词汇
-          link-2-description: 参照开源文档对术语、定义、资源和概念，欢迎添加进来。
+          link-2-description: 有关术语、定义、资源和概念，请参阅此开源文档，欢迎共同完善和丰富它。
           link-3: 常见问题解答
-          link-3-description: 以下是一份Status社区中每个人常见的问题列表清单。
+          link-3-description: 以下是一份Status社区中每个人常见问题列表清单。
         create:
           title: 创建
           link-1: 创建非技术人员教程指南
-          link-1-description: 帮助新手设置他们的帐户并浏览状态应用和社区。联系我们以在博客上分享您的教程。
+          link-1-description: 帮助新手设置他们的帐户并浏览Status应用和社区。联系我们以在博客上分享您的教程。
           link-2: 创建技术教程
           link-2-description: 关于如何帮助开发人员编译构建Status，构建DApp，创建扩展件或您想要分享的任何其他内容。请联系我们。
           link-3: 写博客文章
@@ -224,19 +224,19 @@ site:
         link: '翻译 Status.'
       educator-resources:
         title: 教育者资源
-        link-1: 'Styleguide & 资产'
+        link-1: '样式&资源'
         link-1-description: 找到最新的样式指南，里面有相关的品牌资料、模版以及字体。
         link-2: 讨论
-        link-2-description: 加入Status所有内容的讨论
+        link-2-description: 加入关于Status所有内容的长篇讨论
         link-3: 教程
-        link-3-description: 了解如何构建一些东西或查看其他社区制作的教程的一些示例。
+        link-3-description: 了解如何构建或查看其他社区制作的示范教程。
         link-4: 博客
         link-4-description: 查看Status最近的新闻和更新
         link-5: Nightlies版
         link-5-description: 安装并测试最新的移动和桌面测试版本。
         link-6: 查看最新发行版的说明
         link-7: 查看活跃团队列表
-        link-8: 查看状态公共频道的完整列表
+        link-8: 查看Status公共频道的完整列表
       get-in-touch:
         join-statusphere:
           link: '加入#status'
@@ -282,7 +282,7 @@ site:
     security-at-status:
       title: 关于Status安全
       secure-inner-1:
-        title: 安全br>信息
+        title: 安全<br>信息
         description: 如果用户选择匿名，消息不会被审查、阻止，并确保匿名。只有预期的收件人才能查看消息，并且不会泄露元数据。
       secure-inner-2:
         title: 安全金融<br>交易
@@ -312,7 +312,7 @@ site:
         title: '我的私钥是如何存储的?'
         description-1: 'Status永远不会使用第三方服务来管理和存储您的公钥和私钥。一旦生成后，第一个BIP44密钥将以keystore json格式保存在设备本地。并且此文件使用您为Status帐户选择的密码进行加密，只能由Status应用访问。我们优先考虑将敏感信息存储在安全硬件中如果您的设备具备的话。'
         description-2: 为了增强安全，我们推出了keycard硬件钱包，可以用来对私钥进行离线冷存储、管理以及其他操作。
-        description-3: '有关 "密钥卡" 的详细信息,  请访问'
+        description-3: '有关keycard 的详细信息,  请访问%s'
       content-7:
         title: 安全浏览
         description: Status浏览器旨在让终端用户了解情况并确保其资金安全。默认情况下启用浏览器隐私模式。这意味着在连接到钱包之前，DApps将被要求获得许可，这可能会导致一些DApps中断（如果它们与此安全措施不兼容）。最后，Status浏览器实现了EIP712，旨在提高链下消息签名的可用性，以便在链上使用。我们看到越来越多地采用链下消息签名，因为它可以节省燃料费并减少区块链上的交易数量。当前签名的消息是向用户显示的是一串晦涩的十六进制字符串，其中小部分是关于构成消息的项目的上下文信息。
@@ -335,7 +335,7 @@ site:
         title: 安全支持
         description: '我们在这里提供帮助。如果您对安全性有任何问题或疑虑，请发送电子邮件至%s或通过Status Security 公共频道 %s 联系我们。'
       content-13:
-        title: bug赏金计划
+        title: Bug赏金计划
         description: '如果您是安全研究人员或开发人员并且想要报告漏洞，请联系%s了解Status Bug Bounty计划。我们还与HackerOne开展了一项活动，这是一个bug赏金计划，可以激励黑客查看项目。我们正在积极加强我们的隐私，并将很快公开披露！有关Bug Bounty计划的更多信息，请联系%s 。'
     protect-yourself:
       title: 保护你自己
@@ -382,9 +382,9 @@ site:
       description: 这些原则是引导我们如何思考、沟通、去中心化决策的工具，让我们诚实地认识到任何与我们愿景偏离的地方。
       principle-1:
         title: 自由
-        description: 我们相信个人自主权，作为代表个人自由的平台，我们致力于最大化个人在社会、政治和经济方面的自由，这也包括抗威权。
+        description: 我们相信个人自主权，作为代表个人自由的平台，我们致力于最大化个人在社会、政治和经济方面的自由，这也包括抗胁迫能力。
       principle-2:
-        title: 审查阻力
+        title: 抗审查
         description: 我们赋能信息的自由流通，没有内容是被监控的，我们遵守抗审查的加密经济设计理念，进一步让Status成为信息不可窥探的平台。
       principle-3:
         title: 安全
@@ -397,15 +397,15 @@ site:
         description: 我们努力在组织内部实现信息的完全开放和对称，并且我们的核心贡献者和社区之间没有边界。我们坦率地说明了我们的缺点，特别是在为我们的长期目标进行短期权衡时。
       principle-6:
         title: 开放性
-        description: '我们创建的软件是一种公益。它通过免费和开源许可证提供, 任何人都可以分享、修改和受益。我们相信没有许可的参与。'
+        description: '我们创建的软件是一种公益。它通过免费和开源许可证提供, 任何人都可以分享、修改和受益。我们相信无许可的参与。'
       principle-7:
         title: 分权
-        description: 我们致力于最小化软件和组织的中心化程度，换句话说，我们尽量最大化构成网络的物理计算机数量，最大化哪些能自主掌控所构建的系统的个体数量。
+        description: 我们致力于最小化软件和组织的中心化程度，换句话说，我们尽量最大化构成网络的物理计算机数量，最大化我们正在构建系统的能自主控制的个体数量。
       principle-8:
         title: 包容性
         description: 我们相信我们的软件能被广泛地接受，重点在易于使用，这也延申到社会包容、无许可参与、互操作性和对教育的投入等方面的努力。
       principle-9:
-        title: 继续
+        title: 可持续发展
         description: 我们通过软件本身来激励项目的持续成长和改进，并不依赖单个团队或现有团队的成员来管理。
       principle-10:
         title: 足智多谋
@@ -480,7 +480,7 @@ site:
         swarm-meta: Status网络
     core-contributors:
       title: 核心贡献者
-      description: Status并不是一个传统的组织，没有层级结构，也没有办公室和经理，只是为了某个共同的任务而在一起，然后大家可以自由地选择怎么做。
+      description: Status并不是一个传统的组织，没有层级结构，也没有办公室和经理，只是为了某个共同的任务而在一起，然后大家可以自由地选择工作方式。
       link-1: 加入我们。查看所有空缺职位
       link-2: 了解更多Status的生活
   snt:
@@ -529,7 +529,7 @@ site:
         status: 开发中
         description: '表情包贴纸为朋友、家人之间提供一种有趣的交流方式，Status内置的贴纸市场可以让任何人设计贴纸并销售给全世界的用户，贴纸可以在Status 聊天中使用。 <br> <br> SNT是用户从贴纸市场购买贴纸的必要支付方式。'
       tribute-to-talk:
-        title: 向谈话致敬
+        title: 致敬聊天
         status: 开发中
         description: '致敬聊天是基于经济人的理性来设计的反垃圾信息过滤机制，可以让Status 网络的用户设置一个最小SNT通证献礼数量，当陌生人想要联系她/他时必须敬献其所设定的最小数量的SNT通证作为礼金。'
       dao-governance:
@@ -545,13 +545,13 @@ site:
         title: 投票DApp
         status: 生活
         description: '作为社区治理的第一步，Status Voting DApp使利益相关者能够影响网络的未来。任何人都可以使用投票DApp用SNT建立社区投票。利用二次投票，钱包中的SNT数量决定了您可以投票的票数。'
-        link: '看看投 Voting DApp.'
+        link: 查看投票DApp.
       acquisition-engine:
         title: 采集引擎
         status: 研究
         description: '实现我们的使命最终需要完成一件事：大规模的终端用户使用。利用Status网络代币，我们可以设计在Web 2.0中经过试验和测试的增长机制，同时为参与者提供更高的透明度和更好的激励一致性。status获取引擎提供了一种可加密的可验证且透明的方法来增加用户群。'
     crypto-research:
-      title: Cryptoeconomic研究
+      title: 加密经济学研究
       description-1: 'Status团队正在研究每个SNT用例的加密经济模型，以便为产品和功能开发以及status网络激励提供信息。 <br> <br>这些加密经济模型是一项持续的研究工作，我们鼓励任何人探索，批评和审查这些工作。 <br> <br>这些模型根据使用情况，增长率，SNT供应和流通情况帮助预测SNT 实用功能的价值及其对status网络合并实用价值的影响。'
       link-1: '加入#token-economics'
       description-2: 加入公共频道并了解相关研究的更多信息
@@ -560,11 +560,11 @@ site:
     learn-more:
       title: 了解更多信息
       description: 许多SNT用例都在积极研究和开发中。加入公开讨论或阅读SNT常见问题解答以了解有关SNT用例和代币经济研究的更多信息。
-      link: '加入 #token 经济'
+      link: '加入公共频道 #token-economics'
     create-your-snt:
-      title: 创建自己的SNT财务模型
+      title: 创建自己的SNT金融模型
       description: '我们鼓励任何人参与进来, 测试工作簿中概述的经济模式。如果你是一名研究人员、经济学家, 或者只是对金融模型感到好奇, 请参与进来。'
-      link: 测试SNT币模型
+      link: 测试SNT代币经济模型
   get:
     mobile:
       title: 移动

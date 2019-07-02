@@ -5,8 +5,9 @@ author: Status
 timezone: UTC
 
 language:
-- en
-- ko
+  - en
+  - ko
+  - zh
 locale: en
 i18n:
   type: [page, post]

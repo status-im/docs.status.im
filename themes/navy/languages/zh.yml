@@ -2,105 +2,105 @@ site:
   home:
     intro:
       title: 隐私、安全的沟通
-      description: Status是一个使用最先进技术构建的信使，加密钱包和Web3浏览器。
+      description: Status是一个使用最先进技术构建的聊天软件，加密钱包和Web3浏览器。
       news: 新闻
     about:
       open-source:
         title: 开源项目
-        description: 'Status是完全开源的，由世界各地的贡献者制作。开发人员，设计人员，创作者，教育工作者，业余爱好者，爱好者等等 - 每个人都可以自由，开放地访问回购，资产和信息.'
+        description: 'Status是完全开源的，由世界各地的贡献者构建。包括开发者，设计员，创作者，教育工作者，爱好者等等在内 - 每个人都可以自由，开放地访问代码库，资产和信息.'
       mission:
         title: 使命和原则
         description: Status致力于成为一款安全的通讯工具，尊重人权，赋能社区货币，社区法律和隐私保护文化。
     decentralized:
       subtitle: 去中心化通信
-      title: 聊天，浏览，处理您的条款
+      title: 随心所欲的聊天，浏览和交易
       description: Status是一个集去中心化即时通讯、钱包以及DAPP浏览器为一体的私密、安全沟通工具。
-      link: 浏览所有功能
+      link: 了解所有功能
     private:
       subtitle: 保护隐私
-      title: 真正的私人消息
-      description: Status是基于Whisper点对点消息协议，使用端对端加密来保护通信不被第三方窃取，确保只有你自己才能看你的消息。
+      title: 真正的隐私消息
+      description: Status是基于耳语协议的点对点通讯协议，使用端对端加密来保护通信不被第三方窃取，确保发送给你的消息只有你自己可见。
     wallet:
       subtitle: 实现社区资金
       title: 安全加密钱包
-      description: 安全地发送、存储、接收数字资产包括ERC20以及ERC721数字通证，私钥掌握在你自己手里，钱包采用无服务端、直观的设计保护免受攻击。
+      description: 安全地发送、存储、接收数字资产包括ERC20以及部分ERC721数字代币，私钥掌握在你自己手中，钱包是无服务端的。直观的设计保护你免受攻击。
     browser:
       subtitle: 拥有你的数据
       title: 去中心化Web3浏览器
-      description: 用兼容Web3的浏览器在日益增长的去中心化应用中导航，可以免受追踪，比如浏览最新的市场、交易所、游戏等。
+      description: 用兼容Web3的浏览器在日益增长的去中心化应用中冲浪，可以免受追踪，比如浏览最新的市场、交易所、游戏等。
     security:
       title: 设计私密且安全
       description: Status运用先进的技术来确保您对消息以及转账的掌控，通过去掉中间服务来保证您的消息私密以及您的资产安全。
   features:
     intro:
-      title: 您口袋里的以太坊之窗
-      description: Status是一款多功能的通信工具即融合了P2P消息、去中心化加密货币钱包以及Web3浏览器于一体。
+      title: 你口袋里的以太坊
+      description: Status是一款融合了P2P消息、去中心化加密货币钱包以及Web3浏览器于一体的多功能通讯工具。
       link-messenger: 信使
       link-wallet: 加密钱包
       link-browser: 浏览器和DApps
     messenger:
       title: 安全信使
       feature-1:
-        title: 公共、私人和团体聊天
+        title: 公共、私人和群聊天
         description: 可以加入任意数量的公共频道，在1对1或群组中聊天，您还可以在私密聊天时发送和接收加密数字货币。
         link: 加入Status公共频道
       feature-2:
         title: 基于Whisper的私密消息
         description: Whisper使用P2P黑暗路由模式来确保任何人（包括我们）都不可能知道您发送消息的内容以及您和谁在通信，而且我们正继续对消息协议进行研发。
       feature-3:
-        title: '完美向前保密 & <br> E2E 加密'
+        title: '完美前向保密和端到端加密'
         description: 'Status基于Whisper消息协议采用‘Double Ratchet‘算法进行端到端加密确保高等级的安全与隐私。'
     wallet:
-      title: '集成 <br> 以太钱包'
+      title: '集成的以太钱包'
       feature-1:
         title: 安全钱包
-        description: '清除中介使您控制自己的资金。只有您的私密钥才能控制您的加密数字货币, 没有中间的人可以访问。'
+        description: '去掉中介，你完全控制自己的资金。有且只有你的私钥才能控制你的加密数字货币, 没有中间方可以访问你的钱包。'
       feature-2:
-        title: 'ERC20&ERC721兼容'
-        description: Status支持以太坊ERC20和ERC721类型通证的发送、存储、接收，可以通过下面的频道联系我们添加您自己的通证。
+        title: '兼容ERC20和ERC721'
+        description: Status支持以太坊ERC20和ERC721类型代币的发送、存储、接收，可以通过下面的频道联系我们添加你自己的代币。
         link: 加入Status钱包公共频道
       feature-3:
-        title: '与节点 & DApps交互'
-        description: Status钱包整合即时通信和浏览器，使您能够和DApps进行交互。所有交易都需要进行验证签名，以保护您免受网络钓鱼攻击。
+        title: '与节点和DApp交互'
+        description: Status钱包整合即时通信和浏览器，使你能够和DApp进行交互。所有交易都需要进行验证签名，以保护你免受网络钓鱼攻击。
     browser:
       title: Web3浏览器
       feature-1:
         title: 访问去中心化应用程序
-        description: 日益增长的DAPP生态，比如最新去中心化交易所、市场、游戏、社交网路等。
+        description: 日益增长的DAPP生态装进你的口袋，浏览最新去中心化交易所、市场、游戏、社交网络等。
         link: 安装Status
       feature-2:
-        title: 私密和安全<br>浏览
-        description: Status实施最新的安全标准，以确保您的安全，无需跟踪和数据收集。浏览您的条款。
+        title: 私密和安全地浏览
+        description: Status实施最新的安全标准，以确保你的安全，无需跟踪和数据收集。随心所欲的浏览。
       feature-3:
-        title: '将你的 DApp <br> 与Status一起扩展.'
-        description: 扩展件是开发者无缝集成他们自己的DAPP到Status中有效的方式，能获得本地应用的运行效果。
+        title: 'status扩展你的 DApp.'
+        description: 扩展是开发者将他们的DAPP无缝集成到Status中的有效方式，能获得原生应用的运行效果。
         link: 文档
     desktop:
-      title: 桌面
-      description: 安装桌面版alpha并在工作时享受安全和私密的消息。桌面应用与您的移动帐户同步，带来无缝体验。
+      title: Status桌面版
+      description: 安装桌面版alpha并在工作时享受安全和私密的消息。桌面应用与您的移动帐户同步可以带来无缝体验。
       link: 获取Status桌面程序
       announcement:
         title: 'Status 桌面版本仍处于测试版状态，欢迎帮助测试并构建它。'
         link: 桌面常见问题
     get:
       title: '获取Status '
-      description: '开始享受iOS，Android，MacOS，Windows和Linux上的Status 。'
+      description: '开始使用iOS，Android，MacOS，Windows和Linux上的Status 。'
       link: 下载应用
   get-involved:
     index:
       intro:
         title: 开源社区
-        description: '在这里, 您可以找到您需要了解的有关如何参与并为Status做出贡献的所有信息。无论您是开发人员、教育工作者、社区组织者还是热情的支持者, 您都可以为Status做出贡献。以下是让您入门的资源。'
+        description: '在这里, 你可以找到如何参与并为Status做出贡献的所有信息。无论你是开发人员、教育工作者、社区组织者还是热情的支持者, 你都可以为Status做出贡献。以下是你开始贡献所需要的资源。'
       resources:
         resource-1:
-          title: '开发 人员'
-          description: 'Status正在构建的免费和开源软件遵循Mozilla Public License v2.0许可协议。 <br> <br>所有不同背景，技能水平和兴趣的社区成员都可以参与贡献Status官方版本，也包括对Status资助的悬赏任务和针对新功能的社区驱动计划。'
+          title: '开发者'
+          description: 'Status正在构建的免费和开源软件遵循Mozilla Public License v2.0许可协议。 <br> <br>所有不同背景，技能水平和兴趣的社区成员都可以参与贡献Status官方发布版本，也包括对Status资助的悬赏任务和针对新功能的社区驱动计划。'
         resource-2:
           title: 教育工作者
           description: 'Status认为教育和友好的环境对于开源项目的成功非常重要。 <br> <br>我们欢迎任何人帮助教育他人如何编译Status，使用Status，在社区中分享他们自己的项目经验。'
         resource-3:
-          title: 社区团体
-          description: 'Status社区中已经有许多Status或社区创建的团队。 <br> <br>加入现有团队或根据您的个人兴趣创建自己的团队。人们在世界各地组织起来帮助促进和发展这个开源项目。'
+          title: 社区群组
+          description: 'Status社区中已经有许多Status或社区创建的群组。 <br> <br>加入现有群组或根据您的个人兴趣创建自己的群组。人们在世界各地组织起来帮助促进和发展Status开源项目。'
       contributors:
         title: 顶级社区贡献者
         link: '加入Status 团队。查看所有空缺职位'

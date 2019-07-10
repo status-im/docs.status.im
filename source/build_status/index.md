@@ -31,7 +31,7 @@ If you're on NixOS, please run the following to ensure you have the necessary pr
 nix-env --install git gnumake
 ```
 
-In order to work with status-react, you need to be inside a Nix shell. The makefile targets will make sure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands in a shell, you might want to start a dedicated Nix shell by running `make shell`.
+In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands in a shell, you might want to start a dedicated Nix shell by running `make shell`.
 
 The `make shell` script prepares and installs the following:
 
@@ -51,13 +51,13 @@ The `make shell` script prepares and installs the following:
 - unzip
 - wget
 
-*Note 1:* It can take up to 20 minutes depending on your machine and internet connection speed.
+*Note 1:* It can take up to 60 minutes depending on your machine and internet connection speed.
 
 *Note 2:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file.
 
 *Note 3:* An environment variable called `TARGET_OS` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `TARGET_OS=android make shell`. Most of the makefile targets already include a sensible default.
 
-*Note 4:* On macOS, the build environment is set up to rely on XCode 10.2.1. If you want to use an unsupported version, you'll need to edit the version in the [derivation.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
+*Note 4:* On macOS, the build environment is set up to rely on XCode 10.2.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
 
 ## Running development processes
 
@@ -149,6 +149,20 @@ E.g. if you want to check existing accounts in the device, run this function in 
 ### Inspecting current app state in re-frisk web UI
 
 Assuming re-frisk is running in port 4567, you can just navigate to http://localhost:4567/ in a web browser to monitor app state and events.
+
+## Updating dependencies
+
+### Desktop node dependencies
+
+Whenever the `desktop_files/yarn.lock` file changes, `make update-npm-nix` should be run in order to update the node2nix files at `nix/desktop/realm-node/output`.
+
+### Android Gradle Maven dependencies
+
+Whenever the Android project changes in terms of Gradle dependencies, `make update-gradle-nix` should be run in order to update `nix/mobile/android/maven-and-npm-deps/maven/maven-sources.nix`.
+
+### Leiningen Maven dependencies
+
+Whenever the Leiningen dependencies change, `make update-lein-nix` should be run in order to update `nix/lein/lein-project-deps.nix`.
 
 ## Troubleshooting
 

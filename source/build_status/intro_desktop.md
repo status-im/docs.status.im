@@ -15,7 +15,7 @@ There are 3 participants in react-native-desktop application:
 
 `Qt application` - built from a project in `desktop` folder. When runs it establishes communication with JS server and shows appropriate UI. 
 
-`Bundler` - this server runs on developer's machine and provides access to js files from the project. Also, it can generate "bundle" - single js file with all project code in it. Not needed for distribution. 
+`Bundler` - this server runs on developer's machine and provides access to js files from the project. Also, it can generate "bundle" - single js file with all project code in it. Not needed for distribution.
 
 `JS server` - provides a sandbox for running javascript project code. It communicates with Qt Application.
 

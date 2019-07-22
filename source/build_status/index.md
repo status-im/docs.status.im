@@ -3,7 +3,7 @@ id: index
 title: Build Status Yourself
 ---
 
-# #Buidl Status Yourself and Participate in a Better Web
+# Build Status Yourself and Participate in a Better Web
 
 ## The easiest way
 
@@ -130,11 +130,15 @@ Check the following docs if you still have problems:
 
 ### Building and using forks of status-go
 
-If you need to use a branch of a status-go fork as a dependency of status-react, you can have the scripts build it by following this process:
+If you need to use a branch of a status-go fork as a dependency of status-react, you can have the scripts build it.
 
-1. Change the contents of the `STATUS_GO_OWNER` file at the root of the project to contain the name of the owner of your GitHub status-go fork;
-1. From the root of the status-react repo, run `scripts/update-status-go.sh <branch-name>`, where `branch-name` is the name of the branch you want to build;
-1. If you are inside an Nix shell, make sure you exit it before starting a new build, so that the new dependency is taken into account.
+1. Make sure you are in the root of the `status-react` repo and start a Nix shell using `make shell`.
+1. Run `scripts/update-status-go.sh <rev>`, where `rev` is a branch name, tag, or commit SHA1 you want to build.
+1. Exit the shell in order to make sure Nix notices the version change.
+
+The script will save the indicated commit hash along with other information in the `status-go-version.json` file.
+
+If you are using a GitHub fork of `status-go` repo export the `STATUS_GO_OWNER` environment variable when running the script.
 
 ## Debugging tips
 
@@ -154,7 +158,7 @@ Assuming re-frisk is running in port 4567, you can just navigate to http://local
 
 ### Desktop node dependencies
 
-Whenever the `desktop_files/yarn.lock` file changes, `make update-npm-nix` should be run in order to update the node2nix files at `nix/desktop/realm-node/output`.
+Whenever the `desktop_files/yarn.lock` file changes, `make update-npm-nix` should be run in order to update the [`node2nix`](https://github.com/svanderburg/node2nix) files at `nix/desktop/realm-node/output`.
 
 ### Android Gradle Maven dependencies
 
@@ -188,4 +192,4 @@ cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd ../..
 cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh && cd ../../../../
 ```
 
-Now you should be able to compile again. The issue reference is [here](ttps://github.com/facebook/react-native/issues/21168#issuecomment-422431294).
+Now you should be able to compile again. The issue reference is [here](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294).

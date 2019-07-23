@@ -52,8 +52,8 @@ If you need more control, you will need to provide a JSON file with a custom con
 
 For example, if you'd like to expose HTTP and IPC interfaces, you need to create a JSON file:
 
-```bash
-# file located at ./development.json
+#### `./development.json`
+```json
 {
     "HTTPEnabled": true,
     "IPCEnabled": true
@@ -80,13 +80,12 @@ $ docker run --rm statusteam/status-go:0.16.0
 
 Let's see a more advanced option with a custom config. First, you need to create a file with a custom config:
 
+#### `http-enabled.json`
 ```json
-# this file is named http-enabled.json and
-# created in the current working directory
 {
-	"HTTPEnabled": true,
-	"HTTPHost": "0.0.0.0",
-	"APIModules": "admin,debug"
+    "HTTPEnabled": true,
+    "HTTPHost": "0.0.0.0",
+    "APIModules": "admin,debug"
 }
 ```
 
@@ -123,12 +122,12 @@ In order to run a regular Whisper node that can be found by other nodes and adde
 $ ./build/bin/statusd -register
 ```
 
-> `-register` populates `RegisterTopics` setting in the config. The equivalent is:
-> ```json
-> {
->     "RegisterTopics": ["whisper"]
-> }
-> ```
+The `-register` flag populates `RegisterTopics` setting in the config. The config equivalent is:
+```json
+{
+    "RegisterTopics": ["whisper"]
+}
+```
 
 ### Mail Server
 
@@ -138,24 +137,24 @@ In order to run a regular Whisper node that can be found by other nodes and adde
 $ ./build/bin/statusd -register -mailserver
 ```
 
-> `-mailserver` is a shortcut that loads the following [JSON config](https://github.com/status-im/status-go/blob/develop/config/cli/mailserver-enabled.json):
-> ```json
-> {
->     "WhisperConfig": {
->         "Enabled": true,
->         "EnableNTPSync": true,
->         "EnableMailServer": true,
->         "MailServerPassword": "status-offline-inbox"
->     }
-> }
-> ```
+The `-mailserver` flag is equivalent to the following [JSON config](https://github.com/status-im/status-go/blob/develop/config/cli/mailserver-enabled.json):
+```json
+{
+    "WhisperConfig": {
+        "Enabled": true,
+        "EnableNTPSync": true,
+        "EnableMailServer": true,
+        "MailServerPassword": "status-offline-inbox"
+    }
+}
+```
 
-> `-register` populates `RegisterTopics` setting in the config. Together with `-mailserver`, the equivalent is:
-> ```json
-> {
->     "RegisterTopics": ["whispermail"]
-> }
-> ```
+The `-register` flag populates `RegisterTopics` setting in the config. Together with `-mailserver`, and is equivalent to:
+```json
+{
+    "RegisterTopics": ["whispermail"]
+}
+```
 
 ## Tutorial
 

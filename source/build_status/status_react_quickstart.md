@@ -111,5 +111,5 @@ If for any reason you need to completely clean up Status, go to `~/Library/Appli
 You can also purge / clean up Nix by running the command:
 
 ```
-make nix-purger
+make nix-purge
 ```

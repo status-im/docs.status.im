@@ -18,6 +18,10 @@ Status-react is where most of what might traditionally be called the “frontend
 
 Status-react is actually written in Clojure &amp; ClojureScript, which is a Lisp-like language that can be compiled down to React Native, so that we only have to maintain one codebase for Android, iOS and our desktop app.
 
+Clojure / CLJS is one of the most performant frontend tools around; enabling the greatest productivity, with the fewest lines of code. However, a lot of that is lost in the compilation down to React Native, so what are our real motivations?
+
+With Clojure you get a complete separation of functions and data. This means we can do amazing things in Status extensions that allow developers a lot of access to different parts of the data, that now lives client side in decentralised networks, without compromising on the security of our users.
+
 The goal of this tutorial is to get someone new to Status-react to the point where they can evaluate expressions in-line in their editor. Inline evaluation is one of the things that makes Clojure both fun and powerful.
 
 What follows is the definitive account of how to get to that “aha” moment, specifically for the **iOS dev build of Status-react**.  With this built, you can start contributing as soon as you wish!  
@@ -26,29 +30,13 @@ What follows is the definitive account of how to get to that “aha” moment, s
 
 
 
-# Installing Clojure &amp; CLJS
-
-Clojure / CLJS is one of the most performant frontend tools around; enabling the greatest productivity, with the fewest lines of code. However, a lot of that is lost in the compilation down to React Native, so what are our real motivations?
-
-With Clojure you get a complete separation of functions and data. This means we can do amazing things in Status extensions that allow developers a lot of access to different parts of the data, that now lives client side in decentralised networks, without compromising on the security of our users.
+# Initial Setup
 
 With this quick start guide being for the iOS dev build, we're assuming that you are Mac based.  **For guides on building Status-react on Ubuntu, [you can see here.](https://status.im/guides/desktop_inline_eval.html)**
 
 The first requirement is XCode.  If you do not wish to install it from the Mac App store, there is a great guide on installing XCode and the XCode Dev Toolkit via command line, [here.](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/)
 
-The above guide also explains installing Homebrew.  If you don't wish to read that, simply run:
-
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-With Homebrew installed, you can now install Clojure by running:
-
-``` 
-brew install clojure 
-```
-
-Now, with Clojure installed, we can get on with the main building of Status-react and start contributing in earnest!
+Now, with XCode / Dev Toolkit installed, we can get on with the main building of Status-react and start contributing in earnest!
 
 
 

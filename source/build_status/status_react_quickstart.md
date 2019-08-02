@@ -104,6 +104,12 @@ As mentioned above, our Makefiles loaded up a re-frisk instance for us, to aid d
 ![re-frisk-monitoring.png](./img/re-frisk-monitoring.png)
 
 
-# Re-installing &amp; Cleaning Up
+# Re-installing & Cleaning Up
 
 If for any reason you need to completely clean up Status, go to `~/Library/Application Support/` and delete any `Status` directories. Delete the app in `/Application`. Then you are ready to reinstall.
+
+You can also purge / clean up Nix by running the command:
+
+```
+make nix-purger
+```

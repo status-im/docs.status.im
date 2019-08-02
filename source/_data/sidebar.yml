@@ -34,6 +34,7 @@ docs:
     desktop_troubleshooting: desktop_troubleshooting.html (Desktop Troubleshooting)
     desktop_google_breakpad: desktop_google_breakpad.html (Google Breakpad Integration)
     desktop_jenkins: desktop_jenkins.html (Jenkins Setup)
+    status_react_quickstart: status_react_quickstart.html (Status-React Quick Start)
   tutorials:
     whisper_basic_cli: whisper_basic_cli.html
     whisper_embark: whisper_embark.html
@@ -116,7 +117,7 @@ docs:
     contribute: index.html (Contribute)
     perks_benefits: perks_benefits.html (Perks & Benefits)
     applying_to_status: applying_to_status.html (Applying to Status)
-    open_positions: open_positions.html 
+    open_positions: open_positions.html
     applicant_privacy: applicant_privacy.html
     statusphere: statusphere.html
     our_principles: our_principles.html

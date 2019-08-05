@@ -8,6 +8,8 @@ language:
   - en
   - ko
   - zh
+  - ru
+  - fr
 locale: en
 i18n:
   type: [page, post]

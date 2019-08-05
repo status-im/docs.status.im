@@ -7,3 +7,9 @@ ko:
 zh:
   short: zh
   long: 中文
+ru:
+  short: ru
+  long: Русский
+fr:
+  short: fr
+  long: Français

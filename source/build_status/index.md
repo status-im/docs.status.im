@@ -31,9 +31,9 @@ If you're on NixOS, please run the following to ensure you have the necessary pr
 nix-env --install git gnumake
 ```
 
-In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands in a shell, you might want to start a dedicated Nix shell by running `make shell`.
+In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands in a shell, you might want to start a dedicated Nix shell by running `make shell TARGET_OS=android` (or using other `TARGET_OS`).
 
-The `make shell` script prepares and installs the following:
+The `make shell TARGET_OS=<os>` script prepares and installs the following:
 
 - Java 8
 - Clojure and Leiningen
@@ -55,7 +55,7 @@ The `make shell` script prepares and installs the following:
 
 *Note 2:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file.
 
-*Note 3:* An environment variable called `TARGET_OS` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `TARGET_OS=android make shell`. Most of the makefile targets already include a sensible default.
+*Note 3:* An environment variable called `TARGET_OS` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `make shell TARGET_OS=android`. Most of the makefile targets already include a sensible default.
 
 *Note 4:* On macOS, the build environment is set up to rely on XCode 10.2.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
 
@@ -132,7 +132,7 @@ Check the following docs if you still have problems:
 
 If you need to use a branch of a status-go fork as a dependency of status-react, you can have the scripts build it.
 
-1. Make sure you are in the root of the `status-react` repo and start a Nix shell using `make shell`.
+1. Make sure you are in the root of the `status-react` repo and start a Nix shell using `make shell TARGET_OS=android`.
 1. Run `scripts/update-status-go.sh <rev>`, where `rev` is a branch name, tag, or commit SHA1 you want to build.
 1. Exit the shell in order to make sure Nix notices the version change.
 

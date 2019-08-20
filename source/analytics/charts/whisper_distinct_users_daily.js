@@ -1,2 +1,0 @@
-var series1 = { type: "scatter", mode: "lines", name: "Whisper Users (Public Channels)", x: ["2018-10-06T23:31:37", "2018-10-07T23:31:37", "2018-10-08T23:31:37", "2018-10-09T23:31:37", "2018-10-10T23:31:37", "2018-10-11T23:31:37", "2018-10-12T23:31:37", "2018-10-13T23:31:37", "2018-10-14T23:31:37", "2018-10-15T23:31:37"], y: ["20", "29", "49", "58", "48", "3", "3", "3", "3", "3"], line: {color: "#17BECF"}}
-Plotly.newPlot("whisper-distinct-users-daily", [series1], {title: "Status.im Daily Whisper Users (Public Channels)"});

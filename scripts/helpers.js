@@ -96,7 +96,7 @@ hexo.extend.helper.register('sidebar', function(type) {
         if(path == 'docs/index.html'){
           result += '<li><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
         }else{
-          result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
+          result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + 'docs/technical_documentation.html">' + title + '</a>';
         }
       }else{
         result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/">' + title + '</a>';

@@ -10,7 +10,6 @@ docs:
     keycard_api: ../keycard_api/ (Keycard API)
     tutorials: ../tutorials/ (Tutorials)
     guides: ../guides/ (Start Contributing)
-    analytics_status: ../analytics/ (Analysing Status)
     mobile_release_schedule: ../mobile-release-schedule/ (Schedule)
   developer_tools:
     developer_tools: / (Developer Tools)
@@ -88,6 +87,7 @@ docs:
     nimbus: https://nimbus.status.im/ (Nimbus)
     basic_cli: ../tutorials/whisper_basic_cli.html (Whisper In Your CLI)
     whisper_embark: ../tutorials/whisper_embark.html (Whisper with Embark)
+    status_analytics: https://analytics.status.im/ (Status Analytics)
   security:
     sec_matters: sec_matters.html (Security)
     sec_threat_modeling: sec_threat_modeling.html (Threat Modeling)
@@ -105,14 +105,6 @@ docs:
     pm_guide: pm_guide.html (Product Manager's Guide)
     desktop_inline_eval: desktop_inline_eval.html (Desktop Clojure and Inline-Eval)
     security_month: security_month.html
-  analytics:
-    analytics: index.html (Analytics)
-    app_downloads: app_downloads.html
-    messages: messages.html (Whisper Messages)
-    ens_registration: ens_registration.html (ENS Registration)
-    crypto_oss: crypto_oss.html (Crypto OSS)
-    oss: oss.html (Regular OSS)
-    run_it_yourself: run_it_yourself.html (Run Our Analytics Yourself)
   contribute:
     contribute: index.html (Contribute)
     perks_benefits: perks_benefits.html (Perks & Benefits)

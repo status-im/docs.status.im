@@ -5,13 +5,7 @@ title: Getting Started
 
 # Preparing the card
 
-If you got a Keycard and you are integrating it in your project, you will most likely want to reset the applet status completely for testing purposes. This is done by reinstalling the applet, which can be accomplished using the [Keycard CLI](https://github.com/status-im/keycard-cli).
-
-Upgrading the applet is also accomplished with the installer and also involves deleting the current version. The latest version of the installer always ships with the latest version of the applet.
-
-The installer has a simple interface, when you open it, you see a white screen and a few buttons. Select the operation you want to perform, then bring the card near to the NFC reader of your phone and wait until the operation is complete. Make sure NFC is turned on.
-
-There are two operations used to install the applet. One is "Install Secure", which installs the applet without sending the INIT command, so the installed applet is not initialized. The other option is "Install with test PIN/PUK". This installs the applet and sets PIN to "000000", PUK to "123456789012" and Pairing Password to "KeycardTest". This second option is useful if you want to quickly test interaction without having to initialize the card in your application.
+If you got a Keycard and you are integrating it in your project, you will most likely want to reset the applet status completely for testing purposes. This is done by reinstalling the applet, which can be accomplished using the [Keycard CLI](https://github.com/status-im/keycard-cli). To use  the Keycard CLI, a USB reader is needed to be able to communicate with the card.
 
 ## Card requirements
 

@@ -90,15 +90,6 @@ employees:
     customStatusPublicKey: '0x043f67bb74fc64142f6cbb49f122d6a7e0fb0d0d287d29c664c7e79707f4bfadf229afea9d0db4847f8c866443e31bea6fcb919ff8ee83608b5948ffb9c7ceecc8'
     customGitHubusername: annadanchenko
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=c77bb8a4b172f4de87a39dd55a4f6f7b'
-  - id: '35'
-    displayName: Anton Danchenko
-    firstName: Anton
-    lastName: Danchenko
-    jobTitle: Automation Engineer (Testing)
-    workEmail: anton@status.im
-    customStatusPublicKey: '0x04b54eaee4fdf46c1f5411187a3b4cc0d38e5d66d49d9999fc4a452b959bf00d505217ccf475d1bf75ab5bd9f4d42519ed7401d94315f6679f8e70ee423ea34f7f'
-    customGitHubusername: antdanchenko
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=49a6473037693023f45c5a85394b4a3b'
   - id: '153'
     displayName: Kim De Mey
     firstName: Kim
@@ -126,20 +117,11 @@ employees:
     customStatusPublicKey: '0x04f3d274514abcecd623a80325a37e3f6f7c48a17148702619079ec4a07d53c956dc0b1fcf67306c6d8cd60378abca878783c72fcaf538255499c0f549e1d4448d'
     customGitHubusername: decanus
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=76bd572f67ec05202b2a58a7e8b7b797'
-  - id: '14'
-    displayName: Julien Eluard
-    firstName: Julien
-    lastName: Eluard
-    jobTitle: Clojure Programmer
-    workEmail: julien@status.im
-    customStatusPublicKey: '0x046fa4851f3cccd01e3b8d96c130c00bf812502354939eacf06a68fa519ebcbd1feb08bebe7403856c0d9686210b9b2e324aa0179747bbba56d53f304a002f31c3'
-    customGitHubusername: jeluard
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d4f7ecf9ea9e825083fdfcc358f11f51'
   - id: '37'
     displayName: Jason Foote
     firstName: Jason
     lastName: Foote
-    jobTitle: HR Assistant
+    jobTitle: Finance
     workEmail: jason.foote@status.im
     customStatusPublicKey: '0x043bf542bfa92fc55ef6154b4708911a2b84190e934a024bbef16f13938cec4d94e948dfced57d972b47d8cdaaf9d2a4c62ede281cf44ec59b9485f4b15eb4abf9'
     customGitHubusername: null
@@ -225,15 +207,6 @@ employees:
     customStatusPublicKey: '0x048cb499b5d77deebf9ad064878dafeb90df81e8cc6baeba8c97c89f849baf6a7eac07be2ee89e0a863cdece3d6b7847ee3f20b9c3a0a50d90a131e6bce3de185a'
     customGitHubusername: jinhojang6
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=9e415c891f63068cdf9742e9ec53b662'
-  - id: '26'
-    displayName: Goran Jovic
-    firstName: Goran
-    lastName: Jovic
-    jobTitle: Clojure Programmer
-    workEmail: goran@status.im
-    customStatusPublicKey: '0x0433d71ffc16fdde2b36924d8786f50207130182d2ed592fc4de0ec92a9014a38377ae3e6b47cf604857e8b79254cf871e57b172c188687b44378b5ef6319ddbd5'
-    customGitHubusername: goranjovic
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=99351002d17a3046b3a65232dfb2349e'
   - id: '97'
     displayName: Yevhen Kabanov
     firstName: Yevhen
@@ -261,6 +234,15 @@ employees:
     customStatusPublicKey: '0x04e92d8235d3d82c0981ad09965a6543c14c0d995ec7c13bdf5b60437d4db0a3937108a3d6bc5c9832dfe6baa4027e6537ed8802c50e982a29abcdfca445cba473'
     customGitHubusername: vkjr
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=57197c2aefe6eb3f4983570fbc607f7f'
+  - id: '158'
+    displayName: Andri Lim
+    firstName: Andri
+    lastName: Lim
+    jobTitle: Nim Developer
+    workEmail: andri@status.im
+    customStatusPublicKey: '0x0429485212cab4b718103008e4e22ccf055aef1cfcf624adadaadcbb945d3f01913aa2a5902761acf993d393d1c1f253804d0779dbc76d9ec7f7dc400524631ab4'
+    customGitHubusername: jangko
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=6d79be311d5eab53f4c5191957d7f983'
   - id: '89'
     displayName: Richard Roy López
     firstName: Richard Roy
@@ -270,20 +252,11 @@ employees:
     customStatusPublicKey: '0x0441ccda1563d69ac6b2e53718973c4e7280b4a5d8b3a09bb8bce9ebc5f082778243f1a04ec1f7995660482ca4b966ab0044566141ca48d7cdef8b7375cd5b7af5'
     customGitHubusername: richard-ramos
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=379659687ebf88f25ecacafb2d507e38'
-  - id: '69'
-    displayName: Igor Mandrigin
-    firstName: Igor
-    lastName: Mandrigin
-    jobTitle: Go Programmer
-    workEmail: igor@status.im
-    customStatusPublicKey: '0x048ffc068906fafcaf3f0fd0109c12d29c64a917ced68b5903a4ee83a2d38a5a08975f02a55ba880e187cfe1eb7f9f601a19e2d7f386778cb8923bac68ccd725a5'
-    customGitHubusername: mandrigin
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=08acb2e415b7a3af48b1b19afef9cec7'
   - id: '110'
     displayName: Daniel Marfurt
     firstName: Daniel
     lastName: Marfurt
-    jobTitle: Manager in Finance and Operations
+    jobTitle: Head of Finance
     workEmail: daniel@status.im
     customStatusPublicKey: '0x04b89a9e96101a324707b39307ed77489110cc6018753cd20f7e29839fc5f9d4cd56ef39ac43a30ad90c965f1da2db99cc79993ed7397f541ba46d34b3dc2b8bc3'
     customGitHubusername: DanBigM
@@ -304,7 +277,7 @@ employees:
     jobTitle: Software Developer
     workEmail: iuri@status.im
     customStatusPublicKey: '0x04fef66d2f47aca7eb3198187c19c79bea2b250e8bf8432f021a5835e28aa43c7dba36e8fa8708ad0ede9fe5308bce3b9577ca0217f5340ef56fa493ccd231f977'
-    customGitHubusername: null
+    customGitHubusername: iurimatias
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=cf28a157ea3d723243f49600e9ac0b71'
   - id: '120'
     displayName: André Filipe Medeiros
@@ -328,7 +301,7 @@ employees:
     displayName: Ben Morris
     firstName: Ben
     lastName: Morris
-    jobTitle: Head of Status Incubate
+    jobTitle: Head of Business Development and Strategy
     workEmail: ben@status.im
     customStatusPublicKey: '0x04a10f9b6031f71d31fb722415f2067f62f99bac0230c19900b56e02ec3bdf25cb9c290db240aed8946e94dc81000eebe0b8ba4fd17572914e4e35f238e67b317a'
     customGitHubusername: benhmorris
@@ -351,6 +324,15 @@ employees:
     customStatusPublicKey: '0x04e9f5fc19e3d0dfeb22a986a4134fa30b9d2e5d4131077c0195cb06ffe0719133ac9e1bf9115d2fe816ba0b5b51d679d56a29b3ff295c41fee7bd2eda4aa665e9'
     customGitHubusername: dmitryn
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=24155669605bfa30e8fc11f68e51d1ac'
+  - id: '156'
+    displayName: Robin Percy
+    firstName: Robin
+    lastName: Percy
+    jobTitle: Technical Writer / Developer Advocate
+    workEmail: robin@status.im
+    customStatusPublicKey: '0x048cdab647fc1d2e7ad3e2d68c6cd10aa8331c36e10e27035934ec07ad311fce5695d02767d4889352d4951dbcc273131fbd996d0766122e14ae04104ec4f29633'
+    customGitHubusername: rbnpercy
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d007057eef67ca520e7759aa49585c47'
   - id: '132'
     displayName: Corey Petty
     firstName: Corey
@@ -367,7 +349,7 @@ employees:
     jobTitle: Clojure Programmer
     workEmail: andreap@status.im
     customStatusPublicKey: '0x0424a68f89ba5fcd5e0640c1e1f591d561fa4125ca4e2a43592bc4123eca10ce064e522c254bb83079ba404327f6eafc01ec90a1444331fe769d3f3a7f90b0dde1'
-    customGitHubusername: null
+    customGitHubusername: cammellos
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=4f643ff2e520e1b103a3c81fe6d4267c'
   - id: '76'
     displayName: Pedro Pombeiro
@@ -396,15 +378,6 @@ employees:
     customStatusPublicKey: '0x04f34d0a6dc119d4ac206229fea42cdf4b2d6537d5992545660fc2f68f5ccc207a512b168546c1dd893112e3ea829cd26f173ff710626f9eb323c0bac5c79c7987'
     customGitHubusername: PascalPrecht
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=a8b716db2dfda6ab3683805b4cb639f2'
-  - id: '145'
-    displayName: Sonja Prstec
-    firstName: Sonja
-    lastName: Prstec
-    jobTitle: Senior Legal Counsel
-    workEmail: sonja@status.im
-    customStatusPublicKey: '0x04e11734c33f145d0c7f331e2d840cb7944335d270a47e660f9a3a02a31b76d0afd43554dfab153e80f995cfbc4c97c1e2f81f0c34f232a058c56fed81e94c62ef'
-    customGitHubusername: sonyx6
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=b1cb36b888b0e02ca9ef187076380c18'
   - id: '104'
     displayName: Jonathan Rainville
     firstName: Jonathan
@@ -423,6 +396,24 @@ employees:
     customStatusPublicKey: '0x040b120403d77718a614fcb79f6dee7b164f151692483c2fd06838ed8fba8088786ec1e7b01374b9e86deec5157f1225bb187b79db60d965082cf798d563d7ef07'
     customGitHubusername: mratsim
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=89634367f4899f1dbfe8408100b031fd'
+  - id: '155'
+    displayName: Šimon Rico
+    firstName: Šimon
+    lastName: Rico
+    jobTitle: Product Design
+    workEmail: simon@status.im
+    customStatusPublicKey: '0x04d0ab203695786ccba74f358283e0cfbb5295289099a478cd8afd2c082f9c7034930f48fa5ebbcd2b4c5b5b26c550871607b3cd2e244a502f0466ceed8be755ce'
+    customGitHubusername: simonricoo
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=24a58ea7e17d351e3df0b8892b5e0de2'
+  - id: '157'
+    displayName: Dmitriy Ryajov
+    firstName: Dmitriy
+    lastName: Ryajov
+    jobTitle: Nim Developer
+    workEmail: dmitry.ryajov@status.im
+    customStatusPublicKey: null
+    customGitHubusername: dryajov
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=dedbe5417b0c64ff55fe1241fbc52b9e'
   - id: '19'
     displayName: Ricardo Schmidt
     firstName: Ricardo
@@ -481,7 +472,7 @@ employees:
     displayName: Jakub Sokołowski
     firstName: Jakub
     lastName: Sokołowski
-    jobTitle: DevOps
+    jobTitle: Senior DevOps
     workEmail: jakub@status.im
     customStatusPublicKey: '0x042629a27c72bff4017dc8720e583dc5e39f229e13001c6f30fe722b9214d8ef869db4e0ac40c61456a22ca8868eeeb51e88119d4e8447cd4cc0045f3209cf43ed'
     customGitHubusername: jakubgs
@@ -511,7 +502,7 @@ employees:
     jobTitle: Community Organizer
     workEmail: andy@status.im
     customStatusPublicKey: '0x04746b0ef947f202c2d13d6be8acda86f81157f654d58efa2828c885c605d8b35674cb62072f51251f98651853a31d01cbe758bfa0d2ef6d6305f554e76c374c92'
-    customGitHubusername: null
+    customGitHubusername: andytudhope
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=55a20e9ba1e29e95f924d68e2671b3f6'
   - id: '71'
     displayName: Vitaliy Vlasov

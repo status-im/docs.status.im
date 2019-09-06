@@ -649,6 +649,7 @@ site:
       nimbus: 님버스
       keycard: 키카드
     connect: '소셜 미디어'
+    site-analytics: "웹 사이트 분석"
     privacy-policy:
       title: '개인정보 보호 정책'
       description: '스테이터스 연구 개발 GmbH, Baarerstrasse 10, Zug, Switzerland'

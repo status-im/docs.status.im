@@ -641,8 +641,10 @@ site:
       nimbus: "Nimbus"
       keycard: "Keycard"
     connect: "Connect"
+    site-analytics: "Site Analytics"
     privacy-policy:
       title: "Privacy Policy"
+
       description: "Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland"
   link:
     get-status: "Get Status"

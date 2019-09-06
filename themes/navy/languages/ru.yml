@@ -649,6 +649,7 @@ site:
       nimbus: Nimbus
       keycard: Keycard
     connect: Подключиться
+    site-analytics: "Аналитика cайта"
     privacy-policy:
       title: 'Политика конфиденциальности'
       description: 'Status Research & Development GmbH, Baarerstrasse 10, Цуг, Швейцария.'

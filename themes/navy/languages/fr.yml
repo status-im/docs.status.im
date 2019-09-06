@@ -649,6 +649,7 @@ site:
       nimbus: Nimbus
       keycard: 'Carte d´accès'
     connect: Connectez-vous
+    site-analytics: "Analyse de site"
     privacy-policy:
       title: 'Politique de confidentialité'
       description: 'Status Research & Development GmbH, Baarerstrasse 10, Zug, Suisse'

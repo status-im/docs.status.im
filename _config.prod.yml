@@ -52,6 +52,9 @@ elasticsearch:
   esHost: 'search.status.im'
   esPort: 443
 
+# ID for Fathom Analytics
+fathom_site_id: 'BMGJI'
+
 math:
   engine: 'mathjax' # or 'katex'
   mathjax:

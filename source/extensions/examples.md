@@ -21,7 +21,7 @@ Weasel (one of EthSingapore winner) ([Modify](https://extensions.status.im/?hash
 
 Aragon integration (one of EthSingapore winner) ([Modify](https://extensions.status.im/?hash=QmeEGtHHBn8p11gjCWPh1EzNaojNtDzLqWCdN2XE3auJDV), [Install](https://get.status.im/extension/ipfs@QmeEGtHHBn8p11gjCWPh1EzNaojNtDzLqWCdN2XE3auJDV))
 
-Send red envelope(also named Send red packet) ([Modify](https://extensions.status.im/?hash=QmY2zxE3qXcVWFXadtXNHAfJz94qpHtYcfnCrwnLr7BQJT), [Install](https://get.status.im/extension/ipfs@QmY2zxE3qXcVWFXadtXNHAfJz94qpHtYcfnCrwnLr7BQJT))
+Send red envelope(also named 'Send red packet') ([Modify](https://extensions.status.im/?hash=QmY2zxE3qXcVWFXadtXNHAfJz94qpHtYcfnCrwnLr7BQJT), [Install](https://get.status.im/extension/ipfs@QmY2zxE3qXcVWFXadtXNHAfJz94qpHtYcfnCrwnLr7BQJT))
 
 # Wallet settings
 

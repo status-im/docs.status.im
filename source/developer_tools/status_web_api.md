@@ -15,7 +15,7 @@ When [Status is the host browser](https://docs.status.im/docs/status_optimized.h
 
 #### Example implementation
 
-```JavaScript
+``` js
 window.ethereum.status
  .getContactCode()
  .then(data => {
@@ -30,7 +30,7 @@ window.ethereum.status
 
 #### Example implementation
 
-```JavaScript
+``` js
 window.ethereum.status.installExtension("https://get.status.im/extension/ipfs@Qmb1B3jXNdc9WZCcWFzpkTXtrurnKxYQFvUDhp2J4SVCCX")
 ```
 
@@ -44,7 +44,7 @@ Status also implements a number of APIs standardized by EIPs.
 
 #### Example
 
-```JavaScript
+``` js
 window.ethereum
  .scanQRCode()
  .then(data => {

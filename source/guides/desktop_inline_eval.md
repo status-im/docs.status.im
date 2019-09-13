@@ -25,13 +25,14 @@ What follows is a layman’s account of how to get to that “aha” moment, spe
 The offical instructions for building status-desktop are [here](../build_status/desktop.html) Go check them out: they’re great! You'll see that the “big 4” commands you need run at any one time are:
 
 ```bash
-npm start
-node ubuntu-server
+make react-native-desktop
+make desktop-server
 make watch-desktop
-react-native run-desktop
+make run-desktop
 ```
 
-For the purposes of understanding the repl and eventually getting inline-eval working, the remainder of this post will focus on the third step: `make watch-desktop`. Under the hood it runs:
+For the purposes of understanding the repl and eventually getting inline-eval working, the remainder of this post will focus on the first step: `make startdev-desktop`. Under the hood it runs:
+
 ```bash
 clj -R:dev build.clj watch --platform desktop
 ```
@@ -50,7 +51,7 @@ One final side effect of this command worth noting is that it starts nrepl on a 
 
 ## Part 3: Connecting The Caves
 
-Working with a clojure repl can be an enjoyable experience, but something about a clojure nrepl feels daunting. Most ignore the `n`, until one day they realise that `n` just stands for `network`, making nrepl the network repl. It comes with a client and a server. When we run `make watch-desktop`, figwheel starts an nrepl server on port `7888` and a first client of that server right in your terminal. 
+Working with a clojure repl can be an enjoyable experience, but something about a clojure nrepl feels daunting. Most ignore the `n`, until one day they realise that `n` just stands for `network`, making nrepl the network repl. It comes with a client and a server. When we run `make watch-desktop`, figwheel starts an nrepl server on port `7888` and a first client of that server right in your terminal.
 
 The goal of this exercise is now to connect a second client from your editor.
 
@@ -83,10 +84,10 @@ Our [build docs](https://status.im/build_status/desktop.html) offers another gre
 So, in order to run status-react, follow along via all the init steps outlined [here](https://status.im/build_status/desktop.html) and run “the big 4”, which are:
 
 ```bash
-npm start
-node ubuntu-server
+make react-native-desktop
+make desktop-server
 make watch-desktop
-react-native run-desktop
+make run-desktop
 ```
 
 Finally, open emacs and evaluate the elisp code in the manner agreeable to you. Then, at long last, you can open an arbitrary clojurescript file, and evaulate any expression to your heart’s content. Happy coding.

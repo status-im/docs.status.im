@@ -2,6 +2,7 @@
 id: access_eth_provider
 title: Accessing an Ethereum Provider
 ---
+
 # The Decentralized Web Awaits You...
 
 The pattern of full provider auto-injection followed by the previous generation of Ethereum-enabled DOM environments fails to protect user privacy and fails to ensure a safe user experience: untrusted websites can both view account information and arbitrarily initiate transactions on a user's behalf. Even though most users may reject unsolicited transactions on untrusted websites, a protocol for provider exposure should make such unsolicited requests impossible.
@@ -14,13 +15,17 @@ You can read the full rationale on [our blog](https://our.status.im/breaking-cha
 
 This can be done different ways depending on the structure of your project and the flavour of JS you happen to be using. Most often it looks something like this:
 
-`import Web3 from 'web3'`
+``` js
+import Web3 from 'web3'
+```
 
 ### Create a New Web3 Object
 
 After importing `Web3` from the library you're using, you need to make sure it is instantiated for that page/app:
 
-`web3 = new Web3(ethereum)`
+``` js
+web3 = new Web3(ethereum)
+```
 
 ### Request Full Access to the Provider
 
@@ -45,7 +50,8 @@ Further details around the structure we have all settled on together can be foun
 ### Setting the default account
 
 web3.js uses web3.eth.defaultAccount for any transaction that does not specify a `from`. In order to be able to create transactions, you must set a valid address. The following code can only be executed once `ethereum.enable();` has been executed successfully:
-```
+
+``` js
 web3.eth.getAccounts().then(accounts => {
     web3.eth.defaultAccount = accounts[0];
 });
@@ -63,7 +69,7 @@ This works exactly like it always has:
 
 Constructing the transactionObject is, again, heavily dependent on what you’re trying to do, but here is a super simple example of what it might look like if you just plugged the required values straight in:
 
-```
+``` js
 // using web3.js 1.0.0-beta
 web3.eth.sendTransaction({
     from: web3.eth.defaultAccount,
@@ -76,8 +82,3 @@ web3.eth.sendTransaction({
     console.error(err);
 });
 ```
-
-
-
-
-

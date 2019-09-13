@@ -185,11 +185,11 @@ To fix similar errors run the following commands:
 ```bash
 cd ios
 pod update
-cd ..
+cd -
 
-cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd ../../../
+cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd -
 
-cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh && cd ../../../../
+cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh && cd -
 ```
 
 Now you should be able to compile again. The issue reference is [here](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294).

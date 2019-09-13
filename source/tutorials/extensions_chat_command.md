@@ -54,7 +54,7 @@ When executed, the chat command will load the DTwitt details from the contract t
 
 The `posts(uint256)` method is called to retrieve the post details. The encapsulated IPFS hash is then used to retrieve the post content.
 
-```
+``` clojure
 events/put-dtwitt
 (let [{result :result} properties]
   [store/put {:key "dtwitt" :value result}])
@@ -68,14 +68,14 @@ Here, we're calling a contract at a specfic address on Ethereum, targeting a spe
 
 Our short preview definition is a simple text element:
 
-```
+``` clojure
  (let [{{{id :id} :params} :content} properties]
   [text "Vote for ${id}"])
 ```
 
 Our preview definition displays some details about a dtwitt and allows to upvote it via a button:
 
-```
+``` clojure
  (let [{{params :params} :content
         outgoing :outgoing timestamp-str :timestamp-str} properties
        {description :description} [store/get {:key "dtwitt"}]]
@@ -88,7 +88,7 @@ Our preview definition displays some details about a dtwitt and allows to upvote
 
 # Full extension code
 
-```
+``` clojure
 {meta {:name          "DTwitter"
        :description   "Access DTwitter posts"
        :documentation "Commands to interract with DTwitter."}

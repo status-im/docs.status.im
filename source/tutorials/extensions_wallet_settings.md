@@ -11,7 +11,7 @@ This tutorial will walk you through the creation and deployment of a new [wallet
 
 First step is to create the skeleton extension with some relevant metadata:
 
-```
+``` clojure
 {meta
  {:name          "Hello wallet settings"
   :description   ""
@@ -24,7 +24,7 @@ In this tutorial a wallet settings is created: it's specific id is `hello` and t
 
 # Label
 
-```
+``` clojure
 {hooks/wallet.settings.hello
  {...
   :label "Settings label"}}
@@ -34,7 +34,7 @@ In this tutorial a wallet settings is created: it's specific id is `hello` and t
 
 When clicked, the optional wallet settings `on-click` event will be executed.
 
-```
+``` clojure
 {hooks/wallet.settings.hello
  {...
   :on-click [load-rates]}}
@@ -42,7 +42,7 @@ When clicked, the optional wallet settings `on-click` event will be executed.
 
 # view
 
-```
+``` clojure
 {views/view
  [text "Hello"]
   
@@ -53,7 +53,7 @@ When clicked, the optional wallet settings `on-click` event will be executed.
 
 # Full extension code
 
-```
+``` clojure
 {meta {:name          "Hello"
        :description   ""
        :documentation ""}

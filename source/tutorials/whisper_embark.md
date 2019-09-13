@@ -10,7 +10,7 @@ In this tutorial we'll learn how to use Ethereum's Whisper protocol and Embark, 
 
 Embark is a framework for DApp developers that makes building truly decentralized applications easy. It includes support for [smart contracts](https://embark.status.im/docs/contracts_configuration.html), [IPFS and Swarm](https://embark.status.im/docs/storage_deployment.html), [Whisper](https://embark.status.im/docs/messages_configuration.html), [advanced debugging and testing](https://embark.status.im/docs/contracts_testing.html), [front-end code](https://embark.status.im/docs/javascript_usage.html) and [templates for everything](https://embark.status.im/templates/), and an [ecosystem of plugins](https://embark.status.im/plugins/). Please make sure you have the [latest version installed](https://embark.status.im/docs/installation.html). It should be as simple as:
 
-```
+``` bash
 npm install -g embark@latest
 ```
 

@@ -77,7 +77,7 @@ There are a few standard configuration files located in the [config/cli](https:/
 
 - As a Whisper mail server:
 
-```javascript
+``` js
 {
     "WhisperConfig": {
         "Enabled": true,

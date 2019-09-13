@@ -10,11 +10,9 @@ Status is an open source community of people committed to building better, decen
 
 If *peer-to-peer electronic payment systems* are really going to change the ways we interact and organise as a society, then we need to make sure that as many people can take part in these networks as possible. Just as importantly, the tools they have  access to must support web3 without making compromises that might keep the playing fields permanently skewed.  People everywhere need to be able to connect, transact, explore, and create value with as much ease and freedom as bankers on Wall Street.
 
-
-
 # Introducing Status-react
 
-Status-react is where most of what might traditionally be called the “frontend” logic sits (everything to do with UI components and interactions, chats, views etc.) and status-go is where all the heavier blockchain logic sits. Status-go can be compiled as a stand alone library, and gets included as a static dependency in status-react at build time.
+Status-react is where most of what might traditionally be called the “frontend” logic sits (everything to do with UI components and interactions, chats, views etc.) and status-go is where all the heavier blockchain and backend logic sits. Status-go can be compiled as a stand alone library, and gets included as a static dependency in status-react at build time.
 
 Status-react is actually written in Clojure &amp; ClojureScript, which is a Lisp-like language that can be compiled down to React Native, so that we only have to maintain one codebase for Android, iOS and our desktop app.
 
@@ -28,8 +26,6 @@ What follows is the definitive account of how to get to that “aha” moment, s
 
 **If you want to contribute to a different build (i.e. the desktop client) you can read [*this guide*](https://status.im/guides/desktop_inline_eval.html).**
 
-
-
 # Initial Setup
 
 With this quick start guide being for the iOS dev build, we're assuming that you are Mac based.  **For guides on building Status-react on Ubuntu, [you can see here.](https://status.im/guides/desktop_inline_eval.html)**
@@ -38,30 +34,29 @@ The first requirement is XCode.  If you do not wish to install it from the Mac A
 
 Now, with XCode / Dev Toolkit installed, we can get on with the main building of Status-react and start contributing in earnest!
 
-
-
 # Installing / Building Status-react
 
-Building out your own dev version of Status is the best way to experiment before submitting actual contributions to the main codebase.  The process for building your iOS dev app is relatively simple, **but if the following steps are not run in the correct order, the build will output nothing but errors! **
+Building out your own dev version of Status is the best way to experiment before submitting actual contributions to the main codebase.  The process for building your iOS dev app is relatively simple, **but if the following steps are not run in the correct order, the build will output nothing but errors!**
 
 Open up three terminal windows (or tabs), and ensure you keep all three open.  In the first, enter the command:
 
-```
+``` bash
 make startdev-ios-simulator
 ```
 
 Under the hood, this command runs the equivalent of:
-    
-`clj -R:dev build.clj watch --platform ios --ios-device simulator`
- 
+
+``` bash
+clj -R:dev build.clj watch --platform ios --ios-device simulator
+```
 
 With that entered, you should see the following, after a short time:
 
 ![simulator_initial_success](./img/startdev-ios-simulator_initial_success.png)
 
 With Figwheel started, re-frisk started, and the ClojureScript REPL started, you can move onto the second window, and enter the next command:
- 
-```
+
+``` bash
 make react-native-ios
 ```
 
@@ -71,7 +66,7 @@ By executing this make script, a Nix environment will be created for iOS, runnin
 
 The image above reflects how the terminal window will remain, until the third command has been successfully executed.  Head into the third Terminal window, and enter: 
  
-```
+``` bash
 make run-ios
 ```
 
@@ -95,14 +90,11 @@ So, with all of these commands successfully run, you're now ready to go, and (ho
 
 ![successful-build.png](./img/successful-build.png)
 
-
-
 # Debugging &amp; Developing with re-frisk
 
-As mentioned above, our Makefiles loaded up a re-frisk instance for us, to aid development / debugging.  If you open a browser window and head over to `http://localhost:4567` – you can make use of this. 
+As mentioned above, our Makefiles loaded up a re-frisk instance for us, to aid development / debugging.  If you open a browser window and head over to `http://localhost:4567` – you can make use of this.
 
 ![re-frisk-monitoring.png](./img/re-frisk-monitoring.png)
-
 
 # Re-installing & Cleaning Up
 
@@ -110,6 +102,6 @@ If for any reason you need to completely clean up Status, go to `~/Library/Appli
 
 You can also purge / clean up Nix by running the command:
 
-```
+``` bash
 make nix-purge
 ```

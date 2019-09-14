@@ -69,6 +69,8 @@ docs:
         path: desktop_jenkins.html
       - title: Status-React Quick Start
         path: status_react_quickstart.html
+      - title: Your First PR
+        path: first_pr_guide.html
 
   - title: Tutorials
     path: tutorials

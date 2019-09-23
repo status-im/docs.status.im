@@ -31,7 +31,7 @@ If you're on NixOS, please run the following to ensure you have the necessary pr
 nix-env --install git gnumake
 ```
 
-In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands in a shell, you might want to start a dedicated Nix shell by running `make shell TARGET_OS=android` (or using other `TARGET_OS`).
+In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands on the same terminal, you might want to start a dedicated Nix shell by running `make shell TARGET_OS=android` (or using other `TARGET_OS`).
 
 The `make shell TARGET_OS=<os>` script prepares and installs the following:
 

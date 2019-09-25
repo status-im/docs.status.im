@@ -2,7 +2,7 @@
 
 'use strict';
 
-var pathFn = require('path');
+var join = require('path').join;
 var _ = require('lodash');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
@@ -71,88 +71,29 @@ hexo.extend.helper.register('contributors', function(type) {
   return result;
 });
 
-hexo.extend.helper.register('sidebar', function(type) {
-    
-  var self = this,
-      path = this.page.path,
-      sidebar = this.site.data.sidebar[type],
-      result = '<ul class="sidebar-menu">',
-      show_lang = '';
-
-  if(this.page.lang != 'en'){
-    show_lang = this.page.lang + '/';
-  }
-
-  _.each(sidebar, function(menu, category) {
-      var title = generateSidebarTitle(category);
-      if(typeof menu[category] === 'undefined'){
-        title = self.__(title);
-      }else{
-        title = generateSidebarTitle(menu[category]);
-      }
-      if(category == 'security'){
-        result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/sec_matters.html">' + title + '</a>';
-      }else if(category == 'docs'){
-        if(path == 'docs/index.html'){
-          result += '<li><a href="/' + show_lang+ 'docs/technical_documentation.html">' + title + '</a>';
-        }else{
-          result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + 'docs/technical_documentation.html">' + title + '</a>';
-        }
-      }else{
-        result += '<li class="'+ checkIfActive(path, show_lang + category) +'"><a href="/' + show_lang + category + '/">' + title + '</a>';
-      }
-      if(typeof menu == 'object'){
-          result += '<ul class="sidebar-submenu">';
-          _.each(menu, function(title, link) {
-              if(menu[category] != title){
-                var href = '';
-                href = category +'/'+ link +'.html';
-                href = '/' + show_lang + href;
-                if(title.startsWith("..")){
-                  href = title.replace("../","");
-                  href = href.substring(0, href.indexOf(' '));
-                  href = '/' + show_lang + href;
-                }else if(title.startsWith("http")){
-                  href = title;
-                  href = href.substring(0, href.indexOf(' '));
-                }
-                title = generateSidebarTitle(title);
-                result += '<li class="'+ checkIfActive(path, show_lang + category +'/'+ link+'.html') +'"><a href="'+ href +'">' + title + '</a></li>';
-              }
-          });
-          result += '</ul>';
-      }
-  });
-
-  result += '</ul>';
-  return result;
+hexo.extend.helper.register('sidebar', function(path) {
+  return `
+    <ul class="sidebar-menu">
+      ${genSidebarList.call(this, '/', this.site.data.sidebar[path])}
+    </ul>
+  `
 });
 
-function generateSidebarTitle(string){
-  var s = string.substring(
-      string.lastIndexOf("(") + 1, 
-      string.lastIndexOf(")")
-  );
-  if(s == ''){
-    s = string.replace(/_/g, " ");
-    s = s.replace(/.html/g, "");
-    s = toTitleCase(s);
-  }
-  return s;
-}
-
-function toTitleCase(str) {
-  return str.replace(/\w\S*/g, function(txt){
-      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-  });
-}
-
-function checkIfActive(path, link){
-  if(path.indexOf(link)){
-    return '';
-  }else{
-    return 'active';
-  }
+function genSidebarList(parent, entries) {
+  let self = this /* necessary due to changed context of map() */
+  let lang = ((self.page.lang != 'en') ? self.page.lang : '')
+  return entries.map(entry => {
+    let path = join(parent, lang, entry.path)
+    return `
+      <li class="${self.path.startsWith(join(lang, entry.path)) ? 'active' : ''}">
+        <a href="${path}">${entry.title}</a>
+        ${(entry.children != undefined) ? `
+        <ul class="sidebar-submenu">
+          ${genSidebarList.call(self, path, entry.children)}
+        </ul>
+        ` : ''}
+      </li>`
+  }).join('\n')
 }
 
 hexo.extend.helper.register('header_menu', function(className) {
@@ -163,20 +104,15 @@ hexo.extend.helper.register('header_menu', function(className) {
   var isEnglish = lang === 'en';
 
   _.each(menu, function(path, title) {
-    if (!isEnglish && ~localizedPath.indexOf(title)) path = lang + path;
+    if (!isEnglish && ~localizedPath.indexOf(title)) {
+      path = lang + path;
+    }
 
-    result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
+    result += `<a href="${self.url_for(path)}" class="${className}'-link">${this.__('menu.' + title)}</a>`;
   });
 
   return result;
 });
-
-// hexo.extend.helper.register('canonical_url', function(lang) {
-//   var path = this.page.canonical_path;
-//   if (lang && lang !== 'en') path = lang + '/' + path;
-
-//   return this.config.url + '/' + path;
-// });
 
 hexo.extend.helper.register('page_nav', function(lang) {
   return;
@@ -259,7 +195,6 @@ function generateMenu(){
       return response.text();
     })
   .then(function(response) {
-      console.log('t2')
       return 'abc';
   })
   .catch(error => console.error(`Fetch Error =\n`, error));

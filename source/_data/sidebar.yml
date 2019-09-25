@@ -1,130 +1,261 @@
 docs:
-  docs:
-    docs: / (Technical Documentation)
-    contributor_guide: contributor_guide.html
-    FAQs: FAQs.html
-    FAQ-desktop: FAQ-desktop.html (Desktop FAQ)
-    status_react_structure: status_react_structure.html
-    send_transaction_flow: send_transaction_flow.html
-    run_status_node: run_status_node.html
-    keycard_api: ../keycard_api/ (Keycard API)
-    tutorials: ../tutorials/ (Tutorials)
-    guides: ../guides/ (Start Contributing)
-    mobile_release_schedule: ../mobile-release-schedule/ (Schedule)
-  developer_tools:
-    developer_tools: / (Developer Tools)
-    access_eth_provider: access_eth_provider.html (Accessing Web3 Providers)
-    detecting_status: detecting_status.html
-    debug: debug.html
-    assets_guidelines: assets_guidelines.html (Assets and Guidelines)
-    status_web_api: status_web_api.html (Status DApp API)
-    http_debugging: http_debugging.html (How to Test & Debug)
-    add_your_dapp: add_your_dapp.html (How to submit your DApp)
-    enable_chat: enable_chat.html (Add Your Own Chat)
-    extensions: ../extensions/ (Extensions)
-    fiddle: ../fiddle/ (Status Fiddle)
-    storybook: https://status-im.github.io/storybook/ (Status React Storybook)
-  build_status:
-    build_status: / (Build Status)
-    status_go: status_go.html (Build Status-Go)
-    intro_desktop: intro_desktop.html
-    desktop: desktop.html (Build Desktop)
-    desktop_inline_eval: ../tutorials/desktop_inline_eval.html (Learn About Our Tools)
-    desktop_troubleshooting: desktop_troubleshooting.html (Desktop Troubleshooting)
-    desktop_google_breakpad: desktop_google_breakpad.html (Google Breakpad Integration)
-    desktop_jenkins: desktop_jenkins.html (Jenkins Setup)
-    status_react_quickstart: status_react_quickstart.html (Status-React Quick Start)
-  tutorials:
-    whisper_basic_cli: whisper_basic_cli.html
-    whisper_embark: whisper_embark.html
-    extensions_chat_command: extensions_chat_command.html
-  keycard_api:
-    keycard_api: index.html (Keycard API)
-    applet_installation: applet_installation.html
-    resources: resources.html
-    sdk_installation: sdk_installation.html (SDK Installation)
-    sdk_connection: sdk_connection.html (SDK Connection)
-    sdk_preparation: sdk_preparation.html (SDK Preparation)
-    sdk_securechannel: sdk_securechannel.html (SDK Secure Channel)
-    sdk_authentication: sdk_authentication.html (SDK Authentication)
-    sdk_create_wallet: sdk_create_wallet.html (SDK Create Wallet)
-    sdk_derivation_sign: sdk_derivation_sign.html (SDK Derivation Sign)
-    sdk_pinless: sdk_pinless.html (SDK Pinless)
-    sdk_export: sdk_export.html (SDK Export)
-    sdk_duplication: sdk_duplication.html (SDK Duplication)
-    apdu_overview: apdu_overview.html (APDU Overview)
-    apdu_changelog: apdu_changelog.html (APDU Changelog)
-    apdu_select: apdu_select.html (APDU SELECT)
-    apdu_init: apdu_init.html (APDU INIT)
-    apdu_opensecurechannel: apdu_opensecurechannel.html (APDU OPEN SECURE CHANNEL)
-    apdu_mutuallyauthenticate: apdu_mutuallyauthenticate.html (APDU MUTUALLY AUTHENTICATE)
-    apdu_pair: apdu_pair.html (APDU PAIR)
-    apdu_unpair: apdu_unpair.html (APDU UNPAIR)
-    apdu_getstatus: apdu_getstatus.html (APDU GET STATUS)
-    apdu_setndef: apdu_setndef.html (APDU SET NDEF)
-    apdu_verifypin: apdu_verifypin.html (APDU VERIFY PIN)
-    apdu_changepin: apdu_changepin.html (ADPU CHANGE PIN)
-    apdu_unblockpin: apdu_unblockpin.html (ADPU UNBLOCK PIN)
-    apdu_loadkey: apdu_loadkey.html (ADPU LOAD KEY)
-    apdu_derivekey: apdu_derivekey.html (ADPU DERIVE KEY)
-    apdu_generatemnemonic: apdu_generatemnemonic.html (ADPU GENERATE MNEMONIC)
-    apdu_removekey: apdu_removekey.html (ADPU REMOVE KEY)
-    apdu_generatekey: apdu_generatekey.html (ADPU GENERATE KEY)
-    apdu_duplicatekey: apdu_duplicatekey.html (ADPU DUPLICATE KEY)
-    apdu_sign: apdu_sign.html (ADPU SIGN)
-    apdu_setpinlesspath: apdu_setpinlesspath.html (ADPU SET PINLESS PATH)
-    apdu_exportkey: apdu_exportkey.html (APDU EXPORT KEY)
-  research:
-    research: index.html (Research)
-    extended_features: extended_features.html (Whisper Extended Features)
-    dark_routing: dark_routing.html (Whisper Dark Routing)
-    whisper_pss: whisper_pss.html (Whisper Comparison with PSS)
-    whisper_faqs: whisper_faqs.html (Whisper FAQs)
-    secure_messaging_compendium: secure_messaging_compendium.html
-    research_blog: https://our.status.im/tag/research (Research Blog)
-    pfs: pfs.html (Perfect Forward Secrecy)
-    ulc_in_details: ulc_in_details.html (Ultra Light Client in details)
-    nimbus: https://nimbus.status.im/ (Nimbus)
-    basic_cli: ../tutorials/whisper_basic_cli.html (Whisper In Your CLI)
-    whisper_embark: ../tutorials/whisper_embark.html (Whisper with Embark)
-    status_analytics: https://analytics.status.im/ (Status Analytics)
-  security:
-    sec_matters: sec_matters.html (Security)
-    sec_threat_modeling: sec_threat_modeling.html (Threat Modeling)
-    sec_existing_features: sec_existing_features.html (Existing Features Project)
-    sec_new_features: sec_new_features.html (New Features Project)
-    sec_sensitive_data: sec_sensitive_data.html (What is Sensitive Data?)
-    sec_experiment: sec_experiment.html (Security Experiment)
-    introduction_audits: ../audits/ (Status External Audits)
-    introduction_guides: ../guides/ (Security Week Guides)
-    introduction_organization: ../org_sec/ (Policy and Procedure)
-  audits:
-    audits: index.html (Audits)
-  guides:
-    guides: index.html (Guides)
-    pm_guide: pm_guide.html (Product Manager's Guide)
-    desktop_inline_eval: desktop_inline_eval.html (Desktop Clojure and Inline-Eval)
-    security_month: security_month.html
-  contribute:
-    contribute: index.html (Contribute)
-    perks_benefits: perks_benefits.html (Perks & Benefits)
-    applying_to_status: applying_to_status.html (Applying to Status)
-    open_positions: open_positions.html
-    applicant_privacy: applicant_privacy.html
-    statusphere: statusphere.html
-    our_principles: our_principles.html
-    life_status: life_status.html (Life at Status)
-    the_future: the_future.html
-    faqs: faqs.html (FAQs)
-  extensions:
-    extensions: index.html (Extensions)
-    key_concepts: key_concepts.html
-    workflow: workflow.html
-    syntax: syntax.html
-    extension_types: extension_types.html
-    tutorial_chat_command: ../tutorials/extensions_chat_command.html (Tutorials Chat Command)
-    tutorial_wallet_settings: ../tutorials/extensions_wallet_settings.html (Tutorials Extensions Wallet Settings)
-    reference_views: reference_views.html
-    reference_queries: reference_queries.html
-    reference_events: reference_events.html
-    examples: examples.html
+  - title: Technical Documentation
+    path: technical
+    children:
+      - title: Contributor Guide
+        path: contributor_guide.html
+      - title: FAQs
+        path: FAQs.html
+      - title: Desktop FAQ
+        path: FAQ-desktop.html
+      - title: Status React Structure
+        path: status_react_structure.html
+      - title: Send Transaction Flow
+        path: send_transaction_flow.html
+      - title: Run Status Node
+        path: run_status_node.html
+      - title: Keycard API
+        path: ../keycard_api/
+      - title: Tutorials
+        path: ../tutorials/
+      - title: Start Contributing
+        path: ../guides/
+      - title: Schedule
+        path: ../mobile-release-schedule/
+
+  - title: Developer Tools
+    path: developer_tools
+    children:
+      - title: Accessing Web3 Providers
+        path: access_eth_provider.html
+      - title: Detecting Status
+        path: detecting_status.html
+      - title: Debugging
+        path: debug.html
+      - title: Assets and Guidelines
+        path: assets_guidelines.html
+      - title: Status DApp API
+        path: status_web_api.html
+      - title: How to Test & Debug
+        path: http_debugging.html
+      - title: How to submit your DApp
+        path: add_your_dapp.html
+      - title: Add Your Own Chat
+        path: enable_chat.html
+      - title: Extensions
+        path: ../extensions/
+      - title: Status Fiddle
+        path: ../fiddle/
+      - title: Status React Storybook
+        path: https://status-im.github.io/storybook/
+
+  - title: Build Status
+    path: build_status
+    children:
+      - title: Build Status-Go
+        path: status_go.html
+      - title: Intro Desktop
+        path: intro_desktop.html
+      - title: Build Desktop
+        path: desktop.html
+      - title: Learn About Our Tools
+        path: ../tutorials/desktop_inline_eval.html
+      - title: Desktop Troubleshooting
+        path: desktop_troubleshooting.html
+      - title: Google Breakpad Integration
+        path: desktop_google_breakpad.html
+      - title: Jenkins Setup
+        path: desktop_jenkins.html
+      - title: Status-React Quick Start
+        path: status_react_quickstart.html
+
+  - title: Tutorials
+    path: tutorials
+    children:
+      - title: Whisper Basic Cli
+        path: whisper_basic_cli.html
+      - title: Whisper Embark
+        path: whisper_embark.html
+      - title: Extensions Chat Command
+        path: extensions_chat_command.html
+
+  - title: Keycard API
+    path: keycard_api
+    children:
+      - title: Applet Installation
+        path: applet_installation.html
+      - title: Resources
+        path: resources.html
+
+      - title: Java SDK
+        path: sdk
+        children:
+          - title: Installation
+            path: installation.html
+          - title: Card Connection
+            path: connection.html
+          - title: Preparation
+            path: preparation.html
+          - title: Secure Channel
+            path: securechannel.html
+          - title: Authentication
+            path: authentication.html
+          - title: Wallet Creation
+            path: create_wallet.html
+          - title: Derivation & Signing
+            path: derivation_sign.html
+          - title: Pinless Signing
+            path: pinless.html
+          - title: Exporting Keys
+            path: export.html
+          - title: Card Duplication
+            path: duplication.html
+
+      - title: APDU API
+        path: apdu
+        children:
+          - title: CHANGELOG
+            path: changelog.html
+          - title: SELECT
+            path: select.html
+          - title: INIT
+            path: init.html
+          - title: OPEN SECURE CHANNEL
+            path: opensecurechannel.html
+          - title: MUTUALLY AUTHENTICATE
+            path: mutuallyauthenticate.html
+          - title: PAIR
+            path: pair.html
+          - title: UNPAIR
+            path: unpair.html
+          - title: GET STATUS
+            path: getstatus.html
+          - title: SET NDEF
+            path: setndef.html
+          - title: VERIFY PIN
+            path: verifypin.html
+          - title: CHANGE PIN
+            path: changepin.html
+          - title: UNBLOCK PIN
+            path: unblockpin.html
+          - title: LOAD KEY
+            path: loadkey.html
+          - title: DERIVE KEY
+            path: derivekey.html
+          - title: GENERATE MNEMONIC
+            path: generatemnemonic.html
+          - title: REMOVE KEY
+            path: removekey.html
+          - title: GENERATE KEY
+            path: generatekey.html
+          - title: DUPLICATE KEY
+            path: duplicatekey.html
+          - title: SIGN
+            path: sign.html
+          - title: SET PINLESS PATH
+            path: setpinlesspath.html 
+          - title: EXPORT KEY
+            path: exportkey.html
+
+  - title: Research
+    path: research
+    children:
+      - title: Whisper Extended Features
+        path: extended_features.html
+      - title: Whisper Dark Routing
+        path: dark_routing.html
+      - title: Whisper Comparison with PSS
+        path: whisper_pss.html
+      - title: Whisper FAQs
+        path: whisper_faqs.html
+      - title: Secure messaging Compendium
+        path: secure_messaging_compendium.html
+      - title: Research Blog
+        path: https://our.status.im/tag/research
+      - title: Perfect Forward Secrecy
+        path: pfs.html
+      - title: Ultra Light Client in details
+        path: ulc_in_details.html
+      - title: Nimbus
+        path: https://nimbus.status.im/
+      - title: Whisper In Your CLI
+        path: ../tutorials/whisper_basic_cli.html
+      - title: Whisper with Embark
+        path: ../tutorials/whisper_embark.html
+      - title: Status Analytics
+        path: https://analytics.status.im/
+
+  - title: Security
+    path: security_docs
+    children:
+      - title: Threat Modeling
+        path: sec_threat_modeling.html
+      - title: Existing Features Project
+        path: sec_existing_features.html
+      - title: New Features Project
+        path: sec_new_features.html
+      - title: What is Sensitive Data?
+        path: sec_sensitive_data.html
+      - title: Security Experiment
+        path: sec_experiment.html
+      - title: Status External Audits
+        path: ../audits/
+      - title: Security Week Guides
+        path: ../guides/
+      - title: Policy and Procedure
+        path: ../org_sec/
+
+  - title: Audits
+    path: audits
+
+  - title: Guides
+    path: guides
+    children:
+      - title: Product Manager's Guide
+        path: pm_guide.html
+      - title: Desktop Clojure and Inline-Eval
+        path: desktop_inline_eval.html
+
+  - title: Contribute
+    path: contribute
+    children:
+      - title: Perks & Benefits
+        path: perks_benefits.html
+      - title: Applying to Status
+        path: applying_to_status.html
+      - title: Open Positions
+        path: open_positions.html
+      - title: Applicant Privacy
+        path: applicant_privacy.html
+      - title: Our Principles
+        path: our_principles.html
+      - title: Life at Status
+        path: life_status.html
+      - title: The Future
+        path: the_future.html
+      - title: FAQs
+        path: faqs.html
+
+  - title: Extensions
+    path: extensions
+    children:
+      - title: Key Concepts
+        path: key_concepts.html
+      - title: Workflow
+        path: workflow.html
+      - title: Syntax
+        path: syntax.html
+      - title: Extension Types
+        path: extension_types.html
+      - title: Tutorials Chat Command
+        path: ../tutorials/extensions_chat_command.html
+      - title: Tutorials Extensions Wallet Settings
+        path: ../tutorials/extensions_wallet_settings.html
+      - title: Reference Views
+        path: reference_views.html
+      - title: Weference Queries
+        path: reference_queries.html
+      - title: Reference Events
+        path: reference_events.html
+      - title: Examples
+        path: examples.html

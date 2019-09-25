@@ -52,6 +52,10 @@ $(document).ready(function ($) {
     return false;
   });
 
+  // box-remember styling wrapper (part of the b9lab documentation update)
+  $(".box-remember").wrap("<div class='box-remember-wrapper'></div>");
+  $(".box-remember").before("<div class='before-box-remember'><img src='/img/box-remember.svg')'></div>");
+
   function mobileMenu(w) {
     if (w < 1199) {
       $('header nav, header .btns').appendTo('.mobile-nav');

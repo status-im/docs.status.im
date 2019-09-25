@@ -1,0 +1,86 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+  <div class="stripe">
+    <b>Status Documentation</b>
+    <%- include('partial/shared-partials/partials/search') %>
+  </div>
+
+  <section class="single-docs-content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-xl-2">
+          <%- partial('partial/sidebar') %>
+        </div>
+        <div class="col-md-9 col-xl-10">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="editor-content">
+                <div class="docs-lp-wrapper row">
+                  <div class="intro col-md-12 col-xl-6">
+                    <%- page_anchor(page.content) %>
+
+                    <p class="intro-text"><b>Get Help</b><br>
+                    <a href="https://discuss.status.im">https://discuss.status.im/</a> | <a href="mailto:support@status.im">support@status.im</a>
+                    </ul>
+                  </div>
+
+                  <div class="tiles-wrapper col-xl-6 col-md-12">
+                    <div class="row">
+                      <div class="tile-item col-md-6">
+                        <a href="why_status.html" class="action-tile">
+                          <div class="item-heading">Why Status?</div>
+                          <img src="/developer_tools/img/lp-status-logo.svg">
+                          <div class="item-links">
+                            Learn about the benefits of using Status
+                          </div>
+                        </a>
+                      </div>
+                      <div class="tile-item col-md-6">
+                        <a href="run_on_status/" class="action-tile">
+                          <div class="item-heading">Run on Status</div>
+                          <img src="/developer_tools/img/lp-run-on-status.svg">
+                          <div class="item-links">
+                            <a href="run_on_status/mobile_dev_tools.html">Mobile Dev Tools</a><br>
+                            <a href="run_on_status/dapp_store_requirements.html">DApp Store Requirements</a><br>
+                            <a href="run_on_status/eip-1102.html">Implement EIP-1102</a><br>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="tile-item col-md-6">
+                        <a href="status_extras/" class="action-tile">
+                          <div class="item-heading">Status API</div>
+                          <img src="/developer_tools/img/lp-status-extras.svg">
+                          <div class="item-links">
+                            <a href="status_extras/status_dapp_api.html">Whisper & QR Codes</a><br>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="tile-item col-md-6">
+                        <a href="register_dapps/" class="action-tile">
+                          <div class="item-heading">Curated DApp Store</div>
+                          <img src="/developer_tools/img/lp-register-dapps.svg">
+                          <div class="item-links">
+                            <a href="register_dapps/register_dapps.html">Register DApps</a><br>
+                            <a href="register_dapps/register_dapps.html#Readiness-Checklist">Readiness Checklist</a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="docs-footer">
+                Last update: <%- page.updated.format(config.date_format) %>
+                <%- page_nav() %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

@@ -23,31 +23,32 @@ docs:
       - title: Schedule
         path: ../mobile-release-schedule/
 
-  - title: Developer Tools
+  - title: DApp Integration Center
     path: developer_tools
     children:
-      - title: Accessing Web3 Providers
-        path: access_eth_provider.html
-      - title: Detecting Status
-        path: detecting_status.html
-      - title: Debugging
-        path: debug.html
-      - title: Assets and Guidelines
-        path: assets_guidelines.html
+      - title: Why Status
+        path: why_status.html
+      - title: Run on Status
+        path: run_on_status/
+        children:
+          - title: Mobile Developer Tools
+            path: mobile_dev_tools.html
+          - title: DApp Store Requirements
+            path: dapp_store_requirements.html
+          - title: Implement EIP-1102
+            path: eip-1102.html
+          - title: Asset Guidelines
+            path: assets_guidelines.html
       - title: Status DApp API
-        path: status_web_api.html
-      - title: How to Test & Debug
-        path: http_debugging.html
-      - title: How to submit your DApp
-        path: add_your_dapp.html
-      - title: Add Your Own Chat
-        path: enable_chat.html
-      - title: Extensions
-        path: ../extensions/
-      - title: Status Fiddle
-        path: ../fiddle/
-      - title: Status React Storybook
-        path: https://status-im.github.io/storybook/
+        path: status_extras/
+        children:
+          - title: Whisper &amp; QR Codes
+            path: status_dapp_api.html
+      - title: Curated DApp Store
+        path: register_dapps/
+        children:
+          - title: Register DApps
+            path: register_dapps.html
 
   - title: Build Status
     path: build_status

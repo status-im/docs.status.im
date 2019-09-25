@@ -561,7 +561,7 @@ site:
         title: "Technical Documentation"
         description: "Growing our distributed ecosystem"
       developer-tools:
-        title: "Developer Tools"
+        title: "DApp Integration Center"
         description: "JS API and Extensions"
       build-status:
         title: "Build Status"

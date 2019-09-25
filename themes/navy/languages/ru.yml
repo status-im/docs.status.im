@@ -356,7 +356,7 @@ site:
         link-1: Начать
         link-2: 'Status сборки'
         link-3: Nightlies
-        link-4: 'Инструменты разработчика'
+        link-4: 'DApp соединение центр'
         link-5: Исследования
         link-6: 'Обучение (?)'
       about: Рядом
@@ -589,7 +589,7 @@ site:
         title: 'Техническая документация'
         description: 'Развитие нашей распределенной экосистемы'
       developer-tools:
-        title: 'Инструменты разработчика'
+        title: 'DApp соединение центр'
         description: 'JS API и расширения'
       build-status:
         title: 'Status сборки'

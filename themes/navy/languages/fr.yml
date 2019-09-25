@@ -356,7 +356,7 @@ site:
         link-1: Démarrer
         link-2: 'Construire Status'
         link-3: 'Les nuités'
-        link-4: 'Outils de développement'
+        link-4: 'DApp Centre d''intégration'
         link-5: Recherche
         link-6: Tutoriels
       about: 'A propos'
@@ -589,7 +589,7 @@ site:
         title: 'Documentation technique'
         description: 'Développer notre écosystème distribué'
       developer-tools:
-        title: 'Outils de développement'
+        title: 'DApp Centre d''intégration'
         description: 'JS API et extensions'
       build-status:
         title: 'Construire Status'

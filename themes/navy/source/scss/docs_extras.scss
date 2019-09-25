@@ -1,0 +1,142 @@
+/* remember box styling helper for docs content */
+.editor-content {
+	.box-remember {
+		padding: 20px;
+		
+		a {
+			border: 0 !important;
+		}
+		
+		a:hover {
+			text-decoration: underline !important;
+		}
+	}
+
+
+	.box-remember {
+		padding: 20px;
+		min-width: 120px;
+		min-height: 120px;
+		display: flex;
+	}
+
+	.before-box-remember {
+		display: flex;
+		background: #4360DF;
+		padding:20px;
+	}
+
+	.before-box-remember img {
+		width: 60px!important;
+		max-width: 60px!important;
+	}
+
+	.box-remember-wrapper {
+		background: #EDEDED;
+		display: flex;
+		margin: 1.5em 0px;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	}
+
+	@media (max-width: 600px) {
+		.box-remember-wrapper {
+			flex-direction: column;
+		}
+
+		.before-box-remember {
+			padding: 0;
+
+			img {
+				width: 40px!important;
+				margin: 15px auto;		
+			}
+		}
+	}
+
+
+	.video-wrapper {
+		width: 38vw;
+		margin: auto;
+		height: 40vh;
+	}
+
+	.video-iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+	@media (max-width: 1199px) {
+		.video-wrapper {
+			width: 100%;
+			margin: auto;
+			height: 50vh;
+		}
+	}
+}
+
+.docs-lp-wrapper {
+	
+	.intro {
+		padding: 0 60px;
+		border-top: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
+		border-left: 1px solid #e6e6e6;
+		
+		p {
+			text-align: justify;
+			color: #808080!important;
+		}
+
+		h2 {
+			margin-bottom: 80px!important;
+		}
+	}
+
+
+
+	.tiles-wrapper {
+		border: 1px solid #e6e6e6;
+		border-left: none;
+		border-bottom: none;
+
+		.tile-item {
+			text-align: center;
+			border-left: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
+			padding: 0 20px;
+
+			.item-heading {
+				font-size: 18px;
+				padding-top:30px
+			}
+
+			img {
+		    width: 80px;
+		    height: 80px;
+		    margin-top: 40px;
+		    margin-bottom: 40px;
+			}
+
+			.item-links {
+				font-size: 14px;
+				font-weight: 400;
+				padding-bottom:30px;
+
+				a {
+					text-decoration: none;
+					color: #808080;
+				}
+
+				a:hover {
+					text-decoration: none;
+					color: #4360DF;
+				}
+			}
+
+			.action-tile {
+				text-decoration: none;
+				color:#090909;
+			}
+		}
+	}
+}

@@ -60,3 +60,6 @@ math:
   katex:
    # css: custom_css_source
    # config: KaTeX config
+
+marked:
+  breaks: false

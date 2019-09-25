@@ -81,15 +81,6 @@ employees:
     customStatusPublicKey: '0x04c0f4dc5b26bad8eaff15c258b4ed6ab1bd586097559ffbd04fba883e8c06f52cb032b10ebe24b7dc200208b2dce5acb36816370dfe20b4965a667e5ba0e30cd2'
     customGitHubusername: churik
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=7dca5e8332dc93e7e3473a252460a674'
-  - id: '22'
-    displayName: Anna Danchenko
-    firstName: Anna
-    lastName: Danchenko
-    jobTitle: Head of QA
-    workEmail: anna@status.im
-    customStatusPublicKey: '0x043f67bb74fc64142f6cbb49f122d6a7e0fb0d0d287d29c664c7e79707f4bfadf229afea9d0db4847f8c866443e31bea6fcb919ff8ee83608b5948ffb9c7ceecc8'
-    customGitHubusername: annadanchenko
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=c77bb8a4b172f4de87a39dd55a4f6f7b'
   - id: '153'
     displayName: Kim De Mey
     firstName: Kim
@@ -423,15 +414,6 @@ employees:
     customStatusPublicKey: '0x04f8fa8961bfd8dae5bacb13585d07b4228f618d62552e547d2c1fba20f1097e88cf126ec63d3f9080b1c334a848290e54ac0b72ff413b77b343a7d6baadb19b07'
     customGitHubusername: 3esmit
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=9678af09dc97fc263dc3ec7a1b36a101'
-  - id: '31'
-    displayName: Anastasiya Semiankevich
-    firstName: Anastasiya
-    lastName: Semiankevich
-    jobTitle: Manual Functional Tester
-    workEmail: anastasiya@status.im
-    customStatusPublicKey: '0x045efbcc044e5ae21ac3cf111ea6df6186e0cc50a2cd747f52a56d19ce516e683c66cb47f4b0a21110859aea9592dfba1e0bf4af11ff3eab995f844b3673643bf1'
-    customGitHubusername: asemiankevich
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=c50a0698ede104c3310df7c7108ee516'
   - id: '4'
     displayName: Andrey Shovkoplyas
     firstName: Andrey
@@ -441,15 +423,6 @@ employees:
     customStatusPublicKey: '0x04f8a5320acdefcf83f2c1373805cfb07ec9b359d8c81144f061b5716f0faf9c14d22677ca7b47f48db66831de0ee371c264169ebc8c47bf4b9a27dfbec1a08dfa'
     customGitHubusername: flexsurfer
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=5edf032c2d62576d36090cf09b5939e5'
-  - id: '75'
-    displayName: Dmitry Shulyak
-    firstName: Dmitry
-    lastName: Shulyak
-    jobTitle: Go Programmer
-    workEmail: dmitry.shulyak@status.im
-    customStatusPublicKey: '0x043eb52840580048342db506a01275bd84e64ae2aeb7f2cb8112eaa7da6c726958d593a004986c273c7abeccef738d24ada6a9a2c8374d19413ab2586bd96d7780'
-    customGitHubusername: dshulyak
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=3dc68e13d9d49299b6879421eb899409'
   - id: '84'
     displayName: Jacek Sieka
     firstName: Jacek
@@ -459,15 +432,6 @@ employees:
     customStatusPublicKey: '0x049bc24b377c7e97bb94ab993e48fcbfe38f96aad43a42418d7f33f5a99f6f89e2af91875bfe045205771f28c93be50380cdfe5772201fde7019d57f7ead9af9b5'
     customGitHubusername: arnetheduck
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=137e057efeb4cab97ceabd064129d72e'
-  - id: '150'
-    displayName: Bruno Škvorc
-    firstName: Bruno
-    lastName: Škvorc
-    jobTitle: Technical Writer
-    workEmail: bruno@status.im
-    customStatusPublicKey: bruno.stateofus.eth
-    customGitHubusername: swader
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=65306c8782d7bed8c1d51e6f13332131'
   - id: '109'
     displayName: Jakub Sokołowski
     firstName: Jakub

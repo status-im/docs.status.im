@@ -74,22 +74,23 @@ hexo.extend.helper.register('contributors', function(type) {
 hexo.extend.helper.register('sidebar', function(path) {
   return `
     <ul class="sidebar-menu">
-      ${genSidebarList.call(this, '/', this.site.data.sidebar[path])}
+      ${genSidebarList.call(this, "", this.site.data.sidebar[path])}
     </ul>
   `
 });
 
 function genSidebarList(parent, entries) {
   let self = this /* necessary due to changed context of map() */
-  let lang = ((self.page.lang != 'en') ? self.page.lang : '')
+  let lang = (self.page.lang != 'en' && parent == "") ?  self.page.lang : ''
   return entries.map(entry => {
-    let path = join(parent, lang, entry.path)
+    let fullPath = join(lang, parent, entry.path)
+    let isActive = self.path.startsWith(fullPath)
     return `
-      <li class="${self.path.startsWith(join(lang, entry.path)) ? 'active' : ''}">
-        <a href="${path}">${entry.title}</a>
+      <li class="${isActive ? "active" : ""}">
+        <a href="${join('/', fullPath)}">${entry.title}</a>
         ${(entry.children != undefined) ? `
         <ul class="sidebar-submenu">
-          ${genSidebarList.call(self, path, entry.children)}
+          ${genSidebarList.call(self, fullPath, entry.children)}
         </ul>
         ` : ''}
       </li>`

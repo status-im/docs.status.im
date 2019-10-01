@@ -1801,46 +1801,43 @@ footer{
         list-style-type: none;
         margin: 0;
         padding: 0;
-        li{
-            margin-bottom: 20px;
-            &.active{
-                a{
-                    color: $purple;
-                }
-                .sidebar-submenu{
-                    display: block;
-                }
-            }
-            a{
+        
+        li {
+            font-weight: $ibm-plex-sans-regular;
+            margin-bottom: 10px;
+
+            a {
                 color: $black;
-                font-weight: $ibm-plex-sans-medium;
                 img{
                     margin-left: 10px;
                 }
             }
-            .sidebar-submenu{
-                list-style-type: none;
-                margin-top: 20px;
-                padding-left: 20px;
+
+            ul {
                 display: none;
-                li{
-                    margin-bottom: 10px;
-                    &.active{
-                        a{
-                            color: $purple;
-                            font-weight: $ibm-plex-sans-medium;
-                        }
-                    }
-                    a{
-                        font-size: 15px;
-                        font-weight: $ibm-plex-sans-regular;
-                        color: $black;
-                        img{
-                            margin-left: 15px;
-                        }
-                    }
-                }
             }
+        }
+
+        >li {
+            margin-bottom: 20px;
+            font-weight: $ibm-plex-sans-medium;
+        }
+
+        li.active>a {
+            color: $purple;
+            font-weight: $ibm-plex-sans-medium;
+        }
+
+        li.active {
+            ul {
+                display: block;
+            }
+        }
+
+        .sidebar-submenu{
+            list-style-type: none;
+            padding-left: 20px;
+            font-size: 15px;
         }
     }
 }

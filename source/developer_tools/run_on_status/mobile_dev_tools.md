@@ -49,7 +49,7 @@ Visit the Status technical documentation for setup instructions: [https://status
 Watch Rob install TeamViewer on a simulated Android device using Android Studio running on Ubuntu 18, then take control of the Android device using TeamViewer on Windows 10. 
 
 <div class="video-wrapper">
-	<iframe class="video-iframe" src="https://www.youtube.com/embed/upIi3BQlXg8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe class="video-iframe" src="https://www.youtube.com/embed/3NpB2raLI7I?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Debug with Chrome

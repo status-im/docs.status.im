@@ -75,7 +75,7 @@ Don’t forget to invite your users to run your DApp on Status.
 Let’s watch Andy Tudhope walk us through the DApp Store registration process.
 
 <div class="video-wrapper">
-	<iframe class="video-iframe" src="https://www.youtube.com/embed/W-lCSGE9Iiw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe class="video-iframe" src="https://www.youtube.com/embed/5UlOWRtYAnI?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Practice Registration and Staking

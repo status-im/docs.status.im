@@ -109,7 +109,7 @@ There are a few standard configuration files located in the [config/cli](https:/
 make statusgo-library
 ```
 
-This command will build a status-go library for the host platform under `build/bin/libstatus.a`. You can also cross compile for different platforms using the appropriate `make` commands, e.g. `make statusgo-android`, `make statusgo-linux`, etc. These will be built in a Docker container using `xgo`, which can be obtained by running `make xgo`.
+This command will build a status-go library for the host platform under `build/bin/libstatus.a`. You can also cross compile for mobile platforms using [gomobile](https://github.com/golang/mobile) and the appropriate `make` commands, e.g. `make statusgo-android`, `make statusgo-ios`, etc.
 
 ### 6. Build a bootnode
 

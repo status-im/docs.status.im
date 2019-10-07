@@ -13,42 +13,18 @@ const runSequence = require('run-sequence');
 const minify = require('gulp-minify');
 const cleanCSS = require('gulp-clean-css');
 const rename = require("gulp-rename");
-const run = require('gulp-run-command').default;
 const bamboo = require('./scripts/bamboo-hr');
 
 const genqr = require('./scripts/gen-qr');
 const gitBranch = require('./scripts/git-branch');
 const updateBuilds = require('./scripts/update-builds');
 
-const getEnv = function () {
-    return gitBranch() == 'master' ? 'prod' : 'dev'
-}
-
-gulp.task('generate', function(cb) {
-    /* generate html with 'hexo generate' */
-    var hexo = new Hexo(process.cwd(), {
-        config: `_config.${getEnv()}.yml`,
-        watch: false,
-    });
-
-    hexo.init().then(function() {
-        return hexo.call('generate');
-    }).then(function() {
-        return hexo.exit();
-    }).then(function() {
-        return cb()
-    }).catch(function(err) { console.log(err);
-        hexo.exit(err);
-        return cb(err);
-    })
-})
-
 var config = {
     paths: {
         src: {
             scss: './themes/navy/source/scss/*.scss',
             js: [
-                './themes/navy/source/js/dev.js',
+                './themes/navy/source/js/main.js',
             ],
         },
         dist: {
@@ -71,15 +47,12 @@ bundler.transform(
     })
 )
 
-// On updates recompile
-bundler.on('update', bundle)
-
-function bundle() {
+const bundle = () => {
     log('Compiling JS...')
 
     return bundler
         .bundle()
-        .on('error', function(err) {
+        .on('error', (err) => {
             log(err.message)
             browserSync.notify('Browserify Error!')
             this.emit('end')
@@ -90,7 +63,35 @@ function bundle() {
         .pipe(browserSync.stream({ once: true }))
 }
 
-gulp.task('compress', ['sass'], function() {
+// On updates recompile
+bundler.on('update', bundle)
+
+// helper functions
+
+const getEnv = () => {
+    return gitBranch() == 'master' ? 'prod' : 'dev'
+}
+
+const hexo = async (cmdName) => {
+    var h = new Hexo(process.cwd(), {
+        config: `_config.${getEnv()}.yml`,
+        watch: false,
+    })
+    try {
+        await h.init()
+        await h.call(cmdName)
+        await h.exit()
+    } catch(err) {
+        h.exit(err)
+        throw err
+    }
+}
+
+gulp.task('generate', async (cb) => {
+    await hexo('generate') /* generate html with 'hexo generate' */
+})
+
+gulp.task('compress', ['sass'], () => {
     gulp.src('./themes/navy/source/js/main.js')
         .pipe(minify({
             ext: {
@@ -105,30 +106,30 @@ gulp.task('compress', ['sass'], function() {
         .pipe(gulp.dest('./public/css/'));
 });
 
-gulp.task('nightlies', function() {
+gulp.task('nightlies', () => {
     return updateBuilds('nightlies', 'latest.json')
 })
 
-gulp.task('releases', function() {
+gulp.task('releases', () => {
     return updateBuilds('releases', 'release.json')
 })
 
-gulp.task('employees', async function() {
+gulp.task('employees', async () => {
     return bamboo.saveEmployees('source/_data/employees.yml')
 })
 
-gulp.task('genqr', function() {
+gulp.task('genqr', () => {
     genqr('nightlies', 'APK',   'public/nightly/img', 'qr-apk.png')
     genqr('nightlies', 'DIAWI', 'public/nightly/img', 'qr-ios.png')
     genqr('releases',  'APK',   'public/stable/img',  'qr-apk.png')
     genqr('releases',  'DIAWI', 'public/stable/img',  'qr-ios.png')
 })
 
-gulp.task('bundle', function() {
+gulp.task('bundle', () => {
     return bundle()
 })
 
-gulp.task('sass', function() {
+gulp.task('sass', () => {
     return gulp.src("./themes/navy/source/scss/main.scss")
         .pipe(sass())
         .on('error', log)
@@ -136,23 +137,24 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream())
 })
 
-gulp.task('index', run(`hexo --config _config.${getEnv()}.yml elasticsearch`))
+gulp.task('index', async () => {
+  await hexo('elasticsearch')
+})
 
-gulp.task('watch', function() {
+gulp.task('watch', async () => {
     gulp.watch(config.paths.src.scss, ['compress'])
 });
 
-gulp.task('build', function(cb) {
+gulp.task('build', (cb) => {
     runSequence('generate', 'compress', 'genqr', 'bundle', 'watch')
 });
 
-gulp.task('exit', function(cb) {
+gulp.task('exit', (cb) => {
     process.exit(0);
 });
 
-gulp.task('run', function(cb) {
+gulp.task('run', (cb) => {
     runSequence('generate', 'compress', 'genqr', 'bundle', 'exit')
-    
 });
 
 gulp.task('default', [])

@@ -29,8 +29,8 @@ pipeline {
 
     stage('Install Deps') {
       steps {
-        sh 'npm install'
-        sh 'npm update'
+        sh 'yarn install'
+        sh 'yarn update'
       }
     }
 
@@ -41,15 +41,15 @@ pipeline {
           usernameVariable: 'HEXO_ES_USER',
           passwordVariable: 'HEXO_ES_PASS'
         )]) {
-          sh 'npm run index'
+          sh 'yarn run index'
         }
       }
     }
 
     stage('Build') {
       steps {
-        sh 'npm run clean'
-        sh 'npm run build'
+        sh 'yarn run clean'
+        sh 'yarn run build'
       }
     }
 

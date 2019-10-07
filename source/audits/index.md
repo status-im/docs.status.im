@@ -11,12 +11,29 @@ These security audits are not guarantees of security in the projects they pertai
 
 As always, if you find a bug or vulnerability in our code, please report it to [security@status.im](mailto:security@status.im).
 
+## Ongoing Security Retainer
+
+Status currently maintains an ongoing retainer contract with Trail of Bits to help with overall security coverage.
+
+## Bug Bounty Program
+
+Status currently has a private campaign on the HackerOne platform for bug bounties.  We are currently underway to expand this program's scope and availability post-V1 mobile app release to become public and the de-facto standard method for reporting found vulnerabilities within the Status ecosystem.  
+
 ## Ongoing Security Audits
 
-
+### Status Mobile App V1 with Trail of Bits
+- Started September 30th, 2019
+- Ends November 1st, 2019
+- Github repo will be made available after all issues are resolved
 
 ## Finalized Security Audits
 
+### Sticker Market contracts with Trail of Bits
+- June 2019 - [Sticker Market Repository (with contracts)](github.com/status-im/sticker-market)
+- [Finalized Issue Document](https://docs.google.com/document/d/1zwORJkLjymjF7Z8UmNIURr9tlCjt7eI0qtcRYuJRPEA/edit?usp=sharing)
+    - We opted to not request a finalized generated report from Trail of Bits for this audit, and instead tracked problems through a private repository maintained by Trail of Bits.  These were then fixed and summarized in the above document. 
+    - All changes in that repository have been merged into the above linked repository.
+ 
 ### ENS smart contract with Sigma Prime
 - October 2018 - [ENS Username Contract ](https://github.com/status-im/ens-usernames/blob/master/contracts/registry/UsernameRegistrar.sol) - commit hash [eaefa92](https://github.com/status-im/ens-usernames/commit/eaefa92a258c784f1df4066e057e8170bcb6ef95#diff-dbff1e6b987cbb9a6b87ea8180c41e72)
 - [report](https://drive.google.com/open?id=1BqiPGBjILgbIlmMXAO8AombxW_jsQtfC)

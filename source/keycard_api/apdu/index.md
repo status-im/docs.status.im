@@ -9,7 +9,7 @@ This document describes all APDUs part of the Keycard APDU protocol. Any impleme
 
 ## Version
 
-This documentation is at version 2.2.
+This documentation is at version 3.0.
  
 ## Conventions
 
@@ -33,7 +33,7 @@ Devices not implementing the Secure Channel capability do not implement the **PA
 
 Key management is the ability to generate, remove, backup and restore keys. Some devices might have internal key management and not allow the client to take part in this process.
 
-Devices not implementing the Key management capability do not implement the **LOAD KEY**, **GENERATE KEY**, **GENERATE MNEMONIC**, **REMOVE KEY** and **DUPLICATE KEY** commands.
+Devices not implementing the Key management capability do not implement the **LOAD KEY**, **GENERATE KEY**, **GENERATE MNEMONIC**, **REMOVE KEY** commands.
 
 ### Credentials management
 
@@ -45,4 +45,4 @@ Devices not implementing the Credentials management capability do not implement 
 
 The NDEF capability is the ability to set a custom NDEF record on the NFC interface. The NDEF record is used, for example, by mobile phones to decide the action to perform when a card is tapped to the device and no application using NFC is open. Customizing the NDEF record allow setting a default client or link to launch. Obviously, not all devices have a NFC interface and even those who do might not provide a way to customize the NDEF response.
 
-Devices not implementing the NDEF capability do not implement the **SET NDEF** command.
+Devices not implementing the NDEF capability do not support P1 = 0x01 (SET NDEF DATA) in the **STORE DATA** command.

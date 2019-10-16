@@ -111,8 +111,6 @@ docs:
             path: pinless.html
           - title: Exporting Keys
             path: export.html
-          - title: Card Duplication
-            path: duplication.html
 
       - title: APDU API
         path: apdu
@@ -133,8 +131,6 @@ docs:
             path: unpair.html
           - title: GET STATUS
             path: getstatus.html
-          - title: SET NDEF
-            path: setndef.html
           - title: VERIFY PIN
             path: verifypin.html
           - title: CHANGE PIN
@@ -151,8 +147,6 @@ docs:
             path: removekey.html
           - title: GENERATE KEY
             path: generatekey.html
-          - title: DUPLICATE KEY
-            path: duplicatekey.html
           - title: SIGN
             path: sign.html
           - title: SET PINLESS PATH

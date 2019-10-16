@@ -17,4 +17,3 @@ See the sub-sections below for more details:
 * [Derivation & Signing](/keycard_api/sdk/derivation_sign.html)
 * [Pinless Signing](/keycard_api/sdk/pinless.html)
 * [Exporting Keys](/keycard_api/sdk/export.html)
-* [Card Duplication](/keycard_api/sdk/duplication.html)

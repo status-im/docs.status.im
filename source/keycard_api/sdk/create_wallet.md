@@ -37,7 +37,7 @@ cmdSet.loadKey(Mnemonic.toBinarySeed(passphrase, password)).checkOK();
 
 ## Generating keys on-card
 
-This is the simplest and safest method, because the generated wallet never leaves the card and there is no "paper backup" to keep secure. It is possible to create secure duplicates of the wallet on other Keycards, with a mechanism described in later chapters. Using the SDK, you simply do
+This is the simplest and safest method, because the generated wallet never leaves the card and there is no "paper backup" to keep secure. Using a multi-sig wallet can solve the problem of backups, by having multiple cards signers for the wallet. Using the SDK, you simply do
 
 ```java
 cmdSet.generateKey().checkOK();

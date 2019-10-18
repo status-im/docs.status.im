@@ -40,7 +40,7 @@ info.getAppVersion();
 
 // Returns the number of free pairing slots. If you are not yet paired with the card, it helps you know if you can still
 // pair or not
-info.getFreePairingSlots());
+info.getFreePairingSlots();
 
 // Tells if the card has a wallet or not. If no wallet is available, you must create once before you can perform most
 // operations on the card

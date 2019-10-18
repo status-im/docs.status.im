@@ -111,6 +111,8 @@ docs:
             path: pinless.html
           - title: Exporting Keys
             path: export.html
+          - title: Cash applet
+            path: cash.html
 
       - title: APDU API
         path: apdu
@@ -153,6 +155,10 @@ docs:
             path: setpinlesspath.html 
           - title: EXPORT KEY
             path: exportkey.html
+          - title: STORE DATA
+            path: storedata.html
+          - title: GET DATA
+            path: getdata.html
 
   - title: Research
     path: research

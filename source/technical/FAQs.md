@@ -31,7 +31,7 @@ EthereumJ has different goals, its developers intended for server use and had no
 Our current approach allows us to get bleeding edge tech and stability of geth whilst maintaining a single codebase.
 
 ## I would like to contribute to the project, where would you suggest I start?
-Best place to start is by [downloading Status itself](https://status.im/nightly/) and playing with it. You can install our Android nightly builds from here, or join us in [chat.status.im](https://chat.status.im) to ask for access to our iOS builds through TestFlight.
+Best place to start is by [downloading Status itself](https://status.im/get) and playing with it. To install Status on iOS, download and install Testflight first and then open the [iOS link](https://status.im/get) on your phone.
 
 If you're a DApp developer, head over to those [docs](intro_dapps.md). If you are a mobile developer yourself and love functional languages, then build Status [yourself](build_status.md) and start submitting those PRs.
 
@@ -44,12 +44,12 @@ If your web-based DApp renders on mobile, use the big "+" button on the homepage
 No, we currently support both iOS and Android and have a dedicated team working on desktop integration.
 
 ## Is it possible to install Status & how can I test?
-We are working through getting more TestFlight invites out for iOS, so make sure to sign up on the homepage. For Android users you can navigate to here and [download an APK for yourself](https://status-im.github.io/nightly/). 
+Yes, at this time you can install [Status Beta](https://status.im/get). To install Status on iOS, download and install Testflight first and then open the [iOS link](https://status.im/get) on your phone.
 
 ## What languages do you support?
 We’re currently supporting 30 languages — this includes; English, 官話, 官话, 廣東話, 上海话, Nederlands, Français, Deutsch, हिन्दी, Magyar, Italiano, 日本語, 한국어, Polski, Português brasileiro, Português europeu, Română, Slovenski, Español, Español (Latin-America), Swahili, Svenska, Suisse française, Schweizerdeutsch, Svizzera Italiana, ภาษาไทย, Türkçe, русский, українська, اُردُو & Tiếng Việt!
 
-If you see a typo, mistranslation or something missing, don't hesitate to let us know via the [chat.status.im](https://chat.status.im).
+If you see a typo, mistranslation or something missing, don't hesitate to let us know via the [translate.status.im](https://translate.status.im/).
 
 ## Camera Permissions 
 We use this for setting your profile picture and for reading QR codes and only ask when it is absolutely necessary to, not before.

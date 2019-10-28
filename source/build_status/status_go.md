@@ -21,7 +21,7 @@ The project output can take several forms:
 
 ### 1. Requirements
 
-- Go version 1.10;
+- Go version 1.12;
 - Set `GOPATH`;
 - Docker (only if cross-compiling).
 
@@ -30,6 +30,7 @@ The project output can take several forms:
 ```shell
 git clone https://github.com/status-im/status-go
 cd status-go
+git checkout develop
 ```
 
 ### 3. Set up build environment

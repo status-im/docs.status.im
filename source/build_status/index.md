@@ -22,7 +22,7 @@ cd status-react
 
 ### 2. Install the dependencies
 
-We created a special script that leverages [Nix](https://nixos.org/nix) to install everything Status needs with minimal impact to the user's system. However, this script has only been tested on macOS (with XCode 10.2.1), Ubuntu Linux 18.04 and Manjaro. If it doesn't work for you on another Linux distribution, please install all dependencies manually (you can find the list below).
+We created a special script that leverages [Nix](https://nixos.org/nix) to install everything Status needs with minimal impact to the user's system. However, this script has only been tested on macOS (with XCode 11.1), Ubuntu Linux 18.04 and Manjaro. If it doesn't work for you on another Linux distribution, please install all dependencies manually (you can find the list below).
 In order to make things as practical as possible, the script will auto-accept the Android SDK license agreements.
 
 If you're on NixOS, please run the following to ensure you have the necessary prerequisites available:
@@ -57,7 +57,7 @@ The `make shell TARGET_OS=<os>` script prepares and installs the following:
 
 *Note 3:* An environment variable called `TARGET_OS` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `make shell TARGET_OS=android`. Most of the makefile targets already include a sensible default.
 
-*Note 4:* On macOS, the build environment is set up to rely on XCode 10.2.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
+*Note 4:* On macOS, the build environment is set up to rely on XCode 11.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
 
 ## Running development processes
 
@@ -138,7 +138,25 @@ If you need to use a branch of a status-go fork as a dependency of status-react,
 
 The script will save the indicated commit hash along with other information in the `status-go-version.json` file.
 
-If you are using a GitHub fork of `status-go` repo export the `STATUS_GO_OWNER` environment variable when running the script.
+If you are using a GitHub fork of `status-go` repo, export the `STATUS_GO_OWNER` environment variable when running the script.
+
+### Building and using local source repository of status-go
+
+If instead you need to use a locally checked-out status-go repository as a dependency of status-react, you can achieve that by defining the `STATUS_GO_SRC_OVERRIDE`
+environment variable.
+
+```sh
+export STATUS_GO_SRC_OVERRIDE=$GOPATH/src/github.com/status-im/status-go
+# Any command that you run from now on
+# will use the specified status-go location
+make release-android
+```
+
+or for a one-off build:
+
+```sh
+make release-android STATUS_GO_SRC_OVERRIDE=$GOPATH/src/github.com/status-im/status-go
+```
 
 ## Debugging tips
 

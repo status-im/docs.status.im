@@ -5,7 +5,7 @@ title: Open Positions
 
 # Open Positions
 
-See below for a list of open positions at Status. Please note that all of our positions are remote - we welcome contributors from all over the globe.
+Please note that all of our positions are remote - we welcome contributors from all over the globe.
  
 <div id="grnhse_app"></div>
 <script src="https://boards.greenhouse.io/embed/job_board/js?for=status72"></script>

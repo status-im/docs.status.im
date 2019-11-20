@@ -59,6 +59,10 @@ docs:
         path: intro_desktop.html
       - title: Build Desktop
         path: desktop.html
+      - title: Your First PR
+        path: first_pr_guide.html
+      - title: A Makefile Tour
+        path: makefile_tour.html
       - title: Learn About Our Tools
         path: ../guides/desktop_inline_eval.html
       - title: Desktop Troubleshooting
@@ -67,8 +71,7 @@ docs:
         path: desktop_google_breakpad.html
       - title: Status-React Quick Start
         path: status_react_quickstart.html
-      - title: Your First PR
-        path: first_pr_guide.html
+
 
   - title: Tutorials
     path: tutorials

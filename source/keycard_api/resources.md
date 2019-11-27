@@ -18,4 +18,3 @@ Here you find the links to all repositories and tools related to Keycard develop
 
 ## Tools
 * [Keycard CLI](https://github.com/status-im/keycard-cli)
-* [Latest Keycard applet (binary)](https://github.com/status-im/keycard-installer-android/blob/master/app/src/main/assets/keycard.cap?raw=true)

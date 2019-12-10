@@ -521,7 +521,8 @@ site:
       content-10:
         title: "Rigorous Auditing"
         description-1: "As we reach major milestones in development, after rounds of internal review and auditing, we reach out to industry leading, third-party auditing firms to verify our sanity, and double/triple check the work that we do. These security audits are not guarantees of security in the projects they pertain to. They are additional checks from objective third parties to help bolster confidence in the security of intended functionality."
-        description-2: "If you find a bug or vulnerability in our code, please report it to %s."
+        description-2: "For information and details on all external audits, please see the %s."
+        description-3: "If you find a bug or vulnerability in our code, please report it to %s."
       content-11:
         title: "Educate yourself to stay safe"
         description: "Decentralized, serverless products such as Status remove a number of unnecessary intermediaries, enabling you to chat, transact, and browse without fear of surveillance, censorship, and data leakage. This is because you are in control of your data and your own digital safety. Therefore, it is important you understand how to protect yourself. Learn more about how to stay safe with this Status Security Best Practice Guide."

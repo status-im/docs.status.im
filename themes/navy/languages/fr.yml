@@ -326,7 +326,8 @@ site:
       content-10:
         title: 'Audit rigoureux'
         description-1: 'Alors que nous atteignons des jalons importants dans le développement, après des séries d’examens internes et d’audits, nous nous adressons à des cabinets d’audit tiers leaders du secteur pour vérifier notre intégrité et un double / triple contrôle de notre travail. Ces audits de sécurité ne constituent pas des garanties de sécurité dans les projets auxquels ils se rapportent. Ce sont des vérifications supplémentaires de tiers objectifs visant à renforcer la confiance dans la sécurité des fonctionnalités souhaitées.'
-        description-2: 'Si vous trouvez un bogue ou une vulnérabilité dans notre code, veuillez le signaler à %s.'
+        description-2: "For information and details on all external audits, please see the %s."
+        description-3: 'Si vous trouvez un bogue ou une vulnérabilité dans notre code, veuillez le signaler à %s.'
       content-11:
         title: 'Éduquez-vous pour rester en sécurité'
         description: 'Les produits décentralisés sans serveur, tels que Status, suppriment un certain nombre d''intermédiaires inutiles, vous permettant de discuter, de traiter et de naviguer sans craindre la surveillance, la censure et les fuites de données. C''est parce que vous contrôlez vos données et votre propre sécurité numérique. Par conséquent, il est important que vous compreniez comment vous protéger. Apprenez-en plus sur les moyens de rester en sécurité avec ce Guide des meilleures pratiques de sécurité Status.'

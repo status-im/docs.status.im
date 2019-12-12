@@ -21,7 +21,7 @@ Note: for a Windows build cross-compiled from Linux, replace `make release-deskt
 
 ## To install react-native-cli with desktop commands support
 
-Remove the `export PATH="$STATUS_REACT_HOME/node_modules/.bin:$PATH"` line in https://github.com/status-im/status-react/blob/develop/nix/derivation.nix and run:
+Remove the `export PATH="$STATUS_REACT_HOME/node_modules/.bin:$PATH"` line in https://github.com/status-im/status-react/blob/develop/nix/tools/mkShell.nix and run:
 
 ``` bash
 git clone https://github.com/status-im/react-native-desktop.git

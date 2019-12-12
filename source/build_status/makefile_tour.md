@@ -11,7 +11,7 @@ Below are some of the more useful Makefile targets that will help you with the d
 
 # Development Shell
 
-`make shell` is the most fundamental target in the Makefile.  At its core, it will either build or launch a [Nix](https://github.com/status-im/status-react/tree/develop/nix) shell preconfigured to build Status.  If this is your first time building status, this is where you'll start.  Run `make shell TARGET_OS={os_name}` where `os_name` is `android`/`ios`/`linux`/`macos`/`windows` and the Makefile will build out the Nix environment and get you ready to start coding.  Now, go get a cup of coffee.  It'll take a while to finish this process.
+`make shell` is the most fundamental target in the Makefile.  At its core, it will either build or launch a [Nix](https://github.com/status-im/status-react/tree/develop/nix) shell preconfigured to build Status.  If this is your first time building status, this is where you'll start.  Run `make shell TARGET={os_name}` where `os_name` is `android`/`ios`/`linux`/`macos`/`windows` and the Makefile will build out the Nix environment and get you ready to start coding.  Now, go get a cup of coffee.  It'll take a while to finish this process.
 
 Valid target OS options are available in the [`nix/platforms.nix`](https://github.com/status-im/status-react/blob/develop/nix/platform.nix) file.
 
@@ -26,12 +26,12 @@ You will need to run one of each target in separate terminals from the following
 
 `make startdev-**` is the set of targets that starts up Figwheel and the Clojurescript REPL.  Depending on what environment you're coding on, you'll use one of the following targets.
 
-* `make startdev-android-real` - when using a real Android device for development
-* `make startdev-android-avd` - when using a virtual Android device for development
-* `make startdev-android-genymotion` - when using the Genymotion simulator for Android development
-* `make startdev-ios-real` - when using a real iOS device for development
-* `make startdev-ios-simulator` - when using the XCode IOS simulator for development
-* `make startdev-desktop` - when developing for Status Desktop
+* `make startdev-android-real` - For using a real Android device for development
+* `make startdev-android-avd` - For using a virtual Android device for development
+* `make startdev-android-genymotion` - For using the Genymotion simulator for Android development
+* `make startdev-ios-real` - For using a real iOS device for development
+* `make startdev-ios-simulator` - For using the XCode IOS simulator for development
+* `make startdev-desktop` - For developing for Status Desktop
 
 Note: If developing with a real Android device, make sure to also run `make android-ports` or the REPL won't connect to your device.
 
@@ -60,10 +60,10 @@ OS targets
 `make release` builds a release version of the app that is ready for install on Android and iOS.
 
 OS targets
-* `make release-android` Builds the Android version of the app
-* `make release-ios` Builds the iOS version of the app
-* `make release-desktop` Builds a desktop version of the app
-*  `make release-windows-desktop` Builds a Windows desktop version of the app (available on Linux hosts)
+* `make release-android` - Builds the Android version of the app
+* `make release-ios` - Builds the iOS version of the app
+* `make release-desktop` - Builds a desktop version of the app
+* `make release-windows-desktop` - Builds a Windows desktop version of the app (available on Linux hosts)
 
 # Additional Targets
 
@@ -71,26 +71,21 @@ OS targets
 
 There are three targets related to testing.
 
-`make test` will run all the NodeJS unit tests once and print the output to the screen.
-
-`make test-auto` will run all the NodeJS unit tests in interactive mode, monitoring the code base for any changes and then re-running the test suite when changes are detected.
-
-`make coverage` will run the NodeJS unit tests once and generate a coverage report.
-
-`make lint` will run the linter and fix any formatting issues.
+* `make test` - Runs all the NodeJS unit tests once and print the output to the screen.
+* `make test-auto` - Runs all the NodeJS unit tests in interactive mode, monitoring the code base for any changes and then re-running the test suite when changes are detected.
+* `make coverage` - Runs the NodeJS unit tests once and generate a coverage report.
+* `make lint` - Runs the linter and fix any formatting issues.
 
 ## Android Targets
 
-`make android-ports` will set up the ADB proxy ports to make sure the REPL/development server can connect to the device/simulator.
-
-`make android-logcat` Run this in a separate terminal and it will continuously print the logs from ADB that are specific to the Status app
-
-`make android-clean` will clean up the android development environment, causing Gradle to rebuild the entire app the next time you run `make run-android`
+* `make android-ports` - Sets up the ADB proxy ports to make sure the REPL/development server can connect to the device/simulator.
+* `make android-logcat` - Run this in a separate terminal and it will continuously print the logs from ADB that are specific to the Status app
+* `make android-clean` - Cleans up the android development environment, causing Gradle to rebuild the entire app the next time you run `make run-android`
 
 ## Nix Targets
 
 Note: These targets will not work on [MacOS Catalina](https://github.com/status-im/status-react/tree/develop/nix#macos-1015-catalina).
 
-`make nix-purge` Sometimes, your dev environment gets hosed and you just need to start over.  This target will completely purge the entire Nix build environment.  If you run this command, you will need to run `make shell TARGET_OS={preferred OS}` before you can continue developing.
-
-`make nix-clean` purges out all the Status build artifacts.  This isn't as extreme as `make nix-purge` but will still give you a fresh start on building the app if something goes awry in your dev environment.
+* `make nix-purge` - Sometimes, your dev environment gets hosed and you just need to start over.  This target will completely purge the entire Nix build environment.  If you run this command, you will need to run `make shell TARGET={preferred OS}` before you can continue developing.
+* `make nix-clean` - Cleans up all the Status build artifacts.  This isn't as extreme as `make nix-purge` but will still give you a fresh start on building the app if something goes awry in your dev environment.
+* `make nix-gc` - Removes from the Nix store all packages older than 20 days. Great way to recover some lost disk space.

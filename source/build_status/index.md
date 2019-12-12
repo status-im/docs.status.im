@@ -31,9 +31,9 @@ If you're on NixOS, please run the following to ensure you have the necessary pr
 nix-env --install git gnumake
 ```
 
-In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands on the same terminal, you might want to start a dedicated Nix shell by running `make shell TARGET_OS=android` (or using other `TARGET_OS`).
+In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands on the same terminal, you might want to start a dedicated Nix shell by running `make shell TARGET=android` (or using other `TARGET`).
 
-The `make shell TARGET_OS=<os>` script prepares and installs the following:
+The `make shell TARGET=<os>` script prepares and installs the following:
 
 - Java 8
 - Clojure and Leiningen
@@ -53,11 +53,9 @@ The `make shell TARGET_OS=<os>` script prepares and installs the following:
 
 *Note 1:* It can take up to 60 minutes depending on your machine and internet connection speed.
 
-*Note 2:* Specific tool versions used are maintained in the [.TOOLVERSIONS](https://github.com/status-im/status-react/blob/develop/.TOOLVERSIONS) file.
+*Note 2:* An environment variable called `TARGET` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `make shell TARGET=android`. Most of the makefile targets already include a sensible default.
 
-*Note 3:* An environment variable called `TARGET_OS` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `make shell TARGET_OS=android`. Most of the makefile targets already include a sensible default.
-
-*Note 4:* On macOS, the build environment is set up to rely on XCode 11.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
+*Note 3:* On macOS, the build environment is set up to rely on XCode 11.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
 
 ## Running development processes
 
@@ -116,9 +114,9 @@ Installation script installs Android SDK and Android NDK.
 
 Once Android SDK is set up, execute:
 
-  ```bash
-  make run-android
-  ```
+```bash
+make run-android
+```
 
 Check the following docs if you still have problems:
 
@@ -132,9 +130,8 @@ Check the following docs if you still have problems:
 
 If you need to use a branch of a status-go fork as a dependency of status-react, you can have the scripts build it.
 
-1. Make sure you are in the root of the `status-react` repo and start a Nix shell using `make shell TARGET_OS=android`.
+1. Make sure you are in the root of the `status-react` repo and start a Nix shell using `make shell TARGET=android`.
 1. Run `scripts/update-status-go.sh <rev>`, where `rev` is a branch name, tag, or commit SHA1 you want to build.
-1. Exit the shell in order to make sure Nix notices the version change.
 
 The script will save the indicated commit hash along with other information in the `status-go-version.json` file.
 
@@ -174,17 +171,21 @@ Assuming re-frisk is running in port 4567, you can just navigate to http://local
 
 ## Updating dependencies
 
-### Desktop node dependencies
+### iOS CocoaPods dependencies
 
-Whenever the `desktop_files/yarn.lock` file changes, `make update-npm-nix` should be run in order to update the [`node2nix`](https://github.com/svanderburg/node2nix) files at `nix/desktop/realm-node/output`.
+Whenever the iOS NodeJS dependencies change, `make nix-update-pods` should be run in order to update `ios/Podfile` and `ios/Podfile.loc`.
 
 ### Android Gradle Maven dependencies
 
-Whenever the Android project changes in terms of Gradle dependencies, `make update-gradle-nix` should be run in order to update `nix/mobile/android/maven-and-npm-deps/maven/maven-sources.nix`.
+Whenever the Android project changes in terms of Gradle dependencies, `make nix-update-gradle` should be run in order to update `nix/mobile/android/maven-and-npm-deps/maven/maven-sources.nix`.
 
 ### Leiningen Maven dependencies
 
-Whenever the Leiningen dependencies change, `make update-lein-nix` should be run in order to update `nix/lein/lein-project-deps.nix`.
+Whenever the Leiningen dependencies change, `make nix-update-lein` should be run in order to update `nix/lein/lein-project-deps.nix`.
+
+### Fastlane Ruby dependencies
+
+Whenever Fastlane and its modules need updating, `make nix-update-gems` should be run in order to update `fastlane/Gemfile.lock` and `fastlane/gemset.nix`.
 
 ## Troubleshooting
 

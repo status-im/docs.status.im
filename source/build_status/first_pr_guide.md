@@ -40,7 +40,7 @@ git checkout -b my_example_status_branch -t upstream/develop
 Depending on which environment you want to build for (Android/iOS/Desktop), there are different build targets to leverage.  Update the target OS defined below based on your intended build environment.
 
 ```bash
-make shell TARGET_OS=android
+make shell TARGET=android
 ```
 
 Follow the more detailed walkthroughs in the below links to get up and running with the end-to-end build process for each environment.

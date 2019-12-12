@@ -40,13 +40,13 @@ Building out your own dev version of Status is the best way to experiment before
 
 Open up three terminal windows (or tabs), and ensure you keep all three open.  In the first, enter the command:
 
-``` bash
+```bash
 make startdev-ios-simulator
 ```
 
 Under the hood, this command runs the equivalent of:
 
-``` bash
+```bash
 clj -R:dev build.clj watch --platform ios --ios-device simulator
 ```
 
@@ -56,7 +56,7 @@ With that entered, you should see the following, after a short time:
 
 With Figwheel started, re-frisk started, and the ClojureScript REPL started, you can move onto the second window, and enter the next command:
 
-``` bash
+```bash
 make react-native-ios
 ```
 
@@ -66,7 +66,7 @@ By executing this make script, a Nix environment will be created for iOS, runnin
 
 The image above reflects how the terminal window will remain, until the third command has been successfully executed.  Head into the third Terminal window, and enter: 
  
-``` bash
+```bash
 make run-ios
 ```
 
@@ -100,8 +100,11 @@ As mentioned above, our Makefiles loaded up a re-frisk instance for us, to aid d
 
 If for any reason you need to completely clean up Status, go to `~/Library/Application Support/` and delete any `Status` directories. Delete the app in `/Application`. Then you are ready to reinstall.
 
-You can also purge / clean up Nix by running the command:
-
-``` bash
+To free up space by removing old packages from the Nix store you can use:
+```bash
+make nix-gc
+```
+You can also purge Nix and all its related files by running the command:
+```bash
 make nix-purge
 ```

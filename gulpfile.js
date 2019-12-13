@@ -4,7 +4,6 @@ const source = require('vinyl-source-stream')
 const babelify = require('babelify')
 const watchify = require('watchify')
 const exorcist = require('exorcist')
-const browserify = require('browserify')
 const browserSync = require('browser-sync').create()
 const sass = require('gulp-sass')
 const imagemin = require('gulp-imagemin')
@@ -23,9 +22,7 @@ var config = {
     paths: {
         src: {
             scss: './themes/navy/source/scss/*.scss',
-            js: [
-                './themes/navy/source/js/main.js',
-            ],
+            js: [ './themes/navy/source/js/main.js', ],
         },
         dist: {
             css: './public/css',
@@ -37,41 +34,13 @@ var config = {
 // Watchify args contains necessary cache options to achieve fast incremental bundles.
 // See watchify readme for details. Adding debug true for source-map generation.
 watchify.args.debug = true
-// Input file.
-var bundler = watchify(browserify(config.paths.src.js, watchify.args))
 
-// Babel transform
-bundler.transform(
-    babelify.configure({
-        sourceMapRelative: './themes/navy/source/js/'
-    })
-)
-
-const bundle = () => {
-    log('Compiling JS...')
-
-    return bundler
-        .bundle()
-        .on('error', (err) => {
-            log(err.message)
-            browserSync.notify('Browserify Error!')
-            this.emit('end')
-        })
-        .pipe(exorcist('./themes/navy/source/js/main.js.map'))
-        .pipe(source('main.js'))
-        .pipe(gulp.dest('./themes/navy/source/js'))
-        .pipe(browserSync.stream({ once: true }))
-}
-
-// On updates recompile
-bundler.on('update', bundle)
-
-// helper functions
-
+// helper for determining env based on branch from which we build
 const getEnv = () => {
     return gitBranch() == 'master' ? 'prod' : 'dev'
 }
 
+// loads hexo configuration based on env we build for
 const hexo = async (cmdName, args={}) => {
     var h = new Hexo(process.cwd(), {
         config: `_config.${getEnv()}.yml`,
@@ -91,16 +60,14 @@ gulp.task('generate', async (cb) => {
     await hexo('generate') /* generate html with 'hexo generate' */
 })
 
-gulp.task('compress', ['sass'], () => {
-    gulp.src('./themes/navy/source/js/main.js')
-        .pipe(minify({
-            ext: {
-                min: '.min.js'
-            },
-        }))
+gulp.task('minify', () => {
+    return gulp.src('./themes/navy/source/js/main.js')
+        .pipe(minify({ext:{min:'.min.js' }, mangle: true}))
         .pipe(gulp.dest('./public/js/'))
+});
 
-    gulp.src('./public/css/main.css')
+gulp.task('compress', ['sass'], () => {
+    return gulp.src('./public/css/main.css')
         .pipe(cleanCSS())
         .pipe(rename("main.min.css"))
         .pipe(gulp.dest('./public/css/'));
@@ -125,10 +92,6 @@ gulp.task('genqr', () => {
     genqr('releases',  'DIAWI', 'public/stable/img',  'qr-ios.png')
 })
 
-gulp.task('bundle', () => {
-    return bundle()
-})
-
 gulp.task('sass', () => {
     return gulp.src("./themes/navy/source/scss/main.scss")
         .pipe(sass())
@@ -146,15 +109,11 @@ gulp.task('watch', async () => {
 });
 
 gulp.task('build', (cb) => {
-    runSequence('generate', 'compress', 'genqr', 'bundle', 'watch')
+    runSequence('generate', 'genqr', 'compress', 'minify', 'exit')
 });
 
 gulp.task('exit', (cb) => {
     process.exit(0);
-});
-
-gulp.task('run', (cb) => {
-    runSequence('generate', 'compress', 'genqr', 'bundle', 'exit')
 });
 
 gulp.task('default', [])

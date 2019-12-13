@@ -7,7 +7,7 @@
   },
   "scripts": {
     "clean": "rm -rf public/*",
-    "build": "gulp run",
+    "build": "gulp build",
     "index": "gulp index",
     "eslint": "eslint .",
     "deploy": "hexo deploy",
@@ -17,7 +17,6 @@
     "babel-core": "^6.26.0",
     "babelify": "^8.0.0",
     "browser-sync": "^2.26.7",
-    "browserify": "^16.2.0",
     "cheerio": "^0.20.0",
     "d3": "^5.1.0",
     "d3-ease": "^1.0.2",

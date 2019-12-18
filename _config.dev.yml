@@ -10,6 +10,7 @@ language:
   - zh
   - ru
   - fr
+  - ar
 locale: en
 i18n:
   type: [page, post]

@@ -19,7 +19,7 @@ If you want to add a page to specific section, rather than just edit an existing
 Make sure you have node.js installed first.
 
 1. Open Terminal and navigate to the project root directory,
-1. Run `npm install`,
+1. Run `yarn install`,
 1. We share common elements across our sites using submodules, so you'll need to get those too:
 
     ```bash

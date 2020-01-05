@@ -552,6 +552,24 @@ site:
       link-2: "Linux App"
       link-3: "Windows App"
       announcement: "This is alpha software and may contain vulnerabilities. <br>Please expect changes."
+  lp:
+    intro:
+      private-messaging:
+        title: "Truly Private Messaging"
+        description: "Send and receive fully encrypted messages without any central servers."
+      secure-wallet:
+        title: "Secure Crypto Wallet"
+        description: "Safely store your ETH, SNT, and other crypto-assets."
+      web3-browser:
+        title: "Decentralized Web3 Browser"
+        description: "Discover the ecosystem of decentralized apps, all together in one place."
+    korean:
+      title: "Join us in the public channel <a href='https://get.status.im/chat/public/korean' target='_blank'>#korean</a> and learn how you can win some SNT"
+      prize:
+        option-1: "Register a stateofus.eth ENS Name"
+        option-2: "Purchase sticker packs"
+        option-3: "Upvote your favorite dapps within dap.ps"
+        option-4: "Take part in Status Community Governance proposals"
   docs:
     stripe:
       title: "Status Documentation"

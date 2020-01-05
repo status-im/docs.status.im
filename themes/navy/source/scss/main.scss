@@ -954,6 +954,27 @@ footer{
     background: $black;
     color: $white;
     padding: 0 25px;
+    &.grey{
+        background: $lighter-grey;
+        .get-started,
+        .navigation,
+        .connect{
+            display: none;
+        }
+        .copyright{
+            .inline{
+                a{
+                    color: rgba($light-black, .6);
+                    &:hover{
+                        color: $light-black;
+                    }
+                }
+            }
+            p{
+                color: rgba($light-black, .3);
+            }
+        }
+    }
     a{
         color: $white;
         svg{
@@ -1070,8 +1091,34 @@ footer{
     .inner{
         padding: 30px 0;
     }
-    img{
-        margin: -2px 0 0 -110px;
+    .mobile{
+        img{
+            margin: -2px 0 0 -110px;
+        }
+    }
+    .features{
+        list-style-type: none;
+        padding: 0;
+        max-width: 430px;
+        li{
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            .img-holder{
+                margin-top: 6px;
+                width: 30px;
+            }
+            .li-inner{
+                margin-left: 20px;
+                h4{
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 38px;
+                    color: $black;
+                    margin-bottom: 10px;
+                }
+            }
+        }
     }
 }
 
@@ -2974,6 +3021,44 @@ img.qr-code{
     }
 }
 
+.korean-channel{
+    h3{
+        a{
+            background: $purple;
+            color: $white;
+            padding: 0 10px;
+            border-radius: 4px;
+            &:hover{
+                background: $black;
+            }
+        }
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        margin: 60px -30px 0;
+        padding: 0;
+        li{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $purple;
+            width: calc(25% - 30px);
+            margin: 0 15px;
+            display: flex;
+            &:before{
+                content: '';
+                min-width: 16px;
+                height: 16px;
+                background-image: url('../img/icon-status-list.svg');
+                display: flex;
+                margin-right: 8px;
+                margin-top: 2px;
+            }
+        }
+    }
+}
+
 @media (max-width: 1499px){
     .container {
         max-width: 1170px;
@@ -3069,9 +3154,11 @@ img.qr-code{
         }
     }
     .home-intro{
-        img{
-            width: 100%;
-            margin-left: -80px;
+        .mobile{
+            img{
+                width: 100%;
+                margin-left: -80px;
+            }
         }
     }
     .home-private{
@@ -3482,9 +3569,11 @@ img.qr-code{
         }
     }
     .home-intro {
-        img{
-            width: 200%;
-            margin-left: -160px;
+        .mobile{
+            img{
+                width: 200%;
+                margin-left: -160px;
+            }
         }
     }
     .home-browser {
@@ -3609,12 +3698,42 @@ img.qr-code{
             }
         }
     }
+    .korean-channel{
+        ul{
+            flex-wrap: wrap;
+            margin-top: 10px;
+            li{
+                width: calc(50% - 30px);
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
     .home-intro{
+        .inner{
+            margin-top: 0;
+            padding-bottom: 0;
+        }
         .announcement{
             display: none;
+        }
+        .features{
+            li{
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .li-inner{
+                    h4{
+                        font-size: 18px;
+                        line-height: 38px;
+                    }
+                    p{
+                        margin-left: -50px;
+                    }
+                }
+            }
         }
     }
     .container{
@@ -4238,6 +4357,17 @@ img.qr-code{
         .col-md-6{
             &:first-child{
                 margin-bottom: 50px;
+            }
+        }
+    }
+    .korean-channel{
+        ul{
+            margin-left: 0;
+            margin-right: 0;
+            li{
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
             }
         }
     }

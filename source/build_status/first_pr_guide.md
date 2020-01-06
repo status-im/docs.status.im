@@ -58,8 +58,7 @@ Make whatever changes to the app you've got in mind in your local branch.
 Run the linter to fix any formatting errors:
 
 ```bash
-make shell
-lein cljfmt fix
+make lint-fix
 ```
 
 In a second terminal window, run the tests with `sudo make test-auto`.  This will run the tests continually in the background.

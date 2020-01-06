@@ -74,7 +74,8 @@ There are three targets related to testing.
 * `make test` - Runs all the NodeJS unit tests once and print the output to the screen.
 * `make test-auto` - Runs all the NodeJS unit tests in interactive mode, monitoring the code base for any changes and then re-running the test suite when changes are detected.
 * `make coverage` - Runs the NodeJS unit tests once and generate a coverage report.
-* `make lint` - Runs the linter and fix any formatting issues.
+* `make lint` - Runs the linter and reports any formatting issues.
+* `make lint-fix` - Runs the linter and automatically fixes any formatting issues.
 
 ## Android Targets
 

@@ -12,8 +12,8 @@
 								<h1><%- __('site.home.intro.title') %></h1>
 								<p class="teaser-1"><%- __('site.home.intro.description') %></p>
 								<div class="d-flex">
-									<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white m-r-30"><%- __('site.link.get-status') %></a>
-									<a href="<%- show_lang() %>/get-involved/" class="btn btn-arrow"><%- __('site.link.get-involved') %></a>
+									<a href="#" class="m-r-30"><%- image_tag("/img/app-store.svg") %></a>
+									<a href="#"><%- image_tag("/img/google-play.svg") %></a>
 								</div>
 								<a href="#" target="_blank" class="announcement inactive"><span><%- __('site.home.intro.news') %></span><b></b></a>
 							</div>
@@ -124,17 +124,21 @@
 	<!--END-HOME-WALLET-BROWSER-->
 
 	<!--HOME-SECURITY-->
-	<section class="home-security p-t-160 p-b-160">
+	<section class="home-security p-t-160 p-b-160 m-t-50">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 offset-md-2">
-					<div class="inner text-center">
-						<div class="img-holder">
-							<%- image_tag("/img/lock.svg") %>
-						</div>
-						<h3><%- __('site.home.security.title') %></h3>
+				<div class="col-md-6">
+					<div class="inner inner-security">
+						<h3><%- image_tag("/img/lock-small.svg") %><%- __('site.home.security.title') %></h3>
 						<p class="teaser-2"><%- __('site.home.security.description') %></p>
 						<a href="<%- show_lang() %>/security/" class="link-arrow"><%- __('site.link.learn-more') %></a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="inner inner-status-network">
+						<h3><%- image_tag("/img/status-network-small.svg") %><%- __('site.home.status-network.title') %></h3>
+						<p class="teaser-2"><%- __('site.home.status-network.description') %></p>
+						<a href="https://statusnetwork.com/" target="_blank" class="link-arrow"><%- __('site.home.status-network.link') %></a>
 					</div>
 				</div>
 			</div>

@@ -31,6 +31,10 @@ site:
     security:
       title: "Private and Secure by Design"
       description: "Status uses state of the art technology to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Communicate with confidence."
+    status-network:
+      title: "Status Network"
+      description: "The Status Network is a collection of projects and people dedicated to creating the tools and infrastructure for resilient, sustainable and inclusive communities."
+      link: "The Status Network Site"
   about:
     intro:
       title: "The Mission"
@@ -241,7 +245,8 @@ site:
         link: "Join Status Public Channel"
       feature-2:
         title: "Private Messaging with Whisper"
-        description: "Whisper uses peer-to-peer dark routing–making it impossible for anyone (including us) to know anything about you or who you're communicating with. We're also conducting R&D in improved messaging protocols."
+        description: "Whisper uses peer-to-peer dark routing–making it impossible for anyone (including us) to know anything about you or who you're communicating with. We plan to improve Whisper with a fork of the protocol called Waku which is being developed by the Vac team."
+        learn-more: "Learn more about Waku"
       feature-3:
         title: "Perfect Forward Secrecy & <br>E2E Encryption"
         description: "Status uses the ‘Double Ratchet’ algorithm on top of Whisper and end-to-end encryption for the highest grade of security and privacy."
@@ -541,7 +546,7 @@ site:
   get:
     mobile:
       title: "Mobile"
-      description: "Chat, transact, and access a revolutionary world of DApps. Install the latest beta version and say hello in the public channel #introductions. Access this release"
+      description: "Chat, transact, and access a revolutionary world of DApps. Install Status in the App and Google Playstore and say hello in the public channel #introductions."
       apk-file: "APK file here"
       link-1: "iOS App"
       link-2: "Android App"

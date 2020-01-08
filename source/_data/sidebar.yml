@@ -6,8 +6,6 @@ docs:
         path: contributor_guide.html
       - title: FAQs
         path: FAQs.html
-      - title: Desktop FAQ
-        path: FAQ-desktop.html
       - title: Status React Structure
         path: status_react_structure.html
       - title: Send Transaction Flow
@@ -55,20 +53,10 @@ docs:
     children:
       - title: Build Status-Go
         path: status_go.html
-      - title: Intro Desktop
-        path: intro_desktop.html
-      - title: Build Desktop
-        path: desktop.html
       - title: Your First PR
         path: first_pr_guide.html
       - title: A Makefile Tour
         path: makefile_tour.html
-      - title: Learn About Our Tools
-        path: ../guides/desktop_inline_eval.html
-      - title: Desktop Troubleshooting
-        path: desktop_troubleshooting.html
-      - title: Google Breakpad Integration
-        path: desktop_google_breakpad.html
       - title: Status-React Quick Start
         path: status_react_quickstart.html
 
@@ -217,8 +205,6 @@ docs:
     children:
       - title: Product Manager's Guide
         path: pm_guide.html
-      - title: Desktop Clojure and Inline-Eval
-        path: desktop_inline_eval.html
 
   - title: Contribute
     path: contribute

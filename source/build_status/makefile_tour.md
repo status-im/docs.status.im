@@ -31,7 +31,7 @@ You will need to run one of each target in separate terminals from the following
 * `make startdev-android-genymotion` - For using the Genymotion simulator for Android development
 * `make startdev-ios-real` - For using a real iOS device for development
 * `make startdev-ios-simulator` - For using the XCode IOS simulator for development
-* `make startdev-desktop` - For developing for Status Desktop
+* ~~`make startdev-desktop` - For developing for Status Desktop~~
 
 Note: If developing with a real Android device, make sure to also run `make android-ports` or the REPL won't connect to your device.
 
@@ -43,7 +43,7 @@ OS targets
 
 * `make react-native-android`
 * `make react-native-ios`
-* `make react-native-desktop`
+* ~~`make react-native-desktop`~~
 
 ## Building the App
 
@@ -51,9 +51,9 @@ OS targets
 
 OS targets
 
-* `make run-android`
-* `make run-desktop`
 * `make run-ios`
+* `make run-android`
+* ~~`make run-desktop`~~
 
 ## Build for Release
 
@@ -62,8 +62,8 @@ OS targets
 OS targets
 * `make release-android` - Builds the Android version of the app
 * `make release-ios` - Builds the iOS version of the app
-* `make release-desktop` - Builds a desktop version of the app
-* `make release-windows-desktop` - Builds a Windows desktop version of the app (available on Linux hosts)
+* ~~`make release-desktop` - Builds a desktop version of the app~~
+* ~~`make release-windows-desktop` - Builds a Windows desktop version of the app (available on Linux hosts)~~
 
 # Additional Targets
 

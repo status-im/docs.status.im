@@ -399,6 +399,9 @@ h4{
 .m-r-30{
     margin-right: 30px;
 }
+.m-r-20{
+    margin-right: 20px;
+}
 .m-b-25{
     margin-bottom: 25px;
 }
@@ -1002,6 +1005,14 @@ footer{
         a{
             color: rgba($white, .5);
             pointer-events: none;
+            &.pe-all{
+                pointer-events: all;
+                display: inline-block;
+                margin: -6px 0 -8px 5px;
+                &:hover{
+                    opacity: .8;
+                }
+            }
         }
     }
     ul{
@@ -1081,6 +1092,27 @@ footer{
             line-height: 17px;
             font-family: $manrope;
             font-weight: $manrope-medium;
+        }
+        .verified{
+            text-align: right;
+            margin-top: -4px;
+            a{
+                font-size: 13px;
+                color: rgba(255, 255, 255, 0.6);
+                font-family: $manrope;
+                font-weight: $manrope-medium;
+                &:hover{
+                    color: $white;
+                    svg{
+                        path{
+                            fill: $white;
+                        }
+                    }
+                }
+                svg{
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }
@@ -1211,9 +1243,10 @@ footer{
         }
     }
     .img-holder{
+        display: flex;
+        justify-content: center;
         img{
-            margin-top: -110px;
-            max-width: 100%;
+            margin-top: -150px;
         }
     }
 }
@@ -3227,7 +3260,7 @@ img.qr-code{
         }
         .img-holder{
             img{
-                max-width: 80%;
+                max-width: 100%;
                 margin: -100px auto 0 auto;
                 display: block;
             }
@@ -3869,9 +3902,8 @@ img.qr-code{
             order: -1;
             .img-holder {
                 img{
-                    margin-top: -54px;
-                    max-width: calc(100% + 40px);
-                    margin: -54px -20px 0;
+                    max-width: 120%;
+                    margin: -100px -20px 0;
                     display: block;
                 }
             }
@@ -4192,6 +4224,15 @@ img.qr-code{
             }
             .collapse:not(.show){
                 display: none;
+            }
+            .pe-all{
+                display: none;
+            }
+        }
+        .copyright{
+            .verified{
+                text-align: left;
+                margin-top: 20px;
             }
         }
     }

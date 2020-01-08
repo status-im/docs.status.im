@@ -257,7 +257,7 @@ site:
         description: "Removal of intermediaries puts you in control of your funds. You and only you hold your private keys to your cryptocurrency, and no middle man has access."
       feature-2:
         title: "ERC20 & ERC721 Compatible"
-        description: "Support for ERC20 and ERC721 tokens on the Ethereum network. Send, store, and receive your tokens confidently in Status. Contact us in the channel below to add your tokens."
+        description: "Support for ERC20 and ERC721 tokens on the Ethereum network. Send, store, and receive your tokens confidently in Status. Easily add ERC-20 tokens to your wallet."
         link: "Join Status Wallet Public Channel"
       feature-3:
         title: "Interact with Peers & DApps"
@@ -272,9 +272,9 @@ site:
         title: "Private & Secure <br>Browsing"
         description: "Status implements the latest security standards to ensure you are safe and free from tracking and data collection. Browse on your terms."
       feature-3:
-        title: "Extend your DApp <br>with Status"
-        description: "Extensions are a tool for developers to integrate their DApp functionality within Status in a native way. They create a seamless user experience directly in Status."
-        link: "Documentation"
+        title: "Optimize your DApp<br> on Status"
+        description: "The Status Dapp Integration Center makes it easy for any dapp developer to learn about Status, optimize to run in Status, leverage its unique features, and register in Dap.ps."
+        link: "Optimize and Register your Dapp "
     desktop:
       title: "Status Desktop"
       description: "Install the desktop alpha and enjoy secure and private messaging while you work. The desktop app syncs with your mobile account for a seamless experience."
@@ -657,6 +657,7 @@ site:
       title: "Status"
       jobs: "Jobs"
       white-paper: "White Paper"
+      media-kit: "Media Kit"
     documentation:
       title: "Documentation"
     status-network:
@@ -664,12 +665,15 @@ site:
       embark: "Embark"
       nimbus: "Nimbus"
       keycard: "Keycard"
+      vac: "Vac"
+      dap-ps: "Dap.ps"
+      subspace: "Subspace"
     connect: "Connect"
     site-analytics: "Site Analytics"
     privacy-policy:
       title: "Privacy Policy"
-
       description: "Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland"
+    messari: "Messari Transparency Verified"
   link:
     get-status: "Get Status"
     get-involved: "Get Involved"

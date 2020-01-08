@@ -68,8 +68,6 @@ docs:
         path: whisper_basic_cli.html
       - title: Whisper Embark
         path: whisper_embark.html
-      - title: Extensions Chat Command
-        path: extensions_chat_command.html
 
   - title: Keycard API
     path: keycard_api
@@ -225,27 +223,3 @@ docs:
         path: the_future.html
       - title: FAQs
         path: faqs.html
-
-  - title: Extensions
-    path: extensions
-    children:
-      - title: Key Concepts
-        path: key_concepts.html
-      - title: Workflow
-        path: workflow.html
-      - title: Syntax
-        path: syntax.html
-      - title: Extension Types
-        path: extension_types.html
-      - title: Tutorials Chat Command
-        path: ../tutorials/extensions_chat_command.html
-      - title: Tutorials Extensions Wallet Settings
-        path: ../tutorials/extensions_wallet_settings.html
-      - title: Reference Views
-        path: reference_views.html
-      - title: Weference Queries
-        path: reference_queries.html
-      - title: Reference Events
-        path: reference_events.html
-      - title: Examples
-        path: examples.html

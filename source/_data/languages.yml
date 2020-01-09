@@ -1,12 +1,15 @@
 en:
   short: en
   long: English
-ko:
-  short: ko
-  long: 한국어
+es:
+  short: es
+  long: Español (Latina)
 zh:
   short: zh
   long: 中文
+ko:
+  short: ko
+  long: 한국어
 ru:
   short: ru
   long: Русский

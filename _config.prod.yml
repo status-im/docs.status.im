@@ -11,6 +11,7 @@ language:
   - ru
   - fr
   - ar
+  - es
 locale: en
 i18n:
   type: [page, post]

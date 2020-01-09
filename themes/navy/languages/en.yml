@@ -568,8 +568,8 @@ site:
       web3-browser:
         title: "Decentralized Web3 Browser"
         description: "Discover the ecosystem of decentralized apps, all together in one place."
-    korean:
-      title: "Join us in the public channel <a href='https://get.status.im/chat/public/korean' target='_blank'>#korean</a> and learn how you can win some SNT"
+    invite:
+      title: "Join us in the public channel <a href='https://get.status.im/chat/public/%s' target='_blank'>#%s</a> and learn how you can win some SNT"
       prize:
         option-1: "Register a stateofus.eth ENS Name"
         option-2: "Purchase sticker packs"

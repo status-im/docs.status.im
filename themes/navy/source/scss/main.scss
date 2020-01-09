@@ -976,6 +976,19 @@ footer{
             p{
                 color: rgba($light-black, .3);
             }
+            .verified{
+                a{
+                    color: rgba($black, 0.6);
+                    &:hover{
+                        color: rgba($black, 1);
+                        svg{
+                            path{
+                                fill: $black;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     a{
@@ -3068,7 +3081,7 @@ img.qr-code{
     }
 }
 
-.korean-channel{
+.channel-invite{
     h3{
         a{
             background: $purple;

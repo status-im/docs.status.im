@@ -6,3 +6,4 @@ node_modules/
 db.json
 .deploy*/
 public/
+package-lock.json

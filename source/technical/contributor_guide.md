@@ -5,20 +5,19 @@ title: Contribute to Status
 
 # Contribute to Status
 
-This page should guide you through the initial steps of contributing to Status. Welcome to the window onto a better web, it's wonderful to see you!
+This page should guide you through the initial steps of contributing to Status – the window to a better web, it's wonderful to see you!
 
 ## Help me!
 
->We know that getting set up and finding a bug which is a good fit for your skills can be a challenge. We're always looking for ways to open access, improve our processes and make it easier to participate in the open source community that is Status. If you're having any trouble following this documentation, or hit a barrier you can't get around, please ask in the #introduction room in [chat.status.im](https://chat.status.im) or contact andy@status.im. We're determined to solve hurdles for new contributors.
+We know that getting set up and finding a bug which is a good fit for your skill set can be a challenge. We're always looking for ways to open access, improve our processes and make it easier to participate in the open source community that is Status. If you're having any trouble following this documentation, or if you have hit a barrier you can't get around, please ask in the #introduction room in [chat.status.im](https://chat.status.im) or contact andy@status.im. We're determined to solve hurdles for new contributors.
 
-## What Skillz Do I Need?
+## Which Skills Do I Need?
 
 Status is ambitious - we have a mobile app; a desktop app; we work deep down in Ethereum on both Light Clients and the Whisper protocol; and we are researching and building a new client in a language called Nim. If this seems like a lot, don't worry! It just means there are many different ways to contribute and a truly diverse array of skills we require.
 
 *   If you know **Go**, you can contribute to [status-go](https://github.com/status-im/status-go/). This is where all of the blockchain logic, transactions, and light client work we do lives. 
 *   If you know **Solidity** or **Vyper**, you can contribute to [status-contracts](https://github.com/status-im/ens-usernames) or directly to [Vyper](https://github.com/ethereum/vyper/) itself. ENS usernames, identity, voting, tribute to talk, DApp curation and a bunch of other use cases await intrepid smart contract engineers.
-*   If you know **Clojure**, you can contribute to [status-react](https://github.com/status-im/status-react/). This is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives. The clean separation between data and functions offered in Clojure allows us to think broadly about what we can really build using decentralized networks and the right kinds of tools. If you're a [Clojurist](http://www.braveclojure.com/introduction/), you know why ;)
-*   If you know **Clojure** and some **React Native QT**, you can contribute to [status-desktop](https://github.com/status-im/react-native-desktop), soon to be a part of the status-react repo. Desktop is one of our most exciting projects, because it will allow us to decentralize a lot of our current infrastructure and incentivise our users to run large parts of the networks from their own machines. This presents particularly interesting technical and cryptoeconomic problems and opportunities.
+*   If you know **Clojure**, you can contribute to [status-react](https://github.com/status-im/status-react/). This is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives. The clean separation between data and functions offered in Clojure allows us to think broadly about what we can really build using decentralized networks and the right kinds of tools.
 *   If you have know **Node** or **JavaScript**, you can contribute to [Embark](https://github.com/embark-framework/embark/). Embark is the most cutting-edge framework for developing DApps that currently exists. Contributing here means [getting to work](https://gitter.im/embark-framework/Lobby) with some of the most passionate, productive and talented engineers building developer tools for all of Ethereum.
 *   If you know **Javascript** and can write smart contracts, you can use Status Extensions to build your own DApp. If you have a really awesome idea - apply to [Status Incubate](https://status.im/incubate/), too. We want to help anyone, anywhere who is capable of building their part of a better web.
 *   If you are that very rare breed of human known as a **Nim** developer, you can contribute to the [status-nimbus](https://nimbus.team/) repositories. Alternatively, ping @arnetheduck in [chat.status.im](https://chat.status.im) and ask him what the Research team most needs help with.
@@ -26,7 +25,7 @@ Status is ambitious - we have a mobile app; a desktop app; we work deep down in 
 *   If you have a background in **security**, you can contribute to our ongoing efforts to make sure that things like Perfect Forward Secrecy are implemented properly and that everyone acting as a core contributor upholds the best practices required when working with public and adversarial networks.
 *   If you have a background in **data science**, we're also building out our own metrics tool. So, if you want to help figure out how best to gather user data in pseudonymous networks without comprising any of the privacy guarantees of systems like Whisper, let us know through our [Jobs Page](/contribute/).
 
->As above, a lot of these positions are detailed on our [Jobs Page,](/contribute/) so make sure to visit that, particularly if you are interested in Research, Devops or Security. It can be harder to contribute to such efforts purely through GitHub repositories, so drop us an email and we'll be sure to follow up.
+As above, a lot of these positions are detailed on our [Jobs Page,](/contribute/) so make sure to visit that, particularly if you are interested in Research, Devops or Security. It can be harder to contribute to such efforts purely through GitHub repositories, so drop us an email and we'll be sure to follow up.
 
 ## Step 1: Build Status for Android or iOS
 
@@ -36,7 +35,7 @@ Building a decentralized app for different mobile environments, using different 
 
 Ping us in the [#developers channel in Status](https://get.status.im/chat/public/status-core-devs) itself if you can't build Status following that guide.
 
->If you're wanting to contribute to Embark it's best to go to [those specific docs](https://embark.status.im/). If you want to work on our smart contract and cryptoeconomic systems around Identity, Voting, ENS, Curation, and a bunch of other awesome things, then you can just start at Step 2.
+If you're wanting to contribute to, or get started with using Embark; it's best to go to [Embark's docs](https://embark.status.im/). If you want to work on our smart contract and cryptoeconomic systems around Identity, Voting, ENS, Curation, and a bunch of other awesome things, then you can just start at Step 2.
 
 ## Step 2: Find Something To Work On
 
@@ -44,7 +43,8 @@ There are 3 ways you can get involved with the Status codebase: through Status O
 
 **Use Gitcoin**  
   
->So, you've got some experience as a developer, you've been eye-balling this whole crypto thing ever since that idiot Jim in your office told you about it over coffee a few years ago and you want to dip your toes into the water without taking the plunge? A lot of the smaller bugs and features we would like to fix are assigned as bounties at Status, which means you can earn some SNT for fixing issues as you learn your way around our code base.    
+A lot of the smaller bugs and features we would like to fix are assigned as bounties at Status, which means you can earn some SNT for fixing issues as you learn your way around our code base.
+
 Simply go to [Gitcoin](https://gitcoin.co/explorer?network=mainnet&keywords=status&order_by=-web3_created), sign in using your GitHub profile and use the filters on that site to find recent issues that are both interesting to you and worth your time to fix.
 
 **Find a bug we've identified as a suitable for new contributors**
@@ -114,7 +114,7 @@ A reviewer might request changes. If agreement emerges, an individual commit is 
 
 For most new contributors, even for long time Status contributors, the first review of your patch will likely require some changes. It does not mean you've done bad work. There is just almost always more work to do before the code can be merged into our codebase.
 
->This is an important process, so don't be discouraged! Because we're building new technologies, care about what we merge and close attention to helping contributors write good patches are critical to the long-term success of Status as a sustainable open source project. Make any changes your reviewer requests; if you're unsure how, just ask whoever has reviewed your code - we're all about active collaboration. 
+This is an important process, so don't be discouraged! Because we're building new technologies; we care about what we merge, and pay close attention to helping contributors to write top-notch patches that are critical to the long-term success of Status, as a sustainable open source project. Make any changes your reviewer requests; if you're unsure how, just ask whoever has reviewed your code - we're all about active collaboration. 
 
 ## Step 6: Repeat
 

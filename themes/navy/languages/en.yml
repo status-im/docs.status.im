@@ -557,7 +557,7 @@ site:
       link-2: "Linux App"
       link-3: "Windows App"
       announcement: "This is alpha software and may contain vulnerabilities. <br>Please expect changes."
-  lp:
+  landing-page-v1:
     intro:
       private-messaging:
         title: "Truly Private Messaging"

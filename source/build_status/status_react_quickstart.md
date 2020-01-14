@@ -43,6 +43,7 @@ Open up three terminal windows (or tabs), and ensure you keep all three open.  I
 ```bash
 make startdev-ios-simulator
 ```
+(Read the `Known Issues` section below if you run MacOS 10.15 "Catalina" or later)
 
 Under the hood, this command runs the equivalent of:
 
@@ -108,3 +109,7 @@ You can also purge Nix and all its related files by running the command:
 ```bash
 make nix-purge
 ```
+
+# Known Issues
+
+[MacOS 10.15 "Catalina" or later](https://github.com/status-im/status-react/blob/develop/nix/README.md#macos-1015-catalina)

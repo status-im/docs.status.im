@@ -991,6 +991,14 @@ footer{
             }
         }
     }
+    .download{
+        border-radius: 2px;
+        border: 1px solid $white;
+        height: 44px;
+        img{
+            height: 100%;
+        }
+    }
     a{
         color: $white;
         svg{
@@ -1046,7 +1054,6 @@ footer{
             height: 100%;
             display: flex;
             .btn{
-                margin-left: 30px;
                 padding-right: 91px;
             }
         }
@@ -1138,7 +1145,7 @@ footer{
     }
     .mobile{
         img{
-            margin: -2px 0 0 -110px;
+            margin: 40px 0 0 -110px;
         }
     }
     .features{
@@ -3214,6 +3221,24 @@ img.qr-code{
         }
     }
     .home-intro{
+        .inner{
+            margin-top: 30px;
+        }
+        .features{
+            li{
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .li-inner{
+                    h4{
+                        font-size: 18px;
+                        line-height: 38px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
         .mobile{
             img{
                 width: 100%;
@@ -3486,6 +3511,15 @@ img.qr-code{
             }
         }
     }
+    .template-get,
+    .template-v1{
+        .home-intro{
+            h1{
+                line-height: 44px;
+                font-size: 38px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -3592,6 +3626,11 @@ img.qr-code{
             visibility: visible;
             opacity: 1;
             pointer-events: all;
+        }
+    }
+    .home-intro {
+        .download{
+            margin-bottom: 20px;
         }
     }
     .stripe{
@@ -3803,6 +3842,7 @@ img.qr-code{
             display: none;
         }
         .features{
+            margin-top: 30px;
             li{
                 &:last-child{
                     margin-bottom: 0;
@@ -4183,12 +4223,15 @@ img.qr-code{
     footer{
         padding: 0;
         .get-started{
-            .inline{
+            .inline{    
+                flex-wrap: wrap;
+                .download{
+                    margin-bottom: 20px;
+                }
                 .btn{
                     padding-right: 30px;
                     width: auto;
                     flex: 1;
-                    margin-left: 15px;
                 }
             }
         }

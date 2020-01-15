@@ -34,7 +34,7 @@ site:
     status-network:
       title: "Status Network"
       description: "The Status Network is a collection of projects and people dedicated to creating the tools and infrastructure for resilient, sustainable and inclusive communities."
-      link: "The Status Network Site"
+      link: "Learn more about The Status Network"
   about:
     intro:
       title: "The Mission"
@@ -164,7 +164,8 @@ site:
         link: "See all SNT Use Cases"
       inner-2:
         title: "Open Source"
-        description: "Status is an entirely open source project in which anyone can use the code and token to suit their needs. Our research shows that open source and governance structures impact project economic value."
+        description: "Status is an entirely open source project in which anyone can use the code and token to suit their needs. Status is verified by the Messari Disclosures Registry."
+        link: "Messari Disclosures Registry"
       inner-3:
         title: "Users-as-Stakeholders"
         description: "With SNT, we create a Users-as-Stakeholders network, allowing the behaviour of the network and its software, to become aligned with the interests of its Users."

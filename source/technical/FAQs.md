@@ -111,9 +111,9 @@ The best option now is to generate a new master key pair using a new seed, and t
 Unlock the keys for which you lost your seed phrase using your password. Send all assets from the accounts in your wallet to your new address.
 
 ### I recovered my account and now I only see one account in my wallet, though I created more. Did I lose my funds?
-No, they’re not lost. If you generated additional wallets from within Status, and you later recover your account, you will need to manually recover the additional wallets by following the same steps you took to create them. From the wallet, you will `Add account` > `Add an account` > `Generate keys`. Rather than generating a brand new wallet, Status will recuperate each additional wallet you created in order, and your assets will be recovered with them.
+No, they’re not lost. If you generated additional accounts from within Status, and you later recover your master keys, you will need to manually recover the additional accounts by following the same steps you took to create them. From the wallet, you will `Add account` > `Add an account` > `Generate keys`. Rather than generating a brand new wallet, Status will recuperate each additional wallet you created in order, and your assets will be recovered with them.
 
-In the future, we’ll ensure all of your Status wallets are recovered automatically.
+In the future, we’ll ensure all of your Status accounts are recovered automatically.
 
 ### How do I delete my profile?
 Your profile only exists locally. Any messages you have sent will remain on mail servers for 30 days. After that, the message cease to exist. Transactions you have made with using an account in your wallet will remain on the blockchain. 

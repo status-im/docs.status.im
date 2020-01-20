@@ -33,7 +33,7 @@ Status is implemented on top of [`go-ethereum`](https://github.com/ethereum/go-e
 ### Can I run go-ethereum myself or on a server?
 We are committed to getting light nodes working on resource restricted devices. This would allow you to connect to Ethereum from your mobile phone or IoT device directly, no server required. More importantly, it would increase accessibility and resilience of the network overall. For more information, please check out https://nimbus.team/.
 
-If you want to run [`status-go`](https://github.com/status-im/status-go) now, you can set up a node on a Linux device and configure the Status app to connect to this node. You can find more information [here](https://discuss.status.im/t/get-your-node-running/).
+If you want to run [`status-go`](https://github.com/status-im/status-go) now, you can set up a node on a Linux device and configure the Status app to connect to this node. You can find more information [here](https://github.com/status-im/status-go/blob/develop/MAILSERVER.md).
 
 ### On what devices can I use Status?
 Status is tested to run on Android 7+, and iOS 13+.

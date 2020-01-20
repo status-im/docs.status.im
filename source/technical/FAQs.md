@@ -28,7 +28,7 @@ Most messengers offer end-to-end encryption. This standard protection means that
 Status messenger does not use one central server to and from which communication can be blocked. Instead Status uses a distributed network of mail servers. This ensures resilience of the network. If a mail server is shut down you can connect to another mail server or start [running your own](https://discuss.status.im/t/get-your-node-running/1488/4?u=hester). However, Status and mail servers in the network still rely on having an Internet connection. If the Internet is shut down through telecom providers you will not be able to use Status.
 
 ### How does Status connect to the blockchain? ?
-Status is packaged with go-ethereum, which connects to the Ethereum network. All you need to do to connect to Ethereum is run the Status app! Note that only the wallet and browser interact with the Ethereum blockchain. Messages are not stored on the blockchain.
+Status is implemented on top of [`go-ethereum`](https://github.com/ethereum/go-ethereum), which connects to the Ethereum network via [`devp2p`](https://github.com/ethereum/devp2p). All you need to do to connect to Ethereum is run the Status app! Note that only the wallet and browser interact with the Ethereum blockchain. Messages are not stored on the blockchain.
 
 ### Can I run go-ethereum myself or on a server?
 We are committed to getting light nodes working on resource restricted devices. This would allow you to connect to Ethereum from your mobile phone or IoT device directly, no server required. More importantly, it would increase accessibility and resilience of the network overall. For more information, please check out https://nimbus.team/.
@@ -212,4 +212,3 @@ Status wallet allows you to send ETH and ERC20 (e.g. OMG, BNB, BAT or DAI) to wa
 Then `Enter Amount` > `Select token` > `Select from account` > `Choose recipient`
 
 You can recognize wallets that accept ETH and Ethereum based tokens by the address format. The address will start with 0x… Status wallet checks for invalid addresses. Best practice is to always triple check the address manually before signing a transaction. 
-

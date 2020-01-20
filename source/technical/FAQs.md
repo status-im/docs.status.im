@@ -42,7 +42,7 @@ Status is tested to run on Android 7+, and iOS 13+.
 Not at the moment. Our code base is designed so that Status can run on either mobile or desktop devices. Development of Status desktop is currently paused while the team focuses on the mobile app and other infrastructure projects.
 
 ### What languages do you support?
-Status is currently available in 7 languages — English, français, italiano,中文, 한국어, 日本語, اُردُو & русский! 
+Status is currently available in 7 languages: English, français, italiano,中文, 한국어, 日本語, اُردُو & русский! 
 
 Anyone can contribute to Status translations. If you see a typo, mistranslation or simply want your language represented, join us at [translate.status.im](https://translate.status.im/).
 
@@ -212,6 +212,5 @@ Status wallet allows you to send ETH and ERC20 (e.g. OMG, BNB, BAT or DAI) to wa
 Then `Enter Amount` > `Select token` > `Select from account` > `Choose recipient`
 
 You can recognize wallets that accept ETH and Ethereum based tokens by the address format. The address will start with 0x… Status wallet checks for invalid addresses. Best practice is to always triple check the address manually before signing a transaction. 
-
 
 

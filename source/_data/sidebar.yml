@@ -59,6 +59,9 @@ docs:
       - title: Security Best Practices
         path: best_security_practices.html
 
+  - title: Audits
+    path: audits/
+
   - title: Join the team
     path: our_team
     children:

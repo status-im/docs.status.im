@@ -649,6 +649,10 @@ site:
       embark: Embark
       nimbus: Nimbus
       keycard: Keycard
+      dap-ps: "Dap.ps"
+      subspace: "Subspace"
+      teller: "Teller"
+      assemble: "Assemble"
     connect: Conectar
     privacy-policy:
       title: 'Política de privacidad'

@@ -649,6 +649,10 @@ site:
       embark: Embarquer
       nimbus: Nimbus
       keycard: 'Carte d´accès'
+      dap-ps: "Dap.ps"
+      subspace: "Subspace"
+      teller: "Teller"
+      assemble: "Assemble"
     connect: Connectez-vous
     site-analytics: "Analyse de site"
     privacy-policy:

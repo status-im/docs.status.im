@@ -668,6 +668,8 @@ site:
       vac: "Vac"
       dap-ps: "Dap.ps"
       subspace: "Subspace"
+      teller: "Teller"
+      assemble: "Assemble"
     connect: "Connect"
     site-analytics: "Site Analytics"
     privacy-policy:

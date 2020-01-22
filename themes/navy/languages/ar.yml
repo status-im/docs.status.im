@@ -648,6 +648,11 @@ site:
       embark: الشروع
       nimbus: Nimbus
       keycard: 'بطاقة المفتاح'
+      vac: "Vac"
+      dap-ps: "Dap.ps"
+      subspace: "Subspace"
+      teller: "Teller"
+      assemble: "Assemble"
     connect: الاتصال
     privacy-policy:
       title: 'سياسة خاصة'

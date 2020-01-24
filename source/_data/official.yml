@@ -1,3 +1,5 @@
 # This file is managed manually, unlike nightlies.yml and releases.yml
-PLAYSTORE: 'https://play.google.com/store/apps/details?id=im.status.ethereum'
+PLAYSTORE: 'CHANGE_ME'
 TESTFLIGHT: 'https://testflight.apple.com/join/J8EuJmey'
+APPSTORE: 'CHANGE_ME'
+DIRECT_APK: 'CHANGE_ME'

@@ -94,6 +94,7 @@ Then, just run a docker container:
 ```bash
 docker run --rm \
     -p 8545:8545 \
+    -p 30303:30303 \
     -v $(pwd)/http-enabled.json:/config/config.json \
     statusteam/status-go:0.16.0 \
     -register \
@@ -155,6 +156,10 @@ The `-register` flag populates `RegisterTopics` setting in the config. Together 
     "RegisterTopics": ["whispermail"]
 }
 ```
+
+### Required Ports
+
+Note in the above examples, ports 8545 and 30303 are exposed. 30303 is the port Status clients will connect to receive messages from the Status node. This port should remain open on your firewall to allow connections to the node. Port 8545 is for administrative purposes and should not be exposed through your firewall, but should be mapped for checks to see if the node is working.
 
 ## Tutorial
 

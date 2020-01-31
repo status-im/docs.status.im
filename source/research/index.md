@@ -3,7 +3,7 @@ id: index
 title: Research at Status  
 ---
 
-# Research at Status  
+# Research Topics  
 
 ## Do You Want to Know a Secret?
 

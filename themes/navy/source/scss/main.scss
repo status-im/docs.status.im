@@ -1,5 +1,6 @@
 @import "vars";
 @import "docs_extras";
+@import "landing_pages";
 
 ::selection {
     background: rgba( $purple, .5 );
@@ -2216,7 +2217,7 @@ footer{
     }
 }
 
-.get-involved-box-links{
+.get-involved-box-links, .docs-box-links {
     .box-link{
         background-color: $light-black;
         padding: 30px 40px;

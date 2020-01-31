@@ -270,7 +270,7 @@ site:
         description: "A growing ecosystem of DApps in your pocket. Browse the latest decentralized exchanges, marketplaces, games, social networks, and more."
         link: "Install Status"
       feature-2:
-        title: "Private & Secure <br>Browsing"
+        title: "Private & Secure Browsing"
         description: "Status implements the latest security standards to ensure you are safe and free from tracking and data collection. Browse on your terms."
       feature-3:
         title: "Optimize your DApp<br> on Status"
@@ -291,7 +291,7 @@ site:
     index:
       intro:
         title: "An Open Source Community"
-        description: "Here you'll find everything you need to know about how to get involved and contribute to Status. Whether you are a developer, educator, community organizer, or a passionate supporter, there are ways for you to contribute to Status. Here are the resources to get you started."
+        description: "Whether you are a developer, educator, community organizer, or a passionate supporter, you can contribute to Status. Here are the resources to get you started."
       resources:
         resource-1:
           title: "Developers"
@@ -311,15 +311,20 @@ site:
         title: "Development"
         description: "Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or extending your work with the natives features of Status."
       quick-nav-sub:
-        link-1: "Contribute to Status"
-        link-2: "Build DApps"
-        link-3: "Extend DApps"
-        link-4: "Developer Resources"
-        link-5: "Github"
+        link-1: "Get Started"
+        link-2: Repos, Issues, Bounties
+        link-3: "Developer Resources"
+        link-4: "Github"
+      repositories:
+        title: Repositories, Open Issues and Bounties  
+      build-for-status:
+        title: Build for Status 
+        description: Get your DApp on Status at the
+        link: DApp Integration Center
       contribute-to-status: 
-        title: "Contribute to Status"
-        description: "Get set up with this Contributor Guide."
-        link: "Quick Start Guide"
+        title: "Get Started"
+        description: "Our open source project"
+        link: "Contributor Guide"
         status-react:
           title: "Status-React"
           description: "Written in Clojure - this is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives."
@@ -346,7 +351,7 @@ site:
         build-dapp:
           title: "Build your own DApp"
           description: "Get started with our tools and frameworks to build your own decentralized application."
-          link-1: "Optimize for mobile with the Javascript API"
+          link-1: "DApp Integration Center"
           link-2: "Build your own DApp with Embark"
           link-3: "Access Web3 providers and detect Status"
           link-4: "Submit your DApp to the Status DApp list"
@@ -579,36 +584,41 @@ site:
   docs:
     stripe:
       title: "Status Documentation"
+    index:
+      intro:
+        title: "Developer Portal"
+        teaser-1: "Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or registering your dapp in "
+      box-link-1:
+        title: "Contributors Guide"
+        text: "Status is building free and open source software which is free anyone for anyone to share, modify and benefit from.<br>&nbsp;<br>Community members of all backgrounds, skill levels, and interests contribute to the official Status releases. Learn how to build Status, earn crypto for completing bounties, fix bugs, or build the things you need."
+      box-link-2:
+        title: "DApp Integration Center"
+        text: "Status includes a private and secure web3 browser and access to growing ecosystem of decentralized applications<br>&nbsp;<br>The Dapp Integration Center is a step by step guide to optimize dapps for use in Status. This includes mobile first best practice, security and privacy requirements, leveraging the Status API, and how to submit to dap.ps."
+    
     title: "Welcome to the Status Documentation!"
-    description: "Get familiar with or workflows and projects:"
+    description: "Run your DApp on Status, dig into our tech, learn about our organization or help build Status:"
     categories:
-      technical-documentation:
-        title: "Technical Documentation"
-        description: "Growing our distributed ecosystem"
       developer-tools:
         title: "DApp Integration Center"
-        description: "JS API and Extensions"
+        description: "Run your DApp on Status"
+      technical-documentation:
+        title: "Contributor Guide"
+        description: "Join our distributed ecosystem"
+      team:
+        title: "Our Team"
+        description: "Join Status"
       build-status:
         title: "Build Status"
         description: "For mobile and desktop"
-      extensions:
-        title: "Extensions"
-        description: "Extend into the future"
       research:
-        title: "Research"
-        description: "Dive in! Learn more."
-      security:
-        title: "Security"
-        description: "Status best practices"
-      guides:
-        title: "Guides"
-        description: "How we handle things"
-      tutorials:
-        title: "Tutorials"
-        description: "Learn for yourself"
-      life-at-status:
-        title: "Life at Status"
-        description: "Day-to-day decentralization"
+        title: "Research Topics"
+        description: "Building the distributed future"
+      audits:
+        title: "External Audits"
+        description: "External Technical Audits"
+      keycard:
+        title: "Keycard API"
+        description: Secure, Contactless, Open Source Hardwallet
     pinned-repositories:
       title: "Pinned Repositories"
       status-react:
@@ -625,7 +635,7 @@ site:
       description: "We're always happy to help with code or any questions you have."
       link-1: "Report a Bug"
       link-2: "Status Community Chat"
-      link-3: "Email Us"
+      link-3: "Chat with us"
       link-4: "Ask on reddit"
     update:
       title: "Recently updated"
@@ -641,19 +651,17 @@ site:
         title: "Documentation"
         description: "Everything you need to start <br>developing with Status"
         link: "Docs"
-        link-1: "Get Started"
-        link-2: "Build Status"
-        link-3: "Nightlies"
-        link-4: "Developer Tools"
-        link-5: "Research"
-        link-6: "Tutorials"
+        link-1: "DApp Integration"
+        link-2: "Contributor Guide"
+        link-3: "Build Status"
+        link-4: "Security"
       about: "About"
       blog: "Blog"
   footer:
     title: "Ready to get started <br>with Status?"
     product:
       title: "Product"
-      apps: "Apps"
+      apps: "Get App"
     status:
       title: "Status"
       jobs: "Jobs"

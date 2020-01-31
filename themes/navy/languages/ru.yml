@@ -355,7 +355,7 @@ site:
         description: 'Все , что вам нужно , чтобы начать <br> разработки с состоянием'
         link: Документы
         link-1: Начать
-        link-2: 'Status сборки'
+        link-2: Contributor Guide
         link-3: Nightlies
         link-4: 'DApp соединение центр'
         link-5: Исследования

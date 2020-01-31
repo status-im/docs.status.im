@@ -1,1 +1,0 @@
-../technical/FAQs.md

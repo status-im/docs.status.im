@@ -1,36 +1,36 @@
 <!-- The main content area -->
 <main id="main" role="main">
 
-	<!-- SECURITY -->
-	<section class="security-inner">
+  <!-- SECURITY -->
+  <section class="security-inner">
 
-		<div class="container m-b-100">
-			<div class="row">
-				<div class="col-lg-8">
-					<h1><%- __('site.security.intro.title') %></h1>
-					<p class="teaser-1"><%- __('site.security.intro.description-1') %></p>
-					<p class="teaser-1"><%- __('site.security.intro.description-2') %></p>
-				</div>
-			</div>
-		</div>
+    <div class="container m-b-100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1><%- __('site.security.intro.title') %></h1>
+          <p class="teaser-1"><%- __('site.security.intro.description-1') %></p>
+          <p class="teaser-1"><%- __('site.security.intro.description-2') %></p>
+        </div>
+      </div>
+    </div>
 
-		<div class="container m-b-100">
-			<h2 class="m-b-100"><%- __('site.security.security-at-status.title') %></h2>
-			<div class="row">
-				<div class="col-lg-4">
-					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-1.title') %></h4>
-					<p><%- __('site.security.security-at-status.secure-inner-1.description') %></p>
-				</div>
-				<div class="col-lg-4">
-					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-2.title') %></h4>
-					<p><%- __('site.security.security-at-status.secure-inner-2.description') %></p>
-				</div>
-				<div class="col-lg-4">
-					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-3.title') %></h4>
-					<p><%- __('site.security.security-at-status.secure-inner-3.description') %></p>
-				</div>
-			</div>
-		</div>
+    <div class="container m-b-100">
+      <h2 class="m-b-100"><%- __('site.security.security-at-status.title') %></h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-1.title') %></h4>
+          <p><%- __('site.security.security-at-status.secure-inner-1.description') %></p>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-2.title') %></h4>
+          <p><%- __('site.security.security-at-status.secure-inner-2.description') %></p>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-3.title') %></h4>
+          <p><%- __('site.security.security-at-status.secure-inner-3.description') %></p>
+        </div>
+      </div>
+    </div>
 
 		<div class="container security-content">
 			<div class="row">
@@ -73,27 +73,56 @@
 			</div>
 		</div>
 
-		<div class="container p-t-160 p-b-160">
-			<div class="row">
-				<div class="col-md-6">
-					<h3 class="m-t-50"><%- __('site.security.protect-yourself.title') %></h3>
-					<p class="teaser-2"><%- __('site.security.protect-yourself.description') %></p>
-					<ul class="inline-links">
-						<li><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.protect-yourself.link-1') %></a></li>
-						<li><a href="https://get.status.im/chat/public/status-security" target="_blank"><%- image_tag("img/join-status-security.svg") %><%- __('site.security.protect-yourself.link-2') %></a></li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<div class="get-status">
-						<h3><%- __('site.features.get.title') %></h3>
-						<p class="teaser-2"><%- __('site.features.get.description') %></p>
-						<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
-					</div>
-				</div>
-			</div>
-		</div>
+          <ul>
+            <li><p><a href="https://github.com/status-im/ens-usernames/commit/eaefa92a258c784f1df4066e057e8170bcb6ef95#diff-dbff1e6b987cbb9a6b87ea8180c41e72"><%- __('site.security.security-content.content-10.ENS.commit') %></a></p>
+            </li>
+            <li><p><a href="https://drive.google.com/open?id=1BqiPGBjILgbIlmMXAO8AombxW_jsQtfC"><%- __('site.security.security-content.content-10.ENS.report') %></a></p>
+            </li>
+            <li><p><a href="https://drive.google.com/open?id=12ACYXvPn8WUyRg9WCooUTO3vvJVuo7lL"><%- __('site.security.security-content.content-10.ENS.tests') %></a></p>
+            </li>
+            <li><p><a href="https://blog.sigmaprime.io/status-ens-review.html"><%- __('site.security.security-content.content-10.ENS.blog') %></a></p>
+            </li>
+          </ul>
+          <h4><%- __('site.security.security-content.content-10.dejavu.title') %></h4>
+          <ul>            
+            <li><p><a href="https://drive.google.com/file/d/1wB5pGPaNsQwq2udV7NmHkLuW-2JCMbnV/view"><%- __('site.security.security-content.content-10.dejavu.report') %></a></p>
+            </li>
+            <li><p><a href="https://blog.status.im/status-deja-vu-security-audit-final-report-5b6eda5a683a"><%- __('site.security.security-content.content-10.dejavu.blog') %></a></p>
+            </li>                       
+          </ul>          
 
-	</section>
-	<!-- END-SECURITY -->
+          <h3><%- __('site.security.security-content.content-11.title') %></h3>
+          <p class="p-large"><%- __('site.security.security-content.content-11.description') %></p>
+          <p><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
+          <h3><%- __('site.security.security-content.content-12.title') %></h3>
+          <p class="p-large"><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://get.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
+          <h3><%- __('site.security.security-content.content-13.title') %></h3>
+          <p class="p-large"><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-t-160 p-b-160">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="m-t-50"><%- __('site.security.protect-yourself.title') %></h3>
+          <p class="teaser-2"><%- __('site.security.protect-yourself.description') %></p>
+          <ul class="inline-links">
+            <li><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.protect-yourself.link-1') %></a></li>
+            <li><a href="https://get.status.im/chat/public/status-security" target="_blank"><%- image_tag("img/join-status-security.svg") %><%- __('site.security.protect-yourself.link-2') %></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="get-status">
+            <h3><%- __('site.features.get.title') %></h3>
+            <p class="teaser-2"><%- __('site.features.get.description') %></p>
+            <a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- END-SECURITY -->
 
 </main>

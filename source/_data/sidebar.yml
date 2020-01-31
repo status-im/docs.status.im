@@ -1,21 +1,26 @@
 docs:
-  - title: Technical Documentation
-    path: technical
+
+  - title: Contributor Guide
+    path: technical/
     children:
-      - title: Contributor Guide
-        path: contributor_guide.html
-      - title: FAQs
-        path: FAQs.html
-      - title: Run Status Node
-        path: run_status_node.html
-      - title: Keycard API
-        path: ../keycard_api/
-      - title: Tutorials
-        path: ../tutorials/
-      - title: Start Contributing
-        path: ../guides/
-      - title: Schedule
-        path: ../mobile-release-schedule/
+    - title: Technical FAQs
+      path: FAQs.html
+    - title: Contributor Workflow
+      path: contributor_workflow.html
+    - title: Running A Status Node
+      path: run_status_node.html
+    - title: Github Labels
+      path: org_github_labels.html 
+    - title: Perfect Forward Security 
+      path: pfs.html
+
+    - title: Build Status
+      path: build_status
+      children:
+        - title: Build Status-Go
+          path: status_go.html
+        - title: Status-React Quick Start
+          path: status_react_quickstart.html     
 
   - title: DApp Integration Center
     path: developer_tools
@@ -33,189 +38,15 @@ docs:
             path: eip-1102.html
           - title: Asset Guidelines
             path: assets_guidelines.html
+
       - title: Status DApp API
         path: status_extras/
         children:
           - title: Whisper &amp; QR Codes
             path: status_dapp_api.html
+
       - title: Curated DApp Store
         path: register_dapps/
         children:
           - title: Register DApps
             path: register_dapps.html
-
-  - title: Build Status
-    path: build_status
-    children:
-      - title: Build Status-Go
-        path: status_go.html
-      - title: Your First PR
-        path: first_pr_guide.html
-      - title: A Makefile Tour
-        path: makefile_tour.html
-      - title: Status-React Quick Start
-        path: status_react_quickstart.html
-
-
-  - title: Tutorials
-    path: tutorials
-    children:
-      - title: Whisper Basic Cli
-        path: whisper_basic_cli.html
-      - title: Whisper Embark
-        path: whisper_embark.html
-
-  - title: Keycard API
-    path: keycard_api
-    children:
-      - title: Applet Installation
-        path: applet_installation.html
-      - title: Resources
-        path: resources.html
-
-      - title: Java SDK
-        path: sdk
-        children:
-          - title: Installation
-            path: installation.html
-          - title: Card Connection
-            path: connection.html
-          - title: Preparation
-            path: preparation.html
-          - title: Secure Channel
-            path: securechannel.html
-          - title: Authentication
-            path: authentication.html
-          - title: Wallet Creation
-            path: create_wallet.html
-          - title: Derivation & Signing
-            path: derivation_sign.html
-          - title: Pinless Signing
-            path: pinless.html
-          - title: Exporting Keys
-            path: export.html
-          - title: Cash applet
-            path: cash.html
-
-      - title: APDU API
-        path: apdu
-        children:
-          - title: CHANGELOG
-            path: changelog.html
-          - title: SELECT
-            path: select.html
-          - title: INIT
-            path: init.html
-          - title: OPEN SECURE CHANNEL
-            path: opensecurechannel.html
-          - title: MUTUALLY AUTHENTICATE
-            path: mutuallyauthenticate.html
-          - title: PAIR
-            path: pair.html
-          - title: UNPAIR
-            path: unpair.html
-          - title: GET STATUS
-            path: getstatus.html
-          - title: VERIFY PIN
-            path: verifypin.html
-          - title: CHANGE PIN
-            path: changepin.html
-          - title: UNBLOCK PIN
-            path: unblockpin.html
-          - title: LOAD KEY
-            path: loadkey.html
-          - title: DERIVE KEY
-            path: derivekey.html
-          - title: GENERATE MNEMONIC
-            path: generatemnemonic.html
-          - title: REMOVE KEY
-            path: removekey.html
-          - title: GENERATE KEY
-            path: generatekey.html
-          - title: SIGN
-            path: sign.html
-          - title: SET PINLESS PATH
-            path: setpinlesspath.html 
-          - title: EXPORT KEY
-            path: exportkey.html
-          - title: STORE DATA
-            path: storedata.html
-          - title: GET DATA
-            path: getdata.html
-
-  - title: Research
-    path: research
-    children:
-      - title: Whisper Extended Features
-        path: extended_features.html
-      - title: Whisper Dark Routing
-        path: dark_routing.html
-      - title: Whisper Comparison with PSS
-        path: whisper_pss.html
-      - title: Whisper FAQs
-        path: whisper_faqs.html
-      - title: Secure messaging Compendium
-        path: secure_messaging_compendium.html
-      - title: Research Blog
-        path: https://our.status.im/tag/research
-      - title: Perfect Forward Secrecy
-        path: pfs.html
-      - title: Ultra Light Client in details
-        path: ulc_in_details.html
-      - title: Nimbus
-        path: https://nimbus.team/
-      - title: Whisper In Your CLI
-        path: ../tutorials/whisper_basic_cli.html
-      - title: Whisper with Embark
-        path: ../tutorials/whisper_embark.html
-      - title: Status Analytics
-        path: https://analytics.status.im/
-
-  - title: Security
-    path: security_docs
-    children:
-      - title: Threat Modeling
-        path: sec_threat_modeling.html
-      - title: Existing Features Project
-        path: sec_existing_features.html
-      - title: New Features Project
-        path: sec_new_features.html
-      - title: What is Sensitive Data?
-        path: sec_sensitive_data.html
-      - title: Security Experiment
-        path: sec_experiment.html
-      - title: Status External Audits
-        path: ../audits/
-      - title: Security Week Guides
-        path: ../guides/
-      - title: Policy and Procedure
-        path: ../org_sec/
-
-  - title: Audits
-    path: audits
-
-  - title: Guides
-    path: guides
-    children:
-      - title: Product Manager's Guide
-        path: pm_guide.html
-
-  - title: Contribute
-    path: contribute
-    children:
-      - title: Perks & Benefits
-        path: perks_benefits.html
-      - title: Applying to Status
-        path: applying_to_status.html
-      - title: Open Positions
-        path: open_positions.html
-      - title: Applicant Privacy
-        path: applicant_privacy.html
-      - title: Our Principles
-        path: our_principles.html
-      - title: Life at Status
-        path: life_status.html
-      - title: The Future
-        path: the_future.html
-      - title: FAQs
-        path: faqs.html

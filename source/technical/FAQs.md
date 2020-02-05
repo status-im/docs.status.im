@@ -167,6 +167,9 @@ Mail servers that are closer to you in geographic distance will return messages 
 
 If you want to connect to your own mail server, or to one running on a specific trusted device, you can add a custom mail server.
 
+### How can I sell my stickers in the Status Sticker Market?
+All creators are welcome! You'll receive the full proceeds of your sticker sales in SNT. Until we have an automated process, you can submit your sticker packs through [this form](https://docs.google.com/forms/d/19itZB_V5bVW4cyV8a2ifDWHuQSr9V_dkVMCl6ARxOag/edit). Please be sure to adhere to the guidelines in the form. 
+
 ## Browser
 ### How is this browser different from other browsers?
 Status is a web3 enabled browser. A web3 enabled browser can open any website, but on top of that allows you to use decentralized apps, or ‘DApps’. In order to do so, Status injects an object into the DOM of a given site, allowing that site to reference your account on the blockchain—with your permission first. 

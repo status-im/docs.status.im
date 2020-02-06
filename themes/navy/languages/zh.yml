@@ -75,13 +75,6 @@ site:
         title: 'status扩展你的 DApp.'
         description: 扩展是开发者将他们的DAPP无缝集成到Status中的有效方式，能获得原生应用的运行效果。
         link: 文档
-    desktop:
-      title: Status桌面版
-      description: 安装桌面版alpha并在工作时享受安全和私密的消息。桌面应用与您的移动帐户同步可以带来无缝体验。
-      link: 获取Status桌面程序
-      announcement:
-        title: 'Status 桌面版本仍处于测试版状态，欢迎帮助测试并构建它。'
-        link: 桌面常见问题
     get:
       title: '获取Status '
       description: '开始使用iOS，Android，MacOS，Windows和Linux上的Status 。'
@@ -637,6 +630,7 @@ site:
     title: 准备好从Status开始？
     product:
       title: 产品
+      nightly: 每夜
       apps: 应用程序
     status:
       title: Status

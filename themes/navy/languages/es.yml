@@ -75,13 +75,6 @@ site:
         title: 'Extiende tu DApp <br>con Status'
         description: 'Las extensiones son una herramienta para que los desarrolladores integren la funcionalidad de su DApp dentro de Status de forma nativa. Crean una experiencia de usuario perfecta directamente en Status.'
         link: Documentación
-    desktop:
-      title: 'Status Desktop'
-      description: 'Instala el alfa de desktop y disfruta de una mensajería segura y privada mientras trabajas. La aplicación de escritorio se sincroniza con tu cuenta móvil para una experiencia perfecta.'
-      link: 'Obtener Status Desktop'
-      announcement:
-        title: 'Status Desktop todavía está en alfa. Instala la nightly, ayuda a probarla y construirla.'
-        link: 'Preguntas frecuentes de Desktop'
     get:
       title: 'Obtener Status'
       description: 'Empieza a disfrutar de Status en iOS, Android, MacOS, Windows y Linux.'
@@ -637,6 +630,7 @@ site:
     title: '¿Listo/a para empezar <br>con Status?'
     product:
       title: Producto
+      nightly: Nocturna
       apps: Apps
     status:
       title: Status

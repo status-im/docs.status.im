@@ -77,10 +77,6 @@ gulp.task('nightlies', () => {
     return updateBuilds('nightlies', 'latest.json')
 })
 
-gulp.task('releases', () => {
-    return updateBuilds('releases', 'release.json')
-})
-
 gulp.task('employees', async () => {
     return bamboo.saveEmployees('source/_data/employees.yml')
 })
@@ -88,8 +84,6 @@ gulp.task('employees', async () => {
 gulp.task('genqr', () => {
     genqr('nightlies', 'APK',   'public/nightly/img', 'qr-apk.png')
     genqr('nightlies', 'DIAWI', 'public/nightly/img', 'qr-ios.png')
-    genqr('releases',  'APK',   'public/stable/img',  'qr-apk.png')
-    genqr('releases',  'DIAWI', 'public/stable/img',  'qr-ios.png')
 })
 
 gulp.task('sass', () => {

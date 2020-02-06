@@ -103,7 +103,7 @@ gulp.task('watch', async () => {
 });
 
 gulp.task('build', (cb) => {
-    runSequence('generate', 'genqr', 'compress', 'minify', 'exit')
+    runSequence('nightlies', 'generate', 'genqr', 'compress', 'minify', 'exit')
 });
 
 gulp.task('exit', (cb) => {

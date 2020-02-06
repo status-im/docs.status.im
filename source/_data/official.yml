@@ -1,5 +1,5 @@
 # This file is managed manually, unlike nightlies.yml and releases.yml
-PLAYSTORE: 'CHANGE_ME'
+PLAYSTORE: 'https://play.google.com/store/apps/details?id=im.status.ethereum'
+APPSTORE: 'https://apps.apple.com/us/app/status-private-communication/id1178893006'
 TESTFLIGHT: 'https://testflight.apple.com/join/J8EuJmey'
-APPSTORE: 'CHANGE_ME'
-DIRECT_APK: 'CHANGE_ME'
+DIRECT_APK: 'https://status-im.ams3.cdn.digitaloceanspaces.com/StatusIm-v1.0.0.apk'

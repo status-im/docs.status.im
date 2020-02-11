@@ -126,17 +126,17 @@ With universal links (iOS) and deep links (Android) mobile users can tap a link 
 
 ### Supported Links
 <strong> DApp Browser</strong>
-- https://get.status.im/browse/DAPP-ADDRESS
-- e.g. https://get.status.im/browse/www.cryptokitties.co
+- https://join.status.im/browse/DAPP-ADDRESS
+- e.g. https://join.status.im/browse/www.cryptokitties.co
 
 <strong>Public Chats</strong>
-- https://get.status.im/chat/public/CHANNEL-NAME 
-- e.g. https://get.status.im/chat/public/status
+- https://join.status.im/chat/public/CHANNEL-NAME 
+- e.g. https://join.status.im/chat/public/status
 
 <strong>Users</strong>
-- https://get.status.im/user/CONTACT-ADDRESS 
-- e.g. https://get.status.im/user/0x044166fa04e967e333211ae0cc1087c9c74exxx
-- e.g. https://get.status.im/user/name.stateofus.eth
+- https://join.status.im/user/CONTACT-ADDRESS 
+- e.g. https://join.status.im/user/0x044166fa04e967e333211ae0cc1087c9c74exxx
+- e.g. https://join.status.im/user/name.stateofus.eth
 
 
 ## That’s It!

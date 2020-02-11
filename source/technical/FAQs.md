@@ -60,7 +60,7 @@ Status is an open source project and welcomes all contributions, both technical 
 If you’re a developer and want to get your hands dirty, head over to documentation on DApp development in the [DApp Integration Center](https://status.im/developer_tools/). If you are a mobile developer yourself and love functional languages, then [build Status](https://status.im/build_status/) yourself and start submitting those PRs.
 
 ### How can I request features? 
-As Status is an open source, community-driven project, you can both request and contribute to feature development. Share your thoughts in the public channel [#status](https://get.status.im/chat/public/status) or on our discuss forum: https://discuss.status.im/. You’re also welcome to open a [Github issue](https://github.com/status-im). 
+As Status is an open source, community-driven project, you can both request and contribute to feature development. Share your thoughts in the public channel [#status](https://join.status.im/chat/public/status) or on our discuss forum: https://discuss.status.im/. You’re also welcome to open a [Github issue](https://github.com/status-im). 
 
 If you’re a developer, follow our [contributor guide](https://dev.status.im/technical/contributor_guide.html) to get involved. 
 

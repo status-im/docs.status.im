@@ -672,7 +672,7 @@ site:
         title: '탈중앙 Web3 브라우저'
         description: '탈중앙 앱 생태계를 한 곳에서 체험해보세요.'
     invite:
-      title: '<a href=''https://get.status.im/chat/public/%s'' target=''_blank''>%s</a> 오픈 채팅에 참여하고, SNT를 얻는 방법에 대해 알아보세요'
+      title: '<a href=''https://join.status.im/chat/public/%s'' target=''_blank''>%s</a> 오픈 채팅에 참여하고, SNT를 얻는 방법에 대해 알아보세요'
       prize:
         option-1: 'stateofus.eth ENS 이름 등록'
         option-2: '이모티콘 패키지 구매'

@@ -31,7 +31,7 @@ window.ethereum.status
 #### Example implementation
 
 ``` js
-window.ethereum.status.installExtension("https://get.status.im/extension/ipfs@Qmb1B3jXNdc9WZCcWFzpkTXtrurnKxYQFvUDhp2J4SVCCX")
+window.ethereum.status.installExtension("https://join.status.im/extension/ipfs@Qmb1B3jXNdc9WZCcWFzpkTXtrurnKxYQFvUDhp2J4SVCCX")
 ```
 
 ## Other APIs

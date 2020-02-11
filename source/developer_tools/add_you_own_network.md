@@ -74,4 +74,4 @@ If the native currency icon is different that the default Ether icon, then the r
 
 Correction - we'll change the model in such a way so that we can remove the need for this migration. See [#6491](https://github.com/status-im/status-react/issues/6491)
 
-That's it! If you have any questions or remarks, please find us in the [status developer channel](https://get.status.im/chat/public/status-core-devs). Hopefully, we'll simplify this process soon enough.
+That's it! If you have any questions or remarks, please find us in the [status developer channel](https://join.status.im/chat/public/status-core-devs). Hopefully, we'll simplify this process soon enough.

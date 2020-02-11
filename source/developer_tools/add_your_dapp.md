@@ -30,7 +30,7 @@ Once you've tested your DApp thoroughly on Status and addressed any issues, make
 You can deep link to any DApp in Status using this format:
 
 ```
-https://get.status.im/browse/website.com
+https://join.status.im/browse/website.com
 ```
 
 You can also use the `Share link` button from the options menu within the Status browser. 
@@ -47,4 +47,4 @@ Users pay a fee to vote. As a user, I just want to see links/DApps that are rele
 
 ## Need support?
 
-If you have any questions, ping us in [#status-core-dapps](https://get.status.im/chat/public/status-core-dapps).
+If you have any questions, ping us in [#status-core-dapps](https://join.status.im/chat/public/status-core-dapps).

@@ -25,7 +25,7 @@ hexo.extend.helper.register('join_status_chat', function() {
   if (this.path.includes('nimbus')) { 
     channel = 'status-nimbus';
   }
-  var url = `https://get.status.im/chat/public/${channel}`;
+  var url = `https://join.status.im/chat/public/${channel}`;
   return `<a href="${url}" class="button">Join Status Chat</a>`;
 });
 
@@ -40,7 +40,7 @@ hexo.extend.helper.register('employees', function(type) {
         <b>'+ employee['displayName'] +'</b> \
         <span>'+ employee['jobTitle'] +'</span> \
         <ul>\
-          <li><a href="https://get.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
+          <li><a href="https://join.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
           <li><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
         </ul>\
       </div>\

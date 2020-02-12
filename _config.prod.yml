@@ -1,3 +1,5 @@
+---
+# WARNING: There's two files, _config.{prod,dev}.yml.
 title: Status
 subtitle: "A new kind of tool for a new kind of internet"
 description: "Status is the mobile windown onto Ethereum, the platform with which we will onboard the first million users of a truly distributed web."
@@ -58,3 +60,7 @@ elasticsearch:
 
 # ID for Fathom Analytics
 fathom_site_id: 'BMGJI'
+
+alias:
+  feature-request/index.html: https://docs.google.com/forms/d/1AD9HBVLUfztKx3erB5LBBYorbYgrVCRd2OnEtICMDqc/
+  roadmap/index.html: https://trello.com/b/DkxQd1ww/status-app-roadmap

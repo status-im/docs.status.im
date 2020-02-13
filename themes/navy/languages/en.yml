@@ -636,6 +636,9 @@ site:
       swarms:
         title: "swarms"
         description: "Swarm Home. New, completed and in-progress features for Status."
+      specs:
+        title: "specs"
+        description: "Specifications for Status clients."
     help:
       title: "We are here to help!"
       description: "We're always happy to help with code or any questions you have."

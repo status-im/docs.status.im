@@ -51,7 +51,7 @@ docs:
           - title: Register DApps
             path: register_dapps.html
 
-  - title: Our Team
+  - title: Join the team
     path: our_team
     children:
       - title: FAQs

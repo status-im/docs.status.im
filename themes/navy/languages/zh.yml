@@ -348,11 +348,6 @@ site:
         description: '从Status开始开发 <br> 所需的一切'
         link: 文档
         link-1: 开始参与
-        link-2: Contributor Guide
-        link-3: Nightlies版
-        link-4: 开发工具
-        link-5: 研究
-        link-6: 教程
       about: 关于
       blog: 博客
       snt-utility: SNT的用途

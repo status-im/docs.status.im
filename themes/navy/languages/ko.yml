@@ -353,11 +353,6 @@ site:
         description: '스테이터스 <br> 개발을 시작하기 위해 필요한 모든 것'
         link: '개발 문서'
         link-1: 시작하기
-        link-2: Contributor Guide
-        link-3: '나이틀리 테스트 버전'
-        link-4: '개발자 도구'
-        link-5: 연구
-        link-6: 튜토리얼
       about: 소개
       blog: 블로그
       snt-utility: 'SNT 유틸리티'

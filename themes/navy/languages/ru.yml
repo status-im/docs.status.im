@@ -348,11 +348,6 @@ site:
         description: 'Все , что вам нужно , чтобы начать <br> разработки с состоянием'
         link: Документы
         link-1: Начать
-        link-2: Contributor Guide
-        link-3: Nightlies
-        link-4: 'DApp соединение центр'
-        link-5: Исследования
-        link-6: 'Обучение (?)'
       about: Рядом
       blog: Блог
       snt-utility: 'Утилита SNT'

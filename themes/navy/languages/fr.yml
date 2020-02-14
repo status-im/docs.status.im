@@ -348,11 +348,6 @@ site:
         description: 'Tout ce dont vous avez besoin pour commencer à <br>développer avec Status'
         link: Docs
         link-1: Démarrer
-        link-2: 'Contribuer à Status'
-        link-3: 'Les nuités'
-        link-4: 'DApp Centre d''intégration'
-        link-5: Recherche
-        link-6: Tutoriels
       about: 'A propos'
       blog: Blog
       snt-utility: 'Utilité SNT'

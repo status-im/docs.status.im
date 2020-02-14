@@ -50,3 +50,23 @@ docs:
         children:
           - title: Register DApps
             path: register_dapps.html
+
+  - title: Our Team
+    path: our_team
+    children:
+      - title: FAQs
+        path: faqs.html
+      - title: Our Principles
+        path: our_principles.html
+      - title: Open Positions
+        path: open_positions.html
+      - title: Applying
+        path: applying_to_status.html
+      - title: Applicant Privacy
+        path: applicant_privacy.html
+      - title: Perks & Benefits
+        path: perks_benefits.html
+      - title: Life At Status
+        path: life_status.html
+      - title: The Future
+        path: the_future.html

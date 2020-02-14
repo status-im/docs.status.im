@@ -65,6 +65,7 @@ marked:
   breaks: false
 
 alias:
+  contribute/open_positions.html: /our_team/open_positions.html
   feature-request/index.html: https://docs.google.com/forms/d/1AD9HBVLUfztKx3erB5LBBYorbYgrVCRd2OnEtICMDqc/
   roadmap/index.html: https://trello.com/b/DkxQd1ww/status-app-roadmap
   stickers/index.html: https://forms.gle/2czVVRjPtWmTMJSq7

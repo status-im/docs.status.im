@@ -347,11 +347,6 @@ site:
         description: 'كل ما تحتاجه لبدء <br>التطوير مع status'
         link: مستندات
         link-1: البدء
-        link-2: 'Contribute to Status'
-        link-3: Nightlies
-        link-4: 'ادوات المطورين'
-        link-5: ابحاث
-        link-6: الدروس
       about: حولنا
       blog: مدونة
       snt-utility: 'SNT Utility'

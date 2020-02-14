@@ -482,7 +482,7 @@ site:
       title: "Security at Status"
       secure-inner-1:
         title: "Secure <br>Messaging"
-        description: "Messages are not censored, blocked, and they remain anonymous if the user chooses so. Only intended recipients are able to view messages and no metadata is leaked."
+        description: "Messages are not censored, blocked, and they remain anonymous if the user chooses so. Only intended recipients are able to view messages."
       secure-inner-2:
         title: "Secure Financial <br>Transactions"
         description: "Sending, storing, and receiving cryptocurrencies or tokens within the Status wallet is safe from attack. Private keys are never exposed. Transactions are only processed when initiated and confirmed by the owner of the private keys."
@@ -660,6 +660,7 @@ site:
         link-1: "DApp Integration"
         link-2: "Contributor Guide"
         link-3: "Our Team"
+        link-4: "Security"
       about: "About"
       blog: "Blog"
   footer:

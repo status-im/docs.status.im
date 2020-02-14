@@ -276,7 +276,6 @@ site:
       title: 'Seguridad en Status'
       secure-inner-1:
         title: '<br>Mensajería segura'
-        description: 'Los mensajes no son censurados, bloqueados y permanecen anónimos si el usuario así lo desea. Sólo los destinatarios previstos pueden ver los mensajes y no se filtra ningún metadato.'
       secure-inner-2:
         title: '<br>Transacciones financieras seguras'
         description: 'Enviar, almacenar y recibir criptomonedas o tokens dentro de la billetera de Status está a salvo de ataques. Las claves privadas nunca están expuestas. Las transacciones solo se procesan cuando son iniciadas y confirmadas por el propietario de las claves privadas.'

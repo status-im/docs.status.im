@@ -276,7 +276,7 @@ site:
       title: 'La sécurité au sein de Status'
       secure-inner-1:
         title: 'Sécurisé <br>Messagerie'
-        description: 'Les messages ne sont pas censurés, bloqués et restent anonymes si l''utilisateur le souhaite. Seuls les destinataires prévus peuvent afficher les messages et aucune métadonnée n''est divulguée.'
+        description: 'Les messages ne sont pas censurés, bloqués et restent anonymes si l''utilisateur le souhaite. Seuls les destinataires prévus peuvent afficher les messages.'
       secure-inner-2:
         title: 'Sécurité financière <br> Transactions'
         description: 'L''envoi, le stockage et la réception de crypto-devises ou de jetons dans le portefeuille d''état sont protégés des attaques. Les clés privées ne sont jamais exposées. Les transactions ne sont traitées que lorsqu''elles sont initiées et confirmées par le propriétaire des clés privées.'

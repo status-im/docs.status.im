@@ -276,7 +276,6 @@ site:
       title: 关于Status安全
       secure-inner-1:
         title: 安全<br>信息
-        description: 如果用户选择匿名，消息不会被审查、屏蔽，并确保匿名。只有预期的收件人才能查看消息，并且不会泄露元数据。
       secure-inner-2:
         title: 安全金融<br>交易
         description: 在Status钱包中发送、存储和接收加密货币或代币是安全而不会被攻击的。私钥永远不会暴露。只有在私钥所有者发起和确认时才会处理交易事务。

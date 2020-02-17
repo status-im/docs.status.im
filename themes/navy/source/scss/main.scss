@@ -415,6 +415,9 @@ h4{
 .m-t-50{
     margin-top: 50px;
 }
+.m-b-50{
+    margin-bottom: 50px;
+}
 
 .link-arrow{
     font-size: 16px;
@@ -3127,6 +3130,37 @@ img.qr-code{
     }
 }
 
+.template-nft-nyc{
+    h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .features{
+        li{
+            margin-bottom: 10px;
+            .li-inner{
+                margin-left: 0;
+                position: relative;
+                padding-left: 20px;
+                &:before{
+                    content: '';
+                    width: 10px;
+                    height: 10px;
+                    background: #2E348D;
+                    border-radius: 50%;
+                    top: 7px;
+                    left: 0;
+                    position: absolute;
+                }
+            }
+            p{
+                margin-bottom: 15px;
+                color: #0F0F0F;
+            }
+        }
+    }
+}
+
 @media (max-width: 1499px){
     .container {
         max-width: 1170px;
@@ -4511,6 +4545,28 @@ img.qr-code{
     .home-security{
         .inner-security{
             margin-bottom: 50px;
+        }
+    }
+    .template-nft-nyc{
+        .features{
+            li{
+                .li-inner{
+                    p {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    .channel-invite{
+        ul{
+            flex-direction: column;
+            margin-left: 0;
+            margin-right: 0;
+            li{
+                width: 100%;
+                margin-bottom: 20px;
+            }
         }
     }
 }

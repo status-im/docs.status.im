@@ -2,8 +2,8 @@ site:
   home:
     intro:
       title: '검열 없는 <br> 안전한 커뮤니케이션'
-      description: '스테이터스는 최첨단 기술이 융합된 암호화 메신저, <br/> 암호화폐 지갑 및 Web3 브라우저입니다.'
-      news: '뉴스'
+      description: '스테이터스는 최첨단 기술이 융합된 암호화 메신저, 암호화폐 지갑 및 Web3 브라우저입니다.'
+      news: 뉴스
     about:
       open-source:
         title: '오픈소스 프로젝트'
@@ -34,7 +34,7 @@ site:
     status-network:
       title: '스테이터스 네트워크'
       description: '스테이터스 네트워크는 탄력적이고 지속 가능하며 포괄적인 커뮤니티를 위한 도구 및 인프라를 개발하는 데 전념하는 프로젝트 및 사람들의 모임입니다.'
-      link: '스테이터스 네트워크 사이트'
+      link: '스테이터스 네트워크 더 알아보기'
   features:
     intro:
       title: '내 주머니 속의 이더리움'
@@ -74,7 +74,7 @@ site:
         description: '여러분의 주머니 안에서도 디앱 생태계는 계속 성장하고 있습니다. 최신 탈중앙 거래소, 마켓 플레이스, 게임, 소셜 네트워크 등을 확인해보세요!'
         link: '스테이터스 설치'
       feature-2:
-        title: '프라이버시와 <br> 안전한 브라우징'
+        title: '프라이버시 & 안전한 브라우징'
         description: '스테이터스는 최신 보안 표준을 적용하여, 안전하고 추적 및 데이터 수집으로부터 자유로운 서비스를 제공합니다. 안전하게 브라우징하세요.'
       feature-3:
         title: '여러분의 디앱을 <br> 최적화하세요'
@@ -88,7 +88,7 @@ site:
     index:
       intro:
         title: '오픈소스 커뮤니티'
-        description: '스테이터스에 기여할 방법에 대한 모든 것을 확인하실 수 있습니다. 개발자, 교육자, 커뮤니티 조직자 또는 열정적인 지지자들 모두가 스테이터스에 기여할 수 있습니다. 여기에서부터 시작하시면 됩니다.'
+        description: '개발자, 교육자, 커뮤니티 조직자 또는 열정적인 지지자들 모두가 스테이터스에 기여할 수 있습니다. 시작에 필요한 리소스들을 확인해보세요.'
       resources:
         resource-1:
           title: 개발자
@@ -108,15 +108,14 @@ site:
         title: 개발
         description: '스테이터스 개발자 포탈(Status Developer Portal)에 오신 것을 환영합니다. 스테이터스에 기여하기 위한 모든 정보들을 확인하시고, 여러분만의 디앱을 직접 구축하거나, 효율적 작업에 필요한 스테이터스의 모든 기능을 확인할 수 있습니다.'
       quick-nav-sub:
-        link-1: '스테이터스에 기여하기'
-        link-2: '디앱 빌드'
-        link-3: '디앱 확장'
-        link-4: '개발자 리소스'
-        link-5: 깃허브
+        link-1: '스테이터스 시작하기'
+        link-2: '리포지터리, 이슈, 바운티'
+        link-3: '개발자 리소스'
+        link-4: 깃허브
       contribute-to-status:
-        title: '스테이터스에 참여하기'
-        description: '이 침여자 가이드와 함께 시작하세요.'
-        link: '빠른 시작 안내서'
+        title: 시작하기
+        description: '오픈소스 프로젝트'
+        link: '참여자 가이드'
         status-react:
           title: Status-React
           description: '위스퍼(Whisper)와 앱의 상호 작용, 지갑, 사용자 및 사용자가 액세스하고자 하는 모든 디앱(DApp) 간의 상호 작용 및 UI 로직은 Clojure로 작성되었습니다.'
@@ -143,7 +142,7 @@ site:
         build-dapp:
           title: '직접 디앱을 빌드하세요'
           description: '여러분의 툴과 프레임워크로 탈중앙 애플리케이션을 빌드하세요.'
-          link-1: 'Javascript API를 통한 모바일 최적화'
+          link-1: '디앱 통합 센터'
           link-2: '엠바크와 함께 여러분만의 디앱을 만들어보세요'
           link-3: 'Web3 제공자에 액세스하고 스테이터스 확인하기'
           link-4: '스테이터스 디앱 목록에 여러분의 디앱을 제출하세요'
@@ -189,6 +188,12 @@ site:
         contact-us:
           link: '이메일 보내기'
           description: '어떤 것이든, 저희에게 바로 이메일 부탁드립니다.'
+      repositories:
+        title: '리포지토리, 공개 된 이슈 및 바운티'
+      build-for-status:
+        title: '스테이터스 빌드'
+        description: '스테이터스에서 디앱을 만나보세요'
+        link: '디앱 통합 센터'
     educators:
       intro:
         subtitle: '오픈 소스  커뮤니티'
@@ -281,7 +286,7 @@ site:
       title: '스테이터스의 보안'
       secure-inner-1:
         title: 보안<br>메시징
-        description: '메시지는 검열되거나 차단되지 않으며, 사용자가 희망할 경우 익명으로 남습니다. 오직 의도된 수신자만이 메시지를 볼 수 있습니다.'
+        description: '메시지는 검열되거나 차단되지 않으며, 사용자가 희망할 경우 영원히 익명으로 남습니다. 의도된 수신자만이 여러분의 메시지를 볼 수 있습니다.'
       secure-inner-2:
         title: '탈중앙 <br> 금융 거래'
         description: '스테이터스 지갑을 통해 사이버 공격으로부터 안전하게 암호화폐 및 토큰을 주고 받거나 보관할 수 있습니다. 여러분의 개인키는 절대 외부로 노출되지 않습니다. 각각의 트랜잭션은 개인키 소유자가 거래를 시작하고 확인할 때만 처리될 수 있도록 설계되었습니다.'
@@ -326,6 +331,18 @@ site:
         description-1: '주요 개발 분기점에 도달하면, 일련의 내부 검토 및 감사를 거친 후 업계 선두의 보안 감사 회사에 의뢰하여 기능의 안정성과 건전성을 검증합니다. 이를 통해 스테이터스가 개발한 내용을 이중/삼중으로 점검합니다. 이러한 제 3자에 의한 객관적인 보안 감사는 비용과 시간이 소모되지만, 보안에 대한 신뢰를 훨씬 강화할 수 있습니다.'
         description-2: '외부 감사 결과에 대한 정보가 필요하시다면, %s을 확인해주시기 바랍니다.'
         description-3: '버그나 취약점을 발견하시면, %s에 리포트해주세요.'
+        ENS:
+          title: 'Sigma Prime과 ENS 스마트 컨트랙트'
+          commit: '2018 년 10월 - ENS 사용자 이름 계약 - 커밋 해시 eaefa92'
+          report: 리포트
+          tests: 테스트
+          code: 코드
+          blog: '블로그 포스트'
+        dejavu:
+          title: '데자뷰 베타 감사'
+          commit: '2018년 5월 07일 - 데자뷰의 Status-react 및 Status-go 감사'
+          report: 리포트
+          blog: '블로그 포스트'
       content-11:
         title: '개인정보 보호 교육'
         description: '스테이터스와 같이 탈중앙화되고 서버 없이 운영되는 서비스는 불필요한 중개자를 제거하여 감시, 검열 및 데이터 유출에 대한 염려 없이 안전하게 채팅, 거래 및 탐색할 수 있습니다. 이는 개인 정보와 디지털 자산을 사용자가 스스로 관리하기 때문입니다. 그러므로, 여러분이 자신을 안전하게 보호하는 방법을 이해하는 것이 중요합니다. 이 스테이터스 보안 권장사항 가이드를 통해 여러분의 안전을 유지하는 방법에 대해 알아봅니다.'
@@ -352,7 +369,11 @@ site:
         title: '개발 문서'
         description: '스테이터스 <br> 개발을 시작하기 위해 필요한 모든 것'
         link: '개발 문서'
-        link-1: 시작하기
+        link-1: 'DApp 통합'
+        link-2: '참여자 가이드'
+        link-3: '스테이터스와 함께하세요'
+        link-4: 보안
+        link-5: 스펙
       about: 소개
       blog: 블로그
       snt-utility: 'SNT 유틸리티'
@@ -363,7 +384,7 @@ site:
     educators: 교육자
     community-groups: '커뮤니티 그룹'
     learn-more: '더 알아보기'
-    read-all: '모두 읽기'
+    read-all: '읽어보기'
   about:
     intro:
       title: 미션
@@ -493,7 +514,8 @@ site:
         link: 'SNT의 모든 사용 사례 확인하기'
       inner-2:
         title: '오픈소스 프로젝트'
-        description: '스테이터스는 누구든지 필요에 맞게 소스 코드와 토큰을 활용할 수 있는 오픈소스 프로젝트입니다. 스테이터스의 연구는 오픈소스 거버넌스 구조가 프로젝트 경제적 가치에 영향을 미친다는 것을 증명합니다.'
+        description: '스테이터스는 누구든지 필요에 맞게 소스 코드와 토큰을 활용할 수 있는 오픈소스 프로젝트입니다. 스테이터스 메사리(Messari) 공시에도 등록되어있습니다.'
+        link: '메사리(Messari) 공시 등록'
       inner-3:
         title: '이해 관계자로서의 사용자'
         description: '사용자는 SNT를 통해 네트워크의 이해 당사자(stakeholder)가 됩니다. 이를 통해 네트워크와 소프트웨어의 설계와 동작이 사용자의 이익에 부합할 수 있도록 합니다.'
@@ -562,7 +584,7 @@ site:
   get:
     mobile:
       title: 모바일
-      description: '검열로부터 자유로운 채팅, 안전한 암호화폐 거래, 혁신적인 디앱 브라우징 기능을 사용해보세요! <br/> 구글 Playstore 또는 애플 App store에서 스테이터스를 설치하고, #introductions 채널에서 인사를 나누어보세요.'
+      description: '채팅하고, 거래하고, 혁신적인 디앱을 사용해보세요! 구글 Playstore 또는 애플 App store에서 스테이터스를 설치하고, #introductions 채널에서 인사를 나누어보세요.'
       apk-file: 'APK 파일을 여기에서 다운로드하세요'
       link-1: 'iOS 앱'
       link-2: '안드로이드 앱'
@@ -572,40 +594,34 @@ site:
       link-1: '맥OS 앱'
       link-2: '리눅스 앱'
       link-3: '윈도우 앱'
-      announcement: '데스크톱 앱은 알파 버전 소프트웨어로서, 몇가지 취약점을 포함할 수 있습니다. <br> 소프트웨어의 변경이 있을 수 있으니 참고 부탁드립니다.'
+      announcement: '이 소프트웨어는 알파 소프트웨어로서, 몇가지 취약점을 포함할 수 있습니다. <br> 소프트웨어의 변경이 있을 수 있으니 참고 부탁드립니다.'
   docs:
     stripe:
       title: 'Status 문서'
     title: '스테이터스 개발 문서에 오신 것을 환영합니다!'
-    description: '워크 플로우 및 프로젝트 알아보기 :'
+    description: '여러분의 디앱을 스테이터스에서 만나보세요. 스테이터스를 빌드해보고, 역사적인 기술 발전의 순간을 함께 해보세요'
     categories:
       technical-documentation:
-        title: '기술 문서'
-        description: '탈중앙 생태계의 성장'
+        title: '참여자 가이드'
+        description: '탈중앙 생태계에 참여하세요'
       developer-tools:
         title: '디앱 통합 센터'
-        description: 'JS API 및 확장 프로그램'
+        description: '스테이터스에서 여러분의 디앱을 만나보세요'
       build-status:
         title: '스테이터스 빌드하기'
         description: '모바일 및 데스크톱'
-      extensions:
-        title: '확장 프로그램'
-        description: '미래로의 확장'
       research:
-        title: 연구
-        description: '더 자세히 알아보세요!'
-      security:
-        title: 보안
-        description: '스테이터스 권장 사항'
-      guides:
-        title: 가이드
-        description: '우리가 일 하는 방법'
-      tutorials:
-        title: 튜토리얼
-        description: '직접 배워 보세요'
-      life-at-status:
-        title: '스테이터스 문화'
-        description: '일상 속의 탈중앙화'
+        title: '연구 주제'
+        description: '분산화된 미래 구축하기'
+      team:
+        title: '스테이터스 팀'
+        description: '스테이터스와 함께 하세요'
+      audits:
+        title: '외부 감사'
+        description: '외부 기술 감사'
+      keycard:
+        title: '키카드 API'
+        description: '안전한, 비접촉식의 오픈소스 하드월렛'
     pinned-repositories:
       title: '즐겨 찾는 저장소(Repository)'
       status-react:
@@ -617,21 +633,34 @@ site:
       swarms:
         title: '스웜 (Swarm)'
         description: '스웜 홈.  스테이터스가 개발 완료 및 개발 중인 기능들.'
+      specs:
+        title: 스펙
+        description: '스테이터스 클라이언트 스펙'
     help:
       title: '언제든지 여러분들을 돕겠습니다!'
       description: '소스 코드 및 기타 질문이 있으실 경우, 언제든지 도와 드리겠습니다.'
       link-1: '버그 신고'
       link-2: '스테이터스 커뮤니티 채팅'
-      link-3: '이메일 문의'
+      link-3: 연락주세요
       link-4: '레딧에 문의'
     update:
       title: '최근 업데이트'
+    index:
+      intro:
+        title: '개발자 포털'
+        teaser-1: '스테이터스 개발자 포탈에 오신 것을 환영합니다. 스테이터스 오픈소스 프로젝트에 참여하는 법, 나만의 DApp 구축 또는 dapp 등록에 필요한 모든 것을 확인해보세요.'
+      box-link-1:
+        title: '참여자 가이드'
+        text: "스테이터스는 누구든지 공유나 수정할 수 있는 무료 오픈 소스 소프트웨어를 만들어나가고 있습니다. <br> \_ <br> 배경, 기술 수준 및 관심 분야가 다른 모두가 스테이터스 커뮤니티 일원으로서 프로젝트에 기여할 수 있습니다. 스테이터스를 빌드하는 법, 바운티를 통해 상금을 얻는 법을 알아보고, 스테이터스를 직접 개발해보세요!"
+      box-link-2:
+        title: '디앱 통합 센터'
+        text: '스테이터스는 그 누구도 검열할 수 없는 안전한 웹3 브라우저와 탈중앙 앱 생태계를 포함하고 있습니다.<br> <br> 디앱 통합 센터는 여러분의 디앱을 스테이터스에서 사용할 수 있도록 돕는 단계별 가이드입니다. 디앱 통합 센터는 모바일에 최적화 된 경험과 보안, 안전 가이드라인, 스테이터스 API 및 dap.ps에 디앱을 제출하는 방법에 대한 자세한 내용을 담고 있습니다.'
   footer:
     title: '스테이터스와 <br> 함께 시작하세요'
     product:
-      title: '제품'
-      nightly: '개발용 버전'
-      apps: '앱'
+      title: 제품
+      apps: '앱 다운로드'
+      nightly: '나이틀리 테스팅'
     status:
       title: 스테이터스
       jobs: 채용
@@ -640,15 +669,15 @@ site:
     documentation:
       title: '개발 문서'
     status-network:
-      title: "스테이터스 네트워크"
-      embark: "Embark"
-      nimbus: "Nimbus"
-      keycard: "Keycard"
-      vac: "Vac"
-      dap-ps: "Dap.ps"
-      subspace: "Subspace"
-      teller: "Teller"
-      assemble: "Assemble"
+      title: '스테이터스 네트워크'
+      embark: 엠바크
+      nimbus: 님버스
+      keycard: 키카드
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: Subspace
+      teller: '텔러 네트워크'
+      assemble: 어셈블
     connect: '소셜 미디어'
     privacy-policy:
       title: '개인정보 보호 정책'
@@ -667,9 +696,13 @@ site:
         title: '탈중앙 Web3 브라우저'
         description: '탈중앙 앱 생태계를 한 곳에서 체험해보세요.'
     invite:
-      title: '<a href=''https://join.status.im/chat/public/%s'' target=''_blank''>%s</a> 오픈 채팅에 참여하고, SNT를 얻는 방법에 대해 알아보세요'
+      title: '오픈 채팅 <a href=''https://join.status.im/chat/public/%s'' target=''_blank''> # %s </a> 에서 SNT를 얻는 방법에 대해 알아보세요'
       prize:
         option-1: 'stateofus.eth ENS 이름 등록'
         option-2: '이모티콘 패키지 구매'
         option-3: 'dap.ps 에서 가장 좋아하는 디앱에 투표'
         option-4: '스테이터스 커뮤니티 거버넌스 제안 참여'
+  nft-nyc:
+    invite:
+      prize:
+        option-4: '스테이터스 커뮤니티 거버넌스 제안에 참여하세요'

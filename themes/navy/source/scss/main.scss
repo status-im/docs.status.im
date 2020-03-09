@@ -3133,7 +3133,10 @@ img.qr-code{
     }
 }
 
-.template-nft-nyc{
+.template-nft-nyc,.template-tbp{
+    img.logo{
+        max-width: 55%;
+    }
     h1{
         font-size: 30px;
         line-height: 35px;
@@ -4550,7 +4553,7 @@ img.qr-code{
             margin-bottom: 50px;
         }
     }
-    .template-nft-nyc{
+    .template-nft-nyc,.template-tbp{
         .features{
             li{
                 .li-inner{

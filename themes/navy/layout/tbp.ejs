@@ -1,0 +1,68 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<!--HOME-INTRO-->
+	<section class="home-intro">
+		<div class="container">
+	        <div class="row">
+	            <div class="col-md-7 col-lg-6">
+	            	<div class="inner d-flex align-items-start flex-column h-100 m-t-90">
+						<div class="row">
+							<div class="col-md-9">
+								<%- image_tag("/img/tbp-logo.png" , { class: 'm-b-25 logo'}) %>
+								<h1><%- __('site.tbp.intro.title') %></h1>
+								<ul class="features m-t-50 m-b-50">
+									<li>
+										<div class="li-inner">
+											<p><%- __('site.tbp.intro.list.item-1') %></p>
+										</div>
+									</li>
+									<li>
+										<div class="li-inner">
+											<p><%- __('site.tbp.intro.list.item-2') %></p>
+										</div>
+									</li>
+									<li>
+										<div class="li-inner">
+											<p><%- __('site.tbp.intro.list.item-3') %></p>
+										</div>
+									</li>
+								</ul>
+								<div class="d-flex flex-wrap">
+									<a href="<%- get_build_url('official', 'APPSTORE') %>" class="m-r-20 m-b-20 download"><%- image_tag("/img/app-store.svg") %></a>
+									<a href="<%- get_build_url('official', 'PLAYSTORE') %>" class="m-r-20 m-b-20 download"><%- image_tag("/img/google-play.svg") %></a>
+									<a href="<%- get_build_url('official', 'DIRECT_APK') %>" class="download"><%- image_tag("/img/apk.svg") %></a>
+								</div>
+							</div>
+						</div>
+	            	</div>
+	            </div>
+	            <div class="col-md-4 ml-auto col-lg-6 col-black">
+					<div class="mobile"><%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %></div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<!--END-HOME-INTRO-->
+
+	<div class="channel-invite p-t-160 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto">
+					<h3 class="text-center">
+						<%- __('site.nft-nyc.invite.title') %>
+					</h3>
+				</div>
+				<div class="col-md-10 ml-auto mr-auto">
+					<ul>
+						<li><%- __('site.nft-nyc.invite.prize.option-1') %></li>
+						<li><%- __('site.nft-nyc.invite.prize.option-2') %></li>
+						<li><%- __('site.nft-nyc.invite.prize.option-3') %></li>
+						<li><%- __('site.nft-nyc.invite.prize.option-4') %></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</main>

@@ -602,6 +602,13 @@ site:
         option-2: "Purchase sticker packs"
         option-3: "Upvote your favorite dapps within dap.ps"
         option-4: "Take part in Status Community Governance proposals"
+  tbp:
+    intro:
+      title: "Install Status on your mobile phone, join the <a href='http://join.status.im/chat/public/tbp'>#tbp</a> public channel, and get 100 SNT"
+      list:
+        item-1: "Download Status for iOS or Android from the links below"
+        item-2: "Create an account and join the public channel #tbp"
+        item-3: "Introduce yourself and someone from the Status team will start a private chat with you and send some SNT"
   docs:
     stripe:
       title: "Status Documentation"

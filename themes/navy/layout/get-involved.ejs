@@ -50,14 +50,79 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<div class="inner">
+				</div>
+				<div class="col-md-5"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<!-- EDUCATE-TRANSLATE -->
+					<section class="get-involved-ambassador" id="ambassador">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="inner-img ambassador-1">
+										<%- image_tag("/img/ambassador-1.png") %>
+									</div>
+									<div class="inner-img ambassador-2">
+										<%- image_tag("/img/ambassador-2.png") %>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="inner padding">
+										<h2><%- __('site.get-involved.index.contributors.subtitle') %></h2>
+										<p class="teaser-2"><%- __('site.get-involved.index.contributors.description') %></p>
+										<ul>
+											<li><a href="https://ambassador.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-2') %></a></li>
+										</ul>
+										<ul>
+											<li><a href="https://github.com/status-im/ambassador.status.im#status-ambassadors-" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-3') %></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- END-EDUCATE-TRANSLATE -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="get-involved-ambassador-2 rectangle working-groups p-b-160" id="ambassador">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="inner padding">
+						<h2><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
+						<p class="teaser-2"><%- __('site.get-involved.index.contributors.description-1') %></p>
+						<p class="teaser-2"><%- __('site.get-involved.index.contributors.description-2') %></p>
+						<ul>
+							<li><a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-4') %></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="working-groups ">
+						<%- image_tag("/img/working-groups.jpg") %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
+
+	<!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
+	<section class="about-core-contributors top-contributors p-b-160" id="core-contributors">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="inner padding-left-30">
 						<h3><%- __('site.get-involved.index.contributors.title') %></h3>
 					</div>
 				</div>
 				<div class="col-md-5"></div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 padding-left-30">
 					<ul class="contributors row">
 						<li class="contributor col-md-1">       
 							<a href="#" class="contributor-trigger">
@@ -68,22 +133,20 @@
 								<b>Enrico Del Fante</b>         
 								<span></span>         
 								<ul>          
-									<li><a href="https://join.status.im/user/0x04ba732c5a3b4de16b150bdc833ade07cc1ee3a0429334751313aab0643439fc218eee796b56204f84c594c18f5dbb5b2922f0641ee06134b86fd5f0033f03f872" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/tbenr" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>      
 							</div>    
 						</li>
 						<li class="contributor col-md-1">       
 							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/brian.jpg", { srcset: '/img/brian.jpg 2x'}) %>
+								<%- image_tag("/img/henry.jpg", { srcset: '/img/henry.jpg 2x'}) %>
 							</a>       
 							<div class="contributor-info">        
-								<%- image_tag("/img/brian.jpg", { srcset: '/img/brian.jpg 2x'}) %>    
-								<b>Brianxv</b>         
+								<%- image_tag("/img/henry.jpg", { srcset: '/img/henry.jpg 2x'}) %>    
+								<b>Henry Dada</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x043e5d778fcb09b434f76953e7db91babd400a1b577617e9328bc8dbd221d6556607fbf58c0c30cf38dabba155ab1e7f152efccabb9eca8ea39a8833833504fad2" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
-									<li><a href="https://twitter.com/brianxv15" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+									<li><a href="https://twitter.com/HenryBitmod" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>      
 							</div>    
 						</li>
@@ -96,22 +159,20 @@
 								<b>Eduardo Garza</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x042ca8156db05e0430bb11d74c3017c8d01b759a74b01288ce62a3dc78f27f153e5f332430b8ce7ff08abbc1135d75b50736619ec508202f4f1365157a3a95b87d" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/dondesomos1" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>      
 							</div>    
 						</li>
 						<li class="contributor col-md-1">       
 							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/prabhleen.jpg", { srcset: '/img/prabhleen.jpg 2x'}) %>
+								<%- image_tag("/img/cryptounknown.jpg", { srcset: '/img/cryptounknown.jpg 2x'}) %>
 							</a>       
 							<div class="contributor-info">        
-								<%- image_tag("/img/prabhleen.jpg", { srcset: '/img/prabhleen.jpg 2x'}) %>    
-								<b>Prabhleen Singh</b>         
+								<%- image_tag("/img/cryptounknown.jpg", { srcset: '/img/cryptounknown.jpg 2x'}) %>    
+								<b>Cryptounknown</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x04e1ea5f4015bf2fce8afc973d76708bbdc42d1379dbb8a093a1868a88f91f450f68ed39ef1fd3ef8696634bf0f00fabe9616437e4e727439fdfe1ebe2c32c25f3" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
-									<li><a href="https://twitter.com/PrabhleenDua" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+									<li><a href="https://twitter.com/CryptoUnknown" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>      
 							</div>    
 						</li>
@@ -124,7 +185,6 @@
 								<b>Warsoverjohn</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x04c940125c0b746c44dad3ef29a15a567fe63f291fa70bb06f0167c1711de2f13bd2dffb3932755775e06886ea3da91ccc5b9b44c8568c62d8e8b08a8bcdc168b3" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/Warsoverjohn1" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>    
 							</div>    
@@ -138,22 +198,20 @@
 								<b>Sebastian Moonjava</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x040936b96b92470cfbec14d63667cac0d84a47291d76843f4a16e435910e90363a438b32bbca9d3898b5f9ac3fb8143d43805010640ba93fdc2a7474b959d2a7e8" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/theDAOKING" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>    
 							</div>    
 						</li>
 						<li class="contributor col-md-1">       
 							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/yalu.jpg", { srcset: '/img/yalu.jpg 2x'}) %>
+								<%- image_tag("/img/sdh.png", { srcset: '/img/sdh.png 2x'}) %>
 							</a>       
 							<div class="contributor-info">        
-								<%- image_tag("/img/yalu.jpg", { srcset: '/img/yalu.jpg 2x'}) %>    
-								<b>Yalu</b>         
+								<%- image_tag("/img/sdh.png", { srcset: '/img/sdh.png 2x'}) %>    
+								<b>SDH</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x04b1e0402ac86f3fe1cbc40edee047c8f4cc9f87003a84d894741fb387832660130aba6481a4bbf38c320a3fc19ead53663dc268b525fafd85981b434d42fa01fd" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
-									<li><a href="https://twitter.com/yalu" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+									<li><a href="https://twitter.com/shygalchi" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>    
 							</div>    
 						</li>
@@ -166,7 +224,6 @@
 								<b>Daniel Bar</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x049029a0412381e65b9b206f037adf3b98f29d085d1d05075db52d593677c12886ddfa8a25896a6a321e538e6d9645b904a735546442926f9680614f255f1e1d9a" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/danieltbar" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>    
 							</div>    
@@ -180,7 +237,6 @@
 								<b>Kris Calabio</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x04825abbccf20caa211e1564dc566222278f3f08a5d0013f9277d643a8e10e52e48486248d432a31ce3832ce7eb51d44a62503e54f8088595310b28c0a2a3016c3" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/KuyaKris88" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>    
 							</div>    
@@ -194,8 +250,85 @@
 								<b>Sourav Kumar Nanda</b>         
 								<span></span>
 								<ul>
-									<li><a href="https://join.status.im/user/0x041beada27e0f0072108f52a86b11f08ded17bc7e77d00d47861f1038ed64ddbd5466cab1e15a765d8f7a95f666d4ed147a36ff1d582c9de206456a9744ec0dbd2" target="_blank"><%- image_tag("/img/icon-status-purple.svg") %></a></li>
 									<li><a href="https://twitter.com/souravinsights" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+								</ul>    
+							</div>    
+						</li>
+						<li class="contributor col-md-1">       
+							<a href="#" class="contributor-trigger">
+								<%- image_tag("/img/wondeuk.jpg", { srcset: '/img/wondeuk.jpg 2x'}) %>
+							</a>       
+							<div class="contributor-info">        
+								<%- image_tag("/img/wondeuk.jpg", { srcset: '/img/wondeuk.jpg 2x'}) %>    
+								<b>Wondeuk Cho</b>         
+								<span></span>
+								<ul>
+									<li><a href="https://twitter.com/cryptojohnburre" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+								</ul>    
+							</div>    
+						</li>
+						<li class="contributor col-md-1">       
+							<a href="#" class="contributor-trigger">
+								<%- image_tag("/img/lilsiri.jpg", { srcset: '/img/lilsiri.jpg 2x'}) %>
+							</a>       
+							<div class="contributor-info">        
+								<%- image_tag("/img/lilsiri.jpg", { srcset: '/img/lilsiri.jpg 2x'}) %>    
+								<b>Lilsiri</b>         
+								<span></span>
+								<ul>
+									<li><a href="https://twitter.com/onebotband" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+								</ul>    
+							</div>    
+						</li>
+						<li class="contributor col-md-1">       
+							<a href="#" class="contributor-trigger">
+								<%- image_tag("/img/rachid.jpg", { srcset: '/img/rachid.jpg 2x'}) %>
+							</a>       
+							<div class="contributor-info">        
+								<%- image_tag("/img/rachid.jpg", { srcset: '/img/rachid.jpg 2x'}) %>    
+								<b>Rachid Moulakhnif</b>         
+								<span></span>
+								<ul>
+									<li><a href="https://twitter.com/rachid_eth" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+								</ul>    
+							</div>    
+						</li>
+						<li class="contributor col-md-1">       
+							<a href="#" class="contributor-trigger">
+								<%- image_tag("/img/pearlumie.jpg", { srcset: '/img/pearlumie.jpg 2x'}) %>
+							</a>       
+							<div class="contributor-info">        
+								<%- image_tag("/img/pearlumie.jpg", { srcset: '/img/pearlumie.jpg 2x'}) %>    
+								<b>Pearlumie</b>         
+								<span></span>
+								<ul>
+									<li><a href="https://twitter.com/Pearlumie" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+								</ul>    
+							</div>    
+						</li>
+						<li class="contributor col-md-1">       
+							<a href="#" class="contributor-trigger">
+								<%- image_tag("/img/elpriist.png", { srcset: '/img/elpriist.png 2x'}) %>
+							</a>       
+							<div class="contributor-info">        
+								<%- image_tag("/img/elpriist.png", { srcset: '/img/elpriist.png 2x'}) %>    
+								<b>Elpriist</b>         
+								<span></span>
+								<ul>
+									<li><a href="https://twitter.com/el_priist" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
+								</ul>    
+							</div>    
+						</li>
+						<li class="contributor col-md-1">       
+							<a href="#" class="contributor-trigger">
+								<%- image_tag("/img/joly.jpg", { srcset: '/img/joly.jpg 2x'}) %>
+							</a>       
+							<div class="contributor-info">        
+								<%- image_tag("/img/joly.jpg", { srcset: '/img/joly.jpg 2x'}) %>    
+								<b>Joselito Mutuc</b>         
+								<span></span>
+								<ul>
+									<li><a href="https://twitter.com/el_priist" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
 								</ul>    
 							</div>    
 						</li>

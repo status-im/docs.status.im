@@ -296,8 +296,16 @@ site:
           title: "Community Groups"
           description: "There are a number of both Status run and community organized groups within the Status community. <br><br>Join an existing group or start your own group based on your personal interests. People organize all over the world to help promote and grow this open source project."
       contributors:
-        title: "Top Community Contributors"
+        title: "Status Ambassadors"
+        subtitle: "We are Status"
+        subtitle-2: "What you can do as an ambassador"
+        description: "Status ambassadors build, educate, promote, and contribute to the next generation of the Web."
+        description-1: "Ambassadors are free to choose our own contributions. Some of ambassadors write code, others write blog posts. Some host events and some host webinars."
+        description-2: "Status ambassadors work across a range of areas and collaborate in many ways."
         link: "Join the Status Team. See all Open Position"
+        link-2: "Become an ambassador"
+        link-3: "Top Community Contributors"
+        link-4: "Check out our shared project board"
     developers:
       intro:
         subtitle: "An Open Source Community"
@@ -421,6 +429,7 @@ site:
         title: "Translate"
         description: "Help us localise Status into your language. We use lokalise to translate everything from the application, the website, the documentation and more."
         link: "Translate Status"
+        link-2: "Contributors"
       educator-resources:
         title: "Educator Resources"
         link-1: "Styleguide & Assets"

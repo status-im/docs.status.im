@@ -2277,6 +2277,7 @@ footer{
     .contributors{
         margin-top: 70px;
         margin-bottom: 40px;
+        padding: 0 10px 0 20px;
     }
 }
 
@@ -2569,6 +2570,67 @@ footer{
         }
     }
 }
+
+.get-involved-ambassador{
+    .inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    .ambassador-1 {
+        img {
+            width: 300px;
+            height: auto;
+        }
+    }
+    .ambassador-2 {
+        img {
+            margin-top: 70px;
+            width: 200px;
+            height: auto;
+        }
+    }
+    .inner-img{
+        display: inline-block;
+        float: left;
+    }
+    ul{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+       li{
+            list-style-type: none;
+            margin-bottom: 20px;
+        } 
+    }
+}
+
+.get-involved-ambassador-2 {
+    .working-groups {
+        img {
+            width: 500px;
+            height: auto;
+            margin-left: 120px;
+            margin-top: 10px;
+        }
+    }
+
+    @extend .get-involved-ambassador;
+    &:before{
+        content: '';
+        width: 48%;
+        height: 450px;
+        position: absolute;
+        top: 1900px;
+        right: 0;
+        background-image: url('../img/ambassador-grey-rectangle.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
+    }
+}
+
 
 .educate-translate{
     .inner{
@@ -3564,6 +3626,92 @@ img.qr-code{
     }
 }
 
+@media (min-width: 1271px) and (max-width: 1499px) {
+    .get-involved-ambassador{
+        .ambassador-1 {
+            img {
+                width: 260px;
+            }
+        }
+        .ambassador-2 {
+            img {
+                width: 190px;
+            }
+        }
+        .padding {
+            padding-left: 30px;
+        }
+    }
+    .get-involved-ambassador-2{
+        .working-groups {
+            img {
+                margin-left: 80px;
+            }
+        }
+        &:before{
+            top: 1530px !important;
+            height: 400px;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1270px) {
+    .get-involved-ambassador{
+        .ambassador-1 {
+            img {
+                width: 250px;
+            }
+        }
+        .ambassador-2 {
+            img {
+                width: 180px;
+            }
+        }
+        .padding {
+            padding-left: 30px;
+        }
+    }
+    .get-involved-ambassador-2{
+        .working-groups {
+            img {
+                margin-left: 10%;
+                margin-top: 40px;
+            }
+        }
+        &:before{
+            top: 1570px;
+        }
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    .get-involved-ambassador{
+        .ambassador-1 {
+            img {
+                max-width: 70%;
+                position: absolute;
+                left: 20%;
+                top: -40px;
+            }
+        }
+        .ambassador-2 {
+            visibility: hidden;
+        }
+    }
+    .get-involved-ambassador-2{
+        .working-groups {
+            img {
+                margin-left: 20px;
+                margin-top: 0;
+                max-width: 90%;
+            }
+        }
+        &:before{
+            visibility: hidden;
+        }
+    }
+}
+
 @media screen and (max-width: 1199px) {
     h1{
         line-height: 44px;
@@ -3873,6 +4021,35 @@ img.qr-code{
 }
 
 @media screen and (max-width: 767px) {
+    .get-involved-ambassador{
+        .ambassador-1 {
+            display: none;
+        }
+        .ambassador-2 {
+            display: none;
+        }
+        .padding {
+            padding-left: 10px;
+            padding-right: 20px;
+        };
+    }
+
+    .get-involved-ambassador-2{
+        .working-groups {
+            display: none
+        }
+        &:before{
+            display: none;
+        }
+        .padding {
+            padding-left: 30px;
+            padding-right: 20px;
+        };
+    }
+    .padding-left-30 {
+        padding-left: 30px;
+    }
+
     .col-offset-bottom{
         margin-bottom: 0;
     }

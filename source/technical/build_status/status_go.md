@@ -21,8 +21,7 @@ The project output can take several forms:
 
 ### 1. Requirements
 
-- Go version 1.13;
-- Set `GOPATH`;
+- Go version >=1.13 (we use Go Modules, version 1.14 is recommended),
 - Docker (only if cross-compiling).
 
 ### 2. Clone the repository
@@ -30,7 +29,6 @@ The project output can take several forms:
 ```shell
 git clone https://github.com/status-im/status-go
 cd status-go
-git checkout develop
 ```
 
 ### 3. Set up build environment
@@ -40,17 +38,17 @@ status-go uses Makefile to perform the most common actions. See `make help` outp
 The first thing to do to get started is to run `make setup`. That'll ensure that all tools required to do a first build are installed and set up.
 
 ```shell
-make setup
+make setup-dev
 ```
 
 This script prepares and installs the following:
 
-- [dep](https://github.com/golang/dep/cmd/dep)
+- [golangci-lint](https://github.com/golangci/golangci-lint)
 - [mockgen](https://github.com/golang/mock/mockgen)
 - [go-bindata](https://github.com/kevinburke/go-bindata/go-bindata)
-- [golangci-lint](https://github.com/golangci/golangci-lint)
-- [protobuf compiler](https://github.com/protocolbuffers/protobuf)
-- [github-release](https://github.com/c4milo/github-release)
+- [protobuf compiler](https://github.com/protocolbuffers/protobuf) and [protoc-gen-go](github.com/golang/protobuf/protoc-gen-go)
+- [jq](https://github.com/stedolan/jq)
+- [modvendor](github.com/adambabik/modvendor)
 
 ### 4. Build the statusd CLI
 
@@ -94,29 +92,18 @@ There are a few standard configuration files located in the [config/cli](https:/
 }
 ```
 
-- As a LES node:
-
-```json
-{
-    "LightEthConfig": {
-        "Enabled": true
-    }
-}
-```
-
-### 5. Build a static library
+### 5. Build a library for Android and iOS
 
 ```shell
-make statusgo-library
+make gomobile-install
+make statusgo-cross # statusgo-android or statusgo-ios to build for specific platform
 ```
-
-This command will build a status-go library for the host platform under `build/bin/libstatus.a`. You can also cross compile for mobile platforms using [gomobile](https://github.com/golang/mobile) and the appropriate `make` commands, e.g. `make statusgo-android`, `make statusgo-ios`, etc.
 
 ### 6. Build a bootnode
 
 A bootnode is a regular Ethereum node which runs only discovery (DevP2P is disabled). It is used as a first connection point for Ethereum nodes to discover other peers in the network.
 
-One reason you might want to run a bootnode build instead of a node with LES/Whisper enabled, is that it will be more forgiving in terms of version mismatches, as discovery happens on a different layer.
+One reason you might want to run a bootnode build instead of a node with other subprotocols like Whisper enabled, is that it will be more forgiving in terms of version mismatches, as discovery happens on a different layer.
 
 ```shell
 make bootnode
@@ -145,13 +132,41 @@ adb shell tail -f sdcard/Download/geth.log
 
 ## Testing
 
-To setup accounts passphrase you need to setup an environment variable: `export ACCOUNT_PASSWORD="secret_pass_phrase"`.
+First, make sure the code is linted properly:
 
-To test fully status-go, use:
+```shell
+make lint
+```
+
+Next, run unit tests:
+
+```shell
+make test
+```
+
+Unit tests can also be run using `go test` command. If you want to launch specific test, for instance `RPCSendTransactions`, use the following command:
+
+```shell
+go test -v ./api/ -testify.m ^RPCSendTransaction$
+```
+
+Note `-testify.m` as [testify/suite](https://godoc.org/github.com/stretchr/testify/suite) is used to group individual tests.
+
+Finally, run e2e tests:
+
+```shell
+make test-e2e
+```
+
+There is also a command to run all tests in one go:
 
 ```shell
 make ci
 ```
+
+### Testing with an Ethereum network 
+
+To setup accounts passphrase you need to setup an environment variable: `export ACCOUNT_PASSWORD="secret_pass_phrase"`.
 
 To test statusgo using a given network by name, use:
 
@@ -166,11 +181,3 @@ make ci networkid=3
 ```
 
 If you have problems running tests on public network we suggest reading [e2e guide](https://github.com/status-im/status-go/blob/develop/t/e2e/README.md).
-
-If you want to launch specific test, for instance `RPCSendTransactions`, use the following command:
-
-```shell
-go test -v ./api/ -testify.m ^RPCSendTransaction$
-```
-
-Note `-testify.m` as [testify/suite](https://godoc.org/github.com/stretchr/testify/suite) is used to group individual tests.

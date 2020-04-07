@@ -95,7 +95,6 @@ site:
           title: 'Grupos comunitarios'
           description: 'Hay una serie de grupos gestionados por Status y grupos organizados por la comunidad dentro de Status. <br><br>Únete a un grupo existente o comienza tu propio grupo en función de tus intereses personales. Las personas se organizan en todo el mundo para ayudar a promover y hacer crecer este proyecto de codigo abierto.'
       contributors:
-        title: 'Principales contribuidores de la comunidad'
         link: 'Únete al equipo de Status. Ve todas las posiciones abiertas'
     developers:
       intro:

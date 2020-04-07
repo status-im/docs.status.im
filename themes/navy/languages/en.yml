@@ -482,6 +482,11 @@ site:
           description: "What is the meaning of life?"
           occupation: "Organizer"
           name: "Aristotle"
+        account-group-6:
+          link: "#status-philippines"
+          description: "Status for the Filipino community"
+          occupation: "Organizer"
+          name: "Ken"
   security:
     intro:
       title: "Secure By Design"
@@ -735,3 +740,12 @@ site:
     community-groups: "Community Groups"
     learn-more: "Learn More"
     read-all: "Read All"
+  nightly:
+    title-1: "Status Nightly Builds"
+    title-2: "Beware the Dragons!"
+    updated: "Updated"
+    description-1: "Warning: Nightly builds are intended for development testing and may include bugs and other issues. You might want to use the <a href='https://status.im/get/'>stable releases</a> instead."
+    description-2: "By downloading and installing these builds you assume the full responsibility for all risks concerning your data and funds. Status makes no claims of security or integrity of funds in these builds. Status advises the use of different recovery phrases in nightlies."
+    description-3: "See our"
+    faq: "General FAQ"
+    mobile: "Mobile"

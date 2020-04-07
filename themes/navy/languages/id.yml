@@ -1,0 +1,708 @@
+site:
+  home:
+    intro:
+      title: 'Komunikasi Pribadi dan Aman'
+      description: 'Status adalah messenger, crypto wallet, dan browser Web3 yang dibangun dengan teknologi terkini.'
+      news: Berita
+    about:
+      open-source:
+        title: 'Proyek Sumber Terbuka'
+        description: 'Status sepenuhnya open source dan dibuat oleh kontributor di seluruh dunia. Pengembang, perancang, pencipta, pendidik, hobi, penggemar, dan banyak lagi - setiap orang memiliki akses bebas dan terbuka ke repo, aset, dan informasi.'
+      mission:
+        title: 'Misi & Prinsip'
+        description: 'Status berusaha untuk menjadi alat komunikasi yang aman yang menjunjung tinggi hak asasi manusia. Kami mengaktifkan uang masyarakat, hukum komunitas dan melalui privasi, melestarikan budaya.'
+    decentralized:
+      subtitle: 'Komunikasi Terdesentralisasi'
+      title: 'Mengobrol, Menjelajah, Bertransaksi dengan Ketentuan Anda'
+      description: 'Status menggabungkan messenger, wallet, dan browser DApp yang terdesentralisasi menjadi alat komunikasi yang kuat, pribadi, dan aman.'
+      link: 'Jelajahi semua fitur'
+    private:
+      subtitle: 'Menjaga Privasi'
+      title: 'Pesan Sungguh Pribadi'
+      description: 'Status menggunakan protokol peer-to-peer Whisper dan enkripsi ujung ke ujung untuk melindungi komunikasi Anda dari gangguan pihak ketiga. Hanya Anda yang dapat melihat pesan Anda.'
+    wallet:
+      subtitle: 'Mengaktifkan Uang Komunitas'
+      title: 'Amankan Dompet Crypto'
+      description: 'Kirim, simpan, dan terima aset crypto dengan aman termasuk ERC20 dan beberapa token ERC721. Hanya Anda yang memegang kunci dompet server Anda. Desain intuitif melindungi Anda dari serangan.'
+    browser:
+      subtitle: 'Miliki Data Anda'
+      title: 'Browser Web3 Terdesentralisasi'
+      description: 'Menavigasi ekosistem aplikasi desentralisasi yang tumbuh dari browser kami yang mendukung Web3, tanpa dilacak. Jelajahi pasar, pertukaran, game, dan lainnya terbaru.'
+    security:
+      title: 'Pribadi dan Aman oleh Desain'
+      description: 'Status menggunakan teknologi canggih untuk memastikan pesan dan transaksi Anda adalah milik Anda dan milik Anda sendiri. Status menghapus perantara untuk menjaga pesan Anda tetap pribadi dan aset Anda aman. Berkomunikasi dengan percaya diri.'
+    status-network:
+      title: 'Jaringan Status'
+      description: 'Status Network adalah kumpulan proyek dan orang-orang yang berdedikasi untuk menciptakan alat dan infrastruktur untuk komunitas yang tangguh, berkelanjutan, dan inklusif.'
+      link: 'Pelajari lebih lanjut tentang Jaringan Status'
+  features:
+    intro:
+      title: 'Kekuatan Ethereum di Saku Anda'
+      description: 'Status adalah alat komunikasi multiguna yang menggabungkan messenger peer-to-peer, crypto-wallet terdesentralisasi, dan browser Web3.'
+      link-messenger: Messenger
+      link-wallet: 'Dompet kripto'
+      link-browser: 'Browser & DApps'
+    messenger:
+      title: 'Messenger aman'
+      feature-1:
+        title: 'Obrolan Publik, Pribadi dan Grup'
+        description: 'Bergabunglah dengan sejumlah saluran publik atau kirim chat pribadi 1:1 atau grup. Anda bahkan dapat mengirim dan menerima pembayaran crypto langsung di obrolan pribadi Anda.'
+        link: 'Bergabunglah dengan Saluran Publik Status'
+      feature-2:
+        title: 'Pesan Pribadi dengan Whisper'
+        description: 'Whisper menggunakan routing gelap peer-to-peer-membuatnya mustahil bagi siapa pun (termasuk kami) untuk mengetahui apa pun tentang Anda atau dengan siapa Anda berkomunikasi. Kami berencana untuk meningkatkan Bisikan dengan garpu protokol yang disebut Waku yang sedang dikembangkan oleh tim Vac.'
+        learn-more: 'Pelajari lebih lanjut tentang Waku'
+      feature-3:
+        title: 'Sempurna Maju Kerahasiaan & <br> E2E Encryption'
+        description: 'Status menggunakan algoritma ''Double Ratchet'' di atas Whisper dan enkripsi ujung ke ujung untuk tingkat keamanan dan privasi tertinggi.'
+    wallet:
+      title: 'Terpadu <br> Ethereum Wallet'
+      feature-1:
+        title: 'Dompet yang Aman'
+        description: 'Penghapusan perantara membuat Anda mengendalikan dana Anda. Anda dan hanya Anda yang memegang kunci pribadi Anda pada cryptocurrency Anda, dan tidak ada perantara yang memiliki akses.'
+      feature-2:
+        title: 'Kompatibel dengan ERC20 & ERC721'
+        description: 'Dukungan untuk token ERC20 dan ERC721 di jaringan Ethereum. Kirim, simpan, dan terima token Anda dengan percaya diri di Status. Tambahkan token ERC-20 dengan mudah ke dompet Anda.'
+        link: 'Bergabunglah dengan Saluran Publik Dompet Status'
+      feature-3:
+        title: 'Berinteraksi dengan Teman & DApps'
+        description: 'Dompet Status terintegrasi dengan messenger dan browser - memungkinkan Anda untuk berinteraksi dengan teman dan DApps. Semua transaksi memerlukan verifikasi frase penandatanganan untuk melindungi Anda dari serangan phishing.'
+    browser:
+      title: 'Browser Web3'
+      feature-1:
+        title: 'Akses Aplikasi Terdesentralisasi'
+        description: 'Ekosistem DApps yang berkembang di saku Anda. Jelajahi pertukaran desentralisasi terbaru, pasar, game, jejaring sosial, dan banyak lagi.'
+        link: 'Pasang Status'
+      feature-2:
+        title: 'Penjelajahan Pribadi & Aman'
+        description: 'Status menerapkan standar keamanan terbaru untuk memastikan Anda aman dan bebas dari pelacakan dan pengumpulan data. Jelajahi istilah Anda.'
+      feature-3:
+        title: 'Optimalkan <br> DApp Anda pada Status'
+        description: 'Pusat Integrasi Status Dapp memudahkan pengembang dapp mempelajari Status, mengoptimalkan untuk berjalan di Status, memanfaatkan fitur uniknya, dan mendaftar di Dap.ps.'
+        link: 'Optimalkan dan Daftarkan Dapp Anda'
+    get:
+      title: 'Dapatkan Status'
+      description: 'Mulai menikmati Status di iOS, Android, MacOS, Windows dan Linux.'
+      link: 'Unduh Aplikasi'
+  get-involved:
+    index:
+      intro:
+        title: 'Komunitas Sumber Terbuka'
+        description: 'Apakah Anda seorang pengembang, pendidik, pengorganisasi komunitas, atau pendukung yang bersemangat, Anda dapat berkontribusi pada Status. Berikut adalah sumber daya untuk memulai.'
+      resources:
+        resource-1:
+          title: Pengembang
+          description: 'Status sedang membangun perangkat lunak bebas dan sumber terbuka yang dilisensikan di bawah Lisensi Publik Mozilla v2.0. <br> <br> Anggota komunitas dari semua latar belakang, tingkat keterampilan, dan minat berkontribusi pada rilis Status resmi. Ini termasuk kontribusi terbuka untuk karunia yang di danai Status dan inisiatif berbasis komunitas untuk fitur baru.'
+        resource-2:
+          title: Pendidik
+          description: 'Status menganggap pendidikan dan lingkungan yang ramah sangat penting untuk proyek open source yang sukses. <br> <br> Kami menyambut siapa pun untuk membantu mendidik orang lain tentang cara membangun Status, menggunakan Status, memulai di komunitas, atau bahkan berbagi pengalaman mereka sendiri dengan proyek.'
+        resource-3:
+          title: 'Grup Komunitas'
+          description: 'Ada sejumlah grup Status run dan kelompok yang dikelola komunitas dalam komunitas Status. <br> <br> Bergabunglah dengan grup yang ada atau mulai grup Anda sendiri berdasarkan minat pribadi Anda. Orang-orang mengatur seluruh dunia untuk membantu mempromosikan dan menumbuhkan proyek sumber terbuka ini.'
+      contributors:
+        link: 'Bergabunglah dengan Tim Status. Lihat semua Posisi Terbuka'
+    developers:
+      intro:
+        subtitle: 'Komunitas Sumber Terbuka'
+        title: Pengembangan
+        description: 'Selamat datang di Portal Pengembang Status. Temukan semua yang Anda butuhkan untuk mulai berkontribusi ke Status, membangun DApps Anda sendiri, atau memperluas pekerjaan Anda dengan fitur asli Status.'
+      quick-nav-sub:
+        link-1: Memulai
+        link-2: 'Repos, Masalah, Bounties'
+        link-3: 'Sumber Daya Pengembang'
+        link-4: Github
+      contribute-to-status:
+        title: Memulai
+        description: 'Proyek open source kami'
+        link: 'Panduan Kontributor'
+        status-react:
+          title: Status-Bereaksi
+          description: 'Ditulis dalam Clojure - ini adalah tempat kami menangani interaksi antara Whisper dan aplikasi; antara dompet, pengguna dan Aplikasi Terdistribusi (DApp) yang ingin mereka akses; dan di mana logika UI tinggal.'
+          link: 'Lihat Repositori'
+        status-go:
+          title: Status-Go
+          description: 'Ditulis di Perjalanan - ini adalah tempat semua logika blockchain, transaksi, dan pekerjaan klien ringan yang kita lakukan hidup.'
+          link: 'Lihat Repositori'
+        open-issues-status-react:
+          title: 'Buka Masalah Status-Bereaksi'
+          link: 'Lihat semua masalah terbuka'
+        open-issues-status-go:
+          title: 'Buka Masalah Status-Go'
+          link: 'Lihat semua masalah terbuka'
+        earn-crypto:
+          title: 'Hasilkan crypto untuk <br> menyelesaikan karunia'
+          description: 'Lihat daftar lengkap karunia teknis pada'
+          link: Gitcoin
+        report-a-security-vulnerability:
+          title: 'Laporkan kerentanan keamanan <br> dan perbaiki'
+          description: 'Pelajari lebih lanjut tentang'
+          link: 'Program hadiah bug'
+      development-dapp:
+        build-dapp:
+          title: 'Bangun DApp Anda sendiri'
+          description: 'Mulai dengan alat dan kerangka kerja kami untuk membangun aplikasi desentralisasi Anda sendiri.'
+          link-1: 'Pusat Integrasi DApp'
+          link-2: 'Bangun DApp Anda sendiri dengan Embark'
+          link-3: 'Akses penyedia Web3 dan deteksi Status'
+          link-4: 'Kirim DApp Anda ke daftar Status DApp'
+        extend-dapp:
+          title: 'Perpanjang DApp Anda'
+          description: 'Ekstensi memungkinkan Anda memanfaatkan fitur asli Status dalam DApp Anda.'
+          link-1: 'Pengantar Ekstensi'
+          link-2: Tutorial
+          link-3: 'Contoh & Ekstensi yang Ada'
+      development-resources:
+        contribute-support:
+          title: 'Sumbang Dukungan'
+          link-1: 'Tulis Dokumentasi'
+          link-1-description: 'Menyelam dan membantu menulis, mengedit, dan memperbaiki dokumen. Semua suntingan dilakukan melalui GitHub.'
+          link-2: 'Terjemahkan Dokumentasi'
+          link-2-description: 'Kami perlu bantuan menerjemahkan semua dokumentasi kami ke dalam bahasa lokal Anda.'
+          link-3: 'Selamat Datang Kontributor Baru'
+          link-3-description: 'Bergabunglah dengan saluran Status #introductions dan bantu kontributor dan anggota komunitas baru.'
+          link-4: 'Buat Tutorial'
+          link-4-description: 'Hubungi kami dan pelajari cara tutorial Anda ditampilkan di dokumen dan blog Status.'
+        developer-resources:
+          title: 'Sumber Daya Pengembang'
+          link-1: 'Repositori Github'
+          link-2: Dokumentasi
+          link-3: Memulai
+          link-4: Tutorial
+          link-5: 'Nightly Builds'
+          link-6: Blog
+          link-7: 'Medengarkan panggilan pengembang inti terbaru'
+          link-8: 'Lihat catatan rilis terbaru'
+          link-9: 'Lihat daftar kelompok aktif'
+      get-in-touch:
+        title: Berhubungan
+        join-status:
+          link: 'Bergabung #status'
+          description: 'Berita umum Status dan diskusi.'
+        join-status-core:
+          link: 'Bergabung #status-core'
+          description: 'Saluran publik tentang pengembangan inti.'
+        join-introductions:
+          link: 'Bergabunglah dengan #introductions'
+          description: 'Baru mengenal Status? Perkenalkan diri Anda dan katakan halo!'
+        contact-us:
+          link: 'Hubungi kami'
+          description: 'Untuk yang lainnya, kirim email langsung kepada kami.'
+      repositories:
+        title: 'Repositori, Isu Terbuka dan Hadiah'
+      build-for-status:
+        title: 'Membangun untuk Status'
+        description: 'Dapatkan DApp Anda di Status'
+        link: 'Pusat Integrasi DApp'
+    educators:
+      intro:
+        subtitle: 'Komunitas Sumber Terbuka'
+        title: pendidikan
+        description: 'Setiap orang dipersilakan untuk membantu mengedukasi orang lain tentang cara membangun Status, menggunakan Status, memulai di komunitas, atau bahkan berbagi pengalaman mereka sendiri dengan proyek.'
+      quick-nav-sub:
+        link-1: 'Didik dan ciptakan'
+        link-2: Menterjemahkan
+        link-3: 'Sumber Daya Pendidik'
+        link-4: Github
+      educate-contribute:
+        how-to-get-started:
+          title: 'Cara Memulai'
+          link-1: 'Panduan Pemula Anggota Komunitas'
+          link-1-description: 'Lihatlah panduan ini yang dibuat oleh anggota komunitas, Warsoverjohn.'
+          link-2: Glosarium
+          link-2-description: 'Rujuk ke dokumen sumber terbuka ini untuk istilah, definisi, sumber daya, dan konsep. Jangan ragu untuk menambahkannya.'
+          link-3: FAQ
+          link-3-description: 'Berikut adalah daftar pertanyaan yang sering diajukan dari semua orang di komunitas Status.'
+        create:
+          title: Membuat
+          link-1: 'Buat Tutorial Non-Teknis'
+          link-1-description: 'Bantu pendatang baru mengatur akun mereka dan navigasikan aplikasi Status dan komunitas. Hubungi kami untuk membagikan tutorial Anda di blog.'
+          link-2: 'Buat Tutorial Teknis'
+          link-2-description: 'Bantu pengembang membuat Status, membuat DApps, membuat ekstensi, atau apa pun yang ingin Anda bagikan. Hubungi kami.'
+          link-3: 'Tulis posting blog'
+          link-3-description: 'Bagikan kisah di blog Status Menjadi penerbit di Blog Status'
+      translate:
+        title: Menterjemahkan
+        description: 'Bantu kami melokalisasi Status ke dalam bahasa Anda. Kami menggunakan lokalise untuk menerjemahkan semuanya dari aplikasi, situs web, dokumentasi dan banyak lagi.'
+        link: 'Status Terjemahan'
+      educator-resources:
+        title: 'Sumber Daya Pendidik'
+        link-1: 'Styleguide & Aset'
+        link-1-description: 'Temukan Styleguide terbaru bersama dengan aset, templat, dan font bermerek.'
+        link-2: Membahas
+        link-2-description: 'Bergabunglah dalam diskusi panjang tentang status.'
+        link-3: Tutorial
+        link-3-description: 'Pelajari cara membuat sesuatu atau melihat beberapa contoh tutorial yang dibuat komunitas lain.'
+        link-4: Blog
+        link-4-description: 'Lihat berita dan pembaruan Status terkini.'
+        link-5: Nightlies
+        link-5-description: 'Instal dan uji bangunan malam terbaru untuk seluler dan desktop.'
+        link-6: 'Lihat catatan rilis terbaru'
+        link-7: 'Lihat daftar kelompok aktif'
+        link-8: 'Lihat daftar lengkap Saluran Status Publik'
+      get-in-touch:
+        join-statusphere:
+          link: 'Bergabung #statusphere'
+          description: 'Komunitas Duta Status dan penggemar yang berkembang'
+    community:
+      intro:
+        subtitle: 'Komunitas Sumber Terbuka'
+        title: 'Grup Komunitas'
+        description: 'Ada beberapa status yang dijalankan dan grup yang dikelola komunitas dalam Status. Bergabunglah dengan grup yang ada atau mulai grup Anda sendiri berdasarkan minat pribadi Anda.'
+        link-1: 'Lihat grup di bawah ini'
+        link-2: 'Kirim grup baru'
+      community-groups:
+        account-group-1:
+          link: '# Status-duta besar'
+          description: 'Sekelompok orang yang berdedikasi untuk membantu, berkontribusi, dan membangun komunitas Status.'
+          occupation: Penyelenggara
+          name: Kami
+        account-group-2:
+          link: '# Status-Korea'
+          description: 'Sekelompok pengembang, pembuat, pencipta, dan penggemar yang bersemangat yang berbasis di Korea Selatan.'
+          occupation: Penyelenggara
+          name: 'Jinho Jang'
+        account-group-3:
+          link: '# status-spanyol'
+          description: 'Status en Español'
+          occupation: Penyelenggara
+          name: 'Lalo Garza'
+        account-group-4:
+          link: '# status-cina'
+          description: 'Status dalam bahasa Cina'
+          occupation: Penyelenggara
+          name: 'Steven Zhu'
+        account-group-5:
+          link: '#philosophers'
+          description: 'apa arti kehidupan?'
+          occupation: Penyelenggara
+          name: Aristotle
+  security:
+    intro:
+      title: 'Desain Dengan Aman'
+      description-1: 'Status bertujuan untuk menjadi alat komunikasi yang benar-benar terdesentralisasi - pada akhirnya menghapus semua pihak ketiga dan meminimalkan vektor serangan untuk aktor jahat.'
+      description-2: 'Manfaat sebenarnya dari Web3 adalah kemampuan untuk bertransaksi dan berkomunikasi dengan persyaratan kita sendiri - tanpa perantara. Untuk menikmati komunikasi bebas jenis ini, kita harus yakin bahwa pesan, transaksi, identitas, dan dana kita aman dan terjamin. Pelajari lebih lanjut tentang pendekatan Status untuk keamanan di bawah ini.'
+    security-at-status:
+      title: 'Keamanan di Status'
+      secure-inner-1:
+        title: 'Terjamin <br> Olahpesan'
+        description: 'Pesan tidak disensor, diblokir, dan tetap anonim jika pengguna memilihnya. Hanya penerima yang dituju yang dapat melihat pesan.'
+      secure-inner-2:
+        title: 'Mengamankan Keuangan <br> Transaksi'
+        description: 'Mengirim, menyimpan, dan menerima cryptocurrency atau token dalam dompet Status aman dari serangan. Kunci pribadi tidak pernah terbuka. Transaksi hanya diproses ketika dimulai dan dikonfirmasi oleh pemilik kunci pribadi.'
+      secure-inner-3:
+        title: 'Menjelajah<br> Aman'
+        description: 'Saat menjelajah Web3, data pengguna akhir dan informasi penjelajahan tidak dapat diakses oleh pihak ketiga mana pun tanpa persetujuan. Setiap transaksi yang dilakukan saat menggunakan peramban Status menerapkan standar keamanan yang sama dan praktik terbaik yang digunakan dalam dompet Status.'
+    security-content:
+      content-1:
+        title: 'Identitas Aman'
+        description: 'Identitas Anda di Status dimulai dengan keypair kriptografi yang dibuat secara lokal, yang kemudian dilindungi melalui kata sandi. Hanya itu yang dibutuhkan. Pengguna kemudian memiliki kemampuan untuk menambahkan informasi ke profil mereka untuk membangun siapa mereka di Status. Setiap saat pengguna memiliki kendali penuh atas informasi mereka, dan siapa yang memiliki akses ke sana. Pengguna akhir dapat bersifat publik atau pribadi seperti yang mereka inginkan.'
+      content-2:
+        title: 'Perpesanan Serverless Peer-to-Peer'
+        description: 'Status menggunakan protokol Whisper untuk komunikasi peer-to-peer (p2p), yang berarti bahwa tidak ada server yang memproses atau menyimpan pesan Anda. Sebaliknya, Whisper mengandalkan jaringan rekan untuk merutekan pesan satu sama lain. Setiap pesan yang dikirim disiarkan ke seluruh jaringan, dan dienkripsi hanya untuk penerima yang dimaksudkan untuk membuka. Efek dari setiap pesan yang membanjiri jaringan dikenal sebagai rute gelap, dan melindungi tidak hanya konten pesan Anda tetapi juga metadata tentang dari mana Anda berkomunikasi, kepada siapa, dll. Ini adalah standar keamanan dan privasi tertinggi dalam pesan online, dan tim Status sedang meneliti cara yang lebih terukur dan efisien untuk memberikan standar ini.'
+        link: 'Pelajari lebih lanjut tentang Whisper'
+      content-3:
+        title: 'Enkripsi ujung ke ujung secara default'
+        description: 'Semua pesan pribadi yang dikirim melalui Whisper dienkripsi secara end-to-end secara default. Saat Anda membuat akun Status, keypair kriptografis dibuat untuk mengenkripsi pesan Anda dan disimpan secara lokal di perangkat Anda. Ketika Anda menambahkan kontak baru di Status, Anda bertukar kunci publik sehingga orang itu dapat mendekripsi pesan Anda ketika diterima melalui jaringan.'
+      content-4:
+        title: 'Kerahasiaan Maju Sempurna'
+        description: 'PFS adalah fitur protokol perjanjian kunci khusus yang memberikan jaminan bahwa kunci sesi Anda tidak akan dikompromikan bahkan jika kunci pribadi dari para peserta dikompromikan. Secara khusus, pesan sebelumnya tidak dapat didekripsi oleh pihak ketiga yang berhasil mendapatkan kunci pribadi. Ini didasarkan pada spesifikasi X3DH dan Double Ratchet dari Open Whisper Systems, dengan beberapa adaptasi untuk beroperasi di lingkungan yang terdesentralisasi. Perfect Forward Secrecy adalah lapisan keamanan tambahan untuk semua obrolan pribadi 1: 1 Anda.'
+        link: 'Pelajari lebih lanjut tentang PFS'
+      content-5:
+        title: 'Pembuatan Akun Tanpa Server'
+        description: 'Ketika Anda membuat akun baru di Status, Anda tidak akan pernah diminta untuk verifikasi pihak ketiga seperti email atau nomor telepon. Ini berarti Anda dapat mendaftar dan membuat akun Status sepenuhnya anonim. Ketika Anda membuat akun, itu hanya Anda dan kunci Anda. Ini juga berarti bahwa dua faktor otentikasi dan pemulihan kata sandi bukan fitur dalam Status - jadi pastikan untuk mengingat kata sandi dan frasa mnemonik Anda dan menyimpannya secara offline di tempat yang sangat aman.'
+      content-6:
+        title: 'Bagaimana kunci saya disimpan?'
+        description-1: 'Status tidak akan pernah menggunakan layanan pihak ketiga untuk mengelola dan menyimpan kunci publik dan pribadi Anda. Setelah dibuat, kunci BIP44 pertama disimpan dalam file json keystore secara lokal pada perangkat Anda. File ini dienkripsi dengan kata sandi yang Anda pilih untuk akun Status Anda dan hanya dapat diakses oleh aplikasi Status. Kami memprioritaskan menyimpan informasi sensitif dalam perangkat keras yang aman ketika tersedia di perangkat Anda.'
+        description-2: 'Untuk lapisan keamanan tambahan, kami telah memperkenalkan Kartu kunci yang berfungsi sebagai cold storage offline untuk manajemen kunci pribadi dan operasi mereka.'
+        description-3: 'Untuk informasi lebih lanjut tentang Kertu kuci, kunjungi %s .'
+      content-7:
+        title: 'Penjelajahan Aman'
+        description: 'Browser Status dirancang untuk menjaga agar pengguna akhir mendapat informasi dan dananya aman. Mode Privasi Browser diaktifkan secara default. Ini berarti bahwa DApps akan diminta untuk meminta izin sebelum menghubungkan ke dompet Anda, dan itu dapat menyebabkan beberapa DApps rusak (jika mereka tidak kompatibel dengan tindakan keamanan ini). Akhirnya, peramban Status mengimplementasikan EIP712 yang bertujuan untuk meningkatkan kegunaan penandatanganan pesan tidak langsung untuk digunakan secara on-chain. Kami melihat semakin banyak adopsi penandatanganan pesan off-chain karena menghemat dan mengurangi jumlah transaksi pada blockchain. Pesan yang ditandatangani saat ini adalah string hex buram yang ditampilkan kepada pengguna dengan sedikit konteks tentang item yang membentuk pesan.'
+        link: 'Pelajari lebih lanjut tentang EIP'
+      content-8:
+        title: 'Bagaimana Status melindungi mata uang digital saya?'
+        description: 'Status dibangun dengan dompet non-penahanan, memberi Anda kendali penuh atas dana Anda tanpa menggunakan server. Kunci pribadi disimpan dengan cara terenkripsi di perangkat Anda. Uang Anda berada di bawah kendali Anda, dan tidak dapat diakses oleh siapa pun tanpa kunci pribadi. Karena itu, jika Anda kehilangan frasa mnemonik Anda, Anda tidak akan pernah dapat mengembalikan akses ke dana Anda. Jadi simpan kunci pribadi Anda di tempat yang aman offline.'
+      content-9:
+        title: 'Menandatangani Frase untuk melindungi dari serangan phishing'
+        description: 'Status menerapkan frase penandatanganan yang diperlukan untuk mengonfirmasi dan "menandatangani" semua transaksi. Frasa penandatanganan adalah frasa 3 kata yang dibuat secara acak untuk Anda dan disimpan secara lokal di perangkat Anda yang disajikan setiap kali Anda mencoba mengirim transaksi. Anda akan disajikan frasa penandatanganan dan diminta untuk menerimanya sebelum transaksi dikonfirmasi. Jika Anda tidak mengenali tiga kata Anda, atau tidak disajikan dengan tiga kata sama sekali, batalkan transaksi, keluar dari Status dan laporkan masalah tersebut ke %s'
+        link: 'Pelajari lebih lanjut tentang phishing'
+      content-10:
+        title: 'Audit yang Ketat'
+        description-1: 'Ketika kami mencapai tonggak utama dalam pengembangan, setelah putaran tinjauan internal dan audit, kami menjangkau perusahaan audit pihak ketiga yang terkemuka di industri untuk memverifikasi kesehatan kami, dan memeriksa pekerjaan yang kami lakukan secara double / triple. Audit keamanan ini bukan jaminan keamanan dalam proyek yang berkaitan dengannya. Ini adalah pemeriksaan tambahan dari pihak ketiga yang objektif untuk membantu meningkatkan kepercayaan pada keamanan fungsionalitas yang dimaksud.'
+        description-2: 'Untuk informasi dan perincian tentang semua audit eksternal, silakan lihat %s .'
+        description-3: 'Jika Anda menemukan bug atau kerentanan dalam kode kami, tolong laporkan ke %s .'
+        ENS:
+          title: 'ENS kontrak pintar dengan Sigma Prime'
+          commit: 'Oktober 2018 - Kontrak ENS Username - melakukan hash eaefa92'
+          report: melaporkan
+          tests: tes
+          code: kode
+          blog: 'posting blog'
+        dejavu:
+          title: 'Deja Vu Beta Audit'
+          commit: '07 Mei 2018 - Repo Status-go dan Status-reaksi dengan Deja Vu'
+          report: melaporkan
+          blog: 'posting blog'
+      content-11:
+        title: 'Mendidik diri sendiri untuk tetap aman'
+        description: 'Produk desentralisasi, tanpa server seperti Status menghapus sejumlah perantara yang tidak perlu, memungkinkan Anda untuk mengobrol, bertransaksi, dan menjelajah tanpa takut pengawasan, penyensoran, dan kebocoran data. Ini karena Anda mengendalikan data dan keamanan digital Anda sendiri. Karena itu, penting Anda mengerti bagaimana melindungi diri sendiri. Pelajari lebih lanjut tentang cara tetap aman dengan Panduan Praktik Terbaik Keamanan Status ini.'
+        link: 'Lihat Panduan Praktik Terbaik'
+      content-12:
+        title: 'Dukungan Keamanan'
+        description: 'Kami di sini untuk membantu. Jika Anda memiliki pertanyaan atau masalah tentang keamanan, kirim email ke %s atau hubungi kami di Saluran Publik Status Keamanan %s .'
+      content-13:
+        title: 'Program Bounty Bug'
+        description: 'Jika Anda seorang peneliti atau pengembang keamanan dan ingin melaporkan kerentanan, silakan hubungi %s tentang Program Karunia Bug Status. Kami juga memiliki kampanye dengan HackerOne, program karunia bug yang mendorong peretas untuk melihat proyek. Kami secara aktif meningkatkan kampanye pribadi kami, dan akan segera membukanya untuk publik! Untuk informasi lebih lanjut tentang Program Bount Bug, silakan hubungi %s .'
+    protect-yourself:
+      title: 'Lindungi dirimu sendiri'
+      description: 'Status dibangun dengan teknologi canggih untuk memastikan produk seaman mungkin. Ketika menavigasi Web3, Anda memegang kendali. Lihat daftar praktik terbaik keamanan kami dan ambil kendali.'
+      link-1: 'Belajarlah lagi'
+      link-2: 'Bergabunglah dengan Saluran Keamanan Status'
+  header:
+    nav:
+      features: fitur
+      get-involved:
+        title: Terlibat
+        description: 'Status adalah proyek sumber terbuka <br> dibuat oleh orang-orang di seluruh dunia.'
+      security: Keamanan
+      docs:
+        title: Dokumentasi
+        description: 'Segala sesuatu yang Anda perlu untuk memulai <br> berkembang dengan Status'
+        link: Documents
+        link-1: 'Integrasi DApp'
+        link-2: 'Panduan Kontributor'
+        link-3: 'Bergabunglah dengan Tim Kami'
+        link-4: Keamanan
+        link-5: Spesifikasi
+      about: Tentang
+      blog: Blog
+      snt-utility: 'Utilitas SNT'
+  link:
+    get-status: 'Dapatkan Status'
+    get-involved: Terlibat
+    developers: Pengembang
+    educators: Pendidik
+    community-groups: 'Grup Komunitas'
+    learn-more: 'Belajarlah lagi'
+    read-all: 'Baca semua'
+  about:
+    intro:
+      title: Misi
+      link-1: 'Prinsip Kami'
+      link-2: 'Kawanan Aktif'
+      link-3: 'Kontributor Inti'
+      description: 'Status berusaha untuk menjadi alat komunikasi yang aman yang menjunjung tinggi hak asasi manusia. Kami mengaktifkan uang masyarakat, hukum komunitas dan melalui privasi, melestarikan budaya.'
+    principles:
+      title: 'Prinsip Kami'
+      description: 'Prinsip-prinsip ini bertindak sebagai alat. Alat untuk berpikir, untuk komunikasi, dan untuk pengambilan keputusan yang terdesentralisasi. Mereka membuat kita jujur tentang di mana kita gagal kekurangan visi kita.'
+      principle-1:
+        title: Kebebasan
+        description: 'Kami percaya pada kedaulatan individu. Sebagai platform yang berdiri untuk tujuan kebebasan pribadi, kami bertujuan untuk memaksimalkan kebebasan sosial, politik, dan ekonomi. Ini termasuk menjadi tahan paksaan.'
+      principle-2:
+        title: 'Perlawanan Sensor'
+        description: 'Kami mengaktifkan arus informasi yang bebas. Tidak ada konten di bawah pengawasan. Kami mematuhi prinsip desain cryptoeconomic dari resistensi sensor. Lebih kuat lagi, Status adalah platform agnostik untuk informasi.'
+      principle-3:
+        title: Keamanan
+        description: 'Kami tidak berkompromi pada keamanan saat membangun fitur. Kami menggunakan teknologi tercanggih, dan meneliti metode dan teknologi keamanan baru untuk membuat jaminan keamanan yang kuat.'
+      principle-4:
+        title: Privasi
+        description: 'Privasi adalah kekuatan untuk secara selektif mengungkapkan diri kepada dunia. Bagi kami, sangat penting untuk melindungi privasi baik dalam komunikasi maupun transaksi, serta menjadi platform pseudo-anonim. Selain itu, kami berupaya memberikan hak anonimitas total.'
+      principle-5:
+        title: Transparansi
+        description: 'Kami mengupayakan keterbukaan penuh dan simetri informasi di dalam organisasi, dan tidak memiliki batasan antara kontributor inti kami dan komunitas kami. Kami jujur tentang kekurangan kami, terutama ketika melakukan tradeoff jangka pendek untuk tujuan jangka panjang kami.'
+      principle-6:
+        title: Keterbukaan
+        description: 'Perangkat lunak yang kami buat adalah barang publik. Ini tersedia melalui lisensi sumber terbuka dan gratis, bagi siapa saja untuk dibagikan, dimodifikasi, dan diuntungkan. Kami percaya pada partisipasi tanpa izin.'
+      principle-7:
+        title: Desentralisasi
+        description: 'Kami meminimalkan sentralisasi di seluruh perangkat lunak dan organisasi itu sendiri. Dengan kata lain, kami memaksimalkan jumlah komputer fisik yang menyusun jaringan, dan memaksimalkan jumlah individu yang memiliki kendali atas sistem yang sedang kami bangun.'
+      principle-8:
+        title: Inklusivitas
+        description: 'Kami percaya pada akses yang adil dan luas ke perangkat lunak kami, dengan penekanan pada kemudahan penggunaan. Ini juga meluas ke inklusivitas sosial, partisipasi tanpa izin, interoperabilitas, dan investasi dalam upaya mendidik.'
+      principle-9:
+        title: Kelangsungan
+        description: 'Kami membuat perangkat lunak yang diberi insentif untuk terus ada dan berkembang, tanpa pengawasan satu entitas atau anggota tim saat ini.'
+      principle-10:
+        title: 'Daya akal'
+        description: 'Kami tanpa henti banyak akal. Ketika kita tumbuh dan memiliki akses siap ke modal, itu adalah kewajiban kita kepada pemegang token untuk melawan birokrasi dan ketidakefisienan dalam organisasi. Ini berarti menyelesaikan masalah dengan cara yang seefektif mungkin dengan biaya ekonomi yang lebih rendah (dalam hal modal, waktu dan sumber daya).'
+    how-we-work:
+      title: 'Bagaimana kita bekerja'
+      description: 'Kami adalah tim yang didistribusikan di seluruh dunia yang bekerja dari jarak jauh dari seluruh penjuru dunia. Kami bekerja di Kelompok yang merupakan tim kecil yang terdiri dari 2-5 orang dengan tujuan yang sangat spesifik. Kelompok mengikuti pendekatan terstruktur untuk pengembangan fitur dan produk.'
+      research:
+        title: Penelitian
+      specifications-planning:
+        title: 'Spesifikasi & Perencanaan'
+      implementation:
+        title: Penerapan
+      communication-post-mortem:
+        title: 'Komunikasi & Post-mortem'
+    active-swarms:
+      title: 'Kelompok Aktif'
+      link: 'Lihat semua Kelompok di Github'
+      inner-1:
+        title: 'Insentif Jaringan Inti'
+        swarm-meta: 'Utilitas SNT'
+      inner-2:
+        title: 'Pasar Stiker'
+        swarm-meta: 'Utilitas SNT'
+      inner-3:
+        title: 'Dipersembahkan untuk bicara'
+        swarm-meta: 'Utilitas SNT'
+      inner-4:
+        title: 'Toko DApp'
+        swarm-meta: 'Utilitas SNT'
+      inner-5:
+        title: 'Jaringan Teller'
+        swarm-meta: 'Utilitas SNT'
+      inner-6:
+        title: 'Token Economics'
+        swarm-meta: 'Hal-hal penting'
+      inner-7:
+        title: 'Perbaikan Inti'
+        swarm-meta: 'Hal-hal penting'
+      inner-8:
+        title: Protokol
+        swarm-meta: Penelitian
+      inner-9:
+        title: DAO
+        swarm-meta: 'Hal-hal penting'
+      inner-10:
+        title: 'Petugas kebersihan'
+        swarm-meta: 'Hal-hal penting'
+      inner-11:
+        title: Inti
+        swarm-meta: Tim
+      inner-12:
+        title: 'Browser Inti'
+        swarm-meta: 'Tim Inti'
+      inner-13:
+        title: 'Obrolan Inti'
+        swarm-meta: 'Tim Inti'
+      inner-14:
+        title: Desktop
+        swarm-meta: 'Tim Inti'
+      inner-15:
+        title: 'Dompet Inti'
+        swarm-meta: 'Tim Inti'
+      inner-16:
+        title: 'Kartu kunci'
+        swarm-meta: 'Jaringan Status'
+      inner-17:
+        title: Memulai
+        swarm-meta: 'Jaringan Status'
+      inner-18:
+        title: Nimbus
+        swarm-meta: 'Jaringan Status'
+    core-contributors:
+      title: 'Kontributor Inti'
+      description: 'Status bukan organisasi tradisional. Kami tidak memiliki hierarki, tidak ada kantor dan tidak ada manajer. Kami semua di sini untuk mencapai misi kami, dan kami memiliki kebebasan untuk memilih bagaimana kami melakukannya.'
+      link-1: 'Bergabunglah dengan kami. Lihat semua posisi terbuka'
+      link-2: 'Pelajari lebih lanjut tentang kehidupan di Status'
+  snt:
+    intro:
+      title: 'Token Jaringan Status'
+      description: 'SNT menguatkan dan memberikan insentif partisipasi <br> di Jaringan Status.'
+      link-1: Dasar
+      link-2: 'Menggunakan SNT'
+      link-3: Penelitian
+      link-4: Terlibat
+    the-basics:
+      title: Dasar
+      inner-1:
+        title: 'ERC-20 Token'
+        description: 'SNT adalah token ERC-20 yang digunakan untuk mengakses dan memberi daya layanan terdesentralisasi di Jaringan Status dan aplikasi.'
+        link: 'Lihat semua Kotak Penggunaan SNT'
+      inner-2:
+        title: 'Sumber Terbuka'
+        description: 'Status adalah proyek sumber terbuka sepenuhnya di mana siapa saja dapat menggunakan kode dan token sesuai dengan kebutuhan mereka. Status diverifikasi oleh Registri Disclosures.'
+        link: 'Registry Pengungkapan Messari'
+      inner-3:
+        title: 'Pengguna sebagai Stakeholder'
+        description: 'Dengan SNT, kami membuat jaringan Pengguna sebagai Pemangku Kepentingan, memungkinkan perilaku jaringan dan perangkat lunaknya, untuk menjadi selaras dengan kepentingan Pengguna.'
+        link: 'Pelajari lebih lanjut di Buku Putih'
+      inner-4:
+        title: Penelitian
+        description: 'Kami melakukan penelitian pada model cryptoeconomic, dan teknologi peer-to-peer untuk memastikan kesehatan jangka panjang dari Jaringan Status.'
+        link: 'Pelajari lebih lanjut tentang penelitian ini'
+    using-snt:
+      title: 'Menggunakan SNT'
+      description: 'SNT diperlukan untuk memberi daya pada fitur aplikasi tertentu dan menciptakan sumber terbuka, ekonomi terdesentralisasi. Selami lebih dalam pada masing-masing SNT Use Cases di bawah ini untuk mempelajari lebih lanjut tentang penelitian cryptoeconomic dan bagaimana nilai mengalir di seluruh jaringan.'
+      teller-network:
+        title: 'Jaringan Teller'
+        status: 'Dalam pengembangan'
+        description: 'Dirancang sebagai DApp dalam Status yang menyediakan ''Jaringan Teller'' tanpa batas, peer-to-peer, fiat-to-crypto yang memungkinkan Stakeholder menemukan pengguna terdekat untuk menukar uang tunai mereka dengan aset digital dan mata uang. SNT diperlukan untuk menjadi penjual di jaringan.'
+      network-incentivization:
+        title: 'Insentif Jaringan'
+        status: 'Dalam penelitian'
+        description: 'Buat kerangka kerja dan struktur insentif untuk orang-orang untuk menyebarkan dan menggunakan node Status. SNT digunakan untuk memberi insentif dan memberi penghargaan kepada peserta jaringan untuk menjalankan sebuah simpul untuk memastikan aplikasi terus bekerja jika semua node di kluster yang di-hosting turun. Ini termasuk membayar untuk pesan yang diteruskan dan membayar untuk pesan offline.'
+      ens-user-name:
+        title: 'Nama Pengguna ENS'
+        status: Hidup
+        description: 'Alamat ENS seperti nama pengguna. Nama-nama Jenny.eth dapat mengarah ke akun pribadi, memungkinkan orang lain untuk mengirim token atau menemukan di Status chat. Alamat ENS dapat dicari di Status chat, dompet dan browser. <br> <br> Mendaftarkan status stateofus.eth ENS biaya 10 SNT. Setelah nama dicadangkan, SNT dikunci dalam kontrak pendaftaran selama 1 tahun. Setelah tahun berakhir, nama tersebut dapat dirilis untuk mendapatkan token kembali — atau tidak mengambil tindakan untuk mempertahankannya.'
+        link: 'Daftarkan ENS'
+      sticker-market:
+        title: 'Pasar Stiker'
+        status: 'Dalam pengembangan'
+        description: 'Stiker menawarkan cara yang menyenangkan bagi pengguna untuk berinteraksi secara visual dengan teman dan keluarga mereka. Pasar Stiker dalam Status akan memungkinkan siapa saja untuk membuat dan menjual desain mereka sendiri kepada pengguna di seluruh dunia, dan mulai menggunakan stiker dalam obrolan Status apa pun. <br> <br> SNT akan diminta untuk membeli stiker melalui marketplace.'
+      tribute-to-talk:
+        title: 'Dipersembahkan untuk bicara'
+        status: 'Dalam pengembangan'
+        description: 'Tribute to Talk akan memperkenalkan filter anti-spam berbasis ekonomi - dalam hal ini untuk menerima pesan dan permintaan kontak "dingin" dari pengguna. Ini memungkinkan para pemangku kepentingan untuk menetapkan jumlah minimum SNT yang harus disetor agar seseorang di luar jaringan mereka menghubunginya secara langsung.'
+      dao-governance:
+        title: 'DAO & Tata Kelola'
+        status: 'Dalam penelitian'
+        description: 'Bagian inti dari Status Network Token memberi para pemangku kepentingan kemampuan untuk memilih arah pengembangan perangkat lunak. SNT digunakan untuk membuat keputusan atas proposal, yang dapat dibuat oleh Stakeholder manapun. Untuk setiap keputusan, token dikloning menjadi token keputusan terpisah. Jumlah token yang Anda pegang pada saat itu menjadi kekuatan suara Anda untuk keputusan itu dan tidak dikenakan biaya SNT untuk memilih.'
+      dapp-curation:
+        title: 'Kurasi DApp'
+        status: Hidup
+        description: 'Direktori Status DApp menyediakan cara bagi pemangku kepentingan dalam jaringan untuk menemukan DApps, seperti yang dikuratori oleh anggota komunitas lainnya. Ini juga akan memberikan cara untuk menavigasi berdasarkan kategori dan peringkat, memungkinkan pengguna untuk menemukan apa yang mereka cari. SNT akan diperlukan untuk kurasi dan pensinyalan di direktori. Setoran SNT akan dibutuhkan oleh Pengembang DApp yang ingin mendapatkan perhatian lebih besar terhadap DApp mereka.'
+        link: 'Jelajahi DApps'
+      voting-dapp:
+        title: 'Voting DApp'
+        status: Hidup
+        description: 'Sebuah langkah pertama menuju tata kelola masyarakat, Status Voting DApp memungkinkan para pemangku kepentingan untuk mempengaruhi masa depan jaringan. Voting DApp dapat digunakan oleh siapa saja untuk mengatur suara komunitas dengan SNT. Leveraging voting kuadrat, jumlah SNT di dompet Anda menentukan berapa banyak suara yang dapat Anda berikan.'
+        link: 'Lihat Dapp Voting'
+      acquisition-engine:
+        title: 'Mesin Akuisisi'
+        status: 'Dalam penelitian'
+        description: 'Mencapai misi kami pada akhirnya membutuhkan satu hal: adopsi pengguna akhir yang luas. Dengan menggunakan Token Status Jaringan, kami dapat merancang mekanisme untuk pertumbuhan yang telah dicoba dan diuji di Web 2.0, sambil memberikan transparansi yang lebih besar dan penyelarasan insentif yang lebih baik bagi para peserta. Mesin Akuisisi Status menyediakan cara yang kriptografi yang dapat dibuktikan dan transparan untuk menumbuhkan basis pengguna.'
+    crypto-research:
+      title: 'Penelitian Cryptoeconomic'
+      description-1: 'Tim Status sedang melakukan penelitian pada model cryptoeconomic untuk setiap kasus penggunaan SNT untuk menginformasikan pengembangan produk dan fitur serta insentif dari Jaringan Status. <br> <br> Model-model cryptoeconomic ini merupakan upaya penelitian yang sedang berlangsung dan kami mendorong siapa pun untuk mengeksplorasi, mengkritik, dan meninjau kembali karya tersebut. <br> <br> Model-model ini membantu memproyeksikan nilai fitur SNT Utility dan dampaknya pada Nilai Network Combined Utility Values berdasarkan penggunaan, tingkat pertumbuhan, sirkulasi dan pasokan SNT.'
+      link-1: 'Bergabunglah dengan # token-economics'
+      description-2: 'Bergabunglah dengan saluran publik & pelajari lebih lanjut tentang penelitian ini'
+      link-2: 'Buku Kerja Nilai Utilitas Gabungan'
+      description-3: 'Tinjau Buku Kerja Nilai-Nilai Utilitas Gabungan Jaringan Status dan uji model kami sendiri.'
+    learn-more:
+      title: 'Belajarlah lagi'
+      description: 'Banyak kasus penggunaan SNT dalam penelitian dan pengembangan aktif. Bergabunglah dengan diskusi publik atau baca FAQ SNT untuk mempelajari lebih lanjut tentang kasus penggunaan SNT dan penelitian ekonomi token.'
+      link: 'Bergabunglah dengan # token-economics'
+    create-your-snt:
+      title: 'Buat Model Keuangan SNT Anda Sendiri'
+      description: 'Kami mendorong siapa pun untuk terlibat dan menguji model ekonomi yang diuraikan dalam buku kerja. Jika Anda seorang peneliti, ekonom, atau hanya ingin tahu tentang model keuangan, silakan terlibat.'
+      link: 'Uji Model Token SNT'
+  get:
+    mobile:
+      title: Mobile
+      description: 'Mengobrol, bertransaksi, dan mengakses dunia revolusioner DApps. Instal Status di Aplikasi dan Google Playstore dan ucapkan halo di saluran publik #perkenalan.'
+      apk-file: 'File APK di sini'
+      link-1: 'Aplikasi iOS'
+      link-2: 'Aplikasi Android'
+    desktop:
+      title: 'Mac, Windows atau Linux'
+      description: 'Unduh & instal Desktop alpha terbaru dan mulai perpesanan dari tempat Anda bekerja.'
+      link-1: 'Aplikasi macOS'
+      link-2: 'Aplikasi Linux'
+      link-3: 'Aplikasi Windows'
+      announcement: 'Ini adalah perangkat lunak alfa dan mungkin mengandung kerentanan. <br> Mengharapkan perubahan.'
+  docs:
+    stripe:
+      title: 'Dokumentasi Status'
+    title: 'Selamat datang di Dokumentasi Status!'
+    description: 'Jalankan DApp Anda pada Status, gali teknologi kami, pelajari tentang organisasi kami atau bantu membangun Status:'
+    categories:
+      technical-documentation:
+        title: 'Panduan Kontributor'
+        description: 'Bergabunglah dengan ekosistem kami yang terdistribusi'
+      developer-tools:
+        title: 'Pusat Integrasi DApp'
+        description: 'Jalankan DApp Anda pada Status'
+      build-status:
+        title: 'Membangun Status'
+        description: 'Untuk seluler dan desktop'
+      research:
+        title: 'Topik Penelitian'
+        description: 'Membangun masa depan yang didistribusikan'
+      team:
+        title: 'Tim Kita'
+        description: 'Gabung Status'
+      audits:
+        title: 'Audit Eksternal'
+        description: 'Audit Teknis Eksternal'
+      keycard:
+        title: 'API kartu kunci'
+        description: 'Hardwallet Aman, Tanpa Kontak, Sumber Terbuka'
+    pinned-repositories:
+      title: 'Repositori yang Dipasang'
+      status-react:
+        title: status-bereaksi
+        description: 'Sumber terbuka (gratis), OS seluler untuk Ethereum.'
+      status-go:
+        title: status-go
+        description: 'Modul Status yang mengonsumsi go-ethereum.'
+      swarms:
+        title: kawanan
+        description: 'Berkerumun di Rumah. Fitur baru, selesai dan sedang dalam proses untuk Status.'
+      specs:
+        title: spesifikasi
+        description: 'Spesifikasi untuk Status klien.'
+    help:
+      title: 'Kami di sini untuk membantu!'
+      description: 'Kami selalu senang membantu dengan kode atau pertanyaan yang Anda miliki.'
+      link-1: 'Laporkan Bug'
+      link-2: 'Status Obrolan Komunitas'
+      link-3: 'Berbincanglah dengan kami'
+      link-4: 'Tanya di Reddit'
+    update:
+      title: 'Baru-baru ini diperbarui'
+    index:
+      intro:
+        title: 'Portal Pengembang'
+        teaser-1: 'Selamat datang di Portal Pengembang Status. Temukan semua yang Anda butuhkan untuk mulai berkontribusi ke Status, membangun DApps Anda sendiri, atau mendaftarkan dapp Anda'
+      box-link-1:
+        title: 'Panduan Kontributor'
+        text: 'Status sedang membangun perangkat lunak bebas dan sumber terbuka yang membebaskan siapa saja untuk dibagikan, dimodifikasi, dan diuntungkan oleh siapa pun. <br> &nbsp; <br> Anggota komunitas dari semua latar belakang, tingkat keterampilan, dan minat berkontribusi pada rilis Status resmi. Pelajari cara membangun Status, dapatkan crypto untuk menyelesaikan karunia, memperbaiki bug, atau membangun hal-hal yang Anda butuhkan.'
+      box-link-2:
+        title: 'Pusat Integrasi DApp'
+        text: 'Status termasuk browser web3 yang aman dan pribadi dan akses ke ekosistem aplikasi desentralisasi yang berkembang <br> &nbsp; <br> Pusat Integrasi Dapp adalah panduan langkah demi langkah untuk mengoptimalkan aplikasi untuk digunakan dalam Status. Ini termasuk praktik terbaik pertama seluler, persyaratan keamanan dan privasi, meningkatkan API Status, dan cara mengirim ke dap.ps.'
+  footer:
+    title: 'Siap memulai <br>dengan Status'
+    product:
+      title: Produk
+      apps: 'Dapatkan Aplikasi'
+      nightly: Malam
+    status:
+      title: Status
+      jobs: Pekerjaan
+      white-paper: 'Kertas Putih'
+      media-kit: 'Media Kit'
+    documentation:
+      title: Dokumentasi
+    status-network:
+      title: 'Jaringan Status'
+      embark: Memulai
+      nimbus: Nimbus
+      keycard: 'Kartu kunci'
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: Subruang
+      teller: Kasir
+      assemble: Berkumpul
+    connect: Menghubungkan
+    privacy-policy:
+      title: 'Kebijakan pribadi'
+      description: 'Status Penelitian & Pengembangan GmbH, Baarerstrasse 10, Zug, Swiss'
+    site-analytics: 'Analisis Situs'
+    messari: 'Messari transparansi diverifikasi'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 'Pesan Sungguh Pribadi'
+        description: 'Kirim dan terima pesan sepenuhnya terenkripsi tanpa server pusat.'
+      secure-wallet:
+        title: 'Amankan Crypto Wallet'
+        description: 'Simpan ETH, SNT, dan aset crypto Anda dengan aman.'
+      web3-browser:
+        title: 'Browser Web3 Terdesentralisasi'
+        description: 'Temukan ekosistem aplikasi terdesentralisasi, semuanya di satu tempat.'
+    invite:
+      title: 'Bergabunglah dengan kami di saluran publik <a href=''https://join.status.im/chat/public/%s'' target=''_blank''> # %s </a> dan pelajari bagaimana Anda bisa memenangkan beberapa SNT'
+      prize:
+        option-1: 'Daftarkan nama ENS stateofus.eth'
+        option-2: 'Beli paket stiker'
+        option-3: 'Suara positif dapps favorit Anda dalam dap.ps'
+        option-4: 'Ikut serta dalam proposal Status Community Governance'
+  nft-nyc:
+    invite:
+      prize:
+        option-4: 'Ikut serta dalam proposal Status Community Governance'

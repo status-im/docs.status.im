@@ -1,21 +1,27 @@
 en:
   short: en
   long: English
-es:
-  short: es
-  long: Español (Latina)
 zh:
   short: zh
   long: 中文
 ko:
   short: ko
   long: 한국어
+es:
+  short: es
+  long: Español (Latina)
 ru:
   short: ru
   long: Русский
 fr:
   short: fr
   long: Français
+tl:
+  short: tl
+  long: Tagalog
+id:
+  short: id
+  long: Bahasa Indonesia
 ar:
   short: ar
   long: العربية

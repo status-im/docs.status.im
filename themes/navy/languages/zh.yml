@@ -100,7 +100,6 @@ site:
           title: 社区团体
           description: 'Status社区中已经有许多Status或社区创建的团队。 <br> <br>加入现有团队或根据您的个人兴趣创建自己的团队。人们在世界各地组织起来帮助促进和发展这个开源项目。'
       contributors:
-        title: 顶级社区贡献者
         link: '加入Status 团队。查看所有空缺职位'
     developers:
       intro:

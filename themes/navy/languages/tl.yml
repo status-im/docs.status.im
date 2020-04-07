@@ -1,0 +1,708 @@
+site:
+  home:
+    intro:
+      title: 'Pribado, Ligtas na Komunikasyon'
+      description: 'Ang Status ay isang messenger, crypto wallet, at Web3 browser na binuo gamit ang estado ng teknolohiya ng sining.'
+      news: Balita
+    about:
+      open-source:
+        title: 'Isang Open Source Project'
+        description: 'Ang Status ay kumpletong bukas na pagkukunan at gawa ng mga kontribyutor saan man sa mundo. Mga tagabuo, taga-disenyo, tagalikha, tagapagturo, mga mahilig, at iba pa. Kahit sino ay pwedeng gumamit sa repos, assets at impormasyon.'
+      mission:
+        title: 'Misyon at Prinsipyo'
+        description: 'Ang Status ay nagsusumikap na maging isang ligtas na tool sa komunikasyon na nagtataguyod ng mga karapatang pantao. Pinapagana namin ang pera ng komunidad, batas ng komunidad at sa pamamagitan ng pagkapribado, mapanatili ang kultura.'
+    decentralized:
+      subtitle: 'Desentralisadong Komunikasyon'
+      title: 'Makipag-chat, Mag-browse, Mag-Transact sa Iyong Mga Tuntunin'
+      description: 'Ang Status ay pinagsasama ang isang desentralisadong messenger, pitaka, at DApp browser sa isang malakas, pribado, at ligtas na tool sa komunikasyon.'
+      link: 'Galugarin ang lahat ng mga tampok'
+    private:
+      subtitle: 'Pagpapanatili ng Pagkapribado'
+      title: 'Tunay na Pribadong Pagmemensahe'
+      description: 'Ang Status ay gumagamit ng peer-to-peer protocol Whisper at end-to-end encryption'
+    wallet:
+      subtitle: 'Paganahin ang Pera ng Komunidad'
+      title: 'Secure ang Crypto Wallet'
+      description: 'Ligtas na magpadala, mag-imbak at tumanggap ng mga asset ng crypto kasama ang ERC20 at ibang ERC721 tokens. Ikaw lamang ang may hawak ng mga susi sa iyong server na walang wallet. Ang intuitive na disenyo ay nagpoprotekta sa iyo mula sa pag-atake.'
+    browser:
+      subtitle: 'Pag-aari ng Iyong Data'
+      title: 'Desentralisadong Browser sa Web3'
+      description: 'Mag-navigate sa lumalagong ecosystem ng mga desentralisadong aplikasyon mula sa aming browser na pinagana sa Web3, nang hindi sinusubaybayan. Mag-browse sa pinakabagong mga merkado, palitan, laro, at higit pa.'
+    security:
+      title: 'Pribado at Secure ng Disenyo'
+      description: 'Ang Status ay gumagamit ng estado ng teknolohiya ng sining upang matiyak na ang iyong mga mensahe at transaksyon ay sa iyo at sa iyo lamang. Tinatanggal ng Status ang mga tagapamagitan upang panatilihing pribado ang iyong mga mensahe at ligtas ang iyong mga ari-arian. Makipag-usap nang may kumpiyansa.'
+    status-network:
+      title: 'Status Network'
+      description: "Ang Status Network ay isang collection \nng mga proyekto at mga taong nakatuon sa paglikha ng mga tool at matibay na imprastraktura, mapapanatili, at napapabilang na mga komunidad."
+      link: 'Dagdagan ang nalalaman tungkol sa Status Network'
+  features:
+    intro:
+      title: 'Ang kapangyarihan ng Ethereum ay nasa iyong bulsa'
+      description: 'Ang Status ay isang tool na pangkomunikasyon na may multi-purpose na pinagsasama ang isang messenger ng peer-to-peer, desentralisadong crypto-wallet, at browser ng Web3.'
+      link-messenger: Messenger
+      link-wallet: Crypto-wallet
+      link-browser: 'Browser at DApps'
+    messenger:
+      title: 'Secure Messenger'
+      feature-1:
+        title: 'Publiko, Pribado at Group Chats'
+        description: 'Sumali sa anumang bilang ng mga pampublikong channel o magpadala ng pribadong chat 1: 1 o mga group chats. Maaari ka ring magpadala at makatanggap ng mga pagbabayad ng crypto nang direkta sa iyong mga pribadong chat.'
+        link: 'Sumali sa Status Pampublikong Channel'
+      feature-2:
+        title: 'Pribadong mensahe sa Whisper'
+        description: 'Ang Whisper ay gumagamit ng peer-to-peer dark routing para maging posible sa lahat (kasali kami) para malaman namin ang tungkol sayo kung sino ang kinakausap namin. My mga plano kami na mabuti ang Whisper gamit ang fork ng Protocol tinatawag naming Waku na binuo ng koponan ng Vac.'
+        learn-more: 'Matuto ng mas marami tungkol sa Waku'
+      feature-3:
+        title: 'Perpektong pasulong na lihim at <br>E2E Encryption'
+        description: 'Ang Status ay gumagamit ng ''Double Ratchet'' algorithm sa itaas ng Whisper at end-to-end encryption para sa pinakamataas na marka ng seguridad at privacy.'
+    wallet:
+      title: 'Pinagsama <br>Ethereum Wallet'
+      feature-1:
+        title: 'Isang Ligtas na Wallet'
+        description: "Ang pagtanggal ng mga tagapamagitan ay naglalagay sa iyo upang makontrol ang iyong mga pondo.\nIkaw lamang at hawak mo ang iyong pribadong mga susi sa iyong cryptocurrency, at walang gitnang tao ang may access."
+      feature-2:
+        title: 'ERC20 at ERC721 Compatible'
+        description: "Suportahan ang ERC20 at ERC721 token sa Etherum network. Magpadala, Mag tago at magtanggap ng tokens ng may kumpiyansa sa Status. Madaling magdagdag\n ng ERC-20 token sa iyong wallet."
+        link: 'Sumali sa Status Wallet Pampublikong Channel'
+      feature-3:
+        title: 'Makipag-ugnay sa Peers at DApps'
+        description: 'Ang Status wallet ay pinagsama sa messenger at browser-nagbibigay-daan sa iyo upang makipag-ugnay sa mga kapantay at DApps. Ang lahat ng mga transaksyon ay nangangailangan ng pagpapatunay ng isang parirala sa pag-sign upang maprotektahan ka mula sa mga phishing attacks.'
+    browser:
+      title: 'Web3 Browser'
+      feature-1:
+        title: 'I-access ang Desentralisadong Aplikasyon'
+        description: 'Isang lumalagong ecosystem ng DApps sa iyong bulsa. Mag-browse sa pinakabagong mga desentralisadong palitan, marketplace, laro, social network, at marami pang iba.'
+        link: 'I-install ang Status'
+      feature-2:
+        title: 'Pribado at Secure na Pagba-browse'
+        description: 'Ang Status ay nagpapatupad ng pinakabagong mga pamantayan sa seguridad upang matiyak na ligtas ka at walang kalayaan sa pagsubaybay at pagkolekta ng data. Mag-browse sa iyong mga termino.'
+      feature-3:
+        title: 'I-optimize ang iyong DApp<br>sa Status'
+        description: 'Ang Status Dapp Integration Center ay pinapadali ang anumang dapp developer para matuto tungkol sa Status,mag-optimize upang tumakbo ang Status, pakinabangan ang mga natatanging tampok nito, at magparehistro sa Dap.ps.'
+        link: 'I-optimize at Irehistro ang iyong Dapp'
+    get:
+      title: 'Kumuha ng Status'
+      description: 'Simulan ang kasiyahan sa Status iOS, Android, MacOs, Windows at Linux'
+      link: 'I-download ang Apps'
+  get-involved:
+    index:
+      intro:
+        title: 'Isang Bukas na Komunidad'
+        description: 'Kung ikaw ay isang developer, tagapagturo, tagapag-ayos ng komunidad, o isang madamdaming tagasuporta, maaari kang mag-ambag sa Status. Narito ang mga mapagkukunan upang makapagsimula ka.'
+      resources:
+        resource-1:
+          title: 'Mga developer'
+          description: 'Ang pagbuo ng Staus ay libre at bukas na mapagkukunan ng software na lisensyado sa ilalim ng Mozilla Public License v2.0.<br><br> Ang mga miyembro ng komunidad ang lahat ng mga background, antas ng kasanayan, at interes ay nag-ambag sa opisyal na paglabas sa Status. Kasama dito ang bukas na kontribusyon sa Status at pinondohan ang mga bounties at mga inisyatibo na pinangunahan ng komunidad para sa mga bagong tampok.'
+        resource-2:
+          title: 'Mga Guro'
+          description: 'Ang Status ay isinasaalang-alang ang edukasyon at isang malugod na kapaligiran na mahalaga para sa isang matagumpay na open source na proyekto.<br><br> Inaanyayahan namin ang sinuman na makakatulong na turuan ang iba kung paano magtayo sa Status, Gamitin ang Status, makapagsimula sa komunidad, o magbahagi ng kanilang sariling mga karanasan sa proyekto.'
+        resource-3:
+          title: 'Mga Grupo ng Komunidad'
+          description: 'Mayroong isang bilang ng parehong Status ang nagpapatakbo sa kumunidad na mag organisa sa mga grupo sa loob ng Status.<br><br>  Sumali sa isang umiiral na grupo o simulan ang iyong sariling pangkat batay sa iyong mga personal na interest. Ang mga tao sa buong mundo ay umaayos upang makatulong na maisulong at mapalago ang bukas na mapagkukunang proyekto.'
+      contributors:
+        link: 'Sumali sa pangkat ng Status. Tingnan lahat ang bakanteng posisyon'
+    developers:
+      intro:
+        subtitle: 'Isang Bukas na Komunidad na Pinagmulan'
+        title: Pag-unlad
+        description: 'Maligayang pagdating sa Status Developer Portal. Hanapin ang lahat ng kailangan mo upang simulan ang pag-ambag sa Status, pagbuo ng iyong sariling mga DApps, o pagpapalawak ng iyong trabaho sa mga tampok ng Katutubong Katutubo.'
+      quick-nav-sub:
+        link-1: Magsimula
+        link-2: 'Repos, Issues, Bounties'
+        link-3: 'Mga mapagkukunan ng developer'
+        link-4: Github
+      contribute-to-status:
+        title: Magsimula
+        description: 'Ang aming bukas na pagkukunan o open source na proyekto'
+        link: 'Gabay ng Kontribyutor'
+        status-react:
+          title: Status-React
+          description: 'Nakasulat sa Clojure - ito ay kung saan pinangangasiwaan namin ang mga pakikipag-ugnayan sa pagitan ng Whisper at ang app; sa pagitan ng pitaka, ang gumagamit at anumang ipinamahaging Application (DApp) na nais nilang ma-access; at kung saan nakatira ang logic ng UI.'
+          link: 'Tingnan ang Repository'
+        status-go:
+          title: Status-Go
+          description: 'Nakasulat sa Go - ang lahat ng narito kung saan ang mga blockchain logic, transaksyon, at magaan na kliyente na ginagawa namin buhay.'
+          link: 'Tingnan ang Repository'
+        open-issues-status-react:
+          title: 'Buksan ang mga Issue sa Status-React'
+          link: 'Tingnan ang lahat ng mga bukas na isyu'
+        open-issues-status-go:
+          title: 'Buksan ang mga Issue sa Status-Go'
+          link: 'Tingnan ang lahat ng mga bukas na isyu'
+        earn-crypto:
+          title: 'Kumita ng crypto para sa<br>pagkumpleto ng bounties'
+          description: 'Tingnan ang buong listahan ng mga teknikal na bounties'
+          link: Gitcoin
+        report-a-security-vulnerability:
+          title: 'Mag-ulat ng isang seguridad<br>kahinaan at ayusin ito'
+          description: 'Dagdagan ang nalalaman tungkol sa'
+          link: 'Bug bounty program'
+      development-dapp:
+        build-dapp:
+          title: 'Bumuo ng sariling DApp'
+          description: 'Magsimula sa aming mga tool at mga frameworks upang bumuo ng iyong sariling desentralisadong aplikasyon.'
+          link-1: 'Center ng Pagsasama ng DApp'
+          link-2: 'Bumuo ng iyong sariling DApp sa Embark'
+          link-3: 'I-access ang mga nagbibigay ng Web3 at makita ang Status'
+          link-4: 'Isumite ang iyong DApp sa listahan ng Status DApp'
+        extend-dapp:
+          title: 'Palawakin ang iyong DApp'
+          description: 'Pinapayagan ka ng mga extension na magamit ang katutubong ng mga tampok ng Status sa loob ng iyong DApp.'
+          link-1: 'Panimula sa Mga Extension'
+          link-2: 'Mga Tutorial'
+          link-3: 'Mga halimbawa at Mga Umiiral na Extension'
+      development-resources:
+        contribute-support:
+          title: 'Mag-ambag ng Suporta'
+          link-1: 'Sumulat ng Dokumentasyon'
+          link-1-description: 'Sumisid at makakatulong sa pagsulat, pag-edit, at ayusin ang mga doc. Lahat ng mga pag-edit ay ginawa sa pamamagitan ng GitHub.'
+          link-2: 'Isalin ang Dokumentasyon'
+          link-2-description: 'Kailangan namin ng tulong na isalin ang lahat ng aming babasahin sa iyong lokal na wika.'
+          link-3: 'Maligayang pagdating sa Mga Bagong Kontribyutor'
+          link-3-description: 'Sumali sa Status #introductions channel at tulungan ang mga bagong kontribyutor at bagong miyembro ng komunidad.'
+          link-4: 'Lumikha ng Mga Tutorial'
+          link-4-description: 'Makipag-ugnay sa amin at alamin kung paano mo maaaring itampok ang iyong mga tutorial sa mga doc at sa Status blog.'
+        developer-resources:
+          title: 'Mga mapagkukunan ng developer'
+          link-1: 'Github Repositories'
+          link-2: Dokumentasyon
+          link-3: Embark
+          link-4: 'Mga Tutorial'
+          link-5: 'Gawang Nightly'
+          link-6: Blog
+          link-7: 'Makinig sa pinakabagong tawag sa pangunahing developer'
+          link-8: 'Tingnan ang mga bagong labas na mga notes'
+          link-9: 'Tingnan ang listahan ng mga aktibong swarm'
+      get-in-touch:
+        title: Makipag-ugnayan
+        join-status:
+          link: 'Sumali #status'
+          description: 'Balita at talakayan ng Pangkalahatang sa Status.'
+        join-status-core:
+          link: 'Sumali #status-core'
+          description: 'Public channel tungkol sa pagpapaunlad ng pangunahing.'
+        join-introductions:
+          link: 'Sumali #introductions'
+          description: 'Bago sa Status? Ipakilala ang iyong sarili at kumustahin!'
+        contact-us:
+          link: 'Makipag-ugnayan sa amin'
+          description: 'Para sa lahat, mag-email sa amin nang direkta.'
+      repositories:
+        title: 'Repositories, Open Issues at Bounties'
+      build-for-status:
+        title: 'Bumuo para sa Status'
+        description: 'Kunin ang iyong DApp sa Status'
+        link: 'Center ng Pagsasama ng DApp'
+    educators:
+      intro:
+        subtitle: 'Isang Bukas na Komunidad na Pinagmulan'
+        title: Edukasyon
+        description: 'Malugod na tinatanggap ang lahat na makatulong na turuan ang iba kung paano bumuo sa Status, gamitin ang Status, at simulan para sa komunidad, o kahit na ibahagi ang kanilang sariling mga karanasan sa proyekto.'
+      quick-nav-sub:
+        link-1: 'Magturo at lumikha'
+        link-2: Isalin
+        link-3: 'Mga mapagkukunan ng tagapagturo'
+        link-4: Github
+      educate-contribute:
+        how-to-get-started:
+          title: 'Paano magsimula'
+          link-1: 'Gabay sa Mga nagsisimula ng Miyembro ng Komunidad'
+          link-1-description: 'Suriin ang gabay na ito na nilikha ng miyembro ng pamayanan, Warsoverjohn.'
+          link-2: Glossary
+          link-2-description: 'Sumangguni sa bukas na mapagkukunan na doc para sa mga term, kahulugan, mapagkukunan at konsepto. Huwag mag-atubiling idagdag ito.'
+          link-3: FAQ’s
+          link-3-description: 'Narito ang isang patuloy na listahan ng mga madalas na itinanong na mga katanungan mula sa lahat sa Pamayanan ng Status.'
+        create:
+          title: Lumikha
+          link-1: 'Lumikha ng Mga Hindi Teknikal na Tutorial'
+          link-1-description: 'Tulungan ang mga bagong dating na i-set up ang kanilang account at mag-navigate sa Status app at komunidad. Makipag-ugnay sa amin upang maibahagi ang iyong tutorial sa blog.'
+          link-2: 'Lumikha ng Mga Teknikal na Tutorial'
+          link-2-description: 'Tulungan ang mga developers para gumawa ng Status, bumuo ng DApps, lumikha ng isang extension o anumang nais mong ibahagi. Makipag-ugnayan sa amin.'
+          link-3: 'Sumulat ng isang post sa blog'
+          link-3-description: 'Magbahagi ng kwento sa Status blog at maging isang publisher sa Status Blog'
+      translate:
+        title: Isalin
+        description: 'Tulungan mo kami mag localise Status sa iyong wika. Kami ay gumagamit ng lokalise upang isalin ang lahat mula sa application, website, dokumentasyon at iba pa.'
+        link: 'Isalin sa Status'
+      educator-resources:
+        title: 'Mga mapagkukunan ng tagapagturo'
+        link-1: 'Styleguide & Assets'
+        link-1-description: 'Hanapin ang pinakabagong Styleguide kasama ang mga branded assets, template, at font.'
+        link-2: Pag-usapan
+        link-2-description: 'Sumali sa mahabang form ng talakayan tungkol sa lahat ng mga bagay sa Status.'
+        link-3: 'Mga Tutorial'
+        link-3-description: 'Alamin kung paano bumuo ng isang bagay o makita ang ilang mga halimbawa ng iba pang mga tutorial na ginawa ng komunidad.'
+        link-4: Blog
+        link-4-description: 'Tingnan ang mga bagong news at updates sa Status.'
+        link-5: Nightlies
+        link-5-description: 'i-install at test ang bagong nightly gawa sa mobile at desktop.'
+        link-6: 'Suriin ang pinakabagong labas na mga notes'
+        link-7: 'Tingnan ang listahan ng active swarms'
+        link-8: 'Tingnan ang buong listahan sa Pampublikong Channel ng Status'
+      get-in-touch:
+        join-statusphere:
+          link: 'Sumali #statusphere'
+          description: 'Isang lumalagong komunidad ng Status Ambassadors at enthusiasts'
+    community:
+      intro:
+        subtitle: 'Isang Bukas na Komunidad na Pinagmulan'
+        title: 'Mga Grupo ng Komunidad'
+        description: 'Mayroong isang bilang ng parehong Status ang nagpapatakbo sa kumunidad na mag organisa sa mga grupo sa loob ng Status.  Sumali sa isang umiiral na grupo o simulan ang iyong sariling pangkat batay sa iyong mga personal na interes.'
+        link-1: 'Tingnan ang mga grupo sa ibaba'
+        link-2: 'Magsumite ng isang bagong grupo'
+      community-groups:
+        account-group-1:
+          link: '#Status-ambassadors'
+          description: 'Isang pangkat ng mga taong nakatuon sa pagtulong, pagbibigay, at pagbuo ng Status sa komunidad.'
+          occupation: Organizer
+          name: Kami
+        account-group-2:
+          link: '#Status-Korean'
+          description: 'Isang pangkat ng mga madamdaming developer, tagagawa, tagalikha, at mga mahilig na nakabase sa South Korea.'
+          occupation: Organizer
+          name: 'Jinho Jang'
+        account-group-3:
+          link: '#status-spanish'
+          description: 'Status sa Español'
+          occupation: Organizer
+          name: 'Lalo Garza'
+        account-group-4:
+          link: '#status-chinese'
+          description: 'Status sa Chinese'
+          occupation: Organizer
+          name: 'Steven Zhu'
+        account-group-5:
+          link: '#philosophers'
+          description: 'Ano ang kahulugan ng buhay?'
+          occupation: Organizer
+          name: Aristotle
+  security:
+    intro:
+      title: 'Seguridad Sa pamamagitan ng Disenyo'
+      description-1: 'Ang Status ay naglalayong maging isang tunay na desentralisadong tool sa komunikasyon - kalaunan ay tinanggal ang lahat ng mga ikatlong partido at pinaliit ang mga pag-atake ng mga vectors para sa mga nakakahamak na aktor.'
+      description-2: 'Ang tunay na pakinabang ng Web3 ay ang kakayahang makipagtransaksyon at makipag-usap sa aming sariling mga termino - ng walang gitnang tao.Upang tamasahin ang ganitong uri ng libreng komunikasyon, kami ay kumpiyansa na ang aming mga mensahe, transaksyon, pagkakakilanlan, at pondo ay ligtas na ligtas. Dagdagan ang nalalaman tungkol sa diskarte sa Status sa seguridad sa ibaba.'
+    security-at-status:
+      title: 'Seguridad sa Status'
+      secure-inner-1:
+        title: Ligtas<br>Mensahe
+        description: 'Ang mga mensahe ay hindi nai-censor, hinarangan, at nananatiling hindi nagpapakilalang kung pipiliin ito ng gumagamit. Mga inilaang tatanggap lamang ang makakakita ng mga mensahe.'
+      secure-inner-2:
+        title: 'Ligtas na Pinansyal<br>transaksyon'
+        description: 'Pagpapadala, pag-iimbak, at pagtanggap ng cryptocurrency o token sa Status wallet ay ligtas sa mga pag-atake. Ang mga pribadong key ay hindi nalantad.  Ang mga transaksyon ay pinoproseso lamang kung sinimulan at kumpirmado ng may-ari ng mga pribadong key.'
+      secure-inner-3:
+        title: 'Seguridad <br>Browsing'
+        description: "Kapag nagba-browse ka ng Web3, ang end user data at mga impormasyon sa browsing ay hindi naa-access ng anumang mga third party nang walang pahintulot. Anumang mga transaksyon na ginawa habang ginagamit ang\nStatus browser ay ipatupad ang parehong pamantayan sa seguridad at pinakamahusay na kasanayan na ginagamit sa Status wallet."
+    security-content:
+      content-1:
+        title: 'Secure Identity'
+        description: 'Ang iyong pagkakakilanlan sa Status ay nagsisimula sa isang lokal na nabuong cryptographic keypair,  na kung saan ay protektado sa pamamagitan ng isang password. Iyon lang ang kinakailangan. Ang gumagamit ay pagkatapos ay may kakayahang magdagdag ng impormasyon sa kanilang profile upang mabuo kung sino sila sa Status. Sa lahat ng oras ang gumagamit ay may ganap na kontrol sa kanilang impormasyon, at kung sino ang may access dito. Ang end user ay maaaring maging pampubliko o pribado ayon sa gusto nila.'
+      content-2:
+        title: 'Peer-to-Peer Serverless Messaging'
+        description: 'Ang Status ay gumagamit ng Whisper protocol para sa peer-to-peer (p2p) komunikasyon, na nangangahulugang walang mga pagproseso ng server o pag-iimbak ng iyong mga mensahe. Sa halip, Whisper nakasalalay sa isang network ng peers upang mag ruta ng mga mensahe sa bawat isa. Ang bawat mensahe na ipinadala ay nai-broadcast sa buong network,at naka-encrypt para lamang sa inilaang tatanggap upang buksan. Ang epekto ng bawat mensahe na nagbaha sa network ay kilala bilang madilim na ruta, at pinoprotektahan hindi lamang ang nilalaman ng iyong mga mensahe kundi pati na rin ang metadata tungkol sa kung saan ka nakikipag-usap mula sa, kanino, atbp Ito ang pinakamataas na pamantayan ng seguridad at privacy sa online na pagmemensahe , at ang pangkat ng Katayuan ay nagsasaliksik ng mas maraming nasusukat at mahusay na paraan ng paghahatid ng pamantayang ito.'
+        link: 'Matuto ng mas marami tungkol sa Whisper'
+      content-3:
+        title: 'End-to-End Encryption na Default'
+        description: 'Lahat ng mga pribadong mensahe na ipinadala sa Whisper ay naka encrypted dulo hangang dulo at ito''y naka default. Kapag ikaw ay gagawa ng Status account, Isang cryptographic keypair ay mabubuo para ma encrypt ang iyong mga mensahe at naka tago ito sa iyong mobile device. Kapag nagdagdag ka ng isang bagong contact sa Status, kailangan mong palitan ang iyong public keys upang ang taong iyon ay ma-decrypt ang iyong mensahe kapag ikaw ay tatangap galing sa network.'
+      content-4:
+        title: 'Perfect Forward Secrecy'
+        description: 'PFS ay isang tampok ng mga tukoy na protocol ng key-agreement na nagbibigay ng katiyakan na ang iyong mga susi ng session ay hindi makompromiso kahit na ang mga pribadong key ng mga kalahok ay nakompromiso. Partikular, sa mga huli mong mensahe, hindi ito naka decrypted ng  kahit ano mang pangatlong partido na nagmamahala o humawak ng iyong pribadong susi. Ito ay binuo gamit ang X3DH at Double Rachet specification  mula sa Open Whisper System, kasama ang pag adapt at mamahala para sa desentalisadong kapaligiran.Ang perpektong Forward Secrecy ay isang idinagdag na layer ng seguridad para sa lahat ng iyong 1: 1 na pribadong chat.'
+        link: 'Dagdagan ang nalalaman tungkol sa PFS'
+      content-5:
+        title: 'Serverless Account Creation'
+        description: 'Kapag lumikha ka ng isang bagong account sa Status, hindi ka hilingin sa pag-verify ng mga third party tulad ng isang email o numero ng telepono. Nangangahulugan ito na maaari kang mag-sign up at lumikha ng isang Status account na ganap na hindi nagpapakilala. Kapag lumikha ka ng isang account, ikaw lamang at ang iyong mga susi.Nangangahulugan din ito na ang dalawang factor na pagpapatunay at pagbawi ng password ay hindi mga tampok sa Status - kaya siguraduhing tandaan ang iyong password at mnemonic phrase at itago ang mga ito sa offline o sa lugar na lubos na ligtas.'
+      content-6:
+        title: 'Paano naka-imbak ang aking mga susi?'
+        description-1: 'Ang Status ay hindi kailanman gagamit ng mga serbisyo ng third party para sa pamamahala at pag-iimbak ng iyong pampubliko at pribadong key. Kapag nabuo, ang unang BIP44 key ay nai-save sa isang keystore json file nang lokal sa iyong aparato. Ang file na ito ay naka-encrypt gamit ang password na pinili mo para sa iyong Status account at at maa-access lamang sa Status app. Inuuna namin ang pag-iimbak ng sensitibong impormasyon sa ligtas na hardware kapag magagamit ito sa iyong aparato.'
+        description-2: 'para sa karagdagang layer ng sigurdad, ipinakilala namin si Keycard na kung saan ay nagsisilbi, bilang offline cold storage para sa mga pribadong key na taga pamamahala at ang kanilang mga operasyon.'
+        description-3: 'Para sa karagdagang impormasyon sa Keycard, bisitahin ang%s'
+      content-7:
+        title: 'Secure Browsing'
+        description: 'Ang Status browser ay dinisenyo upang mapanatili ang kaalaman sa end user at ang kanilang mga pondo ay ligtas. Browser Privacy mode ay pinagana sa pamamagitan ng default.  Nangangahulugan ito na ang DApps ay hihilingin upang humingi ng pahintulot bago kumonekta sa iyong pitaka, at maaaring magdulot ito ng ilang mga DApps(kung hindi sila katugma sa panukalang ito ng seguridad|). Sa Huli, Ang Status browser ipapatupad ang EIP712 na naglalayong mapagbuti ang kakayahang magamit ang off-chain mensahe ng signing. Nakikita namin ang lumalagong pag-aampon ng pag-sign ng off-chain na mensahe habang nakakatipid ito ng gas at binabawasan ang bilang ng mga transaksyon sa blockchain. Ang kasalukuyang mga naka-sign na mensahe ay isang opaque hex string na ipinakita sa gumagamit na may kaunting konteksto tungkol sa mga item na bumubuo sa mensahe.'
+        link: 'Dagdagan ang nalalaman tungkol sa EIP'
+      content-8:
+        title: 'Paano pinoprotektahan ng Status ang aking cryptocurrency?'
+        description: 'Ang Status ay gawa gamit ang isang non-custodial wallet, na nagbibigay sa iyo ng ganap na kontrol sa iyong mga pondo nang walang paggamit ng isang server. Ang mga pribadong key ay naka-imbak sa isang naka-encrypt na paraan sa iyong aparato. Ang iyong pera ay nasa ilalim ng iyong kontrol, at hindi mai-access ng sinumang walang pribadong key o susi. Samakatuwid, kung mawala ang iyong mnemonic phrase, hindi mo na maibabalik ang pag-access sa iyong mga pondo. Kaya panatilihin ligtas ang iyong private key o pribadong susi sa isang lugar na ligtas kahit offline.'
+      content-9:
+        title: 'Pag-sign ng Parirala upang maprotektahan mula sa mga pag-atake sa phishing'
+        description: 'Ang Status ay nag implementa ng Signing phrase kinakailangan ito upang kumpirmahin at "mag sign" para sa lahat ng transaksyon. Ang signing phrase ay isang 3 salitang phrase sapalarang nabuo para sa iyo at naka-imbak nang lokal sa iyong aparato na ipinakita sa tuwing sinusubukan mong magpadala ng isang transaksyon. Ipakita sa iyo ang iyong parirala sa pag-sign at kinakailangang tanggapin ito bago makumpirma ang isang transaksyon. Kung hindi mo nakilala ang iyong tatlong mga salita, o hindi ipinakita sa tatlong mga salita sa lahat, kanselahin ang transaksyon, mag-log out ng Katayuan at iulat ang isyu sa%s'
+        link: 'Dagdagan ang nalalaman tungkol sa phishing'
+      content-10:
+        title: 'Mahigpit na Pag-awdit'
+        description-1: 'Habang nakarating kami sa mga pangunahing milestone sa pag-unlad, pagkatapos ng pag-ikot ng panloob na pagsusuri at pag-awdit, naabot namin ang nangunguna sa industriya, mga third-party na kumpanya ng pag-awdit upang mapatunayan ang aming katinuan, at i-double / triple namin ang aming pagsusuri. Ang mga ito ay karagdagang mga check mula sa mga layunin ng ikatlong partido upang matulungan ang tiwala sa seguridad ng aming inilaang pag-andar.'
+        description-2: 'Para sa impormasyon at mga detalye sa lahat ng mga panlabas na pag-audit, mangyaring tingnan ang%s'
+        description-3: 'Kapag may nahanap kayo na bug o vulnerability sa aming code, Paki report sa%s'
+        ENS:
+          title: 'ENS smart contract kasama ang Sigma Prime'
+          commit: 'Oktubre 2018 - ENS Username Contract - gumawa ng  hash eaefa92'
+          report: report
+          tests: tests
+          code: code
+          blog: 'post ng blog'
+        dejavu:
+          title: 'Deja Vu Beta Audit'
+          commit: 'Mayo 07, 2018 - Status-go at Status-react repost kasama ang Deja Vu'
+          report: report
+          blog: 'post ng blog'
+      content-11:
+        title: 'Turuan ang iyong sarili upang manatiling ligtas'
+        description: 'Desentralisado, walang server na mga produkto tulad ng Status ay inaalis ang isang bilang ng mga hindi kinakailangang tagapamagitan, pagpapagana sa iyo upang makipag-chat, transaksyon at mag browse ng walang kinakatakutan, censorship at data leakage. Ito ay dahil nasa kontrol ka ng iyong data at iyong sariling digital na kaligtasan. Samakatuwid, mahalaga na maunawaan mo kung paano protektahan ang iyong sarili. Dagdagan ang nalalaman tungkol sa kung paano mananatiling ligtas sa Patnubay sa Pinakamahusay na Gabay sa Pinagsamang Seguridad.'
+        link: 'Tingnan ang Pinakamahusay na Gabay sa Pagsasanay'
+      content-12:
+        title: 'Security Support'
+        description: 'Kami ay nandito upang tumulong, at kung mayroon kang anumang mga katanungan o alalahanin tungkol sa seguridad, magpadala ng email sa %s o maabot sa aming pampublikong Channel sa Status Security %s'
+      content-13:
+        title: 'Bug Bounty Program'
+        description: 'Kung ikaw ay isang  tagapagpananaliksik ng seguridad o developer at nais na mag-ulat ng isang kahinaan, mangyaring makipag-ugnay sa %s tungkol sa Katayuan ng Programang Bug Bounty. Mayroon din kaming isang kampanya na HackerOne, isang programang  Bug Bounty na insentibo para sa mga hacker upang tumingin sa mga proyekto. Kami ay aktibong, gumaganap para sa aming mga pribadong kampanya, at buksan ang mga ito sa mga pampublikong pagsisiwalat sa lalong madaling panahon! Para sa karagdagang impormasyon  ng aming Bug Bounty Program, mangyaring makipag-ugnay sa %s.'
+    protect-yourself:
+      title: 'Protektahan ang Iyong Sarili'
+      description: 'Ang Status ay itinayo gamit ang estado ng teknolohiya ng sining upang matiyak na ang produkto ay isang ligtas hangga''t maaari. Pagdating sa pag-navigate sa Web3, nasa kontrol ka. Tingnan ang aming listahan ng mga pinakamahusay na kasanayan sa seguridad at kontrolin.'
+      link-1: 'Matuto Nang Higit Pa'
+      link-2: 'Sumali sa Status Security Channel'
+  header:
+    nav:
+      features: 'Mga tampok'
+      get-involved:
+        title: Makialam
+        description: 'Status ay isang bukas na pagkukunan na proyekto<br>ginawa ng mga tao sa lahat ng dako ng mundo'
+      security: Seguridad
+      docs:
+        title: Dokumentasyon
+        description: 'Lahat ng kailangan mong simulan<br>pagbuo kasama ang Status'
+        link: Docs
+        link-1: 'Pagsasama ng DApp'
+        link-2: 'Gabay ng Kontribyutor'
+        link-3: 'Sumali sa aming Pangkat'
+        link-4: Seguridad
+        link-5: specs
+      about: Tungkol
+      blog: Blog
+      snt-utility: 'SNT Utility'
+  link:
+    get-status: 'Kumuha ng Status'
+    get-involved: 'Maging kasangkot'
+    developers: 'Mga developer'
+    educators: 'Mga guro'
+    community-groups: 'Grupo ng Komunidad'
+    learn-more: 'Matuto ng higit pa'
+    read-all: 'Basahin lahat'
+  about:
+    intro:
+      title: 'Ang Misyon'
+      link-1: 'Aming mga prinsipyo'
+      link-2: 'Aktibong mga pulutong'
+      link-3: 'Pangunahing nag aambag'
+      description: 'Katayuan nagsusumikap upang maging isang ligtas na tool sa komunikasyon na ipinatupad sa mga karapatang pantao. Paganahin namin ang pera komunidad, komunidad batas at sa pamamagitan ng privacy, mapanatili ang kultura.'
+    principles:
+      title: 'Aming mga prinsipyo'
+      description: 'Ang mga alituntuning ito kumilos bilang mga tool. Mga tool para sa pag-iisip, para sa komunikasyon, at para sa desentralisado sa paggawa ng desisyon. Sila panatilihin sa amin tapat tungkol sa kung saan kami ay sa hindi pagtupad ng aming mga paningin.'
+      principle-1:
+        title: Kalayaan
+        description: 'Naniniwala kami sa kapangyarihan ng mga indibidwal. Bilang isang platform na ay nakatayo para sa ang sanhi ng mga personal na kalayaan, hindi namin layunin upang i-maximize panlipunan, pampulitika, at pang-ekonomiyang kalayaan. Kabilang dito ang pagiging pagpipigil-lumalaban.'
+      principle-2:
+        title: 'Censorship Paglaban'
+        description: 'Kami paganahin ang libreng daloy ng mga impormasyon. Walang nilalaman ay sa ilalim ng pagmamatyag. Sumunod kami sa pamamagitan ng ang cryptoeconomic prinsipyo ng disenyo ng censorship sa paglaban. Kahit na mas malakas na, Katayuan ay isang agnostiko platform para sa impormasyon.'
+      principle-3:
+        title: Seguridad
+        description: 'Hindi namin kompromiso sa seguridad kapag ang mga tampok ng building. Namin ang paggamit ng estado-ng-the-art na teknolohiya, at magsaliksik ng mga bagong pamamaraan sa seguridad at mga teknolohiya upang gumawa ng mga malakas na seguridad garantiya.'
+      principle-4:
+        title: Pagkapribado
+        description: 'Privacy ay ang kapangyarihan pili ipakita ang sarili sa mundo. Para sa amin, ito ay mahalaga upang maprotektahan ang privacy sa parehong mga komunikasyon at transaksyon, pati na rin ang pagiging isang palsipikado-anonymous platform. Bukod pa rito, nagsusumikap kami upang magbigay ng mga karapatan ng kabuuang pagkawala ng lagda.'
+      principle-5:
+        title: Aninaw
+        description: 'Nagsusumikap kami para sa kumpletong katapatan sa pagsasalita at mahusay na proporsyon ng impormasyon sa loob ng organisasyon, at walang mga hangganan sa pagitan ng aming mga pangunahing mga kontribyutor at sa aming mga komunidad. Kami ay lantad tungkol sa aming mga pagkukulang, lalo na kapag nagsasagawa ng mga maikling-term na tradeoffs sa serbisyo ng aming pang-matagalang layunin.'
+      principle-6:
+        title: 'Pagiging bukas'
+        description: 'Ang software na lumikha kami ay isang pampublikong magandang. Ito ay ginawang magagamit sa pamamagitan ng isang libre at open source na lisensya, para sa sinuman upang ibahagi, baguhin at makinabang mula sa. Naniniwala kami sa pahintulot-mas mababa sa pakikilahok.'
+      principle-7:
+        title: Desentralisasyon
+        description: 'Namin i-minimize ang sentralisasyon sa kabuuan ng parehong mga software at ang organisasyon mismo. Sa ibang salita, hindi namin ma-maximize ang bilang ng mga pisikal na mga computer sa pagbubuo ng mga network, at i-maximize ang bilang ng mga indibidwal na magkaroon ng kontrol sa paglipas ng ang mga system(s) kami ay gusali.'
+      principle-8:
+        title: Pagkakasundo
+        description: 'Naniniwala kami sa fair at kalat na kalat na pag-access sa aming software, na may isang diin sa kadalian-ng-gamitin. Ito ay umaabot din sa mga social inclusivity, permissionless paglahok, interoperability, at pamumuhunan sa pang-edukasyon mga pagsusumikap.'
+      principle-9:
+        title: Pagpapatuloy
+        description: 'Lumikha kami ng software incentivized upang patuloy na umiiral at mapabuti ang, nang walang pangangasiwa ng isang solong entity o anumang ng ang mga kasalukuyang miyembro ng koponan.'
+      principle-10:
+        title: Mapagkukunan
+        description: 'Kami ay relentlessly mapamaraan. Bilang namin lumago at magkaroon ng handa access sa kabisera, ito ay ang aming mga obligasyon sa mga token na may-hawak upang labanan ang mga burukrasya at mga inefficiencies sa loob ng organisasyon. Ito ay nangangahulugan na paglutas ng mga problema sa ang pinaka-epektibong paraan na posible sa mas mababang pang-ekonomiyang mga gastos (sa mga tuntunin ng capital, oras at mga mapagkukunan).'
+    how-we-work:
+      title: 'Paano tayo magtrabaho'
+      description: 'Kami ay isang koponan na ipinamamahagi sa buong mundo na nagtatrabaho nang malayuan mula sa lahat ng sulok ng mundo. Makikipagtulungan kami sa Swarms na kung saan ay maliit na koponan ng 2-5 mga tao na may isang napaka-tukoy na layunin. Swarms sundin ang isang nakabalangkas na diskarte para sa mga tampok at pag-unlad ng produkto.'
+      research:
+        title: Pananaliksik
+      specifications-planning:
+        title: 'Pagtukoy at Pagplano'
+      implementation:
+        title: Pagpapatupad
+      communication-post-mortem:
+        title: 'Komunikasyon at Post-mortem'
+    active-swarms:
+      title: 'Mga Aktibong Swarms'
+      link: 'Tingnan lahat ng Swarms sa Github'
+      inner-1:
+        title: 'Core Network Incentives'
+        swarm-meta: 'SNT Utility'
+      inner-2:
+        title: 'Sticker Market'
+        swarm-meta: 'SNT Utility'
+      inner-3:
+        title: 'Pagkilala sa Usapan'
+        swarm-meta: 'SNT Utility'
+      inner-4:
+        title: 'DApp Store'
+        swarm-meta: 'SNT Utility'
+      inner-5:
+        title: 'Teller Network'
+        swarm-meta: 'SNT Utility'
+      inner-6:
+        title: 'Token Economics'
+        swarm-meta: Mahahalaga
+      inner-7:
+        title: 'pagpapabuti ng pangunahing'
+        swarm-meta: Mahahalaga
+      inner-8:
+        title: Protocol
+        swarm-meta: Pananaliksik
+      inner-9:
+        title: DAO
+        swarm-meta: Mahahalaga
+      inner-10:
+        title: 'Mga tagapangalaga'
+        swarm-meta: Mahahalaga
+      inner-11:
+        title: Pangunahing
+        swarm-meta: 'Mga koponan'
+      inner-12:
+        title: 'Core Browser'
+        swarm-meta: 'Core Teams'
+      inner-13:
+        title: 'Core Chat'
+        swarm-meta: 'Core Teams'
+      inner-14:
+        title: Desktop
+        swarm-meta: 'Core Teams'
+      inner-15:
+        title: 'Core Wallet'
+        swarm-meta: 'Core Teams'
+      inner-16:
+        title: Keycard
+        swarm-meta: 'Status Network'
+      inner-17:
+        title: Embark
+        swarm-meta: 'Status Network'
+      inner-18:
+        title: Nimbus
+        swarm-meta: 'Status Network'
+    core-contributors:
+      title: 'Core Contributors'
+      description: 'Status ay isang tradisyunal na organisasyon na walang hierarchy, walang opisina at walang tagapamahala. Kami ay nandito upang makamit ang aming misyon, at kami ay may kalayaan upang mamili kung paano namin ito gawin.'
+      link-1: 'Sumali na at tignan lahat ng bakanteng posisyon'
+      link-2: 'Matuto nang higit pa tungkol sa Status'
+  snt:
+    intro:
+      title: 'Status Network Token'
+      description: 'Ang SNT ay iyong kapangyarihana at insentibo ng partisipasyon<br>sa Status Network'
+      link-1: 'Mga pangunahing kaalaman'
+      link-2: 'Gamit anf SNT'
+      link-3: Pananaliksik
+      link-4: 'Maging kasangkot'
+    the-basics:
+      title: 'Mga pangunahing kaalaman'
+      inner-1:
+        title: 'ERC-20 Token'
+        description: 'SNT ay isang ERC-20 token na ginagamit para mabuksan at mapalakas ang desentralismong serbisyo ng Status Network at aplikasyon.'
+        link: 'Tignan lahat ang SNT use cases'
+      inner-2:
+        title: 'Open Source'
+        description: 'Status isang ganap na bukas na proyekto ng mapagkukunan kung saan maaaring magamit ng sinuman ang code at token upang umangkop sa kanilang mga pangangailangan. Ang Status ay napatunayan ng Messari Disclosures Registry.'
+        link: 'Messari Disclosures Registry'
+      inner-3:
+        title: Users-as-Stakeholders
+        description: 'May SNT, lumikha kami ng isang User-bilang-Stakeholder sa network, na nagpapahintulot sa ang pag-uugali ng network at software nito, upang maging nakahanay sa mga interes ng Gumagamit nito.'
+        link: 'Matuto ng higit pa sa White Paper'
+      inner-4:
+        title: Pananaliksik
+        description: 'Kami magsagawa ng pananaliksik sa cryptoeconomic mga modelo, at peer-to-peer na mga teknolohiya upang matiyak ang pangmatagalang kalusugan ng ang Katayuan ng Network.'
+        link: 'Matuto ng higit pa tungkol sa pananaliksik'
+    using-snt:
+      title: 'Gamit ang SNT'
+      description: 'SNT ay kinakailangan upang kapangyarihan sa mga tiyak na mga tampok ng application at lumikha ng isang open source, desentralisado ekonomiya. Sumisid ng mas malalim sa bawat isa ng ang mga SNT Gamitin ang mga Kaso sa ibaba upang matuto nang higit pa tungkol sa mga cryptoeconomic pananaliksik at kung paano halaga dumadaloy sa buong network.'
+      teller-network:
+        title: 'Teller Network'
+        status: 'Sa pag-unlad'
+        description: 'Dinisenyo bilang isang DApp sa loob ng Status na kung saan ay nagbibigay ng isang walang hangganan, peer-to-peer, fiat-sa-crypto ''Teller Network'' na nagbibigay-daan sa mga Stakeholder upang mahanap ang mga kalapit na mga gumagamit upang palitan ang kanilang mga salapi para sa mga digital na ari-arian at pera. SNT ay kinakailangan upang maging isang nagbebenta sa network.'
+      network-incentivization:
+        title: 'Ang Incentivization ng Network'
+        status: 'Sa pananaliksik'
+        description: 'Lumikha ng isang framework at incentivization istraktura para sa mga tao upang i-deploy at gamitin ang Katayuan ng mga node. SNT ay ginagamit upang incentivize at gantimpalaan ang mga network ng mga kalahok upang magpatakbo ng isang node sa pagkakasunud-sunod upang matiyak na ang app na ito ay patuloy na gagana kung ang lahat ng mga node sa ang Katayuan ng na-host ng mga kumpol ay down. Kabilang dito ang pagbabayad para sa mga forward ang mensahe at nagbabayad para sa offline na mga mensahe.'
+      ens-user-name:
+        title: 'Pangalan ng Gumagamit ng ENS'
+        status: Live
+        description: 'ENS address ay tulad ng mga username. Jenny.eth mga pangalan ay maaaring punto sa isang personal na account, ng pagpapagana ng iba upang magpadala ng mga token o humanap sa Katayuan sa chat. ENS address ay maaaring hinanap sa Katayuan sa chat, wallet at browser. <br><br>Pagrerehistro ng isang stateofus.eth ENS pangalan gastos 10 SNT. Sa sandaling ang isang pangalan ay nakalaan, ang SNT ay naka-lock sa isang registry kontrata para sa 1 taon. Pagkatapos ang buwan ay up, ang mga pangalan ay maaaring inilabas upang makakuha ng mga token ng pabalik—o tumagal ng walang pagkilos upang i-hold on sa ito.'
+        link: 'Mag rehistro ng ENS'
+      sticker-market:
+        title: 'Sticker Market'
+        status: 'Sa pag-unlad'
+        description: 'Sticker nag-aalok ng isang masaya na paraan para sa mga gumagamit upang biswal na makipag-ugnayan sa kanilang mga kaibigan at pamilya. Ang Sticker Market sa loob ng Katayuan ay magbibigay-daan sinuman upang lumikha at magbenta ng kanilang sariling mga disenyo sa mga gumagamit sa lahat ng dako ng mundo, at simulan ang paggamit ng mga sticker sa loob ng anumang Katayuan sa chat. <br><br>SNT ay kinakailangan upang bumili ng sticker sa pamamagitan ng isang na-curate pamilihan.'
+      tribute-to-talk:
+        title: 'Pagkilala sa pagsasalita'
+        status: 'Sa pag-unlad'
+        description: 'Ipakikilala ng Tribute to Talk ang isang filter na nakabatay sa anti-spam filter - sa kasong ito para sa pagtanggap ng mga mensahe at "malamig" makipag-ugnay sa mga kahilingan mula sa mga gumagamit. Pinapayagan nito ang mga stakeholder na magtakda ng isang minimum na halaga ng SNT. Dapat itong ideposito para sa isang tao sa labas ng kanilang network na makipag-ugnay sa kanya nang direkta.'
+      dao-governance:
+        title: 'DAO at Governance'
+        status: 'Sa pananaliksik'
+        description: 'Isang pangunahing bahagi ng Status Network Token ay nagbibigay ng mga stakeholder ng kakayahang pumili ng direksyon na binuo ng software. SNT ay ginagamit para mag desisyon sa proposal, na maaaring gawin ng sino mang Stakeholder. Para sa bawat desisyon, ang token ay naka-clone sa isang hiwalay na token ng desisyo. Ang halaga ng iyong token na hinahawakan mo sa ngayon ay iyong maging kapangyarihan para sa iyong pag boto at desisyon at hindi ito gastos sa SNT sa pag boto.'
+      dapp-curation:
+        title: 'DApp Curation'
+        status: Live
+        description: 'Ang Status Dapp direktoryo ay nagbibigay gabay para sa mga stakeholders ng network para makadiskubre ng DApps, tulad ng curated ng ibang miyembro ng komunidad.  Magbibigay din ito ng isang paraan upang mag-navigate ayon sa kategorya at rating, at paganahin ng gumagamit ang eksaktong hinahanap niya. Ang SNT ay kinakailangan para sa curation at pag-sign in sa direktoryo Ang isang deposito ng SNT ay kakailanganin ng mga DApp Developers na nais na makakuha ng higit na pansin sa kanilang DApp.'
+        link: 'Mag-browse sa DApps'
+      voting-dapp:
+        title: 'Voting DApp'
+        status: Live
+        description: 'Unang hakbang para sa pamamahala ng pamayanan, Ang Status Voting DApp ay nagbibigay daan para sa mga stakeholders para ma-impluwensyahan ang hinaharap ng network. Ang Voting DApp ay maaaring magamit ng sinuman upang mag-set up ng isang boto sa komunidad na may SNT. Leveraging quadratic voting, ang halaga ng iyong SNT sa iyong pitaka ay tinutukoy kung gaano karaming mga boto ang maaari mong ibigay.'
+        link: 'Icheck ang Voting DApp'
+      acquisition-engine:
+        title: 'Acquisition Engine'
+        status: 'Sa pananaliksik'
+        description: 'Ang pagkamit ng aming misyon sa huli ay nangangailangan ng isang bagay: Malawakang paggamit at pag ampon. Gamit ang Status Network Token, kami ay nag disenyo ng mekanismo para lumago ang sinubukan naming testnet sa Web 2.0, habang nagbibigay ng higit na transparency at mas mahusay na pag-align ng mga insentibo para sa mga kalahok. Ang Status Acquisition Engine nagbibigay ng cryptographically provable at transparent na paraan ng paglaki ng base ng gumagamit..'
+    crypto-research:
+      title: 'Cryptoeconomic Research'
+      description-1: 'Ang pangkat ng Status ay nagsasagawa ng pananaliksik sa mga modelo ng cryptoeconomic bawat SNT ay may gamit para ipagbigay-alam sa pag-unlad ng produkto at tampok pati na rin ang insentibo ng Status Network <br><br>Itong modelo ng cryptoeconomic  ay isang patuloy na pagsisikap sa pagsasaliksik at hinihikayat namin ang sinuman na galugarin pagpuna, at suriin ang gawain.<br><br> Ang modelo ay tumutulong sa proyekto ng halaga ng  SNT sa tampok ng paggamit at ang epekto nito sa Status Network ipinagsama mga Halaga ng Gamit batay sa paggamit, rate ng paglago, supply ng SNT at sirkulasyon.'
+      link-1: 'Sumali #token-economics'
+      description-2: 'Sumali sa public channel at matuto nang higit pa tungkol sa aming pananaliksik'
+      link-2: 'Ipagsama ang Utility Value Workbook'
+      description-3: 'Suriin ang Status Network Combined Utility Values Workbook at subukan ang aming mga modelo'
+    learn-more:
+      title: 'Matuto ng higit pa'
+      description: "Marami sa mga SNT ang mga kaso ng paggamit ay nasa aktibong pananaliksik at pag-unlad.\nSumali sa pampublikong mga talakayan o basahin ang FAQ's upang matuto nang higit pa tungkol sa mga kaso ng SNT na gumamit at mag-sign ng pananaliksik sa ekonomiya."
+      link: 'Sumali #token-economics'
+    create-your-snt:
+      title: 'Gumawa ng sariling SNT Financial Model'
+      description: 'Hinihikayat namin ang sinumang makisali at subukan ang mga modelong pang-ekonomiya na nakabalangkas sa mga workbook. Kung ikaw ay isang mananaliksik, ekonomista, o simpleng pag-usisa tungkol sa mga modelo ng pananalapi, mangyaring kaayongmakisali.'
+      link: 'Subukan ang SNT Token Models'
+  get:
+    mobile:
+      title: Mobile
+      description: 'Makipag-chat, makipag-transaksyon, at ma-access ang isang rebolusyonaryo ng mundo ng DApps. I-Install ang Status App sa Google Playstore at mag-hello sa pampublikong channel  #mga panimula'
+      apk-file: 'APK file ay nandito'
+      link-1: 'iOS App'
+      link-2: 'Android App'
+    desktop:
+      title: 'Mac, Windows o Linux'
+      description: 'Mag-Download at i-install ang bagong Desktop alpha at simulan mag mensahe kahit saan ka magtrabaho.'
+      link-1: 'macOS App'
+      link-2: 'Linux App'
+      link-3: 'Windows App'
+      announcement: 'Ito ang Alpha Software at maaaring maglaman ng vulnerabilities.<br>Mangyaring asahan ang mga pagbabago.'
+  docs:
+    stripe:
+      title: 'Dokumentasyon ng Status'
+    title: 'Maligayang pagdating sa Status Dokumentasyon'
+    description: 'Patakbuhin ang iyong DApp sa Status, maghukay sa aming tech, alamin ang tungkol sa aming samahan o makakatulong na bumuo sa Status'
+    categories:
+      technical-documentation:
+        title: 'Gabay ng Kontribyutor'
+        description: 'Sumali sa aming ibinahaging ecosystem'
+      developer-tools:
+        title: 'Center ng Pagsasama ng DApp'
+        description: 'Patakbuhin ang iyong DApp sa Status'
+      build-status:
+        title: 'Bumuo sa Status'
+        description: 'Para sa mobile at desktop'
+      research:
+        title: 'Mga Paksa ng Pananaliksik'
+        description: 'Pagbuo ng ipinamamahagi na hinaharap'
+      team:
+        title: 'Ang aming koponan'
+        description: 'Sumali sa Status'
+      audits:
+        title: 'Panlabas na Audits'
+        description: 'Panlabas na Teknikal na Audits'
+      keycard:
+        title: 'Keycard API'
+        description: 'Secure, Makipag-ugnay, Buksan ang Pinagmulan Hardwallet'
+    pinned-repositories:
+      title: 'Mga naka-pin na Repository'
+      status-react:
+        title: status-react
+        description: 'Mga libre at bukas na pagkukunan, mobile OS para sa Ethereum'
+      status-go:
+        title: status-go
+        description: 'Ang Status module na ginagamit ni go-ethereum'
+      swarms:
+        title: swarms
+        description: 'Swarm Home. Bago, Kumpleto at mga tampok na pag-unlad para sa Status'
+      specs:
+        title: specs
+        description: 'Mga pagtutukoy para sa Status Clients.'
+    help:
+      title: 'Kami ay nandito para tumulong'
+      description: 'kami ay nagagalak na tumulong sa code o anumang mga katanungan na mayroon ka'
+      link-1: 'I-report ang Bug'
+      link-2: 'Status Community Chat'
+      link-3: 'Makipag-usap ka sa amin'
+      link-4: 'Tanungin si reddit'
+    update:
+      title: 'Kamakailan lamang na-update'
+    index:
+      intro:
+        title: 'Developer Portal'
+        teaser-1: 'Maligayang pagdating sa Status Developer Portal. Hanapin ang lahat ng kailangan mo upang simulan ang pag-ambag sa Status, gumawa ng sariling DApps at i-register ito sa dapp.'
+      box-link-1:
+        title: 'Patnubay sa Mga kontribyutor'
+        text: 'Ang Status ay libre sa pag buo at bukas na mapagkukunan ng software na walang bayad para sa kahit sino mang maghabagi, baguhin at makinabang mula sa <br>&nbsp<br> mga backgrouds lahat ng myembro sa komunidad, level ng kakayahan at mga interes na kaya nilang maiambag para sa opisyal na pag lalabas ni Status. Matuto paano gumawa sa Status, kumita ng crypto pag ma kumpleto ang mga bounties, mag-ayos ng mga bugs o gumawa ng iyong mga kinakailangan.'
+      box-link-2:
+        title: 'Center ng Pagsasama ng DApp'
+        text: 'Ang Status ay may kasamang pribado at ligtas na web3 browser at pag-access sa lumalagong ecosystem ng mga desentralisadong aplikasyon <br>&nbsp;<br> Ang Dapp Integation Center ay gabay upang ma-optimize ang mga dapp para magamit ni Status. kabilang dito ang mga mobile na pinakamahusay sa kasanayan, mga kinakailangan sa seguridad at privacy na pakikinabangan ni Status API, at paano ito ma submit sa dap.ps.'
+  footer:
+    title: 'Handa nang magsimula<br>kasama ang Status?'
+    product:
+      title: Produkto
+      apps: 'Kumuha ng app'
+      nightly: Pang-Gabi
+    status:
+      title: Status
+      jobs: Trabaho
+      white-paper: 'White Paper'
+      media-kit: 'Media Kit'
+    documentation:
+      title: Dokumentasyon
+    status-network:
+      title: 'Status Network'
+      embark: Embark
+      nimbus: Nimbus
+      keycard: Keycard
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: Subspace
+      teller: Teller
+      assemble: Assemble
+    connect: Kumonekta
+    privacy-policy:
+      title: 'Pribadong Patakaran'
+      description: 'Pananaliksik sa Status at Pag-unlad GmbH, Baarerstrasse 10, Zug, Switzerland'
+    site-analytics: 'Site Analytics'
+    messari: 'Messari Transparency Verified'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 'Tunay na Pribadong Pagmemensahe'
+        description: 'Tumanggap at magpadala ng mga naka-encrypt na mga mensahe nang walang mga gitnang server.'
+      secure-wallet:
+        title: 'Ligtas na Crypto wallet'
+        description: 'Ligtas na itabi ang iyong ETH, SNT, at iba pang crypto-assets.'
+      web3-browser:
+        title: 'Desentralisadong Web3 Browser'
+        description: 'Tuklasin ang ekosistema ng desentralisadong apps, lahat sa iisang lugar'
+    invite:
+      title: 'Sumali sa amin sa pampublikong channel<a href=''https://join.status.im/chat/public/%s'' target=''_blank''>#%s</a> at alamin kung paano ka maaaring manalo ng ilang SNT'
+      prize:
+        option-1: 'Mag register sa stateofus.eth gamit ang ENS na pangalan'
+        option-2: 'Bumili ng mga pack ng sticker'
+        option-3: 'I-upvote ang iyong mga paboritong dapps sa loob ng dap.ps'
+        option-4: 'Makilahok sa mga panukala sa Pamamahala ng Pamayanan ng Status'
+  nft-nyc:
+    invite:
+      prize:
+        option-4: 'Makilahok sa mga panukala sa Pamamahala ng Pamayanan ng Status'

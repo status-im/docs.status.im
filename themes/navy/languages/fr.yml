@@ -95,7 +95,6 @@ site:
           title: 'Groupes communautaires'
           description: 'Il existe un certain nombre de groupes organisés et gérés par Status dans la communauté Status. <br> <br> Rejoignez un groupe existant ou créez votre propre groupe en fonction de vos intérêts personnels. Les gens s’organisent partout dans le monde pour aider à promouvoir et développer ce projet open source.'
       contributors:
-        title: 'Principaux contributeurs de la communauté'
         link: 'Joignez-vous à l''équipe Status. Voir tous les postes vacants'
     developers:
       intro:

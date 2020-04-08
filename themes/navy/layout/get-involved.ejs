@@ -1,358 +1,151 @@
 <!-- The main content area -->
 <main id="main" role="main">
 
-	<!-- GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
-	<section class="get-involved-intro p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7">
-					<h1><%- __('site.get-involved.index.intro.title') %></h1>
-					<p class="teaser-1"><%- __('site.get-involved.index.intro.description') %></p>
-					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END-GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
+    <!-- GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
+    <section class="get-involved-intro p-t-160 p-b-160">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1><%- __('site.get-involved.index.intro.title') %></h1>
+                    <p class="teaser-1"><%- __('site.get-involved.index.intro.description') %></p>
+                    <div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END-GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
 
-	<!-- GET-INVOLVED-BOX-LINKS -->
-	<section class="get-involved-box-links">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-4">
-					<div class="box-link">
-						<h3 class="title"><a href="<%- show_lang() %>/docs/"><%- image_tag("/img/get-involved-development.svg") %> <%- __('site.get-involved.index.resources.resource-1.title') %></a></h3>
-						<p><%- __('site.get-involved.index.resources.resource-1.description') %></p>
-						<a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<div class="box-link">
-						<h3 class="title"><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/get-involved-educate.svg") %> <%- __('site.get-involved.index.resources.resource-2.title') %></a></h3>
-						<p><%- __('site.get-involved.index.resources.resource-2.description') %></p>
-						<a href="<%- show_lang() %>/get-involved/educators/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-					</div>
-				</div>
-				<div class="col-xl-4">
-					<div class="box-link">
-						<h3 class="title"><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/get-involved-community-groups.svg") %> <%- __('site.get-involved.index.resources.resource-3.title') %></a></h3>
-						<p><%- __('site.get-involved.index.resources.resource-3.description') %></p>
-						<a href="<%- show_lang() %>/get-involved/community-groups/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END-GET-INVOLVED-BOX-LINKS -->
+    <!-- GET-INVOLVED-BOX-LINKS -->
+    <section class="get-involved-box-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="box-link">
+                        <h3 class="title"><a href="<%- show_lang() %>/docs/"><%- image_tag("/img/get-involved-development.svg") %> <%- __('site.get-involved.index.resources.resource-1.title') %></a></h3>
+                        <p><%- __('site.get-involved.index.resources.resource-1.description') %></p>
+                        <a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="box-link">
+                        <h3 class="title"><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/get-involved-educate.svg") %> <%- __('site.get-involved.index.resources.resource-2.title') %></a></h3>
+                        <p><%- __('site.get-involved.index.resources.resource-2.description') %></p>
+                        <a href="<%- show_lang() %>/get-involved/educators/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="box-link">
+                        <h3 class="title"><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/get-involved-community-groups.svg") %> <%- __('site.get-involved.index.resources.resource-3.title') %></a></h3>
+                        <p><%- __('site.get-involved.index.resources.resource-3.description') %></p>
+                        <a href="<%- show_lang() %>/get-involved/community-groups/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END-GET-INVOLVED-BOX-LINKS -->
 
-	<!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
-	<section class="about-core-contributors top-contributors p-t-160 p-b-160" id="core-contributors">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-				</div>
-				<div class="col-md-5"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<!-- EDUCATE-TRANSLATE -->
-					<section class="get-involved-ambassador" id="ambassador">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="inner-img ambassador-1">
-										<%- image_tag("/img/ambassador-1.png") %>
-									</div>
-									<div class="inner-img ambassador-2">
-										<%- image_tag("/img/ambassador-2.png") %>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="inner padding">
-										<h2><%- __('site.get-involved.index.contributors.subtitle') %></h2>
-										<p class="teaser-2"><%- __('site.get-involved.index.contributors.description') %></p>
-										<ul>
-											<li><a href="https://ambassador.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-2') %></a></li>
-										</ul>
-										<ul>
-											<li><a href="https://github.com/status-im/ambassador.status.im#status-ambassadors-" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-3') %></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- END-EDUCATE-TRANSLATE -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="get-involved-ambassador-2 rectangle working-groups p-b-160" id="ambassador">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="inner padding">
-						<h2><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
-						<p class="teaser-2"><%- __('site.get-involved.index.contributors.description-1') %></p>
-						<p class="teaser-2"><%- __('site.get-involved.index.contributors.description-2') %></p>
-						<ul>
-							<li><a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-4') %></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="working-groups ">
-						<%- image_tag("/img/working-groups.jpg") %>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
+    <!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
+    <section class="about-core-contributors top-contributors p-t-160 p-b-160" id="core-contributors">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- EDUCATE-TRANSLATE -->
+                    <section class="get-involved-ambassador" id="ambassador">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="inner-img ambassador-1">
+                                        <%- image_tag("/img/ambassador-1.png") %>
+                                    </div>
+                                    <div class="inner-img ambassador-2">
+                                        <%- image_tag("/img/ambassador-2.png") %>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="inner padding">
+                                        <h2><%- __('site.get-involved.index.contributors.subtitle') %></h2>
+                                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description') %></p>
+                                        <ul>
+                                            <li><a href="https://ambassador.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-2') %></a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="https://github.com/status-im/ambassador.status.im#status-ambassadors-" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-3') %></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- END-EDUCATE-TRANSLATE -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-involved-ambassador-2 rectangle working-groups p-b-160" id="ambassador">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="inner padding">
+                        <h2><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
+                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description-1') %></p>
+                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description-2') %></p>
+                        <ul>
+                            <li><a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-4') %></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="working-groups ">
+                        <%- image_tag("/img/working-groups.jpg") %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
 
-	<!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
-	<section class="about-core-contributors top-contributors p-b-160" id="core-contributors">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="inner padding-left-30">
-						<h3><%- __('site.get-involved.index.contributors.title') %></h3>
-					</div>
-				</div>
-				<div class="col-md-5"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 padding-left-30">
-					<ul class="contributors row">
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/enrico.jpg", { srcset: '/img/enrico.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/enrico.jpg", { srcset: '/img/enrico.jpg 2x'}) %>    
-								<b>Enrico Del Fante</b>         
-								<span></span>         
-								<ul>          
-									<li><a href="https://twitter.com/tbenr" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>      
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/henry.jpg", { srcset: '/img/henry.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/henry.jpg", { srcset: '/img/henry.jpg 2x'}) %>    
-								<b>Henry Dada</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/HenryBitmod" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>      
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/eduardo.jpg", { srcset: '/img/eduardo.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/eduardo.jpg", { srcset: '/img/eduardo.jpg 2x'}) %>    
-								<b>Eduardo Garza</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/dondesomos1" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>      
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/cryptounknown.jpg", { srcset: '/img/cryptounknown.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/cryptounknown.jpg", { srcset: '/img/cryptounknown.jpg 2x'}) %>    
-								<b>Cryptounknown</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/CryptoUnknown" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>      
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/warsoverjohn.jpg", { srcset: '/img/warsoverjohn.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/warsoverjohn.jpg", { srcset: '/img/warsoverjohn.jpg 2x'}) %>    
-								<b>Warsoverjohn</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/Warsoverjohn1" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/sebastian.jpg", { srcset: '/img/sebastian.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/sebastian.jpg", { srcset: '/img/sebastian.jpg 2x'}) %>    
-								<b>Sebastian Moonjava</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/theDAOKING" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/sdh.png", { srcset: '/img/sdh.png 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/sdh.png", { srcset: '/img/sdh.png 2x'}) %>    
-								<b>SDH</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/shygalchi" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/danieltbar.jpg", { srcset: '/img/danieltbar.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/danieltbar.jpg", { srcset: '/img/danieltbar.jpg 2x'}) %>    
-								<b>Daniel Bar</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/danieltbar" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/kris.jpg", { srcset: '/img/kris.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/kris.jpg", { srcset: '/img/kris.jpg 2x'}) %>    
-								<b>Kris Calabio</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/KuyaKris88" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/nanda.jpg", { srcset: '/img/nanda.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/nanda.jpg", { srcset: '/img/nanda.jpg 2x'}) %>    
-								<b>Sourav Kumar Nanda</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/souravinsights" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/wondeuk.jpg", { srcset: '/img/wondeuk.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/wondeuk.jpg", { srcset: '/img/wondeuk.jpg 2x'}) %>    
-								<b>Wondeuk Cho</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/cryptojohnburre" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/lilsiri.jpg", { srcset: '/img/lilsiri.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/lilsiri.jpg", { srcset: '/img/lilsiri.jpg 2x'}) %>    
-								<b>Lilsiri</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/onebotband" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/rachid.jpg", { srcset: '/img/rachid.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/rachid.jpg", { srcset: '/img/rachid.jpg 2x'}) %>    
-								<b>Rachid Moulakhnif</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/rachid_eth" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/pearlumie.jpg", { srcset: '/img/pearlumie.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/pearlumie.jpg", { srcset: '/img/pearlumie.jpg 2x'}) %>    
-								<b>Pearlumie</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/Pearlumie" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/elpriist.png", { srcset: '/img/elpriist.png 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/elpriist.png", { srcset: '/img/elpriist.png 2x'}) %>    
-								<b>Elpriist</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/el_priist" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/joly.jpg", { srcset: '/img/joly.jpg 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/joly.jpg", { srcset: '/img/joly.jpg 2x'}) %>    
-								<b>Joselito Mutuc</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/el_priist" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-						<li class="contributor col-md-1">       
-							<a href="#" class="contributor-trigger">
-								<%- image_tag("/img/nicolas.png", { srcset: '/img/nicolas.png 2x'}) %>
-							</a>       
-							<div class="contributor-info">        
-								<%- image_tag("/img/nicolas.png", { srcset: '/img/nicolas.png 2x'}) %>    
-								<b>Nicolás V. Villarreal</b>         
-								<span></span>
-								<ul>
-									<li><a href="https://twitter.com/enevve" target="_blank"><%- image_tag("/img/icon-twitter-purple.svg") %></a></li>         
-								</ul>    
-							</div>    
-						</li>
-					</ul>
-					
-					<!-- <a href="<%- show_lang() %>/contribute/open_positions.html" class="link-arrow"><%- __('site.get-involved.index.contributors.link') %></a> -->
-
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
-
+    <!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
+    <section class="about-core-contributors top-contributors p-b-160" id="core-contributors">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="inner padding-left-30">
+                        <h3><%- __('site.get-involved.index.contributors.title') %></h3>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 padding-left-30">
+                    <ul class="contributors row">
+                        <% for (let a of site.data.ambassadors) { %>
+                        <li class="contributor col-md-1">
+                            <a href="#" class="contributor-trigger">
+                                <%- image_tag("/img/ambassadors/"+a.image) %>
+                            </a>
+                            <div class="contributor-info">
+                                <%- image_tag("/img/ambassadors/"+a.image) %>
+                                <b><%= a.name %></b>
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/<%= a.twitter %>" target="_blank">
+                                            <%- image_tag("/img/icon-twitter-purple.svg") %>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
 </main>

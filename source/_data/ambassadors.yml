@@ -1,0 +1,68 @@
+---
+- name: "Enrico Del Fante"
+  image: "enrico.jpg"
+  twitter: "tbenr"
+
+- name: "Henry Dada"
+  image: "henry.jpg"
+  twitter: "HenryBitmod"
+
+- name: "Eduardo Garza"
+  image: "eduardo.jpg"
+  twitter: "dondesomos1"
+
+- name: "Cryptounknown"
+  image: "cryptounknown.jpg"
+  twitter: "CryptoUnknown"
+
+- name: "Warsoverjohn"
+  image: "warsoverjohn.jpg"
+  twitter: "Warsoverjohn1"
+
+- name: "Sebastian Moonjava"
+  image: "sebastian.jpg"
+  twitter: "theDAOKING"
+
+- name: "SDH"
+  image: "sdh.png"
+  twitter: "shygalchi"
+
+- name: "Daniel Bar"
+  image: "danieltbar.jpg"
+  twitter: "danieltbar"
+
+- name: "Kris Calabio"
+  image: "kris.jpg"
+  twitter: "KuyaKris88"
+ 
+- name: "Sourav Kumar Nanda"
+  image: "nanda.jpg"
+  twitter: "souravinsights"
+
+- name: "Wondeuk Cho"
+  image: "wondeuk.jpg"
+  twitter: "cryptojohnburre"
+
+- name: "Lilsiri"
+  image: "lilsiri.jpg"
+  twitter: "onebotband"
+
+- name: "Rachid Moulakhnif"
+  image: "rachid.jpg"
+  twitter: "rachid_eth"
+
+- name: "Pearlumie"
+  image: "pearlumie.jpg"
+  twitter: "Pearlumie"
+
+- name: "Elpriist"
+  image: "elpriist.png"
+  twitter: "el_priist"
+
+- name: "Joselito Mutuc"
+  image: "joly.jpg"
+  twitter: "el_priist"
+
+- name: "Nicolás V. Villarreal"
+  image: "nicolas.png"
+  twitter: "enevve"

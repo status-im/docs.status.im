@@ -30,7 +30,7 @@ This will require either a Mac or Linux machine. We recommend using Ubuntu for L
 
 Building a decentralized app for different mobile environments, using different PCs and Operating Systems is an adventure. However, we have put everything we can into a simple script and detailed everything else we can think of [here](/technical/build_status/).
 
-Join us in the #support channel in [Status](https://join.status.im/chat/public/status-core-devs) or [Discord](https://discordapp.com/invite/3Exux7Y) if you can't build Status following that guide.
+Join us in the #support channel in [Status](https://join.status.im/chat/public/support) or [Discord](https://discordapp.com/invite/3Exux7Y) if you can't build Status following that guide.
 
 >If you're wanting to contribute to Embark it's best to go to [those specific docs](https://embark.status.im/). If you want to work on our smart contract and cryptoeconomic systems around Identity, Voting, ENS, Curation, and a bunch of other awesome things, then you can just start at Step 2.
 

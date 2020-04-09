@@ -9,7 +9,7 @@ This page should guide you through the initial steps of contributing to Status. 
 
 ## Help me!
 
->We know that getting set up and finding a bug which is a good fit for your skills can be a challenge. We're always looking for ways to open access, improve our processes and make it easier to participate in the open source community that is Status. If you're having any trouble following this documentation, or hit a barrier you can't get around, please ask in the #introduction room in [chat.status.im](https://chat.status.im) or contact andy@status.im. We're determined to solve hurdles for new contributors.
+>We know that getting set up and finding a bug which is a good fit for your skills can be a challenge. We're always looking for ways to open access, improve our processes and make it easier to participate in the open source community that is Status. If you're having any trouble following this documentation, or hit a barrier you can't get around, please contact us in Status in the [#support](https://join.status.im/chat/public/support) channel or in [Discord](https://discordapp.com/invite/3Exux7Y). We're determined to solve hurdles for new contributors.
 
 ## What Skillz Do I Need?
 
@@ -20,7 +20,7 @@ Status is ambitious - we have a mobile app; a desktop app; we work deep down in 
 *   If you know **Clojure**, you can contribute to [status-react](https://github.com/status-im/status-react/). This is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives. The clean separation between data and functions offered in Clojure allows us to think broadly about what we can really build using decentralized networks and the right kinds of tools. If you're a [Clojurist](http://www.braveclojure.com/introduction/), you know why ;)
 *   If you know **Clojure** and some **React Native QT**, you can contribute to [status-desktop](https://github.com/status-im/react-native-desktop), soon to be a part of the status-react repo. Desktop is one of our most exciting projects, because it will allow us to decentralize a lot of our current infrastructure and incentivise our users to run large parts of the networks from their own machines. This presents particularly interesting technical and cryptoeconomic problems and opportunities.
 *   If you have know **Node** or **JavaScript**, you can contribute to [Embark](https://github.com/embark-framework/embark/). Embark is the most cutting-edge framework for developing DApps that currently exists. Contributing here means [getting to work](https://gitter.im/embark-framework/Lobby) with some of the most passionate, productive and talented engineers building developer tools for all of Ethereum.
-*   If you are that very rare breed of human known as a **Nim** developer, you can contribute to the [status-nimbus](https://nimbus.team/) repositories. Alternatively, ping @arnetheduck in [chat.status.im](https://chat.status.im) and ask him what the Research team most needs help with.
+*   If you are that very rare breed of human known as a **Nim** developer, you can contribute to the [status-nimbus](https://nimbus.team/) repositories. Alternatively, join the Nimbus team in the [Nimbus Discord](https://discord.gg/XRxWahP) server.
 *   If you have a background in **devops**, especially distributed systems, you can contribute to [status-infrastructure](https://github.com/status-im?utf8=%E2%9C%93&q=infra&type=&language=). The challenges of keep nodes synced to the network at all times are not to be underestimated, and this is potentially some of the most interesting work in distributed systems running in production anywhere in the world.
 *   If you have a background in **security**, you can contribute to our ongoing efforts to make sure that things like Perfect Forward Secrecy are implemented properly and that everyone acting as a core contributor upholds the best practices required when working with public and adversarial networks.
 
@@ -30,7 +30,7 @@ This will require either a Mac or Linux machine. We recommend using Ubuntu for L
 
 Building a decentralized app for different mobile environments, using different PCs and Operating Systems is an adventure. However, we have put everything we can into a simple script and detailed everything else we can think of [here](/technical/build_status/).
 
-Ping us in the [#developers channel in Status](https://join.status.im/chat/public/status-core-devs) itself if you can't build Status following that guide.
+Join us in the #support channel in [Status](https://join.status.im/chat/public/status-core-devs) or [Discord](https://discordapp.com/invite/3Exux7Y) if you can't build Status following that guide.
 
 >If you're wanting to contribute to Embark it's best to go to [those specific docs](https://embark.status.im/). If you want to work on our smart contract and cryptoeconomic systems around Identity, Voting, ENS, Curation, and a bunch of other awesome things, then you can just start at Step 2.
 

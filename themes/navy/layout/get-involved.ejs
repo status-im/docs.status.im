@@ -45,8 +45,8 @@
     </section>
     <!-- END-GET-INVOLVED-BOX-LINKS -->
 
-    <!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
-    <section class="about-core-contributors top-contributors p-t-160 p-b-160" id="core-contributors">
+    <!-- WE-ARE-STATUS -->
+    <section class="p-t-160 p-b-160">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -55,7 +55,6 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <!-- EDUCATE-TRANSLATE -->
                     <section class="get-involved-ambassador" id="ambassador">
                         <div class="container">
                             <div class="row">
@@ -82,12 +81,14 @@
                             </div>
                         </div>
                     </section>
-                    <!-- END-EDUCATE-TRANSLATE -->
                 </div>
             </div>
         </div>
     </section>
-    <section class="get-involved-ambassador-2 rectangle working-groups p-b-160" id="ambassador">
+    <!-- END-WE-ARE-STATUS -->
+
+    <!-- WHAT-YOU-CAN-DO-AS-AN-AMBASSADOR -->
+    <section class="get-involved-ambassador-2 rectangle working-groups p-b-160">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -108,14 +109,14 @@
             </div>
         </div>
     </section>
-    <!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
+    <!-- END-WHAT-YOU-CAN-DO-AS-AN-AMBASSADOR -->
 
-    <!-- GET-INVOLVED-TOP-CONTRIBUTORS -->
+    <!-- STATUS-AMBASSADORS -->
     <section class="about-core-contributors top-contributors p-b-160" id="core-contributors">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="inner padding-left-30">
+                    <div class="inner title">
                         <h3><%- __('site.get-involved.index.contributors.title') %></h3>
                     </div>
                 </div>
@@ -123,7 +124,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 padding-left-30">
-                    <ul class="contributors row">
+                    <ul class="contributors row ambassador-list">
                         <% for (let a of site.data.ambassadors) { %>
                         <li class="contributor col-md-1">
                             <a href="#" class="contributor-trigger">
@@ -147,5 +148,5 @@
             </div>
         </div>
     </section>
-    <!-- END-GET-INVOLVED-TOP-CONTRIBUTORS -->
+   <!-- STATUS-AMBASSADORS -->
 </main>

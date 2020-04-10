@@ -299,13 +299,16 @@ site:
         title: "Status Ambassadors"
         subtitle: "We are Status"
         subtitle-2: "What you can do as an ambassador"
+        subtitle-3: "Listen to the voice of the Status community"
         description: "Status ambassadors build, educate, promote, and contribute to the next generation of the Web."
         description-1: "Ambassadors are free to choose our own contributions. Some of ambassadors write code, others write blog posts. Some host events and some host webinars."
         description-2: "Status ambassadors work across a range of areas and collaborate in many ways."
+        description-3: "From podcasts to Townhall meetings, join the Status community."
         link: "Join the Status Team. See all Open Position"
         link-2: "Become an ambassador"
         link-3: "Top Community Contributors"
         link-4: "Check out our shared project board"
+        link-5: "Join now"
     developers:
       intro:
         subtitle: "An Open Source Community"

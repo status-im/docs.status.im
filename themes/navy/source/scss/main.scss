@@ -2631,6 +2631,34 @@ footer{
     }
 }
 
+.get-involved-ambassador-3{
+    .inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    .status-media {
+        img {
+            width: 350px;
+            height: auto;
+            margin-left: 75px;
+        }
+    }
+    .inner-img{
+        display: inline-block;
+        float: left;
+    }
+    ul{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+       li{
+            list-style-type: none;
+            margin-bottom: 20px;
+        } 
+    }
+}
 
 .educate-translate{
     .inner{
@@ -3653,6 +3681,14 @@ img.qr-code{
             height: 400px;
         }
     }
+    .get-involved-ambassador-3{
+        .status-media {
+            img {
+                width: 340px;
+                margin-left: 65px;
+            }
+        }
+    }
     .title {
         padding-left: 10px;
     }
@@ -3683,6 +3719,14 @@ img.qr-code{
         }
         &:before{
             top: 1570px;
+        }
+    }
+    .get-involved-ambassador-3{
+        .status-media {
+            img {
+                width: 330px;
+                margin-left: 65px;
+            }
         }
     }
     .title {
@@ -3717,6 +3761,17 @@ img.qr-code{
         }
         &:before{
             visibility: hidden;
+        }
+    }
+    .get-involved-ambassador-3{
+        .status-media {
+            img {
+                width: 320px;
+                margin-left: 75px;
+            }
+        }
+        .padding {
+            padding-right: 20px;
         }
     }
     .title {
@@ -3877,6 +3932,36 @@ img.qr-code{
         p:not(.p-large){
             font-size: 13px;
             line-height: 20px;
+        }
+    }
+}
+
+@media (min-width: 875px) and (max-width: 1010px) {
+    .get-involved-ambassador-3{
+        .status-media {
+            img {
+                width: 300px;
+                margin-left: 20%;
+            }
+        }
+        .padding {
+            padding-top: 30px;
+            padding-right: 20px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 874px) {
+    .get-involved-ambassador-3{
+        .status-media {
+            img {
+                width: 275px;
+                margin-left: 15%;
+            }
+        }
+        .padding {
+            padding-top: 30px;
+            padding-right: 20px;
         }
     }
 }
@@ -4057,6 +4142,24 @@ img.qr-code{
             padding-left: 45px;
             padding-right: 20px;
         };
+    }
+
+    .get-involved-ambassador-3{
+        .media-image {
+            display: flex;
+            justify-content: center;
+        }
+        .status-media {
+            img {
+                width: 275px;
+                margin-bottom: 60px;
+                margin-left: 0;
+            }
+        }
+        .padding {
+            padding-left: 45px;
+            padding-right: 30px;
+        }
     }
 
     .title {
@@ -4787,5 +4890,15 @@ img.qr-code{
             padding-right: 20px;
         };
     }
-    
+    .get-involved-ambassador-3{
+        .status-media {
+            img {
+                width: 230px;
+            }
+        }
+        .padding {
+            padding-left: 25px;
+            padding-right: 20px;
+        }
+    }
 }

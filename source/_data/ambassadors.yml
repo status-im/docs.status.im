@@ -66,3 +66,7 @@
 - name: "Nicolás V. Villarreal"
   image: "nicolas.png"
   twitter: "enevve"
+
+- name: "Chris Kraynik"
+  image: "chris.jpg"
+  twitter: "tidus"

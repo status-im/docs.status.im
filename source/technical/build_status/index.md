@@ -1,6 +1,7 @@
 ---
 id: index
 title: Build Status Yourself
+description: Build Status and participate in a Better Web
 ---
 
 # Build Status Yourself and Participate in a Better Web

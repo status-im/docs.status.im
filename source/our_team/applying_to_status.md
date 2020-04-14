@@ -1,6 +1,7 @@
 ---
 id: applying_to_status
-title: Applying to Status 
+title: Applying to Status
+description: Find the 3 stages of our hiring process.
 ---
 
 # Applying to Status

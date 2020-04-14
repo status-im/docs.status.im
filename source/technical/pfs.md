@@ -1,6 +1,7 @@
 ---
 id: whisper_pss
 title: Status Perfect Forward Secrecy Whitepaper
+description: You can find the protocols used by Status to achieve Perfect Forward Secrecy.
 ---
 
 Status Perfect Forward Secrecy Whitepaper

@@ -1,6 +1,7 @@
 ---
 id: open_positions
-title: Open Positions 
+title: Open Positions
+description: We welcome contributors from all over the globe
 ---
 
 # Open Positions

@@ -1,6 +1,7 @@
 ---
 id: contributor_guide
 title: Contribute to Status
+description: There are many ways that you can contribute your ideas and talents to the Status ecosystem.
 layout: landingpage
 ---
 

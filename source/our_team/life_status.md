@@ -1,6 +1,7 @@
 ---
 id: life_status
 title: Life at Status
+description: Status is more than a product, it is an experiment in organization. 
 ---
 
 # Life at Status

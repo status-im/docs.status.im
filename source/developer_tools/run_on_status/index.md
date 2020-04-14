@@ -1,6 +1,7 @@
 ---
 title: Run on Status
 id: index
+description: The tutorials will help DApp publishers ensure their DApps are fully compatible with Status.
 ---
 
 # Run on Status 

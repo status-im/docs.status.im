@@ -1,5 +1,6 @@
 ---
 title: Whisper & QR Codes
+description: Status offes an API to enhance your DApp with ease.
 id: tutorial_3_status_extras
 ---
 

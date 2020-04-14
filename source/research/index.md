@@ -1,6 +1,7 @@
 ---
 id: index
-title: Research at Status  
+title: Research at Status
+description: Find our research topics and basic outlines.
 ---
 
 # Research Topics  

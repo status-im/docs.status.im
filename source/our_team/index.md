@@ -1,6 +1,7 @@
 ---
 id: index
 title: technical
+description: Learn more about the team and join our community.
 ---
 
 # Our Team 

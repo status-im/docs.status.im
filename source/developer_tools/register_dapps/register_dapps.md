@@ -1,5 +1,6 @@
 ---
 title: Register DApps
+description: Register your DApps in the DApp store.
 id: tutorial_4_register_dapps
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: applicant_privacy
-title: Applicant Privacy Policy 
+title: Applicant Privacy Policy
+description: This is a quick explanation of the data we obtain, how we use the information, and how to update/control the information.
 ---
 
 # Privacy and Principles

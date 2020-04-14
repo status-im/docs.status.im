@@ -1,6 +1,7 @@
 ---
 id: faqs
 title: Frequently Asked Questions
+description: These FAQs can help you understand Status.
 ---
 
 # Frequently Asked Questions

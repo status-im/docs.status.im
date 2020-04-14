@@ -1,6 +1,7 @@
 ---
 title: Curated DApp Store
 id: index
+description: Check out the built-in DApp store in Status.
 ---
 
 # Curated DApp Store 

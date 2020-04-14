@@ -1,6 +1,7 @@
 ---
 id: faqs
 title: Frequently Asked Questions When Joining Status
+description: Find these FAQs to learn more about the team.
 ---
 
 # Frequently Asked Questions When Joining Status

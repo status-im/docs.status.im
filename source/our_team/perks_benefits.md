@@ -1,6 +1,7 @@
 ---
 id: perks_benefits
 title: Perks & Benefits
+description: Learn more about our people and expenses guidelines.
 ---
 
 # Perks & benefits!

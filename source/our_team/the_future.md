@@ -1,6 +1,7 @@
 ---
 id: the_future
 title: The Future
+description: Our goal is to be a decentralized autonomous organization (DAO).
 ---
 
 # Where We're All Headed

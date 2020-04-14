@@ -1,5 +1,6 @@
 ---
 title: Mobile Dev Tools
+description: Develop and debug Status on mobile.
 id: tutorial_1_dev_tools
 ---
 

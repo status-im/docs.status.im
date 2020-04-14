@@ -1,5 +1,6 @@
 ---
-title: DApp Store Requirements 
+title: DApp Store Requirements
+description: Check out the requirements to get your dapp accepted into the DApp store.
 id: dapp_store_requirements
 ---
 

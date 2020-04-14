@@ -1,6 +1,7 @@
 ---
 id: assets_guidelines
 title: Asset Guidelines
+description: Optimise your DApp for Status.
 ---
 
 # Asset Guidelines

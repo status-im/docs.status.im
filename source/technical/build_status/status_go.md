@@ -1,6 +1,7 @@
 ---
 id: status_go
 title: Build status-go
+description: Status-go is an underlying part of Status depending on go-ethereum which is forked and modified by us.
 ---
 
 # Build status-go

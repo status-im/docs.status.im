@@ -1,6 +1,7 @@
 ---
 id: contributor_workflow
 title: Contributor Workflow
+description: Check out the initial steps of contributing to Status
 ---
 
 # Contribute to Status

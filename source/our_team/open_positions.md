@@ -1,6 +1,7 @@
 ---
 id: open_positions
-title: Open Positions 
+title: Open Positions
+description: Check out our open positions.
 ---
 
 # Open Positions

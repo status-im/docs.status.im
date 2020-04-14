@@ -1,5 +1,6 @@
 ---
 title: Why Status
+description: Why should you be interested in Status? 
 id: why_status
 ---
 

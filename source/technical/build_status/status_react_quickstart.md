@@ -1,6 +1,7 @@
 ---
 id: status_react_quickstart
 title: Status-React Quickstart Guide
+description: Build Status-react on your machine.
 ---
 
 Getting Started with Status-react

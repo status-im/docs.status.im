@@ -1,6 +1,7 @@
 ---
 id: run_status_node
 title: Running Status Node
+description: Status Node is an Ethereum client supporting the Status app.
 ---
 
 # Running A Status Node

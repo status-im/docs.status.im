@@ -1,5 +1,6 @@
 ---
 title: DApp Integration Center
+description: Follow the step-by-step guides to increase your audience.
 id: index
 layout: landingpage
 ---

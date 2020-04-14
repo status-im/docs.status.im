@@ -1,6 +1,7 @@
 ---
 id: our_principles
 title: Our Principles
+description: Here are our 10 principles for widespread adoption of the decentralized web.
 ---
 
 # A Principled Approach to a Better Web

@@ -100,7 +100,19 @@ site:
           title: 社区团体
           description: 'Status社区中已经有许多Status或社区创建的团队。 <br> <br>加入现有团队或根据您的个人兴趣创建自己的团队。人们在世界各地组织起来帮助促进和发展这个开源项目。'
       contributors:
+        title: 顶级社区贡献者
         link: '加入Status 团队。查看所有空缺职位'
+        subtitle: 我们是Status
+        subtitle-2: 作为大使，你能做些什么
+        description: Status大使建立，教育，推广并为下一代Web做出贡献。
+        description-1: 大使可以自由选择要做的贡献。有些大使写代码，有些则创作博客文章。有些大使主办活动，有些主办网络研讨会。
+        description-2: Status大使在多个区域开展工作，并以多种方式开展合作。
+        link-2: 成为大使
+        link-3: 顶级社区贡献者
+        link-4: 查看我们的项目看板
+        subtitle-3: 倾听Status社区的声音
+        description-3: 从播客到市政厅会议，加入Status社区。
+        link-5: 在这里听
     developers:
       intro:
         subtitle: 开源社区
@@ -224,6 +236,7 @@ site:
         title: 翻译
         description: 帮助我们把Status翻译成你的语言，我们使用lokalise来翻译应用程序、网站、文档资料以及其他。
         link: '翻译 Status.'
+        link-2: 贡献者
       educator-resources:
         title: 教育者资源
         link-1: '样式&资源'
@@ -276,6 +289,10 @@ site:
           description: 的意义是什么？
           occupation: 组织者
           name: 亚里士多德
+        account-group-6:
+          link: '#status-philippines'
+          description: 'Status 菲律宾社区'
+          occupation: 组织者
   security:
     intro:
       title: 安全设计
@@ -325,6 +342,7 @@ site:
       content-9:
         title: 对短语签名以保护免受网络钓鱼攻击
         description: Status实现了要求确认并“签署”所有交易事务所需的签名短语。签名短语是为您随机生成的3个单词短语，并存储在您的设备上，每次您尝试发送交易时都会显示该短语，并在确认交易前被要求确认。如果您不认识三个单词，或者根本没有提供三个单词，请取消交易，退出Status并将问题报告给%s
+        link: 了解有关网络钓鱼的更多详细信息
       content-10:
         title: 严谨的审计
         description-1: 随着我们的开发达到重要里程碑，经过多轮内部审核和审核，我们联系行业领先的第三方审核公司，以验证我们的成果，并对我们所做的工作进行双重/三重检查。这些安全审核不是其所属项目的安全保障。它们是来自客观第三方的额外检查，以帮助增强对预期功能安全性的信心。
@@ -705,3 +723,12 @@ site:
     invite:
       prize:
         option-4: 参与Status社区治理提案
+  nightly:
+    title-1: 'Status nightly 版本'
+    title-2: 小心危险
+    updated: 更新
+    description-1: '警告：nightly版本只用于开发测试，并且可能存在错误和其他问题。您可能想使用<a href=''https://status.im/get/''>稳定版本</a> 。'
+    description-2: '下载和安装这些版本，您需要对与数据和资金有关的所有风险承担全部责任。Status 在这些版本中对资金的安全性或完整性不做任何保证。Status建议在nightly版本中创建一个新的只用于测试的助记词。'
+    description-3: 看我们的
+    faq: 常见问题解答
+    mobile: 移动

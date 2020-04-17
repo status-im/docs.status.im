@@ -100,7 +100,19 @@ site:
           title: 'Mga Grupo ng Komunidad'
           description: 'Mayroong isang bilang ng parehong Status ang nagpapatakbo sa kumunidad na mag organisa sa mga grupo sa loob ng Status.<br><br>  Sumali sa isang umiiral na grupo o simulan ang iyong sariling pangkat batay sa iyong mga personal na interest. Ang mga tao sa buong mundo ay umaayos upang makatulong na maisulong at mapalago ang bukas na mapagkukunang proyekto.'
       contributors:
+        title: 'Status Ambassadors'
         link: 'Sumali sa pangkat ng Status. Tingnan lahat ang bakanteng posisyon'
+        subtitle: 'Kami ay Status'
+        subtitle-2: 'Ano ang magagawa mo bilang ambasador'
+        description: 'Ang mga embahador ng Status ay nagtatayo, nagtuturo, nagtataguyod, at nag-ambag sa susunod na henerasyon ng Web.'
+        description-1: 'Ang mga embahador ay malayang pumili ng aming sariling mga kontribusyon. Ang ilan sa mga embahador ay sumusulat ng code, ang iba ay sumulat ng mga post sa blog. Ang iba ay nag ho-host ng event o ng webinars.'
+        description-2: 'Status ambassadors ay nag tra-trabaho sa kabuuan ng isang hanay ng mga lugar at makipagtulungan sa maraming paraan.'
+        link-2: 'Maging isang ambasador'
+        link-3: 'Mga Nangungunang Kontribyutor ng Komunidad'
+        link-4: 'Suriin ang aming ibinahaging proyekto sa board'
+        subtitle-3: 'Makinig sa tinig ng pamayanan ng Status'
+        description-3: 'Mula sa mga podcast hanggang sa mga pulong sa Townhall, sumali sa pamayanan ng Status.'
+        link-5: 'Makinig ka rito'
     developers:
       intro:
         subtitle: 'Isang Bukas na Komunidad na Pinagmulan'
@@ -224,6 +236,7 @@ site:
         title: Isalin
         description: 'Tulungan mo kami mag localise Status sa iyong wika. Kami ay gumagamit ng lokalise upang isalin ang lahat mula sa application, website, dokumentasyon at iba pa.'
         link: 'Isalin sa Status'
+        link-2: Kontribyutor
       educator-resources:
         title: 'Mga mapagkukunan ng tagapagturo'
         link-1: 'Styleguide & Assets'
@@ -276,6 +289,10 @@ site:
           description: 'Ano ang kahulugan ng buhay?'
           occupation: Organizer
           name: Aristotle
+        account-group-6:
+          link: '#status-philippines'
+          description: 'Status para sa mga Filipino community'
+          occupation: Organizer
   security:
     intro:
       title: 'Seguridad Sa pamamagitan ng Disenyo'
@@ -440,7 +457,7 @@ site:
       title: 'Mga Aktibong Swarms'
       link: 'Tingnan lahat ng Swarms sa Github'
       inner-1:
-        title: 'Core Network Incentives'
+        title: 'Insentibo sa Core Network'
         swarm-meta: 'SNT Utility'
       inner-2:
         title: 'Sticker Market'
@@ -467,10 +484,10 @@ site:
         title: DAO
         swarm-meta: Mahahalaga
       inner-10:
-        title: 'Mga tagapangalaga'
+        title: 'Mga Janitors'
         swarm-meta: Mahahalaga
       inner-11:
-        title: Pangunahing
+        title: Core
         swarm-meta: 'Mga koponan'
       inner-12:
         title: 'Core Browser'
@@ -706,3 +723,12 @@ site:
     invite:
       prize:
         option-4: 'Makilahok sa mga panukala sa Pamamahala ng Pamayanan ng Status'
+  nightly:
+    title-1: 'Status Nightly Builds'
+    title-2: 'Mag-ingat sa Dragons!'
+    updated: Updated
+    description-1: 'Babala: Ang nightly ay inilaan para sa pagsubok sa pag-unlad at maaaring may kasamang mga bug at iba pang mga isyu. Baka gusto mong gamitin ang <a href=''https://status.im/get/''>stable releases</a> sa halip o kung maari.'
+    description-2: 'Sa pamamagitan ng pag-download at pag-install ng mga bumubuo ay ipinapalagay mo ang buong responsibilidad para sa lahat ng mga panganib tungkol sa iyong data at pondo. Ang Status ay hindi gumagawa ng mga pag-angkin ng seguridad o integridad ng mga pondo para ito ay mabuo. Ang advises ng Status ay gumamit ng ibat-bang recovery phrases para sa nightlies.'
+    description-3: 'Tingnan ang amin'
+    faq: 'General FAQ'
+    mobile: Mobile

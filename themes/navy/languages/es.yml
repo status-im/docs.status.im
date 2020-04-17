@@ -31,6 +31,10 @@ site:
     security:
       title: 'Privado y seguro por diseño'
       description: 'Status utiliza tecnología de punta para garantizar que tus mensajes y transacciones sean tuyos y solo tuyos. Status elimina intermediarios para mantener tus mensajes privados y tus activos seguros. Comunícate con confianza.'
+    status-network:
+      title: 'Status Network'
+      description: 'El Status Network es una colección de proyectos y personas dedicadas a crear herramientas e infraestructura para comunidades resilientes, sostenibles e inclusivas.'
+      link: 'Aprende más sobre La Red Status'
   features:
     intro:
       title: 'El poder de Ethereum en tu bolsillo'
@@ -46,7 +50,8 @@ site:
         link: 'Únete al canal público de Status'
       feature-2:
         title: 'Mensajería privada con Whisper'
-        description: 'Whisper utiliza enrutamiento oscuro entre pares, lo que hace imposible que nadie (incluidos nosotros) sepa algo sobre ti o con quién te estás comunicando. También estamos realizando I&D en protocolos de mensajería mejorados.'
+        description: 'Whisper utiliza enrutamiento oscuro peer-to-peer, lo que hace imposible que nadie (incluidos nosotros) sepa algo sobre ti o con quién te estás comunicando.  Planeamos mejorar Whisper con una bifurcación del protocolo llamado Waku que está desarrollando el equipo de Vac.'
+        learn-more: 'Aprende más sobre Waku'
       feature-3:
         title: 'Cifrado <br>E2E y Perfect Forward Secrecy'
         description: 'Status utiliza el algoritmo ''Double Ratchet'' sobre Whisper y el cifrado de extremo a extremo para obtener el mayor grado de seguridad y privacidad.'
@@ -57,7 +62,7 @@ site:
         description: 'La eliminación de los intermediarios te pone en control de tus fondos. Tú y sólo tú tienes tus llaves privadas de tu cripto-moneda, y ningún intermediario tiene acceso.'
       feature-2:
         title: 'Compatible con ERC20 y ERC721'
-        description: 'Soporte para tokens ERC20 y ERC721 en la red Ethereum. Envía, almacena y recibe tus tokens con confianza en Status. Contáctanos en el siguiente canal para agregar tus tokens.'
+        description: 'Soporte para tokens ERC20 y ERC721 en la red Ethereum. Envía, almacena y recibe tus tokens con confianza en Status. Agrega fácilmente tokens ERC-20 a tu billetera.'
         link: 'Únete al canal público Status Wallet'
       feature-3:
         title: 'Interactúa con pares y DApps.'
@@ -69,12 +74,12 @@ site:
         description: 'Un ecosistema creciente de DApps en tu bolsillo. Navega en los exchanges descentralizados, mercados, juegos, redes sociales y más.'
         link: 'Instala Status'
       feature-2:
-        title: '<br>Navegación privada y segura'
+        title: 'Navegación Privada y Segura'
         description: 'Status implementa los últimos estándares de seguridad para garantizar que estés seguro y libre de seguimiento y recopilación de datos. Navega en tus términos.'
       feature-3:
-        title: 'Extiende tu DApp <br>con Status'
-        description: 'Las extensiones son una herramienta para que los desarrolladores integren la funcionalidad de su DApp dentro de Status de forma nativa. Crean una experiencia de usuario perfecta directamente en Status.'
-        link: Documentación
+        title: 'Optimiza tu DApp<br> en Status'
+        description: 'El Centro de Integración de Status Dapp facilita el aprendizaje sobre Status a cualquier desarrollador de dapp, la optimización para ejecutar en Status, el aprovechamiento de sus funcionalidades únicas y el registro en Dap.ps.'
+        link: 'Optimiza y registra tu Dapp '
     get:
       title: 'Obtener Status'
       description: 'Empieza a disfrutar de Status en iOS, Android, MacOS, Windows y Linux.'
@@ -83,7 +88,7 @@ site:
     index:
       intro:
         title: 'Una comunidad de código abierto'
-        description: 'Aquí encontrarás todo lo que necesitas saber sobre cómo involucrarte y contribuir a Status. Ya sea que tu seas un desarrollador, educador, organizador de comunidad o un partidario apasionado, hay formas en las que tu puedes contribuir a Status. Aquí están los recursos para empezar.'
+        description: 'Seas un desarrollador, educador, gestor de comunidad, o un seguidor apasionado, puedes contribuir a Status. Aquí están ñps recursos para que empieces.'
       resources:
         resource-1:
           title: Desarrolladores
@@ -95,22 +100,30 @@ site:
           title: 'Grupos comunitarios'
           description: 'Hay una serie de grupos gestionados por Status y grupos organizados por la comunidad dentro de Status. <br><br>Únete a un grupo existente o comienza tu propio grupo en función de tus intereses personales. Las personas se organizan en todo el mundo para ayudar a promover y hacer crecer este proyecto de codigo abierto.'
       contributors:
+        title: 'Principales contribuidores de la comunidad'
         link: 'Únete al equipo de Status. Ve todas las posiciones abiertas'
+        subtitle: 'Somos Status'
+        subtitle-2: 'Lo que puedes hacer como embajador'
+        description: 'Los embajadores Status crean, educan, promueven, contribuyen a la próxima generación de la Web.'
+        description-1: 'Los embajadores son libres de decidir nuestras propias contribuciones. Algunos embajadores escriben código, otros escriben publicaciones de blog. Algunos actúan como anfitriones en eventos y otros en seminarios virtuales.'
+        description-2: 'Los embajadores Status trabajan en una variedad de areas y colaboran de muchas maneras.'
+        link-2: 'Conviértete en embajador'
+        link-3: 'Principales Contribuidores de la Comunidad'
+        link-4: 'Echa un vistazo a nuestro tablero compartido de proyecto '
     developers:
       intro:
         subtitle: 'Una comunidad de código abierto'
         title: Desarrollo
         description: 'Bienvenido al portal de desarrolladores de Status. Encuentra todo lo que necesitas para empezar a contribuir a Status, construyendo tus propios DApps, o ampliando tu trabajo con las funciones nativas de Status.'
       quick-nav-sub:
-        link-1: 'Contribuir a Status'
-        link-2: 'Construir DApps'
-        link-3: 'Extender DApps'
-        link-4: 'Recursos para desarrolladores'
-        link-5: Github
+        link-1: Empezar
+        link-2: 'Repositorios, problemas y recompensas'
+        link-3: 'Recursos para desarrolladores'
+        link-4: Github
       contribute-to-status:
-        title: 'Contribuir a Status'
-        description: 'Prepárate con esta guía para contibuidores.'
-        link: 'Guía de inicio rápido'
+        title: Empezar
+        description: 'Nuestro proyecto de código abierto'
+        link: 'Guía de Contribuidor'
         status-react:
           title: Status-React
           description: 'Escrito en Clojure - aquí es donde manejamos las interacciones entre Whisper y la aplicación; entre la billetera, el usuario y cualquier aplicación distribuida (DApp) a la que quieran acceder; y donde vive la lógica de la interfaz de usuario.'
@@ -137,7 +150,7 @@ site:
         build-dapp:
           title: 'Construye tu propia DApp'
           description: 'Empieza a utilizar nuestras herramientas y frameworks para construir tu propia aplicación descentralizada.'
-          link-1: 'Optimiza para dispositivos móviles con la API de Javascript'
+          link-1: 'Centro de Integración de DApps'
           link-2: 'Construye tu propia DApp con Embark'
           link-3: 'Accede a proveedores Web3 y detecta Status'
           link-4: 'Envía tu DApp a la lista de DApp de Status.'
@@ -183,6 +196,12 @@ site:
         contact-us:
           link: Contáctanos
           description: 'Para todo lo demás, envíanos un correo electrónico directamente.'
+      repositories:
+        title: 'Repositorios, problemas abiertos y recompensas'
+      build-for-status:
+        title: 'Construye para Status'
+        description: 'Obtenga su DApp en Status en el'
+        link: 'Centro de integración de DApp'
     educators:
       intro:
         subtitle: 'Una comunidad de código abierto'
@@ -214,6 +233,7 @@ site:
         title: Traduce
         description: 'Ayúdanos a localizar Status en tu idioma. Usamos lokalise para traducir todo, desde la aplicación, el sitio web, la documentación y más.'
         link: 'Traduce Status'
+        link-2: Contribuidores
       educator-resources:
         title: 'Recursos para educadores'
         link-1: 'Guía de estilo y materiales'
@@ -266,6 +286,10 @@ site:
           description: '¿Cuál es el significado de la vida?'
           occupation: Organizador
           name: Aristotle
+        account-group-6:
+          link: '#status-philippines'
+          description: 'Status para la comunidad Filipina'
+          occupation: Organizador
   security:
     intro:
       title: 'Seguro por diseño'
@@ -275,6 +299,7 @@ site:
       title: 'Seguridad en Status'
       secure-inner-1:
         title: '<br>Mensajería segura'
+        description: 'Los mensajes no son censurados, ni bloqueados, y permanecen anónimos si el usuario así lo desea. Sólo los destinatarios previstos pueden ver los mensajes.'
       secure-inner-2:
         title: '<br>Transacciones financieras seguras'
         description: 'Enviar, almacenar y recibir criptomonedas o tokens dentro de la billetera de Status está a salvo de ataques. Las claves privadas nunca están expuestas. Las transacciones solo se procesan cuando son iniciadas y confirmadas por el propietario de las claves privadas.'
@@ -314,11 +339,24 @@ site:
       content-9:
         title: 'Frase de firma para protegerse de los ataques de phishing'
         description: 'Status implementa una frase de firma requerida para confirmar y "firmar" todas las transacciones. La frase de firma es una frase de 3 palabras generada aleatoriamente para ti y almacenada localmente en tu dispositivo que se presenta cada vez que intentas enviar una transacción. Se te presentará tu frase de firma y se te pedirá que la aceptes antes de que se confirme la transacción. Si no reconoces tus tres palabras, o no se te presentan las tres palabras en absoluto, cancela la transacción, cierra la sesión de Status e informa el problema a %s'
+        link: 'Aprende más sobre el phishing'
       content-10:
         title: 'Auditoria rigurosa'
         description-1: 'A medida que alcanzamos los principales hitos en el desarrollo, después de las rondas de revisión y auditoría interna, contactamos a firmas de auditoría líderes en la industria, para verificar nuestra cordura, y comprobar doble/triplemente el trabajo que hacemos. Estas auditorías de seguridad no son garantías de seguridad en los proyectos a los que pertenecen. Son comprobaciones adicionales de terceros objetivos para ayudar a reforzar la confianza en la seguridad de la funcionalidad prevista.'
         description-2: 'Para información y detalles sobre todas las auditorías externas, por favor ve los %s.'
         description-3: 'Si encuentras un bug o vulnerabilidad en nuestro código, por favor repórtalo a %s.'
+        ENS:
+          title: 'Contrato inteligente de ENS con Sigma Prime'
+          commit: 'Octubre 2018 - Contrato de nombre de usuario de ENS - commit hash eaefa92'
+          report: reporte
+          tests: pruebas
+          code: código
+          blog: 'entrada en el blog'
+        dejavu:
+          title: 'Auditoría Deja Vu Beta'
+          commit: '07 de mayo de 2018: repositorios Status-go y Status-react con Deja Vu'
+          report: reporte
+          blog: 'entrada en el blog'
       content-11:
         title: 'Edúcate para mantenerte seguro'
         description: 'Los productos descentralizados y sin servidor como Status eliminan una cantidad de intermediarios innecesarios, lo que te permite chatear, realizar transacciones y navegar sin temor a la vigilancia, la censura y la fuga de datos. Esto se debe a que tu controlas tus datos y tu propia seguridad digital. Por lo tanto, es importante que comprendas cómo protegerte. Obtén más información sobre cómo mantenerse seguro con esta guía de prácticas de seguridad recomendadas de Status.'
@@ -345,8 +383,11 @@ site:
         title: Documentación
         description: 'Todo lo que necesitas para iniciar a <br>desarrollar con Status'
         link: Documentos
-        link-1: Empezar
-        link-2: 'Construye Status'
+        link-1: 'Integración de DApp'
+        link-2: 'Guía de Contribuidor'
+        link-3: 'Únete a nuestro equipo'
+        link-4: Seguridad
+        link-5: Especificaciones
       about: 'Acerca de'
       blog: Blog
       snt-utility: 'Utilidad SNT'
@@ -487,7 +528,8 @@ site:
         link: 'Ver todos los casos de uso de SNT'
       inner-2:
         title: 'Código abierto'
-        description: 'Status es un proyecto de código abierto en el que cualquiera puede usar el código y el token para satisfacer sus necesidades. Nuestra investigación muestra que las estructuras de código abierto y gobernanza impactan el valor económico del proyecto.'
+        description: 'Status es un proyecto completamente de código abierto en el que cualquiera puede usar el código y el token para adaptarlo a sus necesidades. Status está verificado por el Messari Disclosures Registry.'
+        link: 'Registro de Divulgaciones de Messari'
       inner-3:
         title: 'Usuarios como partícipes'
         description: 'Con SNT, creamos una red de usuarios como partícipes, lo que permite que el comportamiento de la red y su software se alinee con los intereses de sus usuarios.'
@@ -556,7 +598,7 @@ site:
   get:
     mobile:
       title: Móvil
-      description: 'Chatea, realiza transacciones y accede a un mundo revolucionario de DApps. Instala la última versión beta y di hola en el canal público #introductions. Accede a esta versión'
+      description: 'Chatea, realiza transacciones y accede a un revolucionario mundo de DApps. Instala Status en la App y Google Playstore y saluda en el canal público #introductions.'
       apk-file: 'Archivo APK aquí'
       link-1: 'App iOS'
       link-2: 'App Android'
@@ -571,35 +613,29 @@ site:
     stripe:
       title: 'Documentación de Status'
     title: '¡Bienvenidos a la documentación de Status!'
-    description: 'Familiaríziate con los flujos de trabajo y proyectos:'
+    description: 'Ejecuta tu DApp en Status, profundiza en nuestra tecnología, aprende sobre nuestra organización o ayuda a crear Status'
     categories:
       technical-documentation:
-        title: 'Documentación técnica'
-        description: 'Creciendo nuestro ecosistema distribuido'
+        title: 'Guía de Contribuidor'
+        description: 'Únete a nuestro ecosistema distribuido'
       developer-tools:
         title: 'Centro de integración de DApp'
-        description: 'Extensiones y JS API'
+        description: 'Ejecuta tu DApp en Status'
       build-status:
         title: 'Construye Status'
         description: 'Para dispositivos móviles y de escritorio'
-      extensions:
-        title: Extensiones
-        description: 'Extenderse hacia el futuro'
       research:
-        title: Investigación
-        description: '¡Sumérgete! Aprende más.'
-      security:
-        title: Seguridad
-        description: 'Mejores prácticas de Status'
-      guides:
-        title: Guías
-        description: 'Cómo manejamos las cosas'
-      tutorials:
-        title: Tutoriales
-        description: 'Aprende por ti mismo'
-      life-at-status:
-        title: 'La vida en Status'
-        description: 'Descentralización día-a-día'
+        title: 'Temas de investigación'
+        description: 'Construyendo el futuro distribuido'
+      team:
+        title: 'Nuestro equipo'
+        description: 'Únete a #status'
+      audits:
+        title: 'Auditorías externas'
+        description: 'Auditorias Técnicas Externas'
+      keycard:
+        title: 'API de tarjeta llave'
+        description: 'Hardwallet seguro, sin contacto y de código abierto'
     pinned-repositories:
       title: 'Repositorios anclados'
       status-react:
@@ -611,25 +647,39 @@ site:
       swarms:
         title: enjambres
         description: 'Hogar enjambre. Funciones nuevas, completadas y en curso para Status.'
+      specs:
+        title: especificaciones
+        description: 'Especificaciones para clientes de Status'
     help:
       title: '¡Estamos aquí para ayudar!'
       description: 'Siempre estamos encantados de ayudar con código o cualquier pregunta que tengas.'
       link-1: 'Reportar un Bug'
       link-2: 'Chat de la comunidad de Status'
-      link-3: 'Envíanos un correo electrónico'
+      link-3: 'Chatea con nosotros'
       link-4: 'Pregunta en reddit'
     update:
       title: 'Recientemente actualizado'
+    index:
+      intro:
+        title: 'Portal para desarrolladores'
+        teaser-1: 'Bienvenido al portal de desarrolladores de Status. Encuentra todo lo que necesitas para empezar a contribuir a Status, construyendo tus propios DApps, o ampliando tu trabajo con las funciones nativas de Status.'
+      box-link-1:
+        title: 'Guía de colaboradores'
+        text: 'Status está creando software libre y de código abierto, libre para cualquiera que quiera compartirlo, modificarlo y aprovecharlo. Individuos de comunidades de distintos ambientes, niveles de habilidad, e intereses pueden contribuir a los lanzamientos oficiales de Status. Aprende cómo crear Status, ganar cryptos por completar bounties, corregir bugs, o crear cosas que necesites.'
+      box-link-2:
+        title: 'Centro de integración de DApp'
+        text: 'Status incluye un navegador web3 privado y seguro y acceso al creciente ecosistema de aplicaciones descentralizadas El<br> Centro de Integración</br> Dapp<br> es una guía paso a paso para optimizar los dapps para su uso en Status. Esto incluye las mejores prácticas de primeros móviles, los requisitos de seguridad y privacidad, el aprovechamiento de la API de Status, y la forma de presentar dap.ps.</br>'
   footer:
     title: '¿Listo/a para empezar <br>con Status?'
     product:
       title: Producto
-      nightly: Nocturna
-      apps: Apps
+      apps: 'Consigue la aplicación'
+      nightly: Nocturno
     status:
       title: Status
       jobs: Vacantes
       white-paper: 'White Paper'
+      media-kit: 'Media Kit'
     documentation:
       title: Documentación
     status-network:
@@ -637,12 +687,45 @@ site:
       embark: Embark
       nimbus: Nimbus
       keycard: Keycard
-      dap-ps: "Dap.ps"
-      subspace: "Subspace"
-      teller: "Teller"
-      assemble: "Assemble"
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: Subspace
+      teller: Teller
+      assemble: Ensamblar
     connect: Conectar
     privacy-policy:
       title: 'Política de privacidad'
       description: 'Status Research & Development GmbH, Baarerstrasse 10, Zug, Suiza'
     site-analytics: 'Análisis del sitio'
+    messari: 'Transparencia de Messari verificada'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 'Mensajería verdaderamente privada'
+        description: 'Envía y recibe mensajes totalmente encriptados sin ningún servidor central.'
+      secure-wallet:
+        title: 'Cripto billetera segura'
+        description: 'Almacena de forma segura tu ETH, SNT y otros cripto-activos.'
+      web3-browser:
+        title: 'Navegador Web3 descentralizado'
+        description: 'Descubre el ecosistema de apps descentralizadas, todas juntas en un solo lugar.'
+    invite:
+      title: 'Júntate con nosotros en el canal público <a href=''https://join.status.im/chat/public/%s'' target=''_blank''>#%s</a> y aprende cómo puedes ganar con algo de SNT'
+      prize:
+        option-1: 'Registra un nombre ENS de stateofus.eth'
+        option-2: 'Compra sticker packs'
+        option-3: 'Vota tus dapps favoritos dentro de dap.ps'
+        option-4: 'Participa en las propuestas de gobernanza comunitaria de Status'
+  nft-nyc:
+    invite:
+      prize:
+        option-4: 'Participa en las propuestas de Governanza de la Comunidad Status'
+  nightly:
+    title-1: 'Paquetes Nigthly de Status'
+    title-2: '¡Ten cuidado!'
+    updated: Actualizado
+    description-1: 'Advertencia: Los paquetes Nightly estan hechos para pruebas de desarrolo y pueden incluir errores u otros problemas. Es posible que en su lugar desee utilizar las <a href=''https://status.im/get/''>versiones estables</a>.'
+    description-2: 'Al descargar e instalar estos paquetes, asumes la responsabilidad total de todos los riesgos que le conciernen a tus datos y fondos. Statis no hace reclamos de seguridad o integridad de fondos en estos paquetes. Status aconseja el uso de distintas frases de recuperación en nightlies.'
+    description-3: 'Mira nuestro'
+    faq: 'Preguntas frecuentes generales'
+    mobile: Móvil

@@ -100,7 +100,16 @@ site:
           title: 'Grup Komunitas'
           description: 'Ada sejumlah grup Status run dan kelompok yang dikelola komunitas dalam komunitas Status. <br> <br> Bergabunglah dengan grup yang ada atau mulai grup Anda sendiri berdasarkan minat pribadi Anda. Orang-orang mengatur seluruh dunia untuk membantu mempromosikan dan menumbuhkan proyek sumber terbuka ini.'
       contributors:
+        title: 'Kontributor Komunitas Teratas'
         link: 'Bergabunglah dengan Tim Status. Lihat semua Posisi Terbuka'
+        subtitle: 'Kami adalah Status'
+        subtitle-2: 'Apa yang bisa Anda lakukan sebagai duta besar'
+        description: 'Duta Status membangun, mendidik, mempromosikan, dan berkontribusi pada generasi Web selanjutnya.'
+        description-1: 'Duta besar bebas memilih kontribusi kami sendiri. Beberapa duta besar menulis kode, yang lain menulis posting blog. Beberapa acara host dan beberapa webinar host.'
+        description-2: 'Duta Status bekerja di berbagai bidang dan berkolaborasi dalam banyak cara.'
+        link-2: 'Menjadi duta besar'
+        link-3: 'Kontributor Komunitas Teratas'
+        link-4: 'Lihatlah papan proyek bersama kami'
     developers:
       intro:
         subtitle: 'Komunitas Sumber Terbuka'
@@ -224,6 +233,7 @@ site:
         title: Menterjemahkan
         description: 'Bantu kami melokalisasi Status ke dalam bahasa Anda. Kami menggunakan lokalise untuk menerjemahkan semuanya dari aplikasi, situs web, dokumentasi dan banyak lagi.'
         link: 'Status Terjemahan'
+        link-2: Kontributor
       educator-resources:
         title: 'Sumber Daya Pendidik'
         link-1: 'Styleguide & Aset'
@@ -276,6 +286,10 @@ site:
           description: 'apa arti kehidupan?'
           occupation: Penyelenggara
           name: Aristotle
+        account-group-6:
+          link: '#status-Philippines'
+          description: 'Status untuk komunitas Filipina'
+          occupation: Penyelenggara
   security:
     intro:
       title: 'Desain Dengan Aman'
@@ -706,3 +720,12 @@ site:
     invite:
       prize:
         option-4: 'Ikut serta dalam proposal Status Community Governance'
+  nightly:
+    title-1: 'Status Nightly Builds'
+    title-2: 'Waspadai Naga!'
+    updated: Diperbarui
+    description-1: 'Peringatan: Nightly builds dimaksudkan untuk pengujian pengembangan dan mungkin termasuk bug dan masalah lainnya. Anda mungkin ingin menggunakan <a href=''https://status.im/get/''> rilis stabil </a> .'
+    description-2: 'Dengan mengunduh dan memasang build ini, Anda bertanggung jawab penuh atas semua risiko terkait data dan dana Anda. Status tidak membuat klaim keamanan atau integritas dana dalam bangunan ini. Status menyarankan penggunaan frasa pemulihan yang berbeda di nightlies.'
+    description-3: 'Lihat kami'
+    faq: 'FAQ umum'
+    mobile: Mobile

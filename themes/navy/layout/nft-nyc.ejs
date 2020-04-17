@@ -10,21 +10,21 @@
 						<div class="row">
 							<div class="col-md-9">
 								<%- image_tag("/img/nft-nyc.svg" , { class: 'm-b-25'}) %>
-								<h1><%- __('site.nft-nyc.intro.title') %></h1>
+								<h1>Install Status on your mobile phone, join the <a href='http://join.status.im/chat/public/nft-nyc'>#nft-nyc</a> public channel, and get 100 SNT</h1>
 								<ul class="features m-t-50 m-b-50">
 									<li>
 										<div class="li-inner">
-											<p><%- __('site.nft-nyc.intro.list.item-1') %></p>
+											<p>Download Status for iOS or Android from the links below</p>
 										</div>
 									</li>
 									<li>
 										<div class="li-inner">
-											<p><%- __('site.nft-nyc.intro.list.item-2') %></p>
+											<p>Create an account and join the public channel #nft-nyc</p>
 										</div>
 									</li>
 									<li>
 										<div class="li-inner">
-											<p><%- __('site.nft-nyc.intro.list.item-3') %></p>
+											<p>Introduce yourself and someone from the Status team will start a private chat with you and send some SNT</p>
 										</div>
 									</li>
 								</ul>
@@ -52,17 +52,17 @@
 					<h3 class="text-center">
 						<% for (var channel in site.data.channels) { 
 							if(channel == page.lang) { %>
-								<%- __('site.nft-nyc.invite.title', site.data.channels[channel]['name'], site.data.channels[channel]['name']) %>
+								<%- __('Use your SNT to', site.data.channels[channel]['name'], site.data.channels[channel]['name']) %>
 							<% } %>
 						<% } %>
 					</h3>
 				</div>
 				<div class="col-md-10 ml-auto mr-auto">
 					<ul>
-						<li><%- __('site.nft-nyc.invite.prize.option-1') %></li>
-						<li><%- __('site.nft-nyc.invite.prize.option-2') %></li>
-						<li><%- __('site.nft-nyc.invite.prize.option-3') %></li>
-						<li><%- __('site.nft-nyc.invite.prize.option-4') %></li>
+						<li>Register a stateofus.eth ENS Name</li>
+						<li>Purchase sticker packs</li>
+						<li>Upvote your favorite dapps within dap.ps</li>
+						<li>Take part in Status Community Governance proposals</li>
 					</ul>
 				</div>
 			</div>

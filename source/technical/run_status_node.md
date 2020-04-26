@@ -36,7 +36,7 @@ Another reason is privacy. In the current setup, nodes that are running as Mail 
 
 ## How To Run It
 
-First, visit [build status-go](/build_status/status_go.html) in order to compile a binary.
+First, visit [build status-go](/technical/build_status/status_go.html) in order to compile a binary.
 
 When you get it, open a Terminal window and run
 ```bash

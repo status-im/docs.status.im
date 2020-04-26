@@ -33,7 +33,7 @@ The debut production release of Status is a mobile app for Android and iOS. As s
 <ul><li>responsive layout that adjusts to the user’s screen dimensions </li><li>observes generally-accepted best-practices for mobile browser content </li><li>optimizes images to load quickly over lower bandwidth connections</li><li>avoids interstitials and pop-ups that could block mobile users </li></ul>
 </div>
 
-As noted in the asset guidelines in the Status docs ([https://status.im/developer_tools/assets_guidelines.html](https://status.im/developer_tools/assets_guidelines.html)), if you find yourself pinching the screen to zoom out or zoom in, you need to resolve those issues.
+As noted in the asset guidelines in the Status docs ([https://status.im/developer_tools/run_on_status/assets_guidelines.html](https://status.im/developer_tools/run_on_status/assets_guidelines.html)), if you find yourself pinching the screen to zoom out or zoom in, you need to resolve those issues.
 
 ## Introducing EIP-1102
 

@@ -7,7 +7,7 @@ title: Status JavaScript API
 
 On top of regular `web3` access, Status offers a set of API available to DApps developers.
 
-When [Status is the host browser](https://docs.status.im/docs/status_optimized.html#detecting-status), DApp developers can request access to Status-specific data using the JavaScript API available at `window.ethereum.status`. 
+When Status is the host browser, DApp developers can request access to Status-specific data using the JavaScript API available at `window.ethereum.status`. 
 
 #### JavaScript API methods
 

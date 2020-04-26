@@ -43,7 +43,7 @@ To run Android-x86, you will need one of VirtualBox or VMware and you will need 
 
 **Option 4**: XCode is an iOS simulator for Mac and Ubuntu. This tool is popular among developers who work on the Status client. You can also use it to test your DApp in a simulated iOS environment. 
 
-Visit the Status technical documentation for setup instructions: [https://status.im/build_status/status_react_quickstart.html](https://status.im/build_status/status_react_quickstart.html). 
+Visit the Status technical documentation for setup instructions: [https://status.im/technical/build_status/status_react_quickstart.html](/technical/build_status/status_react_quickstart.html). 
 
 **Option 5**: TeamViewer Quick Support is a remote viewer available for Windows and Mac. Get TeamViewer Quick Support from https://www.teamviewer.com/en/solutions/support-mobile-devices/ for Windows or Mac and use it to control Android and iOS devices using your workstation’s keyboard, display, and mouse. 
 

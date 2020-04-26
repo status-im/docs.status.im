@@ -157,11 +157,21 @@
                                 <%- image_tag("/img/ambassadors/"+a.image) %>
                                 <b><%= a.name %></b>
                                 <ul>
+                                    <% if (a.twitter) { %>
+                                        <li>
+                                            <a href="https://twitter.com/<%= a.twitter %>" target="_blank">
+                                                <%- image_tag("/img/icon-twitter-purple.svg") %>
+                                            </a>
+                                        </li>
+                                    <% } %>
+
+                                    <% if (a.status) { %>
                                     <li>
-                                        <a href="https://twitter.com/<%= a.twitter %>" target="_blank">
-                                            <%- image_tag("/img/icon-twitter-purple.svg") %>
+                                        <a href="https://join.status.im/user/<%= a.status %>" target="_blank">
+                                            <%- image_tag("/img/icon-status-purple.svg") %>
                                         </a>
                                     </li>
+                                    <% } %>
                                 </ul>
                             </div>
                         </li>

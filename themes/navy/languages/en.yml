@@ -461,12 +461,12 @@ site:
         link-2: "Submit a new group"
       community-groups:
         account-group-1:
-          link: "#Status-ambassadors"
+          link: "#statusphere"
           description: "A group of people dedicated to helping, contributing, and building the Status community."
           occupation: "Organizer"
           name: "Us"
         account-group-2:
-          link: "#Status-Korean"
+          link: "#status-korean"
           description: "A group of passionate developers, makers, creators, and enthusiasts based in South Korea."
           occupation: "Organizer"
           name: "Jinho Jang"

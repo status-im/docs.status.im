@@ -38,7 +38,6 @@ site:
   features:
     intro:
       title: 'Ang kapangyarihan ng Ethereum ay nasa iyong bulsa'
-      description: 'Ang Status ay isang tool na pangkomunikasyon na may multi-purpose na pinagsasama ang isang messenger ng peer-to-peer, desentralisadong crypto-wallet, at browser ng Web3.'
       link-messenger: Messenger
       link-wallet: Crypto-wallet
       link-browser: 'Browser at DApps'
@@ -49,8 +48,7 @@ site:
         description: 'Sumali sa anumang bilang ng mga pampublikong channel o magpadala ng pribadong chat 1: 1 o mga group chats. Maaari ka ring magpadala at makatanggap ng mga pagbabayad ng crypto nang direkta sa iyong mga pribadong chat.'
         link: 'Sumali sa Status Pampublikong Channel'
       feature-2:
-        title: 'Pribadong mensahe sa Whisper'
-        description: 'Ang Whisper ay gumagamit ng peer-to-peer dark routing para maging posible sa lahat (kasali kami) para malaman namin ang tungkol sayo kung sino ang kinakausap namin. My mga plano kami na mabuti ang Whisper gamit ang fork ng Protocol tinatawag naming Waku na binuo ng koponan ng Vac.'
+        title: 'Pribadong mensahe sa Waku'
         learn-more: 'Matuto ng mas marami tungkol sa Waku'
       feature-3:
         title: 'Perpektong pasulong na lihim at <br>E2E Encryption'
@@ -292,11 +290,9 @@ site:
       title: 'Seguridad Sa pamamagitan ng Disenyo'
       description-1: 'Ang Status ay naglalayong maging isang tunay na desentralisadong tool sa komunikasyon - kalaunan ay tinanggal ang lahat ng mga ikatlong partido at pinaliit ang mga pag-atake ng mga vectors para sa mga nakakahamak na aktor.'
       description-2: 'Ang tunay na pakinabang ng Web3 ay ang kakayahang makipagtransaksyon at makipag-usap sa aming sariling mga termino - ng walang gitnang tao.Upang tamasahin ang ganitong uri ng libreng komunikasyon, kami ay kumpiyansa na ang aming mga mensahe, transaksyon, pagkakakilanlan, at pondo ay ligtas na ligtas. Dagdagan ang nalalaman tungkol sa diskarte sa Status sa seguridad sa ibaba.'
-    security-at-status:
-      title: 'Seguridad sa Status'
+    security-at-status:   
       secure-inner-1:
         title: Ligtas<br>Mensahe
-        description: 'Ang mga mensahe ay hindi nai-censor, hinarangan, at nananatiling hindi nagpapakilalang kung pipiliin ito ng gumagamit. Mga inilaang tatanggap lamang ang makakakita ng mga mensahe.'
       secure-inner-2:
         title: 'Ligtas na Pinansyal<br>transaksyon'
         description: 'Pagpapadala, pag-iimbak, at pagtanggap ng cryptocurrency o token sa Status wallet ay ligtas sa mga pag-atake. Ang mga pribadong key ay hindi nalantad.  Ang mga transaksyon ay pinoproseso lamang kung sinimulan at kumpirmado ng may-ari ng mga pribadong key.'
@@ -308,19 +304,13 @@ site:
         title: 'Secure Identity'
         description: 'Ang iyong pagkakakilanlan sa Status ay nagsisimula sa isang lokal na nabuong cryptographic keypair,  na kung saan ay protektado sa pamamagitan ng isang password. Iyon lang ang kinakailangan. Ang gumagamit ay pagkatapos ay may kakayahang magdagdag ng impormasyon sa kanilang profile upang mabuo kung sino sila sa Status. Sa lahat ng oras ang gumagamit ay may ganap na kontrol sa kanilang impormasyon, at kung sino ang may access dito. Ang end user ay maaaring maging pampubliko o pribado ayon sa gusto nila.'
       content-2:
-        title: 'Peer-to-Peer Serverless Messaging'
-        description: 'Ang Status ay gumagamit ng Whisper protocol para sa peer-to-peer (p2p) komunikasyon, na nangangahulugang walang mga pagproseso ng server o pag-iimbak ng iyong mga mensahe. Sa halip, Whisper nakasalalay sa isang network ng peers upang mag ruta ng mga mensahe sa bawat isa. Ang bawat mensahe na ipinadala ay nai-broadcast sa buong network,at naka-encrypt para lamang sa inilaang tatanggap upang buksan. Ang epekto ng bawat mensahe na nagbaha sa network ay kilala bilang madilim na ruta, at pinoprotektahan hindi lamang ang nilalaman ng iyong mga mensahe kundi pati na rin ang metadata tungkol sa kung saan ka nakikipag-usap mula sa, kanino, atbp Ito ang pinakamataas na pamantayan ng seguridad at privacy sa online na pagmemensahe , at ang pangkat ng Katayuan ay nagsasaliksik ng mas maraming nasusukat at mahusay na paraan ng paghahatid ng pamantayang ito.'
-        link: 'Matuto ng mas marami tungkol sa Whisper'
+        link: 'Matuto ng mas marami tungkol sa Waku'
       content-3:
         title: 'End-to-End Encryption na Default'
-        description: 'Lahat ng mga pribadong mensahe na ipinadala sa Whisper ay naka encrypted dulo hangang dulo at ito''y naka default. Kapag ikaw ay gagawa ng Status account, Isang cryptographic keypair ay mabubuo para ma encrypt ang iyong mga mensahe at naka tago ito sa iyong mobile device. Kapag nagdagdag ka ng isang bagong contact sa Status, kailangan mong palitan ang iyong public keys upang ang taong iyon ay ma-decrypt ang iyong mensahe kapag ikaw ay tatangap galing sa network.'
       content-4:
         title: 'Perfect Forward Secrecy'
         description: 'PFS ay isang tampok ng mga tukoy na protocol ng key-agreement na nagbibigay ng katiyakan na ang iyong mga susi ng session ay hindi makompromiso kahit na ang mga pribadong key ng mga kalahok ay nakompromiso. Partikular, sa mga huli mong mensahe, hindi ito naka decrypted ng  kahit ano mang pangatlong partido na nagmamahala o humawak ng iyong pribadong susi. Ito ay binuo gamit ang X3DH at Double Rachet specification  mula sa Open Whisper System, kasama ang pag adapt at mamahala para sa desentalisadong kapaligiran.Ang perpektong Forward Secrecy ay isang idinagdag na layer ng seguridad para sa lahat ng iyong 1: 1 na pribadong chat.'
         link: 'Dagdagan ang nalalaman tungkol sa PFS'
-      content-5:
-        title: 'Serverless Account Creation'
-        description: 'Kapag lumikha ka ng isang bagong account sa Status, hindi ka hilingin sa pag-verify ng mga third party tulad ng isang email o numero ng telepono. Nangangahulugan ito na maaari kang mag-sign up at lumikha ng isang Status account na ganap na hindi nagpapakilala. Kapag lumikha ka ng isang account, ikaw lamang at ang iyong mga susi.Nangangahulugan din ito na ang dalawang factor na pagpapatunay at pagbawi ng password ay hindi mga tampok sa Status - kaya siguraduhing tandaan ang iyong password at mnemonic phrase at itago ang mga ito sa offline o sa lugar na lubos na ligtas.'
       content-6:
         title: 'Paano naka-imbak ang aking mga susi?'
         description-1: 'Ang Status ay hindi kailanman gagamit ng mga serbisyo ng third party para sa pamamahala at pag-iimbak ng iyong pampubliko at pribadong key. Kapag nabuo, ang unang BIP44 key ay nai-save sa isang keystore json file nang lokal sa iyong aparato. Ang file na ito ay naka-encrypt gamit ang password na pinili mo para sa iyong Status account at at maa-access lamang sa Status app. Inuuna namin ang pag-iimbak ng sensitibong impormasyon sa ligtas na hardware kapag magagamit ito sa iyong aparato.'

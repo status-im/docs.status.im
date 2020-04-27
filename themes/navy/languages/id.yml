@@ -38,7 +38,6 @@ site:
   features:
     intro:
       title: 'Kekuatan Ethereum di Saku Anda'
-      description: 'Status adalah alat komunikasi multiguna yang menggabungkan messenger peer-to-peer, crypto-wallet terdesentralisasi, dan browser Web3.'
       link-messenger: Messenger
       link-wallet: 'Dompet kripto'
       link-browser: 'Browser & DApps'
@@ -49,8 +48,7 @@ site:
         description: 'Bergabunglah dengan sejumlah saluran publik atau kirim chat pribadi 1:1 atau grup. Anda bahkan dapat mengirim dan menerima pembayaran crypto langsung di obrolan pribadi Anda.'
         link: 'Bergabunglah dengan Saluran Publik Status'
       feature-2:
-        title: 'Pesan Pribadi dengan Whisper'
-        description: 'Whisper menggunakan routing gelap peer-to-peer-membuatnya mustahil bagi siapa pun (termasuk kami) untuk mengetahui apa pun tentang Anda atau dengan siapa Anda berkomunikasi. Kami berencana untuk meningkatkan Bisikan dengan garpu protokol yang disebut Waku yang sedang dikembangkan oleh tim Vac.'
+        title: 'Pesan Pribadi dengan Waku'
         learn-more: 'Pelajari lebih lanjut tentang Waku'
       feature-3:
         title: 'Sempurna Maju Kerahasiaan & <br> E2E Encryption'
@@ -289,11 +287,9 @@ site:
       title: 'Desain Dengan Aman'
       description-1: 'Status bertujuan untuk menjadi alat komunikasi yang benar-benar terdesentralisasi - pada akhirnya menghapus semua pihak ketiga dan meminimalkan vektor serangan untuk aktor jahat.'
       description-2: 'Manfaat sebenarnya dari Web3 adalah kemampuan untuk bertransaksi dan berkomunikasi dengan persyaratan kita sendiri - tanpa perantara. Untuk menikmati komunikasi bebas jenis ini, kita harus yakin bahwa pesan, transaksi, identitas, dan dana kita aman dan terjamin. Pelajari lebih lanjut tentang pendekatan Status untuk keamanan di bawah ini.'
-    security-at-status:
-      title: 'Keamanan di Status'
+    security-at-status: 
       secure-inner-1:
         title: 'Terjamin <br> Olahpesan'
-        description: 'Pesan tidak disensor, diblokir, dan tetap anonim jika pengguna memilihnya. Hanya penerima yang dituju yang dapat melihat pesan.'
       secure-inner-2:
         title: 'Mengamankan Keuangan <br> Transaksi'
         description: 'Mengirim, menyimpan, dan menerima cryptocurrency atau token dalam dompet Status aman dari serangan. Kunci pribadi tidak pernah terbuka. Transaksi hanya diproses ketika dimulai dan dikonfirmasi oleh pemilik kunci pribadi.'
@@ -305,19 +301,13 @@ site:
         title: 'Identitas Aman'
         description: 'Identitas Anda di Status dimulai dengan keypair kriptografi yang dibuat secara lokal, yang kemudian dilindungi melalui kata sandi. Hanya itu yang dibutuhkan. Pengguna kemudian memiliki kemampuan untuk menambahkan informasi ke profil mereka untuk membangun siapa mereka di Status. Setiap saat pengguna memiliki kendali penuh atas informasi mereka, dan siapa yang memiliki akses ke sana. Pengguna akhir dapat bersifat publik atau pribadi seperti yang mereka inginkan.'
       content-2:
-        title: 'Perpesanan Serverless Peer-to-Peer'
-        description: 'Status menggunakan protokol Whisper untuk komunikasi peer-to-peer (p2p), yang berarti bahwa tidak ada server yang memproses atau menyimpan pesan Anda. Sebaliknya, Whisper mengandalkan jaringan rekan untuk merutekan pesan satu sama lain. Setiap pesan yang dikirim disiarkan ke seluruh jaringan, dan dienkripsi hanya untuk penerima yang dimaksudkan untuk membuka. Efek dari setiap pesan yang membanjiri jaringan dikenal sebagai rute gelap, dan melindungi tidak hanya konten pesan Anda tetapi juga metadata tentang dari mana Anda berkomunikasi, kepada siapa, dll. Ini adalah standar keamanan dan privasi tertinggi dalam pesan online, dan tim Status sedang meneliti cara yang lebih terukur dan efisien untuk memberikan standar ini.'
-        link: 'Pelajari lebih lanjut tentang Whisper'
+        link: 'Pelajari lebih lanjut tentang Waku'
       content-3:
         title: 'Enkripsi ujung ke ujung secara default'
-        description: 'Semua pesan pribadi yang dikirim melalui Whisper dienkripsi secara end-to-end secara default. Saat Anda membuat akun Status, keypair kriptografis dibuat untuk mengenkripsi pesan Anda dan disimpan secara lokal di perangkat Anda. Ketika Anda menambahkan kontak baru di Status, Anda bertukar kunci publik sehingga orang itu dapat mendekripsi pesan Anda ketika diterima melalui jaringan.'
       content-4:
         title: 'Kerahasiaan Maju Sempurna'
         description: 'PFS adalah fitur protokol perjanjian kunci khusus yang memberikan jaminan bahwa kunci sesi Anda tidak akan dikompromikan bahkan jika kunci pribadi dari para peserta dikompromikan. Secara khusus, pesan sebelumnya tidak dapat didekripsi oleh pihak ketiga yang berhasil mendapatkan kunci pribadi. Ini didasarkan pada spesifikasi X3DH dan Double Ratchet dari Open Whisper Systems, dengan beberapa adaptasi untuk beroperasi di lingkungan yang terdesentralisasi. Perfect Forward Secrecy adalah lapisan keamanan tambahan untuk semua obrolan pribadi 1: 1 Anda.'
         link: 'Pelajari lebih lanjut tentang PFS'
-      content-5:
-        title: 'Pembuatan Akun Tanpa Server'
-        description: 'Ketika Anda membuat akun baru di Status, Anda tidak akan pernah diminta untuk verifikasi pihak ketiga seperti email atau nomor telepon. Ini berarti Anda dapat mendaftar dan membuat akun Status sepenuhnya anonim. Ketika Anda membuat akun, itu hanya Anda dan kunci Anda. Ini juga berarti bahwa dua faktor otentikasi dan pemulihan kata sandi bukan fitur dalam Status - jadi pastikan untuk mengingat kata sandi dan frasa mnemonik Anda dan menyimpannya secara offline di tempat yang sangat aman.'
       content-6:
         title: 'Bagaimana kunci saya disimpan?'
         description-1: 'Status tidak akan pernah menggunakan layanan pihak ketiga untuk mengelola dan menyimpan kunci publik dan pribadi Anda. Setelah dibuat, kunci BIP44 pertama disimpan dalam file json keystore secara lokal pada perangkat Anda. File ini dienkripsi dengan kata sandi yang Anda pilih untuk akun Status Anda dan hanya dapat diakses oleh aplikasi Status. Kami memprioritaskan menyimpan informasi sensitif dalam perangkat keras yang aman ketika tersedia di perangkat Anda.'

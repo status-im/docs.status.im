@@ -38,7 +38,6 @@ site:
   features:
     intro:
       title: 'El poder de Ethereum en tu bolsillo'
-      description: 'Status es una herramienta de comunicación multipropósito que combina un messenger peer-to-peer, una cripto-billetera descentralizada y un navegador Web3.'
       link-messenger: Messenger
       link-wallet: Cripto-billetera
       link-browser: 'Navegador y DApps'
@@ -49,8 +48,7 @@ site:
         description: 'Únete a cualquier número de canales públicos o envía chats privados 1:1 o grupales. Incluso puedes enviar y recibir cripto pagos directamente en tus chats privados.'
         link: 'Únete al canal público de Status'
       feature-2:
-        title: 'Mensajería privada con Whisper'
-        description: 'Whisper utiliza enrutamiento oscuro peer-to-peer, lo que hace imposible que nadie (incluidos nosotros) sepa algo sobre ti o con quién te estás comunicando.  Planeamos mejorar Whisper con una bifurcación del protocolo llamado Waku que está desarrollando el equipo de Vac.'
+        title: 'Mensajería privada con Waku'
         learn-more: 'Aprende más sobre Waku'
       feature-3:
         title: 'Cifrado <br>E2E y Perfect Forward Secrecy'
@@ -288,11 +286,9 @@ site:
       title: 'Seguro por diseño'
       description-1: 'Status tiene como objetivo ser una herramienta de comunicación verdaderamente descentralizada - eventualmente eliminando a todos los terceros y minimizando los vectores de ataque para los actores maliciosos.'
       description-2: 'El verdadero beneficio de la Web3 es la capacidad de realizar transacciones y comunicarse en nuestros propios términos – sin intermediarios. Para poder disfrutar de este tipo de comunicación libre, debemos estar seguros de que nuestros mensajes, transacciones, identidades y fondos son seguros. A continuación aprende más sobre el enfoque de seguridad de Status.'
-    security-at-status:
-      title: 'Seguridad en Status'
+    security-at-status: 
       secure-inner-1:
         title: '<br>Mensajería segura'
-        description: 'Los mensajes no son censurados, ni bloqueados, y permanecen anónimos si el usuario así lo desea. Sólo los destinatarios previstos pueden ver los mensajes.'
       secure-inner-2:
         title: '<br>Transacciones financieras seguras'
         description: 'Enviar, almacenar y recibir criptomonedas o tokens dentro de la billetera de Status está a salvo de ataques. Las claves privadas nunca están expuestas. Las transacciones solo se procesan cuando son iniciadas y confirmadas por el propietario de las claves privadas.'
@@ -304,19 +300,13 @@ site:
         title: 'Identidad segura'
         description: 'Tu identidad en Status comienza con un par de claves criptográficas generadas localmente, que luego se protege mediante una contraseña. Eso es todo lo que se requiere. El usuario tiene la capacidad de agregar información a su perfil para ir construyendo quiénes son en Status. En todo momento, el usuario tiene control total sobre su información y quién tiene acceso a ella. El usuario final puede ser tan público o privado como quiera.'
       content-2:
-        title: 'Mensajería Peer-to-Peer sin servidor'
-        description: 'Status utiliza el protocolo Whisper para la comunicación entre pares (p2p), lo que significa que no hay servidores que procesen o almacenen tus mensajes. En su lugar, Whisper se basa en una red de pares para enrutar los mensajes entre ellos. Cada mensaje enviado se difunde a toda la red y se cifra para que sólo se abra por el destinatario previsto. El efecto de cada mensaje que inunda la red se conoce como enrutamiento oscuro, y protege no sólo el contenido de tus mensajes, sino también los metadatos acerca de dónde te estás comunicando, a quién, etc. Este es el estándar más alto de seguridad y privacidad en la mensajería en línea, y el equipo de Status está investigando medios más escalables y eficientes para ofrecer este estándar.'
-        link: 'Aprende más sobre Whisper'
+        link: 'Aprende más sobre Waku'
       content-3:
         title: 'Cifrado de extremo a extremo de forma predeterminada'
-        description: 'Todos los mensajes privados enviados a través de Whisper se cifran de principio a fin de forma predeterminada. Cuando creas una cuenta de Status, se genera un par de claves criptográficas para cifrar tus mensajes y almacenarlos localmente en tu dispositivo. Cuando agregas un nuevo contacto en Status, intercambias claves públicas para que esa persona pueda descifrar tus mensajes cuando los reciba a través de la red.'
       content-4:
         title: 'Perfect Forward Secrecy'
         description: 'PFS es una función de protocolos específicos de acuerdo de clave que proporcionan garantías de que tus claves de sesión no se verán comprometidas incluso si las claves privadas de los participantes se ven comprometidas. Específicamente, los mensajes pasados no pueden ser descifrados por un tercero que se las arregla para obtener una clave privada. Se basa en las especificaciones X3DH y Double Ratchet de Open Whisper Systems, con algunas adaptaciones para operar en un entorno descentralizado. Perfect Forward Secrecy es una capa adicional de seguridad para todos sus chats privados 1:1.'
         link: 'Aprende más sobre PFS'
-      content-5:
-        title: 'Creación de cuenta sin servidor'
-        description: 'Cuando creas una nueva cuenta en Status, nunca se te pedirá verificación de terceros, como un correo electrónico o un número de teléfono. Esto significa que puedes registrarte y crear una cuenta de Status de forma totalmente anónima. Cuando creas una cuenta, simplemente eres tú y tus claves. Esto también significa que la autenticación de dos factores y la recuperación de contraseña no son características dentro de Status - así que asegúrate de recordar tú contraseña y frase mnemotécnica y almacenarlos fuera de línea en un lugar extremadamente seguro.'
       content-6:
         title: '¿Cómo se almacenan mis claves?'
         description-1: 'Status nunca utilizará servicios de terceros para administrar y almacenar tus claves públicas y privadas. Una vez generada, la primera clave BIP44 se guarda en un archivo json del almacén de claves localmente en su dispositivo. Este archivo está encriptado con la contraseña que elijas para tu cuenta de Status y solo es accesible desde la app de Status. Priorizamos el almacenamiento de información confidencial en hardware seguro cuando está disponible en tu dispositivo.'

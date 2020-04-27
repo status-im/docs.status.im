@@ -242,27 +242,22 @@ site:
         link-2: 'Добавить новую группу'
       community-groups:
         account-group-1:
-          link: '# Status-послы'
           description: 'Группа людей, посвященных помощи, содействию и созданию сообщества Status.'
           occupation: Организатор
           name: Нам
         account-group-2:
-          link: '# Status-корейский'
           description: 'Группа увлеченных разработчиков, производителей, создателей и энтузиастов из Южной Кореи.'
           occupation: Организатор
           name: 'Jinho Чан'
         account-group-3:
-          link: '# Status-испанский'
           description: 'Status на испанском языке'
           occupation: Организатор
           name: 'Лало Гарза'
         account-group-4:
-          link: '# Status-китайский'
           description: 'Status на китайском языке'
           occupation: Организатор
           name: 'Стивен Чжу'
         account-group-5:
-          link: '#философы #'
           description: 'В чем смысл жизни?'
           occupation: Организатор
           name: Аристотель

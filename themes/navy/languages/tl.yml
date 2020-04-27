@@ -265,32 +265,26 @@ site:
         link-2: 'Magsumite ng isang bagong grupo'
       community-groups:
         account-group-1:
-          link: '#Status-ambassadors'
           description: 'Isang pangkat ng mga taong nakatuon sa pagtulong, pagbibigay, at pagbuo ng Status sa komunidad.'
           occupation: Organizer
           name: Kami
         account-group-2:
-          link: '#Status-Korean'
           description: 'Isang pangkat ng mga madamdaming developer, tagagawa, tagalikha, at mga mahilig na nakabase sa South Korea.'
           occupation: Organizer
           name: 'Jinho Jang'
         account-group-3:
-          link: '#status-spanish'
           description: 'Status sa Español'
           occupation: Organizer
           name: 'Lalo Garza'
         account-group-4:
-          link: '#status-chinese'
           description: 'Status sa Chinese'
           occupation: Organizer
           name: 'Steven Zhu'
         account-group-5:
-          link: '#philosophers'
           description: 'Ano ang kahulugan ng buhay?'
           occupation: Organizer
           name: Aristotle
         account-group-6:
-          link: '#status-philippines'
           description: 'Status para sa mga Filipino community'
           occupation: Organizer
   security:

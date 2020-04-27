@@ -265,32 +265,26 @@ site:
         link-2: '새 그룹 등록하기'
       community-groups:
         account-group-1:
-          link: '#Status-ambassadors'
           description: '스테이터스 커뮤니티를 돕고, 기여하고, 만들어나가는 데 전념하는 사람들의 그룹.'
           occupation: 주최자
           name: '우리 모두'
         account-group-2:
-          link: '#Status-Korean'
           description: '한국에 기반한 열정적인 개발자, 메이커, 크리에이터, 애호가들의 모임.'
           occupation: 주최자
           name: 장진호
         account-group-3:
-          link: '#status-spanish'
           description: '스테이터스 스페인어 커뮤니티'
           occupation: 주최자
           name: '랄로 가르자'
         account-group-4:
-          link: '#status-chinese'
           description: '스테이터스 중국어 커뮤니티'
           occupation: 주최자
           name: '스티븐 주'
         account-group-5:
-          link: '#philosophers'
           description: '인생의 의미는 무엇인가?'
           occupation: 주최자
           name: 아리스토텔레스
         account-group-6:
-          link: '#status-philippines'
           description: '스테이터스 필리핀 커뮤니티'
           occupation: 주최자
   security:

@@ -265,32 +265,26 @@ site:
         link-2: 'إرسال مجموعة جديدة'
       community-groups:
         account-group-1:
-          link: '#Status-سفراء'
           description: 'مجموعه من الأشخاص المتفانيين في المساعدة والمساهمة وبناء مجمعStatus   '
           occupation: منظم
           name: لنا
         account-group-2:
-          link: '#Status الكورية'
           description: 'مجموعة من المطورين الشغوفين والمصنعين والمبدعين والمتحمسين الموجودين في كوريا الجنوبية.'
           occupation: منظم
           name: 'جينهو جانغ'
         account-group-3:
-          link: '#status-الاسبانيه'
           description: 'Status  في إسبانيا'
           occupation: منظم
           name: 'لالو جارزا'
         account-group-4:
-          link: '#status-الصينية'
           description: 'Status بالصينية '
           occupation: منظم
           name: 'ستيفن تشو'
         account-group-5:
-          link: الفلاسفة
           description: 'ما معني الحياة ؟'
           occupation: منظم
           name: ارسطو
         account-group-6:
-          link: '#الحالة-الفلبين'
           description: 'الحالة للمجتمع الفلبيني'
           occupation: منظم
   security:

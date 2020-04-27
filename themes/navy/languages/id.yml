@@ -262,32 +262,26 @@ site:
         link-2: 'Kirim grup baru'
       community-groups:
         account-group-1:
-          link: '# Status-duta besar'
           description: 'Sekelompok orang yang berdedikasi untuk membantu, berkontribusi, dan membangun komunitas Status.'
           occupation: Penyelenggara
           name: Kami
         account-group-2:
-          link: '# Status-Korea'
           description: 'Sekelompok pengembang, pembuat, pencipta, dan penggemar yang bersemangat yang berbasis di Korea Selatan.'
           occupation: Penyelenggara
           name: 'Jinho Jang'
         account-group-3:
-          link: '# status-spanyol'
           description: 'Status en Español'
           occupation: Penyelenggara
           name: 'Lalo Garza'
         account-group-4:
-          link: '# status-cina'
           description: 'Status dalam bahasa Cina'
           occupation: Penyelenggara
           name: 'Steven Zhu'
         account-group-5:
-          link: '#philosophers'
           description: 'apa arti kehidupan?'
           occupation: Penyelenggara
           name: Aristotle
         account-group-6:
-          link: '#status-Philippines'
           description: 'Status untuk komunitas Filipina'
           occupation: Penyelenggara
   security:

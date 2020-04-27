@@ -265,32 +265,26 @@ site:
         link-2: 'Soumettre un nouveau groupe'
       community-groups:
         account-group-1:
-          link: '#Status-ambassadors'
           description: 'Un groupe de personnes dédiées à aider, contribuer et construire la communauté Status.'
           occupation: Organisateur
           name: Nous
         account-group-2:
-          link: '#Status-Korean'
           description: 'Un groupe de développeurs, fabricants, créateurs et passionnés passionnés basés en Corée du Sud.'
           occupation: Organisateur
           name: 'Jinho Jang'
         account-group-3:
-          link: '#status-spanish'
           description: 'Status en Español'
           occupation: Organisateur
           name: 'Lalo Garza'
         account-group-4:
-          link: '#status-chinese'
           description: 'Status en chinois'
           occupation: Organisateur
           name: 'Steven Zhu'
         account-group-5:
-          link: '#philosophes'
           description: 'Quel est le sens de la vie?'
           occupation: Organisateur
           name: Aristotle
         account-group-6:
-          link: '#status-philippines'
           description: 'Status pour la communauté philippine'
           occupation: Organisateur
   security:

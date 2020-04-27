@@ -264,32 +264,26 @@ site:
         link-2: 提交新组
       community-groups:
         account-group-1:
-          link: Status大使
           description: 一群致力于帮助，贡献和建立Status社区的人。
           occupation: 组织者
           name: 我们
         account-group-2:
-          link: Status-韩语
           description: 一群充满激情的开发人员，制作人，创作者和爱好者，总部设在韩国。
           occupation: 组织者
           name: Jinho张
         account-group-3:
-          link: Statu西班牙
           description: 西班牙
           occupation: 组织者
           name: 'Lalo Garza'
         account-group-4:
-          link: 中文
           description: 中文
           occupation: 组织者
           name: 'Steven 朱'
         account-group-5:
-          link: '#philosophers'
           description: 的意义是什么？
           occupation: 组织者
           name: 亚里士多德
         account-group-6:
-          link: '#status-philippines'
           description: 'Status 菲律宾社区'
           occupation: 组织者
   security:

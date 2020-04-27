@@ -259,7 +259,13 @@ hexo.extend.helper.register('language_selector', function() {
       path = path.replace("index.html", "");
   
       if(path.substr(0, path.indexOf('/')) == shortLang){
-        path = path.split(shortLang + '/')[1];
+        const pathSplitByShortLang = path.split(shortLang + '/')
+        if (pathSplitByShortLang.length >= 3) {
+          path = path.split('/')[1];
+        }
+        else {
+          path = path.split(shortLang + '/')[1];
+        }
       }
   
       if(i != 'en'){

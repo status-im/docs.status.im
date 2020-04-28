@@ -2,38 +2,38 @@ site:
   home:
     intro:
       title: "Private, Secure Communication"
-      description: "Status is a messenger, crypto wallet, and Web3 browser built with state of the art technology."
+      description: "Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.."
       news: "News"
     about:
       open-source:
         title: "An Open Source Project"
-        description: "Status is completely open source and made by contributors all over the world. Developers, designers, creators, educators, hobbyists, enthusiasts, and more – everyone has free and open access to the repos, assets, and information."
+        description: "Entirely open source and made by contributors around the world. Developers, designers, creators, educators, enthusiasts, and more have free and open access to the repos, assets, and information. Designed to be censorship resistant and free from third party control."
       mission:
         title: "Mission & Principles"
-        description: "Status strives to be a secure communication tool that upholds human rights. We enable community money, community law and through privacy, preserve culture."
+        description: "Status strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals"
     decentralized:
       subtitle: "Decentralized Communication"
-      title: "Chat, Browse, Transact on Your Terms"
-      description: "Status combines a decentralized messenger, wallet, and DApp browser into a powerful, private, and secure communication tool."
+      title: "Message, Browse, Transact on Your Terms"
+      description: "Status combines a private decentralized messenger, cryptocurrency wallet, and DApps browser into a powerful, private, and secure communication tool. Designed to protect your messages and information from third party interference."
       link: "Explore all features"
     private:
       subtitle: "Preserving Privacy"
       title: "Truly Private Messaging"
-      description: "Status uses the peer-to-peer protocol Waku and end-to-end encryption to protect your communication from third party interference. Only you can view your messages."
+      description: "Status uses an open-source, peer-to-peer protocol, and end-to-end encryption to protect your messages from third parties. Keep your private messages private with Status."
     wallet:
-      subtitle: "Enabling Community Money"
+      subtitle: "Borderless Crypto Payments"
       title: "Secure Crypto Wallet"
-      description: "Safely send, store and receive crypto assets including ERC20 and some ERC721 tokens. Only you hold the keys to your serverless wallet. Intuitive design protects you from attack."
+      description: "Safely send, store and receive cryptocurrencies including ERC20 and ERC721 tokens with the Status crypto wallet. Only you hold the keys to your funds. Intuitive design protects you from attack."
     browser:
       subtitle: "Own Your Data"
       title: "Decentralized Web3 Browser"
-      description: "Navigate the growing ecosystem of decentralized applications from our Web3-enabled browser, without being tracked. Browse the latest marketplaces, exchanges, games, and more."
+      description: "Navigate the growing ecosystem of decentralized applications from our Web3-enabled browser. No tracking. No spies. Just you and your data. Browse the latest marketplaces, exchanges, games, and more with the decentralized Status App."
     security:
       title: "Private and Secure by Design"
-      description: "Status uses state of the art technology to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Communicate with confidence."
+      description: "Status uses the latest encryption and security tools to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Confident, secure communication."
     status-network:
       title: "Status Network"
-      description: "The Status Network is a collection of projects and people dedicated to creating the tools and infrastructure for resilient, sustainable and inclusive communities."
+      description: "The Status Network is a collection of projects that build the products, tools and infrastructure for resilient, sustainable and inclusive communities. Designing and building for security, equality, and for the sovereignty of individuals."
       link: "Learn more about The Status Network"
   about:
     intro:
@@ -41,7 +41,7 @@ site:
       link-1: "Our Principles"
       link-2: "Active Swarms"
       link-3: "Core Contributors"
-      description: "Status strives to be a secure communication tool that upholds human rights. We enable community money, community law and through privacy, preserve culture."
+      description: "Status strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals."
     principles:
       title: "Our Principles"
       description: "These principles act as tools. Tools for thinking, for communication, and for decentralized decision making. They keep us honest about where we are failing short of our vision."

@@ -19,7 +19,7 @@ site:
     private:
       subtitle: "Preserving Privacy"
       title: "Truly Private Messaging"
-      description: "Status uses the peer-to-peer protocol Whisper and end-to-end encryption to protect your communication from third party interference. Only you can view your messages."
+      description: "Status uses the peer-to-peer protocol Waku and end-to-end encryption to protect your communication from third party interference. Only you can view your messages."
     wallet:
       subtitle: "Enabling Community Money"
       title: "Secure Crypto Wallet"
@@ -330,7 +330,7 @@ site:
         link: "Contributor Guide"
         status-react:
           title: "Status-React"
-          description: "Written in Clojure - this is where we handle interactions between Whisper and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives."
+          description: "Written in Clojure - this is where we handle interactions between Waku and the app; between the wallet, the user and any Distributed Application (DApp) that they want to access; and where the UI logic lives."
           link: "View Repository"
         status-go:
           title: "Status-Go"
@@ -466,15 +466,12 @@ site:
         account-group-2:
           description: "A group of passionate developers, makers, creators, and enthusiasts based in South Korea."
           occupation: "Organizer"
-          name: "Jinho Jang"
         account-group-3:
           description: "Status en Español"
           occupation: "Organizer"
-          name: "Lalo Garza"
         account-group-4:
           description: "Status in Chinese"
           occupation: "Organizer"
-          name: "Steven Zhu"
         account-group-5:
           description: "What is the meaning of life?"
           occupation: "Organizer"
@@ -482,7 +479,6 @@ site:
         account-group-6:
           description: "Status for the Filipino community"
           occupation: "Organizer"
-          name: "Ken"
   security:
     intro:
       title: "Secure By Design"

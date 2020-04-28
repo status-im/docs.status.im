@@ -78,3 +78,7 @@
 - name: "Nasib"
   image: "nasib.jpg"
   twitter: "bild96"
+
+- name: "Oleksandr Zilber"
+  image: "oleksandr.png"
+  twitter: "OleksandrZilber"

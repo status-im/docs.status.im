@@ -23,9 +23,7 @@ With Clojure you get a complete separation of functions and data. This means we 
 
 The goal of this tutorial is to get someone new to Status-react to the point where they can evaluate expressions in-line in their editor. Inline evaluation is one of the things that makes Clojure both fun and powerful.
 
-What follows is the definitive account of how to get to that “aha” moment, specifically for the **iOS dev build of Status-react**.  With this built, you can start contributing as soon as you wish!  
-
-**If you want to contribute to a different build (i.e. the desktop client) you can read [*this guide*](https://status.im/guides/desktop_inline_eval.html).**
+What follows is the definitive account of how to get to that “aha” moment, specifically for the **iOS dev build of Status-react**.  With this built, you can start contributing as soon as you wish!
 
 # Initial Setup
 

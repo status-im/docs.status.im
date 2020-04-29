@@ -4117,6 +4117,38 @@ img.qr-code{
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .snt-research{
+        .cta-margin {
+            margin-top: 140px;
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .snt-research{
+        .cta-margin {
+            margin-top: 120px;
+        }
+    }
+}
+
+@media (min-width: 1041px) and (max-width: 1199px) {
+    .snt-research{
+        .cta-margin {
+            margin-top: 55px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1040px) {
+    .snt-research{
+        .cta-margin {
+            margin-top: 85px;
+        }
+    }
+}
+
 @media screen and (max-width: 767px) {
     .get-involved-ambassador{
         .ambassador-1 {

@@ -2,7 +2,7 @@ site:
   home:
     intro:
       title: "Private, Secure Communication"
-      description: "Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.."
+      description: "Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology."
       news: "News"
     about:
       open-source:
@@ -10,7 +10,7 @@ site:
         description: "Entirely open source and made by contributors around the world. Developers, designers, creators, educators, enthusiasts, and more have free and open access to the repos, assets, and information. Designed to be censorship resistant and free from third party control."
       mission:
         title: "Mission & Principles"
-        description: "Status strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals"
+        description: "Status strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals."
     decentralized:
       subtitle: "Decentralized Communication"
       title: "Message, Browse, Transact on Your Terms"
@@ -172,18 +172,19 @@ site:
         link: "Learn more in the White Paper"
       inner-4:
         title: "Research"
-        description: "We conduct research on cryptoeconomic models, and peer-to-peer technologies to ensure long term health of the Status Network. "
+        description: "Contributors conduct research on cryptoeconomic models, and peer-to-peer technologies to ensure long term health of the Status Network. "
         link: "Learn more about the research"
     using-snt:
       title: "Using SNT"
       description: "SNT is required to power certain application features and create an open source, decentralized economy. Dive deeper into each of the SNT Use Cases below to learn more about the cryptoeconomic research and how value flows throughout the network."
       teller-network:
         title: "Teller Network"
-        status: "In development"
-        description: "Designed as a DApp within Status which provides a borderless, peer-to-peer, fiat-to-crypto ‘Teller Network’ that allows Stakeholders to find nearby users to exchange their cash for digital assets and currency. SNT is required to become a seller in the network."
+        status: "Developed"
+        description: "A community deployed DApp which provides a borderless, peer-to-peer, fiat-to-crypto ‘Teller Network’ that allows Stakeholders to find nearby users to exchange their cash for digital assets and currency. SNT is required to become a seller in the network."
+        link: "View the deployed contracts on Rinkeby"
       network-incentivization:
         title: "Network Incentivization"
-        status: "In research"
+        status: "Research"
         description: "Create a framework and incentivization structure for people to deploy and use Status nodes. SNT is used to incentivize and reward network participants to run a node in order to ensure the app continues to work if all nodes in the Status-hosted cluster are down. This includes paying for forwarded messages and paying for offline messages."
       ens-user-name:
         title: "ENS User Name"
@@ -192,20 +193,20 @@ site:
         link: "Register an ENS"
       sticker-market:
         title: "Sticker Market"
-        status: "In development"
-        description: Stickers offer a fun way for users to visually interact with their friends and family. The Sticker Market within Status will allow anyone to create and sell their own designs to users all over the world, and begin using stickers within any Status chat. <br><br>SNT will be required to buy stickers through a curated marketplace.
+        status: "Live"
+        description: Stickers offer a fun way for users to visually interact with their friends and family. The Sticker Market within Status will allow anyone to create and sell their own designs to users all over the world, and begin using stickers within any Status chat. <br><br>SNT is be required to buy some stickers packs in the marketplace.
       tribute-to-talk:
         title: "Tribute to Talk"
-        status: "In development"
+        status: "Developed"
         description: "Tribute to Talk will introduce an economics-based anti-spam filter – in this case for receiving messages and “cold” contact requests from users. This enables stakeholders to set a minimum amount of SNT that must be deposited in order for someone outside of their network contact him/her directly."
       dao-governance:
         title: "DAO & Governance"
-        status: "In research"
+        status: "Research"
         description: "A core part of the Status Network Token is giving stakeholders the ability to choose the direction that the software is developed. SNT is used to make decisions on proposals, which can be made by any Stakeholder. For each decision, the token is cloned into a separate decision token. The amount of tokens you hold at that time becomes your voting power for that decision and it does not cost SNT to vote."
       dapp-curation:
         title: "DApp Curation"
         status: "Live"
-        description: "The Status DApp Directory provides a way for stakeholders in the network to discover DApps, as curated by other community members. It will also provide a way to navigate by category and rating, enabling users to find exactly what they are looking for. SNT will be required for curation and signaling in the directory. A deposit of SNT will be required by DApp Developers who wish to attain greater attention to their DApp."
+        description: "Dap.ps provides a way for stakeholders in the network to discover DApps, as curated by other community members. It will also provide a way to navigate by category and rating, enabling users to find exactly what they are looking for. SNT will be required for curation and signaling in the directory. A deposit of SNT will be required by DApp Developers who wish to attain greater attention to their DApp."
         link: "Browse DApps"
       voting-dapp:
         title: "Voting DApp"
@@ -214,22 +215,22 @@ site:
         link: "Check out the Voting DApp"
       acquisition-engine:
         title: "Acquisition Engine"
-        status: "In research"
+        status: "Research"
         description: "Achieving our mission ultimately requires one thing: widespread end-user adoption. Using the Status Network Token, we can design mechanisms for growth that have been tried and tested in Web 2.0, whilst providing greater transparency and better alignment of incentives for participants. The Status Acquisition Engine provides a cryptographically provable and transparent means of growing the user base."
     crypto-research:
       title: "Cryptoeconomic Research" 
-      description-1: "The Status team is conducting research on the cryptoeconomic models for each SNT use case to inform product and feature development as well as incentivization of the Status Network. <br><br>These cryptoeconomic models are an ongoing research effort and we encourage anyone to explore, critique, and review the work. <br><br>The models help project the value of a SNT Utility feature and its impact on the Status Network Combined Utility Values based on usage, growth rate, SNT supply and circulation. "
-      link-1: " Join #token-economics"
+      description-1: "Community Contributors from around the world conduct research on the cryptoeconomic models for SNT use cases to inform product and feature development as well as incentivization of the Status Network. <br><br>These cryptoeconomic models are an ongoing research effort and anyone is encouraged to explore, critique, and review the work."
+      link-1: " Join #status"
       description-2: "Join the public channel & learn more about the research"
-      link-2: "Combined Utility Value Workbook"
-      description-3: "Review the Status Network Combined Utility Values Workbook and test our own models."
+      link-2: "Community Created Workbooks"
+      description-3: "Review the Status Network Combined Utility Values Workbook."
     learn-more:
       title: "Learn More"
       description: "Many of the SNT use cases are in active research and development. Join the public discussions or read the SNT FAQ's to learn more about the SNT use cases and token economic research."
-      link: "Join #token-economics"
+      link: "Join #status"
     create-your-snt:
       title: "Create Your Own SNT Financial Model"
-      description: "We encourage anyone to get involved and test the economic models outlined in the workbooks. If you are a researcher, economist, or simply curious about the financial models, please get involved."
+      description: "Anyone is welcome to get involved and test the economic models outlined in the workbooks. If you are a researcher, economist, or simply curious about the financial models, please get involved."
       link: "Test the SNT Token Models"
   features:
     intro:

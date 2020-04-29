@@ -39,72 +39,23 @@
 	<section class="block-account-creation p-t-160 p-b-160" id="groups">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-xl-4">
-					<div class="account-creation">
-						<%- image_tag("/img/status-ambassadors.svg") %>
-						<a href="https://join.status.im/statusphere" target="_blank">#statusphere</a>
-						<p><%- __('site.get-involved.community.community-groups.account-group-1.description') %></p>
-						<div class="meta">
-							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-1.occupation') %></span>
-							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-1.name') %></span>
-						</div>
+				<% for (let community of site.data.communities) { %>
+					<div class="col-lg-6 col-xl-4">
+						<div class="account-creation">
+							<%- image_tag("/img/" + community.image) %>
+							<a href="https://join.status.im/<%= community.publicChat %>" target="_blank">#<%- community.publicChat %></a>
+							<p><%- __(community.description) %></p>
+							<div class="meta">
+								<span class="occupation"><%- __(community.occupation) %></span>
+								<% if (community.name.startsWith('site')) { %>
+									<span class="name"><%- __(community.name) %></span>
+								<% } else { %>
+									<span class="name"><%- community.name %></span>
+								<% } %>
+							</div>
+						</div>				
 					</div>
-				</div>
-				<div class="col-lg-6 col-xl-4">
-					<div class="account-creation">
-						<%- image_tag("/img/status-korea.svg") %>
-						<a href="https://join.status.im/status-korean" target="_blank">#status-korean</a>
-						<p><%- __('site.get-involved.community.community-groups.account-group-2.description') %></p>
-						<div class="meta">
-							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-2.occupation') %></span>
-							<span class="name">Jinho Jang</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-xl-4">
-					<div class="account-creation">
-						<%- image_tag("/img/status-en-espanol.svg") %>
-						<a href="https://join.status.im/status-spanish" target="_blank">#status-spanish</a>
-						<p><%- __('site.get-involved.community.community-groups.account-group-3.description') %></p>
-						<div class="meta">
-							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-3.occupation') %></span>
-							<span class="name">Lalo Garza</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-xl-4">
-					<div class="account-creation">
-						<%- image_tag("/img/status-chinese.svg") %>
-						<a href="https://join.status.im/status-chinese" target="_blank">#status-chinese</a>
-						<p><%- __('site.get-involved.community.community-groups.account-group-4.description') %></p>
-						<div class="meta">
-							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-4.occupation') %></span>
-							<span class="name">Steven Zhu</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-xl-4">
-					<div class="account-creation">
-						<%- image_tag("/img/status-philippines.svg") %>
-						<a href="https://join.status.im/status-philippines" target="_blank">#status-philippines</a>
-						<p><%- __('site.get-involved.community.community-groups.account-group-6.description') %></p>
-						<div class="meta">
-							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-6.occupation') %></span>
-							<span class="name">Ken</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-xl-4">
-					<div class="account-creation">
-						<%- image_tag("/img/philosophers.svg") %>
-						<a href="https://join.status.im/philosophers" target="_blank">#philosophers</a>
-						<p><%- __('site.get-involved.community.community-groups.account-group-5.description') %></p>
-						<div class="meta">
-							<span class="occupation"><%- __('site.get-involved.community.community-groups.account-group-5.occupation') %></span>
-							<span class="name"><%- __('site.get-involved.community.community-groups.account-group-5.name') %></span>
-						</div>
-					</div>
-				</div>
+				<% } %>
 			</div>
 		</div>
 	</section>

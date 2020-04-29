@@ -1,0 +1,35 @@
+- image: 'status-ambassadors.svg'
+  publicChat: 'statusphere'
+  description: 'site.get-involved.community.community-groups.account-group-1.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-1.occupation'
+  name: 'site.get-involved.community.community-groups.account-group-1.name'
+
+- image: 'status-korea.svg'
+  publicChat: 'status-korean'
+  description: 'site.get-involved.community.community-groups.account-group-2.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-2.occupation'
+  name: Jinho Jang
+
+- image: 'status-en-espanol.svg'
+  publicChat: 'status-spanish'
+  description: 'site.get-involved.community.community-groups.account-group-3.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-3.occupation'
+  name: Lalo Garza
+
+- image: 'status-chinese.svg'
+  publicChat: 'status-chinese'
+  description: 'site.get-involved.community.community-groups.account-group-4.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-4.occupation'
+  name: Steven Zhu
+
+- image: 'status-philippines.svg'
+  publicChat: 'status-philippines'
+  description: 'site.get-involved.community.community-groups.account-group-6.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-6.occupation'
+  name: Ken
+
+- image: 'philosophers.svg'
+  publicChat: 'philosophers'
+  description: 'site.get-involved.community.community-groups.account-group-5.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-5.occupation'
+  name: 'site.get-involved.community.community-groups.account-group-5.name'

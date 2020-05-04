@@ -40,7 +40,7 @@ Status also implements a number of APIs standardized by EIPs.
 
 ### ERC945
 
-[https://github.com/ethereum/EIPs/issues/945](QR Code Scanning API) allows DApp developers to trigger a native generic QR code scanner.
+[QR Code Scanning API](https://github.com/ethereum/EIPs/issues/945) allows DApp developers to trigger a native generic QR code scanner.
 
 #### Example
 

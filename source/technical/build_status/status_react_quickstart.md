@@ -27,7 +27,7 @@ What follows is the definitive account of how to get to that “aha” moment, s
 
 # Initial Setup
 
-With this quick start guide being for the iOS dev build, we're assuming that you are Mac based.  **For guides on building Status-react on Ubuntu, [you can see here.](https://status.im/guides/desktop_inline_eval.html)**
+With this quick start guide being for the iOS dev build, we're assuming that you are Mac based.
 
 The first requirement is XCode.  If you do not wish to install it from the Mac App store, there is a great guide on installing XCode and the XCode Dev Toolkit via command line, [here.](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/)
 

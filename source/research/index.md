@@ -27,7 +27,7 @@ In short, Whisper is a peer-to-peer, multicast, end-to-end encrypted, dark gossi
 
 ## Basic Outline
 
-1. **`peer-to-peer`** refers to the fact that Whisper uses Ethereum's [ÐΞVp2p wire protocol](https://github.com/ethereum/devp2p/blob/master/devp2p.md) to gossip messages around the network.
+1. **`peer-to-peer`** refers to the fact that Whisper uses Ethereum's [ÐΞVp2p wire protocol](https://github.com/ethereum/devp2p) to gossip messages around the network.
     
     **a.** ÐΞVp2p is an application-layer networking protocol for communication among nodes in a distributed network.
     **b.** ÐΞVp2p handles negotiation of supported sub-protocols on both sides and carries their messages over a single connection.

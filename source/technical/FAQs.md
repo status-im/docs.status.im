@@ -58,7 +58,7 @@ Status has no hidden fees. When you make a transaction using your crypto wallet,
 ### I would like to contribute to the project, where would you suggest I start?
 Status is an open source project and welcomes all contributions, both technical and non-technical. The [ambassadors page](https://ambassador.status.im/) is a great place to start. Here you can get in touch with active contributors who can support you in promoting, teaching about or otherwise contributing to the next generation of the web. 
 
-If you’re a developer and want to get your hands dirty, head over to documentation on DApp development in the [DApp Integration Center](https://status.im/developer_tools/). If you are a mobile developer yourself and love functional languages, then [build Status](https://status.im/build_status/) yourself and start submitting those PRs.
+If you’re a developer and want to get your hands dirty, head over to documentation on DApp development in the [DApp Integration Center](https://status.im/developer_tools/). If you are a mobile developer yourself and love functional languages, then [build Status](https://status.im/technical/build_status/) yourself and start submitting those PRs.
 
 ### How can I request features? 
 As Status is an open source, community-driven project, you can both request and contribute to feature development. Share your thoughts in the public channel [#status](https://join.status.im/chat/public/status) or on our discuss forum: https://discuss.status.im/. You’re also welcome to open a [Github issue](https://github.com/status-im). 

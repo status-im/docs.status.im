@@ -35,7 +35,7 @@ If you find yourself pinching the screen to zoom in or scrolling horizontally to
 
 ### Technical requirements
 
-We’re always happy to check out projects that are still in development on testnet. Ping us in the #dapps chat on Status or in the [#dev-status channel](https://chat.status.im/#/room/#dev-status:status.im) on Riot with URLs for us to try out.
+We’re always happy to check out projects that are still in development on testnet. Ping us in the [#dapps](https://join.status.im/dapps) chat on Status with URLs for us to try out.
 
 But for production purposes, DApps need to be available on Mainnet. 
 

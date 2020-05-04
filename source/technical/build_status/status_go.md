@@ -45,8 +45,8 @@ make setup-dev
 This script prepares and installs the following:
 
 - [golangci-lint](https://github.com/golangci/golangci-lint)
-- [mockgen](https://github.com/golang/mock/mockgen)
-- [go-bindata](https://github.com/kevinburke/go-bindata/go-bindata)
+- [mockgen](https://github.com/golang/mock/tree/master/mockgen)
+- [go-bindata](https://github.com/kevinburke/go-bindata/)
 - [protobuf compiler](https://github.com/protocolbuffers/protobuf) and [protoc-gen-go](github.com/golang/protobuf/protoc-gen-go)
 - [jq](https://github.com/stedolan/jq)
 - [modvendor](github.com/adambabik/modvendor)

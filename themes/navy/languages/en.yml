@@ -181,7 +181,6 @@ site:
         title: "Teller Network"
         status: "Developed"
         description: "A community deployed DApp which provides a borderless, peer-to-peer, fiat-to-crypto ‘Teller Network’ that allows Stakeholders to find nearby users to exchange their cash for digital assets and currency. SNT is required to become a seller in the network."
-        link: "View the deployed contracts on Rinkeby"
       network-incentivization:
         title: "Network Incentivization"
         status: "Research"

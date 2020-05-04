@@ -685,6 +685,7 @@ site:
       jobs: "Jobs"
       white-paper: "White Paper"
       media-kit: "Media Kit"
+      analytics: "Analytics"
     documentation:
       title: "Documentation"
     status-network:

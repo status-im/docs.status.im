@@ -64,15 +64,7 @@ After you installed all the dependencies, you need to run two processes — the 
 
 ### 1. Build process
 
-Just run **one** of these commands in the first terminal window:
-
-```bash
-make startdev-ios-simulator
-make startdev-ios-real
-make startdev-android-avd
-make startdev-android-genymotion
-make startdev-android-real
-```
+Just run make `run-clojure` in the first terminal window.
 
 By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging). You should wait until it shows you `Prompt will show when Figwheel connects to your application` before running the React Native packager.
 
@@ -86,8 +78,10 @@ For additional information check the following:
 Do this in the second terminal window:
 
 ```bash
-make react-native-android # (ios and desktop are also available targets)
+make run-metro
 ```
+
+Which starts Metro bundler and watches JavaScript code changes.
 
 ## Build and run the application itself
 
@@ -178,11 +172,11 @@ Whenever the iOS NodeJS dependencies change, `make nix-update-pods` should be ru
 
 ### Android Gradle Maven dependencies
 
-Whenever the Android project changes in terms of Gradle dependencies, `make nix-update-gradle` should be run in order to update `nix/mobile/android/maven-and-npm-deps/maven/maven-sources.nix`.
+Whenever the Android project changes in terms of Gradle dependencies, `make nix-update-gradle` should be run in order to update `nix/deps/gradle/deps.json`.
 
-### Leiningen Maven dependencies
+### Clojure Maven dependencies
 
-Whenever the Leiningen dependencies change, `make nix-update-lein` should be run in order to update `nix/lein/lein-project-deps.nix`.
+Whenever the Clojure dependencies change, `make nix-update-clojure` should be run in order to update `nix/deps/clojure/deps.json`.
 
 ### Fastlane Ruby dependencies
 

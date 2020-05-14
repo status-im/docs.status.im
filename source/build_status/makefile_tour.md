@@ -24,26 +24,13 @@ You will need to run one of each target in separate terminals from the following
 
 ## Building Clojure
 
-`make startdev-**` is the set of targets that starts up Figwheel and the Clojurescript REPL.  Depending on what environment you're coding on, you'll use one of the following targets.
+`make run-clojure` is at target that compiles Clojure into JavaScript, watches for changes on cljs files, and hot-reloads code in the app
 
-* `make startdev-android-real` - For using a real Android device for development
-* `make startdev-android-avd` - For using a virtual Android device for development
-* `make startdev-android-genymotion` - For using the Genymotion simulator for Android development
-* `make startdev-ios-real` - For using a real iOS device for development
-* `make startdev-ios-simulator` - For using the XCode IOS simulator for development
-* ~~`make startdev-desktop` - For developing for Status Desktop~~
-
-Note: If developing with a real Android device, make sure to also run `make android-ports` or the REPL won't connect to your device.
+__Note__: If developing with a real Android device, make sure to also run `make android-ports` or the REPL won't connect to your device.
 
 ## Building React Native
 
-`make react-native-**` is the set of targets that sets up the react-native code manager for development.  Run this in a separate terminal after you run `make-startdev-**` with your preferred device/simulator.  
-
-OS targets
-
-* `make react-native-android`
-* `make react-native-ios`
-* ~~`make react-native-desktop`~~
+`make run-metro` is the target that sets up the react-native code manager for development.  Run this in a separate terminal along `make run-clojure`.  
 
 ## Building the App
 

@@ -50,7 +50,6 @@ p{
     margin-bottom: 40px;
     align-self: stretch;
 }
-
 .teaser-1,
 .teaser-2{
     line-height: 36px;
@@ -4122,6 +4121,12 @@ img.qr-code{
         .cta-margin {
             margin-top: 140px;
         }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .description-padding-right {
+        margin-right: 30px;
     }
 }
 

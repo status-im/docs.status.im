@@ -13,6 +13,9 @@ es:
 ru:
   short: ru
   long: Русский
+de:
+  short: de
+  long: Deutsch
 fr:
   short: fr
   long: Français

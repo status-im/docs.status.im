@@ -565,7 +565,7 @@ site:
         description: 'Lograr nuestra misión en última instancia requiere una cosa: la adopción generalizada del usuario final. Usando el Status Network Token, podemos diseñar mecanismos de crecimiento que se han tratado y probado en la Web 2.0, al tiempo que brindamos una mayor transparencia y una mejor alineación de incentivos para los participantes. El motor de adquisición de Status proporciona medios criptográficamente comprobables y transparentes para aumentar la base de usuarios.'
     crypto-research:
       title: 'Investigación criptoeconómica'
-      description-1: 'El equipo de Status está realizando una investigación sobre los modelos criptoeconómicos para cada caso de uso de SNT para informar el desarrollo de productos y funciones, así como la incentivación de Status Network. <br> <br> Estos modelos criptoeconómicos son un esfuerzo continuo de investigación y alentamos a cualquiera a explorar, criticar y revisar el trabajo. <br> <br> Los modelos ayudan a proyectar el valor de una función de utilidad SNT y su impacto en los valores de utilidad combinados de Status Network basados en el uso, el índice de crecimiento, el suministro y la circulación de SNT.'
+      description-1: 'El equipo de Status está realizando una investigación sobre los modelos criptoeconómicos para cada caso de uso de SNT para informar el desarrollo de productos y funciones, así como la incentivación de Status Network. <br> <br> Estos modelos criptoeconómicos son un esfuerzo continuo de investigación y alentamos a cualquiera a explorar, criticar y revisar el trabajo.'
       link-1: 'Únete a #token-economics'
       description-2: 'Únete al canal público y aprende más sobre la investigación'
       link-2: 'Libro de trabajo de valor de utilidad combinado'

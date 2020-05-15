@@ -2,42 +2,43 @@ site:
   home:
     intro:
       title: 隐私、安全的沟通
-      description: Status是一个使用最先进技术构建的信使，加密钱包和Web3浏览器。
+      description: Status是使用最先进的技术构建的安全消息应用程序，加密钱包和Web3浏览器。
       news: 新闻
     about:
       open-source:
         title: 开源项目
-        description: 'Status是完全开源的，由世界各地的贡献者制作。开发人员，设计人员，创作者，教育工作者，业余爱好者，爱好者等等 - 每个人都可以自由，开放地访问代码库，资产和信息.'
+        description: 完全开源，由世界各地的贡献者构建。开发人员，设计者，创作者，教育者，爱好者等等，可以自由，开放地访问代码存储库，资产和信息。旨在防止审查，不受第三方控制。
       mission:
         title: 使命和原则
-        description: Status致力于成为一款安全的通讯工具，尊重人权，赋能社区货币，社区法律和隐私保护文化。
+        description: Status致力于成为一款安全的尊重人权的通讯工具，目的是使信息自由流通，保护隐私的权利，安全的沟通交流和提升个人主权。
     decentralized:
       subtitle: 去中心化通信
-      title: 聊天，浏览，处理您的条款
-      description: Status是一个集去中心化即时通讯、钱包以及DAPP浏览器为一体的私密、安全沟通工具。
+      title: 按您的意愿进行聊天、浏览和交易
+      description: Status将隐私的去中心化的信使，加密货币钱包和DApps浏览器组合为功能强大，隐私且安全的通信工具。旨在保护您的消息和信息不受第三方干扰。
       link: 浏览所有功能
     private:
       subtitle: 保护隐私
       title: 真正的私人消息
-      description: Status是基于Whisper点对点消息协议，使用端对端加密来保护通信不被第三方窃取，确保只有你自己才能看你的消息。
+      description: Status使用开源的代码，点对点协议和端到端加密来保护您的消息免受第三方攻击。使用Status保护您的隐私消息。
     wallet:
-      subtitle: 实现社区资金
+      subtitle: 无边界加密支付
       title: 安全加密钱包
-      description: 安全地发送、存储、接收数字资产包括ERC20以及ERC721数字通证，私钥掌握在你自己手里，钱包采用无服务端、直观的设计保护免受攻击。
+      description: 使用Status加密钱包安全地发送，存储和接收包括ERC20和ERC721代币在内的加密货币。只有您掌握资金的私钥。直观的设计可保护您免受攻击。
     browser:
       subtitle: 拥有你的数据
       title: 去中心化Web3浏览器
-      description: 用兼容Web3的浏览器在日益增长的去中心化应用中导航，可以免受追踪，比如浏览最新的市场、交易所、游戏等。
+      description: '从支持Web3的浏览器中浏览不断发展的去中心化应用程序生态系统。没有追踪。没有间谍，只有您和您的数据。使用去中心化的Status App浏览最新的市场，交易所，游戏等。'
     security:
       title: 设计私密且安全
-      description: Status运用先进的技术来确保您对消息以及转账的掌控，通过去掉中间服务来保证您的消息私密以及您的资产安全。
+      description: Status使用最新的加密和安全工具来确保您的消息和交易仅属于您自己。Status去除了中间方，使您的消息保持隐私并确保资产安全。自信，安全的沟通。
     status-network:
       title: 'Status Network'
-      description: Status网络是项目和人员的集合，致力于为具有弹性，可持续发展和包容性的社区创建工具和基础架构。
+      description: Status网络是项目的集合，这些项目为具有弹性、可持续发展和包容性的社区构建产品，工具和基础架构。为安全，平等和个人主权而设计和构建。
       link: '了解有关Status Network的更多信息'
   features:
     intro:
       title: 您口袋里的以太坊之窗
+      description: Status是一种多功能通信工具，集成了隐私信使，去中心化加密钱包和Web3浏览器。
       link-messenger: 信使
       link-wallet: 加密钱包
       link-browser: 浏览器和DApps
@@ -48,7 +49,8 @@ site:
         description: 可以加入任意数量的公共频道，在1对1或群组中聊天，您还可以在私密聊天时发送和接收加密数字货币。
         link: 加入Status公共频道
       feature-2:
-        title: 基于Waku的私密消息
+        title: '使用 Waku 的隐私消息传递'
+        description: Waku是一种点对点（p2p）消息传递协议，可以消除中心化的故障点。通过删除中心化的第三方，您的消息属于您自己，并且更加隐私和安全。
         learn-more: 了解有关Waku的更多信息
       feature-3:
         title: '完美向前保密 & <br> E2E 加密'
@@ -61,7 +63,6 @@ site:
       feature-2:
         title: 'ERC20&ERC721兼容'
         description: '支持以太坊网络上的 ERC20 和 ERC721 代币。在 Status 中放心地发送、存储和接收代币。轻松将 ERC-20 代币添加到您的钱包中。'
-        link: 加入Status钱包公共频道
       feature-3:
         title: '与节点 & DApps交互'
         description: Status钱包整合即时通信和浏览器，使您能够和DApps进行交互。所有交易都需要进行验证签名，以保护您免受网络钓鱼攻击。
@@ -98,7 +99,7 @@ site:
           title: 社区团体
           description: 'Status社区中已经有许多Status或社区创建的团队。 <br> <br>加入现有团队或根据您的个人兴趣创建自己的团队。人们在世界各地组织起来帮助促进和发展这个开源项目。'
       contributors:
-        title: 顶级社区贡献者
+        title: 'Status 大使'
         link: '加入Status 团队。查看所有空缺职位'
         subtitle: 我们是Status
         subtitle-2: 作为大使，你能做些什么
@@ -127,7 +128,7 @@ site:
         link: 贡献者指南
         status-react:
           title: Status-react
-          description: 'Clojure语言用于编写 - 处理Whisper和应用程序之间的交互;钱包功能中用户与他们想要访问的任何分布式应用程序（DApp）交互; UI逻辑交互。'
+          description: 用Clojure编写-这是我们处理Waku与应用程序之间交互的语言；是钱包，用户和他们要访问的任何分布式应用程序（DApp）之间使用的语言；是UI逻辑所用的语言。
           link: 查看代码仓库
         status-go:
           title: Status-go
@@ -217,6 +218,7 @@ site:
         how-to-get-started:
           title: 如何开始使用
           link-1: 社区成员初学者指南
+          link-1-description: 查看由社区成员创建的指南手册。
           link-2: 词汇
           link-2-description: 有关术语、定义、资源和概念，请参阅此开源文档，欢迎共同完善和丰富它。
           link-3: 常见问题解答
@@ -268,15 +270,12 @@ site:
         account-group-2:
           description: 一群充满激情的开发人员，制作人，创作者和爱好者，总部设在韩国。
           occupation: 组织者
-          name: Jinho张
         account-group-3:
           description: 西班牙
           occupation: 组织者
-          name: 'Lalo Garza'
         account-group-4:
           description: 中文
           occupation: 组织者
-          name: 'Steven 朱'
         account-group-5:
           description: 的意义是什么？
           occupation: 组织者
@@ -289,9 +288,11 @@ site:
       title: 安全设计
       description-1: Status致力于成为一款真正去中心化通信工具，最终的目标是去掉所有第三方中间服务，最大限度减少恶意攻击者的攻击面。
       description-2: 'Web3的真正好处是能够以我们自己的要求进行交易和沟通 - 没有中间人。在享受这样的自由沟通方式时我们必须确信我们的信息，交易，身份和资金都是安全的。以下可以详细了解Status是如何确保安全。'
-    security-at-status:       
+    security-at-status:
+      title: 'Status 安全消息传递'
       secure-inner-1:
         title: 安全<br>信息
+        description: 消息不会被审查、屏蔽，并且如果用户选择，它们将保持伪匿名状态。只有预先确定的收件人才能查看邮件。
       secure-inner-2:
         title: 安全金融<br>交易
         description: 在Status钱包中发送、存储和接收加密货币或代币是安全而不会被攻击的。私钥永远不会暴露。只有在私钥所有者发起和确认时才会处理交易事务。
@@ -303,13 +304,19 @@ site:
         title: 安全身份
         description: 您在Status中的身份信息是通过本地生成的加密密钥对建立的，并通过密码进行保护。然后，用户可以向他们的个人资料添加信息，完善他们在Status中的个人档案信息。用户在任何时候都可以完全控制他们的信息，以及谁有权访问它。终端用户可以根据需要选择为公开或私密。
       content-2:
+        title: 点对点消息传递协议
+        description: 'Status使用Waku协议进行点对点（p2p）通信。 Waku依靠对等网络来相互路由消息。发送的每条消息都会广播到整个网络，并进行加密，只有预先确定的收件人才能够查看消息。通过消除中心化的弊端，消息的内容和元数据归您自己所有。但是，Status和Waku并不是完全的点对点，因为当对等方离线时，由邮件服务器管理消息。 Waku邮件服务器是Waku的扩展，用于存储消息并在对等方重新上线时向其发送消息。'
         link: 了解有关Waku的更多信息
       content-3:
         title: 默认情况下的端到端加密
+        description: 默认情况下，在Status中发送的所有隐私消息都是端到端加密的。创建Status帐户时，将生成一个加密密钥对来加密您的消息，并将其存储在本地设备上。当您在Status中添加新联系人时，您们将相互交换公钥，用于解密对方发送的消息。
       content-4:
         title: 完美的前瞻性保密
         description: 'PFS 是一种密钥交互管理协议，协议的一项功能是它保证即使参与者的私钥受到威胁,会话密钥也不会污染。具体来说,即使第三方获取到会话参与方的私钥也无法解密过去的消息。它基于开放的Whisper系统采用 X3DH 和 Double Ratchet 规范,并进行了一些调整,可在去中心化的环境中运行。完美前向保密是为您的所有 1:1 私人聊天增加的安全层。'
         link: 了解更多有关PFS
+      content-5:
+        title: 伪匿名帐户创建
+        description: 当您在Status上创建新帐户时，永远不会要求您进行第三方验证，例如电子邮件或电话号码。您可以匿名注册并创建一个Status帐户，并保持伪匿名状态。创建帐户时，您只需要密钥即可。这也意味着Status没有两步身份验证和找回密码功能。因此请务必记住您的密钥和助记词并将其离线存储在非常安全的地方。
       content-6:
         title: '我的私钥是如何存储的?'
         description-1: 'Status永远不会使用第三方服务来管理和存储您的公钥和私钥。一旦生成后，第一个BIP44密钥将以keystore json格式保存在设备本地。并且此文件使用您为Status帐户选择的密码进行加密，只能由Status应用访问。我们优先考虑将敏感信息存储在安全硬件中如果您的设备具备的话。'
@@ -391,7 +398,7 @@ site:
       link-1: 我们的原则
       link-2: 活跃团队
       link-3: 核心聊天
-      description: Status致力于成为一款安全的通讯工具，尊重人权，赋能社区货币，社区法律和隐私保护文化。
+      description: Status致力于成为一款安全的尊重人权的通讯工具，目的是使信息自由流通，保护隐私的权利，安全的沟通交流和提升个人主权。
     principles:
       title: 我们的原则
       description: 这些原则是引导我们如何思考、沟通、去中心化决策的工具，让我们诚实地认识到任何与我们愿景偏离的地方。
@@ -522,18 +529,18 @@ site:
         link: 在白书了解更多信息
       inner-4:
         title: 研究
-        description: 我们对加密经济模型以及点对点技术进行研究是为了确保Status网络的长期健康发展。
+        description: 贡献者对加密经济模型和点对点技术进行研究，确保Status网络的长期健康。
         link: 了解有关研究的更多信息
     using-snt:
       title: 使用SNT
       description: 为某些应用功能赋能、创建开源、去中心化经济都需要SNT，通过深入探索下面每一个SNT用例，可以更好地学习和理解加密经济以及价值是怎样在网络中流转。
       teller-network:
         title: 柜员网络
-        status: 开发中
-        description: 在Status内为社区网络成员设计一个无国界、点对点的法币兑换加密数字货币的汇兑网络DAPP，可以让网络中的成员发现并找到身边愿意提供法币来兑换数字货币资产的交易对手，想要成为卖家必须持有SNT。
+        status: 已开发
+        description: '社区部署的DApp提供了无边界，点对点，法币兑换加密货币的Teller网络，使利益相关者可以找到附近的用户，用现金交换数字资产和货币。 必须持有SNT才能成为网络中的卖方。'
       network-incentivization:
         title: 网络激励
-        status: 研究中
+        status: 研究
         description: 构建一个可以激励社区人员部署和使用Status节点的系统框架，SNT可以激励和奖励参与人员运行节点，即使Status集群节点瘫痪也不影响正常运行，具体方式包括付费转发消息、付费暂存离线消息等。
       ens-user-name:
         title: ENS用户名
@@ -542,11 +549,11 @@ site:
         link: 注册ENS
       sticker-market:
         title: 贴纸市场
-        status: 开发中
-        description: '表情包贴纸为朋友、家人之间提供一种有趣的交流方式，Status内置的贴纸市场可以让任何人设计贴纸并销售给全世界的用户，贴纸可以在Status 聊天中使用。 <br> <br> SNT是用户从贴纸市场购买贴纸的必要支付方式。'
+        status: 已上线
+        description: '贴纸为朋友、家人提供一种有趣的可视化交流方式，Status内置的贴纸市场允许任何人创作贴纸并将其销售给全世界的用户。贴纸可以在所有Status 聊天中使用。 <br> <br> 用户从贴纸市场购买贴纸需要SNT。'
       tribute-to-talk:
         title: 致敬聊天
-        status: 开发中
+        status: 已开发
         description: '致敬聊天是基于经济人的理性来设计的反垃圾信息过滤机制，可以让Status 网络的用户设置一个最小SNT通证献礼数量，当陌生人想要联系她/他时必须敬献其所设定的最小数量的SNT通证作为礼金。'
       dao-governance:
         title: 'DAO & 治理'
@@ -555,7 +562,7 @@ site:
       dapp-curation:
         title: DApp策展
         status: 生活
-        description: 'Status DApp Directory为网络中的利益相关者提供了一种发现DApp的方法，由其他社区成员策划。它还将提供按类别和评级排名的方法，使用户能够准确找到他们正在寻找的内容。Directory中的策展和信令需要SNT。想要更多人关注他们的DApp，开发者需要存入SNT。'
+        description: 'Dap.ps为网络中的利益相关者提供了一种发现 DApp 的方法，正如其他社区成员所策划的那样。它还将提供一种按类别和分级进行排名的方法，使用户能够准确找到他们正在寻找的内容。在目录中进行策展和信令需要 SNT。希望其Dapp获得更多关注的 DApp 开发人员需要存入 SNT 作为押金。'
         link: 浏览DApps
       voting-dapp:
         title: 投票DApp
@@ -568,18 +575,18 @@ site:
         description: '实现我们的使命最终需要完成一件事：大规模的终端用户使用。利用Status网络代币，我们可以设计在Web 2.0中经过试验和测试的增长机制，同时为参与者提供更高的透明度和更好的激励一致性。status获取引擎提供了一种可加密的可验证且透明的方法来增加用户群。'
     crypto-research:
       title: 加密经济学研究
-      description-1: 'Status团队正在研究每个SNT用例的加密经济模型，以便为产品和功能开发以及status网络激励提供信息。 <br> <br>这些加密经济模型是一项持续的研究工作，我们鼓励任何人探索，批评和审查这些工作。 <br> <br>这些模型根据使用情况，增长率，SNT供应和流通情况帮助预测SNT 实用功能的价值及其对status网络合并实用价值的影响。'
-      link-1: '加入#token-economics'
+      description-1: 来自世界各地的社区贡献者对SNT用例的加密经济模型进行研究，为产品和功能开发提供信息，并激励Status网络。<br><br>这些加密经济模型是一项持续的研究工作，鼓励任何人研究、批评和审查这项工作。
+      link-1: '加入#status'
       description-2: 加入公共频道并了解相关研究的更多信息
-      link-2: 综合用例价值工作手册
-      description-3: '查看 Status 综合用例价值工作手册并测试我们自己的模型。'
+      link-2: 社区创建的工作手册
+      description-3: 查看Status网络合并实用程序价值工作手册。
     learn-more:
       title: 了解更多信息
       description: '许多 SNT 用例都在积极研究和开发中。加入公开讨论或阅读 SNT 常见问题解答以了解有关 SNT 用例和代币经济研究的更多信息。'
-      link: '加入公共频道 #token-economics'
+      link: '加入公共频道 #status'
     create-your-snt:
       title: '创建自己的 SNT 金融模型'
-      description: '我们鼓励任何人参与进来, 测试概述的经济模式。如果你是一名研究人员、经济学家, 或者只是对金融模型感到好奇, 请参与进来。'
+      description: '我们鼓励任何人参与进来，并测试手册中概述的经济模式。如果你是一名研究人员、经济学家, 或者只是对金融模型感到好奇, 请参与进来。'
       link: '测试 SNT 代币经济模型'
   get:
     mobile:
@@ -702,10 +709,6 @@ site:
         option-2: 购买贴纸包
         option-3: 在dap.ps中为您喜欢的dapp点赞
         option-4: 参与社区治理提案
-  nft-nyc:
-    invite:
-      prize:
-        option-4: 参与Status社区治理提案
   nightly:
     title-1: 'Status nightly 版本'
     title-2: 小心危险

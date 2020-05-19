@@ -64,7 +64,11 @@ After you installed all the dependencies, you need to run two processes — the 
 
 ### 1. Build process
 
-Just run make `run-clojure` in the first terminal window.
+In the first terminal window, just run:
+
+```bash
+make run-clojure
+```
 
 By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging). You should wait until it shows you `Prompt will show when Figwheel connects to your application` before running the React Native packager.
 

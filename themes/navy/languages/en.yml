@@ -598,10 +598,10 @@ site:
         option-4: "Take part in Status Community Governance proposals"
   docs:
     stripe:
-      title: "Status Documentation"
+      title: "Status Developers"
     index:
       intro:
-        title: "Developer Portal"
+        title: "Status Developers"
         teaser-1: "Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or registering your dapp in "
       box-link-1:
         title: "Contributors Guide"
@@ -609,7 +609,12 @@ site:
       box-link-2:
         title: "DApp Integration Center"
         text: "Status includes a private and secure web3 browser and access to growing ecosystem of decentralized applications<br>&nbsp;<br>The Dapp Integration Center is a step by step guide to optimize dapps for use in Status. This includes mobile first best practice, security and privacy requirements, leveraging the Status API, and how to submit to dap.ps."
-    
+      box-link-3:
+        title: "Tutorials"
+        text-1: "WebAssembly / eWasm – What, and Why?"
+        description-1: "Embark tutorial short line of details"
+        text-2: "DApp Frontend Security"
+        description-2: "Embark tutorial short line of details"
     title: "Welcome to the Status Documentation!"
     description: "Run your DApp on Status, dig into our tech, learn about our organization or help build Status:"
     categories:
@@ -648,6 +653,24 @@ site:
       specs:
         title: "specs"
         description: "Specifications for Status clients."
+    dev-tools:
+      title: "The Status Network Dev Tools"
+      keycard:
+        title: "Keycard"
+        subtitle: "Secure, Contactless, Open Source Hardwallet"
+        description: "Integrate with Keycard"
+      embark:
+        title: "Embark"
+        subtitle: "All-in-one developer platform for building & deploying DApps"
+        description: "Build Dapps with Embark"
+      nimbus:
+        title: "Nimbus"
+        subtitle: "Researching and implementing light Ethereum 2.0 clients"
+        description: "Lighter Ethereum 2.0 clients with Nimbus"
+      vac:
+        title: "Vac"
+        subtitle: "Secure peer-to-peer messaging stack"
+        description: "Private, secure, censorship resistant communication with Vac"
     help:
       title: "We are here to help!"
       description: "We're always happy to help with code or any questions you have."

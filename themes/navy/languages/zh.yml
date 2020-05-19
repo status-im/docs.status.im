@@ -604,7 +604,7 @@ site:
       announcement: '这是alpha版软件，可能有漏洞。 <br>请期待修改版本。'
   docs:
     stripe:
-      title: 'Status 文档'
+      title: 'Status Developers'
     title: 欢迎访问Status文档！
     description: 在Status上运行您的DApp，深入研究我们的技术，了解我们的组织或帮助构建Status：
     categories:

@@ -421,6 +421,12 @@ h4{
     margin-bottom: 50px;
 }
 
+.hover-white {
+    &:hover{
+        color: white !important;
+    }
+}
+
 .link-arrow{
     font-size: 16px;
     padding-right: 20px;
@@ -1703,6 +1709,89 @@ footer{
     }
 }
 
+.dev-tools {
+    .products{
+        margin-bottom: 30px;
+        .description {
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: 16px;
+        }
+        .inner-img{
+            a{
+                display: block;
+                position: relative;
+                transition: none;
+                width: 100%;
+                &:hover{
+                    .inner{
+                        span{
+                            max-height: 120px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+                &.soon{
+                    cursor: default;
+                    &:before{
+                        content: 'Coming soon';
+                        position: absolute;
+                        top: 40px;
+                        left: 40px;
+                        width: 140px;
+                        height: 30px;
+                        z-index: 1;
+                        background: rgba($white,.9);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 3px;
+                        color: $darker-grey;
+                        font-weight: bolder;
+                        font-size: 0.875rem;
+                        opacity: 0;
+                        transition: all .3s ease-in-out;
+                    }
+                    &:hover{
+                        &:before{
+                            opacity: 1;
+                        }
+                    }
+                }
+                .bg{
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .inner{
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                    span{
+                        font-size: 1.25rem;
+                        line-height: 1.5rem;
+                        letter-spacing: -0.641026px;
+                        display: block;
+                        max-width: 240px;
+                        transition: all .3s ease-in-out;
+                        max-height: 0;
+                        margin-top: 20px;
+                        overflow: hidden;
+                        color: $white;
+                        &.black{
+                            color: $black;
+                        }
+                    }
+                    img {
+                        width: 50% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .docs-content{
     margin-top: 80px;
     .section-title{
@@ -1964,7 +2053,7 @@ footer{
 }
 
 .single-docs-content{
-    margin: 100px 0;
+    margin: 60px 0;
     padding: 0 25px;
     .page-title{
         margin-top: 0;
@@ -2222,11 +2311,44 @@ footer{
     }
 }
 
+.docs-intro{
+    position: relative;
+    &:before{
+        content: '';
+        width: 32vw;
+        height: 710px;
+        position: absolute;
+        top: -110px;
+        right: 0;
+        background-image: url('../img/developer_portal_artwork.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 100% auto;
+    }
+    .open-source-illustration-horz{
+        display: none;
+        img{
+            width: 100%;
+            margin: 30px 0 0 -20px;
+        }
+    }
+    h4{
+        margin-bottom: 10px;
+        color: rgba( $dark-grey, .8 );
+    }
+}
+
+.border-line {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
 .get-involved-box-links, .docs-box-links {
     .box-link{
-        background-color: $light-black;
+        background-color: rgba(69, 100, 220, 0.6);
         padding: 30px 40px;
-        color: $white;
+        color: black;
         position: relative;
         transition: all .3s ease;
         height: 100%;
@@ -2237,14 +2359,14 @@ footer{
             background-color: $purple;
         }
         .title{
-            font-size: 24px;
+            font-size: 18px;
             line-height: 38px;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
             display: flex;
             min-height: 40px;
             align-items: center;
             a{
-                color: $white;
+                color: black !important;
                 &:before{
                     content: '';
                     width: 100%;
@@ -2259,11 +2381,23 @@ footer{
                 margin-right: 25px;
             }
         }
+        .embark-symbol {
+            float: left;
+            margin-right: 20px;
+        }
+        .box-title {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+        .box-description {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
         p{
-            color: rgba( $white, .8 );
+            color: black;
             align-self: stretch;
             &:last-of-type{
-                margin-bottom: 40px;
+                margin-bottom: 20px;
             }
         }
         .link-arrow{
@@ -3256,9 +3390,167 @@ img.qr-code{
     }
 }
 
+.docs-container {
+    max-width: 1500px !important;
+}
+
 .join-us-padding {
     padding-top: 20px !important;
     padding-bottom: 10px !important;
+}
+
+@media (min-width: 2100px) {
+    .docs-intro{
+        &:before{
+            background-size: 100% 100% !important;
+        }
+    }
+}
+
+@media (min-width: 1420px) and (max-width: 1510px) {
+    .smaller {
+        font-size: 15px !important;
+    }
+}
+
+@media (min-width: 1372px) and (max-width: 1419px) {
+    .smaller {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1371px) {
+    .smaller {
+        font-size: 13px !important;
+    }
+    .box-link .title {
+        line-height: 25px !important;
+    }
+}
+
+@media (min-width: 1560px) and (max-width: 1620px) {
+    .docs-intro{
+        &:before{
+            width: 510px;
+            height: 550px;
+        }
+    }
+}
+
+@media (min-width: 1420px) {
+    .border-line {
+        #black-line {
+            img {
+                width: 75vw !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1559px) {
+    .docs-intro{
+        &:before{
+            width: 487px;
+        }
+    }
+}
+
+@media (min-width: 1390px) and (max-width: 1499px) {
+    .docs-intro{
+        &:before{
+            width: 470px;
+            height: 500px;
+        }
+    }
+}
+
+@media (min-width: 1270px) and (max-width: 1389px) {
+    .docs-intro{
+        &:before{
+            width: 420px;
+            height: 500px;
+        }
+    }
+}
+
+@media (min-width: 1271px) and (max-width: 1389px) {
+    .docs-intro{
+        &:before{
+            width: 420px;
+            height: 500px;
+        }
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1270px) {
+    .docs-intro{
+        &:before{
+            height: 500px;
+            top: -145px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .docs-intro{
+        &:before{
+            top: -60px;
+        }
+    }
+    .border-line {
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .dev-tools {
+        .products{
+            .description {
+                margin-top: 20px;
+                margin-left: 5px;
+                font-size: 12px;
+            }
+            .inner-img{
+                a{
+                    .inner{
+                        bottom: 0px;
+                        left: 15px;
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .margin-bottom-20 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .docs-intro{
+        &:before{
+            display: none;
+        }
+    }
+    .border-line {
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+    .box-link .title {
+        line-height: 30px !important;
+    }
+}
+
+@media (max-width: 354px) {
+    .border-line {
+        display: none;
+    }
 }
 
 @media (min-width: 1500px)  {
@@ -4239,7 +4531,7 @@ img.qr-code{
     }
 
     .title {
-        margin-top: 30px;
+        margin-top: 10px;
         text-align: center;
     }
 

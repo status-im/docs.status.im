@@ -604,7 +604,7 @@ site:
       announcement: 'Dies ist Alpha-Software und kann Schwachstellen enthalten. <br> Bitte erwarten Sie Änderungen.'
   docs:
     stripe:
-      title: 'Dokumentation von Status'
+      title: 'Status Developers'
     title: 'Willkommen zur Dokumentation von Status!'
     description: 'Führen Sie Ihre DApp on Status aus, lernen Sie unsere Technologie, Organisation kennen oder helfen Sie bei der Entwicklung von Status:'
     categories:

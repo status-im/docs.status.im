@@ -6,8 +6,24 @@
   }
 }
 
+.repo-card {
+  margin-bottom: 30px;
+}
+
 .repo-card .detail {
-  margin-top:15px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+  .repo-card-margin-bottom {
+    margin-bottom: 40px !important;
+  }
+}
+
+@media (min-width: 1200px){
+  .repo-card-margin-bottom {
+    margin-bottom: 50px !important;
+  }
 }
 
 @media (max-width: 1499px){

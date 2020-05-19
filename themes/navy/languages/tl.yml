@@ -604,7 +604,7 @@ site:
       announcement: 'Ito ang Alpha Software at maaaring maglaman ng vulnerabilities.<br>Mangyaring asahan ang mga pagbabago.'
   docs:
     stripe:
-      title: 'Dokumentasyon ng Status'
+      title: 'Status Developers'
     title: 'Maligayang pagdating sa Status Dokumentasyon'
     description: 'Patakbuhin ang iyong DApp sa Status, maghukay sa aming tech, alamin ang tungkol sa aming samahan o makakatulong na bumuo sa Status'
     categories:

@@ -604,7 +604,7 @@ site:
       announcement: 'هذا برنامج ألفا وقد يحتوي على ثغرات أمنية. <br> يرجى توقع التغييرات.'
   docs:
     stripe:
-      title: 'وثائق Status'
+      title: 'Status Developers'
     title: 'مرحبًا بك في وثائق Status!'
     description: 'قم بتشغيل DApp الخاص بك على الحالة ، أو ابحث في تقنيتنا ، أو تعرف على مؤسستنا أو ساعد في بناء الحالة:'
     categories:

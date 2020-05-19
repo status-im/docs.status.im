@@ -595,7 +595,7 @@ site:
       announcement: 'Ini adalah perangkat lunak alfa dan mungkin mengandung kerentanan. <br> Mengharapkan perubahan.'
   docs:
     stripe:
-      title: 'Dokumentasi Status'
+      title: 'Status Developers'
     title: 'Selamat datang di Dokumentasi Status!'
     description: 'Jalankan DApp Anda pada Status, gali teknologi kami, pelajari tentang organisasi kami atau bantu membangun Status:'
     categories:

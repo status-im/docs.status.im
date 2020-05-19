@@ -594,7 +594,7 @@ site:
       announcement: 'Este es un software alfa y puede contener vulnerabilidades. <br> Por favor espera cambios.'
   docs:
     stripe:
-      title: 'Documentación de Status'
+      title: 'Status Developers'
     title: '¡Bienvenidos a la documentación de Status!'
     description: 'Ejecuta tu DApp en Status, profundiza en nuestra tecnología, aprende sobre nuestra organización o ayuda a crear Status'
     categories:

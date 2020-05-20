@@ -86,6 +86,8 @@ site:
         title: "Implementation"
       communication-post-mortem:
         title: "Communication & Post-mortem"
+    join-us:
+      title: "Join us"
     active-swarms:
       title: "Active Swarms"
       link: " View all Swarms on Github"

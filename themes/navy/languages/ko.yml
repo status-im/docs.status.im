@@ -373,12 +373,12 @@ site:
         description: '스테이터스는 전세계 사람들이 <br> 함께 만들어가는 오픈소스 프로젝트입니다.'
       security: 보안
       docs:
-        title: '개발 문서'
+        title: '개발자'
         description: '스테이터스 <br> 개발을 시작하기 위해 필요한 모든 것'
-        link: '개발 문서'
+        link: '개발자'
         link-1: 'DApp 통합'
         link-2: '참여자 가이드'
-        link-3: '스테이터스와 함께하세요'
+        link-3: '튜토리얼'
         link-4: 보안
         link-5: 스펙
       about: 소개

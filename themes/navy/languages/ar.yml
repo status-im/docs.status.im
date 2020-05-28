@@ -373,12 +373,12 @@ site:
         description: 'Status هي مشروع مفتوح المصدر <br> التي أدلى بها الناس في جميع أنحاء العالم.'
       security: الأمان
       docs:
-        title: الوثائق
+        title: المطورون
         description: 'كل ما تحتاجه لبدء <br>التطوير مع status'
-        link: مستندات
+        link: المطورون
         link-1: 'تكامل DApp'
         link-2: 'دليل المساهمين'
-        link-3: 'انضم إلى فريقنا'
+        link-3: 'الدروس'
         link-4: الأمان
         link-5: المواصفات
       about: حولنا

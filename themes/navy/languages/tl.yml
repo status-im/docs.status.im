@@ -373,12 +373,12 @@ site:
         description: 'Status ay isang bukas na pagkukunan na proyekto<br>ginawa ng mga tao sa lahat ng dako ng mundo'
       security: Seguridad
       docs:
-        title: Dokumentasyon
+        title: Mga developer
         description: 'Lahat ng kailangan mong simulan<br>pagbuo kasama ang Status'
-        link: Docs
+        link: Mga developer
         link-1: 'Pagsasama ng DApp'
         link-2: 'Gabay ng Kontribyutor'
-        link-3: 'Sumali sa aming Pangkat'
+        link-3: 'Mga Tutorial'
         link-4: Seguridad
         link-5: specs
       about: Tungkol

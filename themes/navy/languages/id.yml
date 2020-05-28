@@ -364,12 +364,12 @@ site:
         description: 'Status adalah proyek sumber terbuka <br> dibuat oleh orang-orang di seluruh dunia.'
       security: Keamanan
       docs:
-        title: Dokumentasi
+        title: Pengembang
         description: 'Segala sesuatu yang Anda perlu untuk memulai <br> berkembang dengan Status'
-        link: Documents
+        link: Pengembang
         link-1: 'Integrasi DApp'
         link-2: 'Panduan Kontributor'
-        link-3: 'Bergabunglah dengan Tim Kami'
+        link-3: 'Tutorial'
         link-4: Keamanan
         link-5: Spesifikasi
       about: Tentang

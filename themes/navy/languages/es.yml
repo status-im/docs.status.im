@@ -363,12 +363,12 @@ site:
         description: 'Status es un proyecto de código abierto <br>hecho por gente de todo el mundo.'
       security: Seguridad
       docs:
-        title: Documentación
+        title: Desarrolladoras
         description: 'Todo lo que necesitas para iniciar a <br>desarrollar con Status'
-        link: Documentos
+        link: Desarrolladoras
         link-1: 'Integración de DApp'
         link-2: 'Guía de Contribuidor'
-        link-3: 'Únete a nuestro equipo'
+        link-3: 'Tutoriales'
         link-4: Seguridad
         link-5: Especificaciones
       about: 'Acerca de'

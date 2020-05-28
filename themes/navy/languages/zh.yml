@@ -373,12 +373,12 @@ site:
         description: 'Status 是一个开源项目， <br>被人在世界各地制造。'
       security: 安全
       docs:
-        title: 文档
+        title: 开发 人员
         description: '用Status开始开发 <br> 所需的一切'
-        link: 文档
+        link: 开发 人员
         link-1: 'DApp 集成'
         link-2: 贡献者指南
-        link-3: 加入我们的团队
+        link-3: 教程
         link-4: 安全
         link-5: 规范
       about: 关于

@@ -7,3 +7,4 @@ db.json
 .deploy*/
 public/
 package-lock.json
+npm-shrinkwrap.json

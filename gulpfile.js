@@ -100,6 +100,7 @@ gulp.task('index', async () => {
 
 gulp.task('watch', async () => {
     gulp.watch(config.paths.src.scss, ['compress'])
+    gulp.watch(config.paths.src.js, ['minify'])
 });
 
 gulp.task('build', (cb) => {

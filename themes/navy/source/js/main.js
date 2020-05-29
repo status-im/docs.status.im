@@ -384,6 +384,418 @@ $(document).ready(function($) {
     });
   }
 
+  // Animate Keycard Intro Elements
+  ScrollReveal().reveal('.keycard-animate-1', {
+    opacity: 1,
+    duration: 0,
+    viewFactor: 0.5,
+    afterReveal: function(){
+
+      // Animate Card
+      anime({
+        targets: '.keycard-animate-1 .card',
+        scale: [0.7, 1],
+        rotateX: [-10, 0],
+        rotateY: [10, 0],
+        rotateZ: [15, 0],
+        duration: 750,
+        easing: 'easeInOutQuad',
+        delay: 100
+      });
+
+      // Animate Phone
+      anime({
+        targets: '.keycard-animate-1 .phone',
+        scale: [0.95, 1],
+        translateX: [-30, 0],
+        duration: 750,
+        easing: 'easeInOutQuad',
+        delay: 100
+      });
+
+      // Animate Circles
+      anime({
+        targets: '.keycard-animate-1 .circles',
+        scale: [0.9, 1],
+        duration: 750,
+        easing: 'easeInOutQuad',
+        delay: 100
+      });
+    }
+  });
+
+  // Animate Keycard Cards
+  ScrollReveal().reveal('.keycard-animate-2', {
+    opacity: 1,
+    duration: 0,
+    viewFactor: 0.5,
+    afterReveal: function(){
+
+      // Animate Black Card
+      anime({
+        targets: '.keycard-animate-2 .front-1',
+        translateX: [-50, 0],
+        scale: [0.7, 1],
+        rotateX: [-10, 0],
+        rotateY: [0, 0],
+        rotateZ: [-10, 0],
+        duration: 750,
+        easing: 'easeInOutQuad',
+      });
+
+      // Animate White Card
+      anime({
+        targets: '.keycard-animate-2 .front-2',
+        scale: [0.7, 1],
+        rotateX: [-10, 0],
+        rotateY: [0, 0],
+        rotateZ: [-10, 0],
+        duration: 750,
+        easing: 'easeInOutQuad',
+        delay: 100
+      });
+
+      // Animate Cyan Card
+      anime({
+        targets: '.keycard-animate-2 .front-3',
+        translateX: [50, 0],
+        scale: [0.7, 1],
+        rotateX: [0, 0],
+        rotateY: [0, 0],
+        rotateZ: [-10, 0],
+        duration: 750,
+        easing: 'easeInOutQuad',
+        delay: 200
+      });
+    }
+  });
+
+
+  // Animate Keycard Transaction
+
+  var keycardAnimate3Viewfactor = 1;
+
+  if(w < 1200){
+    keycardAnimate3Viewfactor = 0.8;
+  }
+
+  ScrollReveal().reveal('.keycard-animate-3', {
+    opacity: 1,
+    duration: 0,
+    viewFactor: keycardAnimate3Viewfactor,
+    afterReveal: function(){
+
+      // Animate Morph Element
+      anime({
+        targets: '.keycard-animate-3 .morph',
+        opacity: [0, 1],
+        translateY: [20,0],
+        scale: [0.8, 1],
+        duration: 500,
+        easing: 'easeInOutQuad',
+        complete: function(anim) {
+
+          // Delete amount
+          setTimeout(function() {
+            typeWriterDelete($('.keycard-animate-3 .amount span'), typeWriter);
+          }, 300);
+
+        }
+      });
+    }
+  });
+
+  function typeWriterDelete(e, f) {
+    var t = e.text();
+    if (t.length > 0) {
+      e.text(t.substring(0, t.length - 1));
+      setTimeout(function() {
+        typeWriterDelete(e, f)
+      }, 200);
+    }else{
+
+      // Write amount
+      $('.keycard-animate-3 .amount span').addClass('active');
+      typeWriter($('.keycard-animate-3 .amount span'), '15', 0);
+    }
+  }
+
+  function typeWriter(e, txt, i) {
+    var t = e.text();
+    if (t.length < txt.length) {
+      e.text(e.text() + txt.charAt(i));
+      i++;
+      setTimeout(function() {
+        typeWriter($('.keycard-animate-3 .amount span'), '15', i);
+      }, 200);
+    }else{
+
+      // Animate Morph Element
+      anime({
+        targets: '.keycard-animate-3 .morph',
+        left: 0,
+        width: '100%',
+        bottom: 0,
+        duration: 500,
+        delay: 300,
+        height: '160px',
+        zIndex: '4',
+        borderTopLeftRadius: 0,
+        borderTopRightRadius: 0,
+        borderBottomRightRadius: '22px',
+        borderBottomLeftRadius: '22px',
+        easing: 'easeInOutQuad',
+        changeBegin: function(anim) {
+          $('.keycard-animate-3').attr('data-step', 2);
+        },
+        complete: function(anim) {
+
+          // Animate Circles
+          anime({
+            targets: '.keycard-animate-3 .morph .step-2 .circles',
+            duration: 3000,
+            keyframes: [
+              {
+                opacity: 0.6,
+                scale: 0.6
+              },
+              {
+                opacity: 0.3,
+                scale: 1
+              },
+              {
+                opacity: 0.6,
+                scale: 0.6
+              },
+              {
+                opacity: 0.3,
+                scale: 1
+              },
+              {
+                opacity: 0.6,
+                scale: 0.6
+              },
+              {
+                opacity: 0.3,
+                scale: 1
+              },
+            ],
+            easing: 'easeInOutQuad'
+          });
+
+          // Animate Keycard behind phone
+
+          var translateXFront4 = 70;
+
+          anime({
+            targets: '.keycard-animate-3 .front-4',
+            duration: 2000,
+            keyframes: [
+              {
+                translateX: 0,
+                opacity: 1
+              },
+              {
+                translateX: translateXFront4,
+                delay: 1200
+              },
+            ],
+            easing: 'easeInOutQuad',
+            complete: function(anim) {
+
+              var keycardAnimate3MorphWidth = 'calc(100% + 140px)',
+                keycardAnimate3MorphLeft = '-70px',
+                keycardAnimate3MorphHeight = '102px';
+
+                if(w < 1200){
+                  keycardAnimate3MorphWidth = 'calc(100% + 100px)',
+                  keycardAnimate3MorphLeft = '-50px',
+                  keycardAnimate3MorphHeight = '82px';
+                }
+
+              // Animate transaction complete
+              anime({
+                targets: '.keycard-animate-3 .morph',
+                left: keycardAnimate3MorphLeft,
+                width: keycardAnimate3MorphWidth,
+                bottom: '20px',
+                duration: 500,
+                height: keycardAnimate3MorphHeight,
+                backgroundColor: '#4EBC60',
+                borderTopLeftRadius: '12px',
+                borderTopRightRadius: '12px',
+                borderBottomRightRadius: '12px',
+                borderBottomLeftRadius: '12px',
+                easing: 'easeInOutQuad',
+                begin: function(anim) {
+                  $('.keycard-animate-3').attr('data-step', 3);
+                },
+              })
+
+              anime({
+                targets: '.keycard-animate-3 .front-4',
+                opacity: 0,
+                delay: 1000,
+                duration: 500,
+                easing: 'linear',
+              })
+
+            }
+          });
+
+        }
+      });
+    }
+  }
+
+  // Animate Keycard Lock
+
+  var keycardAnimate4Viewfactor = 1;
+
+  if(w < 1200){
+    keycardAnimate4Viewfactor = 0.8;
+  }
+
+  ScrollReveal().reveal('.keycard-animate-4', {
+    opacity: 1,
+    duration: 0,
+    viewFactor: keycardAnimate4Viewfactor,
+    afterReveal: function(){
+
+      var phoneNumbersToAnimate = [2,7,6,0,1,5];
+      for (var i = 0; i < phoneNumbersToAnimate.length; i++) {
+        anime({
+          targets: '.keycard-animate-4 .numbers .nr-' + phoneNumbersToAnimate[i],
+          delay: i*500,
+          backgroundColor: '#536DE1',
+          color: '#fff',
+          duration: 200,
+          easing: 'easeInOutQuad',
+          direction: 'alternate'
+        });
+        anime({
+          targets: '.keycard-animate-4 .dots .dot-' + i,
+          delay: i*500,
+          backgroundColor: '#536DE1',
+          duration: 200,
+          easing: 'easeInOutQuad',
+        });
+      };
+
+      setTimeout(function() {
+
+        // Animate Morph Element
+        anime({
+          targets: '.keycard-animate-4 .morph',
+          duration: 500,
+          delay: 300,
+          translateY: ['100%', 0],
+          easing: 'easeInOutQuad',
+          changeBegin: function(anim) {
+            $('.keycard-animate-4').attr('data-step', 2);
+          },
+          complete: function(anim) {
+            // Animate Circles
+            anime({
+              targets: '.keycard-animate-4 .morph .step-2 .circles',
+              duration: 3000,
+              keyframes: [
+                {
+                  opacity: 0.6,
+                  scale: 0.6
+                },
+                {
+                  opacity: 0.3,
+                  scale: 1
+                },
+                {
+                  opacity: 0.6,
+                  scale: 0.6
+                },
+                {
+                  opacity: 0.3,
+                  scale: 1
+                },
+                {
+                  opacity: 0.6,
+                  scale: 0.6
+                },
+                {
+                  opacity: 0.3,
+                  scale: 1
+                },
+              ],
+              easing: 'easeInOutQuad'
+            });
+
+            // Animate Keycard behind phone
+
+            var translateXFront4 = 70;
+
+            anime({
+              targets: '.keycard-animate-4 .front-4',
+              duration: 2000,
+              keyframes: [
+                {
+                  translateX: 0,
+                  opacity: 1
+                },
+                {
+                  translateX: translateXFront4,
+                  delay: 1200
+                },
+              ],
+              easing: 'easeInOutQuad',
+              complete: function(anim) {
+
+                // Animate transaction complete
+
+                var keycardAnimate3MorphWidth = '360px',
+                  keycardAnimate3MorphLeft = '-70px',
+                  keycardAnimate3MorphHeight = '102px';
+
+                  if(w < 1200){
+                    keycardAnimate3MorphWidth = '281px',
+                    keycardAnimate3MorphLeft = '-50px',
+                    keycardAnimate3MorphHeight = '82px';
+                  }
+
+                anime({
+                  targets: '.keycard-animate-4 .morph',
+                  left: keycardAnimate3MorphLeft,
+                  width: keycardAnimate3MorphWidth,
+                  bottom: '20px',
+                  duration: 500,
+                  height: keycardAnimate3MorphHeight,
+                  backgroundColor: '#4EBC60',
+                  borderTopLeftRadius: '12px',
+                  borderTopRightRadius: '12px',
+                  borderBottomRightRadius: '12px',
+                  borderBottomLeftRadius: '12px',
+                  easing: 'easeInOutQuad',
+                  begin: function(anim) {
+                    $('.keycard-animate-4').attr('data-step', 3);
+                  },
+                })
+
+                anime({
+                  targets: '.keycard-animate-4 .front-4',
+                  opacity: 0,
+                  delay: 1000,
+                  duration: 500,
+                  easing: 'linear',
+                })
+
+              }
+            });
+          }
+        });
+
+      }, 3000);
+
+    }
+  });
+
   function timeDifference(current, previous) {
     
     var msPerMinute = 60 * 1000;
@@ -418,5 +830,6 @@ $(document).ready(function($) {
       return Math.round(elapsed/msPerYear ) + ' years ago';   
     }
 }
+
 
 });

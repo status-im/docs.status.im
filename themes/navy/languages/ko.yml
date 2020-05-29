@@ -385,7 +385,7 @@ site:
       blog: 블로그
       snt-utility: 'SNT 유틸리티'
   link:
-    get-status: '스테이터스 다운로드'
+    get-status: '앱 다운로드'
     get-involved: 참여하기
     developers: 개발자
     educators: 교육자

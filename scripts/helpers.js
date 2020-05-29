@@ -278,7 +278,7 @@ hexo.extend.helper.register('language_selector', function() {
   
     languageSelector = `
       <div class="language-selector">
-        <a href="#" class="language-selector-trigger btn btn-arrow">${shortLang}</a>
+        <a href="#" class="responsive-font responsive-lang language-selector-trigger btn btn-arrow">${shortLang}</a>
         <ul>
           ${list}
         </ul>

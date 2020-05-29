@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="col-md-7">
 					<h1><%- __('site.docs.stripe.title') %></h1>
-					<p class="teaser-1"><%- __('site.docs.index.intro.teaser-1') %><a href="https://dap.ps">dap.ps</a>.</p>
+					<p class="teaser-1"><%- __('site.docs.index.intro.teaser-1') %></p>
 					<div class="open-source-illustration-horz"><%- image_tag("/img/developer_portal_artwork.svg") %></div>
 				</div>
 			</div>
@@ -25,38 +25,23 @@
 							<div class="row">
 								<div class="col-xl-4 box-link-wrapper">
 									<div class="box-link">
-										<a href="<%- show_lang() %>/technical/"><h3 class="title smaller hover-white"><%- image_tag("/img/ic-contributor-guide-black.svg") %><%- __('site.docs.index.box-link-1.title') %></h3></a>
+										<a href="<%- show_lang() %>/technical/"><h3 class="title hover-white"><%- __('site.docs.index.box-link-1.title') %></h3></a>
 										<p><%- __('site.docs.index.box-link-1.text') %></p>
-										<a href="<%- show_lang() %>/technical/" class="link-arrow link-arrow-black hover-white"><%- __('site.link.learn-more') %></a>
+										<a href="<%- show_lang() %>/technical/" class="link-arrow link-arrow-black hover-white"><%- __('site.docs.index.box-link-1.cta') %></a>
 									</div>
 								</div>
 								<div class="col-xl-4 box-link-wrapper">
 									<div class="box-link">
-										<a href="<%- show_lang() %>/developer_tools/"><h3 class="title smaller hover-white"><%- image_tag("/img/ic-dapp-center-black.svg") %><%- __('site.docs.index.box-link-2.title') %></h3></a>
+										<a href="<%- show_lang() %>/developer_tools/"><h3 class="title hover-white"><%- __('site.docs.index.box-link-2.title') %></h3></a>
 										<p><%- __('site.docs.index.box-link-2.text') %></p>
-										<a href="<%- show_lang() %>/developer_tools/" class="link-arrow link-arrow-black hover-white"><%- __('site.link.learn-more') %></a>
+										<a href="<%- show_lang() %>/developer_tools/" class="link-arrow link-arrow-black hover-white"><%- __('site.docs.index.box-link-2.cta') %></a>
 									</div>
 								</div>
 								<div class="col-xl-4 box-link-wrapper">
 									<div class="box-link">
-										<a href="https://blog.embarklabs.io/categories/tutorials/"><h3 class="title hover-white"><%- image_tag("/img/ic-tutorials-black.svg") %><%- __('site.docs.index.box-link-3.title') %></h3></a>
-										<div class="margin-bottom-20" style="display: flex;">
-											<div class="embark-symbol"><%- image_tag("/img/embark-symbol.svg") %></div>
-											<div>
-												<div class="box-title"><%- __('site.docs.index.box-link-3.text-1') %></div>
-												<div class="box-description">Find out what that means for the Decentralised Web (DApps & eWasm) in this article.</div>
-												<a href="https://blog.embarklabs.io/news/2020/02/24/wasm-ewasm-what-and-why/" class="link-arrow link-arrow-black hover-white"><%- __('site.link.learn-more') %></a>
-											</div>
-										</div>
-										<br>
-										<div style="display: flex;">
-											<div class="embark-symbol"><%- image_tag("/img/embark-symbol.svg") %></div>
-											<div>
-												<div class="box-title"><%- __('site.docs.index.box-link-3.text-2') %></div>
-												<div class="box-description">We'll cover a comprehensive security strategy for DApp Frontends.</div>
-												<a href="https://blog.embarklabs.io/news/2020/01/30/dapp-frontend-security/" class="link-arrow link-arrow-black hover-white"><%- __('site.link.learn-more') %></a>
-											</div>
-										</div>
+										<a href="https://blog.embarklabs.io/categories/tutorials/"><h3 class="title hover-white"><%- __('site.docs.index.box-link-3.title') %></h3></a>
+										<p><%- __('site.docs.index.box-link-3.text') %></p>
+										<a href="https://blog.embarklabs.io/categories/tutorials/" class="link-arrow link-arrow-black hover-white"><%- __('site.docs.index.box-link-3.cta') %></a>
 									</div>
 								</div>
 							</div>
@@ -64,11 +49,11 @@
 					</section>
 
 					<div class="border-line">
-						<div stlye="float: left;"><%- image_tag("/img/circle.svg") %></div>
+						<div class="divide-circle"><%- image_tag("/img/circle.svg") %></div>
 						<div id="black-line" stlye="float: left;"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
 					</div>
 					
-					<div class="container">
+					<div class="container padding-responsive-build-with-status">
 						<div class="row">
 							<div class="col-md-12">
 								<h4 class="section-title m-t-90"><%- __('site.docs.dev-tools.title') %></h4>
@@ -76,7 +61,7 @@
 							<div class="col-md-12">
 								<div class="dev-tools">
 									<div class="row">
-										<div class="col-lg-3 col-md-6">
+										<div class="col-lg-3 col-md-6 col-sm-6">
 											<div class="products">
 												<div class="inner-img">
 													<a href="https://keycard.tech/docs/" target="_blank">
@@ -90,7 +75,7 @@
 												<div class="description"><%- __('site.docs.dev-tools.keycard.description') %></div>
 											</div>
 										</div>
-										<div class="col-lg-3 col-md-6">
+										<div class="col-lg-3 col-md-6 col-sm-6">
 											<div class="products">
 												<div class="inner-img">
 													<a href="https://framework.embarklabs.io/docs/" target="_blank">
@@ -104,7 +89,7 @@
 												<div class="description"><%- __('site.docs.dev-tools.embark.description') %></div>
 											</div>
 										</div>
-										<div class="col-lg-3 col-md-6">
+										<div class="col-lg-3 col-md-6 col-sm-6">
 											<div class="products">
 												<div class="inner-img">
 													<a href="https://nimbus.team/docs/" target="_blank">
@@ -118,7 +103,7 @@
 												<div class="description"><%- __('site.docs.dev-tools.nimbus.description') %></div>
 											</div>
 										</div>
-										<div class="col-lg-3 col-md-6">
+										<div class="col-lg-3 col-md-6 col-sm-6">
 											<div class="products">
 												<div class="inner-img">
 													<a href="https://vac.dev/research-log/" target="_blank">
@@ -139,11 +124,11 @@
 					</div>
 
 					<div class="border-line">
-						<div stlye="float: left;"><%- image_tag("/img/circle.svg") %></div>
+						<div class="divide-circle"><%- image_tag("/img/circle.svg") %></div>
 						<div id="black-line" stlye="float: left;"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
 					</div>
 
-					<div class="container">
+					<div class="container padding-responsive-pinned-repo">
 						<div class="row">
 							<div class="col-md-12">
 								<h4 class="section-title m-t-90"><%- __('site.docs.pinned-repositories.title') %></h4>
@@ -174,6 +159,20 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="border-line">
+						<div class="divide-circle"><%- image_tag("/img/circle.svg") %></div>
+						<div id="black-line" stlye="float: left; position: abso"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
+					</div>
+
+					<div class="container padding-bottom-40">
+						<div class="row">
+							<div class="col-md-12">
+								<h4 class="section-title m-t-90"><%- __('site.docs.support') %></h4>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 

@@ -602,15 +602,19 @@ site:
     index:
       intro:
         title: "Status Developers"
-        teaser-1: "Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or registering your dapp in "
+        teaser-1: "Welcome to the Status Developer Portal. Find everything you need to start contributing to Status, building your own DApps, or registering your dapp in <a href='https://dap.ps'>dap.ps</a>, and working with any one of the projects in The Status Network."
       box-link-1:
         title: "Contributors Guide"
         text: "Status is building free and open source software which is free anyone for anyone to share, modify and benefit from.<br>&nbsp;<br>Community members of all backgrounds, skill levels, and interests contribute to the official Status releases. Learn how to build Status, earn crypto for completing bounties, fix bugs, or build the things you need."
+        cta: "Get Started"
       box-link-2:
         title: "DApp Integration Center"
-        text: "Status includes a private and secure web3 browser and access to growing ecosystem of decentralized applications<br>&nbsp;<br>The Dapp Integration Center is a step by step guide to optimize dapps for use in Status. This includes mobile first best practice, security and privacy requirements, leveraging the Status API, and how to submit to dap.ps."
+        text: "Status includes a private and secure web3 browser and access to a growing ecosystem of decentralized applications.<br>&nbsp;<br>The Dapp Integration Center is a step by step guide to optimize dapps for use in Status. This includes mobile first best practice, security and privacy requirements, leveraging the Status API, and how to submit to dap.ps."
+        cta: "Get Started"
       box-link-3:
         title: "Tutorials"
+        text: "Follow along and learn how to contribute and build with Status and one of The Status Network projects.<br>&nbsp;<br>Build DApps, integrate hardware security, getting set up with Nimbus or Vac. Learn from the core contributor and community created tutorials. Don’t see what you are looking for? Create your own for others to benefit from."
+        cta: "See all Tutorials"
         text-1: "WebAssembly / eWasm – What, and Why?"
         description-1: "Embark tutorial short line of details"
         text-2: "DApp Frontend Security"
@@ -654,23 +658,24 @@ site:
         title: "specs"
         description: "Specifications for Status clients."
     dev-tools:
-      title: "The Status Network Dev Tools"
+      title: "Build with The Status Network"
       keycard:
         title: "Keycard"
         subtitle: "Secure, Contactless, Open Source Hardwallet"
-        description: "Integrate with Keycard"
+        description: "Integrate hardware security to your project with Keycard"
       embark:
         title: "Embark"
         subtitle: "All-in-one developer platform for building & deploying DApps"
-        description: "Build Dapps with Embark"
+        description: "Develop and deploy decentralized applications with Embark"
       nimbus:
         title: "Nimbus"
         subtitle: "Researching and implementing light Ethereum 2.0 clients"
-        description: "Lighter Ethereum 2.0 clients with Nimbus"
+        description: "Researching lighter Ethereum 2.0 clients with Nimbus"
       vac:
         title: "Vac"
         subtitle: "Secure peer-to-peer messaging stack"
         description: "Private, secure, censorship resistant communication with Vac"
+    support: "Can't find what you are looking for? Check out the community forum in <a href='https://discuss.status.im/tags/faq'>Discuss</a>."
     help:
       title: "We are here to help!"
       description: "We're always happy to help with code or any questions you have."

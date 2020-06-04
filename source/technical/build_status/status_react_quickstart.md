@@ -52,7 +52,7 @@ clj -R:dev build.clj watch --platform ios --ios-device simulator
 
 With that entered, you should see the following, after a short time:
 
-![simulator_initial_success](./img/startdev-ios-simulator_initial_success.png)
+![simulator_initial_success](/technical/build_status/img/startdev-ios-simulator_initial_success.png)
 
 With Figwheel started, re-frisk started, and the ClojureScript REPL started, you can move onto the second window, and enter the next command:
 
@@ -62,7 +62,7 @@ make react-native-ios
 
 By executing this make script, a Nix environment will be created for iOS, running status-go in the background, and Metro Bundler in the foreground.  Upon success, after a short while you should see:
 
-![react-native-ios_initial_success.png](./img/react-native-ios_initial_success.png)
+![react-native-ios_initial_success.png](/technical/build_status/img/react-native-ios_initial_success.png)
 
 The image above reflects how the terminal window will remain, until the third command has been successfully executed.  Head into the third Terminal window, and enter: 
  
@@ -72,29 +72,29 @@ make run-ios
 
 This Make script will start up the iOS debugger / simulator.  This is the main reason we had to ensure XCode was installed at the beginning of this guide.  With this successfully run, not only will the iPhone simulator open up, but in the terminal window, you should see:
 
-![run-ios_succeeded.png](./img/run-ios_succeeded.png)
+![run-ios_succeeded.png](/technical/build_status/img/run-ios_succeeded.png)
 
 As you can see in the image, the Status Ethereum debug client is started, and we're nearly ready to go!
 
 If you open back up the second Terminal window, you will see the dependency graphs now building out, and the progress being charted:
 
-![react-native-ios-final_success.png](./img/react-native-ios-final_success.png)
+![react-native-ios-final_success.png](/technical/build_status/img/react-native-ios-final_success.png)
 
 Finally, if you open back up the first Terminal window, you will see the ClojureScript REPL started and ready to go:
 
-![startdev-ios-simulator_final_success.png](./img/startdev-ios-simulator_final_success.png)
+![startdev-ios-simulator_final_success.png](/technical/build_status/img/startdev-ios-simulator_final_success.png)
 
 This REPL is where you can execute your Clojure code, making any additions / edits to the Status dev codebase!
 
 So, with all of these commands successfully run, you're now ready to go, and (hopefully) have reached that "aha!" moment for status-react!
 
-![successful-build.png](./img/successful-build.png)
+![successful-build.png](/technical/build_status/img/successful-build.png)
 
 # Debugging &amp; Developing with re-frisk
 
 As mentioned above, our Makefiles loaded up a re-frisk instance for us, to aid development / debugging.  If you open a browser window and head over to `http://localhost:4567` – you can make use of this.
 
-![re-frisk-monitoring.png](./img/re-frisk-monitoring.png)
+![re-frisk-monitoring.png](/technical/build_status/img/re-frisk-monitoring.png)
 
 # Re-installing & Cleaning Up
 

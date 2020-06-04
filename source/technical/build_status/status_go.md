@@ -47,9 +47,9 @@ This script prepares and installs the following:
 - [golangci-lint](https://github.com/golangci/golangci-lint)
 - [mockgen](https://github.com/golang/mock/tree/master/mockgen)
 - [go-bindata](https://github.com/kevinburke/go-bindata/)
-- [protobuf compiler](https://github.com/protocolbuffers/protobuf) and [protoc-gen-go](github.com/golang/protobuf/protoc-gen-go)
+- [protobuf compiler](https://github.com/protocolbuffers/protobuf) and [protoc-gen-go](https://github.com/golang/protobuf/protoc-gen-go)
 - [jq](https://github.com/stedolan/jq)
-- [modvendor](github.com/adambabik/modvendor)
+- [modvendor](http://github.com/adambabik/modvendor)
 
 ### 4. Build the statusd CLI
 

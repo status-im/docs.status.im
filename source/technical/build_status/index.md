@@ -166,7 +166,7 @@ E.g. if you want to check existing accounts in the device, run this function in 
 
 ### Inspecting current app state in re-frisk web UI
 
-Assuming re-frisk is running in port 4567, you can just navigate to http://localhost:4567/ in a web browser to monitor app state and events.
+Assuming re-frisk is running in port 4567, you can just navigate to `http://localhost:4567/` in a web browser to monitor app state and events.
 
 ## Updating dependencies
 

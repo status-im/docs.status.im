@@ -5,7 +5,6 @@
 
 - name: "Henry Dada"
   image: "henry.jpg"
-  twitter: "HenryBitmod"
 
 - name: "Eduardo Garza"
   image: "eduardo.jpg"
@@ -17,7 +16,6 @@
 
 - name: "Warsoverjohn"
   image: "warsoverjohn.jpg"
-  twitter: "Warsoverjohn1"
 
 - name: "Sebastian Moonjava"
   image: "sebastian.jpg"

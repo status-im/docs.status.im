@@ -250,7 +250,7 @@ employees:
     jobTitle: Growth Marketing Manager
     workEmail: aleksander@status.im
     customStatusPublicKey: '0x040d6d943dfbd7448c0f0dbad36f420df0095ddc0ad37d955e0df333a5c2bc7237119054a6059b9a59200d913326e165aecb06cef9ff99115c16a523e46582462c'
-    customGitHubusername: '@AK87ST'
+    customGitHubusername: 'AK87ST'
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=b04d6dd3e61e31b587be789aec7f6147'
   - id: '169'
     displayName: Pepper Lea

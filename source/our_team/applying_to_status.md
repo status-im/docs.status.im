@@ -8,7 +8,7 @@ description: Find the 3 stages of our hiring process.
 
 There are 3 stages of our hiring process: application, assessment and decision. 
 
-**Application**: To apply, you send us your CV and any other supporting information (cover letter, portfolio, website links, etc) and we use that data to determine which candidates we should invite for assessment. At this stage we're looking to see if you have relevant experience, a passion for blockchain technology, open-source software and cryptocurrencies and align with our principles (https://our.status.im/our-principles/). 
+**Application**: To apply, you send us your CV and any other supporting information (cover letter, portfolio, website links, etc) and we use that data to determine which candidates we should invite for assessment. At this stage we're looking to see if you have relevant experience, a passion for blockchain technology, open-source software and cryptocurrencies and align with our principles (https://our.status.im/our-principles). 
 
 **Assessment**: If we determine there's a good match, we'll invite you to have an initial interivew. In the first initial call we'll be looking to understand your background, skills, interests & motivation for joining Status. We'll also share more about life at Status, answer any questions you have and describe the recruiting process in detail. If successful, from here you'll start to meet more contributors to Status via either interviews or assessments (depending on the role we'll trying to fill). 
 

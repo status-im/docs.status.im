@@ -228,25 +228,6 @@ result:
     type: User
     site_admin: false
     contributions: 123
-  - login: PombeirP
-    id: 138074
-    node_id: MDQ6VXNlcjEzODA3NA==
-    avatar_url: 'https://avatars1.githubusercontent.com/u/138074?v=4'
-    gravatar_id: ''
-    url: 'https://api.github.com/users/PombeirP'
-    html_url: 'https://github.com/PombeirP'
-    followers_url: 'https://api.github.com/users/PombeirP/followers'
-    following_url: 'https://api.github.com/users/PombeirP/following{/other_user}'
-    gists_url: 'https://api.github.com/users/PombeirP/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/PombeirP/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/PombeirP/subscriptions'
-    organizations_url: 'https://api.github.com/users/PombeirP/orgs'
-    repos_url: 'https://api.github.com/users/PombeirP/repos'
-    events_url: 'https://api.github.com/users/PombeirP/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/PombeirP/received_events'
-    type: User
-    site_admin: false
-    contributions: 122
   - login: mandrigin
     id: 466427
     node_id: MDQ6VXNlcjQ2NjQyNw==
@@ -627,25 +608,6 @@ result:
     type: User
     site_admin: false
     contributions: 126
-  - login: PombeirP
-    id: 138074
-    node_id: MDQ6VXNlcjEzODA3NA==
-    avatar_url: 'https://avatars1.githubusercontent.com/u/138074?v=4'
-    gravatar_id: ''
-    url: 'https://api.github.com/users/PombeirP'
-    html_url: 'https://github.com/PombeirP'
-    followers_url: 'https://api.github.com/users/PombeirP/followers'
-    following_url: 'https://api.github.com/users/PombeirP/following{/other_user}'
-    gists_url: 'https://api.github.com/users/PombeirP/gists{/gist_id}'
-    starred_url: 'https://api.github.com/users/PombeirP/starred{/owner}{/repo}'
-    subscriptions_url: 'https://api.github.com/users/PombeirP/subscriptions'
-    organizations_url: 'https://api.github.com/users/PombeirP/orgs'
-    repos_url: 'https://api.github.com/users/PombeirP/repos'
-    events_url: 'https://api.github.com/users/PombeirP/events{/privacy}'
-    received_events_url: 'https://api.github.com/users/PombeirP/received_events'
-    type: User
-    site_admin: false
-    contributions: 80
   - login: adriacidre
     id: 593270
     node_id: MDQ6VXNlcjU5MzI3MA==

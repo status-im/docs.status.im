@@ -12,9 +12,9 @@
 								<h1><%- __('site.home.intro.title') %></h1>
 								<p class="teaser-1 description-padding-right"><%- __('site.home.intro.description') %></p>
 								<div class="d-flex flex-wrap">
-									<a href="<%- get_build_url('official', 'APPSTORE') %>" class="m-r-20 download"><%- image_tag("/img/app-store.svg") %></a>
-									<a href="<%- get_build_url('official', 'PLAYSTORE') %>" class="m-r-20 download"><%- image_tag("/img/google-play.svg") %></a>
-									<a href="<%- get_build_url('official', 'DIRECT_APK') %>" class="download"><%- image_tag("/img/apk.svg") %></a>
+									<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="m-r-20 app-download"><%- image_tag("/img/app-store.svg") %></a>
+									<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="m-r-20 app-download"><%- image_tag("/img/google-play.svg") %></a>
+									<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="app-download"><%- image_tag("/img/apk.svg") %></a>
 								</div>
 								<a href="#" target="_blank" class="announcement inactive"><span><%- __('site.home.intro.news') %></span><b></b></a>
 							</div>

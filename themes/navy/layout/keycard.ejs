@@ -1,167 +1,107 @@
 <!-- The main content area -->
 <main id="main" role="main">
 
-	<section class="keycard-intro p-t-100 p-b-160">
+	<section class="keycard-intro p-t-100 p-b-50">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7 col-lg-6 d-flex flex-column justify-content-center align-items-start">
-					<h1>Add Hardware Security to Your Status Experience</h1>
-					<p class="teaser-1">Protect Your Account Added greater security and require Keycard + PIN entry as two-factor authentication to log into your Status Account.</p>
-					<a href="https://get.keycard.tech/" target="_blank" class="btn btn-purple-fill btn-arrow btn-arrow-white">Get a Keycard 29€</a>
-				</div>
-				<div class="col-md-5 ml-auto col-lg-6">
-					<div class="keycard-animate-1">
+				<div class="col-md-8 ml-auto mr-auto">
+					<h1 class="text-center"><%- __('site.keycard.intro.title') %></h1>
+					<div class="keycard-animate-1 h-auto">
 						<%- image_tag("/img/keycard-intro-phone.png", { srcset: '/img/keycard-intro-phone-2x.png 2x', class: 'phone'}) %>
 						<%- image_tag("/img/keycard-intro-card.png", { srcset: '/img/keycard-intro-card-2x.png 2x', class: 'card'}) %>
 						<div class="circles"></div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="keycard-about col-grey d-flex align-items-start p-t-100 p-b-100 flex-column">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 mr-auto">
-					<div class="keycard-animate-2">
-						<%- image_tag("/img/keycard-front-1.png", { srcset: '/img/keycard-front-1-2x.png 2x', class: 'front-1'}) %>
-						<%- image_tag("/img/keycard-front-2.png", { srcset: '/img/keycard-front-2-2x.png 2x', class: 'front-2'}) %>
-						<%- image_tag("/img/keycard-front-3.png", { srcset: '/img/keycard-front-3-2x.png 2x', class: 'front-3'}) %>
-					</div>
-				</div>
-				<div class="ml-auto col-md-6 col-lg-5 d-flex justify-content-center flex-column">
-					<h3>What is Keycard?</h3>
-					<p class="p-large">Keycard is a cold storage hardware wallet designed to keep your private keys entirely offline for greater security over your funds. Built with NFC technology and a credit card-like design for a seamless, contactless experience. <br><br>Built with an open API for integration with third party crypto wallets, DApps, and hardware.</p>
-					<div class="btns d-flex">
-						<a href="https://keycard.tech/" target="_blank" class="btn btn-arrow m-r-20">Learn More</a>
-						<a href="https://get.keycard.tech/" target="_blank" class="btn btn-purple-fill btn-arrow btn-arrow-white">Get a Keycard 29€</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="keycard-secure p-t-100">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-center">Securing Status with Keycard</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 ml-auto mr-auto m-t-100">
 					<div class="row">
-						<div class="col-md-6">
-							<h3>Greater Security for Your Assets and Transactions</h3>
-							<p class="p-large">With private keys stored offline on your Keycard, add hardware-enforced authorizations to your transactions. Even if your phone is stolen, your funds will be safe. </p>
+						<div class="col-lg-8 text-center ml-auto mr-auto">
+							<p class="teaser-1 m-t-60"><%- __('site.keycard.intro.description') %></p>
+							<a href="<%- show_lang() %>/faq/#keycard" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.keycard.intro.button') %></a>
 						</div>
-						<div class="col-md-6">
-							<div class="keycard-animate-3" data-step="1">
-								<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
-								<%- image_tag("/img/keycard-chat-1.png", { srcset: '/img/keycard-chat-1-2x.png 2x', class: 'chat-1'}) %>
-								<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
-								<div class="circles"></div>
-								<div class="morph">
-									<div class="step-1 step">
-										<b>Send transaction</b>
-										<div class="transation-details">
-											<div class="amount"><span>0.0</span></div>
-											<div class="type"><%- image_tag("/img/dai.svg") %> DAI</div>
-										</div>
-									</div>
-									<div class="step-2 step">
-										<div class="circles-parent"><div class="circles"></div></div>										
-										<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
-										<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
-									</div>
-									<div class="step-3 step">
-										<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b>Confirmed outgoing transaction</b>
-									</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="col-grey p-t-50 p-b-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 ml-auto mr-auto">
+					<h2 class="text-center m-b-80"><%- __('site.keycard.security.title') %></h2>
+					<div class="keycard-animate-3 m-t-50" data-step="1">
+						<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
+						<%- image_tag("/img/keycard-chat-1.png", { srcset: '/img/keycard-chat-1-2x.png 2x', class: 'chat-1'}) %>
+						<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
+						<div class="morph">
+							<div class="step-1 step">
+								<b>Send transaction</b>
+								<div class="transation-details">
+									<div class="amount"><span>0.0</span></div>
+									<div class="type"><%- image_tag("/img/dai.svg") %> DAI</div>
+								</div>
+							</div>
+							<div class="step-2 step">
+								<div class="circles-parent"><div class="circles"></div></div>										
+								<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
+								<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
+							</div>
+							<div class="step-3 step">
+								<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard.security.confirmed') %></b>
+							</div>
+						</div>
+					</div>
+					<p class="teaser-1 p-t-50 text-center mb-0"><%- __('site.keycard.security.description') %></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="p-t-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 ml-auto mr-auto">
+					<h2 class="text-center m-b-80"><%- __('site.keycard.account.title') %></h2>
+					<div class="keycard-animate-4" data-step="1">
+						<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
+						<%- image_tag("/img/keycard-home-1.png", { srcset: '/img/keycard-home-1-2x.png 2x', class: 'home-1'}) %>
+						<%- image_tag("/img/keycard-lock-1.png", { srcset: '/img/keycard-lock-1-2x.png 2x', class: 'lock-1'}) %>
+						<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
+						<ul class="dots">
+							<% for(var i = 0; i <= 5; i++) { %>
+						        <li class="dot dot-<%= i %>"></li>
+						    <% } %>
+						</ul>
+						<ul class="numbers">
+							<% for(var i = 0; i <= 9; i++) { %>
+						        <li class="nr nr-<%= i %>">
+					                <%= i %>
+						        </li>
+						    <% } %>
+						</ul>
+						<div class="morph-parent">
+							<div class="morph">
+								<div class="step-2 step">
+									<div class="circles-parent"><div class="circles"></div></div>										
+									<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
+									<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
+								</div>
+								<div class="step-3 step">
+									<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard.account.confirmed') %></b>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="row m-t-200">
-				<div class="col-md-10 ml-auto mr-auto">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="keycard-animate-4" data-step="1">
-								<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
-								<%- image_tag("/img/keycard-home-1.png", { srcset: '/img/keycard-home-1-2x.png 2x', class: 'home-1'}) %>
-								<%- image_tag("/img/keycard-lock-1.png", { srcset: '/img/keycard-lock-1-2x.png 2x', class: 'lock-1'}) %>
-								<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
-								<div class="circles"></div>
-								<ul class="dots">
-									<% for(var i = 0; i <= 5; i++) { %>
-								        <li class="dot dot-<%= i %>"></li>
-								    <% } %>
-								</ul>
-								<ul class="numbers">
-									<% for(var i = 0; i <= 9; i++) { %>
-								        <li class="nr nr-<%= i %>">
-							                <%= i %>
-								        </li>
-								    <% } %>
-								</ul>
-								<div class="morph-parent">
-									<div class="morph">
-										<div class="step-2 step">
-											<div class="circles-parent"><div class="circles"></div></div>										
-											<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
-											<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
-										</div>
-										<div class="step-3 step">
-											<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b>Successfully login</b>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<h3>Protect Your Account</h3>
-							<p class="p-large">Added greater security and require Keycard + PIN entry as two-factor authentication to log into your Status Account.</p>
-						</div>
-					</div>
+					<p class="teaser-1 p-t-50 mb-0 text-center"><%- __('site.keycard.account.description') %></p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="get-involved-box-links m-t-200">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="box-link no-link">
-                        <h3 class="title"><img src="/img/autonomy-and-confidence.svg"> Autonomy and Confidence</h3>
-                        <p>Status removes unnecessary third parties such as banks to communicate and transact. By removing these services, people are now responsible for themselves and funds. Kecyard provides the security to operate confidently without them.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="box-link no-link">
-                        <h3 class="title"><img src="/img/mobile-first.svg"> A Mobile-first Design</h3>
-                        <p>Built with contactless NFC technology and a sleek, familiar design, Keycard provides the convenience of a credit card with the security of a hardware wallet.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="box-link">
-                        <h3 class="title"><a href="https://get.keycard.tech/" target="_blank"><img src="/img/affordable-security.svg"> Affordable Security</a></h3>
-                        <p>At only 29€, Keycard provides strong hardware security guarantees, without the expensive price tag.</p>
-                        <a href="https://get.keycard.tech/" target="_blank" class="link-arrow link-arrow-white">Get a Keycard 29€</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="keycard-faq m-t-100 p-t-80 p-b-80 col-grey">
+    <section class="keycard-faq m-t-50 p-t-80 p-b-80 col-grey">
     	<div class="container">
 	    	<div class="row">
 	    		<div class="col-md-12 text-center">
-	    			<h3 class="m-b-20">Do you have qestions?</h3>
-	    			<a href="<%- show_lang() %>/faq/#keycard" class="btn btn-arrow m-r-20">Learn More</a>
+	    			<h3 class="m-b-20"><%- __('site.keycard.faq.title') %></h3>
+	    			<a href="<%- show_lang() %>/faq/#keycard" class="btn btn-arrow m-r-20"><%- __('site.keycard.faq.button') %></a>
 	    		</div>
 	    	</div>
     	</div>

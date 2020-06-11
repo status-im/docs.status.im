@@ -4,7 +4,25 @@
     </div>
     <nav>
         <ul class="nav-list">
-            <li class="<% if(is_current('features')) { %>active<% } %>"><a href="<%- show_lang() %>/features/"><%- __('site.header.nav.features') %></a></li>
+            <li class="has-submenu <% if(is_current('features')) { %>active<% } %>">
+                <a href="<%- show_lang() %>/features/"><%- __('site.header.nav.features.link') %> <i class="arrow"></i></a>
+                <div class="submenu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 text-right">
+                                <h4><%- __('site.header.nav.features.title') %></h4>
+                                <p class="p-large"><%- __('site.header.nav.features.description') %></p>
+                                <a href="<%- show_lang() %>/features/" class="link-arrow"><%- __('site.header.nav.features.link-1') %></a>
+                            </div>
+                            <div class="col-md-4 offset-md-1">
+                                <ul>
+                                    <li><a href="<%- show_lang() %>/keycard-integration/" class="link-arrow"><%- __('site.header.nav.features.link-2') %></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
             <li class="has-submenu">
                 <a href="<%- show_lang() %>/get-involved/"><%- __('site.header.nav.get-involved.title') %> <i class="arrow"></i></a>
                 <div class="submenu">

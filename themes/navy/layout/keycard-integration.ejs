@@ -1,0 +1,170 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<section class="keycard-intro p-t-100 p-b-160">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+					<h1><%- __('site.keycard-integration.intro.title') %></h1>
+					<p class="teaser-1"><%- __('site.keycard-integration.intro.description') %></p>
+					<a href="https://get.keycard.tech/" target="_blank" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.keycard-integration.intro.button') %></a>
+				</div>
+				<div class="col-md-5 ml-auto col-lg-6">
+					<div class="keycard-animate-1">
+						<%- image_tag("/img/keycard-intro-phone.png", { srcset: '/img/keycard-intro-phone-2x.png 2x', class: 'phone'}) %>
+						<%- image_tag("/img/keycard-intro-card.png", { srcset: '/img/keycard-intro-card-2x.png 2x', class: 'card'}) %>
+						<div class="circles"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="keycard-about col-grey d-flex align-items-start p-t-100 p-b-100 flex-column">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-6 mr-auto">
+					<div class="keycard-animate-2">
+						<%- image_tag("/img/keycard-front-1.png", { srcset: '/img/keycard-front-1-2x.png 2x', class: 'front-1'}) %>
+						<%- image_tag("/img/keycard-front-2.png", { srcset: '/img/keycard-front-2-2x.png 2x', class: 'front-2'}) %>
+						<%- image_tag("/img/keycard-front-3.png", { srcset: '/img/keycard-front-3-2x.png 2x', class: 'front-3'}) %>
+					</div>
+				</div>
+				<div class="ml-auto col-md-6 col-lg-5 d-flex justify-content-center flex-column">
+					<h3><%- __('site.keycard-integration.about.title') %></h3>
+					<p class="p-large"><%- __('site.keycard-integration.about.description') %></p>
+					<div class="btns d-flex">
+						<a href="https://keycard.tech/" target="_blank" class="btn btn-arrow m-r-20"><%- __('site.keycard-integration.about.button-1') %></a>
+						<a href="https://get.keycard.tech/" target="_blank" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.keycard-integration.intro.button') %></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="keycard-secure p-t-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center"><%- __('site.keycard-integration.secure.title') %></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 ml-auto mr-auto m-t-100">
+					<div class="row">
+						<div class="col-md-6">
+							<h3><%- __('site.keycard-integration.secure.security.title') %></h3>
+							<p class="p-large"><%- __('site.keycard-integration.secure.security.description') %></p>
+						</div>
+						<div class="col-md-6">
+							<div class="keycard-animate-3" data-step="1">
+								<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
+								<%- image_tag("/img/keycard-chat-1.png", { srcset: '/img/keycard-chat-1-2x.png 2x', class: 'chat-1'}) %>
+								<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
+								<div class="circles"></div>
+								<div class="morph">
+									<div class="step-1 step">
+										<b><%- __('site.keycard-integration.secure.security.send') %></b>
+										<div class="transation-details">
+											<div class="amount"><span>0.0</span></div>
+											<div class="type"><%- image_tag("/img/dai.svg") %> DAI</div>
+										</div>
+									</div>
+									<div class="step-2 step">
+										<div class="circles-parent"><div class="circles"></div></div>										
+										<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
+										<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
+									</div>
+									<div class="step-3 step">
+										<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard-integration.secure.security.confirmed') %></b>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row m-t-200">
+				<div class="col-md-10 ml-auto mr-auto">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="keycard-animate-4" data-step="1">
+								<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
+								<%- image_tag("/img/keycard-home-1.png", { srcset: '/img/keycard-home-1-2x.png 2x', class: 'home-1'}) %>
+								<%- image_tag("/img/keycard-lock-1.png", { srcset: '/img/keycard-lock-1-2x.png 2x', class: 'lock-1'}) %>
+								<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
+								<div class="circles"></div>
+								<ul class="dots">
+									<% for(var i = 0; i <= 5; i++) { %>
+								        <li class="dot dot-<%= i %>"></li>
+								    <% } %>
+								</ul>
+								<ul class="numbers">
+									<% for(var i = 0; i <= 9; i++) { %>
+								        <li class="nr nr-<%= i %>">
+							                <%= i %>
+								        </li>
+								    <% } %>
+								</ul>
+								<div class="morph-parent">
+									<div class="morph">
+										<div class="step-2 step">
+											<div class="circles-parent"><div class="circles"></div></div>										
+											<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
+											<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
+										</div>
+										<div class="step-3 step">
+											<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard-integration.secure.account.confirmed') %></b>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h3><%- __('site.keycard-integration.secure.account.title') %></h3>
+							<p class="p-large"><%- __('site.keycard-integration.secure.account.description') %></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="get-involved-box-links black m-t-200">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="box-link no-link">
+                        <h3 class="title"><img src="/img/autonomy-and-confidence.svg"> <%- __('site.keycard-integration.boxes.box-1.title') %></h3>
+                        <p><%- __('site.keycard-integration.boxes.box-1.description') %></p>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="box-link no-link">
+                        <h3 class="title"><img src="/img/mobile-first.svg"> <%- __('site.keycard-integration.boxes.box-2.title') %></h3>
+                        <p><%- __('site.keycard-integration.boxes.box-2.description') %></p>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="box-link">
+                        <h3 class="title"><a href="https://get.keycard.tech/" target="_blank"><img src="/img/affordable-security.svg"> <%- __('site.keycard-integration.boxes.box-3.title') %></a></h3>
+                        <p><%- __('site.keycard-integration.boxes.box-3.description') %></p>
+                        <a href="https://get.keycard.tech/" target="_blank" class="link-arrow link-arrow-white"><%- __('site.keycard-integration.boxes.box-3.link') %></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="keycard-faq m-t-100 p-t-80 p-b-80 col-grey">
+    	<div class="container">
+	    	<div class="row">
+	    		<div class="col-md-12 text-center">
+	    			<h3 class="m-b-20"><%- __('site.keycard-integration.faq.title') %></h3>
+	    			<a href="<%- show_lang() %>/faq/#keycard" class="btn btn-arrow m-r-20"><%- __('site.keycard-integration.faq.button') %></a>
+	    		</div>
+	    	</div>
+    	</div>
+    </section>
+
+</main>

@@ -2338,7 +2338,17 @@ footer{
     margin-left: 40px;
 }
 
-.get-involved-box-links, .docs-box-links {
+.get-involved-box-links, 
+.docs-box-links {
+    &.black{
+        .box-link{
+            background: $black;
+            color: $white;
+            p{
+                color: $white;
+            }
+        }
+    }
     .box-link{
         background-color: rgba(69, 100, 220, 0.6);
         padding: 30px 40px;
@@ -3423,6 +3433,13 @@ img.qr-code{
 
 .padding-logo {
     padding: 0 15px;
+}
+
+.template-keycard{
+    .keycard-animate-4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 2100px) {
@@ -5161,6 +5178,24 @@ img.qr-code{
                 height: 4px;
                 margin-right: 4.5px;
             }
+        }
+    }
+    .template-keycard{
+        h1, h2{
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 0;
+        }
+        .keycard-intro{
+            .teaser-1{
+                margin-top: 20px;
+            }
+            .keycard-animate-1{
+                margin-top: 10px;
+            }
+        }
+        .keycard-animate-4{
+            margin-top: 50px;
         }
     }
 }

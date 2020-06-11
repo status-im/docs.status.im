@@ -596,6 +596,58 @@ site:
         option-2: "Purchase sticker packs"
         option-3: "Upvote your favorite dapps within dap.ps"
         option-4: "Take part in Status Community Governance proposals"
+  keycard-integration:
+    intro:
+      title: "Add Hardware Security to Your Status Experience"
+      description: "Protect your assets and accounts with Keycard - the cold storage hardware wallet with a contactless, convenient experience."
+      button: "Get a Keycard 29€"
+    about:
+      title: "What is Keycard?"
+      description: "Keycard is a cold storage hardware wallet designed to keep your private keys entirely offline for greater security over your funds. <br><br>Built with NFC technology and a credit card-like design for a seamless, contactless experience. Built with an open API for integration with third party crypto wallets, DApps, and hardware."
+      button-1: "Learn More"
+      button-2: "Get a Keycard 29€"
+    secure:
+      title: "Securing Status with Keycard"
+      security:
+        title: "Greater Security for Your Assets and Transactions"
+        description: "With private keys stored offline on your Keycard, add hardware-enforced authorizations to your transactions. Even if your phone is stolen, your funds will be safe."
+        send: "Send transaction"
+        confirmed: "Confirmed outgoing transaction"
+      account:
+        title: "Protect Access to Your Accounts"
+        description: "Add greater security and require Keycard + PIN entry as two-factor authentication to access your accounts with Status."
+        confirmed: "Successful Login"
+    boxes:
+      box-1:
+        title: "Autonomy and Confidence"
+        description: "Status removes unnecessary third parties such as banks to communicate and transact. By removing these services, people are now responsible for themselves and funds. Kecyard provides the security to operate confidently without them."
+      box-2:
+        title: "A Mobile-first Design"
+        description: "Built with contactless NFC technology and a sleek, familiar design, Keycard provides the convenience of a credit card with the security of a hardware wallet."
+      box-3:
+        title: "Affordable Security"
+        description: "At only 29€, Keycard provides strong hardware security guarantees, without the expensive price tag."
+        link: "Get a Keycard 29€"
+    faq:
+      title: "Do you have qestions?"
+      button: "Learn More"
+  keycard:
+    intro:
+      title: "Status x Keycard for Private & Secure Communication"
+      description: "Status is a private messenger, secure crypto wallet, and Web3 browser. Keycard adds hardware security to the experience. Learn more about what you can do with Keycard below."
+      button: "FAQ"
+    security:
+      title: "Greater Security for Your Assets and Transactions"
+      description: "With private keys stored offline on your Keycard, add hardware-enforced authorizations to your transactions. Even if your phone is stolen, your funds will be safe."
+      send: "Send transaction"
+      confirmed: "Confirmed outgoing transaction"
+    account:
+      title: "Protect your Account"
+      description: "Added greater security and require Keycard + PIN entry as two-factor authentication to log into your Status Account."
+      confirmed: "Successfully login"
+    faq:
+      title: "Do you have qestions?"
+      button: "Visit FAQ"
   faq:
     title: "F.A.Q"
     description: "Frequently Asked Questions<br> Can't find what you are looking for? Check or ask in the community Discuss forum <a href='https://discuss.status.im/' target='_blank'>here</a>"
@@ -923,7 +975,12 @@ site:
       title: "Recently updated"
   header:
     nav:
-      features: "Features"
+      features:
+        link: "Features"
+        title: "Features"
+        link-1: "See All Features"
+        link-2: "Keycard"
+        description: "Private Messenger, Crypto Wallet, <br>Web3 Browser, and more"
       get-involved:
         title: "Get Involved"
         description: "Status is an open source project <br>made by people all over the world."

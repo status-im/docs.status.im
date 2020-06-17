@@ -754,7 +754,7 @@ site:
         answer: "Yes, they are. Status currently uses Whisper, the messaging protocol of the Ethereum stack.Whisper provides peer-to-peer messaging with zero reliance on centralized servers, data centers or service providers. <br><br>Every message is end-to-end encrypted, and broadcast to every single peer in the network for a set time. This makes it not only impossible for unintended audiences to read the content of messages, but also to see who sends messages to whom. For private 1:1 messages, only the intended recipient of a message is able to decrypt the content. For public chats, anyone who knows the name of the chat can decrypt the content. <br><br>An additional safeguard is the use of a new encryption key with every message, after the initial key exchange between users (Perfect Forward Secrecy). If your message key is compromised, only the message for that particular key is compromised. There is no access to past messages.<br><br>The privacy Whisper provides does come at the cost of high data usage. Development of an alternative is ongoing. You can follow progress <a href='https://forum.vac.dev/t/waku-project-and-progress/24' target='_blank'>here</a>."
       q2:
         question: "Where are my messages stored? Are they on the blockchain?"
-        answer: "Messages are not stored on the blockchain and do not cost anything to send. Messages are stored on a mail server for two weeks, and on your phone once you receive them by opening Status and connecting to the network. To reach you, messages pass over devp2p—the transport layer for Whisper—but are not transported through the Ethereum Virtual Machine. "
+        answer: "Messages are not stored on the blockchain and do not cost anything to send. Messages are stored on a mail server for 30 days, and on your phone once you receive them by opening Status and connecting to the network. To reach you, messages pass over devp2p—the transport layer for Whisper—but are not transported through the Ethereum Virtual Machine. "
       q3:
         question: "Who hosts the mail servers that store messages?"
         answer: "Whisper requires a special kind of Ethereum node to store and transfer messages. Status is the only instance of Whisper being used in production. Thus, Status hosts a set of these special nodes in order to support its users. However, anyone is able to host a mail server node with the proper hardware. You can find instructions on how to do so <a href='https://discuss.status.im/t/get-your-node-running/1488/2' target='_blank'>here</a>."
@@ -823,7 +823,7 @@ site:
       title: "Keycard General"
       q1:
         question: "What is Keycard for?"
-        answer: "Keycard is hardware wallet that you can use with your Status app. <br><br>It provides a higher level of security and ownership to Status user of their private keys. Keycard is a cold storage for your assets that you need to tap (along with entering a pin) on your phone when making a transaction. <br><br>And Keycard can be used a 2FA to protect access to your Status account. To login your account you will need to tap your card and enter your PIN."
+        answer: "Keycard is hardware wallet that you can use with your Status app. <br><br>It provides a higher level of security and ownership to Status users' private keys. Keycard is a cold storage for your assets that you need to tap (along with entering a 6-digit passcode) on your phone when making a transaction. <br><br>And Keycard can be used a 2FA to protect access to Status (i.e. use of Chat). To unlock your keys and use the app you will need to tap your card and enter your 6-digit passcode."
       q2:
         question: "Is Keycard available with Status on Android and iOS?"
         answer: "Keycard is currently only available on Android to use with Status. The Keycard team is currently working on iOS integration."
@@ -841,49 +841,49 @@ site:
         answer: "For now Keycard can be used by Status user as hardware wallet only. It is part of our roadmap to introduce physical payments with Keycard as part of an open, inclusive and permissionless payment network where payment terminals are any phone running Status."
       q7:
         question: "How is Keycard different from other hardware wallets like Ledger or Trezor?"
-        answer: "Keycard is from the ground up built like a mobile friendly hardware wallet. It embeds NFC contactless technology to communicate with your mobile phone and sign transaction with a tap of the card and entering your keycard PIN code. Moreover its form factor is very convenient to carry around. <br><br>Keycard does not have a screen or keyboard, making it cost effective. The security level of Keycard is similar to a Ledger when used with trusted application like Status."
+        answer: "Keycard is from the ground up built like a mobile friendly hardware wallet. It embeds NFC contactless technology to communicate with your mobile phone and sign transaction with a tap of the card and entering your 6-digit passcode. Moreover its form factor is very convenient to carry around. <br><br>Keycard does not have a screen or keyboard, making it cost effective. The security level of Keycard is similar to a Ledger when used with trusted application like Status."
     keycard-security:
       title: "Keycard Security"
       q1:
         question: "What happens if I lose my Keycard?"
-        answer: "If you lose your Keycard, no one can use it without your pin. And to recover your funds you will need to use your 12-word mnemonic phrase to recover your account. <br><br>Social recovery is being worked on and will be implemented sometime in the future. This will enable you to coordinate with peers to recover your account if lost."
+        answer: "If you lose your Keycard, no one can use it without your 6-digit passcode. And to recover your funds you will need to use your 12-word seed phrase to recover your account. <br><br>Social recovery is being worked on and will be implemented sometime in the future. This will enable you to coordinate with peers to recover your account if lost."
       q2:
         question: "How secure is Keycard?"
-        answer: "The security of the card is dependent upon  the applet software that is used on the card. This applet is open source (link) and  has been audited by a third party security auditing firm. <br><br>From a hardware perspective, Keycard is a SE secure element with a very high level of hardware protection. It passes CC EAL5+ formal testing for its security evaluation."
+        answer: "The security of the card is dependent upon the applet software that is used on the card. This applet is open source (link) and has been audited by a third party security auditing firm. <br><br>From a hardware perspective, Keycard is a SE secure element with a very high level of hardware protection. It passes CC EAL5+ formal testing for its security evaluation."
     keycard-setup:
       title: "Keycard Setup"
       q1:
         question: "How do I get going with Keycard and Status? "
-        answer: "If you are a new Status user, then you just have to download Status, follow our onboarding flows, you will have to chose if you want to generate a new account or import one from a mnemonic sentence, and then chose to store it in your Keycard. From there, you will be asked to tap your Keycard and enter your pin whenever you want to login in Status, or sign a transaction. "
+        answer: "If you are a new Status user, then you just have to download Status, follow our onboarding flows, you will have to chose if you want to generate a new account or import one (i.e. `Access keys`) using a seed phrase, and then chose to store it in your Keycard. From there, you will be asked to tap your Keycard and enter your 6-digit passcode whenever you want to unlock your keys and use Status, or sign a transaction. "
       q2:
-        question: "What is the PIN? "
-        answer: "You will define your 6 digit PIN during the onboarding. You will need to remember this PIN since this will be asked each time your tap your card on the phone."
+        question: "What is the 6-digit passcode? "
+        answer: "You will define your 6-digit passcode during the onboarding. You will need to remember this passcode since this will be asked each time your tap your card on the phone."
       q3:
-        question: "What are pairing code and PUK?"
-        answer: "When you onboard with Status and Keycard, you will be provided a pairing code and PUK. You have to write down these two pieces of data very carefully because they will never be presented to you again. <br><br>Your pairing code will be needed when you want to use your Keycard with another phone or other app than Status. <br><br>Your PUK code will be needed if you forget your PIN, in order to reset and change it."
+        question: "What are pairing code and PUK code?"
+        answer: "When you onboard with Status and Keycard, you will be provided a pairing code and PUK code. You have to write down these two pieces of data very carefully because they will never be presented to you again. <br><br>Your pairing code will be needed when you want to use your Keycard with another phone or other app than Status. <br><br>Your PUK code will be needed if you forget your 6-digit passcode, in order to reset and change it."
       q4:
-        question: "What is the mnemonic phrase?"
-        answer: "Status accounts are generated with a master secret which can be represented with a list of words. When you generate a new Status account, you will be provided by this list of words. It is crucial that you write down this list of words somewhere safe. If you lose your Keycard, lose your PUK, or Pairing code together with your phone, it’s your only solution to access your funds."
+        question: "What is the seed phrase?"
+        answer: "See Profile and Settings. If you lose your Keycard, lose your PUK code, or Pairing code together with your phone, it’s your only solution to access your funds."
       q5:
-        question: "I already own a Status account and want to use it with my Keycard, how should I proceed?"
-        answer: "You will need to deinstall Status to  start from a fresh install.  When onboarding you will need to enter your mnemonic phrase and store it on Keycard. You will recover your account and all interactions with your private keys will now be protected by Keycard."
+        question: "I already use an account in Status and want to use it with my Keycard, how should I proceed?"
+        answer: "You will need to deinstall Status to start from a fresh install.  When onboarding you will need to enter your seed phrase (`Access keys` > `Enter seed phrase`) and store it on Keycard. You will recover your account and all interactions with your private keys will now be protected by Keycard."
     keycard-other:
       title: "Keycard Other Questions"
       q1:
         question: "I own one Keycard, can I use it with several phones, or several applications concurrently? "
         answer: "Yes you can. Your Keycard has one pairing code that can enable you to set-up 5 concurrent secure channels. "
       q2:
-        question: "I lost my PIN, what should I do?"
-        answer: "If you make more then 3 wrong attempts of your PIN, you will be asked to enter your PUK to reset and change your PIN. "
+        question: "I lost my 6-digit passcode, what should I do?"
+        answer: "If you make more then 3 wrong attempts of your passcode, you will be asked to enter your PUK code to reset and change your passcode. "
       q3:
-        question: "I lost my PUK, what should I do?"
-        answer: "If you lost your PUK and your PIN then you are in a pretty bad situation, you will never be able to use your Keycard. To recover your funds you should use your mnemonic words and generate the wallet again in Status or another wallet. If you are developer and lost your PIN and PUK, we might help you factory reset your Keycard, please reach out to <a href='https://join.status.im/chat/public/status-keycard' target='_blank'>https://join.status.im/chat/public/status-keycard</a>"
+        question: "I lost my PUK code, what should I do?"
+        answer: "If you lost your PUK code and your 6-digit passcode, then you are in a pretty bad situation, you will never be able to use your Keycard. To recover your funds you should use your seed phrase and recover (i.e. `Access keys`) again in Status or another wallet. If you are familiar with CLI and lost your passcode and PUK code, the Keycard development team might be able to help you factory reset your Keycard, please reach out to <a href='https://join.status.im/chat/public/status-keycard' target='_blank'>https://join.status.im/chat/public/status-keycard</a>"
       q4:
         question: "I lost my Pairing code, what should I do?"
-        answer: "If you lost your pairing code, you must make sure that you have noted down your mnemonic words. Without your pairing code and your mnemonic words you are at risk to lose access to your funds if you lose your phone."
+        answer: "If you lost your pairing code, you must make sure that you have noted down your seed phrase. Without your pairing code and your seed phrase you are at risk of losing access to your funds if you lose your phone."
       q5:
-        question: "I lost my mnemonic phrase, what should I do?"
-        answer: "If you lost your mnemonic phrase for your current account, you have to act because you are under the risk of losing all your funds at some point if you lose your Keycard or forget your PUK/Pairing code.  You should immediately create a new wallet with a new mnemonic phrase and transfer your assets from your current account on it. "
+        question: "I lost my seed phrase, what should I do?"
+        answer: "If you lost your seed phrase for your current account, you have to act because you are under the risk of losing all your funds at some point if you lose your Keycard or forget your PUK/Pairing code. You should immediately create a new wallet with a new seed phrase and transfer your assets from your current account on it. "
   docs:
     stripe:
       title: "Status Developers"

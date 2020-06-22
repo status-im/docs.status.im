@@ -367,7 +367,9 @@ site:
       link-2: '加入Status 安全通道'
   header:
     nav:
-      features: 特征
+      features:
+        link: "特征"
+        title: "特征"
       get-involved:
         title: 加入
         description: 'Status 是一个开源项目， <br>被人在世界各地制造。'

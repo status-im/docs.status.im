@@ -367,7 +367,12 @@ site:
       link-2: '스테이터스 보안 채널에 참가하기'
   header:
     nav:
-      features: 기능
+      features:
+        link: "기능"
+        title: "기능"
+        link-1: "모든 기능 보기"
+        link-2: "키카드"
+        description: "안전한 메신저, 암호화폐 지갑, <br>웹3 브라우저, 모두를 한번에"
       get-involved:
         title: 참여하기
         description: '스테이터스는 전세계 사람들이 <br> 함께 만들어가는 오픈소스 프로젝트입니다.'

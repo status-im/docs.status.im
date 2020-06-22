@@ -367,7 +367,9 @@ site:
       link-2: 'Status-Sicherheits-Kanal beitreten'
   header:
     nav:
-      features: Funktionen
+      features:
+        link: "Funktionen"
+        title: "Funktionen"
       get-involved:
         title: 'Machen Sie mit'
         description: 'Status ist ein Open-Source-Projekt <br>von Menschen auf der ganzen Welt.</br>'

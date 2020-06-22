@@ -357,7 +357,9 @@ site:
       link-2: 'Únete al canal de seguridad de Status'
   header:
     nav:
-      features: Funciones
+      features:
+        link: "Funciones"
+        title: "Funciones"
       get-involved:
         title: Involucrate
         description: 'Status es un proyecto de código abierto <br>hecho por gente de todo el mundo.'

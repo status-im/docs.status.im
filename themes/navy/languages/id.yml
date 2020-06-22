@@ -358,7 +358,9 @@ site:
       link-2: 'Bergabunglah dengan Saluran Keamanan Status'
   header:
     nav:
-      features: fitur
+      features:
+        link: "fitur"
+        title: "fitur"
       get-involved:
         title: Terlibat
         description: 'Status adalah proyek sumber terbuka <br> dibuat oleh orang-orang di seluruh dunia.'

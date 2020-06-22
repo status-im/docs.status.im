@@ -361,7 +361,9 @@ site:
       link-2: 'Rejoindre Status Security Channel'
   header:
     nav:
-      features: Aspects
+      features:
+        link: "Aspects"
+        title: "Aspects"
       get-involved:
         title: 'S''impliquer'
         description: 'Status est un projet open source <br>réalisé par des gens du monde entier.'

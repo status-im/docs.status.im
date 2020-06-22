@@ -367,7 +367,9 @@ site:
       link-2: 'الانضمام إلى قناةStatus الآمنة '
   header:
     nav:
-      features: الميزات
+      features:
+        link: "الميزات"
+        title: "الميزات"
       get-involved:
         title: شاركنا
         description: 'Status هي مشروع مفتوح المصدر <br> التي أدلى بها الناس في جميع أنحاء العالم.'

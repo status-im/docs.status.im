@@ -367,7 +367,9 @@ site:
       link-2: 'Sumali sa Status Security Channel'
   header:
     nav:
-      features: 'Mga tampok'
+      features:
+        link: "Mga tampok"
+        title: "Mga tampok"
       get-involved:
         title: Makialam
         description: 'Status ay isang bukas na pagkukunan na proyekto<br>ginawa ng mga tao sa lahat ng dako ng mundo'

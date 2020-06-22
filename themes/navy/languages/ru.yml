@@ -322,7 +322,9 @@ site:
       link-2: ' Присоединиться к каналу безопасности Status'
   header:
     nav:
-      features: Характеристики
+      features:
+        link: "Характеристики"
+        title: "Характеристики"
       get-involved:
         title: Участвовать
         description: 'Status-проект с открытым исходным кодом, <br>созданный людьми со всего мира</br>.'

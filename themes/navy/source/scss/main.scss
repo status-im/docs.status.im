@@ -3522,6 +3522,27 @@ img.qr-code{
     }
 }
 
+// App download spacing
+
+@media (min-width: 990px) and (max-width: 1016px) {
+    .app-download {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 873px) {
+    .app-download {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 471px) {
+    .app-download {
+        margin-bottom: 20px;
+    }
+}
+
+
 .circles{
     width: 390px;
     height: 390px;

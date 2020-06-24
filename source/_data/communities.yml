@@ -28,6 +28,12 @@
   occupation: 'site.get-involved.community.community-groups.account-group-6.occupation'
   name: Ken
 
+- image: 'status-turkish.png'
+  publicChat: 'status-turkish'
+  description: 'site.get-involved.community.community-groups.account-group-5.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-5.occupation'
+  name: 'Erol'
+
 - image: 'philosophers.svg'
   publicChat: 'philosophers'
   description: 'site.get-involved.community.community-groups.account-group-5.description'

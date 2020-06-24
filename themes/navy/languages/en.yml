@@ -480,6 +480,9 @@ site:
         account-group-6:
           description: "Status for the Filipino community"
           occupation: "Organizer"
+        account-group-7:
+          description: "Status for the Turkish community"
+          occupation: "Organizer"
   security:
     intro:
       title: "Secure By Design"

@@ -81,7 +81,7 @@ site:
         link: 优化和注册您的Dapp
     get:
       title: '获取Status '
-      description: '开始享受iOS，Android，MacOS，Windows和Linux上的Status 。'
+      description: '开始享受iOS，Android和MacOS上的Status 。'
       link: 下载应用
   get-involved:
     index:

@@ -81,7 +81,7 @@ site:
         link: 'Optimieren und registrieren Sie Ihre DApp'
     get:
       title: 'Status herunterladen'
-      description: 'Genießen Sie Status unter iOS, Android, MacOS, Windows und Linux.'
+      description: 'Genießen Sie Status unter iOS, und Android.'
       link: 'Apps herunterladen'
   get-involved:
     index:

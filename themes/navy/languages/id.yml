@@ -80,7 +80,7 @@ site:
         link: 'Optimalkan dan Daftarkan Dapp Anda'
     get:
       title: 'Dapatkan Status'
-      description: 'Mulai menikmati Status di iOS, Android, MacOS, Windows dan Linux.'
+      description: 'Mulai menikmati Status di iOS dan Android.'
       link: 'Unduh Aplikasi'
   get-involved:
     index:

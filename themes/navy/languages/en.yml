@@ -278,7 +278,7 @@ site:
         link: "Optimize and Register your Dapp "
     get:
       title: "Get Status"
-      description: "Start enjoying Status on iOS, Android, MacOS, Windows and Linux."
+      description: "Start enjoying Status on iOS and Android."
       link: "Download Apps"
   get-involved:
     index:

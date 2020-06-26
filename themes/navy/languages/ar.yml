@@ -81,7 +81,7 @@ site:
         link: 'تحسين وتسجيل Dapp الخاص بك'
     get:
       title: 'احصل على Status'
-      description: 'ابدأ في الاستمتاع ب Status على iOS و Android و MacOS و Windows و Linux.'
+      description: 'ابدأ في الاستمتاع ب Status على iOS و Android.'
       link: 'تنزيل التطبيقات'
   get-involved:
     index:

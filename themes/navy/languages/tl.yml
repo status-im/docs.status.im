@@ -81,7 +81,7 @@ site:
         link: 'I-optimize at Irehistro ang iyong Dapp'
     get:
       title: 'Kumuha ng Status'
-      description: 'Simulan ang kasiyahan sa Status iOS, Android, MacOs, Windows at Linux'
+      description: 'Simulan ang kasiyahan sa Status iOS at Android'
       link: 'I-download ang Apps'
   get-involved:
     index:

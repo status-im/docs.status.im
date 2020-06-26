@@ -81,7 +81,7 @@ site:
         link: '여러분의 디앱을 최적화하고 등록해보세요'
     get:
       title: '스테이터스 설치'
-      description: '스테이터스를 iOS, 안드로이드, 맥OS, 윈도우 그리고 리눅스에서 사용해보세요'
+      description: 'iOS 및 Android에서 사용해보십시오.'
       link: '앱 다운로드'
   get-involved:
     index:

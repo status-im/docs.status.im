@@ -80,7 +80,7 @@ site:
         link: 'Optimiser et enregistrer votre Dapp'
     get:
       title: 'Obtenir Status'
-      description: 'Commencez à profiter de Status sur iOS, Android, MacOS, Windows et Linux.'
+      description: 'Commencez à profiter de Status sur iOS et Android.'
       link: 'Télécharger Apps'
   get-involved:
     index:

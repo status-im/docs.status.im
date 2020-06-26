@@ -51,6 +51,12 @@ docs:
           - title: Register DApps
             path: register_dapps.html
 
+  - title: User Guides
+    path: user_guides/
+    children:
+      - title: Pairing Devices
+        path: pairing_devices.html
+
   - title: Join the team
     path: our_team
     children:

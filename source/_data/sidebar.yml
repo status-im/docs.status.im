@@ -56,6 +56,8 @@ docs:
     children:
       - title: Pairing Devices
         path: pairing_devices.html
+      - title: Security Best Practices
+        path: best_security_practices.html
 
   - title: Join the team
     path: our_team

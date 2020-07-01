@@ -30,8 +30,8 @@
 
 - image: 'status-turkish.png'
   publicChat: 'status-turkish'
-  description: 'site.get-involved.community.community-groups.account-group-5.description'
-  occupation: 'site.get-involved.community.community-groups.account-group-5.occupation'
+  description: 'site.get-involved.community.community-groups.account-group-7.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-7.occupation'
   name: 'Erol'
 
 - image: 'philosophers.svg'

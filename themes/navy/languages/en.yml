@@ -478,10 +478,10 @@ site:
           occupation: "Organizer"
           name: "Aristotle"
         account-group-6:
-          description: "Status for the Filipino community"
+          description: "Status Filipino community"
           occupation: "Organizer"
         account-group-7:
-          description: "Status for the Turkish community"
+          description: "Status Turkish community"
           occupation: "Organizer"
   security:
     intro:

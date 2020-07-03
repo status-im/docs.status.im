@@ -687,7 +687,7 @@ site:
         answer: "Not at the moment. Our code base is designed so that Status can run on either mobile or desktop devices. Development of Status desktop is currently paused while the team focuses on the mobile app and other infrastructure projects."
       q11:
         question: "In what languages is the app available?"
-        answer: "Status is currently available in 12 languages — English, Français, Italiano,中文, 한국어, 日本語, اُردُو & русский!, Türk, Español, Tagalog, Deutsch, Português <br><br>Anyone can contribute to Status translations. If you see a typo, mistranslation or simply want your language represented, join us at <a href='https://translate.status.im/' target='_blank'>translate.status.im</a>."
+        answer: "Status is currently available in 14 languages — English, Français, Italiano, 简体中文, 繁體中文, 한국어, اُردُو, русский!, Türkçe, Español, Tagalog, Bahasa Indonesia, Deutsch, Português do Brasil <br><br>Anyone can contribute to Status translations. If you see a typo, mistranslation or simply want your language represented, join us at <a href='https://translate.status.im/' target='_blank'>translate.status.im</a>."
       q12:
         question: "Is the app free to use?"
         answer: "Absolutely. No payment is needed to use Status' core features. To get the most out of Status, it does help to hold the cryptocurrencies ETH (Ethereum) and SNT (Status Network Token). Certain features require SNT to use, as this helps to support our project. <br><br>To get SNT, you can use an exchange DApp to trade crypto you already own, or you can buy ETH and SNT in exchange for a fiat (e.g. Euro or US dollar) currency using a fiat-to-crypto exchange. "

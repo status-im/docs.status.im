@@ -2,13 +2,14 @@
 <main id="main" role="main">
 
     <!-- GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
-    <section class="get-involved-intro p-t-160 p-b-160">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h1><%- __('site.get-involved.index.intro.title') %></h1>
-                    <p class="teaser-1"><%- __('site.get-involved.index.intro.description') %></p>
-                    <div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
+    <section class="pt-24 xl:pt-64">
+        <span class="absolute -z-1 right-0 top-0 bg-cover bg-top-right hidden lg:block" style="background-image: url(/img/open-source-illustration.svg); width: 508px; height: 662px;"></span>
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-span-7">
+                    <h1 class="font-display text-6xl leading-tight font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.get-involved.index.intro.title') %></h1>
+                    <p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.index.intro.description') %></p>
+                    <div class="block lg:hidden w-full mt-20 -ml-8 "><img src="/img/open-source-illustration-horz.svg" class="block w-full" /></div>
                 </div>
             </div>
         </div>
@@ -16,95 +17,111 @@
     <!-- END-GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
 
     <!-- GET-INVOLVED-BOX-LINKS -->
-    <section class="get-involved-box-links">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="box-link">
-                        <h3 class="title"><a href="<%- show_lang() %>/docs/"><%- image_tag("/img/get-involved-development.svg") %> <%- __('site.get-involved.index.resources.resource-1.title') %></a></h3>
-                        <p><%- __('site.get-involved.index.resources.resource-1.description') %></p>
-                        <a href="<%- show_lang() %>/docs/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="box-link">
-                        <h3 class="title"><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/get-involved-educate.svg") %> <%- __('site.get-involved.index.resources.resource-2.title') %></a></h3>
-                        <p><%- __('site.get-involved.index.resources.resource-2.description') %></p>
-                        <a href="<%- show_lang() %>/get-involved/educators/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="box-link">
-                        <h3 class="title"><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/get-involved-community-groups.svg") %> <%- __('site.get-involved.index.resources.resource-3.title') %></a></h3>
-                        <p><%- __('site.get-involved.index.resources.resource-3.description') %></p>
-                        <a href="<%- show_lang() %>/get-involved/community-groups/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-                    </div>
-                </div>
+    <section class="mt-24 lg:mt-64">
+        <div class="max-w-screen-2xl mx-auto lg:px-20">
+            <div class="grid lg:grid-cols-3 gap-12">
+                <a href="<%- show_lang() %>/docs/" class="bg-primary-500 hover:bg-primary-base group p-8 lg:p-12 block relative z-10 transition duration-200 linear">
+                    <h3 class="text-white font-display text-2xl mb-16">
+                      <div class="flex items-center">
+                        <div class="h-12"><%- image_tag("/img/get-involved-development.svg") %> </div>
+                        <span class="ml-8"><%- __('site.get-involved.index.resources.resource-1.title') %></span>
+                      </div>
+                    </h3>
+                    <p><%- __('site.get-involved.index.resources.resource-1.description') %></p>
+                    <p class="inline-flex items-center mt-8 font-special font-semibold text-white">
+                      <%- __('site.link.learn-more') %>
+                      <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                    </p>
+                </a>
+                <a href="<%- show_lang() %>/get-involved/educators/" class="bg-primary-500 hover:bg-primary-base group p-8 lg:p-12 block relative z-10 transition duration-200 linear">
+                    <h3 class="text-white font-display text-2xl mb-16">
+                      <div class="flex items-center">
+                       <div class="h-12"> <%- image_tag("/img/get-involved-educate.svg") %> </div>
+                        <span class="ml-8"><%- __('site.get-involved.index.resources.resource-2.title') %></span>
+                      </div>
+                    </h3>
+                    <p><%- __('site.get-involved.index.resources.resource-2.description') %></p>
+                    <p class="inline-flex items-center mt-8 font-special font-semibold text-white">
+                      <%- __('site.link.learn-more') %>
+                      <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                    </p>
+                </a>
+                <a href="<%- show_lang() %>/get-involved/community-groups/" class="bg-primary-500 hover:bg-primary-base group p-8 lg:p-12 block">
+                    <h3 class="text-white font-display text-2xl mb-16">
+                      <div class="flex items-center">
+                        <div class="h-12"><%- image_tag("/img/get-involved-community-groups.svg") %> </div>
+                        <span class="ml-8"><%- __('site.get-involved.index.resources.resource-3.title') %></span>
+                      </div>
+                    </h3>
+                    <p><%- __('site.get-involved.index.resources.resource-3.description') %></p>
+                    <p class="inline-flex items-center mt-8 font-special font-semibold text-white">
+                      <%- __('site.link.learn-more') %>
+                      <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                    </p>
+                </a>
             </div>
         </div>
     </section>
     <!-- END-GET-INVOLVED-BOX-LINKS -->
 
     <!-- WE-ARE-STATUS -->
-    <section class="p-t-160 p-b-160">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                </div>
-                <div class="col-md-5"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <section class="get-involved-ambassador" id="ambassador">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="inner-img ambassador-1">
-                                        <%- image_tag("/img/ambassador-1.png") %>
-                                    </div>
-                                    <div class="inner-img ambassador-2">
-                                        <%- image_tag("/img/ambassador-2.png") %>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="inner padding">
-                                        <h2><%- __('site.get-involved.index.contributors.subtitle') %></h2>
-                                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description') %></p>
-                                        <ul>
-                                            <li><a href="https://ambassador.status.im/" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-2') %></a></li>
-                                        </ul>
-                                        <ul>
-                                            <li><a href="https://github.com/status-im/ambassador.status.im#status-ambassadors-" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-3') %></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+    <section class="mt-20 lg:mt-64">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+            <section id="ambassador">
+                <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+                    <div class="grid grid-cols-12 lg:gap-24">
+                        <div class="hidden lg:flex lg:col-span-6 lg:items-center lg:pr-32">
+                            <div class="inner-img ambassador-1">
+                                <%- image_tag("/img/ambassador-1.png") %>
+                            </div>
+                            <div class="inner-img ambassador-2">
+                                <%- image_tag("/img/ambassador-2.png") %>
                             </div>
                         </div>
-                    </section>
+                        <div class="col-span-12 lg:col-span-6">
+                            <h2 class="font-display text-4xl xl:text-7xl"><%- __('site.get-involved.index.contributors.subtitle') %></h2>
+                            <p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description') %></p>
+                            <ul class="mt-24">
+                                <li class="mt-12">
+                                  <a href="https://ambassador.status.im/" target="_blank" class="inline-flex items-center font-special font-semibold text-primary-base hover:text-primary-900 group">
+                                    <%- __('site.get-involved.index.contributors.link-2') %>
+                                    <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                  </a>
+                                </li>
+                                <li class="mt-12">
+                                  <a href="https://github.com/status-im/ambassador.status.im#status-ambassadors-" target="_blank" class="inline-flex items-center font-special group font-semibold text-primary-base hover:text-primary-900">
+                                    <%- __('site.get-involved.index.contributors.link-3') %>
+                                    <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                  </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
     <!-- END-WE-ARE-STATUS -->
 
     <!-- WHAT-YOU-CAN-DO-AS-AN-AMBASSADOR -->
-    <section class="get-involved-ambassador-2 rectangle working-groups p-b-160">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="inner padding">
-                        <h2><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
-                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description-1') %></p>
-                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description-2') %></p>
-                        <ul>
-                            <li><a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-4') %></a></li>
-                        </ul>
-                    </div>
+    <section class="mt-20 lg:mt-64">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+            <div class="grid grid-cols-12 lg:gap-24">
+                <div class="col-span-12 lg:col-span-6">
+                    <h2 class="font-display text-4xl xl:text-7xl leading-tight"><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
+                    <p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-1') %></p>
+                    <p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-2') %></p>
+                    <ul>
+                        <li>
+                          <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" class="inline-flex items-center mt-24 text-primary-base group font-semibold font-special hover:text-primary-900">
+                            <%- __('site.get-involved.index.contributors.link-4') %>
+                            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                          </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <div class="working-groups ">
-                        <%- image_tag("/img/working-groups.jpg") %>
-                    </div>
+                <div class="hidden lg:block lg:col-span-6">
+                    <%- image_tag("/img/working-groups.jpg") %>
                 </div>
             </div>
         </div>
@@ -112,22 +129,23 @@
     <!-- END-WHAT-YOU-CAN-DO-AS-AN-AMBASSADOR -->
 
     <!-- LISTEN-TO-THE-VOICE-OF-TUE-STATUS-COMMUNITY -->
-    <section class="get-involved-ambassador-3 p-b-160">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 media-image">
-                    <div class="inner-img status-media">
-                        <%- image_tag("/img/status-media.png") %>
-                    </div>
+    <section class="mt-40 lg:mt-64">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+            <div class="grid grid-cols-12 lg:gap-24">
+                <div class="col-span-12 w-1/2 lg:w-auto mx-auto lg:col-span-6 lg:pl-48 lg:pr-64">
+                    <%- image_tag("/img/status-media.png") %>
                 </div>
-                <div class="col-md-6">
-                    <div class="inner padding">
-                        <h2><%- __('site.get-involved.index.contributors.subtitle-3') %></h2>
-                        <p class="teaser-2"><%- __('site.get-involved.index.contributors.description-3') %></p>
-                        <ul>
-                            <li><a href="https://media.statusnetwork.com/" target="_blank" class="link-arrow"><%- __('site.get-involved.index.contributors.link-5') %></a></li>
-                        </ul>
-                    </div>
+                <div class="col-span-12 lg:col-span-6 mt-12 lg:mt-0">
+                    <h2 class="font-display text-4xl xl:text-7xl leading-tight"><%- __('site.get-involved.index.contributors.subtitle-3') %></h2>
+                    <p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-3') %></p>
+                    <ul>
+                        <li>
+                          <a href="https://media.statusnetwork.com/" target="_blank" class="inline-flex items-center mt-24 text-primary-base font-semibold font-special group hover:text-primary-900">
+                            <%- __('site.get-involved.index.contributors.link-5') %>
+                            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                          </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -135,50 +153,43 @@
     <!-- END-LISTEN-TO-THE-VOICE-OF-TUE-STATUS-COMMUNITY -->
 
     <!-- STATUS-AMBASSADORS -->
-    <section class="about-core-contributors top-contributors p-b-160" id="core-contributors">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="inner title">
-                        <h3><%- __('site.get-involved.index.contributors.title') %></h3>
-                    </div>
+    <section class="mt-20 lg:mt-64 mb-20 lg:mb-64" id="core-contributors">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+            <div class="grid grid-cols-12 gap-12">
+                <div class="col-span-12 lg:col-span-8">
+                  <h3 class="text-center lg:text-left font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.get-involved.index.contributors.title') %></h3>
                 </div>
-                <div class="col-md-5"></div>
             </div>
-            <div class="row">
-                <div class="col-md-12 padding-left-30">
-                    <ul class="contributors row ambassador-list">
-                        <% for (let a of site.data.ambassadors) { %>
-                        <li class="contributor col-md-1">
-                            <a href="#" class="contributor-trigger">
-                                <%- image_tag("/img/ambassadors/"+a.image) %>
-                            </a>
-                            <div class="contributor-info">
-                                <%- image_tag("/img/ambassadors/"+a.image) %>
-                                <b><%= a.name %></b>
-                                <ul>
-                                    <% if (a.twitter) { %>
-                                        <li>
-                                            <a href="https://twitter.com/<%= a.twitter %>" target="_blank">
-                                                <%- image_tag("/img/icon-twitter-purple.svg") %>
-                                            </a>
-                                        </li>
-                                    <% } %>
+            <ul class="mt-40 flex flex-wrap -ml-8">
+                <% for (let a of site.data.ambassadors) { %>
+                <li class="relative group ml-8 mt-12 w-32 h-32">
+                    <a href="#">
+                        <%- image_tag("/img/ambassadors/"+a.image, {class: "rounded-full w-24 h-24"}) %>
+                    </a>
+                    <div class="transition-all duration-200 linear hover:z-10 flex group-hover:opacity-100 group-hover:visible absolute opacity-0 invisible -mt-24 rounded w-64 bg-white z-20 shadow p-8 flex flex-col items-center text-center w-24 h-24" style="width: 190px; height: 240px; top: 40px; left:-65px;">
+                        <%- image_tag("/img/ambassadors/"+a.image, {class: "rounded-full w-24 h-24"}) %>
+                        <p class="mt-4 font-bold font-special"><%= a.name %></p>
+                        <ul class="mt-16 flex items-center">
+                            <% if (a.twitter) { %>
+                                <li class="mr-4">
+                                    <a href="https://twitter.com/<%= a.twitter %>" target="_blank">
+                                        <%- image_tag("/img/icon-twitter-purple.svg") %>
+                                    </a>
+                                </li>
+                            <% } %>
 
-                                    <% if (a.status) { %>
-                                    <li>
-                                        <a href="https://join.status.im/user/<%= a.status %>" target="_blank">
-                                            <%- image_tag("/img/icon-status-purple.svg") %>
-                                        </a>
-                                    </li>
-                                    <% } %>
-                                </ul>
-                            </div>
-                        </li>
-                        <% } %>
-                    </ul>
-                </div>
-            </div>
+                            <% if (a.status) { %>
+                            <li>
+                                <a href="https://join.status.im/user/<%= a.status %>" target="_blank">
+                                    <%- image_tag("/img/icon-status-purple.svg") %>
+                                </a>
+                            </li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </li>
+                <% } %>
+            </ul>
         </div>
     </section>
    <!-- STATUS-AMBASSADORS -->

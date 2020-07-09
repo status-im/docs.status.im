@@ -65,6 +65,8 @@
     "request-promise": "^4.2.4",
     "run-sequence": "^2.2.1",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.0",
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^1.4.6"
   }
 }

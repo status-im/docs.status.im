@@ -2,165 +2,139 @@
 <main id="main" role="main">
 
 	<!-- ABOUT-MISSION -->
-	<section class="about-mission p-t-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="inner">
-						<h1><%- __('site.about.intro.title') %></h1>
-						<ul class="inline-links">
-							<li><a href="#our-principles"><%- __('site.about.intro.link-1') %></a></li>
-							<li><a href="#active-swarms"><%- __('site.about.intro.link-2') %></a></li>
-							<li><a href="#core-contributors"><%- __('site.about.intro.link-3') %></a></li>
-						</ul>
-						<p class="teaser-1"><%- __('site.about.intro.description') %></p>
-					</div>
-				</div>
+	<section class="pt-16 xl:pt-40">
+		<div class="max-w-screen-2xl mx-auto px-4 lg:px-12">
+			<div class="text-center">
+				<h1 class="text-center font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.about.intro.title') %></h1>
+				<ul class="flex items-center justify-center mt-12">
+					<li><a href="#our-principles" class="js-scrollto text-primary-base font-bold font-display hover:text-primary-900"><%- __('site.about.intro.link-1') %></a></li>
+					<li><a href="#active-swarms" class="js-scrollto text-primary-base font-bold ml-20 font-display hover:text-primary-900"><%- __('site.about.intro.link-2') %></a></li>
+					<li><a href="#core-contributors" class="js-scrollto text-primary-base font-bold ml-20 font-display hover:text-primary-900"><%- __('site.about.intro.link-3') %></a></li>
+				</ul>
+				<p class="max-w-screen-lg lg:px-48 mx-auto text-gray-600 mt-12 xl:mt-40 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.about.intro.description') %></p>
 			</div>
 		</div>
 	</section>
 	<!-- END-ABOUT-MISSION -->
 
 	<!-- ABOUT-GALLERY -->
-	<section class="about-gallery m-t-90">
+	<section class="mt-40">
 		<%- image_tag("/img/about-gallery.jpg") %>
 	</section>
 	<!-- END-ABOUT-GALLERY -->
 
 	<!-- ABOUT-PRINCIPLES -->
-	<section class="about-principles p-t-160 p-b-160" id="our-principles">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h3><%- __('site.about.principles.title') %></h3>
-					<p class="teaser-2"><%- __('site.about.principles.description') %></p>
-				</div>
-			</div>
-			<div class="row roman-list">
-				<div class="col-md-6">
-					<h4 class="m-b-25" data-roman="I"><%- __('site.about.principles.principle-1.title') %></h4>
-					<p><%- __('site.about.principles.principle-1.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25" data-roman="II"><%- __('site.about.principles.principle-2.title') %></h4>
-					<p><%- __('site.about.principles.principle-2.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="III"><%- __('site.about.principles.principle-3.title') %></h4>
-					<p><%- __('site.about.principles.principle-3.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="IV"><%- __('site.about.principles.principle-4.title') %></h4>
-					<p><%- __('site.about.principles.principle-4.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="V"><%- __('site.about.principles.principle-5.title') %></h4>
-					<p><%- __('site.about.principles.principle-5.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="VI"><%- __('site.about.principles.principle-6.title') %></h4>
-					<p><%- __('site.about.principles.principle-6.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="VII"><%- __('site.about.principles.principle-7.title') %></h4>
-					<p><%- __('site.about.principles.principle-7.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="VIII"><%- __('site.about.principles.principle-8.title') %></h4>
-					<p><%- __('site.about.principles.principle-8.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="IX"><%- __('site.about.principles.principle-9.title') %></h4>
-					<p><%- __('site.about.principles.principle-9.description') %></p>
-				</div>
-				<div class="col-md-6">
-					<h4 class="m-b-25 m-t-90" data-roman="X"><%- __('site.about.principles.principle-10.title') %></h4>
-					<p><%- __('site.about.principles.principle-10.description') %></p>
-				</div>
+	<section class="mt-64" id="our-principles">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.about.principles.title') %></h3>
+			<p class="max-w-6xl text-gray-900 mt-12 text-xl xl:text-3xl font-display font-medium leading-normal"><%- __('site.about.principles.description') %></p>
+			<ul class="grid sm:grid-cols-2 gap-24 xl:gap-48 list-roman mt-40 pl-20 xl:pl-12">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="I"><%- __('site.about.principles.principle-1.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-1.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="II"><%- __('site.about.principles.principle-2.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-2.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="III"><%- __('site.about.principles.principle-3.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-3.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="IV"><%- __('site.about.principles.principle-4.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-4.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="V"><%- __('site.about.principles.principle-5.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-5.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="VI"><%- __('site.about.principles.principle-6.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-6.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="VII"><%- __('site.about.principles.principle-7.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-7.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="VIII"><%- __('site.about.principles.principle-8.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-8.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="IX"><%- __('site.about.principles.principle-9.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-9.description') %></p>
+				</li class="text-gray-200">
+				<li class="text-gray-200 pl-4 xl:pl-12 text-2xl xl:text-5xl">
+					<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900" data-roman="X"><%- __('site.about.principles.principle-10.title') %></h4>
+					<p class="text-gray-900 text-xl"><%- __('site.about.principles.principle-10.description') %></p>
+				</li class="text-gray-200">
 			</div>
 		</div>
 	</section>
 	<!-- END-ABOUT-PRINCIPLES -->
 
 	<!-- ABOUT-CHAT -->
-	<section class="about-chat p-t-160 p-b-160" id="how-we-work">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h3><%- __('site.about.how-we-work.title') %></h3>
-					<p class="teaser-2"><%- __('site.about.how-we-work.description') %></p>
-					<ul class="inline-links">
-						<li>
-							<div class="img-holder">
-								<%- image_tag("/img/research.svg") %>
-							</div>
-							<%- __('site.about.how-we-work.research.title') %>
-						</li>
-						<li>
-							<div class="img-holder">
-								<%- image_tag("/img/specifications-and-planning.svg") %>
-							</div>
-							<%- __('site.about.how-we-work.specifications-planning.title') %>
-						</li>
-						<li>
-							<div class="img-holder">
-								<%- image_tag("/img/implementation.svg") %>
-							</div>
-							<%- __('site.about.how-we-work.implementation.title') %>
-						</li>
-						<li>
-							<div class="img-holder">
-								<%- image_tag("/img/communication-and-post-mortem.svg") %>
-							</div>
-							<%- __('site.about.how-we-work.communication-post-mortem.title') %>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row margin-top-join">
-				<div class="col-md-12 join-us-padding">
-					<h3><%- __('site.about.join-us.title') %></h3>
-					<ul class="inline-links margin-top-responsive-join">
-						<li>
-							<a href="https://join.status.im/status"><%- image_tag("img/status-token.svg", {style: 'width:50px'}) %></a>
-						</li>
-						<li>
-							<a href="https://discord.gg/3Exux7Y"><%- image_tag("img/discord-logo.svg", {style: 'width:60px'}) %></a>
-						</li>
-						<li>
-							<a href="https://github.com/status-im"><%- image_tag("img/github-black-logo.svg", {style: 'width:50px'}) %></a>
-						</li>
-					</ul>
-				</div>
+	<section class="bg-blue-gray-light mt-64" id="how-we-work">
+		<div class="max-w-screen-2xl mx-auto px-4 py-64 lg:px-12">
+			<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.how-we-work.title') %></h3>
+			<p class="text-gray-900 mt-12 text-xl xl:text-3xl font-display font-medium leading-normal"><%- __('site.about.how-we-work.description') %></p>
+			<ul class="flex items-center flex-wrap mt-24 -ml-12 xl:-ml-24">
+				<li class="mt-12 ml-12 xl:ml-24">
+					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
+						<%- image_tag("/img/research.svg") %>
+					</div>
+					<%- __('site.about.how-we-work.research.title') %>
+				</li>
+				<li class="ml-12 xl:ml-24 flex items-center mt-12">
+					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
+						<%- image_tag("/img/specifications-and-planning.svg") %>
+					</div>
+					<%- __('site.about.how-we-work.specifications-planning.title') %>
+				</li>
+				<li class="ml-12 xl:ml-24 flex items-center mt-12">
+					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
+						<%- image_tag("/img/implementation.svg") %>
+					</div>
+					<%- __('site.about.how-we-work.implementation.title') %>
+				</li>
+				<li class="ml-12 xl:ml-24 flex items-center mt-12">
+					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
+						<%- image_tag("/img/communication-and-post-mortem.svg") %>
+					</div>
+					<%- __('site.about.how-we-work.communication-post-mortem.title') %>
+				</li>
+			</ul>
+			<div class="mt-64">
+				<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.join-us.title') %></h3>
+				<ul class="flex items-center mt-24">
+					<li>
+						<a href="https://join.status.im/status"><%- image_tag("img/status-token.svg", {style: 'width:50px'}) %></a>
+					</li>
+					<li class="ml-32">
+						<a href="https://discord.gg/3Exux7Y"><%- image_tag("img/discord-logo.svg", {style: 'width:60px'}) %></a>
+					</li>
+					<li class="ml-32">
+						<a href="https://github.com/status-im"><%- image_tag("img/github-black-logo.svg", {style: 'width:50px'}) %></a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 	<!-- END-ABOUT-CHAT -->
 
 	<!-- ABOUT-CORE-CONTRIBUTORS -->
-	<section class="about-core-contributors p-t-160 p-b-160" id="core-contributors">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="inner">
-						<h3><%- __('site.about.core-contributors.title') %></h3>
-						<p class="teaser-2"><%- __('site.about.core-contributors.description') %></p>
-						<!-- <ul class="inline-links">
-							<li><a href="<%- show_lang() %>/contribute/open_positions.html" class="link-arrow"><%- __('site.about.core-contributors.link-1') %></a></li>
-							<li><a href="<%- show_lang() %>/contribute/life_status.html" class="link-arrow"><%- __('site.about.core-contributors.link-2') %></a></li>
-						</ul> -->
-					</div>
-				</div>
-				<div class="col-md-5"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<ul class="contributors row m-t-90">
-						<%- employees() %>
-					</ul>
-				</div>
-			</div>
-		</div>
+	<section class="mt-64 max-w-screen-2xl mx-auto px-4 lg:px-12 mb-64" id="core-contributors">
+			<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.core-contributors.title') %></h3>
+			<p class="text-gray-900 mt-12 text-xl xl:text-3xl font-display font-medium leading-normal"><%- __('site.about.core-contributors.description') %></p>
+			<!-- <ul class="inline-links">
+				<li><a href="<%- show_lang() %>/contribute/open_positions.html" class="link-arrow"><%- __('site.about.core-contributors.link-1') %></a></li>
+				<li><a href="<%- show_lang() %>/contribute/life_status.html" class="link-arrow"><%- __('site.about.core-contributors.link-2') %></a></li>
+			</ul> -->
+			
+			<ul class="mt-40 flex flex-wrap -ml-8">
+				<%- employees() %>
+			</ul>
 	</section>
 	<!-- END-ABOUT-CORE-CONTRIBUTORS -->
 

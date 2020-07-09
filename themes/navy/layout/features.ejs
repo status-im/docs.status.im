@@ -2,19 +2,38 @@
 <main id="main" role="main">
 
 	<!-- FEATURES-INTRO -->
-	<section class="features-intro p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-7 col-md-6">
-					<h1><%- __('site.features.intro.title') %></h1>
-					<ul class="inline-links">
-						<li><a href="#secure-messenger"><%- image_tag("/img/messenger.svg") %> <%- __('site.features.intro.link-messenger') %></a></li>
-						<li><a href="#integrated-ethereum-wallet"><%- image_tag("/img/crypto-wallet.svg") %> <%- __('site.features.intro.link-wallet') %></a></li>
-						<li><a href="#web3-browser"><%- image_tag("/img/browser-and-dapps.svg") %> <%- __('site.features.intro.link-browser') %></a></li>
+	<section class="pt-16 md:pt-40 xl:pt-64">
+		<div class="max-w-screen-2xl mx-auto px-8 xl:px-20">
+      <div class="grid grid-cols-12 gap-12 items-start">
+				<div class="col-span-12 lg:col-span-7">
+					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl">
+            <%- __('site.features.intro.title') %>
+          </h1>
+					<ul class="hidden md:flex flex-col xl:flex-row xl:items-center -ml-24">
+						<li class="ml-24 mt-12">
+              <a class="js-scrollto text-primary-base font-special flex items-center font-semibold hover:text-primary-900" href="#secure-messenger">
+                <%- image_tag("/img/messenger.svg") %> 
+                <span class="ml-4"><%- __('site.features.intro.link-messenger') %></span>
+              </a>
+            </li>
+						<li class="ml-24 mt-12">
+              <a class="js-scrollto text-primary-base font-special flex items-center font-semibold hover:text-primary-900" href="#integrated-ethereum-wallet">
+                <%- image_tag("/img/crypto-wallet.svg") %> 
+                <span class="ml-4"><%- __('site.features.intro.link-wallet') %></span>
+              </a>
+            </li>
+						<li class="ml-24 mt-12">
+              <a class="js-scrollto text-primary-base font-special flex items-center font-semibold hover:text-primary-900" href="#web3-browser">
+                <%- image_tag("/img/browser-and-dapps.svg") %> 
+                <span class="ml-4"><%- __('site.features.intro.link-browser') %></span>
+              </a>
+            </li>
 					</ul>
 				</div>
-				<div class="col-xl-5 col-md-6">
-					<p class="teaser-1"><%- __('site.features.intro.description') %></p>
+				<div class="col-span-12 lg:col-span-5">
+          <p class="text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal">
+            <%- __('site.features.intro.description') %>
+          </p>
 				</div>
 			</div>
 		</div>
@@ -22,25 +41,32 @@
 	<!-- END-FEATURES-INTRO -->
 
 	<!-- FEATURES-CHAT -->
-	<section class="features-chat col-dark-grey col-black" id="secure-messenger">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="inner">
-						<h2 class="m-b-100"><%- __('site.features.messenger.title') %></h2>
-						<h4 class="m-b-25"><%- __('site.features.messenger.feature-1.title') %></h4>
-						<p><%- __('site.features.messenger.feature-1.description') %></p>
-						<a href="https://join.status.im/chat/public/status" target="_blank" class="link-arrow link-arrow-white"><%- __('site.features.messenger.feature-1.link') %></a>
-						<h4 class="m-t-90 m-b-25"><%- __('site.features.messenger.feature-2.title') %></h4>
-						<p><%- __('site.features.messenger.feature-2.description') %></p>
-						<a href="https://specs.vac.dev/specs/waku/waku.html" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-						<h4 class="m-t-90 m-b-25"><%- __('site.features.messenger.feature-3.title') %></h4>
-						<p><%- __('site.features.messenger.feature-3.description') %></p>
-						<a href="<%- show_lang() %>/technical/pfs.html" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-					</div>
+	<section class="mt-64 bg-gray-900 text-white py-20 lg:py-40" id="secure-messenger">
+		<div class="max-w-screen-2xl mx-auto px-8 xl:px-20">
+			<div class="grid grid-cols-12 xl:gap-32">
+				<div class="order-1 lg:order-none col-span-12 lg:col-span-6">
+					<h3 class="font-display text-4xl xl:text-7xl"><%- __('site.features.messenger.title') %></h3>
+					<h4 class="text-2xl xl:text-4xl font-display mt-24 lg:mt-32"><%- __('site.features.messenger.feature-1.title') %></h4>
+					<p class="mt-8 text-gray-300 text-xl"><%- __('site.features.messenger.feature-1.description') %></p>
+          <a href="https://join.status.im/chat/public/status" target="_blank" class="mt-8 font-special inline-flex items-center hover:text-gray-200 group">
+            <%- __('site.features.messenger.feature-1.link') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
+					<h4 class="text-2xl xl:text-4xl font-display mt-24 lg:mt-32"><%- __('site.features.messenger.feature-2.title') %></h4>
+					<p class="mt-8 text-gray-300 text-xl"><%- __('site.features.messenger.feature-2.description') %></p>
+          <a href="https://specs.vac.dev/specs/waku/waku.html" class="mt-8 font-special inline-flex items-center hover:text-gray-200 group">
+            <%- __('site.link.learn-more') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
+					<h4 class="text-2xl xl:text-4xl font-display mt-24 lg:mt-32"><%- __('site.features.messenger.feature-3.title') %></h4>
+					<p class="mt-8 text-gray-300 text-xl"><%- __('site.features.messenger.feature-3.description') %></p>
+					<a href="<%- show_lang() %>/technical/pfs.html" class="mt-8 font-special inline-flex items-center hover:text-gray-200 group">
+            <%- __('site.link.learn-more') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
 				</div>
-				<div class="col-md-6">
-					<div class="img-holder">
+				<div class="order-0 lg:order-none col-span-12 lg:col-span-6">
+					<div class="flex items-center -mt-80 justify-center">
 						<%- image_tag("/img/secure-messenger-illustration.png", {srcset: "/img/secure-messenger-illustration-2x.png 2x"}) %>
 					</div>
 				</div>
@@ -50,91 +76,100 @@
 	<!-- END-FEATURES-CHAT -->
 
 	<!-- FEATURES-WALLET -->
-	<section class="features-wallet col-black p-t-160" id="integrated-ethereum-wallet">
-		<div class="container">
-			<h2 class="m-b-100"><%- __('site.features.wallet.title') %></h2>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="inner">
-						<h4 class="m-b-25"><%- __('site.features.wallet.feature-1.title') %></h4>
-						<p><%- __('site.features.wallet.feature-1.description') %></p>
-						<a href="<%- show_lang() %>/security/" class="link-arrow link-arrow-white"><%- __('site.link.learn-more') %></a>
-					</div>
+	<section class="bg-black text-white py-20 lg:py-40" id="integrated-ethereum-wallet">
+		<div class="max-w-screen-2xl mx-auto px-8 xl:px-20">
+			<h2 class="font-display text-4xl xl:text-7xl"><%- __('site.features.wallet.title') %></h2>
+			<div class="grid lg:grid-cols-3 gap-24 mt-20 lg:mt-40">
+				<div>
+					<h4 class="text-2xl xl:text-4xl font-display"><%- __('site.features.wallet.feature-1.title') %></h4>
+					<p class="text-gray-300 text-xl mt-12"><%- __('site.features.wallet.feature-1.description') %></p>
+					<a href="<%- show_lang() %>/security/" class="inline-flex items-center mt-8 hover:text-gray-200 group">
+            <%- __('site.link.learn-more') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
 				</div>
-				<div class="col-lg-4">
-					<div class="inner">
-						<h4 class="m-b-25"><%- __('site.features.wallet.feature-2.title') %></h4>
-						<p><%- __('site.features.wallet.feature-2.description') %></p>
-					</div>
+				<div>
+					<h4 class="text-2xl xl:text-4xl font-display"><%- __('site.features.wallet.feature-2.title') %></h4>
+					<p class="text-gray-300 text-xl mt-12"><%- __('site.features.wallet.feature-2.description') %></p>
 				</div>
-				<div class="col-lg-4">
-					<div class="inner">
-						<h4 class="m-b-25"><%- __('site.features.wallet.feature-3.title') %></h4>
-						<p><%- __('site.features.wallet.feature-3.description') %></p>
-					</div>
+		
+				<div>
+					<h4 class="text-2xl xl:text-4xl font-display"><%- __('site.features.wallet.feature-3.title') %></h4>
+					<p class="text-gray-300 text-xl mt-12"><%- __('site.features.wallet.feature-3.description') %></p>
 				</div>
+		
 			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="img-holder">
-						<%- image_tag("/img/integrated-ethereum-wallet.png", {srcset: "/img/integrated-ethereum-wallet-2x.png 2x"}) %>
-					</div>
-				</div>
+			<div class="-mb-20 lg:-mb-40 mx-auto text-center flex items-center justify-center mt-40">
+				<%- image_tag("/img/integrated-ethereum-wallet.png", {srcset: "/img/integrated-ethereum-wallet-2x.png 2x"}) %>
 			</div>
 		</div>
 	</section>
 	<!-- END-FEATURES-WALLET -->
 
 	<!-- FEATURES-BROWSER -->
-	<section class="features-browser p-t-160" id="web3-browser">
-		<div class="container">
-			<h2 class="m-b-100"><%- __('site.features.browser.title') %></h2>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="inner">
-						<h4 class="m-b-25"><%- __('site.features.browser.feature-1.title') %></h4>
-						<p><%- __('site.features.browser.feature-1.description') %></p>
-						<a href="<%- show_lang() %>/get/" class="link-arrow link-arrow-black"><%- __('site.features.browser.feature-1.link') %></a>
-					</div>
+	<section class="bg-blue-gray-light py-20 lg:py-40" id="web3-browser">
+		<div class="max-w-screen-2xl mx-auto px-8 xl:px-20">
+			<h2 class="font-display text-4xl xl:text-7xl"><%- __('site.features.browser.title') %></h2>
+			<div class="grid lg:grid-cols-2 gap-24 mt-20 lg:mt-40">
+				<div>
+					<h4 class="text-2xl xl:text-4xl font-display"><%- __('site.features.browser.feature-1.title') %></h4>
+					<p class="text-gray-700 text-xl mt-12"><%- __('site.features.browser.feature-1.description') %></p>
+					<a href="<%- show_lang() %>/get/" class="inline-flex items-center mt-8 font-special font-semibold hover:text-primary-base group">
+            <%- __('site.features.browser.feature-1.link') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
 				</div>
-				<div class="col-lg-6">
-					<div class="inner">
-						<h4 class="m-b-25"><%- __('site.features.browser.feature-2.title') %></h4>
-						<p><%- __('site.features.browser.feature-2.description') %></p>
-						<a href="<%- show_lang() %>/security/" class="link-arrow link-arrow-black"><%- __('site.link.learn-more') %></a>
-					</div>
+				<div>
+					<h4 class="text-2xl xl:text-4xl font-display"><%- __('site.features.browser.feature-2.title') %></h4>
+					<p class="text-gray-700 text-xl mt-12"><%- __('site.features.browser.feature-2.description') %></p>
+					<a href="<%- show_lang() %>/security/" class="inline-flex items-center mt-8 font-special font-semibold hover:text-primary-base group">
+            <%- __('site.link.learn-more') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="img-holder">
-						<%- image_tag("/img/web3-browser-illustration.png", {srcset: "/img/web3-browser-illustration-2x.png 2x"}) %>
-					</div>
-				</div>
+			<div class="flex items-center justify-center mt-40 -mb-20 lg:-mb-40">
+				<%- image_tag("/img/web3-browser-illustration.png", {srcset: "/img/web3-browser-illustration-2x.png 2x"}) %>
 			</div>
 		</div>
 	</section>
 	<!-- END-FEATURES-BROWSER -->
 
 	<!-- FEATURES-OPEN-SOURCE -->
-	<section class="features-open-source p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h3 class="m-t-50"><%- __('site.home.about.open-source.title') %></h3>
-					<p class="teaser-2"><%- __('site.home.about.open-source.description') %></p>
-					<ul class="inline-links">
-						<li><a href="<%- show_lang() %>/docs/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
-						<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
-						<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
+	<section class="mt-24 lg:mt-64">
+		<div class="max-w-screen-2xl mx-auto px-8 xl:px-20">
+			<div class="grid lg:grid-cols-2 gap-24">
+				<div>
+					<h2 class="font-display text-4xl xl:text-6xl"><%- __('site.home.about.open-source.title') %></h2>
+					<p class="mt-16 text-gray-600 text-xl xl:text-2xl font-display font-normal leading-normal"><%- __('site.home.about.open-source.description') %></p>
+					<ul class="flex flex-col lg:flex-row text-lg font-bold lg:items-center -ml-16 mt-4">
+						<li class="ml-16 mt-12">
+              <a class="text-primary-base font-special flex items-center hover:text-primary-900" href="<%- show_lang() %>/docs/">
+                <%- image_tag("/img/developers-img.svg") %> 
+                <span class="ml-4"><%- __('site.link.developers') %></span>
+              </a>
+            </li>
+						<li class="ml-16 mt-12">
+              <a class="text-primary-base font-special flex items-center hover:text-primary-900" href="<%- show_lang() %>/get-involved/educators/">
+                <%- image_tag("/img/educators-img.svg") %> 
+                <span class="ml-4"><%- __('site.link.educators') %></span>
+              </a>
+            </li>
+						<li class="ml-16 mt-12">
+              <a class="text-primary-base font-special flex items-center hover:text-primary-900" href="<%- show_lang() %>/get-involved/community-groups/">
+                <%- image_tag("/img/community-group-img.svg") %> 
+                <span class="ml-4"><%- __('site.link.community-groups') %></span>
+              </a>
+            </li>
 					</ul>
 				</div>
-				<div class="col-md-6">
-					<div class="get-status">
-						<h3><%- __('site.features.get.title') %></h3>
-						<p class="teaser-2"><%- __('site.features.get.description') %></p>
-						<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
-					</div>
+				<div class="bg-primary-base px-8 py-20 lg:p-20 text-white -mr-8 -ml-8 lg:mx-0 lg:mb-64">
+					<h2 class="font-display text-4xl xl:text-6xl"><%- __('site.features.get.title') %></h2>
+					<p class="mt-16 text-primary-300 text-xl xl:text-2xl font-display font-normal leading-normal"><%- __('site.features.get.description') %></p>
+					<a href="<%- show_lang() %>/get/" class="group flex md:inline-flex items-center justify-between mt-16 border border-white py-3 px-6 rounded font-semibold font-special hover:bg-white hover:text-primary-base transition-all duration-200 linear">
+            <%- __('site.features.get.link') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
 				</div>
 			</div>
 		</div>

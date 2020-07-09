@@ -1,39 +1,39 @@
 <!-- The main content area -->
 <main id="main" role="main">
 
-    <div class="stripe">
-      <b>Status Documentation</b>
-      <form action="/" id="search-form" _lpchecked="1">
-        <input id="search-input" placeholder="Search documentation…">
-      </form>
-    </div>
+    <section class="bg-black text-white px-8 py-8 flex items-center justify-between">
+      <p class="text-gray-200">Status Docs</p>
+      <form id="search-form" class="flex items-center relative">
+        <span class="text-gray-500 mr-6">
+          <%- partial('partial/icons/search', {width: "w-8", height: "h-8"}) %>
+        </span>
+  	    <input type="text" name="userSearch" id="search-input" placeholder="Search documentation..." class="bg-transparent placeholder-gray-400 text-lg">
+  	    <div id="search-results" class="absolute top-0 bg-white px-4 mt-12 shadow-lg rounded z-10"></div>
+  	  </form>
+    </section>
+
   
-    <section class="single-docs-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
+    <section class="single-docs-content mt-24 mb-40">
+      <div class="mx-auto px-8 lg:px-12">
+        <div class="grid grid-cols-12 gap-12">
+          <div class="col-span-12 md:col-span-3 xl:col-span-2">
             <%- partial('partial/sidebar') %>
           </div>
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="editor-content">
-                  <%- page_anchor(page.content) %>
-                  <div class="docs-content">
-                    <div class="categories">
-                      <div id="advocacy-programs" class="cards cards--projects cards--three"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="docs-footer">
-                  Last update: <%- page.updated.format(config.date_format) %>
-                  <%- page_nav() %>
+          <div class="col-span-12 md:col-span-9 xl:col-span-10">
+            <div class="custom-article">
+              <%- page_anchor(page.content) %>
+              <div class="docs-content">
+                <div class="categories">
+                  <div id="advocacy-programs" class="grid md:grid-cols-2 lg:grid-cols-3 gap-24 cards cards--projects cards--three"></div>
                 </div>
               </div>
+            </div>
+            <div class="mt-32 border-t border-gray-200 pt-8 text-gray-500 text-center text-lg font-special">
+              Last update: <%- page.updated.format(config.date_format) %>
+              <%- page_nav() %>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
   </main>

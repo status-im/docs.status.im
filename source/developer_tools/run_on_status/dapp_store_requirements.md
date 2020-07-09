@@ -29,7 +29,7 @@ Let us briefly describe mobile-optimized user interfaces and then dive into EIP-
 
 The debut production release of Status is a mobile app for Android and iOS. As such, step one is to ensure that your front-end is optimized for mobile. These considerations will be familiar to mobile web developers. 
 
-<div class='box-remember'>
+<div class='p-12 js-box-remember'>
 <ul><li>responsive layout that adjusts to the user’s screen dimensions </li><li>observes generally-accepted best-practices for mobile browser content </li><li>optimizes images to load quickly over lower bandwidth connections</li><li>avoids interstitials and pop-ups that could block mobile users </li></ul>
 </div>
 
@@ -59,7 +59,7 @@ For a more detailed look at the rationale for EIP-1102, see the EIP repository. 
 
 Support for EIP-1102 is optional but strongly recommended. 
 
-<div class='box-remember'>
+<div class='p-12 js-box-remember'>
 <ul><li>EIP-1102 is poised to become the de facto standard method of inspecting user account information. Status and other wallet providers have indicated their intention to support it, and to phase out backward compatibility over time - a breaking change for DApps that fail to implement EIP-1102 in time.</li><li>EIP-1102 is a more intuitive user experience and a more secure solution.</li></ul>
 </div>
 

@@ -1,55 +1,73 @@
 <!-- The main content area -->
-<main id="main" role="main">
+<main id="main" role="main" class="overflow-hidden">
 
 	<!--HOME-INTRO-->
-	<section class="home-intro">
-		<div class="container">
-	        <div class="row">
-	            <div class="col-md-7 col-lg-6">
-	            	<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
-						<div class="row">
-							<div class="col-md-11">
-								<h1><%- __('site.home.intro.title') %></h1>
-								<p class="teaser-1 description-padding-right"><%- __('site.home.intro.description') %></p>
-								<div class="d-flex flex-wrap">
-									<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="m-r-20 app-download"><%- image_tag("/img/app-store.svg") %></a>
-									<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="m-r-20 app-download"><%- image_tag("/img/google-play.svg") %></a>
-									<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="app-download"><%- image_tag("/img/apk.svg") %></a>
-								</div>
-								<a href="#" target="_blank" class="announcement inactive"><span><%- __('site.home.intro.news') %></span><b></b></a>
-							</div>
-						</div>
-	            	</div>
-	            </div>
-	            <div class="col-md-4 ml-auto col-lg-6 col-black">
-					<div class="mobile"><%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %></div>
-	            </div>
-	        </div>
-	    </div>
+	<section class="pt-16 xl:pt-0">
+  		<div class="max-w-screen-2xl mx-auto lg:px-12">
+          <div class="grid md:grid-cols-2">
+  						<div class="relative px-8 md:pr-32 self-center">
+                <span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+  							<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.home.intro.title') %></h1>
+  							<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+                  <%- __('site.home.intro.description') %>
+                </p>
+  							<div class="flex items-center -ml-12 mt-12">
+  								<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+  								<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+  								<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+  							</div>
+  							<a href="#" target="_blank" class="group js-announcement inactive mt-32 font-special font-light text-lg text-gray-600 hover:text-primary-base hidden md:flex items-center">
+                  <span class="mr-4 bg-black uppercase tracking-wide font-special text-white text-base rounded p-2 leading-none"><%- __('site.home.intro.news') %></span>
+                  <b></b>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                </a>
+  						</div>
+              <div class="bg-black relative mt-48 md:mt-0">
+                <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+  				      <div class="md:-ml-32 -mt-32 md:mt-0 mx-auto flex justify-center items-center md:block md:pt-20">
+                  <%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %>
+                </div>
+              </div>
+          </div>
+      </div>
 	</section>
 	<!--END-HOME-INTRO-->
 
 	<!--HOME-ABOUT-->
-	<section class="home-about p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="inner">
-						<h3><%- __('site.home.about.open-source.title') %></h3>
-						<p class="teaser-2 description-padding-right"><%- __('site.home.about.open-source.description') %></p>
-						<ul class="inline-links">
-							<li><a href="<%- show_lang() %>/technical/"><%- image_tag("/img/developers-img.svg") %> <%- __('site.link.developers') %></a></li>
-							<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educators-img.svg") %> <%- __('site.link.educators') %></a></li>
-							<li><a href="<%- show_lang() %>/get-involved/community-groups/"><%- image_tag("/img/community-group-img.svg") %> <%- __('site.link.community-groups') %></a></li>
-						</ul>
-					</div>
+	<section class="mt-20 lg:mt-64">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div>
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.open-source.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.open-source.description') %></p>
+					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
+						<li class="mt-12 ml-12">
+              <a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base font-semibold font-special">
+                <%- image_tag("/img/developers-img.svg") %> 
+                <span class="ml-4"><%- __('site.link.developers') %></span>
+              </a>
+            </li>
+						<li class="mt-12 ml-12">
+              <a href="<%- show_lang() %>/get-involved/educators/" class="inline-flex items-center text-primary-base font-semibold font-special">
+                <%- image_tag("/img/educators-img.svg") %> 
+                <span class="ml-4"><%- __('site.link.educators') %></span>
+              </a>
+            </li>
+						<li class="mt-12 ml-12">
+              <a href="<%- show_lang() %>/get-involved/community-groups/" class="inline-flex items-center text-primary-base font-semibold font-special">
+                <%- image_tag("/img/community-group-img.svg") %> 
+                <span class="ml-4"><%- __('site.link.community-groups') %></span>
+              </a>
+            </li>
+					</ul>
 				</div>
-				<div class="col-md-6">
-					<div class="inner">
-						<h3><%- __('site.home.about.mission.title') %></h3>
-						<p class="teaser-2"><%- __('site.home.about.mission.description') %></p>
-						<a href="<%- show_lang() %>/about/" class="link-arrow"><%- __('site.link.learn-more') %></a>
-					</div>
+				<div>
+					<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.mission.description') %></p>
+					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
+            <%- __('site.link.learn-more') %>
+            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+          </a>
 				</div>
 			</div>
 		</div>
@@ -58,32 +76,40 @@
 
 	<!--HOME-DECENTRALIZED-PRIVATE-->
 	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-grey home-decentralized">
-					<div class="inner d-flex align-items-start flex-column h-100">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 mt-20 lg:mt-64">
+			<div class="grid md:grid-cols-2">
+				<div class="bg-blue-gray-light relative">
+          <span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
+					<div class="h-full px-8 py-32 md:p-32">
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
 								<%- image_tag("/img/decentralized-illustration.png", { srcset: '/img/decentralized-illustration-2x.png 2x'}) %>
-								<p class="teaser-2"><%- __('site.home.decentralized.subtitle') %></p>
-								<h3><%- __('site.home.decentralized.title') %></h3>
-								<p class="p-large"><%- __('site.home.decentralized.description') %></p>
-								<a href="<%- show_lang() %>/features/" class="btn btn-arrow"><%- __('site.home.decentralized.link') %></a>
+								<p class="text-xl text-gray-700 mt-12"><%- __('site.home.decentralized.subtitle') %></p>
+								<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.decentralized.title') %></h3>
+								<p class="text-xl mt-4"><%- __('site.home.decentralized.description') %></p>
+								<a href="<%- show_lang() %>/features/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+                  <%- __('site.home.decentralized.link') %>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                </a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-black col-offset-top home-private">
-					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
-						<div class="row">
-							<div class="col-lg-11 d-flex align-items-start flex-column">
-								<p class="teaser-2"><%- __('site.home.private.subtitle') %></p>
-								<h3><%- __('site.home.private.title') %></h3>
-								<p class="p-large"><%- __('site.home.private.description') %></p>
-								<a href="<%- show_lang() %>/features/#secure-messenger" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
-								<%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
-							</div>
-						</div>
+				<div class="bg-black relative md:-mt-16">
+          <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
+            <div class="flex-1 order-2 md:order-none">
+  						<p class="text-xl text-gray-300"><%- __('site.home.private.subtitle') %></p>
+  						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.private.title') %></h3>
+  						<p class="text-xl mt-4 text-gray-300"><%- __('site.home.private.description') %></p>
+              <a href="<%- show_lang() %>/features/#secure-messenger" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+                <%- __('site.link.learn-more') %>
+                <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+              </a>
+            </div>
+            <div class="mt-20 order-1 md:order-none mb-12 md:mb-0">
+              <%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
+            </div>
 					</div>
 				</div>
 			</div>
@@ -93,30 +119,36 @@
 
 	<!--HOME-WALLET-BROWSER-->
 	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-black col-offset-bottom home-wallet">
-					<div class="inner d-flex align-items-start flex-column justify-content-center h-100">
-						<div class="row">
-							<div class="col-md-11 col-lg-10">
-								<p class="teaser-2"><%- __('site.home.wallet.subtitle') %></p>
-								<h3><%- __('site.home.wallet.title') %></h3>
-								<p class="p-large"><%- __('site.home.wallet.description') %></p>
-								<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="btn btn-white btn-arrow btn-arrow-white"><%- __('site.link.learn-more') %></a>
-								<div class="img-holder">
-									<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x'}) %>
-								</div>
-							</div>
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
+          <span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
+					<div class="h-full px-8 md:p-32 text-white flex flex-col space-between">
+						<div class="flex-1 mt-32">
+              <p class="text-xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
+  						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.wallet.title') %></h3>
+  						<p class="text-xl text-gray-300 mt-4"><%- __('site.home.wallet.description') %></p>
+  						<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+                <%- __('site.link.learn-more') %>
+                <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+              </a>
+            </div>
+						<div class="mt-12 md:-mb-32">
+							<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x', class: 'mx-auto'}) %>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-grey home-browser">
-					<div class="inner d-flex align-items-start flex-column h-100">
+				<div class="bg-blue-gray-light relative order-1 md:order-none">
+          <span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="h-full px-8 py-32 md:p-32">
 						<%- image_tag("/img/browser-illustration.png", {srcset: "/img/browser-illustration-2x.png 2x"}) %>
-						<p class="teaser-2"><%- __('site.home.browser.subtitle') %></p>
-						<h3><%- __('site.home.browser.title') %></h3>
-						<p class="p-large"><%- __('site.home.browser.description') %></p>
-						<a href="<%- show_lang() %>/features/#web3-browser" class="btn btn-arrow"><%- __('site.link.learn-more') %></a>
+						<p class="text-xl text-gray-700 mt-12"><%- __('site.home.browser.subtitle') %></p>
+						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.browser.title') %></h3>
+						<p class="text-xl text-gray-700"><%- __('site.home.browser.description') %></p>
+						<a href="<%- show_lang() %>/features/#web3-browser" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+              <%- __('site.link.learn-more') %>
+              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+            </a>
 					</div>
 				</div>
 			</div>
@@ -125,22 +157,34 @@
 	<!--END-HOME-WALLET-BROWSER-->
 
 	<!--HOME-SECURITY-->
-	<section class="home-security p-t-160 p-b-160 m-t-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="inner inner-security">
-						<h3><%- image_tag("/img/lock-small.svg") %><%- __('site.home.security.title') %></h3>
-						<p class="teaser-2 description-padding-right"><%- __('site.home.security.description') %></p>
-						<a href="<%- show_lang() %>/security/" class="link-arrow"><%- __('site.link.learn-more') %></a>
-					</div>
+	<section class="mt-20 lg:mt-64 pb-20 lg:pb-64">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div>
+					
+						<h3 class="font-display text-4xl xl:text-6xl inline-flex items-center">
+              <%- image_tag("/img/lock-small.svg") %>
+              <span class="ml-8"><%- __('site.home.security.title') %></span>
+            </h3>
+						<p class="max-w-6xl text-gray-600 mt-12 text-xl xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
+						<a href="<%- show_lang() %>/security/" class="group inline-flex items-center text-primary-base font-semibold font-special mt-12">
+              <%- __('site.link.learn-more') %>
+              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+            </a>
+					
 				</div>
-				<div class="col-md-6">
-					<div class="inner inner-status-network">
-						<h3><%- image_tag("/img/status-network-small.svg") %><%- __('site.home.status-network.title') %></h3>
-						<p class="teaser-2"><%- __('site.home.status-network.description') %></p>
-						<a href="https://statusnetwork.com/" target="_blank" class="link-arrow"><%- __('site.home.status-network.link') %></a>
-					</div>
+				<div>
+					
+						<h3 class="font-display text-4xl xl:text-6xl inline-flex items-center">
+              <%- image_tag("/img/status-network-small.svg") %>
+              <span class="ml-8"><%- __('site.home.status-network.title') %></span>
+            </h3>
+						<p class="max-w-6xl text-gray-600 mt-12 text-xl xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.status-network.description') %></p>
+            <a href="https://statusnetwork.com/" target="_blank" class="group inline-flex items-center text-primary-base font-semibold font-special mt-12">
+              <%- __('site.home.status-network.link') %>
+              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+            </a>
+					
 				</div>
 			</div>
 		</div>

@@ -2,77 +2,97 @@
 <main id="main" role="main">
 
 	<!-- COMMUNITY-OPEN-SOURCE -->
-	<section class="get-involved-intro p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h4><%- __('site.get-involved.community.intro.subtitle') %></h4>
-					<h1 class="community-nav-trigger"><%- __('site.get-involved.community.intro.title') %></h1>
-					<p class="teaser-1"><%- __('site.get-involved.community.intro.description') %> </p>
-					<p><a href="#groups" class="link-arrow"><%- __('site.get-involved.community.intro.link-1') %></a></p>
-					<p><a href="mailto:contribute@status.im" class="link-arrow"><%- __('site.get-involved.community.intro.link-2') %></a></p>
-					<div class="open-source-illustration-horz"><%- image_tag("/img/open-source-illustration-horz.svg") %></div>
+	<section class="pt-16 xl:pt-64">
+    <span class="absolute right-0 top-0 -z-1 bg-cover bg-top-right hidden lg:block" style="background-image: url(/img/open-source-illustration.svg); width: 508px; height: 662px;"></span>
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<div class="grid grid-cols-12">
+			  <div class="col-span-12 lg:col-span-7">
+					<h4 class="text-4xl text-gray-500"><%- __('site.get-involved.community.intro.subtitle') %></h4>
+					<h1 class="js-community-nav-trigger cursor-pointer xl:cursor-auto mt-4 lg:mt-0 lg:bg-transparent lg:p-0 bg-gray-100 p-8 inline-flex items-center rounded leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl">
+            <%- __('site.get-involved.community.intro.title') %>
+            <span class="ml-12 lg:hidden group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-down', {width: 'w-8', height: 'h-8'}) %></span>
+          </h1>
+					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.community.intro.description') %> </p>
+					<p class="mt-20">
+            <a href="#groups" class="group inline-flex items-center text-primary-base font-special font-semibold hover:text-primary-900">
+              <%- __('site.get-involved.community.intro.link-1') %>
+              <span class="ml-8 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+            </a>
+          </p>
+					<p class="mt-8">
+            <a href="mailto:contribute@status.im" class="group inline-flex items-center text-primary-base font-special font-semibold hover:text-primary-900">
+              <%- __('site.get-involved.community.intro.link-2') %>
+              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+            </a>
+          </p>
+					<div class="block lg:hidden w-full mt-20 -ml-8 "><img src="/img/open-source-illustration-horz.svg" class="block w-full" /></div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- END-COMMUNITY-OPEN-SOURCE -->
 
-	<div class="position-relative">
+	<div class="relative mt-20 lg:mt-64 h-40">
 		<!-- DEVELOPMENT-QUICK-NAV -->
-		<section class="quick-nav">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<ul>
-							<li><a href="<%- show_lang() %>/get-involved/educators/"><%- image_tag("/img/educate-small-icon.svg") %><%- __('site.link.educators') %></a></li>
-							<li><a href="<%- show_lang() %>/get-involved/community-groups/" class="active"><%- image_tag("/img/community-groups-small-icon.svg") %><%- __('site.link.community-groups') %></a></li>
-						</ul>
-					</div>
-				</div>
+		<section class="js-quick-nav w-full left-0 top-0 absolute z-10 hidden lg:block bg-black text-white">
+			<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+        <ul class="flex items-center text-2xl">
+    			<li>
+            <a href="<%- show_lang() %>/get-involved/educators/"  class="p-8 hover:bg-gray-500 flex items-center">
+              <%- image_tag("/img/educate-small-icon.svg") %>
+              <span class="ml-6"><%- __('site.link.educators') %></span>
+            </a>
+          </li>
+  				<li>
+            <a href="<%- show_lang() %>/get-involved/community-groups/" class="p-8 hover:bg-gray-500 flex items-center bg-gray-500">
+              <%- image_tag("/img/community-groups-small-icon.svg") %>
+              <span class="ml-6"><%- __('site.link.community-groups') %></span>
+            </a>
+          </li>
+        </ul>
 			</div>
 		</section>
 		<!-- END-DEVELOPMENT-QUICK-NAV -->
 	</div>
 
 	<!-- BLOCK-ACCOUNT-CREATION -->
-	<section class="block-account-creation p-t-160 p-b-160" id="groups">
-		<div class="container">
-			<div class="row">
+	<section class="py-20 lg:py-64" id="groups">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-12">
 				<% for (let community of site.data.communities) { %>
-					<div class="col-lg-6 col-xl-4">
-						<div class="account-creation">
-							<%- image_tag("/img/" + community.image) %>
-							<a href="https://join.status.im/<%= community.publicChat %>" target="_blank">#<%- community.publicChat %></a>
-							<p><%- __(community.description) %></p>
-							<div class="meta">
-								<span class="occupation"><%- __(community.occupation) %></span>
-								<% if (community.name.startsWith('site')) { %>
-									<span class="name"><%- __(community.name) %></span>
-								<% } else { %>
-									<span class="name"><%- community.name %></span>
-								<% } %>
-							</div>
+					<a href="https://join.status.im/<%= community.publicChat %>" target="_blank" class="block bg-blue-gray-light p-8 lg:p-12 flex flex-col justify-center items-center text-center">
+						<%- image_tag("/img/" + community.image) %>
+						<h5 class="font-special font-semibold text-primary-base mt-12">#<%- community.publicChat %></h5>
+						<p class="text-gray-500 mt-8 text-xl"><%- __(community.description) %></p>
+						<div class="flex items-center mt-12">
+							<span class="mr-8 text-gray-500"><%- __(community.occupation) %></span>
+							<% if (community.name.startsWith('site')) { %>
+								<span class="name"><%- __(community.name) %></span>
+							<% } else { %>
+								<span class="name"><%- community.name %></span>
+							<% } %>
 						</div>				
-					</div>
+					</a>
 				<% } %>
 			</div>
 		</div>
 	</section>
 	<!-- END-BLOCK-ACCOUNT-CREATION -->
 
-	<div class="community-nav">
-		<a href="#" class="community-nav-trigger-close">
-			<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909"></rect> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909"></rect> </svg>
-		</a>
-		<nav>
-			<ul>
-				<li><a href="<%- show_lang() %>/get-involved/developers/"><%- __('site.link.developers') %></a></li>
-				<li><a href="<%- show_lang() %>/get-involved/educators/"><%- __('site.link.educators') %></a></li>
-				<li><a href="<%- show_lang() %>/get-involved/community-groups/" class="active"><%- __('site.link.community-groups') %></a></li>
-			</ul>
-		</nav>
+	<div class="fixed xl:hidden xl:p-0 z-40 xl:ml-0 w-full top-0 left-0 transform mt-8 scale-95 p-8 pointer-events-none opacity-0 xl:visible xl:opacity-100 xl:pointer-events-auto xl:static xl:transform-none invisible js-community-nav transition-all duration-200 linear">
+    <div class="bg-white rounded shadow-lg p-8 xl:p-0 overflow-auto xl:bg-transparent xl:shadow-none mt-32 relative">
+  		<a href="#" class="js-community-nav-trigger-close absolute top-0 right-0 p-8">
+  			<svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="1.5752" y="0.368273" width="22" height="1" rx="0.5" transform="rotate(45 1.5752 0.368273)" fill="#090909"></rect> <rect x="0.868164" y="15.9246" width="22" height="1" rx="0.5" transform="rotate(-45 0.868164 15.9246)" fill="#090909"></rect> </svg>
+  		</a>
+  		<nav>
+  			<ul>
+  				<li class="hover:text-primary-base py-4 xl:px-12 xl:py-16"><a href="<%- show_lang() %>/get-involved/developers/"><%- __('site.link.developers') %></a></li>
+  				<li class="hover:text-primary-base py-4 border-t border-gray-100 xl:border-t-0 xl:px-12 xl:py-16"><a href="<%- show_lang() %>/get-involved/educators/"><%- __('site.link.educators') %></a></li>
+  				<li class="hover:text-primary-base pt-4 border-t border-gray-100 xl:border-t-0 xl:px-12 xl:py-16 text-primary-base"><a href="<%- show_lang() %>/get-involved/community-groups/"><%- __('site.link.community-groups') %></a></li>
+  			</ul>
+      </nav>
+    </div>
 	</div>
-	<div class="backdrop-community-nav"></div>
+	<div class="js-backdrop-community-nav bg-black bg-opacity-25 h-screen fixed w-screen top-0 left-0 z-10 pointer-events-none invisible opacity-0 transition-all duration-200 linear"></div>
 
 </main>

@@ -1,176 +1,145 @@
 <!-- The main content area -->
 
 <main id="main" role="main">
-	<section class="docs-intro p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7">
-					<h1><%- __('site.docs.stripe.title') %></h1>
-					<p class="teaser-1"><%- __('site.docs.index.intro.teaser-1') %></p>
-					<div class="open-source-illustration-horz"><%- image_tag("/img/developer_portal_artwork.svg") %></div>
+	<section class="pt-24 xl:pt-64">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<div class="grid grid-cols-12">
+				<div class="col-span-12 lg:col-span-7">
+					<h1 class="font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.docs.stripe.title') %></h1>
+					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.docs.index.intro.teaser-1') %></p>
+					<div class="absolute top-0 right-0 hidden -z-1 w-64 lg:w-auto md:block opacity-50 lg:opacity-100"><%- image_tag("/img/developer_portal_artwork.svg") %></div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="single-docs-content">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 col-xl-2">
+	<section class="single-docs-content mt-20 lg:mt-64">
+    <div class="mx-auto px-8 lg:px-12">
+      <div class="grid grid-cols-12 gap-12">
+        <div class="col-span-12 md:col-span-3 xl:col-span-2">
           <%- partial('partial/sidebar') %>
         </div>
-        <div class="col-md-9 col-xl-10">
-        	<section class="docs-box-links">
-	        	<div class="container large-tiles-wrapper docs-container">
-							<div class="row">
-								<div class="col-xl-4 box-link-wrapper">
-									<div class="box-link">
-										<a href="<%- show_lang() %>/technical/"><h3 class="title hover-white"><%- __('site.docs.index.box-link-1.title') %></h3></a>
-										<p><%- __('site.docs.index.box-link-1.text') %></p>
-										<a href="<%- show_lang() %>/technical/" class="link-arrow link-arrow-black hover-white"><%- __('site.docs.index.box-link-1.cta') %></a>
-									</div>
-								</div>
-								<div class="col-xl-4 box-link-wrapper">
-									<div class="box-link">
-										<a href="<%- show_lang() %>/developer_tools/"><h3 class="title hover-white"><%- __('site.docs.index.box-link-2.title') %></h3></a>
-										<p><%- __('site.docs.index.box-link-2.text') %></p>
-										<a href="<%- show_lang() %>/developer_tools/" class="link-arrow link-arrow-black hover-white"><%- __('site.docs.index.box-link-2.cta') %></a>
-									</div>
-								</div>
-								<div class="col-xl-4 box-link-wrapper">
-									<div class="box-link">
-										<a href="https://tutorials.statusnetwork.com/"><h3 class="title hover-white"><%- __('site.docs.index.box-link-3.title') %></h3></a>
-										<p><%- __('site.docs.index.box-link-3.text') %></p>
-										<a href="https://tutorials.statusnetwork.com/" class="link-arrow link-arrow-black hover-white"><%- __('site.docs.index.box-link-3.cta') %></a>
-									</div>
-								</div>
-							</div>
+        <div class="col-span-12 md:col-span-9 xl:col-span-10">
+        	<section class="docs-box-links max-w-screen-2xl mx-auto">
+	        	
+						<div class="grid xl:grid-cols-3 gap-12">
+							<a href="<%- show_lang() %>/technical/" class="bg-primary-500 group p-12 hover:bg-primary-base cursor-pointer transition-bg duration-200 linear">
+								<h3 class="text-white text-2xl mb-16"><%- __('site.docs.index.box-link-1.title') %></h3>
+								<p><%- __('site.docs.index.box-link-1.text') %></p>
+								<span class="font-special font-semibold mt-12 hover:text-white inline-flex items-center">
+                  <%- __('site.docs.index.box-link-1.cta') %>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                </span>
+              </a>
+							<a href="<%- show_lang() %>/developer_tools/" class="bg-primary-500 group p-12 hover:bg-primary-base cursor-pointer transition-bg duration-200 linear">
+								<h3 class="text-white text-2xl mb-16"><%- __('site.docs.index.box-link-2.title') %></h3>
+								<p><%- __('site.docs.index.box-link-2.text') %></p>
+								<span class="font-special font-semibold mt-12 hover:text-white inline-flex items-center">
+                  <%- __('site.docs.index.box-link-2.cta') %>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                </span>
+              </a>
+							<a href="https://tutorials.statusnetwork.com/" class="bg-primary-500 group p-12 hover:bg-primary-base cursor-pointer transition-bg duration-200 linear">
+								<h3 class="text-white text-2xl mb-16"><%- __('site.docs.index.box-link-3.title') %></h3>
+								<p><%- __('site.docs.index.box-link-3.text') %></p>
+								<span class="font-special font-semibold mt-12 hover:text-white inline-flex items-center">
+                  <%- __('site.docs.index.box-link-3.cta') %>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                </span>
+              </a>
 						</div>
 					</section>
 
-					<div class="border-line">
-						<div class="divide-circle"><%- image_tag("/img/circle.svg") %></div>
-						<div id="black-line" stlye="float: left;"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
+					<div class="flex items-center mt-40">
+						<div class="flex-shrink-0" style="margin-right: -1px;"><%- image_tag("/img/circle.svg") %></div>
+						<div class="block w-full"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
 					</div>
 					
-					<div class="container padding-responsive-build-with-status">
-						<div class="row">
-							<div class="col-md-12">
-								<h4 class="section-title m-t-90"><%- __('site.docs.dev-tools.title') %></h4>
-							</div>
-							<div class="col-md-12">
-								<div class="dev-tools">
-									<div class="row">
-										<div class="col-lg-3 col-md-6 col-sm-6">
-											<div class="products">
-												<div class="inner-img">
-													<a href="https://keycard.tech/docs/" target="_blank">
-														<div class="bg"><%- image_tag("/img/bg-keycard.svg") %></div>
-														<div class="inner">
-															<div class="product-logo"><%- image_tag("/img/logo-home-keycard.svg") %></div>
-															<span><%- __('site.docs.dev-tools.keycard.subtitle') %></span>
-														</div>
-													</a>
-												</div>
-												<div class="description"><%- __('site.docs.dev-tools.keycard.description') %></div>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-6 col-sm-6">
-											<div class="products">
-												<div class="inner-img">
-													<a href="https://framework.embarklabs.io/docs/" target="_blank">
-														<div class="bg"><%- image_tag("/img/bg-embark.png") %></div>
-														<div class="inner">
-															<div class="product-logo"><%- image_tag("/img/logo-home-embark.svg") %></div>
-															<span><%- __('site.docs.dev-tools.embark.subtitle') %></span>
-														</div>
-													</a>
-												</div>
-												<div class="description"><%- __('site.docs.dev-tools.embark.description') %></div>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-6 col-sm-6">
-											<div class="products">
-												<div class="inner-img">
-													<a href="https://nimbus.team/docs/" target="_blank">
-														<div class="bg"><%- image_tag("/img/bg-nimbus.svg") %></div>
-														<div class="inner">
-															<div class="product-logo"><%- image_tag("/img/logo-home-nimbus.svg") %></div>
-															<span><%- __('site.docs.dev-tools.nimbus.subtitle') %></span>
-														</div>
-													</a>
-												</div>
-												<div class="description"><%- __('site.docs.dev-tools.nimbus.description') %></div>
-											</div>
-										</div>
-										<div class="col-lg-3 col-md-6 col-sm-6">
-											<div class="products">
-												<div class="inner-img">
-													<a href="https://vac.dev/research-log/" target="_blank">
-														<div class="bg"><%- image_tag("/img/bg-vac.svg") %></div>
-														<div class="inner">
-															<div class="product-logo"><%- image_tag("/img/logo-home-vac.svg") %></div>
-															<span><%- __('site.docs.dev-tools.vac.subtitle') %></span>
-														</div>
-													</a>
-												</div>
-												<div class="description"><%- __('site.docs.dev-tools.vac.description') %></div>
-											</div>
-										</div>
+					<div class="max-w-screen-2xl mx-auto px-8 md:px-0 mt-40">
+						<h3 class="font-display text-4xl xl:text-5xl mt-20 mb-12"><%- __('site.docs.dev-tools.title') %></h3>
+						<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
+							<div>
+								<a href="https://keycard.tech/docs/" target="_blank" class="group block relative overflow-hidden">
+									<img src="/img/bg-keycard.svg" class="block w-full" />
+									<div class="absolute bottom-0 left-0 w-full mb-8 px-8">
+										<div class="w-1/2"><%- image_tag("/img/logo-home-keycard.svg") %></div>
+										<span class="text-2xl transition-all duration-200 ease-linear group-hover:max-h-150px group-hover:overflow-visible max-h-0 overflow-hidden block w-full mt-8 text-white"><%- __('site.docs.dev-tools.keycard.subtitle') %></span>
 									</div>
-								</div>
+								</a>
+								<div class="mt-8 text-gray-700"><%- __('site.docs.dev-tools.keycard.description') %></div>
 							</div>
-						</div>
-					</div>
-
-					<div class="border-line">
-						<div class="divide-circle"><%- image_tag("/img/circle.svg") %></div>
-						<div id="black-line" stlye="float: left;"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
-					</div>
-
-					<div class="container padding-responsive-pinned-repo">
-						<div class="row">
-							<div class="col-md-12">
-								<h4 class="section-title m-t-90"><%- __('site.docs.pinned-repositories.title') %></h4>
-							</div>
-							<div class="col-md-12">
-								<div class="pinned-repos">
-									<div class="row">
-										<div class="col-xl-4 col-md-6">
-											<div class="inner repo-card">
-												<a href="https://github.com/status-im/status-react" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.pinned-repositories.status-react.title') %></a>
-												<div class="detail"><%- __('site.docs.pinned-repositories.status-react.description') %></div>
-											</div>
-										</div>
-										<div class="col-xl-4 col-md-6">
-											<div class="inner repo-card">
-												<a href="https://github.com/status-im/status-go" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.pinned-repositories.status-go.title') %></a>
-												<div class="detail"><%- __('site.docs.pinned-repositories.status-go.description') %></div>
-											</div>
-										</div>
-										<div class="col-xl-4 col-md-6">
-											<div class="inner repo-card">
-												<a href="https://specs.status.im/" target="_blank"><%- image_tag("img/icon-github.svg") %> <%- __('site.docs.pinned-repositories.specs.title') %></a>
-												<div class="detail"><%- __('site.docs.pinned-repositories.specs.description') %></div>
-											</div>
-										</div>
+							<div>
+								<a href="https://framework.embarklabs.io/docs/" target="_blank" class="group group block relative overflow-hidden">
+                  <img src="/img/bg-embark.png" class="block w-full" />
+									<div class="absolute bottom-0 left-0 w-full mb-8 px-8">
+										<div class="w-1/2"><%- image_tag("/img/logo-home-embark.svg") %></div>
+										<span class="text-2xl transition-all duration-200 ease-linear group-hover:max-h-150px group-hover:overflow-visible max-h-0 overflow-hidden block w-full mt-8 text-white"><%- __('site.docs.dev-tools.embark.subtitle') %></span>
 									</div>
-								</div>
+								</a>
+								<div class="mt-8 text-gray-700"><%- __('site.docs.dev-tools.embark.description') %></div>
+							</div>
+							<div>
+								<a href="https://nimbus.team/docs/" target="_blank" class="group block relative overflow-hidden">
+                  <img src="/img/bg-nimbus.svg" class="block w-full" />
+									<div class="absolute bottom-0 left-0 w-full mb-8 px-8">
+										<div class="w-1/2"><%- image_tag("/img/logo-home-nimbus.svg") %></div>
+										<span class="text-2xl transition-all duration-200 ease-linear group-hover:max-h-150px group-hover:overflow-visible max-h-0 overflow-hidden block w-full mt-8 text-white"><%- __('site.docs.dev-tools.nimbus.subtitle') %></span>
+									</div>
+								</a>
+								<div class="mt-8 text-gray-700"><%- __('site.docs.dev-tools.nimbus.description') %></div>
+							</div>
+							<div>
+								<a href="https://vac.dev/research-log/" target="_blank" class="group block relative overflow-hidden">
+                  <img src="/img/bg-vac.svg" class="block w-full" />
+									<div class="absolute bottom-0 left-0 w-full mb-8 px-8">
+										<div class="w-1/2"><%- image_tag("/img/logo-home-vac.svg") %></div>
+										<span class="text-2xl transition-all duration-200 ease-linear group-hover:max-h-150px group-hover:overflow-visible max-h-0 overflow-hidden block w-full mt-8 text-white"><%- __('site.docs.dev-tools.vac.subtitle') %></span>
+									</div>
+								</a>
+								<div class="mt-8 text-gray-700"><%- __('site.docs.dev-tools.vac.description') %></div>
 							</div>
 						</div>
 					</div>
 
-					<div class="border-line">
-						<div class="divide-circle"><%- image_tag("/img/circle.svg") %></div>
-						<div id="black-line" stlye="float: left; position: abso"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
+					<div class="flex items-center mt-40">
+					  <div class="flex-shrink-0" style="margin-right: -1px;"><%- image_tag("/img/circle.svg") %></div>
+					  <div id="black-line" class="block w-full"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
 					</div>
 
-					<div class="container padding-bottom-40">
-						<div class="row">
-							<div class="col-md-12">
-								<h4 class="section-title m-t-90"><%- __('site.docs.support') %></h4>
+					<div class="max-w-screen-2xl mx-auto px-8 md:px-0 mt-40">
+						<h3 class="font-display text-4xl xl:text-5xl mt-20 mb-12"><%- __('site.docs.pinned-repositories.title') %></h3>
+						<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+							<div>
+                <a href="https://github.com/status-im/status-react" target="_blank" class="inline-flex items-center">
+                  <%- image_tag("img/icon-github.svg") %>
+                  <span class="text-primary-base ml-4"><%- __('site.docs.pinned-repositories.status-react.title') %></span>
+                </a>
+								<div class="mt-4 text-gray-600"><%- __('site.docs.pinned-repositories.status-react.description') %></div>
+							</div>
+							<div>
+                <a href="https://github.com/status-im/status-go" target="_blank" class="inline-flex items-center">
+                  <%- image_tag("img/icon-github.svg") %> 
+                  <span class="text-primary-base ml-4"><%- __('site.docs.pinned-repositories.status-go.title') %></span>
+                </a>
+								<div class="mt-4 text-gray-600"><%- __('site.docs.pinned-repositories.status-go.description') %></div>
+							</div>
+							<div>
+                <a href="https://specs.status.im/" target="_blank" class="inline-flex items-center">
+                  <%- image_tag("img/icon-github.svg") %> 
+                  <span class="text-primary-base ml-4"><%- __('site.docs.pinned-repositories.specs.title') %></span>
+                </a>
+								<div class="mt-4 text-gray-600"><%- __('site.docs.pinned-repositories.specs.description') %></div>
 							</div>
 						</div>
+					</div>
+
+					<div class="flex items-center mt-40">
+					  <div class="flex-shrink-0" style="margin-right: -1px;"><%- image_tag("/img/circle.svg") %></div>
+					  <div id="black-line" class="w-full block"><%- image_tag("/img/line.svg", {style: 'width:100%'}) %></div>
+					</div>
+
+					<div class="max-w-screen-2xl mx-auto px-8 md:px-0 py-40">
+					  <h3 class="font-display text-3xl xl:text-4xl custom-article"><%- __('site.docs.support') %></h3>
 					</div>
 
 				</div>

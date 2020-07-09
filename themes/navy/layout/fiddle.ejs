@@ -1,32 +1,29 @@
 <!-- The main content area -->
 <main id="main" role="main">
 
-  <div class="stripe">
-    <b>Status Documentation</b>
-    <form action="/" id="search-form" _lpchecked="1">
-      <input id="search-input" placeholder="Search documentation…">
+  <section class="bg-black text-white px-8 py-8 flex items-center justify-between">
+    <p class="text-gray-200">Status Docs</p>
+    <form action="/" id="search-form" _lpchecked="1" class="flex items-center">
+      <span class="text-gray-500 mr-6">
+        <%- partial('partial/icons/search', {width: "w-8", height: "h-8"}) %>
+      </span>
+      <input id="search-input" placeholder="Search documentation…" class="bg-transparent placeholder-gray-400 text-lg">
     </form>
-  </div>
+  </section>
 
-  <section class="single-docs-content">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="editor-content">
-                <%- page_anchor(page.content) %>
-                <div class="fiddle">
-                  <div id="app"></div>
-                </div>
-              </div>
-              <div class="docs-footer">
-                Last update: <%- page.updated.format(config.date_format) %>
-                <%- page_nav() %>
-              </div>
-            </div>
-          </div>
+  <section class="single-docs-content pb-20 lg:pb-64">
+    <div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+      <div class="custom-article">
+        <%- page_anchor(page.content) %>
+        <div class="fiddle">
+          <div id="app"></div>
         </div>
+      </div>
+      <div class="border-t border-gray-100 pt-8 mt-24 text-gray-500 text-center font-special">
+        <span class="text-lg">
+          Last update: <%- page.updated.format(config.date_format) %>
+        </span>
+        <%- page_nav() %>
       </div>
     </div>
   </section>

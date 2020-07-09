@@ -18,6 +18,8 @@ const genqr = require('./scripts/gen-qr');
 const gitBranch = require('./scripts/git-branch');
 const updateBuilds = require('./scripts/update-builds');
 
+const postcss = require('gulp-postcss');
+
 var config = {
     paths: {
         src: {
@@ -87,8 +89,12 @@ gulp.task('genqr', () => {
 })
 
 gulp.task('sass', () => {
-    return gulp.src("./themes/navy/source/scss/main.scss")
+    return gulp.src("./themes/navy/source/scss/application.scss")
         .pipe(sass())
+        .pipe(postcss([
+          require('tailwindcss'),
+          require('autoprefixer')
+        ]))
         .on('error', log)
         .pipe(gulp.dest(config.paths.dist.css))
         .pipe(browserSync.stream())

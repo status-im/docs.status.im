@@ -31,17 +31,17 @@ hexo.extend.helper.register('join_status_chat', function() {
 
 hexo.extend.helper.register('employees', function(type) {
   var employees = this.site.data.employees,
-    result = '';
+    result = '';  
   _.each(employees['employees'], function(employee, index) {
-    result += '<li class="contributor col-md-1"> \
-      <a href="#" class="contributor-trigger"><img src="'+ employee['photoUrl'] +'"></a> \
-      <div class="contributor-info">\
-        <img src="'+ employee['photoUrl'] +'"> \
-        <b>'+ employee['displayName'] +'</b> \
-        <span>'+ employee['jobTitle'] +'</span> \
-        <ul>\
+    result += '<li class="relative group ml-8 mt-12 w-32 h-32"> \
+      <a href="#"><img src="'+ employee['photoUrl'] +'" class="rounded-full w-24 h-24"></a> \
+      <div class="transition-all duration-200 linear hover:z-10 flex group-hover:opacity-100 group-hover:visible absolute opacity-0 invisible -mt-24 rounded w-64 bg-white z-20 shadow p-8 flex flex-col items-center text-center w-24 h-24" style="width: 190px; height: 240px; top: 40px; left:-65px;">\
+        <img src="'+ employee['photoUrl'] +'" class="rounded-full w-24 h-24"> \
+        <p class="mt-4 font-semibold font-special text-lg">'+ employee['displayName'] +'</p> \
+        <p class="mt-2 text-gray-400 font-special text-lg">'+ employee['jobTitle'] +'</p> \
+        <ul class="flex items-center mt-8">\
           <li><a href="https://join.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
-          <li><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
+          <li class="ml-6"><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
         </ul>\
       </div>\
     </li>'
@@ -55,14 +55,14 @@ hexo.extend.helper.register('contributors', function(type) {
     result = '';
 
   _.each(contributors['result'], function(contributor, index) {
-    result += '<li class="contributor col-md-1"> \
-      <a href="#" class="contributor-trigger"><img src="'+ contributor['avatar_url'] +'"></a> \
-      <div class="contributor-info">\
-        <img src="'+ contributor['avatar_url'] +'"> \
-        <b>'+ contributor['login'] +'</b> \
+    result += '<li class="relative"> \
+      <a href="#"><img src="'+ contributor['avatar_url'] +'"></a> \
+      <div class="bg-white absolute">\
+        <img class="rounded-full w-48 h-48" src="'+ contributor['avatar_url'] +'"> \
+        <p class="font-bold mt-4">'+ contributor['login'] +'</p> \
         <span></span> \
-        <ul>\
-          <li><a href="'+ contributor['url'] +'"><img src="/img/icon-github-purple.svg"></a></li> \
+        <ul class="flex items-center">\
+          <li class="mr-4><a href="'+ contributor['url'] +'"><img src="/img/icon-github-purple.svg"></a></li> \
         </ul>\
       </div>\
     </li>'
@@ -73,7 +73,7 @@ hexo.extend.helper.register('contributors', function(type) {
 
 hexo.extend.helper.register('sidebar', function(path) {
   return `
-    <ul class="sidebar-menu">
+    <ul class="custom-sidebar">
       ${genSidebarList.call(this, "", this.site.data.sidebar[path])}
     </ul>
   `
@@ -91,11 +91,13 @@ function genSidebarList(parent, entries) {
     if (entry.path.startsWith('http')) { fullPath = entry.path }
     /* path is active when it's the one we are on currently */
     let isActive = ('/'+self.path).startsWith(fullPath)
+    let linkTextClasses = isActive ? "text-primary-base" : "text-gray-900 hover:text-primary-base"
+
     return `
-      <li class="${isActive ? "active" : ""}">
-        <a href="${fullPath}">${entry.title}</a>
+      <li class="py-4 xl:mb-6 border-t border-gray-100 xl:border-t-0 xl:py-0">
+        <a class="${linkTextClasses}" href="${fullPath}">${entry.title}</a>
         ${(entry.children != undefined) ? `
-        <ul class="sidebar-submenu">
+        <ul class = "text-lg pl-8 mt-4 ${isActive ? "" : "hidden"}">
           ${genSidebarList.call(self, fullPath, entry.children)}
         </ul>
         ` : ''}
@@ -253,7 +255,7 @@ hexo.extend.helper.register('language_selector', function() {
   
       if(i == shortLang){
         shortLang = l.short;
-        active = 'active';
+        active = 'text-primary-base bg-primary-100';
       }
   
       path = path.replace("index.html", "");
@@ -272,14 +274,20 @@ hexo.extend.helper.register('language_selector', function() {
         path = i + '/' + path;
       }
   
-      list += '<li class="'+ active +'"><a href="/'+ path +'">'+ l.long + '</a></li>';
+      list += '<li class="'+ active +'"><a class="p-4 font-special font-semibold block border-t border-gray-100 hover:text-primary-base" href="/'+ path +'">'+ l.long + '</a></li>';
   
     });
   
     languageSelector = `
-      <div class="language-selector">
-        <a href="#" class="responsive-font responsive-lang language-selector-trigger btn btn-arrow">${shortLang}</a>
-        <ul>
+      <div class="js-language-selector xl:pl-8 xl:relative">
+        <a href="#" class="js-language-selector-trigger transition-all duration-200 linear capitalize mt-8 xl:mt-0 text-left md:text-lg 2xl:text-xl font-special font-bold flex w-full xl:inline-flex items-center border border-black hover:bg-black hover:text-white py-4 px-5 rounded">
+          ${shortLang}
+          <svg width="9" height="5" viewBox="0 0 9 5" class="ml-4 fill-current" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 3.001L0 0V2L4 5.001L8.001 2V0L4 3.001Z" />
+          </svg>
+
+        </a>
+        <ul class="js-language-selector-list w-11/12 xl:w-48 absolute bg-white shadow flex flex-col left-0 right-0 mb-4 m-auto top-0 xl:top-auto xl:ml-8 rounded text-left opacity-0 pointer-events-none invisible scale-95 transition-all duration-200 linear">
           ${list}
         </ul>
       </div>

@@ -2,124 +2,135 @@
 <main id="main" role="main">
 
 	<!-- SECURITY -->
-	<section class="security-inner">
+	<section class="pt-24 xl:pt-64">
 
-		<div class="container m-b-100">
-			<div class="row">
-				<div class="col-lg-8">
-					<h1><%- __('site.security.intro.title') %></h1>
-					<p class="teaser-1"><%- __('site.security.intro.description-1') %></p>
-					<p class="teaser-1"><%- __('site.security.intro.description-2') %></p>
+		<div class="max-w-screen-xl mx-auto px-8 lg:px-12">
+			<div class="grid grid-cols-12">
+				<div class="col-span-12 lg:col-span-8">
+					<h1 class="font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.security.intro.title') %></h1>
+					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.security.intro.description-1') %></p>
+					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.security.intro.description-2') %></p>
 				</div>
 			</div>
 		</div>
+    <div class="custom-article">
+  		<div class="max-w-screen-xl mx-auto mt-20 lg:mt-64 px-8 lg:px-12">
+  			<h2><%- __('site.security.security-at-status.title') %></h2>
+  			<div class="grid lg:grid-cols-3 gap-12 lg:gap-24 mt-12 lg:mt-32">
+  				<div>
+  					<h4><%- __('site.security.security-at-status.secure-inner-1.title') %></h4>
+  					<p><%- __('site.security.security-at-status.secure-inner-1.description') %></p>
+  				</div>
+  				<div>
+  					<h4><%- __('site.security.security-at-status.secure-inner-2.title') %></h4>
+  					<p><%- __('site.security.security-at-status.secure-inner-2.description') %></p>
+  				</div>
+  				<div>
+  					<h4><%- __('site.security.security-at-status.secure-inner-3.title') %></h4>
+  					<p><%- __('site.security.security-at-status.secure-inner-3.description') %></p>
+  				</div>
+  			</div>
+  		</div>
 
-		<div class="container m-b-100">
-			<h2 class="m-b-100"><%- __('site.security.security-at-status.title') %></h2>
-			<div class="row">
-				<div class="col-lg-4">
-					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-1.title') %></h4>
-					<p><%- __('site.security.security-at-status.secure-inner-1.description') %></p>
-				</div>
-				<div class="col-lg-4">
-					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-2.title') %></h4>
-					<p><%- __('site.security.security-at-status.secure-inner-2.description') %></p>
-				</div>
-				<div class="col-lg-4">
-					<h4 class="m-b-25"><%- __('site.security.security-at-status.secure-inner-3.title') %></h4>
-					<p><%- __('site.security.security-at-status.secure-inner-3.description') %></p>
-				</div>
-			</div>
-		</div>
-
-		<div class="container security-content">
-			<div class="row">
-				<div class="col-md-12">
-					<h3><%- __('site.security.security-content.content-1.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-1.description') %></p>
-					<h3><%- __('site.security.security-content.content-2.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-2.description') %></p> 
-					<p><a href="https://specs.vac.dev/specs/waku/waku.html" class="link-arrow"><%- __('site.security.security-content.content-2.link') %></a></p>
-					<h3><%- __('site.security.security-content.content-3.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-3.description') %></p>
-					<h3><%- __('site.security.security-content.content-4.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-4.description') %></p>
-					<p><a href="/technical/pfs.html" class="link-arrow"><%- __('site.security.security-content.content-4.link') %></a></p>
-					<h3><%- __('site.security.security-content.content-5.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-5.description') %></p>
-					<h3><%- __('site.security.security-content.content-6.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-6.description-1') %></p>
-					<p class="p-large"><%- __('site.security.security-content.content-6.description-2') %></p>
-					<p class="p-large"><%- __('site.security.security-content.content-6.description-3', '<a href="https://keycard.tech" target="_blank">keycard.tech</a>') %></p>
-					<h3><%- __('site.security.security-content.content-7.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-7.description') %> </p>
-					<p><a href="https://eips.ethereum.org/EIPS/eip-712" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-7.link') %></a></p>
-					<h3><%- __('site.security.security-content.content-8.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-8.description') %></p>
-					<h3><%- __('site.security.security-content.content-9.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-9.description', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
-					<p><a href="https://discuss.status.im/t/psa-general-security-information/1562" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-9.link') %></a></p>
-					<h3><%- __('site.security.security-content.content-10.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-10.description-1') %></p>
-					<p class="p-large"><%- __('site.security.security-content.content-10.description-2', '<a href="https://github.com/status-im/status-security#audits">security repository</a>') %></p>
-					<p class="p-large"><%- __('site.security.security-content.content-10.description-3', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
-					<h3><%- __('site.security.security-content.content-11.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-11.description') %></p>
-					<p><a href="/user_guides/best_security_practices.html" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
-					<h3><%- __('site.security.security-content.content-12.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://join.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
-					<h3><%- __('site.security.security-content.content-13.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
+  		<div class="max-w-screen-xl mx-auto px-8 lg:px-12 mt-20">
+  			<h3><%- __('site.security.security-content.content-1.title') %></h3>
+  			<p><%- __('site.security.security-content.content-1.description') %></p>
+  			<h3><%- __('site.security.security-content.content-2.title') %></h3>
+  			<p><%- __('site.security.security-content.content-2.description') %></p> 
+  			<p><a href="https://specs.vac.dev/specs/waku/waku.html" class="link-arrow"><%- __('site.security.security-content.content-2.link') %></a></p>
+  			<h3><%- __('site.security.security-content.content-3.title') %></h3>
+  			<p><%- __('site.security.security-content.content-3.description') %></p>
+  			<h3><%- __('site.security.security-content.content-4.title') %></h3>
+  			<p><%- __('site.security.security-content.content-4.description') %></p>
+  			<p><a href="/technical/pfs.html" class="link-arrow"><%- __('site.security.security-content.content-4.link') %></a></p>
+  			<h3><%- __('site.security.security-content.content-5.title') %></h3>
+  			<p><%- __('site.security.security-content.content-5.description') %></p>
+  			<h3><%- __('site.security.security-content.content-6.title') %></h3>
+  			<p><%- __('site.security.security-content.content-6.description-1') %></p>
+  			<p><%- __('site.security.security-content.content-6.description-2') %></p>
+  			<p><%- __('site.security.security-content.content-6.description-3', '<a href="https://keycard.tech" target="_blank">keycard.tech</a>') %></p>
+  			<h3><%- __('site.security.security-content.content-7.title') %></h3>
+  			<p><%- __('site.security.security-content.content-7.description') %> </p>
+  			<p><a href="https://eips.ethereum.org/EIPS/eip-712" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-7.link') %></a></p>
+  			<h3><%- __('site.security.security-content.content-8.title') %></h3>
+  			<p><%- __('site.security.security-content.content-8.description') %></p>
+  			<h3><%- __('site.security.security-content.content-9.title') %></h3>
+  			<p><%- __('site.security.security-content.content-9.description', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
+  			<p><a href="https://discuss.status.im/t/psa-general-security-information/1562" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-9.link') %></a></p>
+  			<h3><%- __('site.security.security-content.content-10.title') %></h3>
+  			<p><%- __('site.security.security-content.content-10.description-1') %></p>
+  			<p><%- __('site.security.security-content.content-10.description-2', '<a href="https://github.com/status-im/status-security#audits">security repository</a>') %></p>
+  			<p><%- __('site.security.security-content.content-10.description-3', '<a href="mailto:security@status.im">security@status.im</a>') %></p>
+  			<h3><%- __('site.security.security-content.content-11.title') %></h3>
+  			<p><%- __('site.security.security-content.content-11.description') %></p>
+  			<p><a href="/user_guides/best_security_practices.html" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
+  			<h3><%- __('site.security.security-content.content-12.title') %></h3>
+  			<p><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://join.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
+  			<h3><%- __('site.security.security-content.content-13.title') %></h3>
+  			<p><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
 
 
-					<ul>
-						<li><p><a href="https://github.com/status-im/ens-usernames/commit/eaefa92a258c784f1df4066e057e8170bcb6ef95#diff-dbff1e6b987cbb9a6b87ea8180c41e72"><%- __('site.security.security-content.content-10.ENS.commit') %></a></p>
-						</li>
-						<li><p><a href="https://drive.google.com/open?id=1BqiPGBjILgbIlmMXAO8AombxW_jsQtfC"><%- __('site.security.security-content.content-10.ENS.report') %></a></p>
-						</li>
-						<li><p><a href="https://drive.google.com/open?id=12ACYXvPn8WUyRg9WCooUTO3vvJVuo7lL"><%- __('site.security.security-content.content-10.ENS.tests') %></a></p>
-						</li>
-						<li><p><a href="https://blog.sigmaprime.io/status-ens-review.html"><%- __('site.security.security-content.content-10.ENS.blog') %></a></p>
-						</li>
-					</ul>
-					<h4><%- __('site.security.security-content.content-10.dejavu.title') %></h4>
-					<ul>
-						<li><p><a href="https://drive.google.com/file/d/1wB5pGPaNsQwq2udV7NmHkLuW-2JCMbnV/view"><%- __('site.security.security-content.content-10.dejavu.report') %></a></p>
-						</li>
-						<li><p><a href="https://blog.status.im/status-deja-vu-security-audit-final-report-5b6eda5a683a"><%- __('site.security.security-content.content-10.dejavu.blog') %></a></p>
-						</li>
-					</ul>
+  			<ul>
+  				<li><p><a href="https://github.com/status-im/ens-usernames/commit/eaefa92a258c784f1df4066e057e8170bcb6ef95#diff-dbff1e6b987cbb9a6b87ea8180c41e72"><%- __('site.security.security-content.content-10.ENS.commit') %></a></p>
+  				</li>
+  				<li><p><a href="https://drive.google.com/open?id=1BqiPGBjILgbIlmMXAO8AombxW_jsQtfC"><%- __('site.security.security-content.content-10.ENS.report') %></a></p>
+  				</li>
+  				<li><p><a href="https://drive.google.com/open?id=12ACYXvPn8WUyRg9WCooUTO3vvJVuo7lL"><%- __('site.security.security-content.content-10.ENS.tests') %></a></p>
+  				</li>
+  				<li><p><a href="https://blog.sigmaprime.io/status-ens-review.html"><%- __('site.security.security-content.content-10.ENS.blog') %></a></p>
+  				</li>
+  			</ul>
+  			<h4><%- __('site.security.security-content.content-10.dejavu.title') %></h4>
+  			<ul>
+  				<li><p><a href="https://drive.google.com/file/d/1wB5pGPaNsQwq2udV7NmHkLuW-2JCMbnV/view"><%- __('site.security.security-content.content-10.dejavu.report') %></a></p>
+  				</li>
+  				<li><p><a href="https://blog.status.im/status-deja-vu-security-audit-final-report-5b6eda5a683a"><%- __('site.security.security-content.content-10.dejavu.blog') %></a></p>
+  				</li>
+  			</ul>
 
-					<h3><%- __('site.security.security-content.content-11.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-11.description') %></p>
-					<p><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
-					<h3><%- __('site.security.security-content.content-12.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://join.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
-					<h3><%- __('site.security.security-content.content-13.title') %></h3>
-					<p class="p-large"><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
-				</div>
-			</div>
-		</div>
+  			<h3><%- __('site.security.security-content.content-11.title') %></h3>
+  			<p><%- __('site.security.security-content.content-11.description') %></p>
+  			<p><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.security-content.content-11.link') %></a></p>
+  			<h3><%- __('site.security.security-content.content-12.title') %></h3>
+  			<p><%- __('site.security.security-content.content-12.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="https://join.status.im/chat/public/status-security" target="_blank">#status-security</a>') %></p>
+  			<h3><%- __('site.security.security-content.content-13.title') %></h3>
+  			<p><%- __('site.security.security-content.content-13.description', '<a href="mailto:security@status.im">security@status.im</a>', '<a href="mailto:security@status.im">security@status.im</a>') %></a></p>
+  		</div>
 
-		<div class="container p-t-160 p-b-160">
-			<div class="row">
-				<div class="col-md-6">
-					<h3 class="m-t-50"><%- __('site.security.protect-yourself.title') %></h3>
-					<p class="teaser-2"><%- __('site.security.protect-yourself.description') %></p>
-					<ul class="inline-links">
-						<li><a href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow"><%- __('site.security.protect-yourself.link-1') %></a></li>
-						<li><a href="https://join.status.im/chat/public/status-security" target="_blank"><%- image_tag("img/join-status-security.svg") %><%- __('site.security.protect-yourself.link-2') %></a></li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<div class="get-status">
-						<h3><%- __('site.features.get.title') %></h3>
-						<p class="teaser-2"><%- __('site.features.get.description') %></p>
-						<a href="<%- show_lang() %>/get/" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.features.get.link') %></a>
-					</div>
-				</div>
-			</div>
-		</div>
+  		<div class="max-w-screen-xl mx-auto px-8 lg:px-12 mt-20 lg:mt-64">
+  			<div class="grid lg:grid-cols-2 lg:gap-24">
+  				<div>
+  					<h2 class="font-display text-4xl xl:text-6xl"><%- __('site.security.protect-yourself.title') %></h3>
+  					<p class="mt-16 text-gray-600 text-xl xl:text-2xl font-display font-normal leading-normal"><%- __('site.security.protect-yourself.description') %></p>
+  					<ul class="list-none flex flex-col lg:flex-row text-2lg font-bold lg:items-center -ml-16 mt-4">
+  						<li class="ml-16 mt-12">
+                <a class="group text-primary-base font-special flex hover:text-primary-900 semibold items-center" href="https://notes.status.im/Fa9h9kCVRtm82PcgQ31Y7w" target="_blank" class="link-arrow">
+                  <%- __('site.security.protect-yourself.link-1') %>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                </a>
+              </li>
+  						<li class="ml-16 mt-12">
+                <a class="text-primary-base font-special semibold flex items-center hover:text-primary-900" href="https://join.status.im/chat/public/status-security" target="_blank">
+                  <%- image_tag("img/join-status-security.svg") %>
+                  <span class="ml-6">
+                    <%- __('site.security.protect-yourself.link-2') %>
+                  </span>
+                </a>
+              </li>
+  					</ul>
+  				</div>
+  				<div class="bg-primary-base px-8 py-20 mt-20 lg:mt-0 lg:p-20 text-white -mr-8 -ml-8 lg:mx-0 lg:mb-64">
+  					<h2 class="font-display text-4xl xl:text-6xl"><%- __('site.features.get.title') %></h2>
+  					<p class="mt-16 text-primary-300 text-xl xl:text-2xl font-display font-normal leading-normal"><%- __('site.features.get.description') %></p>
+  					<a href="<%- show_lang() %>/get/" class="group flex lg:inline-flex items-center hover:bg-white hover:text-primary-base transition-all duration-200 linear font-medium mt-16 border border-white text-white py-3 px-6 rounded font-special">
+              <%- __('site.features.get.link') %>
+              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+            </a>
+  				</div>
+  				</div>
+  			</div>
+      </div>
+    </div>
 
 	</section>
 	<!-- END-SECURITY -->

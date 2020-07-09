@@ -1,51 +1,55 @@
 <!-- The main content area -->
-<main id="main" role="main">
+<main id="main" role="main" class="overflow-hidden">
 
-	<section class="home-intro">
-		<div class="container">
-	        <div class="row">
-	            <div class="col-md-7 col-lg-6">
-	            	<div class="inner d-flex align-items-start flex-column h-100 m-t-90">
-						<div class="row">
-							<div class="col-md-11">
-								<h1><%- __('site.home.intro.title') %></h1>
-								<div class="d-flex flex-wrap">
-									<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="m-r-20 app-download"><%- image_tag("/img/app-store.svg") %></a>
-									<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="m-r-20 app-download"><%- image_tag("/img/google-play.svg") %></a>
-									<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="app-download"><%- image_tag("/img/apk.svg") %></a>
-								</div>
-								<ul class="features m-t-90">
-									<li>
-										<div class="img-holder"><%- image_tag("/img/icon-private-messaging.svg") %></div>
-										<div class="li-inner">
-											<h4><%- __('site.landing-page-v1.intro.private-messaging.title') %></h4>
-											<p><%- __('site.landing-page-v1.intro.private-messaging.description') %></p>
-										</div>
-									</li>
-									<li>
-										<div class="img-holder"><%- image_tag("/img/icon-secure-wallet.svg") %></div>
-										<div class="li-inner">
-											<h4><%- __('site.landing-page-v1.intro.secure-wallet.title') %></h4>
-											<p><%- __('site.landing-page-v1.intro.secure-wallet.description') %></p>
-										</div>
-									</li>
-									<li>
-										<div class="img-holder"><%- image_tag("/img/icon-web3-browser.svg") %></div>
-										<div class="li-inner">
-											<h4><%- __('site.landing-page-v1.intro.web3-browser.title') %></h4>
-											<p><%- __('site.landing-page-v1.intro.web3-browser.description') %></p>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-	            	</div>
-	            </div>
-	            <div class="col-md-4 ml-auto col-lg-6 col-black">
-					<div class="mobile"><%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %></div>
-	            </div>
-	        </div>
-	    </div>
+	<section class="pt-16 lg:pt-0">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+      <div class="grid lg:grid-cols-2">
+        <div class="relative lg:pr-32 px-8 self-center">
+          <span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+    			<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl lg:mt-32"><%- __('site.home.intro.title') %></h1>
+    			<div class="flex items-center -ml-12 mt-12">
+    				<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+    				<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+    				<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+    			</div>
+    			<ul class="mt-20 lg:mt-40 mb-40 ">
+    				<li class="flex items-start">
+    					<div class="mt-2">
+                <%- image_tag("/img/icon-private-messaging.svg") %>
+              </div>
+    					<div class="ml-12">
+    						<h4 class="mb-8 text-2xl xl:text-3xl font-medium font-display text-gray-900"><%- __('site.landing-page-v1.intro.private-messaging.title') %></h4>
+    						<p class="text-gray-600"><%- __('site.landing-page-v1.intro.private-messaging.description') %></p>
+    					</div>
+    				</li>
+    				<li class="flex mt-8 lg:mt-20 items-start">
+    					<div class="mt-2">
+                <%- image_tag("/img/icon-secure-wallet.svg") %>
+              </div>
+    					<div class="ml-12">
+    						<h4 class="mb-8 text-2xl xl:text-3xl font-medium font-display text-gray-900"><%- __('site.landing-page-v1.intro.secure-wallet.title') %></h4>
+    						<p class="text-gray-600"><%- __('site.landing-page-v1.intro.secure-wallet.description') %></p>
+    					</div>
+    				</li>
+    				<li class="flex mt-8 lg:mt-20 items-start">
+    					<div class="mt-2">
+                <%- image_tag("/img/icon-web3-browser.svg") %>
+              </div>
+    					<div class="ml-12">
+    						<h4 class="mb-8 text-2xl xl:text-3xl font-medium font-display text-gray-900"><%- __('site.landing-page-v1.intro.web3-browser.title') %></h4>
+    						<p class="text-gray-600"><%- __('site.landing-page-v1.intro.web3-browser.description') %></p>
+    					</div>
+    				</li>
+    			</ul>
+        </div>
+      	<div class="bg-black relative mt-32 md:mt-0">
+      	  <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+      	  <div class="md:-ml-32 -mt-32 md:mt-0 mx-auto flex justify-center items-start md:block md:pt-20">
+            <%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x', class: 'mx-auto md:mx-0'}) %>
+          </div>
+        </div>
+      </div>  
+    </div>
 	</section>
 
 </main>

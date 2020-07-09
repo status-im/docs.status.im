@@ -1,109 +1,95 @@
 <!-- The main content area -->
-<main id="main" role="main">
+<main id="main" role="main" class="template-keycard">
 
-	<section class="keycard-intro p-t-100 p-b-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 ml-auto mr-auto">
-					<h1 class="text-center"><%- __('site.keycard.intro.title') %></h1>
-					<div class="keycard-animate-1 h-auto">
-						<%- image_tag("/img/keycard-intro-phone.png", { srcset: '/img/keycard-intro-phone-2x.png 2x', class: 'phone'}) %>
-						<%- image_tag("/img/keycard-intro-card.png", { srcset: '/img/keycard-intro-card-2x.png 2x', class: 'card'}) %>
-						<div class="circles"></div>
+	<section class="pt-16 xl:pt-40 keycard-intro">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12 text-center">
+			<h1 class="text-center font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl mb-32"><%- __('site.keycard.intro.title') %></h1>
+			<div class="keycard-animate-1 h-auto">
+				<%- image_tag("/img/keycard-intro-phone.png", { srcset: '/img/keycard-intro-phone-2x.png 2x', class: 'phone'}) %>
+				<%- image_tag("/img/keycard-intro-card.png", { srcset: '/img/keycard-intro-card-2x.png 2x', class: 'card'}) %>
+				<div class="circles"></div>
+			</div>
+			<p class="max-w-4xl text-center mx-auto text-gray-500 mt-24 text-xl xl:text-4xl font-display font-medium leading-normal"><%- __('site.keycard.intro.description') %></p>
+      <a href="<%- show_lang() %>/faq/#keycard" class="group mt-24 font-special font-semibold inline-flex items-center border border-primary-base bg-primary-base hover:bg-primary-900 text-white transition-all duration-200 linear py-4 px-8 rounded group">
+        <%- __('site.keycard.intro.button') %>
+        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+      </a>
+		</div>
+	</section>
+
+	<section class="bg-blue-gray-light py-20 xl:py-32 mt-20 lg:mt-64">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<h2 class="font-display text-4xl xl:text-7xl leading-tight text-center mb-24"><%- __('site.keycard.security.title') %></h2>
+			<div class="keycard-animate-3" data-step="1">
+				<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
+				<%- image_tag("/img/keycard-chat-1.png", { srcset: '/img/keycard-chat-1-2x.png 2x', class: 'chat-1'}) %>
+				<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
+				<div class="morph">
+					<div class="step-1 step">
+						<b>Send transaction</b>
+						<div class="transation-details">
+							<div class="amount"><span>0.0</span></div>
+							<div class="type"><%- image_tag("/img/dai.svg") %> DAI</div>
+						</div>
 					</div>
-					<div class="row">
-						<div class="col-lg-8 text-center ml-auto mr-auto">
-							<p class="teaser-1 m-t-60"><%- __('site.keycard.intro.description') %></p>
-							<a href="<%- show_lang() %>/faq/#keycard" class="btn btn-purple-fill btn-arrow btn-arrow-white"><%- __('site.keycard.intro.button') %></a>
+					<div class="step-2 step">
+						<div class="circles-parent"><div class="circles"></div></div>										
+						<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
+						<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
+					</div>
+					<div class="step-3 step">
+						<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard.security.confirmed') %></b>
+					</div>
+				</div>
+			</div>
+			<p class="max-w-4xl text-center mx-auto text-gray-500 mt-24 text-xl xl:text-4xl font-display font-medium leading-normal"><%- __('site.keycard.security.description') %></p>
+		</div>
+	</section>
+
+	<section class="mt-20 xl:mt-64">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<h2 class="font-display text-4xl xl:text-7xl leading-tight text-center mb-24"><%- __('site.keycard.account.title') %></h2>
+			<div class="keycard-animate-4" data-step="1">
+				<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
+				<%- image_tag("/img/keycard-home-1.png", { srcset: '/img/keycard-home-1-2x.png 2x', class: 'home-1'}) %>
+				<%- image_tag("/img/keycard-lock-1.png", { srcset: '/img/keycard-lock-1-2x.png 2x', class: 'lock-1'}) %>
+				<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
+				<ul class="dots">
+					<% for(var i = 0; i <= 5; i++) { %>
+				        <li class="dot dot-<%= i %>"></li>
+				    <% } %>
+				</ul>
+				<ul class="numbers">
+					<% for(var i = 0; i <= 9; i++) { %>
+				        <li class="nr nr-<%= i %>">
+			                <%= i %>
+				        </li>
+				    <% } %>
+				</ul>
+				<div class="morph-parent">
+					<div class="morph">
+						<div class="step-2 step">
+							<div class="circles-parent"><div class="circles"></div></div>										
+							<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
+							<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
+						</div>
+						<div class="step-3 step">
+							<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard.account.confirmed') %></b>
 						</div>
 					</div>
 				</div>
 			</div>
+			<p class="max-w-4xl text-center mx-auto text-gray-500 mt-24 text-xl xl:text-4xl font-display font-medium leading-normal"><%- __('site.keycard.account.description') %></p>
 		</div>
 	</section>
 
-	<section class="col-grey p-t-50 p-b-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 ml-auto mr-auto">
-					<h2 class="text-center m-b-80"><%- __('site.keycard.security.title') %></h2>
-					<div class="keycard-animate-3 m-t-50" data-step="1">
-						<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
-						<%- image_tag("/img/keycard-chat-1.png", { srcset: '/img/keycard-chat-1-2x.png 2x', class: 'chat-1'}) %>
-						<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
-						<div class="morph">
-							<div class="step-1 step">
-								<b>Send transaction</b>
-								<div class="transation-details">
-									<div class="amount"><span>0.0</span></div>
-									<div class="type"><%- image_tag("/img/dai.svg") %> DAI</div>
-								</div>
-							</div>
-							<div class="step-2 step">
-								<div class="circles-parent"><div class="circles"></div></div>										
-								<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
-								<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
-							</div>
-							<div class="step-3 step">
-								<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard.security.confirmed') %></b>
-							</div>
-						</div>
-					</div>
-					<p class="teaser-1 p-t-50 text-center mb-0"><%- __('site.keycard.security.description') %></p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="p-t-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 ml-auto mr-auto">
-					<h2 class="text-center m-b-80"><%- __('site.keycard.account.title') %></h2>
-					<div class="keycard-animate-4" data-step="1">
-						<%- image_tag("/img/keycard-phone.png", { srcset: '/img/keycard-phone-2x.png 2x', class: 'phone'}) %>
-						<%- image_tag("/img/keycard-home-1.png", { srcset: '/img/keycard-home-1-2x.png 2x', class: 'home-1'}) %>
-						<%- image_tag("/img/keycard-lock-1.png", { srcset: '/img/keycard-lock-1-2x.png 2x', class: 'lock-1'}) %>
-						<%- image_tag("/img/keycard-front-4.png", { srcset: '/img/keycard-front-4-2x.png 2x', class: 'front-4'}) %>
-						<ul class="dots">
-							<% for(var i = 0; i <= 5; i++) { %>
-						        <li class="dot dot-<%= i %>"></li>
-						    <% } %>
-						</ul>
-						<ul class="numbers">
-							<% for(var i = 0; i <= 9; i++) { %>
-						        <li class="nr nr-<%= i %>">
-					                <%= i %>
-						        </li>
-						    <% } %>
-						</ul>
-						<div class="morph-parent">
-							<div class="morph">
-								<div class="step-2 step">
-									<div class="circles-parent"><div class="circles"></div></div>										
-									<%- image_tag("/img/keycard-phone-icon.svg", { class: 'phone-icon' }) %>
-									<%- image_tag("/img/keycard-card-icon.svg", { class: 'card-icon' }) %>
-								</div>
-								<div class="step-3 step">
-									<%- image_tag("/img/keycard-checked.svg", { class: 'checked' }) %> <b><%- __('site.keycard.account.confirmed') %></b>
-								</div>
-							</div>
-						</div>
-					</div>
-					<p class="teaser-1 p-t-50 mb-0 text-center"><%- __('site.keycard.account.description') %></p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-    <section class="keycard-faq m-t-50 p-t-80 p-b-80 col-grey">
-    	<div class="container">
-	    	<div class="row">
-	    		<div class="col-md-12 text-center">
-	    			<h3 class="m-b-20"><%- __('site.keycard.faq.title') %></h3>
-	    			<a href="<%- show_lang() %>/faq/#keycard" class="btn btn-arrow m-r-20"><%- __('site.keycard.faq.button') %></a>
-	    		</div>
-	    	</div>
+    <section class="keycard-faq bg-blue-gray-light py-20 xl:py-32 mt-20 lg:mt-64">
+    	<div class="max-w-screen-2xl mx-auto px-8 lg:px-12 text-center">
+  			<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-12"><%- __('site.keycard.faq.title') %></h3>
+  			<a href="<%- show_lang() %>/faq/#keycard" class="group font-special font-semibold inline-flex items-center border border-black hover:bg-black hover:text-white transition-all duration-200 linear py-4 px-8 rounded group">
+          <%- __('site.keycard.faq.button') %>
+          <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+        </a>
     	</div>
     </section>
 

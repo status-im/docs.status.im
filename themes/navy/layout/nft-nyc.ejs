@@ -1,71 +1,77 @@
 <!-- The main content area -->
-<main id="main" role="main">
+<main id="main" role="main" class="overflow-hidden">
 
 	<!--HOME-INTRO-->
-	<section class="home-intro">
-		<div class="container">
-	        <div class="row">
-	            <div class="col-md-7 col-lg-6">
-	            	<div class="inner d-flex align-items-start flex-column h-100 m-t-90">
-						<div class="row">
-							<div class="col-md-9">
-								<%- image_tag("/img/nft-nyc.svg" , { class: 'm-b-25'}) %>
-								<h1>Install Status on your mobile phone, join the <a href='http://join.status.im/chat/public/nft-nyc'>#nft-nyc</a> public channel, and get 100 SNT</h1>
-								<ul class="features m-t-50 m-b-50">
-									<li>
-										<div class="li-inner">
-											<p>Download Status for iOS or Android from the links below</p>
-										</div>
-									</li>
-									<li>
-										<div class="li-inner">
-											<p>Create an account and join the public channel #nft-nyc</p>
-										</div>
-									</li>
-									<li>
-										<div class="li-inner">
-											<p>Introduce yourself and someone from the Status team will start a private chat with you and send some SNT</p>
-										</div>
-									</li>
-								</ul>
-								<div class="d-flex flex-wrap">
-									<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="m-r-20 m-b-20 app-download"><%- image_tag("/img/app-store.svg") %></a>
-									<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="m-r-20 m-b-20 app-download"><%- image_tag("/img/google-play.svg") %></a>
-									<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="app-download"><%- image_tag("/img/apk.svg") %></a>
-								</div>
-							</div>
-						</div>
-	            	</div>
-	            </div>
-	            <div class="col-md-4 ml-auto col-lg-6 col-black">
-					<div class="mobile"><%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %></div>
-	            </div>
-	        </div>
-	    </div>
+	<section class="pt-16 md:mt-0">
+    <div class="max-w-screen-2xl mx-auto lg:px-12">
+      <div class="grid md:grid-cols-2 items-center">
+        <div class="relative px-8 md:pr-32">
+          <span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+					<%- image_tag("/img/nft-nyc.svg") %>
+					<h1 class="font-display text-5xl mt-8">Install Status on your mobile phone, join the <a href='http://join.status.im/chat/public/nft-nyc' class="text-primary-base hover:text-primary-900">#nft-nyc</a> public channel, and get 100 SNT</h1>
+					<ul class="list-disc ml-8">
+					  <li class="mt-12">
+							<p>Download Status for iOS or Android from the links below</p>
+						</li>
+						<li class="mt-12">
+							<p>Create an account and join the public channel #nft-nyc</p>
+						</li>
+						<li class="mt-12">
+							<p>Introduce yourself and someone from the Status team will start a private chat with you and send some SNT</p>
+						</li>
+					</ul>
+					<div class="flex items-center -ml-12 mt-24">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+				</div>
+				<div class="bg-black relative mt-48 md:mt-0">
+				  <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+				  <div class="md:-ml-32 -mt-32 md:mt-0 mx-auto flex justify-center md:block md:pt-20">
+            <%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %>
+          </div>
+        </div>
+      </div>
+    </div>
 	</section>
 	<!--END-HOME-INTRO-->
 
-	<div class="channel-invite p-t-160 p-b-160">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 ml-auto mr-auto">
-					<h3 class="text-center">
-						<% for (var channel in site.data.channels) { 
-							if(channel == page.lang) { %>
-								<%- __('Use your SNT to', site.data.channels[channel]['name'], site.data.channels[channel]['name']) %>
-							<% } %>
-						<% } %>
-					</h3>
-				</div>
-				<div class="col-md-10 ml-auto mr-auto">
-					<ul>
-						<li>Register a stateofus.eth ENS Name</li>
-						<li>Purchase sticker packs</li>
-						<li>Upvote your favorite dapps within dap.ps</li>
-						<li>Take part in Status Community Governance proposals</li>
-					</ul>
-				</div>
-			</div>
+	<div class="my-20 lg:my-64">
+		<div class="max-w-screen-xl mx-auto px-8 lg:px-12">
+  		<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center">
+  			<% for (var channel in site.data.channels) { 
+  				if(channel == page.lang) { %>
+  					<%- __('Use your SNT to', site.data.channels[channel]['name'], site.data.channels[channel]['name']) %>
+  				<% } %>
+  			<% } %>
+  		</h3>
+  		<ul class="flex flex-col md:flex-row md:items-center mt-24 -ml-24">
+  			<li class="text-xl text-primary-base ml-24 flex items-center mt-8">
+          <span class="w-8 h-8 text-primary-base block mr-8">
+            <%- partial('partial/icons/status-logo') %>
+          </span>
+          Register a stateofus.eth ENS Name
+        </li>
+  			<li class="text-xl text-primary-base ml-24 flex items-center mt-8">
+          <span class="w-8 h-8 text-primary-base block mr-8">
+            <%- partial('partial/icons/status-logo') %>
+          </span>
+          Purchase sticker packs
+        </li>
+  			<li class="text-xl text-primary-base ml-24 flex items-center mt-8">
+          <span class="w-8 h-8 text-primary-base block mr-8">
+            <%- partial('partial/icons/status-logo') %>
+          </span>
+          Upvote your favorite dapps within dap.ps
+        </li>
+  			<li class="text-xl text-primary-base ml-24 flex items-center mt-8">
+          <span class="w-8 h-8 text-primary-base block mr-8">
+            <%- partial('partial/icons/status-logo') %>
+          </span>
+          Take part in Status Community Governance proposals
+        </li>
+  		</ul>
 		</div>
 	</div>
 

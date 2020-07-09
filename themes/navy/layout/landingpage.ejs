@@ -1,31 +1,33 @@
 <!-- The main content area -->
 <main id="main" role="main">
 
-  <div class="stripe">
-    <b>Status Documentation</b>
-    <%- include('partial/shared-partials/partials/search') %>
-  </div>
+  <section class="bg-black text-white px-8 py-8 flex items-center justify-between">
+	  <p class="text-gray-200">Status Docs</p>
+	  <form id="search-form" class="flex items-center relative">
+      <span class="text-gray-500 mr-6">
+        <%- partial('partial/icons/search', {width: "w-8", height: "h-8"}) %>
+      </span>
+	    <input type="text" name="userSearch" id="search-input" placeholder="Search documentation..." class="bg-transparent placeholder-gray-400 text-lg">
+	    <div id="search-results" class="absolute top-0 bg-white px-4 mt-12 shadow-lg rounded z-10"></div>
+	  </form>
+	</section>
 
-  <section class="single-docs-content">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 col-xl-2">
+  <section class="single-docs-content mt-24">
+    <div class="px-8 lg:px-12 mx-auto">
+      <div class="grid gap-12 grid-cols-12">
+        <div class="col-span-12 lg:col-span-3 xl:col-span-2">
           <%- partial('partial/sidebar') %>
         </div>
-        <div class="col-md-9 col-xl-10">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="editor-content">
-                <div class="docs-lp-wrapper row">
-                  <%- page_anchor(page.content) %>
-                </div>
-              </div>
-              
-              <div class="docs-footer">
-                Last update: <%- page.updated.format(config.date_format) %>
-                <%- page_nav() %>
-              </div>
+        <div class="col-span-12 lg:col-span-9 xl:col-span-10">
+          <div class="custom-article">
+            <div class="docs-lp-wrapper">
+              <%- page_anchor(page.content) %>
             </div>
+          </div>
+          
+          <div class="docs-footer text-gray-500 py-40">
+            Last update: <%- page.updated.format(config.date_format) %>
+            <%- page_nav() %>
           </div>
         </div>
       </div>

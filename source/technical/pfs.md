@@ -120,7 +120,7 @@ Bob's prekey bundle is retrieved by Alice, however it is not specific to Alice. 
 
 ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L12))
 
-``` protobuf
+```protobuf
 // X3DH prekey bundle
 message Bundle {
 
@@ -140,7 +140,7 @@ message Bundle {
 
 ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L5))
 
-``` protobuf
+```protobuf
 message SignedPreKey {
   bytes signed_pre_key = 1;
   uint32 version = 2;
@@ -157,23 +157,17 @@ Having established the initial shared secret `SK` through X3DH, we can use it to
 
 Please refer to the [Double Ratchet spec](https://signal.org/docs/specifications/doubleratchet/) for more details.
 
-The initial message sent by Alice to Bob is sent as a top-level `ProtocolMessage` ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L65)) containing a map of `DirectMessageProtocol` indexed by `installation-id` ([protobuf](https://github.com/status-im/status-go/blob/1ac9dd974415c3f6dee95145b6644aeadf02f02c/services/shhext/chat/encryption.proto#L56)):
+The initial message sent by Alice to Bob is sent as a top-level `ProtocolMessage` ([code](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L65)) containing a map of `DirectMessageProtocol` indexed by `installation-id` ([code](https://github.com/status-im/status-go/blob/1ac9dd974415c3f6dee95145b6644aeadf02f02c/services/shhext/chat/encryption.proto#L56)):
 
-``` protobuf
+```protobuf
 message ProtocolMessage {
-
   Bundle bundle = 1;
-
   string installation_id = 2;
-
   repeated Bundle bundles = 3;
-
   // One to one message, encrypted, indexed by installation_id
   map<string,DirectMessageProtocol> direct_message = 101;
-
   // Public chats, not encrypted
   bytes public_message = 102;
-
 }
 ```
 
@@ -183,7 +177,8 @@ message ProtocolMessage {
 - `direct_message` is a map of `DirectMessageProtocol` indexed by `installation-id`
 - `public_message`: unencrypted public chat message.
 
-``` protobuf
+
+```protobuf
 message DirectMessageProtocol {
   X3DHHeader X3DH_header = 1;
   DRHeader DR_header = 2;
@@ -192,50 +187,53 @@ message DirectMessageProtocol {
   bytes payload = 3;
 }
 ```
-- `X3DH_header`: the `X3DHHeader` field in `DirectMessageProtocol` contains:
 
-    ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L47))
-    ``` protobuf
-    message X3DHHeader {
-      bytes key = 1;
-      bytes id = 4;
-    }
-    ```
 
-    - `key`: Alice's ephemeral key $EK_A$;
-    - `id`: Identifier stating which of Bob's prekeys Alice used, in this case Bob's bundle signed prekey.
+`X3DH_header`: the `X3DHHeader` field in `DirectMessageProtocol` contains: ([code](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L47))
 
-    Alice's identity key $IK_A$ is sent at the transport layer level (Whisper);
+```protobuf
+message X3DHHeader {
+  bytes key = 1;
+  bytes id = 4;
+}
+```
 
-- `DR_header`: Double ratchet header ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L31)). Used when Bob's public bundle is available:
-    ``` protobuf
-    message DRHeader {
-      bytes key = 1;
-      uint32 n = 2;
-      uint32 pn = 3;
-      bytes id = 4;
-    }
-    ```
-    - `key`: Alice's current ratchet public key (as mentioned in [DR spec section 2.2](https://signal.org/docs/specifications/doubleratchet/#symmetric-key-ratchet));
-    - `n`: number of the message in the sending chain;
-    - `pn`: length of the previous sending chain;
-    - `id`: Bob's bundle ID.
+- `key`: Alice's ephemeral key $EK_A$;
+- `id`: Identifier stating which of Bob's prekeys Alice used, in this case Bob's bundle signed prekey.
 
-- `DH_header`: Diffie-Helman header (used when Bob's bundle is not available):
-    ([protobuf](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L42))
-    ``` protobuf
-    message DHHeader {
-      bytes key = 1;
-    }
-    ```
-    - `key`: Alice's compressed ephemeral public key.
+Alice's identity key $IK_A$ is sent at the transport layer level (Whisper);
 
+
+`DR_header`: Double ratchet header ([code](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L31)). Used when Bob's public bundle is available:
+
+```protobuf
+message DRHeader {
+  bytes key = 1;
+  uint32 n = 2;
+  uint32 pn = 3;
+  bytes id = 4;
+}
+```
+- `key`: Alice's current ratchet public key (as mentioned in [DR spec section 2.2](https://signal.org/docs/specifications/doubleratchet/#symmetric-key-ratchet));
+- `n`: number of the message in the sending chain;
+- `pn`: length of the previous sending chain;
+- `id`: Bob's bundle ID.
+
+
+`DH_header`: Diffie-Helman header (used when Bob's bundle is not available): ([code](https://github.com/status-im/status-go/blob/a904d9325e76f18f54d59efc099b63293d3dcad3/services/shhext/chat/encryption.proto#L42))
+
+```protobuf
+message DHHeader {
+  bytes key = 1;
+}
+```
+
+- `key`: Alice's compressed ephemeral public key.
 - `payload`:
     - if a bundle is available, contains payload encrypted with the Double Ratchet algorithm;
     - otherwise, payload encrypted with output key of DH exchange (no Perfect Forward Secrecy).
-    -
 
-# 3. Session Management
+## 3. Session Management
 
 This section describe how sessions are handled.
 
@@ -244,16 +242,16 @@ A peer is identified by two pieces of data:
 1) An `installation-id` which is generated upon creating a new account in the `Status` application
 2) Their identity whisper key
 
-## 3.1 Initializiation
+### 3.1 Initializiation
 
 A new session is initialized once a successful X3DH exchange has taken place.
 Subsequent messages will use the established session until re-keying is necessary.
 
-## 3.2 Concurrent sessions
+### 3.2 Concurrent sessions
 
 If two sessions are created concurrently between two peers the one with the symmetric key first in byte order should be used, marking the other has expired.
 
-## 3.3 Re-keying
+### 3.3 Re-keying
 
 On receiving a bundle from a given peer with a higher version, the old bundle should be marked as expired and a new session should be established on the next message sent.
 
@@ -267,7 +265,7 @@ Taking these considerations into account, the way multi-device information is pr
 
 This mean that every time a new device is paired, the bundle needs to be updated and propagated with the new information, and the burden is put on the user to make sure the pairing is successful.
 
-## 4.1 Pairing
+### 4.1 Pairing
 
 When a user adds a new account, a new `installation-id` will be generated. The device should be paired as soon as possible if other devices are present. Once paired the contacts will be notified of the new device and it will be included in further communications.
 
@@ -279,22 +277,22 @@ The bundle will be propagated to contacts through the usual channels.
 
 Removal of paired devices is a manual step that needs to be applied on each device, and consist simply in disabling the device, at which point pairing information will not be propagated anymore.
 
-## 4.2 Sending messages to a paired group
+### 4.2 Sending messages to a paired group
 
 When sending a message, the peer will send a message to any `installation-id` that they have seen, using pairwise encryption, including their own devices.
 
 The number of devices is capped to 3, ordered by last activity.
 
-## 4.3 Account recovery
+### 4.3 Account recovery
 
 Account recovery is no different from adding a new device, and it is handled in exactly the same way.
 
-## 4.4 Partitioned devices
+### 4.4 Partitioned devices
 
 In some cases (i.e. account recovery when no other pairing device is available, device not paired), it is possible that a device will receive a message that is not targeted to its own `installation-id`.
 In this case an empty message containing bundle information is sent back, which will notify the receiving end of including this device in any further communication.
 
-# 5. Security Considerations
+## 5. Security Considerations
 
 The same considerations apply as in [section 4 of the X3DH spec](https://signal.org/docs/specifications/x3dh/#security-considerations) and [section 6 of the Double Ratchet spec](https://signal.org/docs/specifications/doubleratchet/#security-considerations), with some additions detailed below.
 

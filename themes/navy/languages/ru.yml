@@ -145,28 +145,6 @@ site:
           link-1: 'Введение в расширения'
           link-2: Обучение
           link-3: 'Примеры и существующие расширения'
-      development-resources:
-        contribute-support:
-          title: 'Помощь в поддержке'
-          link-1: 'Написать документацию'
-          link-1-description: 'Окунитесь и помогите написать, отредактировать и исправить документы. Все изменения сделаны через GitHub.'
-          link-2: 'Перевести документацию'
-          link-2-description: 'Нам нужна помощь в переводе всей нашей документации на ваш местный язык.'
-          link-3: 'Приветствуем Новых Участников'
-          link-3-description: 'Присоединяйтесь к каналу Status #introductions и помогайте новым участникам и участникам сообщества.'
-          link-4: 'Создать учебники'
-          link-4-description: 'Свяжитесь с нами и узнайте, как вы можете разместить свои учебники в документации и блоге Status.'
-        developer-resources:
-          title: 'Ресурсы для разработчиков'
-          link-1: 'Репозитории Github'
-          link-2: Документация
-          link-3: начинать
-          link-4: Обучение
-          link-5: 'Ночные сборки'
-          link-6: Блог
-          link-7: 'Прослушивание последнего доклада разработчика ядра программы'
-          link-8: 'Проверьте последние заметки о выпуске'
-          link-9: 'Смотрите список активных роев'
       get-in-touch:
         title: 'Свяжитесь с нами'
         join-status:
@@ -225,7 +203,6 @@ site:
         link-5: 'Ночные сборки'
         link-5-description: 'Установите и протестируйте последнюю ночную сборку для мобильных и настольных компьютеров.'
         link-6: 'Проверьте последние заметки о выпуске'
-        link-7: 'Смотрите список активных роев'
         link-8: 'Смотрите полный список Status публичных каналов'
       get-in-touch:
         join-statusphere:
@@ -396,63 +373,6 @@ site:
         title: Реализация
       communication-post-mortem:
         title: 'Связь и вскрытие'
-    active-swarms:
-      title: 'Активные рои'
-      link: 'Просмотреть все рои на Github'
-      inner-1:
-        title: 'Основные сетевые стимулы'
-        swarm-meta: 'Утилита SNT'
-      inner-2:
-        title: 'Рынок стикеров'
-        swarm-meta: 'Утилита SNT'
-      inner-3:
-        title: 'Дань уважения за разговоры'
-        swarm-meta: 'Утилита SNT'
-      inner-4:
-        title: 'Магазин DApp'
-        swarm-meta: 'Утилита SNT'
-      inner-5:
-        title: 'Сеть продавцов'
-        swarm-meta: 'Утилита SNT'
-      inner-6:
-        title: 'Экономика токенов'
-        swarm-meta: Основы
-      inner-7:
-        title: 'Основные улучшения'
-        swarm-meta: Основы
-      inner-8:
-        title: протокол
-        swarm-meta: Исследования
-      inner-9:
-        title: DAO
-        swarm-meta: Основы
-      inner-10:
-        title: Дворники
-        swarm-meta: Основы
-      inner-11:
-        title: Основной
-        swarm-meta: Команда
-      inner-12:
-        title: 'Основной браузер'
-        swarm-meta: 'Ядро Команды'
-      inner-13:
-        title: 'Основной чат'
-        swarm-meta: 'Ядро Команды'
-      inner-14:
-        title: Desktop
-        swarm-meta: 'Ядро Команды'
-      inner-15:
-        title: 'Основной Кошелек'
-        swarm-meta: 'Ядро Команды'
-      inner-16:
-        title: Keycard
-        swarm-meta: 'Status Network (Сеть Status)'
-      inner-17:
-        title: Embark
-        swarm-meta: 'Status Network (Сеть Status)'
-      inner-18:
-        title: Nimbus
-        swarm-meta: 'Status Network (Сеть Status)'
     core-contributors:
       title: 'Основные участники'
       description: 'Status не является традиционной организацией. У нас нет иерархии, нет офисов и менеджеров. Мы все здесь для достижения нашей миссии, и у нас есть свобода выбора, как мы это делаем.'
@@ -593,9 +513,6 @@ site:
       status-go:
         title: Status-Go
         description: 'Модуль Status, который потребляет go-ethereum.'
-      swarms:
-        title: рои
-        description: 'Рой Главная. Новые, завершенные и незавершенные функции для Status.'
     help:
       title: 'Мы здесь, чтобы помочь!'
       description: 'Мы всегда рады помочь с кодом или любыми вопросами, которые у вас есть.'

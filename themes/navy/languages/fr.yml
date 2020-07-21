@@ -161,28 +161,6 @@ site:
           link-1: 'Introduction aux extensions'
           link-2: Tutoriels
           link-3: 'Exemples et extensions existantes'
-      development-resources:
-        contribute-support:
-          title: 'Contribuer au Support'
-          link-1: 'Écrire la Documentation'
-          link-1-description: 'Plongez et aidez à écrire, éditer et corriger les docs. Les modifications sont toutes effectuées via GitHub.'
-          link-2: 'Traduire la Documentation'
-          link-2-description: 'Nous avons besoin d''aide pour traduire toute notre documentation dans votre langue locale.'
-          link-3: 'Bienvenue aux Nouveaux Contributeurs'
-          link-3-description: 'Rejoignez Status #introductions canal et aider les nouveaux contributeurs et membres de la communauté.'
-          link-4: 'Créer Des Tutoriels'
-          link-4-description: 'Contactez-nous et découvrez comment vous pouvez intégrer vos didacticiels dans la documentation et le blog Status.'
-        developer-resources:
-          title: 'Ressources pour développeurs'
-          link-1: 'Dépôts Github'
-          link-2: Documentation
-          link-3: Embarquer
-          link-4: Tutoriels
-          link-5: 'Constructions nocturnes'
-          link-6: Blog
-          link-7: 'Écoutez le dernier appel des développeurs de bases'
-          link-8: 'Découvrez les dernières notes de version'
-          link-9: 'Voir la liste des essaims actifs'
       get-in-touch:
         title: 'Entrez en contact'
         join-status:
@@ -248,7 +226,6 @@ site:
         link-5: 'Les nuités'
         link-5-description: 'Installez et testez la dernière version nocturne pour mobile et ordinateur de bureau.'
         link-6: 'Découvrez les dernières notes de version'
-        link-7: 'Voir la liste des essaims actifs'
         link-8: 'Voir la liste complète des chaînes publiques Status'
       get-in-touch:
         join-statusphere:
@@ -439,63 +416,6 @@ site:
         title: 'Mise en œuvre'
       communication-post-mortem:
         title: 'Communication & Post-mortem'
-    active-swarms:
-      title: 'Les essaims actifs'
-      link: ' Afficher tous les Essaims sur Github'
-      inner-1:
-        title: 'Incitatifs de réseau de base'
-        swarm-meta: 'Utilité SNT'
-      inner-2:
-        title: 'Marché des autocollants'
-        swarm-meta: 'Utilité SNT'
-      inner-3:
-        title: 'Tribute to talk'
-        swarm-meta: 'Utilité SNT'
-      inner-4:
-        title: 'Magasin DApp'
-        swarm-meta: 'Utilité SNT'
-      inner-5:
-        title: 'Réseau Teller'
-        swarm-meta: 'Utilité SNT'
-      inner-6:
-        title: 'Économies du Jeton'
-        swarm-meta: Essentiels
-      inner-7:
-        title: 'Améliorations de base'
-        swarm-meta: Essentiels
-      inner-8:
-        title: Protocole
-        swarm-meta: Recherche
-      inner-9:
-        title: DAO
-        swarm-meta: Essentiels
-      inner-10:
-        title: Concierges
-        swarm-meta: Essentiels
-      inner-11:
-        title: Base
-        swarm-meta: 'Les équipes'
-      inner-12:
-        title: 'Navigateur de base'
-        swarm-meta: 'Équipes de base'
-      inner-13:
-        title: 'Chat de base'
-        swarm-meta: 'Équipes de base'
-      inner-14:
-        title: Bureau
-        swarm-meta: 'Équipes de base'
-      inner-15:
-        title: 'Portefeuille de base'
-        swarm-meta: 'Équipes de base'
-      inner-16:
-        title: Keycard
-        swarm-meta: 'Réseau Status'
-      inner-17:
-        title: Embarquer
-        swarm-meta: 'Réseau Status'
-      inner-18:
-        title: Nimbus
-        swarm-meta: 'Réseau Status'
     core-contributors:
       title: 'Contributeurs de base'
       description: 'Statut n''est pas une organisation traditionnelle. Nous n''avons pas de hiérarchie, il n''y a pas de bureaux ni de gestionnaires. Nous sommes tous ici pour accomplir notre mission et nous avons la liberté de choisir comment nous le faisons.'
@@ -631,9 +551,6 @@ site:
       status-go:
         title: status-go
         description: 'Le module Status qui consomme du go-ethereum.'
-      swarms:
-        title: essaims
-        description: 'Swarm Home. Fonctionnalités nouvelles, complètes et en cours d''avancement pour Status'
       specs:
         title: spécifications
         description: 'Spécifications pour les clients Status.'

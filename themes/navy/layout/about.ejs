@@ -8,7 +8,6 @@
 				<h1 class="text-center font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.about.intro.title') %></h1>
 				<ul class="flex items-center justify-center mt-12">
 					<li><a href="#our-principles" class="js-scrollto text-primary-base font-bold font-display hover:text-primary-900"><%- __('site.about.intro.link-1') %></a></li>
-					<li><a href="#active-swarms" class="js-scrollto text-primary-base font-bold ml-20 font-display hover:text-primary-900"><%- __('site.about.intro.link-2') %></a></li>
 					<li><a href="#core-contributors" class="js-scrollto text-primary-base font-bold ml-20 font-display hover:text-primary-900"><%- __('site.about.intro.link-3') %></a></li>
 				</ul>
 				<p class="max-w-screen-lg lg:px-48 mx-auto text-gray-600 mt-12 xl:mt-40 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.about.intro.description') %></p>
@@ -79,32 +78,6 @@
 		<div class="max-w-screen-2xl mx-auto px-4 py-64 lg:px-12">
 			<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.how-we-work.title') %></h3>
 			<p class="text-gray-900 mt-12 text-xl xl:text-3xl font-display font-medium leading-normal"><%- __('site.about.how-we-work.description') %></p>
-			<ul class="flex items-center flex-wrap mt-24 -ml-12 xl:-ml-24">
-				<li class="mt-12 ml-12 xl:ml-24">
-					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
-						<%- image_tag("/img/research.svg") %>
-					</div>
-					<%- __('site.about.how-we-work.research.title') %>
-				</li>
-				<li class="ml-12 xl:ml-24 flex items-center mt-12">
-					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
-						<%- image_tag("/img/specifications-and-planning.svg") %>
-					</div>
-					<%- __('site.about.how-we-work.specifications-planning.title') %>
-				</li>
-				<li class="ml-12 xl:ml-24 flex items-center mt-12">
-					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
-						<%- image_tag("/img/implementation.svg") %>
-					</div>
-					<%- __('site.about.how-we-work.implementation.title') %>
-				</li>
-				<li class="ml-12 xl:ml-24 flex items-center mt-12">
-					<div class="bg-black w-20 h-20 rounded-full inline-flex items-center justify-center mr-8">
-						<%- image_tag("/img/communication-and-post-mortem.svg") %>
-					</div>
-					<%- __('site.about.how-we-work.communication-post-mortem.title') %>
-				</li>
-			</ul>
 			<div class="mt-64">
 				<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.join-us.title') %></h3>
 				<ul class="flex items-center mt-24">
@@ -112,7 +85,7 @@
 						<a href="https://join.status.im/status"><%- image_tag("img/status-token.svg", {style: 'width:50px'}) %></a>
 					</li>
 					<li class="ml-32">
-						<a href="https://discord.gg/3Exux7Y"><%- image_tag("img/discord-logo.svg", {style: 'width:60px'}) %></a>
+						<a href="<%= config.discord_url %>"><%- image_tag("img/discord-logo.svg", {style: 'width:60px'}) %></a>
 					</li>
 					<li class="ml-32">
 						<a href="https://github.com/status-im"><%- image_tag("img/github-black-logo.svg", {style: 'width:50px'}) %></a>

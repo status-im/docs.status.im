@@ -158,28 +158,6 @@ site:
           link-1: 'Introducción a extensiones'
           link-2: Tutoriales
           link-3: 'Ejemplos y extensiones existentes'
-      development-resources:
-        contribute-support:
-          title: 'Contribuir apoyo'
-          link-1: 'Escribe documentación'
-          link-1-description: 'Sumérgete y ayuda a escribir, editar y arreglar los documentos. Las ediciones se realizan a través de GitHub.'
-          link-2: 'Traduce documentación'
-          link-2-description: 'Necesitamos ayuda para traducir toda nuestra documentación a tu idioma local.'
-          link-3: 'Bienvenidos nuevos contribuidores'
-          link-3-description: 'Únete al canal de Status #introductions y ayuda a los nuevos contribuidores y miembros de la comunidad.'
-          link-4: 'Crea tutoriales'
-          link-4-description: 'Contáctanos y aprende cómo puedes tener tus tutoriales en los documentos y en el blog de Status.'
-        developer-resources:
-          title: 'Recursos para desarrolladores'
-          link-1: 'Repositorios Github'
-          link-2: Documentación
-          link-3: Embark
-          link-4: Tutoriales
-          link-5: 'Nightly Builds'
-          link-6: Blog
-          link-7: 'Escucha la última llamada de desarrolladores core'
-          link-8: 'Echa un vistazo a las últimas notas de lanzamiento'
-          link-9: 'Ve la lista de enjambres activos'
       get-in-touch:
         title: 'Ponte en contacto'
         join-status:
@@ -244,7 +222,6 @@ site:
         link-5: Nightlies
         link-5-description: 'Instala y prueba la última versión nightly para dispositivos móviles y de escritorio.'
         link-6: 'Echa un vistazo a las últimas notas de lanzamiento'
-        link-7: 'Ve la lista de enjambres activos'
         link-8: 'Ver lista completa de canales públicos de Status'
       get-in-touch:
         join-statusphere:
@@ -388,7 +365,6 @@ site:
     intro:
       title: 'La misión'
       link-1: 'Nuestros principios'
-      link-2: 'Swarms activos'
       link-3: 'Contribuidores Core'
       description: 'Status se esfuerza por ser una herramienta de comunicación segura que respete los derechos humanos. Hacemos posible que el dinero de la comunidad, el derecho comunitario y a través de la privacidad, preserve la cultura.'
     principles:
@@ -435,63 +411,6 @@ site:
         title: Implementación
       communication-post-mortem:
         title: 'Comunicación y Post-mortem'
-    active-swarms:
-      title: 'Swarms activos'
-      link: 'Ver todos los enjambres en Github'
-      inner-1:
-        title: 'Incentivos Core Network'
-        swarm-meta: 'Utilidad SNT'
-      inner-2:
-        title: 'Sticker Market'
-        swarm-meta: 'Utilidad SNT'
-      inner-3:
-        title: 'Tribute to Talk'
-        swarm-meta: 'Utilidad SNT'
-      inner-4:
-        title: 'DApp Store'
-        swarm-meta: 'Utilidad SNT'
-      inner-5:
-        title: 'Teller Network'
-        swarm-meta: 'Utilidad SNT'
-      inner-6:
-        title: 'Token Economía'
-        swarm-meta: Esenciales
-      inner-7:
-        title: 'Mejoras principales'
-        swarm-meta: Esenciales
-      inner-8:
-        title: Protocolo
-        swarm-meta: Investigación
-      inner-9:
-        title: DAO
-        swarm-meta: Esenciales
-      inner-10:
-        title: Conserjes
-        swarm-meta: Esenciales
-      inner-11:
-        title: Core
-        swarm-meta: Equipos
-      inner-12:
-        title: 'Navegador Core'
-        swarm-meta: 'Equipos Core'
-      inner-13:
-        title: 'Chat Core'
-        swarm-meta: 'Equipos Core'
-      inner-14:
-        title: Desktop
-        swarm-meta: 'Equipos Core'
-      inner-15:
-        title: 'Billetera Core'
-        swarm-meta: 'Equipos Core'
-      inner-16:
-        title: Keycard
-        swarm-meta: 'Status Network'
-      inner-17:
-        title: Embark
-        swarm-meta: 'Status Network'
-      inner-18:
-        title: Nimbus
-        swarm-meta: 'Status Network'
     core-contributors:
       title: 'Contribuidores Core'
       description: 'Status no es una organización tradicional. No tenemos jerarquía, no hay oficinas ni gerentes. Todos estamos aquí para lograr nuestra misión, y tenemos la libertad de elegir cómo hacerlo.'
@@ -627,9 +546,6 @@ site:
       status-go:
         title: status-go
         description: 'El módulo de Status que consume go-ethereum.'
-      swarms:
-        title: enjambres
-        description: 'Hogar enjambre. Funciones nuevas, completadas y en curso para Status.'
       specs:
         title: especificaciones
         description: 'Especificaciones para clientes de Status'

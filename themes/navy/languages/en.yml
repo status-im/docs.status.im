@@ -39,7 +39,6 @@ site:
     intro:
       title: "The Mission"
       link-1: "Our Principles"
-      link-2: "Active Swarms"
       link-3: "Core Contributors"
       description: "Status strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals."
     principles:
@@ -77,7 +76,7 @@ site:
         description: "We are relentlessly resourceful. As we grow and have ready access to capital, it is our obligation to token holders to fight bureaucracy and inefficiencies within the organization. This means solving problems in the most effective way possible at lower economic costs (in terms of capital, time and resources)."
     how-we-work:
       title: "How we work"
-      description: "We are a team distributed across the world working remotely from all corners of the world. We work in Swarms which are small teams of 2-5 people with a very specific goal. Swarms follow a structured approach for feature and product development."
+      description: "We are a team distributed across the world working remotely from all corners of the world. We work in small teams of 2-5 people with a very specific goal."
       research:
         title: "Research"
       specifications-planning:
@@ -88,63 +87,6 @@ site:
         title: "Communication & Post-mortem"
     join-us:
       title: "Join us"
-    active-swarms:
-      title: "Active Swarms"
-      link: " View all Swarms on Github"
-      inner-1:
-        title: "Core Network Incentives"
-        swarm-meta: "SNT Utility"
-      inner-2:
-        title: "Sticker Market"
-        swarm-meta: "SNT Utility"
-      inner-3:
-        title: "Tribute to Talk"
-        swarm-meta: "SNT Utility"
-      inner-4:
-        title: "DApp Store"
-        swarm-meta: "SNT Utility"
-      inner-5:
-        title: "Teller Network"
-        swarm-meta: "SNT Utility"
-      inner-6:
-        title: "Token Economics"
-        swarm-meta: "Essentials"
-      inner-7:
-        title: "Core Improvements"
-        swarm-meta: "Essentials"
-      inner-8:
-        title: "Protocol"
-        swarm-meta: "Research"
-      inner-9:
-        title: "DAO"
-        swarm-meta: "Essentials"
-      inner-10:
-        title: "Janitors"
-        swarm-meta: "Essentials"
-      inner-11:
-        title: "Core"
-        swarm-meta: "Teams"
-      inner-12:
-        title: "Core Browser"
-        swarm-meta: "Core Teams"
-      inner-13:
-        title: "Core Chat"
-        swarm-meta: "Core Teams"
-      inner-14:
-        title: "Desktop"
-        swarm-meta: "Core Teams"
-      inner-15:
-        title: "Core Wallet"
-        swarm-meta: "Core Teams"
-      inner-16:
-        title: "Keycard"
-        swarm-meta: "Status Network"
-      inner-17:
-        title: "Embark"
-        swarm-meta: "Status Network"
-      inner-18:
-        title: "Nimbus"
-        swarm-meta: "Status Network"
     core-contributors:
       title: "Core Contributors"
       description: "Status is not a traditional organization. We don't have hierarchy, there are no offices and no managers. We're all here to achieve our mission, and we have the freedom to choose how we do it."
@@ -365,28 +307,6 @@ site:
           link-1: "Introduction to Extensions"
           link-2: "Tutorials"
           link-3: "Examples & Existing Extensions"
-      development-resources:
-        contribute-support:
-          title: "Contribute Support"
-          link-1: "Write Documentation"
-          link-1-description: "Dive in and help write, edit, and fix the docs. Edits are all made via GitHub."
-          link-2: "Translate Documentation"
-          link-2-description: "We need help translating all of our documentation into your local language."
-          link-3: "Welcome New Contributors"
-          link-3-description: "Join the Status #introductions channel and help out new contributors and community members."
-          link-4: "Create Tutorials"
-          link-4-description: "Contact us and learn how you can have your tutorials featured in the docs and the Status blog."
-        developer-resources:
-          title: "Developer Resources"
-          link-1: "Github Repositories"
-          link-2: "Documentation"
-          link-3: "Embark"
-          link-4: "Tutorials"
-          link-5: "Nightly Builds"
-          link-6: "Blog"
-          link-7: "Listen to the latest core developer call"
-          link-8: "Check out the latest release notes"
-          link-9: "See the list of active swarms"
       get-in-touch:
         title: "Get in touch"
         join-status:
@@ -446,7 +366,6 @@ site:
         link-5: "Nightlies"
         link-5-description: "Install and test the latest nightly build for mobile and desktop."
         link-6: "Check out the latest release notes"
-        link-7: "See the list of active swarms"
         link-8: "See full list of Status Public Channels"
       get-in-touch:
         join-statusphere:
@@ -941,9 +860,6 @@ site:
       status-go:
         title: "status-go"
         description: "The Status module that consumes go-ethereum."
-      swarms:
-        title: "swarms"
-        description: "Swarm Home. New, completed and in-progress features for Status."
       specs:
         title: "specs"
         description: "Specifications for Status clients."

@@ -162,28 +162,6 @@ site:
           link-1: 'Panimula sa Mga Extension'
           link-2: 'Mga Tutorial'
           link-3: 'Mga halimbawa at Mga Umiiral na Extension'
-      development-resources:
-        contribute-support:
-          title: 'Mag-ambag ng Suporta'
-          link-1: 'Sumulat ng Dokumentasyon'
-          link-1-description: 'Sumisid at makakatulong sa pagsulat, pag-edit, at ayusin ang mga doc. Lahat ng mga pag-edit ay ginawa sa pamamagitan ng GitHub.'
-          link-2: 'Isalin ang Dokumentasyon'
-          link-2-description: 'Kailangan namin ng tulong na isalin ang lahat ng aming babasahin sa iyong lokal na wika.'
-          link-3: 'Maligayang pagdating sa Mga Bagong Kontribyutor'
-          link-3-description: 'Sumali sa Status #introductions channel at tulungan ang mga bagong kontribyutor at bagong miyembro ng komunidad.'
-          link-4: 'Lumikha ng Mga Tutorial'
-          link-4-description: 'Makipag-ugnay sa amin at alamin kung paano mo maaaring itampok ang iyong mga tutorial sa mga doc at sa Status blog.'
-        developer-resources:
-          title: 'Mga mapagkukunan ng developer'
-          link-1: 'Github Repositories'
-          link-2: Dokumentasyon
-          link-3: Embark
-          link-4: 'Mga Tutorial'
-          link-5: 'Gawang Nightly'
-          link-6: Blog
-          link-7: 'Makinig sa pinakabagong tawag sa pangunahing developer'
-          link-8: 'Tingnan ang mga bagong labas na mga notes'
-          link-9: 'Tingnan ang listahan ng mga aktibong swarm'
       get-in-touch:
         title: Makipag-ugnayan
         join-status:
@@ -249,7 +227,6 @@ site:
         link-5: Nightlies
         link-5-description: 'i-install at test ang bagong nightly gawa sa mobile at desktop.'
         link-6: 'Suriin ang pinakabagong labas na mga notes'
-        link-7: 'Tingnan ang listahan ng active swarms'
         link-8: 'Tingnan ang buong listahan sa Pampublikong Channel ng Status'
       get-in-touch:
         join-statusphere:
@@ -445,63 +422,6 @@ site:
         title: Pagpapatupad
       communication-post-mortem:
         title: 'Komunikasyon at Post-mortem'
-    active-swarms:
-      title: 'Mga Aktibong Swarms'
-      link: 'Tingnan lahat ng Swarms sa Github'
-      inner-1:
-        title: 'Insentibo sa Core Network'
-        swarm-meta: 'SNT Utility'
-      inner-2:
-        title: 'Sticker Market'
-        swarm-meta: 'SNT Utility'
-      inner-3:
-        title: 'Pagkilala sa Usapan'
-        swarm-meta: 'SNT Utility'
-      inner-4:
-        title: 'DApp Store'
-        swarm-meta: 'SNT Utility'
-      inner-5:
-        title: 'Teller Network'
-        swarm-meta: 'SNT Utility'
-      inner-6:
-        title: 'Token Economics'
-        swarm-meta: Mahahalaga
-      inner-7:
-        title: 'pagpapabuti ng pangunahing'
-        swarm-meta: Mahahalaga
-      inner-8:
-        title: Protocol
-        swarm-meta: Pananaliksik
-      inner-9:
-        title: DAO
-        swarm-meta: Mahahalaga
-      inner-10:
-        title: 'Mga Janitors'
-        swarm-meta: Mahahalaga
-      inner-11:
-        title: Core
-        swarm-meta: 'Mga koponan'
-      inner-12:
-        title: 'Core Browser'
-        swarm-meta: 'Core Teams'
-      inner-13:
-        title: 'Core Chat'
-        swarm-meta: 'Core Teams'
-      inner-14:
-        title: Desktop
-        swarm-meta: 'Core Teams'
-      inner-15:
-        title: 'Core Wallet'
-        swarm-meta: 'Core Teams'
-      inner-16:
-        title: Keycard
-        swarm-meta: 'Status Network'
-      inner-17:
-        title: Embark
-        swarm-meta: 'Status Network'
-      inner-18:
-        title: Nimbus
-        swarm-meta: 'Status Network'
     core-contributors:
       title: 'Core Contributors'
       description: 'Status ay isang tradisyunal na organisasyon na walang hierarchy, walang opisina at walang tagapamahala. Kami ay nandito upang makamit ang aming misyon, at kami ay may kalayaan upang mamili kung paano namin ito gawin.'
@@ -637,9 +557,6 @@ site:
       status-go:
         title: status-go
         description: 'Ang Status module na ginagamit ni go-ethereum'
-      swarms:
-        title: swarms
-        description: 'Swarm Home. Bago, Kumpleto at mga tampok na pag-unlad para sa Status'
       specs:
         title: specs
         description: 'Mga pagtutukoy para sa Status Clients.'

@@ -162,28 +162,6 @@ site:
           link-1: 扩展件介绍
           link-2: 教程
           link-3: 实例和现有扩展
-      development-resources:
-        contribute-support:
-          title: 贡献支持
-          link-1: 写文档
-          link-1-description: 潜入并帮助编写，编辑和修复文档。编辑都是通过GitHub进行的。
-          link-2: 翻译文档
-          link-2-description: 我们需要帮助将我们所有的文档翻译成您的当地语言。
-          link-3: 欢迎新来者
-          link-3-description: '加入Status 频道#introductions , 帮助新的贡献者和社区成员。'
-          link-4: 创建教程
-          link-4-description: 联系我们，了解如何在文档和Status博客中展示您的教程。
-        developer-resources:
-          title: 开发者资源
-          link-1: Github代码库
-          link-2: 文档
-          link-3: 'Embark '
-          link-4: 教程
-          link-5: 每日构建
-          link-6: 博客
-          link-7: 收听最新的核心开发人员电话会议
-          link-8: 查看最新发行说明
-          link-9: 查看活跃团队列表
       get-in-touch:
         title: 联系我们
         join-status:
@@ -249,7 +227,6 @@ site:
         link-5: Nightlies版
         link-5-description: 安装并测试最新的移动和桌面测试版本。
         link-6: 查看最新发行版的说明
-        link-7: 查看活跃团队列表
         link-8: 查看Status公共频道的完整列表
       get-in-touch:
         join-statusphere:
@@ -445,63 +422,6 @@ site:
         title: 实现
       communication-post-mortem:
         title: '沟通&反思'
-    active-swarms:
-      title: 活跃的团队
-      link: 在Github查看所有活动
-      inner-1:
-        title: 核心网络激励
-        swarm-meta: 'SNT 实用程序'
-      inner-2:
-        title: 贴纸市场
-        swarm-meta: 'SNT 实用程序'
-      inner-3:
-        title: 向谈话致敬
-        swarm-meta: 'SNT 实用程序'
-      inner-4:
-        title: DApp商店
-        swarm-meta: 'SNT 实用程序'
-      inner-5:
-        title: 柜员网络
-        swarm-meta: 'SNT 实用程序'
-      inner-6:
-        title: 通证经济
-        swarm-meta: 要点
-      inner-7:
-        title: 核心改进
-        swarm-meta: 要点
-      inner-8:
-        title: 协议
-        swarm-meta: 研究
-      inner-9:
-        title: DAO
-        swarm-meta: 要点
-      inner-10:
-        title: 校工
-        swarm-meta: 要点
-      inner-11:
-        title: 核心
-        swarm-meta: 团队
-      inner-12:
-        title: 浏览器内核
-        swarm-meta: 核心团队
-      inner-13:
-        title: 核心聊天
-        swarm-meta: 核心团队
-      inner-14:
-        title: 桌面
-        swarm-meta: 核心团队
-      inner-15:
-        title: 核心钱包
-        swarm-meta: 核心团队
-      inner-16:
-        title: 钥匙卡
-        swarm-meta: 'Status 网络'
-      inner-17:
-        title: Embark
-        swarm-meta: 'Status 网络'
-      inner-18:
-        title: Nimbus
-        swarm-meta: Status网络
     core-contributors:
       title: 核心贡献者
       description: Status并不是一个传统的组织，没有层级结构，也没有办公室和经理，只是为了某个共同的任务而在一起，然后大家可以自由地选择工作方式。
@@ -637,9 +557,6 @@ site:
       status-go:
         title: status-go
         description: 采用go-ethereum的Status模块。
-      swarms:
-        title: swarms.
-        description: 'Swarm 主页。 Status的新功能，已完成的功能和正在开发的功能。'
       specs:
         title: specs
         description: 'Status 客户端规范。'

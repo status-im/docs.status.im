@@ -162,28 +162,6 @@ site:
           link-1: 'Einführung in Erweiterungen'
           link-2: Tutorials
           link-3: 'Beispiele und vorhandene Erweiterungen'
-      development-resources:
-        contribute-support:
-          title: 'Tragen Sie zur Unterstützung bei'
-          link-1: 'Dokumentation schreiben'
-          link-1-description: 'Tauchen Sie ein und helfen Sie beim Schreiben, Bearbeiten und Korrigieren der Dokumente. Änderungen werden alle über GitHub vorgenommen.'
-          link-2: 'Dokumentation übersetzen'
-          link-2-description: 'Wir benötigen Hilfe bei der Übersetzung aller unserer Dokumentationen in Ihre Sprache.'
-          link-3: 'Willkommen, neue Mitwirkende!'
-          link-3-description: 'Treten Sie dem Status #introductions Kanal bei und helfen Sie neuen Mitwirkenden und Community-Mitgliedern.'
-          link-4: 'Erstellen Sie Tutorials'
-          link-4-description: 'Kontaktieren Sie uns und erfahren Sie, wie Sie Ihre Tutorials in den Dokumenten und im Status-Blog veröffentlichen können.'
-        developer-resources:
-          title: Entwicklerressourcen
-          link-1: Github-Repositories
-          link-2: Dokumentation
-          link-3: Embark
-          link-4: Tutorials
-          link-5: 'Nightly Build-Versionen'
-          link-6: Blog
-          link-7: 'Hören Sie sich die neueste Konferenz der Hauptentwickler an'
-          link-8: 'Lesen Sie die neuesten Versionshinweise'
-          link-9: 'Sehen Sie sich die Liste der aktiven Schwärme an'
       get-in-touch:
         title: 'In Kontakt treten'
         join-status:
@@ -249,7 +227,6 @@ site:
         link-5: Nightlies
         link-5-description: 'Installieren und testen Sie den neuesten Nightly-Build für Mobilgeräte und Desktops.'
         link-6: 'Lesen Sie die neuesten Versionshinweise'
-        link-7: 'Sehen Sie sich die Liste der aktiven Schwärme an'
         link-8: 'Sehen Sie sich die vollständige Liste der öffentlichen Status-Kanäle an'
       get-in-touch:
         join-statusphere:
@@ -445,63 +422,6 @@ site:
         title: Implementierung
       communication-post-mortem:
         title: 'Kommunikation & Post-mortem'
-    active-swarms:
-      title: 'Aktive Schwärme'
-      link: 'Alle Schwärme auf Github anzeigen'
-      inner-1:
-        title: 'Kernanreize für das Netzwerk'
-        swarm-meta: SNT-Nutzen
-      inner-2:
-        title: Sticker-Markt
-        swarm-meta: SNT-Nutzen
-      inner-3:
-        title: 'Tribute to Talk'
-        swarm-meta: SNT-Nutzen
-      inner-4:
-        title: DApp-Store
-        swarm-meta: SNT-Nutzen
-      inner-5:
-        title: Teller-Netzwerk
-        swarm-meta: SNT-Nutzen
-      inner-6:
-        title: Token-Ökonomie
-        swarm-meta: Grundlagen
-      inner-7:
-        title: Kernverbesserungen
-        swarm-meta: Grundlagen
-      inner-8:
-        title: Protokoll
-        swarm-meta: Forschung
-      inner-9:
-        title: DAO
-        swarm-meta: Grundlagen
-      inner-10:
-        title: Hausmeister
-        swarm-meta: Grundlagen
-      inner-11:
-        title: Kern
-        swarm-meta: Teams
-      inner-12:
-        title: Browser
-        swarm-meta: Teams
-      inner-13:
-        title: Chat
-        swarm-meta: Teams
-      inner-14:
-        title: Desktop
-        swarm-meta: Teams
-      inner-15:
-        title: Wallet
-        swarm-meta: Teams
-      inner-16:
-        title: Keycard
-        swarm-meta: Status-Netzwerk
-      inner-17:
-        title: Embark
-        swarm-meta: Status-Netzwerk
-      inner-18:
-        title: Nimbus
-        swarm-meta: Status-Netzwerk
     core-contributors:
       title: Mitwirkende
       description: 'Status ist keine traditionelle Organisation. Wir haben keine Hierarchie, es gibt keine Büros und keine Manager. Wir sind alle hier, um unsere Mission zu erfüllen, und wir haben die Freiheit zu entscheiden, wie wir es tun.'
@@ -637,9 +557,6 @@ site:
       status-go:
         title: status-go
         description: 'Das Modul von Status, das go-ethereum verbraucht'
-      swarms:
-        title: Swarms
-        description: 'Das Zuhause von Swarm. Neue, abgeschlossene und in Bearbeitung befindliche Funktionen für Status.'
       specs:
         title: Spezifikationen
         description: 'Spezifikationen des Status-Clients.'

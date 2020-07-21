@@ -158,28 +158,6 @@ site:
           link-1: 'Pengantar Ekstensi'
           link-2: Tutorial
           link-3: 'Contoh & Ekstensi yang Ada'
-      development-resources:
-        contribute-support:
-          title: 'Sumbang Dukungan'
-          link-1: 'Tulis Dokumentasi'
-          link-1-description: 'Menyelam dan membantu menulis, mengedit, dan memperbaiki dokumen. Semua suntingan dilakukan melalui GitHub.'
-          link-2: 'Terjemahkan Dokumentasi'
-          link-2-description: 'Kami perlu bantuan menerjemahkan semua dokumentasi kami ke dalam bahasa lokal Anda.'
-          link-3: 'Selamat Datang Kontributor Baru'
-          link-3-description: 'Bergabunglah dengan saluran Status #introductions dan bantu kontributor dan anggota komunitas baru.'
-          link-4: 'Buat Tutorial'
-          link-4-description: 'Hubungi kami dan pelajari cara tutorial Anda ditampilkan di dokumen dan blog Status.'
-        developer-resources:
-          title: 'Sumber Daya Pengembang'
-          link-1: 'Repositori Github'
-          link-2: Dokumentasi
-          link-3: Memulai
-          link-4: Tutorial
-          link-5: 'Nightly Builds'
-          link-6: Blog
-          link-7: 'Medengarkan panggilan pengembang inti terbaru'
-          link-8: 'Lihat catatan rilis terbaru'
-          link-9: 'Lihat daftar kelompok aktif'
       get-in-touch:
         title: Berhubungan
         join-status:
@@ -245,7 +223,6 @@ site:
         link-5: Nightlies
         link-5-description: 'Instal dan uji bangunan malam terbaru untuk seluler dan desktop.'
         link-6: 'Lihat catatan rilis terbaru'
-        link-7: 'Lihat daftar kelompok aktif'
         link-8: 'Lihat daftar lengkap Saluran Status Publik'
       get-in-touch:
         join-statusphere:
@@ -436,63 +413,6 @@ site:
         title: Penerapan
       communication-post-mortem:
         title: 'Komunikasi & Post-mortem'
-    active-swarms:
-      title: 'Kelompok Aktif'
-      link: 'Lihat semua Kelompok di Github'
-      inner-1:
-        title: 'Insentif Jaringan Inti'
-        swarm-meta: 'Utilitas SNT'
-      inner-2:
-        title: 'Pasar Stiker'
-        swarm-meta: 'Utilitas SNT'
-      inner-3:
-        title: 'Dipersembahkan untuk bicara'
-        swarm-meta: 'Utilitas SNT'
-      inner-4:
-        title: 'Toko DApp'
-        swarm-meta: 'Utilitas SNT'
-      inner-5:
-        title: 'Jaringan Teller'
-        swarm-meta: 'Utilitas SNT'
-      inner-6:
-        title: 'Token Economics'
-        swarm-meta: 'Hal-hal penting'
-      inner-7:
-        title: 'Perbaikan Inti'
-        swarm-meta: 'Hal-hal penting'
-      inner-8:
-        title: Protokol
-        swarm-meta: Penelitian
-      inner-9:
-        title: DAO
-        swarm-meta: 'Hal-hal penting'
-      inner-10:
-        title: 'Petugas kebersihan'
-        swarm-meta: 'Hal-hal penting'
-      inner-11:
-        title: Inti
-        swarm-meta: Tim
-      inner-12:
-        title: 'Browser Inti'
-        swarm-meta: 'Tim Inti'
-      inner-13:
-        title: 'Obrolan Inti'
-        swarm-meta: 'Tim Inti'
-      inner-14:
-        title: Desktop
-        swarm-meta: 'Tim Inti'
-      inner-15:
-        title: 'Dompet Inti'
-        swarm-meta: 'Tim Inti'
-      inner-16:
-        title: 'Kartu kunci'
-        swarm-meta: 'Jaringan Status'
-      inner-17:
-        title: Memulai
-        swarm-meta: 'Jaringan Status'
-      inner-18:
-        title: Nimbus
-        swarm-meta: 'Jaringan Status'
     core-contributors:
       title: 'Kontributor Inti'
       description: 'Status bukan organisasi tradisional. Kami tidak memiliki hierarki, tidak ada kantor dan tidak ada manajer. Kami semua di sini untuk mencapai misi kami, dan kami memiliki kebebasan untuk memilih bagaimana kami melakukannya.'
@@ -628,9 +548,6 @@ site:
       status-go:
         title: status-go
         description: 'Modul Status yang mengonsumsi go-ethereum.'
-      swarms:
-        title: kawanan
-        description: 'Berkerumun di Rumah. Fitur baru, selesai dan sedang dalam proses untuk Status.'
       specs:
         title: spesifikasi
         description: 'Spesifikasi untuk Status klien.'

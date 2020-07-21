@@ -162,28 +162,6 @@ site:
           link-1: 'مقدمة إلى ملحقات'
           link-2: الدروس
           link-3: 'أمثلة وملحقات موجودة'
-      development-resources:
-        contribute-support:
-          title: 'المساهمة في الدعم'
-          link-1: 'كتابه الوثائق'
-          link-1-description: 'يمكنك الغطس في المستندات وتحريرها وإصلاحها. تتم جميع التعديلات عبر جيثب.'
-          link-2: 'ترجمة الوثائق'
-          link-2-description: 'نحن بحاجة إلى مساعدة في ترجمة جميع وثائقنا إلى لغتك المحلية.'
-          link-3: 'مرحبًا بالمساهمين الجدد'
-          link-3-description: 'انضم إلى قناة Status #introductions وساعد المساهمين الجدد وأعضاء المجتمع.'
-          link-4: 'إنشاء دروس'
-          link-4-description: 'اتصل بنا وتعرف على كيفية عرض برامجك التعليمية في المستندات وفي مدونة Status.'
-        developer-resources:
-          title: 'موارد المطور'
-          link-1: 'مستودعات جيثب'
-          link-2: الوثائق
-          link-3: الشروع
-          link-4: الدروس
-          link-5: 'يبني ليلا'
-          link-6: مدونة
-          link-7: 'الاستماع إلى أحدث مكالمة المطور الأساسية'
-          link-8: 'تحقق من أحدث ملاحظات الإصدار'
-          link-9: 'انظر قائمة swarms النشطة'
       get-in-touch:
         title: 'ابقى على تواصل'
         join-status:
@@ -249,7 +227,6 @@ site:
         link-5: Nightlies
         link-5-description: 'تثبيت واختبار أحدث بناء ليلا للجوال وسطح المكتب.'
         link-6: 'تحقق من أحدث ملاحظات الإصدار'
-        link-7: 'أفضل ممارسات Status'
         link-8: 'انظر قائمة كاملة من القنوات Status  العامة'
       get-in-touch:
         join-statusphere:
@@ -398,7 +375,6 @@ site:
     intro:
       title: المهمة
       link-1: مبادئنا
-      link-2: 'Swarms النشطة'
       link-3: 'المساهمون الأساسيون'
       description: 'تسعى الحاله إلى أن تكون أداة اتصال آمنة تدعم حقوق الإنسان. نقوم بتمكين أموال المجتمع وقانون المجتمع ومن خلال الخصوصية والحفاظ على الثقافة.'
     principles:
@@ -445,63 +421,6 @@ site:
         title: التنفيذ
       communication-post-mortem:
         title: 'الاتصالات وما بعد الوفاة'
-    active-swarms:
-      title: 'Swarms النشطة'
-      link: ' عرض الكل علي Github'
-      inner-1:
-        title: 'حوافز الشبكة الأساسية'
-        swarm-meta: ' فائدة SNT'
-      inner-2:
-        title: 'سوق الملصقات'
-        swarm-meta: ' فائدة SNT'
-      inner-3:
-        title: 'تحية للحديث'
-        swarm-meta: ' فائدة SNT'
-      inner-4:
-        title: 'متجر DApp'
-        swarm-meta: ' فائدةSNT'
-      inner-5:
-        title: 'شبكة الصراف'
-        swarm-meta: ' فائدةSNT'
-      inner-6:
-        title: 'اقتصاد الرمز'
-        swarm-meta: أساسيات
-      inner-7:
-        title: 'التحسينات الأساسية'
-        swarm-meta: أساسيات
-      inner-8:
-        title: البروتوكول
-        swarm-meta: البحث
-      inner-9:
-        title: DAO
-        swarm-meta: أساسيات
-      inner-10:
-        title: 'عمال النظافة'
-        swarm-meta: أساسيات
-      inner-11:
-        title: الأساسية
-        swarm-meta: الفرق
-      inner-12:
-        title: 'المتصفح الأساسي'
-        swarm-meta: 'الفرق الأساسية'
-      inner-13:
-        title: 'الدردشة الأساسية'
-        swarm-meta: 'الفرق الأساسية'
-      inner-14:
-        title: 'سطح المكتب'
-        swarm-meta: 'الفرق الأساسية'
-      inner-15:
-        title: 'المحفظة الاساسيه'
-        swarm-meta: 'الفرق الأساسية'
-      inner-16:
-        title: البطاقات
-        swarm-meta: 'شبكة Status'
-      inner-17:
-        title: الشروع
-        swarm-meta: 'شبكة Status'
-      inner-18:
-        title: Nimbus
-        swarm-meta: 'شبكة Status'
     core-contributors:
       title: 'المساهمون الأساسيون'
       description: 'Status ليست منظمة تقليدية. ليس لدينا تسلسل هرمي ، لا توجد مكاتب ولا مديرون. نحن جميعًا هنا لتحقيق مهمتنا ، ولدينا الحرية في اختيار كيفية القيام بذلك.'
@@ -637,9 +556,6 @@ site:
       status-go:
         title: status-go
         description: 'وحدات Status التي تستهلك go-ethereum'
-      swarms:
-        title: swarms
-        description: 'سرب الرئيسية. الميزات الجديدة والمنجزة والجارية Status.'
       specs:
         title: المواصفات
         description: 'مواصفات عملاء الحالة.'

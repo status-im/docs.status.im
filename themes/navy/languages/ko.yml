@@ -162,28 +162,6 @@ site:
           link-1: '확장 프로그램을 소개합니다'
           link-2: 튜토리얼
           link-3: '예제 & 기존 확장 프로그램'
-      development-resources:
-        contribute-support:
-          title: '기여자 지원'
-          link-1: '문서를 작성하기'
-          link-1-description: '개발 문서 작성, 편집 및 수정할 수 있도록 도와주실 수 있습니다. 모든 편집은 GitHub을 통해 진행됩니다.'
-          link-2: '개발 문서 번역하기'
-          link-2-description: '스테이터스의 모든 개발 문서를 현지 언어로 번역하는 데 여러분의 도움이 필요합니다.'
-          link-3: '새로운 기여자를 환영합니다.'
-          link-3-description: '스테이터스 #introductions 채널에 참여하여 신규 기여자 및 커뮤니티 구성원들과 함께 합니다.'
-          link-4: '튜토리얼 만들기'
-          link-4-description: '개발 문서 및 스테이터스 블로그에 튜토리얼을 작성하는 방법에 대해 알아보려면, 스테이터스에 문의해주시기 바랍니다.'
-        developer-resources:
-          title: '개발자 리소스'
-          link-1: '깃허브 저장소'
-          link-2: '개발 문서'
-          link-3: 엠바크
-          link-4: 튜토리얼
-          link-5: '개발용 버전'
-          link-6: 블로그
-          link-7: '최신 개발자 회의 확인하기'
-          link-8: '최신 릴리즈 노트 확인하기'
-          link-9: '주요 스웜 프로젝트 리스트 조회'
       get-in-touch:
         title: 연락하기
         join-status:
@@ -249,7 +227,6 @@ site:
         link-5: '나이틀리 테스트 버전'
         link-5-description: '모바일과 데스크톱을 위한 최신 나이틀리 빌드를 설치하고 테스트 할 수 있습니다.'
         link-6: '최신 버전 릴리즈 노트를 확인하세요'
-        link-7: '현재 진행 중인 스웜 프로젝트 확인'
         link-8: '스테이터스 오픈채팅 전체 목록보기'
       get-in-touch:
         join-statusphere:
@@ -448,63 +425,6 @@ site:
         title: 실행
       communication-post-mortem:
         title: '커뮤니케이션 & 사후 분석'
-    active-swarms:
-      title: '주요 스웜(Swarm)'
-      link: 'Gitub에서 모든 스웜(Swarm) 보기'
-      inner-1:
-        title: '코어 네트워크 인센티브'
-        swarm-meta: 'SNT 유틸리티'
-      inner-2:
-        title: '이모티콘 마켓'
-        swarm-meta: 'SNT 유틸리티'
-      inner-3:
-        title: '트리뷰트 투 토크'
-        swarm-meta: 'SNT 유틸리티'
-      inner-4:
-        title: '디앱 스토어'
-        swarm-meta: 'SNT 유틸리티'
-      inner-5:
-        title: '텔러 네트워크'
-        swarm-meta: 'SNT 유틸리티'
-      inner-6:
-        title: '토큰 이코노미스트'
-        swarm-meta: '필수 요소'
-      inner-7:
-        title: '코어 개선'
-        swarm-meta: '필수 요소'
-      inner-8:
-        title: 프로토콜
-        swarm-meta: 연구
-      inner-9:
-        title: DAO
-        swarm-meta: '필수 요소'
-      inner-10:
-        title: 재니터스
-        swarm-meta: '필수 요소'
-      inner-11:
-        title: 코어
-        swarm-meta: 팀
-      inner-12:
-        title: '코어 브라우저'
-        swarm-meta: '코어 팀'
-      inner-13:
-        title: '코어 채팅'
-        swarm-meta: '코어 팀'
-      inner-14:
-        title: 데스크톱
-        swarm-meta: '코어 팀'
-      inner-15:
-        title: '코어 지갑'
-        swarm-meta: '코어 팀'
-      inner-16:
-        title: 키카드
-        swarm-meta: '스테이터스 네트워크'
-      inner-17:
-        title: 엠바크
-        swarm-meta: '스테이터스 네트워크'
-      inner-18:
-        title: 님버스
-        swarm-meta: '스테이터스 네트워크'
     core-contributors:
       title: '핵심 기여자'
       description: '스테이터스는 전통적인 조직이 아닙니다. 우리는 수평화 되어있으며, 사무실도 없고, 관리자도 없습니다. 우리는 모두 우리의 미션을 달성하기 위해 여기에 있으며, 우리의 일하는 방식을 선택할 자유가 있습니다.'
@@ -641,9 +561,6 @@ site:
       status-go:
         title: status-go
         description: '스테이터스가 사용하는 go-ethereum 모듈.'
-      swarms:
-        title: '스웜 (Swarm)'
-        description: '스웜 홈.  스테이터스가 개발 완료 및 개발 중인 기능들.'
       specs:
         title: 스펙
         description: '스테이터스 클라이언트 스펙'

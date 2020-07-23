@@ -5,7 +5,7 @@
             <li class="xl:px-8 py-4 xl:py-16 md:text-lg 2xl:text-xl js-has-submenu hover:text-primary-base <% if(is_current('features')) { %>active<% } %>">
                 <a href="<%- show_lang() %>/features/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                   <%- __('site.header.nav.features.link') %> 
-                  <span class="hidden xl:block ml-4"><%- partial('partial/icons/icon-arrow-down', {width: 'w-4', height: 'h-4'}) %></span>
+                  <span class="hidden xl:block ml-4"><%- image_tag('/img/icon-arrow-down-small.svg') %></span>
                 </a>
                 <div class="bg-white shadow py-16 border-t text-gray-900 border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-lg mx-auto px-8 xl:px-12">
@@ -15,7 +15,7 @@
                                 <p class="text-2xl mt-4 font-display font-normal"><%- __('site.header.nav.features.description') %></p>
                                 <a href="<%- show_lang() %>/features/" class="group text-primary-base font-special font-semibold hover:text-primary-900 inline-flex items-center mt-8">
                                   <%- __('site.header.nav.features.link-1') %>
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                 </a>
                             </div>
                             <div class="mt-4">
@@ -23,7 +23,7 @@
                                     <li>
                                       <a href="<%- show_lang() %>/keycard-integration/" class="flex items-center group">
                                         <%- __('site.header.nav.features.link-2') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                 </ul>
@@ -33,7 +33,7 @@
                 </div>
             </li>
             <li class="js-has-submenu hover:text-primary-base py-4 border-t md:text-lg 2xl:text-xl border-gray-100 xl:border-t-0  xl:px-8 xl:py-16">
-                <a href="<%- show_lang() %>/get-involved/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.get-involved.title') %> <span class="ml-4 hidden xl:block"><%- partial('partial/icons/icon-arrow-down', {width: 'w-4', height: 'h-4'}) %></a></span>
+                <a href="<%- show_lang() %>/get-involved/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.get-involved.title') %> <span class="ml-4 hidden xl:block"><%- image_tag('/img/icon-arrow-down-small.svg') %></a></span>
                 <div class="bg-white shadow py-16 border-t border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-lg mx-auto px-8 xl:px-12">
                         <div class="grid grid-cols-2 gap-24 xl:gap-48">
@@ -42,7 +42,7 @@
                                 <p class="text-2xl text-gray-900 mt-4"><%- __('site.header.nav.get-involved.description') %></p>
                                 <a href="<%- show_lang() %>/get-involved/" class="group text-primary-base font-special font-semibold inline-flex items-center hover:text-primary-900 mt-12">
                                   <%- __('site.link.learn-more') %>
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                 </a>
                             </div>
                             <div class="mt-4 pl-12">
@@ -50,7 +50,7 @@
                                     <li class="w-1/2">
                                       <a href="<%- show_lang() %>/docs/" class="flex items-center text-gray-900 group">
                                         <%- __('site.link.developers') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                     <li class="w-1/2">
@@ -97,14 +97,14 @@
                                     <li class="mt-8 w-1/2">
                                       <a href="<%- show_lang() %>/get-involved/educators/" class="flex items-center text-gray-900 group">
                                         <%- __('site.link.educators') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                     <li class="w-1/2"></li>
                                     <li class="mt-8 w-1/2">
                                       <a href="<%- show_lang() %>/get-involved/community-groups/" class="flex items-center text-gray-900 group">
                                         <%- __('site.link.community-groups') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                 </ul>
@@ -118,7 +118,7 @@
             <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 js-has-submenu <% if(is_current('docs')) { %>active<% } %>" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                 <a href="<%- show_lang() %>/docs/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                   <%- __('site.header.nav.docs.link') %> 
-                  <span class="hidden xl:block ml-4"><%- partial('partial/icons/icon-arrow-down', {width: 'w-4', height: 'h-4'}) %></span>
+                  <span class="hidden xl:block ml-4"><%- image_tag('/img/icon-arrow-down-small.svg') %></span>
                 </a>
                 <div class="bg-white shadow py-16 border-t border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-xl mx-auto px-8 lg:px-12">
@@ -128,7 +128,7 @@
                                 <p class="text-2xl mt-4 text-gray-900"><%- __('site.header.nav.docs.description') %></p>
                                 <a href="<%- show_lang() %>/docs/" class="group font-special font-semibold text-primary-base hover:text-primary-900 inline-flex items-center mt-8">
                                   <%- __('site.link.read-all') %>
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                 </a>
                             </div>
                             <div class="mt-4">
@@ -136,31 +136,31 @@
                                     <li>
                                       <a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-gray-900 group">
                                         <%- __('site.header.nav.docs.link-2') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                     <li>
                                       <a href="<%- show_lang() %>/developer_tools/" class="inline-flex items-center text-gray-900 group">
                                         <%- __('site.header.nav.docs.link-1') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                     <li>
                                       <a href="<%- show_lang() %>/user_guides/" class="inline-flex items-center text-gray-900 group">
                                         <%- __('site.header.nav.docs.link-6') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                     <li>
                                       <a href="<%- show_lang() %>/our_team/" class="inline-flex items-center text-gray-900 group">
                                         <%- __('site.header.nav.docs.link-3') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                     <li>
                                       <a href="https://specs.status.im/" class="inline-flex items-center text-gray-900 group">
                                         <%- __('site.header.nav.docs.link-5') %>
-                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                                        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                                       </a>
                                     </li>
                                 </ul>

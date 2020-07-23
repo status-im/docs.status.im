@@ -17,7 +17,7 @@
     <div class="mx-auto px-8 lg:px-12">
       <div class="grid grid-cols-12 gap-12">
         <div class="col-span-12 md:col-span-3 xl:col-span-2">
-          <%- partial('partial/sidebar') %>
+          <%- include('partial/sidebar') %>
         </div>
         <div class="col-span-12 md:col-span-9 xl:col-span-10">
         	<section class="docs-box-links max-w-screen-2xl mx-auto">
@@ -28,7 +28,7 @@
 								<p><%- __('site.docs.index.box-link-1.text') %></p>
 								<span class="font-special font-semibold mt-12 hover:text-white inline-flex items-center">
                   <%- __('site.docs.index.box-link-1.cta') %>
-                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                 </span>
               </a>
 							<a href="<%- show_lang() %>/developer_tools/" class="bg-primary-500 group p-12 hover:bg-primary-base cursor-pointer transition-bg duration-200 linear">
@@ -36,7 +36,7 @@
 								<p><%- __('site.docs.index.box-link-2.text') %></p>
 								<span class="font-special font-semibold mt-12 hover:text-white inline-flex items-center">
                   <%- __('site.docs.index.box-link-2.cta') %>
-                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                 </span>
               </a>
 							<a href="https://tutorials.statusnetwork.com/" class="bg-primary-500 group p-12 hover:bg-primary-base cursor-pointer transition-bg duration-200 linear">
@@ -44,7 +44,7 @@
 								<p><%- __('site.docs.index.box-link-3.text') %></p>
 								<span class="font-special font-semibold mt-12 hover:text-white inline-flex items-center">
                   <%- __('site.docs.index.box-link-3.cta') %>
-                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- partial('partial/icons/icon-arrow-right') %></span>
+                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                 </span>
               </a>
 						</div>

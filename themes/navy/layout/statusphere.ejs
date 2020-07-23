@@ -5,7 +5,7 @@
       <p class="text-gray-200">Status Docs</p>
       <form id="search-form" class="flex items-center relative">
         <span class="text-gray-500 mr-6">
-          <%- partial('partial/icons/search', {width: "w-8", height: "h-8"}) %>
+          <%- image_tag('/img/search.svg') %>
         </span>
   	    <input type="text" name="userSearch" id="search-input" placeholder="Search documentation..." class="bg-transparent placeholder-gray-400 text-lg">
   	    <div id="search-results" class="absolute top-0 bg-white px-4 mt-12 shadow-lg rounded z-10"></div>
@@ -17,7 +17,7 @@
       <div class="mx-auto px-8 lg:px-12">
         <div class="grid grid-cols-12 gap-12">
           <div class="col-span-12 md:col-span-3 xl:col-span-2">
-            <%- partial('partial/sidebar') %>
+            <%- include('partial/sidebar') %>
           </div>
           <div class="col-span-12 md:col-span-9 xl:col-span-10">
             <div class="custom-article">

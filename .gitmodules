@@ -1,6 +1,0 @@
-[submodule "themes/navy/layout/partial/shared-partials"]
-	path = themes/navy/layout/partial/shared-partials
-	url = https://github.com/status-im/status.im-partials.git
-[submodule "themes/navy/source/js/shared-js"]
-	path = themes/navy/source/js/shared-js
-	url = https://github.com/status-im/status.im-js.git

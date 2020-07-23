@@ -18,21 +18,9 @@ If you want to add a page to specific section, rather than just edit an existing
 
 Make sure you have node.js installed first.
 
-1. Open Terminal and navigate to the project root directory,
-1. Run `yarn install`,
-1. We share common elements across our sites using submodules, so you'll need to get those too:
-
-    ```bash
-    git submodule update --init --recursive
-    cd themes/navy/layout/partial/shared-partials
-    git checkout master
-    git pull
-    cd ../../../../../
-    ```
-
-1. Run `./node_modules/.bin/gulp build`,
-1. In another terminal, run `./node_modules/.bin/hexo serve`,
-1. This prevents the need for any global installs, and will allow you to have live reloading for any changes you are making.
+1. Open Terminal and navigate to the project root directory
+2. Run `yarn install`
+3. Run `yarn devel`
 
 ## Contributing More
 
@@ -43,7 +31,7 @@ Make sure you have node.js installed first.
 
 If you want it to have a unique layout, set it up something like this:
 
-``` txt
+```markdown
 ---
 layout: extensions
 title: Status Extensions
@@ -51,7 +39,7 @@ id: index
 ---
 ```
 
-and then create the appropriate `extensions.swig` layout file in `themes/navy/layout`. `.swig` files are _exactly_ like html - so just write html in there and don't stress.
+and then create the appropriate `extensions.ejs` layout file in `themes/navy/layout`. `.ejs` files are _exactly_ like html - so just write html in there and don't stress.
 
 Unfortunately, adding subdirectories within subdirectories like `status.im/security/guides` doesn't really work right now if you want to have a sidebar too, because it routes you to the wrong place. This could be the subject of a bounty.
 

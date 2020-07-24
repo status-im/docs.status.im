@@ -65,34 +65,6 @@ Once that is completed, you can run it straight away with a default configuratio
 build/bin/statusd
 ```
 
-### Node configuration
-
-Passing the `-h` flag will output all the possible flags used to configure the tool. Although the tool can be used with default configuration, you'll probably want to delve into the configuration and modify it to your needs.
-
-Node configuration - be it through the CLI or as a static library - is done through JSON files following a precise structure. At any point, you can add the `-version` argument to `statusd` to get an output of the JSON configuration in use. You can pass multiple configuration files which will be applied in the order in which they were specified.
-
-There are a few standard configuration files located in the [config/cli](https://github.com/status-im/status-go/blob/develop/config/cli) folder to get you started. For instance you can pass `-c les-enabled.json` to enable LES mode.
-
-#### Typical modes to run a node
-
-- As a Whisper mail server:
-
-``` js
-{
-    "WhisperConfig": {
-        "Enabled": true,
-        "EnableMailServer": true,
-
-        // Set LightClient to true if the node should start with an empty bloom filter and not forward messages from other nodes
-        "LightClient": false,
-
-        // Set either a password or an asymmetric encryption key (hex encoded) to use to decrypt incoming Whisper requests
-        "MailServerPassword": "",
-        "MailServerAsymKey": ""
-    }
-}
-```
-
 ### 5. Build a library for Android and iOS
 
 ```shell
@@ -164,6 +136,16 @@ There is also a command to run all tests in one go:
 ```shell
 make ci
 ```
+
+### Running
+
+Passing the `-h` flag will output all the possible flags used to configure the tool. Although the tool can be used with default configuration, you'll probably want to delve into the configuration and modify it to your needs.
+
+Node configuration - be it through the CLI or as a static library - is done through JSON files following a precise structure. At any point, you can add the `-version` argument to `statusd` to get an output of the JSON configuration in use. You can pass multiple configuration files which will be applied in the order in which they were specified.
+
+There are a few standard configuration files located in the [config/cli](https://github.com/status-im/status-go/blob/develop/config/cli) folder to get you started. For instance you can pass `-c les-enabled.json` to enable LES mode.
+
+For more details on running a Status Node see [the dedicated page](../run_status_node.html).
 
 ### Testing with an Ethereum network 
 

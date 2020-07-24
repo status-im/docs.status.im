@@ -22,6 +22,7 @@ const DEFAULT_FIELDS = [
 ].join(',')
 
 const SKIP_EMAILS = [
+  null,
   'rumpf_a@web.de',
   'dev@holbrook.no',
   'yevheniia@status.im',

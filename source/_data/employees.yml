@@ -9,15 +9,6 @@ employees:
     customStatusPublicKey: '0x0401b3b9493fea09f4e3645c0b75f545e0049be3cf3bdfdce96cfb08b242c855f24f7c084a98ca1c56b947e1db5ecaa4ab76078684de54ff3a86f5a6a98f424fd0'
     customGitHubusername: simonam88
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=990a219cced802565150c23b827e8018'
-  - id: '180'
-    displayName: Dada Ayomide
-    firstName: Dada
-    lastName: Ayomide
-    jobTitle: Ambassador
-    workEmail: null
-    customStatusPublicKey: null
-    customGitHubusername: null
-    photoUrl: MISSING_EMAIL
   - id: '51'
     displayName: Michele Balistreri
     firstName: Michele

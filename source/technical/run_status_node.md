@@ -42,8 +42,7 @@ A single instance with 1GB of RAM and 1 vCPU should be enough to run Status Node
 
 ## Quick Start
 
-The quickest way to start a node is using our `Makefile` scripts, you can read about that here:
-https://github.com/status-im/status-go/blob/develop/MAILSERVER.md
+The quickest way to start a node is using our `Makefile` scripts. You can read about that [here](https://github.com/status-im/status-go/blob/develop/MAILSERVER.md).
 
 In simple terms you clone the [status-go](https://github.com/status-im/status-go) repo and run:
 ```sh
@@ -138,7 +137,7 @@ docker run --rm \
     -p 8545:8545 \
     -p 30303:30303 \
     -v $(pwd)/config.json:/config.json \
-    statusteam/status-go:0.16.0 \
+    statusteam/status-go:0.55.1 \
     -register \
     -log DEBUG \
     -c /config.json

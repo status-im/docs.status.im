@@ -1,7 +1,7 @@
-DIAWI: 'https://i.diawi.com/EaPiSF'
-APK: 'https://status-im-builds.ams3.digitaloceanspaces.com/StatusIm-200724-025901-729a35-nightly-universal.apk'
-IOS: 'https://status-im-builds.ams3.digitaloceanspaces.com/StatusIm-200724-025901-729a35-nightly.ipa'
+DIAWI: 'https://i.diawi.com/vMa5ND'
+APK: 'https://status-im-builds.ams3.digitaloceanspaces.com/StatusIm-200803-083544-d0ce6f-nightly-universal.apk'
+IOS: 'https://status-im-builds.ams3.digitaloceanspaces.com/StatusIm-200803-083544-d0ce6f-nightly.ipa'
 APP: null
 MAC: null
 WIN: null
-SHA: 'https://status-im.ams3.digitaloceanspaces.com/StatusIm-200724-025901-729a35-nightly.sha256'
+SHA: 'https://status-im.ams3.digitaloceanspaces.com/StatusIm-200803-083544-d0ce6f-nightly.sha256'

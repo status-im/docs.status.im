@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  @apply font-body;
+  @apply font-body leading-relaxed antialiased;
   font-size: 16px;
 }
 

@@ -39,7 +39,7 @@
 			<div class="grid md:grid-cols-2 gap-24">
 				<div>
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.open-source.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.open-source.description') %></p>
+					<p class="text-gray-600 mt-12 text-2xl leading-3 font-display leading-relaxed"><%- __('site.home.about.open-source.description') %></p>
 					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
 						<li class="mt-12 ml-12">
               <a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base font-semibold font-special">
@@ -63,7 +63,7 @@
 				</div>
 				<div>
 					<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.mission.description') %></p>
+					<p class="text-gray-600 mt-12 text-2xl leading-relaxed font-display"><%- __('site.home.about.mission.description') %></p>
 					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
             <%- __('site.link.learn-more') %>
             <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -86,7 +86,7 @@
 								<%- image_tag("/img/decentralized-illustration.png", { srcset: '/img/decentralized-illustration-2x.png 2x'}) %>
 								<p class="text-xl text-gray-700 mt-12"><%- __('site.home.decentralized.subtitle') %></p>
 								<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.decentralized.title') %></h3>
-								<p class="text-xl mt-4"><%- __('site.home.decentralized.description') %></p>
+								<p class="text-2xl mt-4"><%- __('site.home.decentralized.description') %></p>
 								<a href="<%- show_lang() %>/features/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
                   <%- __('site.home.decentralized.link') %>
                   <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -101,7 +101,7 @@
             <div class="flex-1 order-2 md:order-none">
   						<p class="text-xl text-gray-300"><%- __('site.home.private.subtitle') %></p>
   						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.private.title') %></h3>
-  						<p class="text-xl mt-4 text-gray-300"><%- __('site.home.private.description') %></p>
+  						<p class="text-2xl mt-4 text-gray-300"><%- __('site.home.private.description') %></p>
               <a href="<%- show_lang() %>/features/#secure-messenger" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
                 <%- __('site.link.learn-more') %>
                 <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -127,7 +127,7 @@
 						<div class="flex-1 mt-32">
               <p class="text-xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
   						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.wallet.title') %></h3>
-  						<p class="text-xl text-gray-300 mt-4"><%- __('site.home.wallet.description') %></p>
+  						<p class="text-2xl text-gray-300 mt-4"><%- __('site.home.wallet.description') %></p>
   						<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
                 <%- __('site.link.learn-more') %>
                 <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -144,7 +144,7 @@
 						<%- image_tag("/img/browser-illustration.png", {srcset: "/img/browser-illustration-2x.png 2x"}) %>
 						<p class="text-xl text-gray-700 mt-12"><%- __('site.home.browser.subtitle') %></p>
 						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.browser.title') %></h3>
-						<p class="text-xl text-gray-700"><%- __('site.home.browser.description') %></p>
+						<p class="text-2xl text-gray-700"><%- __('site.home.browser.description') %></p>
 						<a href="<%- show_lang() %>/features/#web3-browser" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
               <%- __('site.link.learn-more') %>
               <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>

@@ -553,7 +553,7 @@ site:
         description: "At only 29€, Keycard provides strong hardware security guarantees, without the expensive price tag."
         link: "Get a Keycard 29€"
     faq:
-      title: "Do you have qestions?"
+      title: "Do you have questions?"
       button: "Learn More"
   keycard:
     intro:
@@ -570,7 +570,7 @@ site:
       description: "Added greater security and require Keycard + PIN entry as two-factor authentication to log into your Status Account."
       confirmed: "Successfully login"
     faq:
-      title: "Do you have qestions?"
+      title: "Do you have questions?"
       button: "Visit FAQ"
   faq:
     title: "F.A.Q"

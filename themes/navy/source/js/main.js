@@ -816,6 +816,240 @@ $(document).ready(function($) {
     }
   });
 
+  ScrollReveal().reveal('.private-and-secure', {
+    opacity: 1,
+    duration: 0,
+    viewFactor: 1,
+    afterReveal: function(){
+
+      privateAndSecureAnimation();
+
+    }
+  });
+
+  function privateAndSecureAnimation(){
+
+    anime({
+      targets: '.private-and-secure .avatar',
+      keyframes: [
+        {scale: 1},
+        {scale: 0.7},
+        {scale: 1},
+      ],
+      duration: 1000,
+      easing: 'easeInOutQuad',
+    });
+
+    anime({
+      targets: '.private-and-secure .key',
+      opacity: 1,
+      duration: 300,
+      translateX: 72,
+      translateY: -100,
+      scale: [0, 1],
+      delay: 800,
+      easing: 'linear',
+      complete: function(anim) {
+        anime({
+          targets: '.private-and-secure .key',
+          rotate: 90,
+          duration: 400,
+          easing: 'linear',
+          delay: 300,
+          complete: function(anim) {
+            anime({
+              targets: '.private-and-secure .lock .absolute',
+              translateY: -3,
+              easing: 'linear',
+              duration: 300,
+              delay: 200,
+              complete: function(anim) {
+                anime({
+                  targets: '.private-and-secure .overlay',
+                  opacity: [1, 0],
+                  duration: 300,
+                  easing: 'linear',
+                  delay: 200,
+                  complete: function(anim) {
+                    anime({
+                      targets: '.private-and-secure .lock .absolute',
+                      translateY: 0,
+                      duration: 300,
+                      easing: 'linear',
+                      delay: 1000,
+                    });
+                    anime({
+                      targets: '.private-and-secure .overlay',
+                      opacity: [0, 1],
+                      duration: 300,
+                      easing: 'linear',
+                      delay: 1000,
+                    });
+                    anime({
+                      targets: '.private-and-secure .key',
+                      rotate: 0,
+                      translateX: 0,
+                      translateY: 0,
+                      scale: [1, 0],
+                      duration: 300,
+                      easing: 'linear',
+                      delay: 1000,
+                      complete: function(anim) {
+                        setTimeout(function() {
+                          privateAndSecureAnimation();
+                        }, 500);
+                      }
+                    });
+                  }
+                });
+              }
+            });
+          }
+        });
+      }
+    });
+
+  }
+
+  ScrollReveal().reveal('.home-all', {
+    opacity: 1,
+    delay: 500,
+    duration: 0,
+    viewFactor: .5,
+    afterReveal: function(){
+
+      homeAllAnimation();
+
+    }
+  });
+
+  function homeAllAnimation(){
+    anime({
+      targets: '.home-all .img-1',
+      translateX: [-160, 0],
+      duration: 1000,
+      easing: 'linear',
+    });
+    anime({
+      targets: '.home-all .img-3',
+      translateX: [160, 0],
+      duration: 1000,
+      easing: 'linear',
+      complete: function(anim) {
+        anime({
+          targets: '.home-all .overlay',
+          opacity: [0, 1],
+          duration: 500,
+          easing: 'linear',
+          complete: function(anim) {
+            anime({
+              targets: '.home-all .circles-container',
+              scale: [0, 1],
+              opacity: [0, 1],
+              duration: 1500,
+              easing: 'linear',
+              complete: function(anim) {
+                anime({
+                  targets: '.home-all .circles-container',
+                  scale: [1, 0],
+                  opacity: [1, 0],
+                  duration: 1500,
+                  delay: 500,
+                  easing: 'linear',
+                  complete: function(anim) {
+                    anime({
+                      targets: '.home-all .overlay',
+                      opacity: [1, 0],
+                      duration: 500,
+                      easing: 'linear',
+                      complete: function(anim) {
+                        anime({
+                          targets: '.home-all .img-1',
+                          translateX: [0, -160],
+                          duration: 1000,
+                          easing: 'linear',
+                        });
+                        anime({
+                          targets: '.home-all .img-3',
+                          translateX: [0, 160],
+                          duration: 1000,
+                          easing: 'linear',
+                          complete: function(anim) {
+                            setTimeout(function() {
+                              homeAllAnimation();
+                            }, 1500);
+                          }
+                        });
+                      }
+                    });
+                  }
+                });
+              }
+            });
+          }
+        });
+      }
+    });
+  }
+
+  function messengerIntroAnimation(){
+    anime({
+      targets: '.privacy-first-step-1 .lock .absolute',
+      translateY: -3,
+      easing: 'linear',
+      duration: 300,
+      delay: 500,
+      complete: function(anim) {
+        anime({
+          targets: '.privacy-first-step-1',
+          opacity: [1,0],
+          easing: 'linear',
+          duration: 300,
+          delay: 300,
+        })
+        anime({
+          targets: '.privacy-first-step-2',
+          opacity: [0,1],
+          easing: 'linear',
+          duration: 300,
+          delay: 500,
+          complete: function(anim) {
+            anime({
+              targets: '.privacy-first-step-1',
+              opacity: [0,1],
+              easing: 'linear',
+              duration: 300,
+              delay: 2000,
+            })
+            anime({
+              targets: '.privacy-first-step-2',
+              opacity: [1,0],
+              easing: 'linear',
+              duration: 300,
+              delay: 2000,
+              complete: function(anim) {
+                anime({
+                  targets: '.privacy-first-step-1 .lock .absolute',
+                  translateY: 0,
+                  easing: 'linear',
+                  duration: 300,
+                  delay: 500,
+                  complete: function(anim) {
+                    setTimeout(function() {
+                      messengerIntroAnimation();
+                    }, 1500);
+                  }
+                })
+              }
+            })
+          }
+        })
+      }
+    })
+  }
+
+  messengerIntroAnimation();
+
   function timeDifference(current, previous) {
     
     var msPerMinute = 60 * 1000;

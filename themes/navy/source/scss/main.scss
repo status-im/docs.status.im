@@ -178,6 +178,13 @@ body {
   }
 }
 
+@media (min-width: 768px){
+  .w-screen-2{
+    width: 50vw;
+    max-width: 50vw;
+  }
+}
+
 
 // Importing Vendored Keycard SCSS
-@import 'keycard';
+@import 'animations';

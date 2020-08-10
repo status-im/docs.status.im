@@ -1,0 +1,134 @@
+<!-- The main content area -->
+<main id="main" role="main" class="overflow-hidden">
+	<!--ACCOUNT-CREATION-INTRO-->
+	<section class="pt-16 xl:pt-0">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="relative px-8 self-center">
+					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.account-creation.intro.title') %></h1>
+					<ul class="mt-16 mb-20">
+						<li class="flex items-center mb-4 text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-phone.svg", {class: "mr-8 md:w-auto w-16"}) %> No phone number</li>
+						<li class="flex items-center mb-4 text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-email.svg", {class: "mr-8 md:w-auto w-16"}) %> No email address</li>
+						<li class="flex items-center mb-4 text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-bank.svg", {class: "mr-8 md:w-auto w-16"}) %> No bank account</li>
+					</ul>
+					<div class="flex items-center -ml-12 mt-12">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+				</div>
+				<div class="relative mt-24 px-8 md:mt-0">
+					<div class="md:-mt-24 mx-auto -ml-12 -mr-12 md:ml-0 md:mr-0 flex justify-end items-center md:pt-20">
+						<%- image_tag("/img/account-creation-intro.png", { srcset: '/img/account-creation-intro-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-ACCOUNT-CREATION-INTRO-->
+	<!--ACCOUNT-CREATION-USERNAMES-->
+	<section class="mt-12 text-white bg-black">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 md:grid-cols-8 gap-24">
+				<div class="flex flex-col px-8 md:col-span-3 col-span-6 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.usernames.title') %></h3>
+					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.usernames.description') %></p>
+					<a href="https://our.status.im/usernames-in-the-status-messenger/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+						<%- __('site.account-creation.usernames.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+				<div class="md:px-8 col-span-6 md:col-span-5">
+					<div class="mx-auto flex justify-end items-center md:flex md:py-16 pb-12">
+						<%- image_tag("/img/account-creation-usernames.png", { srcset: '/img/account-creation-usernames-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-ACCOUNT-CREATION-USERNAMES-->
+	<!--ACCOUNT-CREATION-KEY-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div class="md:px-8">
+					<div class="mx-auto flex -mt-24 md:mt-0 justify-center items-center md:block">
+						<%- image_tag("/img/account-creation-key.png", { srcset: '/img/account-creation-key-2x.png 2x'}) %>
+					</div>
+				</div>
+				<div class="flex order-first md:order-last flex-col px-8 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.key.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.key.description') %></p>
+					<div class="flex">
+						<a href="<%- show_lang() %>/faq/#keys-and-accounts" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+							<%- __('site.account-creation.key.button') %>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-ACCOUNT-CREATION-KEY-->
+	<!--ACCOUNT-CREATION-STATUS-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.status.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.status.description') %></p>
+					<div class="flex">
+						<a href="#" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+							<%- __('site.account-creation.status.button') %>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+						</a>
+					</div>
+				</div>
+				<div class="px-8">
+					<div class="mx-auto flex justify-center items-center pb-24 md:block md:py-32">
+						<%- image_tag("/img/account-creation-status.png", { srcset: '/img/account-creation-status-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-ACCOUNT-CREATION-STATUS-->
+	<!--ACCOUNT-CREATION-STATUS-->
+	<section class="bg-blue-gray-light">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-8 gap-24">
+				<div class="flex flex-col px-8 col-span-6 md:col-span-3 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.keycard.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.keycard.description') %></p>
+					<div class="flex">
+						<a href="<%- show_lang() %>/keycard-integration/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+							<%- __('site.account-creation.keycard.button') %>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+						</a>
+					</div>
+				</div>
+				<div class="px-8 md:col-span-5 col-span-6">
+					<div class="mx-auto flex justify-center items-center md:py-32 pb-24">
+						<%- image_tag("/img/account-creation-keycard.png", { srcset: '/img/account-creation-keycard-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-ACCOUNT-CREATION-STATUS-->
+	<!--FAQ-BANNER-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:py-48 lg:px-20">
+			<div class="grid md:grid-cols-1">
+				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.faq.banner.title') %></h3>
+					<a href="<%- show_lang() %>/faq/#keys-and-accounts" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
+						<%- __('site.faq.banner.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-FAQ-BANNER-->
+</main>

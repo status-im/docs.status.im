@@ -11,6 +11,9 @@ site:
       mission:
         title: "Mission & Principles"
         description: "Status strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals."
+    all:
+      title: "Message, Browse, Transact on your Terms"
+      description: "Integrated into one powerful super app for private secure communication."
     decentralized:
       subtitle: "Decentralized Communication"
       title: "Message, Browse, Transact on Your Terms"
@@ -20,6 +23,7 @@ site:
       subtitle: "Preserving Privacy"
       title: "Truly Private Messaging"
       description: "Status uses an open-source, peer-to-peer protocol, and end-to-end encryption to protect your messages from third parties. Keep your private messages private with Status."
+      link: "Explore Messenger"
     wallet:
       subtitle: "Borderless Crypto Payments"
       title: "Secure Crypto Wallet"
@@ -27,7 +31,7 @@ site:
     browser:
       subtitle: "Own Your Data"
       title: "Decentralized Web3 Browser"
-      description: "Navigate the growing ecosystem of decentralized applications from our Web3-enabled browser. No tracking. No spies. Just you and your data. Browse the latest marketplaces, exchanges, games, and more with the decentralized Status App."
+      description: "Browse the growing ecosystem of DApps including marketplaces, exchanges, games and social networks. Latest security standards ensure a private browsing experience."
     security:
       title: "Private and Secure by Design"
       description: "Status uses the latest encryption and security tools to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Confident, secure communication."
@@ -35,6 +39,10 @@ site:
       title: "Status Network"
       description: "The Status Network is a collection of projects that build the products, tools and infrastructure for resilient, sustainable and inclusive communities. Designing and building for security, equality, and for the sovereignty of individuals."
       link: "Learn more about The Status Network"
+    account-creation:
+      subtitle: "Retain Your Privacy"
+      title: "Pseudo-Anonymous Account Creation"
+      description: "You will never be asked for a phone number, email address, or bank account when creating a Status account. Stay private and selectively reveal yourself to the world with Status."
   about:
     intro:
       title: "The Mission"
@@ -569,6 +577,111 @@ site:
     faq:
       title: "Do you have qestions?"
       button: "Visit FAQ"
+  browser:
+    intro:
+      title: "Private & Secure Web3 Browser"
+      description: "Access the latest defi dapps, exchanges, marketplaces, games and more with the Web3 Browser"
+    defi:
+      title: "Earn, Save, Exchange with Defi"
+      description: "Access the growing ecosystem of decentralized financial tools and services all from your mobile phone."
+      button: "Explore Defi DApps"
+    games:
+      title: "Games, Marketplaces and More"
+      description: "Play, collect, trade, and browse with all your favorite decentralized applications in one place."
+      button: "See all DApps"
+    community:
+      title: "Community Curated Discovery with Dap.ps"
+      description: "Dap.ps is a third party dapp discovery solution that aims to create a fair, token curated dapp marketplace. Leveraging SNT and token economics, Dap.ps decentralizes the way we explore and find the latest DApps"
+    submit:
+      title: "Want to submit your DApp to Dap.ps for the world to see?"
+      description: "Follow the instructions at our DApp Integration Center"
+      button: "DApp Integration Center"
+  wallet:
+    intro:
+      title: "A Crypto Super Wallet"
+      description: "With the secure, non-custodial Status Wallet, you are in complete control of your funds."
+    funds:
+      title: "Take Control of Your Funds"
+      description: "The Status Wallet is entirely non-custodial – only you have access to your funds. Not banks. Not even Status. Send, receive, and store ETH, SNT, DAI, collectibles and other ethereum assets on your terms."
+    security:
+      title: "Designed for Security"
+      description: "Protect your funds with the latest security standards, anti-phishing mechanisms, and locally generated and stored public and private keys. Trust your assets are safe with the Status Wallet."
+      button: "View the Specs"
+    friends:
+      title: "Earn with Friends"
+      description: "Refer a friend and earn with the Crypto Starter Pack. Tokens sent directly to your and their wallet when they create an account."
+      button: "Refer A Friend"
+    payments:
+      title: "Simple, Borderless Payments"
+      description: "Seamlessly integrated with the private messenger, send and receive payments to and from anyone, anywhere in the world."
+    dapps:
+      title: "Defi & More at Your Fingertips"
+      description: "Access and interact with the growing world of web3 dapps with the integrated wallet and web3 browser."
+      button: "Explore Dap.ps"
+    accounts:
+      title: "Multiple Wallet Accounts for Greater Privacy"
+      description: "Create multiple accounts in your Status wallet. Select which account you use for interacting with DApps, sending payments, and storing funds."
+    keycard:
+      title: "Hardware Security with Keycard"
+      description: "Add a layer of security to your account and funds with Keycard - the contactless hardware wallet."
+  account-creation:
+    intro:
+      title: "Pseudo-Anonymous Account Creation"
+    usernames:
+      title: "Three-Word Default Usernames and Privacy"
+      description: "When creating an account a randomization process selects three words – Adjective, adjective, animal. This becomes your default username in Status and results in true pseudo-anonymity."
+      button: "Learn More about Status Usernames"
+    key:
+      title: "Secure Key Generation"
+      description: "During the account creation process, a chat and wallet keypair will be generated via a BIP43 derived path from a BIP39 mnemonic seed phrase. Only you have access to the private keys so keep them safe."
+      button: "Learn More about Key Generation"
+    status:
+      title: "State of Us Usernames with ENS"
+      description: "ENS stands for Ethereum Name Service, and allows Ethereum addresses to be replaced by custom text-based names. Anyone can register a statusofus.eth username by staking 10 SNT from within the Profile Tab. <br><br>Its important to note, that when you register an ENS name with a given wallet address, that address is now associated with the username, reducing the privacy of that account."
+      button: "Register an Status of Us Username"
+    keycard:
+      title: "Protect your Account with Keycard"
+      description: "Add offline, hardware enforced two-factor-authentication to your Status account with Keycard. Require the tap of a card + pin entry for greater security over your account."
+      button: "Get a Keycard"
+  messenger:
+    intro:
+      title: "A Privacy-First Messenger"
+      description: "Send private 1:1, group, and public chats. Easily send payments to friends around the world. Built with peer-to-peer technology to remove surveilling third parties."
+    message:
+      title: "Message on your terms"
+      description: "Send 1:1 private chats, private group chats, and join or create public channels to connect with your community."
+    payments:
+      title: "Simple, Borderless Payments"
+      description: "Seamlessly integrated with the crypto wallet, Status enables anyone, anywhere to send global payments directly in a chat"
+    stickers:
+      title: "Send, Create, & Earn with Stickers"
+      description: "Send expressive stickers without the middle men. Even create your own packs and earn SNT in the decentralized sticker marketplace"
+      button: "Submit Pack"
+    idea:
+      title: "Have an idea for a new feature?"
+      description: "Is something missing from your experience? Create a feature request in our"
+      link: "Community forum"
+    benefits:
+      title: "Benefits"
+      benefit-1:
+        title: "Private & Pseudonymous"
+        description: "No phone number, email address, or bank account required when creating your free Status Account."
+      benefit-2:
+        title: "Censorship Resistant"
+        description: "Removal of centralized choke points protects your messages from censoring third parties."
+      benefit-3:
+        title: "Free and Open Source"
+        description: "Status is both free (libre) open source software reviewable by anyone as well as free (no cost) to install."
+    p2p:
+      title: "Peer-to-Peer Messaging"
+      description: "Status removes centralized choke points from your messages for greater privacy and security. Levering a peer-to-peer network instead of centralized servers for the routing of messages, your communication is yours and yours alone."
+      button: "View the Specs"
+    encryption:
+      title: "End-to-End Encryption<br> by Default"
+      description: "Increased privacy with end-to-end encryption (e2ee) on all of your private messages by default. Nobody other than you and your intended recipient can view your messages – not even Status."
+    protection:
+      title: "Protect Your Past and Future Messages"
+      description: "Status leverages a modified version of the double ratchet algorithm for perfect forward secrecy. Protect your past and future messages even if your current encryption keys are somehow compromised."
   faq:
     title: "F.A.Q"
     description: "Frequently Asked Questions<br> Can't find what you are looking for? Check or ask in the community Discuss forum <a href='https://discuss.status.im/' target='_blank'>here</a>"
@@ -805,6 +918,9 @@ site:
       q5:
         question: "I lost my seed phrase, what should I do?"
         answer: "If you lost your seed phrase for your current account, you have to act because you are under the risk of losing all your funds at some point if you lose your Keycard or forget your PUK/Pairing code. You should immediately create a new wallet with a new seed phrase and transfer your assets from your current account on it. "
+    banner:
+      title: 'Have Questions? Check out the FAQ'
+      button: 'Frequently Asked Questions'
   docs:
     stripe:
       title: "Status Developers"
@@ -898,6 +1014,10 @@ site:
         title: "Features"
         link-1: "See All Features"
         link-2: "Keycard"
+        link-3: "Private Messenger"
+        link-4: "Account Creation"
+        link-5: "Secure Crypto Wallet"
+        link-6: "Web3 Browser"
         description: "Private Messenger, Crypto Wallet, <br>Web3 Browser, and more"
       get-involved:
         title: "Get Involved"

@@ -4,11 +4,11 @@
     <!-- GET-INVOLVED-OPEN-SOURCE-COMMUNITY -->
     <section class="pt-24 xl:pt-64">
         <span class="absolute -z-1 right-0 top-0 bg-cover bg-top-right hidden lg:block" style="background-image: url(/img/open-source-illustration.svg); width: 508px; height: 662px;"></span>
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+        <div class="max-w-screen-2xl mx-auto px-8 xl:px-24">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-7">
                     <h1 class="font-display text-6xl leading-tight font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.get-involved.index.intro.title') %></h1>
-                    <p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.index.intro.description') %></p>
+                    <p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.index.intro.description') %></p>
                     <div class="block lg:hidden w-full mt-20 -ml-8 "><img src="/img/open-source-illustration-horz.svg" class="block w-full" /></div>
                 </div>
             </div>
@@ -20,7 +20,7 @@
     <section class="mt-24 lg:mt-64">
         <div class="max-w-screen-2xl mx-auto lg:px-20">
             <div class="grid lg:grid-cols-3 gap-12">
-                <a href="<%- show_lang() %>/docs/" class="bg-primary-500 hover:bg-primary-base group p-8 lg:p-12 block relative z-10 transition duration-200 linear">
+                <a href="<%- show_lang() %>/docs/" class="bg-gray-900 text-white text-lg 2xl:text-xl hover:bg-primary-base group p-8 lg:p-12 block relative z-10 transition duration-200 linear">
                     <h3 class="text-white font-display text-2xl mb-16">
                       <div class="flex items-center">
                         <div class="h-12"><%- image_tag("/img/get-involved-development.svg") %> </div>
@@ -33,7 +33,7 @@
                       <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                     </p>
                 </a>
-                <a href="<%- show_lang() %>/get-involved/educators/" class="bg-primary-500 hover:bg-primary-base group p-8 lg:p-12 block relative z-10 transition duration-200 linear">
+                <a href="<%- show_lang() %>/get-involved/educators/" class="bg-gray-900 text-white text-lg 2xl:text-xl hover:bg-primary-base group p-8 lg:p-12 block relative z-10 transition duration-200 linear">
                     <h3 class="text-white font-display text-2xl mb-16">
                       <div class="flex items-center">
                        <div class="h-12"> <%- image_tag("/img/get-involved-educate.svg") %> </div>
@@ -46,7 +46,7 @@
                       <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                     </p>
                 </a>
-                <a href="<%- show_lang() %>/get-involved/community-groups/" class="bg-primary-500 hover:bg-primary-base group p-8 lg:p-12 block">
+                <a href="<%- show_lang() %>/get-involved/community-groups/" class="bg-gray-900 text-white text-lg 2xl:text-xl hover:bg-primary-base group p-8 lg:p-12 block">
                     <h3 class="text-white font-display text-2xl mb-16">
                       <div class="flex items-center">
                         <div class="h-12"><%- image_tag("/img/get-involved-community-groups.svg") %> </div>
@@ -66,7 +66,7 @@
 
     <!-- WE-ARE-STATUS -->
     <section class="mt-20 lg:mt-64">
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-24">
             <section id="ambassador">
                 <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
                     <div class="grid grid-cols-12 lg:gap-24">
@@ -79,9 +79,9 @@
                             </div>
                         </div>
                         <div class="col-span-12 lg:col-span-6">
-                            <h2 class="font-display text-4xl xl:text-7xl"><%- __('site.get-involved.index.contributors.subtitle') %></h2>
-                            <p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description') %></p>
-                            <ul class="mt-24">
+                            <h2 class="font-display text-4xl xl:text-6xl 2xl:text-7xl"><%- __('site.get-involved.index.contributors.subtitle') %></h2>
+                            <p class="text-gray-600 mt-12 text-lg 2xl:text-4xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description') %></p>
+                            <ul class="mt-24 text-lg 2xl:text-xl">
                                 <li class="mt-12">
                                   <a href="https://ambassador.status.im/" target="_blank" class="inline-flex items-center font-special font-semibold text-primary-base hover:text-primary-900 group">
                                     <%- __('site.get-involved.index.contributors.link-2') %>
@@ -105,13 +105,13 @@
 
     <!-- WHAT-YOU-CAN-DO-AS-AN-AMBASSADOR -->
     <section class="mt-20 lg:mt-64">
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-24">
             <div class="grid grid-cols-12 lg:gap-24">
                 <div class="col-span-12 lg:col-span-6">
-                    <h2 class="font-display text-4xl xl:text-7xl leading-tight"><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
-                    <p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-1') %></p>
-                    <p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-2') %></p>
-                    <ul>
+                    <h2 class="font-display text-4xl xl:text-6xl 2xl:text-7xl leading-tight"><%- __('site.get-involved.index.contributors.subtitle-2') %></h2>
+                    <p class="text-gray-600 mt-12 text-lg 2xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-1') %></p>
+                    <p class="text-gray-600 mt-12 text-lg 2xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-2') %></p>
+                    <ul class="text-lg 2xl:text-xl">
                         <li>
                           <a href="https://boards.status.im/b/fchXE6x3kCqbs7RHL/status-ambassador-tasks" target="_blank" class="inline-flex items-center mt-24 text-primary-base group font-semibold font-special hover:text-primary-900">
                             <%- __('site.get-involved.index.contributors.link-4') %>
@@ -130,15 +130,15 @@
 
     <!-- LISTEN-TO-THE-VOICE-OF-TUE-STATUS-COMMUNITY -->
     <section class="mt-40 lg:mt-64">
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-24">
             <div class="grid grid-cols-12 lg:gap-24">
                 <div class="col-span-12 w-1/2 lg:w-auto mx-auto lg:col-span-6 lg:pl-48 lg:pr-64">
                     <%- image_tag("/img/status-media.png") %>
                 </div>
                 <div class="col-span-12 lg:col-span-6 mt-12 lg:mt-0">
-                    <h2 class="font-display text-4xl xl:text-7xl leading-tight"><%- __('site.get-involved.index.contributors.subtitle-3') %></h2>
-                    <p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-3') %></p>
-                    <ul>
+                    <h2 class="font-display text-4xl xl:text-6xl 2xl:text-7xl leading-tight"><%- __('site.get-involved.index.contributors.subtitle-3') %></h2>
+                    <p class="text-gray-600 mt-12 text-lg 2xl:text-3xl font-display font-normal leading-normal"><%- __('site.get-involved.index.contributors.description-3') %></p>
+                    <ul class="text-lg 2xl:text-xl">
                         <li>
                           <a href="https://media.statusnetwork.com/" target="_blank" class="inline-flex items-center mt-24 text-primary-base font-semibold font-special group hover:text-primary-900">
                             <%- __('site.get-involved.index.contributors.link-5') %>
@@ -154,13 +154,13 @@
 
     <!-- STATUS-AMBASSADORS -->
     <section class="mt-20 lg:mt-64 mb-20 lg:mb-64" id="core-contributors">
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+        <div class="max-w-screen-2xl mx-auto px-8 xl:px-24">
             <div class="grid grid-cols-12 gap-12">
                 <div class="col-span-12 lg:col-span-8">
                   <h3 class="text-center lg:text-left font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.get-involved.index.contributors.title') %></h3>
                 </div>
             </div>
-            <ul class="mt-40 flex flex-wrap -ml-8">
+            <ul class="mt-32 flex flex-wrap -ml-8">
                 <% for (let a of site.data.ambassadors) { %>
                 <li class="relative group ml-8 mt-12 w-32 h-32">
                     <a href="#">

@@ -3,12 +3,12 @@
 
 	<!--HOME-INTRO-->
 	<section class="pt-16 xl:pt-0">
-  		<div class="max-w-screen-2xl mx-auto lg:px-12">
+  		<div class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24">
           <div class="grid md:grid-cols-2">
   						<div class="relative px-8 md:pr-32 self-center">
                 <span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
   							<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.home.intro.title') %></h1>
-  							<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+  							<p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-medium leading-normal">
                   <%- __('site.home.intro.description') %>
                 </p>
   							<div class="flex items-center -ml-12 mt-12">
@@ -35,25 +35,25 @@
 
 	<!--HOME-ABOUT-->
 	<section class="mt-20 lg:mt-64">
-		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12 xl:px-24">
 			<div class="grid md:grid-cols-2 gap-24">
 				<div>
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.open-source.title') %></h3>
-					<p class="text-gray-600 mt-12 text-2xl leading-3 font-display leading-relaxed"><%- __('site.home.about.open-source.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg font-medium 2xl:text-2xl font-display leading-relaxed"><%- __('site.home.about.open-source.description') %></p>
 					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
-						<li class="mt-12 ml-12">
+						<li class="mt-12 ml-12 text-lg 2xl:text-xl ">
               <a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base font-semibold font-special">
                 <%- image_tag("/img/developers-img.svg") %> 
                 <span class="ml-4"><%- __('site.link.developers') %></span>
               </a>
             </li>
-						<li class="mt-12 ml-12">
+						<li class="mt-12 ml-12 text-lg 2xl:text-xl ">
               <a href="<%- show_lang() %>/get-involved/educators/" class="inline-flex items-center text-primary-base font-semibold font-special">
                 <%- image_tag("/img/educators-img.svg") %> 
                 <span class="ml-4"><%- __('site.link.educators') %></span>
               </a>
             </li>
-						<li class="mt-12 ml-12">
+						<li class="mt-12 ml-12 text-lg 2xl:text-xl ">
               <a href="<%- show_lang() %>/get-involved/community-groups/" class="inline-flex items-center text-primary-base font-semibold font-special">
                 <%- image_tag("/img/community-group-img.svg") %> 
                 <span class="ml-4"><%- __('site.link.community-groups') %></span>
@@ -62,9 +62,9 @@
 					</ul>
 				</div>
 				<div>
-					<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
-					<p class="text-gray-600 mt-12 text-2xl leading-relaxed font-display"><%- __('site.home.about.mission.description') %></p>
-					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-medium leading-relaxed font-display"><%- __('site.home.about.mission.description') %></p>
+					<a href="<%- show_lang() %>/about/" class="text-lg 2xl:text-xl group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
             <%- __('site.link.learn-more') %>
             <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
           </a>
@@ -76,7 +76,7 @@
 
 	<!--HOME-DECENTRALIZED-PRIVATE-->
 	<section>
-		<div class="max-w-screen-2xl mx-auto lg:px-12 mt-20 lg:mt-64">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24 mt-20 lg:mt-64">
 			<div class="grid md:grid-cols-2">
 				<div class="bg-blue-gray-light relative">
           <span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
@@ -84,10 +84,10 @@
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
 								<%- image_tag("/img/decentralized-illustration.png", { srcset: '/img/decentralized-illustration-2x.png 2x'}) %>
-								<p class="text-xl text-gray-700 mt-12"><%- __('site.home.decentralized.subtitle') %></p>
-								<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.decentralized.title') %></h3>
-								<p class="text-2xl mt-4"><%- __('site.home.decentralized.description') %></p>
-								<a href="<%- show_lang() %>/features/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+								<p class="text-lg 2xl:text-2xl text-gray-700 mt-12"><%- __('site.home.decentralized.subtitle') %></p>
+								<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.decentralized.title') %></h3>
+								<p class="text-lg 2xl:text-xl mt-6"><%- __('site.home.decentralized.description') %></p>
+								<a href="<%- show_lang() %>/features/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
                   <%- __('site.home.decentralized.link') %>
                   <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                 </a>
@@ -99,10 +99,10 @@
           <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
             <div class="flex-1 order-2 md:order-none">
-  						<p class="text-xl text-gray-300"><%- __('site.home.private.subtitle') %></p>
-  						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.private.title') %></h3>
-  						<p class="text-2xl mt-4 text-gray-300"><%- __('site.home.private.description') %></p>
-              <a href="<%- show_lang() %>/features/#secure-messenger" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+  						<p class="text-lg 2xl:text-2xl text-gray-300"><%- __('site.home.private.subtitle') %></p>
+  						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.private.title') %></h3>
+  						<p class="text-lg 2xl:text-xl mt-6 text-gray-300"><%- __('site.home.private.description') %></p>
+              <a href="<%- show_lang() %>/features/#secure-messenger" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
                 <%- __('site.link.learn-more') %>
                 <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
               </a>
@@ -119,16 +119,16 @@
 
 	<!--HOME-WALLET-BROWSER-->
 	<section>
-		<div class="max-w-screen-2xl mx-auto lg:px-12">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24">
 			<div class="grid md:grid-cols-2">
 				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
           <span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
 					<div class="h-full px-8 md:p-32 text-white flex flex-col space-between">
 						<div class="flex-1 mt-32">
-              <p class="text-xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
-  						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.wallet.title') %></h3>
-  						<p class="text-2xl text-gray-300 mt-4"><%- __('site.home.wallet.description') %></p>
-  						<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+              <p class="text-lg 2xl:text-2xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
+  						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.wallet.title') %></h3>
+  						<p class="text-lg 2xl:text-xl text-gray-300 mt-6"><%- __('site.home.wallet.description') %></p>
+  						<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
                 <%- __('site.link.learn-more') %>
                 <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
               </a>
@@ -142,10 +142,10 @@
           <span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full px-8 py-32 md:p-32">
 						<%- image_tag("/img/browser-illustration.png", {srcset: "/img/browser-illustration-2x.png 2x"}) %>
-						<p class="text-xl text-gray-700 mt-12"><%- __('site.home.browser.subtitle') %></p>
-						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.browser.title') %></h3>
-						<p class="text-2xl text-gray-700"><%- __('site.home.browser.description') %></p>
-						<a href="<%- show_lang() %>/features/#web3-browser" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+						<p class="text-lg 2xl:text-2xl text-gray-700 mt-12"><%- __('site.home.browser.subtitle') %></p>
+						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.browser.title') %></h3>
+						<p class="text-lg 2xl:text-xl text-gray-700 mt-6"><%- __('site.home.browser.description') %></p>
+						<a href="<%- show_lang() %>/features/#web3-browser" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
               <%- __('site.link.learn-more') %>
               <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
             </a>
@@ -158,16 +158,16 @@
 
 	<!--HOME-SECURITY-->
 	<section class="mt-20 lg:mt-64 pb-20 lg:pb-64">
-		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12 xl:px-24">
 			<div class="grid md:grid-cols-2 gap-24">
 				<div>
 					
-						<h3 class="font-display text-4xl xl:text-6xl inline-flex items-center">
+						<h3 class="text-4xl xl:text-5xl 2xl:text-6xl inline-flex items-center">
               <%- image_tag("/img/lock-small.svg") %>
               <span class="ml-8"><%- __('site.home.security.title') %></span>
             </h3>
-						<p class="max-w-6xl text-gray-600 mt-12 text-xl xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
-						<a href="<%- show_lang() %>/security/" class="group inline-flex items-center text-primary-base font-semibold font-special mt-12">
+						<p class="max-w-6xl text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
+						<a href="<%- show_lang() %>/security/" class="group inline-flex items-center text-primary-base font-semibold text-lg 2xl:text-2xl font-special mt-12">
               <%- __('site.link.learn-more') %>
               <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
             </a>
@@ -175,12 +175,12 @@
 				</div>
 				<div>
 					
-						<h3 class="font-display text-4xl xl:text-6xl inline-flex items-center">
+						<h3 class="text-4xl xl:text-5xl 2xl:text-6xl inline-flex items-center">
               <%- image_tag("/img/status-network-small.svg") %>
               <span class="ml-8"><%- __('site.home.status-network.title') %></span>
             </h3>
-						<p class="max-w-6xl text-gray-600 mt-12 text-xl xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.status-network.description') %></p>
-            <a href="https://statusnetwork.com/" target="_blank" class="group inline-flex items-center text-primary-base font-semibold font-special mt-12">
+						<p class="max-w-6xl text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.status-network.description') %></p>
+            <a href="https://statusnetwork.com/" target="_blank" class="group inline-flex items-center text-primary-base font-semibold text-lg 2xl:text-2xl font-special mt-12">
               <%- __('site.home.status-network.link') %>
               <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
             </a>

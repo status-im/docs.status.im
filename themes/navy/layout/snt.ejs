@@ -8,9 +8,9 @@
           <img src='<%- url_for("/img/status-token.svg") %>' width="100" class="mx-auto" />
         </div>
 				<h1 class="font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl mt-8"><%- __('site.snt.intro.title') %></h1>
-				<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal"><%- __('site.snt.intro.description') %></p>
+				<p class="text-gray-600 mt-8 text-xl 2xl:text-4xl font-display font-normal leading-normal"><%- __('site.snt.intro.description') %></p>
 			</div>
-			<nav class="flex items-center justify-center flex-wrap -ml-24 mt-24 font-special font-bold">
+			<nav class="flex items-center justify-center flex-wrap -ml-24 mt-16 font-special font-bold">
 				<a class="js-scrollto ml-24 mt-12 hover:text-primary-base text-xl" href="#basics" class="link"><%- __('site.snt.intro.link-1') %></a>
 				<a class="js-scrollto ml-24 mt-12 hover:text-primary-base text-xl" href="#using-snt"><%- __('site.snt.intro.link-2') %></a>
 				<a class="js-scrollto ml-24 mt-12 hover:text-primary-base text-xl" href="#research"><%- __('site.snt.intro.link-3') %></a>
@@ -19,16 +19,16 @@
 		</div>
 	</section>
 
-	<section class="bg-black text-white py-20 lg:py-40 mt-24 lg:mt-40" id="basics">
+	<section class="bg-black text-white py-20 lg:py-40 mt-24" id="basics">
 		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
-			<h2 class="font-display text-4xl xl:text-7xl"><%- __('site.snt.the-basics.title') %></h2>
-			<div class="mt-24 lg:mt-48 grid md:grid-cols-2 lg:grid-cols-4 pb-24 md:pb-48 md:ml-12">
+			<h2 class="font-display text-4xl xl:text-6xl 2xl:text-7xl"><%- __('site.snt.the-basics.title') %></h2>
+			<div class="mt-24 2xl:mt-48 grid md:grid-cols-2 lg:grid-cols-4 pb-24 md:pb-48 md:ml-12">
 				<a href="#using-snt" class="js-scrollto group transform relative hover:z-10 hover:-translate-y-4 hover:bg-primary-900 bg-primary-base p-12 lg:p-16 md:-ml-12 flex justify-between flex-col transition-all duration-200 ease-linear text-white shadow-lg">
           <div class="relative z-10 flex-1 mb-12 md:mb-32 lg:mb-64">
   					<h4 class="text-2xl xl:text-4xl font-light mb-8 font-display"><%- __('site.snt.the-basics.inner-1.title') %></h4>
-            <p class="text-primary-200 font-thin text-xl"><%- __('site.snt.the-basics.inner-1.description') %></p>
+            <p class="text-primary-200 font-thin text-lg 2xl:text-xl"><%- __('site.snt.the-basics.inner-1.description') %></p>
           </div>
-					<span class="relative z-10 font-special font-medium text-lg inline-flex items-center flex-no-wrap">
+					<span class="relative z-10 font-special font-semibold text-lg inline-flex items-center flex-no-wrap">
             <%- __('site.snt.the-basics.inner-1.link') %>
             <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
           </span>
@@ -37,9 +37,9 @@
 				<a href="https://messari.io/asset/status" target="_blank" class="group transform relative hover:z-10 hover:-translate-y-4 hover:bg-primary-900 bg-primary-base -mb-8 mt-8 md:-ml-12 p-12 lg:p-16 flex justify-between flex-col transition-all duration-200 linear text-white shadow-lg">
           <div class="relative z-10 flex-1 mb-12 md:mb-32 lg:mb-64">
   					<h4 class="text-2xl xl:text-4xl font-light mb-8 font-display"><%- __('site.snt.the-basics.inner-2.title') %></h4>
-            <p class="text-primary-200 font-thin text-xl"><%- __('site.snt.the-basics.inner-2.description') %></p>
+            <p class="text-primary-200 font-thin text-lg 2xl:text-xl"><%- __('site.snt.the-basics.inner-2.description') %></p>
           </div>
-					<span class="relative z-10 font-special font-medium text-lg inline-flex items-center flex-no-wrap">
+					<span class="relative z-10 font-special font-semibold text-lg inline-flex items-center flex-no-wrap">
             <%- __('site.snt.the-basics.inner-2.link') %>
             <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
           </span>
@@ -48,9 +48,9 @@
 				<a href="/files/whitepaper.pdf" class="group transform relative hover:z-10 hover:-translate-y-4 hover:bg-primary-900 bg-primary-base -mb-16 mt-16 lg:-ml-12 p-12 lg:p-16 flex justify-between flex-col transition-all duration-200 linear text-white shadow-lg">
           <div class="relative z-10 flex-1 mb-12 md:mb-32 lg:mb-64">
   					<h4 class="text-2xl xl:text-4xl font-light mb-8 font-display"><%- __('site.snt.the-basics.inner-3.title') %></h4>
-            <p class="text-primary-200 font-thin text-xl"><%- __('site.snt.the-basics.inner-3.description') %></p>
+            <p class="text-primary-200 font-thin text-lg 2xl:text-xl"><%- __('site.snt.the-basics.inner-3.description') %></p>
           </div>
-					<span class="relative z-10 font-special font-medium text-lg inline-flex items-center flex-no-wrap">
+					<span class="relative z-10 font-special font-semibold text-lg inline-flex items-center flex-no-wrap">
             <%- __('site.snt.the-basics.inner-3.link') %>
             <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
           </span>
@@ -59,9 +59,9 @@
 				<a href="#research" class="js-scrollto group transform relative hover:z-10 hover:-translate-y-4 hover:bg-primary-900 bg-primary-base -mb-24 mt-24 md:-ml-12 p-12 lg:p-16 flex justify-between flex-col transition-all duration-200 linear text-white shadow-lg">
           <div class="relative z-10 flex-1 mb-12 md:mb-32 lg:mb-64">
   					<h4 class="text-2xl xl:text-4xl font-light mb-8 font-display"><%- __('site.snt.the-basics.inner-4.title') %></h4>
-            <p class="text-primary-200 font-thin text-xl"><%- __('site.snt.the-basics.inner-4.description') %></p>
+            <p class="text-primary-200 font-thin text-lg 2xl:text-xl"><%- __('site.snt.the-basics.inner-4.description') %></p>
           </div>
-					<span class="relative z-10 font-special font-medium text-lg inline-flex items-center flex-no-wrap">
+					<span class="relative z-10 font-special font-semibold text-lg inline-flex items-center flex-no-wrap">
             <%- __('site.snt.the-basics.inner-4.link') %>
             <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
           </span>
@@ -73,9 +73,9 @@
 
 	<section class="js-using-snt mt-24 lg:mt-64" id="using-snt">
 		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
-			<h2 class="font-display text-4xl xl:text-7xl"><%- __('site.snt.using-snt.title') %></h2>
+			<h2 class="font-display text-4xl xl:text-6xl 2xl:text-7xl"><%- __('site.snt.using-snt.title') %></h2>
 			<div class="grid lg:grid-cols-2">
-				<p class="text-gray-600 mt-12 text-xl xl:text-3xl font-display font-normal leading-normal"><%- __('site.snt.using-snt.description') %></p>
+				<p class="text-gray-600 mt-8 text-lg 2xl:text-3xl font-display font-normal leading-normal"><%- __('site.snt.using-snt.description') %></p>
 			</div>
 			<div class="js-items mt-20 flex flex-wrap mb-64">
         <div class="md:p-6 w-1/1 md:w-1/2 md:mt-40 js-item">
@@ -86,7 +86,7 @@
   					<div class="mt-20">
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.network-incentivization.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.network-incentivization.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.network-incentivization.description') %></p>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.network-incentivization.description') %></p>
   					</div>
   					<ul class="absolute right-0 top-0 mt-8 mr-8 flex items-center -ml-4 opacity-0 group-hover:opacity-100 transition-all duration-200 ease-linear">
   						<li class="ml-4">
@@ -111,7 +111,7 @@
   					<div>
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.teller-network.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.teller-network.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.teller-network.description') %></p>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.teller-network.description') %></p>
   					</div>
   					<ul class="absolute right-0 top-0 mt-8 mr-8 flex items-center -ml-4 opacity-0 group-hover:opacity-100 transition-all duration-200 ease-linear">
   						<li class="ml-4">
@@ -140,10 +140,10 @@
   					<div>
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.ens-user-name.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.ens-user-name.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.ens-user-name.description') %></p>
-  						<ul>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.ens-user-name.description') %></p>
+  						<ul class="text-lg 2xl:text-xl">
   							<li class="ml-4">
-                  <a class="group hover:text-primary-900 inline-flex items-center mt-12 text-primary-base font-special font-medium" href="https://join.status.im/browse/names.statusnet.eth" target="_blank" class="inline-flex items-center">
+                  <a class="group hover:text-primary-900 inline-flex items-center mt-12 text-primary-base font-special font-semibold" href="https://join.status.im/browse/names.statusnet.eth" target="_blank" class="inline-flex items-center">
                     <%- __('site.snt.using-snt.ens-user-name.link') %>
                     <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                   </a>
@@ -168,7 +168,7 @@
   					<div class="mt-20">
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.sticker-market.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.sticker-market.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.sticker-market.description') %></p>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.sticker-market.description') %></p>
   					</div>
   					<ul class="absolute right-0 top-0 mt-8 mr-8 flex items-center -ml-4 opacity-0 group-hover:opacity-100 transition-all duration-200 ease-linear">
   						<li class="ml-4">
@@ -193,7 +193,7 @@
   					<div>
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.tribute-to-talk.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.tribute-to-talk.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.tribute-to-talk.description') %> </p>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.tribute-to-talk.description') %> </p>
   					</div>
   					<ul class="absolute right-0 top-0 mt-8 mr-8 flex items-center -ml-4 opacity-0 group-hover:opacity-100 transition-all duration-200 ease-linear">
   						<li class="ml-4">
@@ -220,7 +220,7 @@
   					<div class="mt-20">
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.dao-governance.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.dao-governance.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.dao-governance.description') %></p>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.dao-governance.description') %></p>
   					</div>
   					<ul class="absolute right-0 top-0 mt-8 mr-8 flex items-center -ml-4 opacity-0 group-hover:opacity-100 transition-all duration-200 ease-linear">
   						<li class="ml-4">
@@ -245,10 +245,10 @@
   					<div>
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.dapp-curation.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.dapp-curation.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.dapp-curation.description') %></p>
-  						<ul>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.dapp-curation.description') %></p>
+  						<ul class="text-lg 2xl:text-xl">
                 <li class="ml-4">
-                  <a class="group hover:text-primary-900 mt-12 text-primary-base font-special font-medium inline-flex items-center" href="https://join.status.im/browse/https://dap.ps" target="_blank" class="inline-flex items-center">
+                  <a class="group hover:text-primary-900 mt-12 text-primary-base font-special font-semibold inline-flex items-center" href="https://join.status.im/browse/https://dap.ps" target="_blank" class="inline-flex items-center">
                     <%- __('site.snt.using-snt.dapp-curation.link') %>
                     <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                   </a>
@@ -282,10 +282,10 @@
   					<div class="mt-20">
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.voting-dapp.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.voting-dapp.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.voting-dapp.description') %></p>
-  						<ul>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.voting-dapp.description') %></p>
+  						<ul class="text-lg 2xl:text-xl">
   							<li class="ml-4">
-                  <a class="group hover:text-primary-900 inline-flex items-center mt-12 text-primary-base font-special font-medium" href="https://join.status.im/browse/vote.status.im" target="_blank" class="inline-flex items-center">
+                  <a class="group hover:text-primary-900 inline-flex items-center mt-12 text-primary-base font-special font-semibold" href="https://join.status.im/browse/vote.status.im" target="_blank" class="inline-flex items-center">
                     <%- __('site.snt.using-snt.voting-dapp.link') %>
                     <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
                   </a>
@@ -299,7 +299,7 @@
             <div>
   						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mb-2"><%- __('site.snt.using-snt.acquisition-engine.title') %></h3>
   						<div class="transition-all duration-200 ease-linear group-hover:text-white group-hover:bg-primary-base bg-white rounded px-2 uppercase text-gray-500 inline-block text-base tracking-widest font-display mb-20"><%- __('site.snt.using-snt.acquisition-engine.status') %></div>
-  						<p class="text-gray-700 text-xl"><%- __('site.snt.using-snt.acquisition-engine.description') %></p>
+  						<p class="text-gray-700 text-lg 2xl:text-xl"><%- __('site.snt.using-snt.acquisition-engine.description') %></p>
   					</div>
             <div class="mt-20 -ml-20 -mb-20"><%- image_tag("/img/snt-item-9.svg") %></div>
           </div>
@@ -312,12 +312,12 @@
 		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
 			<div class="grid grid-cols-12">
 				<div class="col-span-12 md:col-start-2 md:col-end-7">
-					<h2 class="font-display text-4xl xl:text-7xl"><%- __('site.snt.crypto-research.title') %></h2>
-					<p class="text-xl lg:text-2xl mt-12 text-gray-700"><%- __('site.snt.crypto-research.description-1') %>
+					<h2 class="font-display text-4xl xl:text-6xl 2xl:text-7xl leading-snug"><%- __('site.snt.crypto-research.title') %></h2>
+					<p class="text-lg 2xl:text-2xl mt-8 text-gray-700"><%- __('site.snt.crypto-research.description-1') %>
 					</p>
-					<ul class="mt-12">
+					<ul class="mt-12 text-lg 2xl:text-xl">
 						<li class="ml-4">
-              <a href="https://join.status.im/status" target="_blank" class="text-primary-base font-special font-medium flex items-center">
+              <a href="https://join.status.im/status" target="_blank" class="text-primary-base font-special font-semibold flex items-center">
                 <%- image_tag("/img/status-purple-logo.svg") %>
                 <span class="ml-4"><%- __('site.snt.crypto-research.link-1') %></span>
               </a>
@@ -326,7 +326,7 @@
 					<p class="text-gray-500 text-lg mt-4"><%- __('site.snt.crypto-research.description-2') %></p>
 				</div>
 				<div class="col-span-12 md:col-start-7 text-center md:col-end-12 mt-12 md:mt-48 lg:ml-48">
-					<a href="https://discuss.status.im/" target="_blank" class="block md:inline-block font-special transition-all duration-200 linear font-bold py-4 px-6 font-bold text-center border border-primary-base rounded hover:bg-primary-base hover:text-white text-primary-base"><%- __('site.snt.crypto-research.link-2') %></a>
+					<a href="https://discuss.status.im/" target="_blank" class="text-lg 2xl:text-xl block md:inline-block font-special transition-all duration-200 linear font-bold py-4 px-6 font-bold text-center border border-primary-base rounded hover:bg-primary-base hover:text-white text-primary-base"><%- __('site.snt.crypto-research.link-2') %></a>
 				</div>
 			</div>
 		</div>

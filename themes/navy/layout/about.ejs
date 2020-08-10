@@ -73,7 +73,7 @@
 	</section>
 	<!-- END-ABOUT-PRINCIPLES -->
 
-	<!-- ABOUT-CHAT -->
+	<!-- ABOUT-HOW-WE-WORK -->
 	<section class="bg-blue-gray-light mt-64" id="how-we-work">
 		<div class="max-w-screen-2xl mx-auto px-4 py-40 2xl:py-64 lg:px-12 xl:px-24">
 			<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.how-we-work.title') %></h3>
@@ -96,7 +96,57 @@
 	</section>
 	<!-- END-ABOUT-CHAT -->
 
-	<!-- ABOUT-CORE-CONTRIBUTORS -->
+	<!-- ABOUT-QUARTERLY-REPORTS -->
+	<section class="mt-64 max-w-screen-2xl mx-auto px-4 lg:px-12 mb-64" id="quarterly-reports">
+		<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.quarterly-reports.title') %></h3>
+		<p class="text-gray-900 mt-12 text-xl xl:text-3xl font-display font-medium leading-normal"><%- __('site.about.quarterly-reports.description') %></p>
+		<div class="grid md:grid-cols-3 gap-12">
+			<div>
+				<div class="accordion bg-primary-100 mt-12 p-6">
+					<div>
+						<a href="#" class="text-2xl collapsed flex items-center justify-between custom-accordion-trigger" data-toggle="collapse" data-target="#quarterly-reports-2020" aria-expanded="false" aria-controls="#quarterly-reports-2020">
+							2020
+							<span class="ml-8 text-primary-800 custom-accordion-arrow"><%- image_tag('/img/icon-arrow-down.svg') %></span>
+						</a>
+						<div id="quarterly-reports-2020" class="mt-8 hidden text-gray-500 collapse accordion-content">
+							<div class="description">
+								<div class="mt-4">
+									<a href="https://drive.google.com/uc?export=download&id=1PSKeuzesqv3ZahJqsT1q7cJNjant8eMG" download="Q1_2020" class="text-primary-base">- Q1 Quarterly Report</a>
+								</div>
+								<div class="mt-4">
+									<a href="https://drive.google.com/uc?export=download&id=1JnICpK0tzAokNy47rABiZtdFE1VuE4vj" download="Q2_2020" class="text-primary-base">- Q2 Quarterly Report</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accordion bg-primary-100 mt-12 p-6">
+					<div>
+						<a href="#" class="text-2xl collapsed flex items-center justify-between custom-accordion-trigger" data-toggle="collapse" data-target="#quarterly-reports-2019" aria-expanded="false" aria-controls="#quarterly-reports-2019">
+							2019
+							<span class="ml-8 text-primary-800 custom-accordion-arrow"><%- image_tag('/img/icon-arrow-down.svg') %></span>
+						</a>
+						<div id="quarterly-reports-2019" class="mt-8 hidden text-gray-500 collapse accordion-content">
+							<div class="description">
+								<div class="mt-4">
+									<a href="https://drive.google.com/uc?export=download&id=1tXK_LD58CKY4UwTqqi446eeV0sTzvRtz" download="Q2_2019" class="text-primary-base">- Q2 Quarterly Report</a>
+								</div>
+								<div class="mt-4">
+									<a href="https://drive.google.com/uc?export=download&id=17Z3sjsJ0LaI-2bcefPzD_IZttz5ap6KQ" download="Q3_2019" class="text-primary-base">- Q3 Quarterly Report</a>
+								</div>
+								<div class="mt-4">
+									<a href="https://drive.google.com/uc?export=download&id=1KOGILq_-V1oh98GXn8b2_Q1SXEWpGAzC" download="Q4_2019" class="text-primary-base">- Q4 Quarterly Report</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END-ABOUT-CHAT -->
+
+	<!-- ABOUT-QUARTERLY-REPORTS -->
 	<section class="mt-40 max-w-screen-2xl mx-auto px-4 lg:px-12 xl:px-24 mb-64" id="core-contributors">
 			<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.about.core-contributors.title') %></h3>
 			<p class="text-gray-600 mt-8 text-lg 2xl:text-3xl font-display font-medium leading-normal"><%- __('site.about.core-contributors.description') %></p>

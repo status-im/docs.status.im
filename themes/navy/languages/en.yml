@@ -85,6 +85,9 @@ site:
         title: "Implementation"
       communication-post-mortem:
         title: "Communication & Post-mortem"
+    quarterly-reports:
+      title: "The Status Network Quarterly Reports"
+      description: "We can’t wait to share with you everything that we’ve accomplished."
     join-us:
       title: "Join us"
     core-contributors:

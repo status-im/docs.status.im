@@ -16,6 +16,7 @@ language:
   - it
   - ar
   - es
+  - pt
   - id
   - tl
 locale: en

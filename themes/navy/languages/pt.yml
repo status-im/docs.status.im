@@ -1,0 +1,968 @@
+site:
+  home:
+    intro:
+      title: 'Comunicação Privada e Segura'
+      description: 'Status é um aplicativo de mensagens seguro, carteira criptografada e navegador Web3 desenvolvido com tecnologia de ponta.'
+      news: Notícias
+    about:
+      open-source:
+        title: 'Um Projeto de Código Aberto'
+        description: 'Totalmente de código aberto e feito por colaboradores em todo o mundo. Desenvolvedores, designers, criadores, educadores, entusiastas e muito mais têm acesso livre e aberto aos repositórios, ativos e informações. Projetado para ser resistente à censura e livre de controle de terceiros.'
+      mission:
+        title: 'Missão & Princípios'
+        description: 'A Status se esforça para ser uma ferramenta de comunicação segura que defende os direitos humanos. Projetado para permitir o livre fluxo de informações, proteger o direito a conversas privadas e seguras e promover a soberania dos indivíduos.'
+    decentralized:
+      subtitle: 'Comunicação Descentralizada'
+      title: 'Envie mensagens, navegue e negocie de acordo com seus termos'
+      description: 'Status combina um mensageiro descentralizado privado, carteira de criptomoeda e navegador DApps em uma ferramenta de comunicação poderosa, privada e segura. Projetado para proteger suas mensagens e informações da interferência de terceiros.'
+      link: 'Explore todos os recursos'
+    private:
+      subtitle: 'Preservando a Privacidade'
+      title: 'Mensagens Verdadeiramente Privadas'
+      description: 'A Status usa um protocolo ponto a ponto de código aberto e criptografia ponta a ponta para proteger suas mensagens de terceiros. Mantenha suas mensagens privadas com a Status.'
+    wallet:
+      subtitle: 'Pagamentos Criptografados Sem Fronteiras'
+      title: 'Carteira Criptográfica Segura'
+      description: 'Envie, armazene e receba criptomoedas com segurança, incluindo tokens ERC20 e ERC721 com a carteira de criptografia da Status. Somente você possui as chaves de seus fundos. O design intuitivo protege você de ataques.'
+    browser:
+      subtitle: 'Seja dono dos seus dados'
+      title: 'Navegador Web3 descentralizado'
+      description: 'Navegue no ecossistema crescente de aplicativos descentralizados de nosso navegador habilitado para Web3. Sem rastreamento. Sem espiões. Só você e seus dados. Navegue pelos últimos mercados, trocas, jogos e muito mais com o aplicativo descentralizado da Status.'
+    security:
+      title: 'Privado e Seguro por Design'
+      description: 'A Status usa as ferramentas de criptografia e segurança mais recentes para garantir que suas mensagens e transações sejam suas e somente suas. A Status remove intermediários para manter suas mensagens privadas e seus ativos seguros. Comunicação confiável e segura.'
+    status-network:
+      title: 'Status Network'
+      description: 'A Status Network é uma coleção de projetos que constroem produtos, ferramentas e infraestrutura para comunidades resilientes, sustentáveis e inclusivas. Projetar e construir para a segurança, a igualdade e a soberania dos indivíduos.'
+      link: 'Saiba mais sobre a Rede Status'
+  features:
+    intro:
+      title: 'O Poder do Ethereum no Seu Bolso'
+      description: 'Status é uma ferramenta de comunicação multifuncional que combina um mensageiro privado, uma cripto-carteira descentralizada e um navegador Web3.'
+      link-messenger: Mensageiro
+      link-wallet: 'Carteira criptográfica'
+      link-browser: 'Navegador & DApps'
+    messenger:
+      title: 'Mensageiro Seguro'
+      feature-1:
+        title: 'Chats Públicos, Privados e em Grupo'
+        description: 'Junte-se a qualquer número de canais públicos ou envie chats privados 1:1, ou em grupo. Você pode até mesmo enviar e receber pagamentos criptografados diretamente em seus chats privados.'
+        link: 'Junte-se ao Canal Público da Status'
+      feature-2:
+        title: 'Mensagens Privadas com Waku'
+        description: 'Waku é um protocolo de mensagens ponto a ponto (p2p) que remove pontos de estrangulamento centralizados de suas mensagens. Ao remover terceiros centralizados, suas mensagens são suas, mais privadas e seguras.'
+        learn-more: 'Saiba mais sobre Waku'
+      feature-3:
+        title: 'Perfect Forward Secrecy & <br> E2E Encryption'
+        description: 'A Status usa o algoritmo ''Double Ratchet'' no topo do Whisper e criptografia ponta a ponta para o mais alto grau de segurança e privacidade.'
+    wallet:
+      title: 'Carteira Integrada <br> Ethereum'
+      feature-1:
+        title: 'Uma Carteira Segura'
+        description: 'A remoção de intermediários coloca você no controle de seus fundos. Você, e somente você, possui as chaves privadas da sua criptomoeda, e nenhum intermediário tem acesso.'
+      feature-2:
+        title: 'Compatível com ERC20 & ERC721'
+        description: 'Suporte para tokens ERC20 e ERC721 na rede Ethereum. Envie, armazene e receba seus tokens com segurança na Status. Adicione facilmente tokens ERC-20 à sua carteira.'
+      feature-3:
+        title: 'Interaja com Pares & DApps'
+        description: 'A carteira da Status integra-se ao mensageiro e ao navegador - permitindo que você interaja com colegas e DApps. Todas as transações exigem a verificação de uma frase de assinatura para protegê-lo de ataques de phishing.'
+    browser:
+      title: 'Navegador Web3'
+      feature-1:
+        title: 'Acessar Aplicativos Descentralizados'
+        description: 'Um ecossistema crescente de DApps no seu bolso. Navegue pelas últimas trocas descentralizadas, mercados, jogos, redes sociais, e muito mais.'
+        link: 'Instalar Status'
+      feature-2:
+        title: 'Navegação Privada e Segura'
+        description: 'A Status implementa os padrões de segurança mais recentes para garantir que você esteja seguro e livre de rastreamento e coleta de dados. Navegue em seus termos.'
+      feature-3:
+        title: 'Otimize seu DApp<br> na Status'
+        description: 'O Status Dapp Integration Center torna mais fácil para qualquer desenvolvedor de dapp aprender sobre a Status, otimizar para executar na Status, aproveitar seus recursos exclusivos e registrar-se em Dap.ps.'
+        link: 'Otimize e registre seu Dapp'
+    get:
+      title: 'Obtenha a Status'
+      description: 'Comece a aproveitar a Status no iOS e Android.'
+      link: 'Baixar aplicativos'
+  get-involved:
+    index:
+      intro:
+        title: 'Uma Comunidade de Código Aberto'
+        description: 'Seja você um desenvolvedor, educador, organizador da comunidade ou um apoiador apaixonado, você pode contribuir para o Status. Aqui estão os recursos para você começar.'
+      resources:
+        resource-1:
+          title: Desenvolvedores
+          description: 'A Status está construindo software livre e de código aberto licenciado sob a Mozilla Public License v2.0. <br> <br> Membros da comunidade de todas as origens, níveis de habilidade e interesses contribuem para os lançamentos oficiais da Status. Isso inclui contribuições abertas para recompensas financiadas pela Status e iniciativas voltadas para a comunidade para novos recursos.'
+        resource-2:
+          title: Educadores
+          description: 'A Status considera educação e um ambiente acolhedor essenciais para um projeto de código aberto de sucesso. <br> <br> Todos são bem-vindos para ajudar a educar outras pessoas sobre como construir a Status, usar a Status, começar na comunidade ou até mesmo compartilhar suas próprias experiências com o projeto.'
+        resource-3:
+          title: 'Grupos Comunitários'
+          description: 'Há uma série de grupos organizados pela comunidade e executados pela Status na comunidade da Status. <br> <br> Junte-se a um grupo existente ou comece seu próprio grupo com base em seus interesses pessoais. Pessoas se organizam em todo o mundo para ajudar a promover e fazer crescer esse projeto de código aberto.'
+      contributors:
+        title: 'Embaixadores da Status'
+        link: 'Junte-se à equipe da Status. Veja todas as posições abertas'
+        subtitle: 'Nós somos Status'
+        subtitle-2: 'O que você pode fazer como embaixador'
+        description: 'Os embaixadores de status constroem, educam, promovem e contribuem para a próxima geração da Web.'
+        description-1: 'Os embaixadores são livres para escolher as próprias contribuições. Alguns dos embaixadores escrevem código, outros escrevem artigos em blogs. Alguns organizam eventos e alguns organizam webinars.'
+        description-2: 'Os embaixadores da Status trabalham em diversas áreas e colaboram de diversas maneiras.'
+        link-2: 'Seja um embaixador'
+        link-3: 'Principais Colaboradores da Comunidade'
+        link-4: 'Confira nosso quadro compartilhado de projetos'
+        subtitle-3: 'Ouça a voz da comunidade Status'
+        description-3: 'De podcasts a reuniões do Townhall, junte-se à comunidade status.'
+        link-5: 'Escute aqui'
+    developers:
+      intro:
+        subtitle: 'Uma Comunidade de Código Aberto'
+        title: Desenvolvimento
+        description: 'Bem-vindo ao Portal do Desenvolvedor da Status. Encontre tudo o que você precisa para começar a contribuir com a Status, criando seus próprios DApps ou estendendo seu trabalho com os recursos nativos da Status.'
+      quick-nav-sub:
+        link-1: Comece
+        link-2: 'Repos, Problemas, Recompensas'
+        link-3: 'Recursos do Desenvolvedor'
+        link-4: Github
+      contribute-to-status:
+        title: Comece
+        description: 'Nosso projeto de código aberto'
+        link: 'Guia do Contribuidor'
+        status-react:
+          title: Status-React
+          description: 'Escrito em Clojure - é aqui que lidamos com as interações entre o Waku e o aplicativo; entre a carteira, o usuário e qualquer Aplicativo Distribuído (DApp) que ele deseja acessar; e onde reside a lógica da IU.'
+          link: 'Ver Repositório'
+        status-go:
+          title: Status-Go
+          description: 'Escrito em Go - é aqui que reside toda a lógica de blockchain, transações e trabalho leve de cliente que fazemos.'
+          link: 'Ver Repositório'
+        open-issues-status-react:
+          title: 'Problemas abertos Status-React'
+          link: 'Ver todos os problemas em aberto'
+        open-issues-status-go:
+          title: 'Problemas em aberto - Status-Go'
+          link: 'Ver todos os problemas em aberto'
+        earn-crypto:
+          title: 'Ganhe criptomoedas <br>completando recompensas'
+          description: 'Veja a lista completa de recompensas técnicas em'
+          link: Gitcoin
+        report-a-security-vulnerability:
+          title: 'Reportar uma vulnerabilidade de <br> segurança e corrigi-la'
+          description: 'Saiba mais sobre'
+          link: 'Programa de Recompensa de Bugs'
+      development-dapp:
+        build-dapp:
+          title: 'Crie seu próprio DApp'
+          description: 'Comece com nossas ferramentas e estruturas para construir seu próprio aplicativo descentralizado.'
+          link-1: 'Centro de Integração de DApps'
+          link-2: 'Construa seu próprio DApp com Embark'
+          link-3: 'Acesse provedores Web3 e detecte a Status'
+          link-4: 'Envie seu DApp para a lista de DApps da Status'
+        extend-dapp:
+          title: 'Estenda seu DApp'
+          description: 'As extensões permitem que você aproveite os recursos nativos da Status em seu DApp.'
+          link-1: 'Introdução às Extensões'
+          link-2: Tutoriais
+          link-3: 'Exemplos & Extensões Existentes'
+      get-in-touch:
+        title: 'Entre em contato'
+        join-status:
+          link: 'Junte-se a #status'
+          description: 'Notícias e discussões gerais sobre a Status.'
+        join-status-core:
+          link: 'Junte-se a # status-core'
+          description: 'Canal público sobre o desenvolvimento do core.'
+        join-introductions:
+          link: 'Junte-se a #introductions'
+          description: 'Novo na Status? Apresente-se e diga olá!'
+        contact-us:
+          link: 'Entre em contato conosco'
+          description: 'Para todo o resto, envie-nos um email diretamente.'
+      repositories:
+        title: 'Repositórios, Problemas Abertos e Recompensas'
+      build-for-status:
+        title: 'Constrói para a Status'
+        description: 'Obtenha seu DApp no status em'
+        link: 'Centro de Integração DApp'
+    educators:
+      intro:
+        subtitle: 'Uma Comunidade de Código Aberto'
+        title: Educação
+        description: 'Todos são bem-vindos para ajudar a educar outras pessoas sobre como construir a Status, usar a Status, começar na comunidade ou até mesmo compartilhar suas próprias experiências com o projeto.'
+      quick-nav-sub:
+        link-1: 'Educar e criar'
+        link-2: Traduzir
+        link-3: 'Recursos para educadores'
+        link-4: Github
+      educate-contribute:
+        how-to-get-started:
+          title: 'Como Começar'
+          link-1: 'Guia de iniciantes para membros da comunidade'
+          link-1-description: 'Confira este guia criado por membros da comunidade.'
+          link-2: Glossário
+          link-2-description: 'Consulte este documento de código aberto para termos, definições, recursos e conceitos. Sinta-se à vontade para adicionar a ele.'
+          link-3: 'FAQ''s'
+          link-3-description: 'Aqui está uma lista contínua de perguntas frequentes de todos na comunidade Status.'
+        create:
+          title: Criar
+          link-1: 'Criar Tutoriais Não-Técnicos'
+          link-1-description: 'Ajude os recém-chegados a configurar suas contas e navegar no aplicativo da Status e na comunidade. Entre em contato para que seu tutorial seja compartilhado no blog.'
+          link-2: 'Criar Tutoriais Técnicos'
+          link-2-description: 'Ajude os desenvolvedores a construir a Status, construir DApps, criar uma extensão ou qualquer outra coisa que você gostaria de compartilhar. Contate-nos.'
+          link-3: 'Escreva uma postagem no blog'
+          link-3-description: 'Compartilhe uma história no blog da Status. Torne-se um editor no Blog da Status'
+      translate:
+        title: Traduzir
+        description: 'Ajude-nos a localizar a Status em seu idioma. Usamos lokalise para traduzir tudo, desde o aplicativo, o site, a documentação e muito mais.'
+        link: 'Traduzir a Status'
+        link-2: Colaboradores
+      educator-resources:
+        title: 'Recursos para educadores'
+        link-1: 'Guia de Estilo & Recursos'
+        link-1-description: 'Encontre o guia de estilo mais recente junto com recursos de marca, modelos e fontes.'
+        link-2: Discutir
+        link-2-description: 'Junte-se a uma longa discussão sobre todas as coisas da Status.'
+        link-3: Tutoriais
+        link-3-description: 'Aprenda como construir algo ou veja alguns exemplos de outros tutoriais feitos pela comunidade.'
+        link-4: Blog
+        link-4-description: 'Confira as últimas notícias e atualizações da Status.'
+        link-5: Noturnos
+        link-5-description: 'Instale e teste a última compilação noturna para celular e desktop.'
+        link-6: 'Confira as últimas notas de lançamento'
+        link-8: 'Veja a lista completa de Canais Públicos da Status'
+      get-in-touch:
+        join-statusphere:
+          link: 'Junte-se a #statusphere'
+          description: 'Uma comunidade crescente de Embaixadores e entusiastas da Status'
+    community:
+      intro:
+        subtitle: 'Uma Comunidade de Código Aberto'
+        title: 'Grupos Comunitários'
+        description: 'Há uma série de grupos organizados pela Status e pela comunidade dentro da Status. Junte-se a um grupo existente ou inicie seu próprio grupo com base em seus interesses pessoais.'
+        link-1: 'Veja os grupos abaixo'
+        link-2: 'Envie um novo grupo'
+      community-groups:
+        account-group-1:
+          description: 'Um grupo de pessoas dedicadas a ajudar, contribuir e construir a comunidade de Status.'
+          occupation: Organizador
+          name: Nós
+        account-group-2:
+          description: 'Um grupo de desenvolvedores, criadores, criadores e entusiastas apaixonados com base na Coreia do Sul.'
+          occupation: Organizador
+        account-group-3:
+          description: 'Status en Español'
+          occupation: Organizador
+        account-group-4:
+          description: 'Status em Chinês'
+          occupation: Organizador
+        account-group-5:
+          description: 'Qual o significado da vida?'
+          occupation: Organizador
+          name: Aristóteles
+        account-group-6:
+          description: 'Status para a comunidade filipina'
+          occupation: Organizador
+        account-group-7:
+          description: 'Comunidade turca da Status'
+          occupation: Organizador
+  security:
+    intro:
+      title: 'Seguro por Design'
+      description-1: 'A Status pretende ser uma ferramenta de comunicação verdadeiramente descentralizada - eventualmente removendo todos os terceiros e minimizando os vetores de ataque de agentes mal-intencionados.'
+      description-2: 'O verdadeiro benefício do Web3 é a capacidade de fazer transações e se comunicar em nossos próprios termos - sem intermediários. Para desfrutar desse tipo de comunicação gratuita, devemos ter certeza de que nossas mensagens, transações, identidades e fundos estão seguros e protegidos. Saiba mais sobre a abordagem do Status para segurança abaixo.'
+    security-at-status:
+      title: 'Mensagens Seguras na Status'
+      secure-inner-1:
+        title: '<br>Mensagens</br> seguras'
+        description: 'As mensagens não são censuradas, bloqueadas e permanecem pseudo-anônimas se o usuário desejar. Apenas os destinatários pretendidos podem ver as mensagens.'
+      secure-inner-2:
+        title: 'Transações <br> financeiras seguras'
+        description: 'Enviar, armazenar e receber criptomoedas ou tokens dentro da carteira da Status está protegido contra ataques. As chaves privadas nunca são expostas. As transações são processadas apenas quando iniciadas e confirmadas pelo proprietário das chaves privadas.'
+      secure-inner-3:
+        title: 'Navegação <br>Segura'
+        description: 'Ao navegar na Web3, os dados do usuário final e as informações de navegação não podem ser acessados por terceiros sem consentimento. Todas as transações feitas durante o uso do navegador da Status implementam os mesmos padrões de segurança e práticas recomendadas usadas na carteira da Status.'
+    security-content:
+      content-1:
+        title: 'Identidade Segura'
+        description: 'Sua identidade na Status começa com um par de chaves criptográficas gerado localmente, que é então protegido por uma senha. Isso é tudo o que é necessário. O usuário então tem a capacidade de adicionar informações ao seu perfil para definir quem ele é na Status. Em todos os momentos, o usuário tem controle total sobre suas informações e quem tem acesso a elas. O usuário final pode ser tão público ou privado quanto desejar.'
+      content-2:
+        title: 'Protocolo de Mensagens Peer-to-Peer'
+        description: 'A Status usa o protocolo Waku para comunicação ponto a ponto (p2p). O Waku depende de uma rede de pares para rotear mensagens entre si. Cada mensagem enviada é transmitida para toda a rede e criptografada para ser aberta apenas pelo destinatário pretendido. Ao remover os pontos de estrangulamento centraliados, o conteúdo de suas mensagens e os metadados permanecem seus. No entanto, a Status e o Waku ainda não são totalmente ponto a ponto, pois os servidores de e-mail são usados para gerenciar mensagens quando um ponto está offline. Um servidor de e-mail Waku é uma extensão do Waku que armazena mensagens e as entrega quando o par volta a ficar online.'
+        link: 'Saiba mais sobre Waku'
+      content-3:
+        title: 'Criptografia de ponta-a-ponta por padrão'
+        description: 'Todas as mensagens privadas enviadas na Status são criptografadas de ponta a ponta por padrão. Quando você cria uma conta na Status, um par de chaves criptográficas é gerado para criptografar suas mensagens e é armazenado localmente em seu dispositivo. Ao adicionar um novo contato na Status, você troca chaves públicas para que essa pessoa possa descriptografar suas mensagens quando recebidas na rede.'
+      content-4:
+        title: 'Perfect Forward Secrecy'
+        description: 'O PFS é um recurso de protocolos específicos de contrato-chave que fornecem garantias de que as chaves da sua sessão não serão comprometidas, mesmo que as chaves privadas dos participantes sejam comprometidas. Especificamente, as mensagens passadas não podem ser descriptografadas por terceiros que conseguem obter uma chave privada. Ele se baseia nas especificações X3DH e Double Ratchet da Open Whisper Systems, com algumas adaptações para operar em um ambiente descentralizado. O Perfect Forward Secrecy é uma camada adicional de segurança para todos os seus bate-papos particulares 1:1.'
+        link: 'Saiba mais sobre o PFS'
+      content-5:
+        title: 'Criação de contas pseudoanônimas'
+        description: 'Ao criar uma nova conta no Status, você nunca será solicitado a verificar por terceiros, como um email ou número de telefone. Isso significa que você pode se inscrever e criar uma conta Status e permanecer pseudo-anônimo. Quando você cria uma conta, é simplesmente você e suas chaves. Isso também significa que autenticação de dois fatores e recuperação de senha não são recursos do Status - certifique-se de lembrar sua senha e frase semente (mnemônica) e armazená-las offline em um local extremamente seguro.'
+      content-6:
+        title: 'Como minhas chaves são armazenadas?'
+        description-1: 'A Status nunca usará serviços de terceiros para gerenciar e armazenar suas chaves públicas e privadas. Depois de gerada, a primeira chave BIP44 é salva em um chaveiro localmente no seu dispositivo. Este arquivo é criptografado com a senha que você escolhe para sua conta Status e acessível apenas pelo aplicativo Status. Priorizamos o armazenamento de informações confidenciais em hardware seguro, quando disponíveis no seu dispositivo.'
+        description-2: 'Para uma camada adicional de segurança, introduzimos o Keycard, que serve como armazenamento a frio offline para gerenciamento de chave privada e suas operações.'
+        description-3: 'Para mais informações sobre o Keycard, visite %s.'
+      content-7:
+        title: 'Navegação segura'
+        description: 'O navegador da Status foi projetado para manter o usuário final informado e seus fundos seguros. O modo Privacidade do Navegador está ativado por padrão. Isso significa que um DApp precisará solicitar permissão antes de conectar-se à sua carteira e pode causar a quebra de alguns DApps (se não forem compatíveis com esta medida de segurança). Finalmente, o navegador da Status implementa o EIP712, que visa melhorar a usabilidade da assinatura de mensagens fora da blockchain para uso na blockchain. Estamos vendo uma adoção crescente da assinatura de mensagens fora da blockchain, pois economiza gas e reduz o número de transações na blockchain. As mensagens assinadas atualmente são uma sequência hexadecimal opaca exibida ao usuário com pouco contexto sobre os itens que compõem a mensagem.'
+        link: 'Saiba mais sobre a EIP'
+      content-8:
+        title: 'Como a Status protege minha criptomoeda?'
+        description: 'A Status é criado com uma carteira sem custódia, oferecendo controle total sobre seus fundos sem o uso de um servidor. As chaves privadas são armazenadas de maneira criptografada no seu dispositivo. Seu dinheiro está sob seu controle e não pode ser acessado por ninguém sem a chave privada. Portanto, se você perder sua frase semente (mnemônica), nunca poderá restaurar o acesso aos seus fundos. Portanto, mantenha suas chaves privadas em algum lugar off-line com segurança.'
+      content-9:
+        title: 'Frase de assinatura para proteção contra ataques de phishing'
+        description: 'Status implementa uma frase de assinatura necessária para confirmar e “assinar” todas as transações. A frase de assinatura é uma frase de 3 palavras gerada aleatoriamente para você e armazenada localmente em seu dispositivo que é apresentada cada vez que você tenta enviar uma transação. Você receberá sua frase de assinatura e será solicitado a aceitá-la antes que a transação seja confirmada. Se você não reconhecer suas três palavras, ou se as três palavras não aparecerem, cancele a transação, saia do Status e relate o problema para %s'
+        link: 'Saiba mais sobre phishing'
+      content-10:
+        title: 'Auditoria Rigorosa'
+        description-1: 'À medida que alcançamos marcos importantes no desenvolvimento, após rodadas de revisão e auditoria interna, procuramos empresas de auditoria terceirizadas líderes do setor para verificar nossa sanidade e verificar duas / três vezes o trabalho que fazemos. Essas auditorias de segurança não são garantias de segurança nos projetos a que pertencem. Eles são verificações adicionais de terceiros objetivos para ajudar a aumentar a confiança na segurança da funcionalidade pretendida.'
+        description-2: 'Para obter informações e detalhes sobre todas as auditorias externas, consulte o %s .'
+        description-3: 'Se você encontrar um erro ou uma vulnerabilidade no nosso código, por favor relate-o para %s.'
+        ENS:
+          title: 'Contrato inteligente ENS com a Sigma Prime'
+          commit: 'Outubro de 2018 - Contrato de utilizador de ENS - cometeu hass eaefa92'
+          report: relatório
+          tests: testes
+          code: código
+          blog: 'publicação no blogue'
+        dejavu:
+          title: 'Auditoria Beta Deja Vu'
+          commit: '7 de maio de 2018 - Status-go e Status-react repos com Deja Vu'
+          report: relatório
+          blog: 'publicação no blogue'
+      content-11:
+        title: 'Eduque-se para ficar seguro'
+        description: 'Produtos descentralizados e sem servidor, como a Status, removem vários intermediários desnecessários, permitindo que você converse, transacione e navegue sem medo de vigilância, censura e vazamento de dados. Isso ocorre porque você está no controle de seus dados e de sua própria segurança digital. Portanto, é importante que você entenda como se proteger. Saiba mais sobre como se manter seguro com este Guia de Melhores Práticas de Segurança da Status.'
+        link: 'Veja o Guia de Melhores Práticas'
+      content-12:
+        title: 'Suporte de Segurança'
+        description: 'Nós estamos aqui para ajudar. Se você tiver alguma dúvida ou preocupação com segurança, envie um email para %s ou entre em contato conosco no Canal Público de Segurança do Status %s .'
+      content-13:
+        title: 'Programa de Recompensa de Bugs'
+        description: 'Se você é um pesquisador ou desenvolvedor de segurança e deseja denunciar uma vulnerabilidade, entre em contato com %s o Programa de Recompensa por Relatos de Bugs da Status. Também temos uma campanha com o HackerOne, um programa de recompensas por bugs que incentiva os hackers a olhar para os projetos. Estamos ativamente aumentando nossa campanha privada e a abriremos para divulgações públicas em breve! Para mais informações sobre o Programa de Recompensas de Bugs, entre em contato com %s .'
+    protect-yourself:
+      title: Proteja-se
+      description: 'Status é construída com tecnologia de ponta para garantir que o produto seja o mais seguro possível. Quando se trata de navegar na Web3, você está no controle. Veja nossa lista de melhores práticas de segurança e assuma o controle.'
+      link-1: 'Saiba Mais'
+      link-2: ' Junte-se ao Canal de Segurança de Status'
+  header:
+    nav:
+      get-involved:
+        title: Envolva-se
+        description: 'Status é um projeto open source <br> feito por pessoas de todo o mundo.'
+      security: Segurança
+      docs:
+        title: Desenvolvedores
+        description: 'Tudo o que precisa para começar <br>a desenvolver com a Status'
+        link: Documentos
+        link-1: 'Integração DApp'
+        link-2: 'Guia do Colaborador'
+        link-3: 'Junta-te à nossa equipa'
+        link-4: Segurança
+        link-5: Especificações
+        link-6: 'Guias do Usuário'
+      about: Sobre
+      blog: Blog
+      snt-utility: 'Utilitário SNT'
+      features:
+        link: Recursos
+        title: Recursos
+        link-1: 'Veja todos os recursos'
+        link-2: Keycard
+        description: 'Mensageiro Privado, Carteira de Criptomoedas, <br>Navegador Web3, e mais</br>'
+  link:
+    get-status: 'Obtenha a Status'
+    get-involved: Envolva-se
+    developers: Desenvolvedores
+    educators: Educadores
+    community-groups: 'Grupos Comunitários'
+    learn-more: 'Saber mais'
+    read-all: 'Leia tudo'
+  about:
+    intro:
+      title: 'A Missão'
+      link-1: 'Nossos Princípios'
+      link-3: 'Principais Colaboradores'
+      description: 'A Status se esforça para ser uma ferramenta de comunicação segura que defende os direitos humanos. Projetado para permitir o livre fluxo de informações, proteger o direito de conversas privadas e seguras e promover a soberania dos indivíduos.'
+    principles:
+      title: 'Nossos Princípios'
+      description: 'Esses princípios funcionam como ferramentas. Ferramentas para o pensamento, a comunicação e a tomada de decisão descentralizada. Eles nos mantêm honestos sobre onde estamos falhando aquém da nossa visão.'
+      principle-1:
+        title: Liberdade
+        description: 'Acreditamos na soberania dos indivíduos. Como uma plataforma que representa a causa da liberdade pessoal, nosso objetivo é maximizar as liberdades sociais, políticas e econômicas. Isso inclui ser resistente à coerção.'
+      principle-2:
+        title: 'Resistência à Censura'
+        description: 'Permitimos o fluxo livre de informações. Nenhum conteúdo está sob vigilância. Respeitamos o princípio de design criptoeconômico da resistência à censura. Ainda mais forte, a Status é uma plataforma agnóstica para informação.'
+      principle-3:
+        title: Segurança
+        description: 'Não comprometemos a segurança ao construir funcionalidades. Utilizamos tecnologias de ponta, e pesquisamos novos métodos e tecnologias de segurança para fazer fortes garantias de segurança.'
+      principle-4:
+        title: Privacidade
+        description: 'Privacidade é o poder de se revelar seletivamente ao mundo. Para nós, é essencial proteger a privacidade nas comunicações e nas transações, além de ser uma plataforma pseudo-anônima. Além disso, nos esforçamos para fornecer o direito ao total anonimato.'
+      principle-5:
+        title: Transparência
+        description: 'Nós nos esforçamos para ter total abertura e simetria de informações dentro da organização e não temos fronteiras entre nossos principais colaboradores e nossa comunidade. Somos francos em relação às nossas deficiências, principalmente quando fazemos trocas de curto prazo em serviço de nossas metas de longo prazo.'
+      principle-6:
+        title: Abertura
+        description: 'O software que criamos é um bem público. É disponibilizado por meio de uma licença de código aberto e gratuito, para qualquer um compartilhar, modificar e se beneficiar. Acreditamos na participação sem permissão.'
+      principle-7:
+        title: Descentralização
+        description: 'Minimizamos a centralização no software e na própria organização. Em outras palavras, maximizamos o número de computadores físicos que compõem a rede e maximizamos o número de indivíduos que têm controle sobre os sistemas que estamos construindo.'
+      principle-8:
+        title: Inclusividade
+        description: 'Acreditamos no acesso justo e amplo ao nosso software, com ênfase na facilidade de uso. Isso também se estende à inclusão social, participação sem permissão, interoperabilidade e investimento em esforços educacionais.'
+      principle-9:
+        title: Continuidade
+        description: 'Criamos software incentivado a continuar existindo e melhorando, sem a administração de uma única entidade ou de qualquer membro atual da equipe.'
+      principle-10:
+        title: Desenvoltura
+        description: 'Somos incansavelmente engenhosos. À medida que crescemos e temos acesso imediato ao capital, é nossa obrigação com os detentores de tokens combater a burocracia e as ineficiências dentro da organização. Isso significa resolver problemas da forma mais eficaz possível com custos econômicos mais baixos (em termos de capital, tempo e recursos).'
+    how-we-work:
+      title: 'Como trabalhamos'
+      description: 'Somos uma equipe distribuída em todo o mundo trabalhando remotamente de todos os cantos do mundo. Trabalhamos em pequenas equipes de 2 a 5 pessoas com um objetivo muito específico.'
+      research:
+        title: Pesquisa
+      specifications-planning:
+        title: 'Especificações & Planejamento'
+      implementation:
+        title: Implementação
+      communication-post-mortem:
+        title: 'Comunicação & Pos'
+    core-contributors:
+      title: 'Principais Colaboradores'
+      description: 'A Status não é uma organização tradicional. Não temos hierarquia, não há escritórios nem gerentes. Estamos todos aqui para cumprir nossa missão e temos a liberdade de escolher como fazê-lo.'
+      link-1: 'Junte-se a nós. Veja todas as vagas abertas'
+      link-2: 'Saiba mais sobre a vida na Status'
+    join-us:
+      title: 'Junte-se a nós'
+    quarterly-reports:
+      title: 'Os Relatórios Trimestrais da Rede da Status'
+      description: 'Mal podemos esperar para compartilhar com vocês tudo o que conseguimos.'
+  snt:
+    intro:
+      title: 'Status Network Token'
+      description: 'O SNT fortalece e incentiva a participação <br>na Status Network.'
+      link-1: 'O Básico'
+      link-2: 'Usando SNT'
+      link-3: Pesquisa
+      link-4: Envolva-se
+    the-basics:
+      title: 'O Básico'
+      inner-1:
+        title: 'Token ERC-20'
+        description: 'O SNT é um token ERC-20 usado para acessar e alimentar serviços descentralizados no aplicativo e na rede Status.'
+        link: 'Veja todos os casos de uso do SNT'
+      inner-2:
+        title: 'Código Aberto'
+        description: 'Status é um projeto totalmente de código aberto no qual qualquer pessoa pode usar o código e o token para atender às suas necessidades. A Status é verificada pelo Messari Disclosures Registry.'
+        link: 'Registo de Divulgações Messari'
+      inner-3:
+        title: Usuários-como-Stakeholders
+        description: 'Com o SNT, criamos uma rede de Usuários como Stakeholders, permitindo que o comportamento da rede e de seu software esteja alinhado com os interesses de seus Usuários.'
+        link: 'Saiba mais no Livro Branco'
+      inner-4:
+        title: Pesquisa
+        description: 'Colaboradores conduzem pesquisas sobre modelos criptoeconômicos e tecnologias ponto a ponto para garantir a saúde a longo prazo da Rede Status.'
+        link: 'Saiba mais sobre a pesquisa'
+    using-snt:
+      title: 'Usando SNT'
+      description: 'O SNT é necessário para potencializar certos recursos do aplicativo e criar uma economia descentralizada de código aberto. Mergulhe mais fundo em cada um dos Casos de Uso SNT abaixo para aprender mais sobre a pesquisa criptoeconômica e como o valor flui pela rede.'
+      teller-network:
+        title: 'Rede Teller'
+        status: Desenvolvido
+        description: 'Uma comunidade implantou o DApp que fornece uma ''Rede Teller'' sem fronteiras, ponto a ponto, fiat-a-cripto, que permite que os Stakeholders encontrem usuários próximos para trocar seu dinheiro por ativos digitais e moeda. SNT é necessário para se tornar um vendedor na rede.'
+      network-incentivization:
+        title: 'Incentivo à Rede'
+        status: Pesquisa
+        description: 'Crie uma estrutura de framework e estrutura de incentivos para que as pessoas implantem e usem os nós da Status. O SNT é usado para incentivar e recompensar os participantes da rede a executar um nó, a fim de garantir que o aplicativo continue a funcionar se todos os nós no cluster hospedados na Status estiverem desligados. Isso inclui pagar por mensagens encaminhadas e pagar por mensagens offline.'
+      ens-user-name:
+        title: 'Nome de usuário ENS'
+        status: 'Ao vivo'
+        description: 'Os endereços ENS são como nomes de usuário. Os nomes de Jenny.eth podem apontar para uma conta pessoal, permitindo que outros enviem tokens ou encontrem no chat da Status. Os endereços ENS podem ser pesquisados no chat da Status, carteira e navegador. <br> <br> O registro de um nome ENS stateofus.eth custa 10 SNT. Depois que um nome é reservado, o SNT fica preso a um contrato de registro por 1 ano. Depois que o ano acabar, o nome pode ser liberado para recuperar os tokens - ou pode ser mantido sem precisar realizar nenhuma ação.'
+        link: 'Registre um ENS'
+      sticker-market:
+        title: 'Sticker Market'
+        status: Rodando
+        description: 'Os adesivos oferecem uma maneira divertida dos usuários interagirem visualmente com seus amigos e familiares. O mercado de adesivos na Status permitirá que qualquer pessoa crie e venda suas próprias artes para usuários de todo o mundo e comece a usar adesivos em qualquer bate-papo de status. <br> <br> É necessário  SNT para comprar alguns pacotes de adesivos no mercado.'
+      tribute-to-talk:
+        title: 'Tribute to Talk'
+        status: Desenvolvido
+        description: 'O Tribute to Talk apresentará um filtro anti-spam baseado em economia - nesse caso, para receber mensagens e solicitações de contatos desconhecidos dos usuários. Isso permite que as partes interessadas definam uma quantidade mínima de SNT que deve ser depositada para que alguém fora da rede entre em contato diretamente com ela.'
+      dao-governance:
+        title: 'DAO & Governança'
+        status: Pesquisa
+        description: 'Uma parte essencial do Status Network Token é dar às partes interessadas a capacidade de escolher a direção em que o software é desenvolvido. O SNT é usado para tomar decisões sobre propostas, que podem ser tomadas por qualquer parte interessada. Para cada decisão, o token é clonado em um token de decisão separado. A quantidade de tokens que você possui naquele momento se torna seu poder de voto para essa decisão e não custa o voto do SNT.'
+      dapp-curation:
+        title: 'Curadoria de DApps'
+        status: Rodando
+        description: 'O Dap.ps fornece uma maneira para as partes interessadas na rede descobrirem DApps, com curadoria de outros membros da comunidade. Ele também fornecerá uma maneira de navegar por categoria e classificação, permitindo que os usuários encontrem exatamente o que estão procurando. O SNT será necessário para curadoria e sinalização no diretório. Um depósito de SNT será exigido pelos desenvolvedores do DApp que desejam obter maior atenção ao seu DApp.'
+        link: 'Navegue pelos DApps'
+      voting-dapp:
+        title: 'DApp de Votação'
+        status: Rodando
+        description: 'Um primeiro passo para a governança da comunidade, o Status Voting DApp permite que as partes interessadas influenciem o futuro da rede. O DApp de votação pode ser usado por qualquer pessoa para configurar uma votação da comunidade com o SNT. Ao alavancar a votação quadrática, a quantidade de SNT em sua carteira determina quantos votos você pode emitir.'
+        link: 'Confira o DApp de Votação'
+      acquisition-engine:
+        title: 'Mecanismo de aquisição'
+        status: Pesquisa
+        description: 'Alcançar nossa missão exige, em última análise, uma coisa: adoção generalizada pelo usuário final. Usando o Status Network Token, podemos projetar mecanismos de crescimento experimentados e testados na Web 2.0, proporcionando maior transparência e melhor alinhamento de incentivos para os participantes. O Status Acquisition Engine fornece um meio criptograficamente comprovável e transparente de aumentar a base de usuários.'
+    crypto-research:
+      title: 'Pesquisa Criptoeconômica'
+      description-1: 'Colaboradores da comunidade de todo o mundo realizam pesquisas sobre os modelos criptoeconômicos dos casos de uso do SNT para informar o desenvolvimento de produtos e recursos, bem como o incentivo à Status Network. <br> <br> Esses modelos criptoeconômicos são um esforço contínuo de pesquisa e qualquer pessoa é incentivada a explorar, criticar e revisar o trabalho.'
+      link-1: ' Junte-se em #status'
+      description-2: 'Participe do canal público e saiba mais sobre a pesquisa'
+      link-2: 'Junte-se à Discussão'
+    learn-more:
+      title: 'Saiba Mais'
+      description: 'Muitos dos casos de uso do SNT estão em pesquisa e desenvolvimento ativos. Participe das discussões públicas ou leia as Perguntas frequentes do SNT para saber mais sobre os casos de uso e pesquisas econômicas do SNT.'
+      link: 'Junte-se em #status'
+    create-your-snt:
+      title: 'Crie seu próprio modelo financeiro SNT'
+      description: 'Qualquer pessoa é bem-vinda para se envolver e testar os modelos econômicos descritos nas pastas de trabalho. Se você é um pesquisador, economista, ou simplesmente curioso sobre os modelos financeiros, por favor, envolva-se.'
+      link: 'Teste os modelos de token SNT'
+  get:
+    mobile:
+      title: Móvel
+      description: 'Converse, transacione e acesse um mundo revolucionário de DApps. Instale o Status no App Store e no Google Playstore e diga olá no canal público #introductions.'
+      apk-file: 'Arquivo APK aqui'
+      link-1: 'Aplicativo para iOS'
+      link-2: 'Aplicativo Android'
+    desktop:
+      title: 'Mac, Windows ou Linux'
+      description: 'Faça o download e instale o Aplicativo Desktop alpha mais recente e inicie as mensagens de onde você trabalha.'
+      link-1: 'Aplicativo macOS'
+      link-2: 'Aplicativo Linux'
+      link-3: 'Aplicativo Windows'
+      announcement: 'Este é um software alfa e pode conter vulnerabilidades. <br> Por favor, espere mudanças.'
+  docs:
+    stripe:
+      title: 'Desenvolvedores Status'
+    title: 'Bem-vindo à Documentação da Status!'
+    description: 'Execute seu DApp no Status, explore nossa tecnologia, conheça nossa organização ou ajude a criar a Status:'
+    categories:
+      technical-documentation:
+        title: 'Guia do Colaborador'
+        description: 'Junta-te ao nosso ecossistema distribuído.'
+      developer-tools:
+        title: 'Centro de Integração DApp'
+        description: 'Executa a tua DApp na Status'
+      build-status:
+        title: 'Compilar Status'
+        description: 'Para dispositivos móveis e computadores'
+      research:
+        title: 'Tópicos de pesquisa'
+        description: 'A construir um futuro distribuído.'
+      team:
+        title: 'A Nossa Equipa'
+        description: 'Junta-te à Status'
+      audits:
+        title: 'Auditorias Externas'
+        description: 'Auditorias Técnicas Externas'
+      keycard:
+        title: 'Cartão-chave API'
+        description: 'Seguro, sem contacto, Hardwallet de código aberto.'
+    pinned-repositories:
+      title: 'Repositórios Fixados'
+      status-react:
+        title: status-react
+        description: 'Um sistema operacional gratuito (livre) móvel para Ethereum.'
+      status-go:
+        title: status-go
+        description: 'O módulo da Status que consome o go-ethereum.'
+      specs:
+        title: Especificações
+        description: 'Especificações para clientes Status.'
+    help:
+      title: 'Nós estamos aqui para ajudar!'
+      description: 'Estamos sempre felizes em ajudar com o código ou com qualquer dúvida que tenha.'
+      link-1: 'Reportar um erro'
+      link-2: 'Chat da comunidade da Status'
+      link-3: 'Converse connosco'
+      link-4: 'Pergunte no reddit'
+    update:
+      title: 'Atualizado recentemente'
+    index:
+      intro:
+        title: 'Portal do Desenvolvedor'
+        teaser-1: 'Bem-vindo ao Portal do Desenvolvedor de Status. Encontre tudo o que você precisa para começar a contribuir com a Status, construir seus próprios DApps ou registrar seu dapp em <a href=''https://dap.ps''> dap.ps </a> e trabalhar com qualquer um dos projetos na rede da Status.'
+      box-link-1:
+        title: 'Guia de Colaboradores'
+        text: 'Status está a construir software gratuito e de código aberto, que é livre para qualquer pessoa partilhar, modificar e se beneficiar.<br>&nbsp;<br>Membros da Comunidade com diferentes experiências, habilidades e interesses contribuem para os lançamentos oficiais da Status. Aprenda a construir para a Status, ganhar crypto por completar tarefas, corrigir erros, ou criar o que quer que precise.'
+        cta: Comece
+      box-link-2:
+        title: 'Centro de Integração DApp'
+        text: 'A Status inclui um navegador web3 privado e seguro, e acesso ao crescimento do ecossistema de aplicações descentralizadas<br>&nbsp;<br>O Centro de Integração Dapp é um guia passo-a-passo para a otimização da utilização de aplicações na Status. Isto inclui uma prática pioneira excelente no smartphone, segurança e privacidade, um impulsionamento na API da Status, e como submeter para dap.ps.'
+        cta: Comece
+      box-link-3:
+        title: Tutoriais
+        text: "Acompanhe e aprenda como contribuir e construir com a Status e um dos projetos da The Status Network. <br> \_ <br> Crie DApps, integre segurança de hardware, inicie a configuração com o Nimbus ou o Vac. Aprenda com os principais contribuidores e os tutoriais criados pela comunidade. Não encontra o que procura? Crie o seu próprio para que outras pessoas possam se beneficiar."
+        cta: 'Veja todos os Tutoriais'
+        text-1: 'WebAssembly / eWasm – O quê, e por quê?'
+        description-1: 'Tutorial curto sobre Embark'
+        text-2: 'Segurança de front-end para DApp'
+        description-2: 'Tutorial curto sobre Embark'
+    dev-tools:
+      title: 'Construa com a rede da Status'
+      keycard:
+        title: Keycard
+        subtitle: 'Hardwallet seguro, sem contato e de código aberto'
+        description: 'Integre a segurança de hardware ao seu projeto com o Keycard'
+      embark:
+        title: Embark
+        subtitle: 'Plataforma de desenvolvimento tudo-em-um para a construção e implantação de DApps'
+        description: 'Desenvolva e implante aplicativos descentralizados com Embark'
+      nimbus:
+        title: Nimbus
+        subtitle: 'Pesquisando e implementando clientes Ethereum 2.0 light'
+        description: 'Pesquisando clientes Ethereum 2.0 mais leves com Nimbus'
+      vac:
+        title: Vac
+        subtitle: 'Pilha de mensagens ponto a ponto segura'
+        description: 'Comunicação privada, segura e resistente à censura com Vac'
+    support: 'Não consegue encontrar o que procura? Confira o fórum da comunidade em <a href=''https://discuss.status.im/tags/faq''> Discussão </a> .'
+  footer:
+    title: 'Preparado para começar <br>com a Status?'
+    product:
+      title: Produto
+      apps: 'Obter a App'
+      nightly: Noturno
+    status:
+      title: Status
+      jobs: Empregos
+      white-paper: 'Papel branco'
+      media-kit: 'Kit de mídia'
+      analytics: 'Estatísticas do Site'
+      open_positions: 'Posições Abertas'
+    documentation:
+      title: Documentação
+    status-network:
+      title: 'Rede Status'
+      embark: Embark
+      nimbus: Nimbus
+      keycard: Keycard
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: Subespaço
+      teller: Caixa
+      assemble: Montar
+    connect: Conectar
+    privacy-policy:
+      title: 'Política de Privacidade'
+      description: 'Status Research & Development GmbH, Baarerstrasse 10, Zug, Suíça'
+    site-analytics: 'Estatísticas do Site'
+    messari: 'Transparência Messari Verificada'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 'Mensagens Verdadeiramente Privadas'
+        description: 'Envie e receba mensagens totalmente encriptadas sem nenhum servidor central.'
+      secure-wallet:
+        title: 'Carteira criptográfica segura'
+        description: 'Armazene com segurança seu ETH, SNT e outros ativos criptográficos.'
+      web3-browser:
+        title: 'Navegador Web3 descentralizado'
+        description: 'Descubra o ecossistema de aplicações descentralizadas, num só lugar.'
+    invite:
+      title: 'Junta-te a nós no canal público <a href=''https://join.status.im/chat/public/%s'' target=''_blank''>#%s</a> e aprende como ganhar algum SNT'
+      prize:
+        option-1: 'Registe um nome stateofus.eth ENS'
+        option-2: 'Comprar pacotes de stickers'
+        option-3: 'Atualize seus dapps favoritos em dap.ps'
+        option-4: 'Participa com sugestões/propostas para a Comunidade Administrativa da Status'
+  nightly:
+    title-1: 'Compilações de Desenvolvimento do Status'
+    title-2: 'Cuidado com os Dragões!'
+    updated: Atualizado
+    description-1: 'Aviso: As compilações noturnas destinam-se a testes de desenvolvimento e podem incluir bugs e outros problemas. Você pode usar as <a href=''https://status.im/get/''> releases estáveis </a> .'
+    description-2: 'Baixando e instalando estas compilações você assume total responsabilidade por todos os riscos relacionados com os seus dados e fundos. A Status não faz exigências de segurança ou a integridade de fundos nessas compilações. A Status aconselha o uso de diferentes recuperação frases em compilações noturnas.'
+    description-3: 'Veja nosso'
+    faq: 'FAQ Geral'
+    mobile: Móvel
+  keycard-integration:
+    intro:
+      title: 'Adicione segurança de hardware à sua experiência na Status'
+      description: 'Proteja seus ativos e contas com Keycard - a carteira de hardware de "armazenamento a frio" (cold storage) com uma experiência conveniente e sem contato. Apenas para Android.'
+      button: 'Obtenha um Keycard 29 €'
+    about:
+      title: 'O que é o Keycard?'
+      description: 'Keycard é uma carteira de hardware de armazenamento projetada para manter suas chaves privadas totalmente offline para maior segurança sobre seus fundos. <br> <br> Desenvolvido com tecnologia NFC e um design semelhante a um cartão de crédito para uma experiência "sem contato" perfeita. Construído com uma API aberta para integração com crypto wallets, DApps e hardware de terceiros.'
+      button-1: 'Saiba Mais'
+      button-2: 'Obtenha um Keycard 29 €'
+    secure:
+      title: 'Protegendo o app da Status com Keycard'
+      security:
+        title: 'Maior segurança para seus ativos e transações'
+        description: 'Com chaves privadas armazenadas offline no seu Keycard, adicione autorizações reforçadas por hardware às suas transações. Mesmo se seu telefone for roubado, seus fundos estarão seguros.'
+        send: 'Enviar transação'
+        confirmed: 'Transação de saída confirmada'
+      account:
+        title: 'Proteja o acesso às suas contas'
+        description: 'Adicione mais segurança e exija a entrada de Keycard + PIN como autenticação de dois fatores para acessar suas contas com a Status.'
+        confirmed: 'Login realizado com sucesso'
+    boxes:
+      box-1:
+        title: 'Autonomia e Confiança'
+        description: 'A Status remove partes terceiras desnecessárias, como bancos, para se comunicar e fazer transações. Ao remover esses serviços, as pessoas agora são responsáveis por si mesmas e pelos fundos. O Kecyard oferece a segurança para operar com segurança sem eles.'
+      box-2:
+        title: 'Um design Mobile-first'
+        description: 'Construído com tecnologia NFC sem contato e um design elegante e familiar, o Keycard oferece a conveniência de um cartão de crédito com a segurança de uma carteira de hardware.'
+      box-3:
+        title: 'Segurança Acessível'
+        description: 'Por apenas 29 €, o Keycard oferece fortes garantias de segurança de hardware, sem o preço caro de marca.'
+        link: 'Obtenha um Keycard 29 €'
+    faq:
+      title: 'Você tem perguntas?'
+      button: 'Saiba Mais'
+  keycard:
+    intro:
+      title: 'Status x Keycard para comunicação privada e segura'
+      description: 'A Status é um mensageiro privado, carteira criptografada segura e navegador Web3. O Keycard adiciona segurança de hardware à sua experiência. Saiba mais sobre o que você pode fazer com o Keycard abaixo.'
+      button: FAQ
+    security:
+      title: 'Maior segurança para seus ativos e transações'
+      description: 'Com as chaves privadas armazenadas off-line em seu Keycard, adicione autorizações reforçadas por hardware às suas transações. Mesmo se seu telefone for roubado, seus fundos estarão seguros.'
+      send: 'Enviar transação'
+      confirmed: 'Transação de saída confirmada'
+    account:
+      title: 'Proteja a sua conta'
+      description: 'Maior segurança adicionada e requer entrada do Keycard + PIN como autenticação de dois fatores para fazer login em sua conta de status.'
+      confirmed: 'Login realizado com sucesso'
+    faq:
+      title: 'Você tem perguntas?'
+      button: 'Visite FAQ'
+  faq:
+    title: F.A.Q
+    description: 'Perguntas frequentes <br> Não consegue encontrar o que está procurando? Verifique ou pergunte no fórum da comunidade <a href=''https://discuss.status.im/'' target=''_blank''> aqui </a>'
+    general:
+      title: Geral
+      q1:
+        question: 'O que é a Status?'
+        answer: 'Status é uma ferramenta de comunicação privada e segura para defender os direitos humanos e empoderar comunidades soberanas'
+      q2:
+        question: 'Quem está por trás da Status?'
+        answer: 'A Status é construída pela Rede da Status. A <a href=''https://statusnetwork.com/'' target=''_blank''> Rede da Status </a> desenvolve produtos, ferramentas e infraestrutura para comunidades resilientes, sustentáveis e inclusivas. Mais sobre a Status e seus principais contribuidores <a href=''https://status.im/about/'' target=''_blank''> aqui </a> .'
+      q3:
+        question: 'Por que usar Status?'
+        answer: 'Nos últimos 20 anos, a internet como a conhecemos foi controlada por algumas corporações, com um incentivo para coletar e vender dados. A Status oferece uma alternativa. A Status usa tecnologia de ponta para fornecer comunicação privada e segura. A Status usa um modelo ponto a ponto que impede que terceiros controlem os dados dos usuários. Status combina um messenger, crypto wallet e navegador web3 e oferece controle total sobre seus ativos e comunicação.'
+      q4:
+        question: 'Por que um mensageiro?'
+        answer: 'Comunidades soberanas precisam de comunicação sem censura, privada e segura para se organizar. O sistema de mensagens oferece um caminho promissor para a adoção do Ethereum devido à sua adequação para uso móvel. Isso, por sua vez, pode abrir caminho para tornar as redes de pagamento e outros aplicativos descentralizados acessíveis a mais comunidades. <br> <br> Em última análise, a Status é muito mais do que um mensageiro. Combinando a gestão de ativos com a crypto wallet e o acesso a um mundo de aplicações descentralizadas através do navegador web3, é uma ferramenta de comunicação no sentido mais amplo.'
+      q5:
+        question: 'O que torna a Status diferente de outros aplicativos de mensagens?'
+        answer: 'A maioria dos mensageiros oferece criptografia de ponta a ponta. Essa proteção padrão significa que a empresa prestadora do serviço não pode ler o conteúdo de suas mensagens. Mas o fluxo de informações em sua rede é público e permite a interpretação de quem está falando com quem, e de onde. Os mensageiros tradicionais também exigem informações de identificação para se inscrever, como um número de telefone, e isso geralmente está conectado a uma série de outros dados pessoais sobre você. A Status não requer nenhuma informação pessoal para você começar. Por causa de sua infraestrutura ponto a ponto, a Status não tem conhecimento sobre quem está contatando quem, nem sobre o conteúdo de suas mensagens. <a href=''https://github.com/status-im/specs'' target=''_blank''> Aqui </a> você pode encontrar especificações de como essa tecnologia funciona.'
+      q6:
+        question: 'O que acontece se um governo tentar bloquear ou censurar a Status?'
+        answer: 'O mensageiro da Status não usa um servidor central de e para o qual a comunicação pode ser bloqueada. Em vez disso, a Status usa uma rede distribuída de servidores de e-mail. Isso garante resiliência da rede. Se um servidor de e-mail for encerrado, você pode se conectar a outro servidor de e-mail ou iniciar <a href=''https://discuss.status.im/t/get-your-node-running/1488/4?u=hester'' target=''_blank''> executando o seu próprio </a> . No entanto, os servidores da Status e de e-mail na rede ainda dependem de uma conexão com a Internet. Se a Internet for desligada por meio de provedores de telecomunicações, você não poderá usar a Status.'
+      q7:
+        question: 'Como a Status se conecta ao blockchain?'
+        answer: 'A Status vem com go-ethereum, que se conecta à rede Ethereum. Tudo o que você precisa fazer para se conectar ao Ethereum é executar o aplicativo da Status! Observe que apenas a carteira e o navegador interagem com o blockchain Ethereum. As mensagens não são armazenadas no blockchain.'
+      q8:
+        question: 'Posso executar go-ethereum eu mesmo ou em um servidor?'
+        answer: 'Estamos empenhados em fazer com que os nós leves funcionem em dispositivos com recursos restritos. Isso permitiria que você se conectasse ao Ethereum a partir do seu telefone celular ou dispositivo IoT diretamente, sem a necessidade de servidor. Mais importante ainda, aumentaria a acessibilidade e a resiliência da rede em geral. Para obter mais informações, consulte <a href=''https://nimbus.team/'' target=''_blank''> https://nimbus.team/ </a> . <br> <br> Se você deseja executar o go-ethereum agora, pode definir um nó em um dispositivo Linux e configurar o aplicativo da Status para se conectar a este nó. Você pode encontrar mais informações <a href=''https://discuss.status.im/t/get-your-node-running/'' target=''_blank''> aqui </a> .'
+      q9:
+        question: 'Em quais dispositivos posso usar o app da Status?'
+        answer: 'A Status é testada para funcionar no Android 7 ou superior e no iOS 13 ou superior.'
+      q10:
+        question: 'O app da Status também funciona em desktop?'
+        answer: 'No momento, não. Nossa base de código foi projetada para que a Status possa ser executada em dispositivos móveis ou desktop. O desenvolvimento do desktop da Status está atualmente pausado enquanto a equipe se concentra no aplicativo móvel e em outros projetos de infraestrutura.'
+      q11:
+        question: 'Em quais idiomas o aplicativo está disponível?'
+        answer: 'A Status está atualmente disponível em 14 idiomas - Inglês, Français, Italiano, 简体 中文, 繁體 中文, 한국어, اُردُو, русский !, Türkçe, Español, Tagalog, Bahasa Indonesia, Deutsch, Português do Brasil <br> <br> Qualquer um pode contribuir com traduções para a Status. Se você encontrar um erro de digitação, tradução incorreta ou simplesmente quiser que seu idioma seja representado, junte-se a nós em <a href=''https://translate.status.im/'' target=''_blank''> translate.status.im </a> .'
+      q12:
+        question: 'O aplicativo é gratuito para usar?'
+        answer: 'Absolutamente. Nenhum pagamento é necessário para usar os recursos principais da Status. Para obter o máximo da Status, ajudamos a manter as criptomoedas ETH (Ethereum) e SNT (Status Network Token). Certos recursos requerem SNT para uso, pois isso ajuda a apoiar nosso projeto. <br> <br> Para obter o SNT, você pode usar um DApp de câmbio para negociar criptomoedas que você já possui ou pode comprar ETH e SNT em troca de uma moeda fiduciária (por exemplo, euro ou dólar americano) usando uma troca do tipo fiat-to-crypto.'
+      q13:
+        question: 'Há alguma taxa?'
+        answer: 'A Status não tem taxas ocultas. Ao fazer uma transação usando sua carteira criptografada, você verá uma taxa de rede incluída no custo. Essa taxa de rede também é conhecida como “gas” e é um requisito da rede Ethereum, usada exatamente da mesma forma por todas as carteiras e aplicativos Ethereum para facilitar as transações. A Status não cobra nenhuma porcentagem dessa taxa.'
+      q14:
+        question: 'Eu gostaria de contribuir com o projeto, por onde você sugere que eu comece?'
+        answer: 'Status é um projeto de código aberto e agradece todas as contribuições, tanto técnicas quanto não técnicas. A <a href=''https://ambassador.status.im/'' target=''_blank''> página de embaixadores </a> é um ótimo lugar para começar. Aqui você pode entrar em contato com colaboradores ativos que podem apoiá-lo na promoção, ensino ou contribuição para a próxima geração da web. <br> <br> Se você é um desenvolvedor e quer sujar as mãos, vá para a documentação de desenvolvimento do DApp. Se você é um desenvolvedor móvel e adora linguagens funcionais, construa na sua máquina o projeto da Status e comece a enviar esses PRs.'
+      q15:
+        question: 'Como posso solicitar recursos?'
+        answer: 'Como a Status é um projeto de código aberto dirigido pela comunidade, você pode solicitar e contribuir para o desenvolvimento de recursos. Compartilhe suas idéias no canal público <a href=''https://get.status.im/chat/public/status'' target=''_blank''> #status </a> ou em nosso fórum de discussão: <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> . Você também pode abrir uma <a href=''https://github.com/status-im'' target=''_blank''> questão no Github </a> . <br> <br> Se você é um desenvolvedor, siga nosso <a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''> guia do contribuidor </a> para ficar por dentro.'
+      q16:
+        question: 'O que é SNT e como funciona no aplicativo?'
+        answer: 'SNT é o token de rede da Status. É o token ERC20 (padrão Ethereum) da Status, usado para alimentar a Rede da Status. Certos recursos e funcionalidades exigem que os usuários depositem ou gastem SNT. A utilidade do token é um objetivo principal da Rede da Status, pois o valor de SNT ajuda a garantir a longevidade do projeto.'
+    keys-and-accounts:
+      title: 'Chaves e Contas'
+      q1:
+        question: 'O que são as chaves?'
+        answer: 'As chaves são uma forma de identidade e são a espinha dorsal da Status e do Ethereum. Eles sempre vêm em pares, uma chave pública e uma chave privada. Você gera o primeiro par quando começa a usar a Status, e pode considerá-lo o par de chaves mestras. Depois disso, um número n de pares de chaves pode ser gerado com base neste primeiro par. Criando algo como um chaveiro de identidades. Uma das chaves nesta cadeia é sua chave de bate-papo; Você pode encontrá-lo em Perfil > Compartilhar ícone.'
+      q2:
+        question: 'O que são contas?'
+        answer: 'Você pode comparar contas na Status com contas bancárias. Cada conta é baseada em seu próprio par de chaves. Como uma conta bancária, uma conta normalmente tem um endereço, saldo e pode realizar transações. Cada conta também tem seu próprio histórico de transações públicas. Para privacidade total, você usa várias contas. Você pode ver suas contas na guia Carteira.'
+      q3:
+        question: 'Qual é o endereço da minha carteira?'
+        answer: 'O endereço da sua carteira tem 42 caracteres e começa com 0x. É uma identidade na cadeia para a sua conta Ethereum. Se você tem várias contas, você tem vários endereços. Você pode encontrar o endereço da sua carteira indo em Carteira > Cartão de conta > Receber ou tocando no ícone de compartilhamento no cartão da conta. <br><br><i>Note que embora pareça semelhante, o endereço da sua carteira não é o mesmo que a sua chave de bate-papo. Você pode encontrar sua chave de bate-papo em Perfil > Ícone de compartilhamento.</i>'
+      q4:
+        question: 'Quantas contas posso criar na Status?'
+        answer: 'Você pode criar quantas contas quiser. Vá para Carteira > Adicionar conta. As contas adicionadas desta forma podem ser recuperadas com sua frase-semente, junto com seu par de chave mestra, se você perder o acesso à sua conta. <br> <br> Você também pode criar mais pares de chaves mestras indo para a tela inicial Suas chaves > Gerar chaves, ou Acessar chaves existentes se desejar importar chaves de outra carteira, ou criar um conjunto de identidades completamente novo.'
+    profile-and-settings:
+      title: 'Perfil e Configurações'
+      q1:
+        question: 'O que é um nome de usuário ENS?'
+        answer: 'Um nome de usuário ENS é um nome registrado no Ethereum Name Service; Um registro que conecta um endereço Ethereum a um nome único e legível, por exemplo, Alice. Assim como o registro de um domínio da web, o nome ENS vem com sufixos diferentes. Se você registrar um nome por meio da Status, obterá alice.stateofus.eth. Ao registrar um nome ENS, você pode usá-lo no chat da Status, transformando seu nome aleatório, por exemplo, Sneaky White Koala, no seu nome ENS. Isso torna muito mais fácil para outras pessoas encontrarem e reconhecerem você.'
+      q2:
+        question: 'Qual é a diferença entre alice.eth e alice.stateofus.eth?'
+        answer: 'Comprar um nome stateofus.eth é mais barato. Você paga 10 SNT para licenciar o nome, após 1 ano você pode recuperar os fundos ou continuar usando o nome sem nenhum custo adicional. Um domínio .eth atualmente (janeiro de 2020) custa cerca de US $ 5 anuais na ETH. Você pode conectar os dois nomes à sua chave de chat para usar seu nome, por exemplo @alice, no chat.'
+      q3:
+        question: 'O que é uma frase-semente?'
+        answer: 'Sua frase-semente na Status é composta por 12 palavras. É a origem de sua chave de bate-papo, bem como das chaves da conta na sua carteira. Todas as chaves são derivadas desta primeira semente por meio de alguma magia criptográfica. Se você perder o acesso à sua conta, por exemplo, ao perder o celular, poderá acessar suas chaves usando sua frase-semente. A mesma magia permitirá que você regenere exatamente as mesmas chaves de identidades.'
+      q4:
+        question: 'O que devo fazer com esta frase semente?'
+        answer: 'Anote. Mantenha segura. Manter sua frase-semente no papel, longe de seus dispositivos, é a opção mais segura.'
+      q5:
+        question: 'Se eu perder meu celular, como posso acessar minhas contas?'
+        answer: 'Para acessar suas contas, você precisa de sua frase semente de 12 palavras. Com essa frase semente você pode recuperar o acesso ao seu par de chaves mestras e a todas as suas contas. <br> <br> Observe que você pode restaurar contas que estão no Ethereum. No entanto, você não recuperará o acesso aos seus bate-papos ou lista de contatos, pois essas informações são armazenadas apenas localmente no seu celular.'
+      q6:
+        question: 'Por que a ''frase semente de backup'' está esmaecida?'
+        answer: 'O item ''Frase de origem de backup'' fica acinzentado quando você já percorreu as telas que o instruem a anotar a sua frase de origem. Neste ponto, você não pode mais visualizar a frase-semente no aplicativo. A frase é removida do armazenamento local para minimizar o risco de qualquer pessoa, exceto você, poder acessá-la.'
+      q7:
+        question: 'Perdi minha frase-semente. O que eu faço?'
+        answer: 'Isso é uma dor. Primeiro verifique se você não pode mais fazer backup de sua frase-semente em Perfil > Privacidade e segurança. Se o item `frase de origem de backup` estiver esmaecido, você não poderá mais acessar a frase de origem. <br> <br> A melhor opção agora é gerar uma nova chave usando uma nova semente e transferir seus ativos para esta nova conta. Em Status, vá para Sair > Gerar uma nova chave. Siga as etapas na tela para armazenar e proteger esta nova chave. Quando terminar, vá para Perfil > Privacidade e segurança > Backup da frase-semente. Armazene a frase-semente offline com segurança. Em seguida, vá para Carteira > Ícone Compartilhar ou Receber > Toque no endereço para copiar. Sair. <br> <br> Desbloqueie as chaves para as quais você perdeu sua frase semente usando sua senha. Envie todos os ativos das contas em sua carteira para seu novo endereço.'
+      q8:
+        question: 'Como eu deleto meu perfil?'
+        answer: 'Seu perfil existe apenas localmente. Todas as mensagens enviadas permanecerão nos servidores de e-mail por 30 dias. Depois disso, a mensagem deixa de existir. As transações que você fez usando uma conta em sua carteira permanecerão no blockchain.'
+      q9:
+        question: 'Se alguém tiver acesso ao meu celular, que parte do meu perfil está criptografada e qual não?'
+        answer: 'Suas chaves privadas são criptografadas o tempo todo e só podem ser usadas por você para assinar transações em combinação com sua senha ou código de acesso. As informações que não são criptografadas incluem o nome de 3 palavras, quando você usou o Status pela última vez (desbloqueou suas chaves), sua imagem de perfil e o identificador de seu Keycard, se você tiver um.'
+      q10:
+        question: 'Como faço para minimizar o uso de dados móveis no app da Status?'
+        answer: 'O app da Status pode ter muita largura de banda. A melhor maneira de evitar o consumo excessivo de dados é usando a Status apenas quando conectado ao wi-fi. Você pode impedir que a Status use dados móveis ajustando suas configurações em Perfil > Configurações de sincronização > Dados móveis.'
+    messenger:
+      title: Mensageiro
+      q1:
+        question: 'Minhas mensagens são realmente privadas?'
+        answer: 'Sim, elas são. A Status atualmente usa o Whisper, o protocolo de mensagens da pilha do Ethereum. O Whisper fornece mensagens ponto a ponto com confiança zero em servidores centralizados, centros de dados ou provedores de serviços. <br> <br> Todas as mensagens são criptografadas de ponta a ponta e transmitidas a todos os pares da rede por um determinado período. Esse procedimento torna impossível tanto a leitura do conteúdo das mensagens quanto a visualização de quem envia e para quem. Para mensagens 1:1 privadas, apenas o destinatário final da mensagem pode descriptografar o conteúdo. Para bate-papos públicos, qualquer pessoa que saiba o nome do bate-papo pode descriptografar o conteúdo. <br> <br> Uma proteção adicional é o uso de uma nova chave de criptografia a cada mensagem, após a troca inicial de chaves entre os usuários (Perfect Forward Secrecy). Se a chave da sua mensagem estiver comprometida, apenas a mensagem dessa chave específica será comprometida. Não há acesso às mensagens anteriores. <br> <br> A privacidade que o Whisper oferece acarreta um alto uso de dados. O desenvolvimento de uma alternativa está em andamento. Você pode acompanhar o progresso <a href=''https://forum.vac.dev/t/waku-project-and-progress/24'' target=''_blank''> aqui </a> .'
+      q2:
+        question: 'Onde minhas mensagens são armazenadas? Elas estão no blockchain?'
+        answer: 'As mensagens não são armazenadas na cadeia de bloqueio e não custam nada para serem enviadas. As mensagens são armazenadas em um servidor de e-mail por 30 dias, e em seu telefone assim que você as recebe, abrindo o app da Status e conectando-se à rede. Para chegar até você, as mensagens passam por devp2p - a camada de transporte do Whisper - mas não são transportadas através da Máquina Virtual Ethereum. '
+      q3:
+        question: 'Quem hospeda os servidores de e-mail que armazenam as mensagens?'
+        answer: 'O Whisper requer um tipo especial de nó Ethereum para armazenar e transferir mensagens. A Status é a única instância do Whisper sendo usada em produção. Assim, a Status hospeda um conjunto desses nós especiais para dar suporte aos seus usuários. No entanto, qualquer pessoa pode hospedar um nó de servidor de e-mail com o hardware adequado. Você pode encontrar instruções sobre como fazer isso <a href=''https://discuss.status.im/t/get-your-node-running/1488/2'' target=''_blank''> aqui </a> .'
+      q4:
+        question: 'Como posso mudar meu nome na Status?'
+        answer: 'Se quiser adicionar um nome personalizado, você pode registrar um nome de usuário ENS. Vá para Perfil > Nomes de usuário do ENS. Ao registrar ou conectar um <a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''> nome de usuário ENS </a> à sua tecla de chat Status, outras pessoas podem encontrar você por este nome de usuário. Você também pode exibi-lo no lugar do nome de três palavras.'
+      q5:
+        question: 'Como convido os meus amigos para a Status?'
+        answer: 'Você pode compartilhar seu perfil ou um bate-papo específico com amigos fora da Status. <br> <br> Para compartilhar seu próprio perfil e sua chave de bate-papo, vá para a tela de seu perfil e clique no botão de compartilhamento no canto superior direito. Será gerado um link que seu amigo pode seguir para obter o app da Status e carregar seu perfil. <br> <br> Para compartilhar um chat público, abra o chat e selecione "Compartilhar chat" no menu [...] no canto superior direito. Isso gerará um link para o bate-papo, que você poderá enviar para seu amigo fora da Status.'
+      q6:
+        question: 'Entrei numa conversa pública, mas não vejo nenhuma mensagem. Porque é que isso acontece?'
+        answer: 'Os bate-papos públicos são como canais de rádio. Você pode sintonizar um canal, mas só verá as mensagens se houver outras pessoas transmitindo nesse canal. Você pode iniciar sua própria conversa e convidar outras pessoas indo [...] no canto superior direito e compartilhando o canal com outras pessoas, por exemplo, <a href=''https://get.status.im/chat/public/introductions'' target=''_blank''> https://get.status.im/chat/public/introductions </a>'
+      q7:
+        question: 'Como faço para criar um novo chat público?'
+        answer: 'Na guia Chat, toque no botão [+] > Participar do bate-papo público e digite um nome de bate-papo. Se o nome ainda não existir na rede, você cria automaticamente um. <br><br>Você pode pensar em bate-papos públicos como #-tags. Há uma coleção de todas as mensagens que usam o mesmo #.'
+      q8:
+        question: 'Como posso iniciar um bate-papo 1: 1 com alguém no app da Status?'
+        answer: 'Na guia Chat, toque no botão [+] > Iniciar um novo chat > Digite o nome de usuário ENS ou a chave do bate-papo. Ou se a outra pessoa estiver sentada ao seu lado, escaneie o código QR a partir de seu perfil. <br><br>Se você quiser começar um 1:1 com alguém em um canal público, toque em seu nome ou avatar > Envie mensagem.'
+      q9:
+        question: 'Importa qual servidor de e-mail eu seleciono?'
+        answer: 'Os servidores de e-mail que estão mais próximos de você em distâncias geográficas retornarão mensagens mais rapidamente. É recomendável que você mantenha a configuração padrão para a seleção automática do servidor de e-mail. Com a seleção automática habilitada, o Status pode medir a latência das mensagens entre os servidores e escolher o mais rápido para você. <br> <br> Se você deseja se conectar ao seu próprio servidor de e-mail ou a um que esteja executando em um dispositivo confiável específico, pode adicionar um servidor de e-mail personalizado.'
+    browser:
+      title: Navegador
+      q1:
+        question: 'Como este navegador é diferente de outros navegadores?'
+        answer: 'O status é um navegador habilitado para web3. Um navegador habilitado para web3 pode abrir qualquer site, mas além disso, você pode usar aplicativos descentralizados, ou ''DApps''. Para fazer isso, a Status injeta um objeto no DOM de um determinado site, permitindo que o site faça referência à sua conta no blockchain - com sua permissão primeiro. <br> <br> Normalmente, os DApps usam o blockchain da Ethereum para enviar e receber informações e processar pagamentos que convencionalmente seriam armazenados em um servidor centralizado. Os DApps apresentam pouco risco para uma única parte controlar e lucrar com seus dados.'
+      q2:
+        question: 'O que é DAp.ps?'
+        answer: 'DAp.ps é um diretório descentralizado, curado pela comunidade de DApps, criado para Ethereum, para que você possa explorar facilmente o melhor da web3. Os desenvolvedores DApp podem enviar seus DApps gratuitamente ou fazer uma aposta SNT para aumentar sua classificação. Os usuários também podem votar positiva ou negativamente em listagens DApp com SNT. Quanto mais SNT um desenvolvedor apostar, mais fácil será avaliar negativamente seu DApp.'
+      q3:
+        question: 'Como eu voto para DApps?'
+        answer: 'Vá para <a href=''_blank'' target=''https://dap.ps''> https://dap.ps </a> , encontre seu DApp favorito e toque em Upvote. Defina a quantidade de SNT que deseja usar e toque em ''upvote''. Quando você vota negativamente um DApp, o valor já está definido. Quanto mais os desenvolvedores DApp investirem para aumentar sua classificação, mais barato será para você votar contra ele. Isso reduz o risco de DApps bem financiados assumir o controle e fazer seu voto na utilidade de DApps contar. <br> <i> Observe que a votação requer SNT, bem como uma pequena quantia de ETH para pagar pela transação. </i>'
+      q4:
+        question: 'O que são as permissões do DApp?'
+        answer: 'Os DApps precisam pedir permissão para visualizar e usar o endereço da sua carteira e/ou sua chave de bate-papo. Normalmente, um DApp pede para `Conectar sua carteira`. Quando isso acontece, você recebe um pop-up solicitando ''Negar'' ou ''Permitir'' essa solicitação. As permissões para conectar o endereço da sua carteira são específicas para cada conta que você possui na sua carteira. Se você der permissão para uma nova conta, a permissão para a conta conectada anteriormente será revogada. Se você rejeitar uma solicitação de permissão, o DApp não saberá nada sobre o seu endereço Ethereum, nem poderá iniciar transações. <br> <br> Vá para Perfil > Privacidade e segurança > Defina as permissões do DApp para ver quais DApps podem acessar quais contas e revogar permissões, se desejar. <br> <br> <i> Observe que, se o DApp armazenou seu endereço, isso não pode ser revogado pela Status. </i>'
+    wallet:
+      title: Carteira
+      q1:
+        question: 'Quão segura é a minha carteira?'
+        answer: 'A Status inclui uma carteira Hierárquica Determinística (HD). Todas as chaves geradas nessa carteira são criptografadas e armazenadas localmente no seu celular, usando hardware seguro quando disponível. Ninguém tem acesso a não ser você. Para maior segurança, você pode obter um <a href=''https://keycard.tech/'' target=''_blank''> Keycard </a> para armazenar suas chaves.'
+      q2:
+        question: 'O que significa assinar uma transação?'
+        answer: 'Qualquer alteração no Ethereum é considerada uma transação. As informações são transferidas de um endereço para outro. Essas informações podem ser ativos ou um contrato. Quando você assina uma transação usando a Status, está aprovando essa transação. A Status informará que tipo de transação você deve assinar.'
+      q3:
+        question: 'O que é a minha frase de assinatura?'
+        answer: 'A frase de assinatura é um recurso de segurança. Quando você usa Status pela primeira vez, a carteira mostra sua frase de assinatura, que é uma combinação única de três palavras. Somente você e o aplicativo conhecem essa frase de assinatura. Sempre que você assinar uma transação, o aplicativo mostrará a frase de assinatura. Se você reconhecer a frase de assinatura, terá certeza de que a solicitação de assinatura está vindo do Status e pode ser assinada com segurança.'
+      q4:
+        question: 'Quais ativos a carteira da Status suporta?'
+        answer: 'Atualmente, a carteira suporta tokens os ETH e ERC20 (por exemplo, OMG, BNB, BAT ou DAI) e alguns tokens ERC721 também (por exemplo, Cryptokitties ou arte digital).'
+      q5:
+        question: 'Por que meus ativos não estão aparecendo?'
+        answer: 'Por padrão, apenas ETH e SNT são exibidos em sua carteira. Se você importar uma conta que também contém outros tokens, o Status os mostrará também. Em outros casos, por exemplo, ao enviar tokens para uma conta na Status, você precisará adicioná-los à visualização da sua conta. <br> <br> Você pode adicionar tokens à visualização de sua conta acessando a `tela de visão geral da carteira` > ` [...] `Menu no canto superior direito > ` Gerenciar ativos`.'
+      q6:
+        question: 'Como o ENS funciona com a carteira Status?'
+        answer: 'Você pode enviar ativos para um nome ENS acessando Carteira > Enviar > Escolher destinatário > Inserir endereço do destinatário. A carteira substituirá automaticamente o nome ENS pelo endereço da carteira que a possui.'
+      q7:
+        question: 'Por que tenho que pagar uma taxa de rede pelas transações?'
+        answer: 'A taxa de rede, também conhecida como “gas”, cobre o custo computacional da execução de uma ação na blockchain da Ethereum. É padrão para a rede. Nenhuma alteração pode ser feita no blockchain da Ethereum, incluindo transações entre usuários, sem o gasto de gas. A carteira da Status permite que você ajuste a taxa de rede a cada transação. Uma taxa mais alta melhorará a velocidade de processamento de sua transação.'
+      q8:
+        question: 'Como e para quais endereços posso enviar ativos?'
+        answer: 'A carteira da Status permite que você envie ETH e ERC20 (por exemplo, OMG, BNB, BAT ou DAI) para carteiras que aceitam essas moedas. Para enviar ativos, vá em Carteira e toque no ícone de envio [↗] na parte inferior da tela. Como alternativa, vá em Carteira > Cartão de conta > Enviar <br> <br> Em seguida, insira o valor > Selecionar token > Selecionar conta origem > Escolher destinatário <br> <br> Você pode reconhecer carteiras que aceitam tokens baseados em ETH e Ethereum pelo formato de endereço. O endereço começará com 0x… A carteira da Status verifica se há endereços inválidos. A melhor prática é sempre verificar o endereço manualmente antes de assinar uma transação.'
+      q9:
+        question: 'Recuperei minha conta e agora só vejo uma carteira, embora tenha criado mais. Perdi meus fundos?'
+        answer: 'Não, eles não estão perdidos. Se você gerou carteiras adicionais a partir da Status e, posteriormente, recuperou sua conta, será necessário recuperar manualmente as carteiras adicionais seguindo as mesmas etapas que executou para criá-las. Na carteira, você irá em Adicionar conta > Adicionar uma conta. Em vez de gerar uma carteira totalmente nova, a Status recuperará cada carteira adicional que você criou em ordem, e seus ativos serão recuperados com elas. <br> <br> No futuro, vamos garantir que todas as suas carteiras da Status sejam recuperadas automaticamente.'
+    keycard-general:
+      title: 'Keycard Geral'
+      q1:
+        question: 'Para que serve o Keycard?'
+        answer: 'Keycard é uma carteira de hardware que você pode usar com o aplicativo da Status. <br> <br> Ele fornece um nível maior de segurança e de garantia de propriedade para as chaves privadas dos usuários da Status. O Keycard é um armazenamento frio para seus ativos que você precisa tocar em seu telefone ao fazer uma transação (junto com a inserção de uma senha de 6 dígitos). <br> <br> E o Keycard pode ser usado como um 2FA para proteger o acesso ao app da Status (ou seja, o uso do Chat). Para desbloquear suas chaves e usar o aplicativo, você precisará tocar no cartão e inserir sua senha de 6 dígitos.'
+      q2:
+        question: 'O Keycard está disponível com Status no Android e iOS?'
+        answer: 'O Keycard está atualmente disponível apenas no Android para uso com o app da  Status. A equipe do Keycard está atualmente trabalhando na integração com o iOS.'
+      q3:
+        question: 'Quanto custa o Keycard?'
+        answer: 'O Keycard custa 29 € no varejo e pode ser adquirido aqui.'
+      q4:
+        question: 'O Keycard está integrado com alguma outra carteira?'
+        answer: 'A Status é a primeira integração de produção com Keycard. No entanto, os desenvolvedores podem integrar o Keycard com seus produtos através da API Open Source Keycard disponível aqui.'
+      q5:
+        question: 'Eu preciso de um Keycard para usar o app da Status?'
+        answer: 'Não, você não precisa de um Keycard para usar o app da Status. A carteira da Status não tem custódia e é auditada por empresas de segurança terceirizadas. É seguro por si só, mas com o Keycard, você está adicionando um nível ainda maior de segurança de hardware.'
+      q6:
+        question: 'Posso usar o Keycard como cartão de débito / crédito para fazer pagamentos?'
+        answer: 'Por enquanto, o Keycard pode ser usado pelo usuário da Status apenas como carteira de hardware. Faz parte do nosso planejamento introduzir pagamentos físicos com Keycard como parte de uma rede de pagamento aberta, inclusiva e sem a necessidade de permissão, onde os terminais de pagamento são qualquer celular rodando o app da Status.'
+      q7:
+        question: 'Como o Keycard difere de outras carteiras de hardware como Ledger ou Trezor?'
+        answer: 'O Keycard é construído desde o início como uma carteira de hardware amigável para dispositivos móveis. Ele incorpora a tecnologia sem contato NFC para se comunicar com seu telefone celular e assinar a transação com um toque no cartão e inserindo sua senha de 6 dígitos. Além disso, seu formato é muito conveniente para transportar. <br> <br> Keycard não possui tela nem teclado, o que o torna econômico. O nível de segurança do Keycard é semelhante a um Ledger quando usado com aplicativos confiáveis como a Status.'
+    keycard-security:
+      title: 'Segurança do Keycard'
+      q1:
+        question: 'O que acontece se eu perder o meu Keycard?'
+        answer: 'Se você perder o seu Keycard, ninguém poderá usá-lo sem a sua senha de 6 dígitos. Para recuperar seus fundos, você precisará usar sua frase semente de 12 palavras para recuperar sua conta. <br><br>A recuperação social está sendo trabalhada e será implementada em algum momento no futuro. Isto lhe permitirá coordenar com os seus colegas para recuperar a sua conta caso se perca.'
+      q2:
+        question: 'Quão seguro é o Keycard?'
+        answer: 'A segurança do cartão depende do software de miniaplicativo que é usado no cartão. Este miniaplicativo é de código aberto (link) e foi auditado por uma empresa de auditoria de segurança terceirizada. <br> <br> Do ponto de vista do hardware, o Keycard é um elemento S.E. seguro com um alto nível de proteção de hardware. Ele passa no teste formal CC EAL5 + para sua avaliação de segurança.'
+    keycard-setup:
+      title: 'Configuração do Keycard'
+      q1:
+        question: 'Como faço para utilizar o app da Status com o Keycard?'
+        answer: 'Se você for um novo usuário de Status, então você só precisa baixar o app da Status e seguir nossos fluxos de integração, você terá que escolher se deseja gerar uma nova conta ou importar uma (ou seja, `Chaves de acesso`) usando uma frase inicial, e em seguida, optar por armazená-lo em seu Keycard. A partir daí, você será solicitado a tocar no seu Keycard e inserir a senha de 6 dígitos sempre que quiser desbloquear as chaves e usar o app da Status ou assinar uma transação.'
+      q2:
+        question: 'O que é a senha de 6 dígitos? '
+        answer: 'Você definirá sua senha de 6 dígitos durante o primeiro acesso. Você precisará se lembrar dessa senha, pois ela será solicitada sempre que você tocar no seu cartão no telefone.'
+      q3:
+        question: 'O que são código de emparelhamento e código PUK?'
+        answer: 'Quando estiver utilizando o app da Status e o Keycard, você receberá um código de emparelhamento e um código PUK. Você tem que anotar estes dois dados com muito cuidado, pois eles nunca mais serão apresentados a você. <br><br>O seu código de emparelhamento será necessário quando você quiser usar o seu Keycard com outro telefone ou outro aplicativo que não o da Status. <br><br>O seu código PUK será necessário se você esquecer sua senha de 6 dígitos, para redefini-la e alterá-la.'
+      q4:
+        question: 'Qual é a frase-semente?'
+        answer: 'Veja Perfil e Configurações. Se você perder seu Keycard, seu código PUK ou o código de pareamento junto com seu telefone, é sua única solução para acessar seus fundos.'
+      q5:
+        question: 'Já utilizo uma conta em Status e desejo utilizá-la com meu Keycard, como devo proceder?'
+        answer: 'Você precisará desinstalar o Status e iniciar uma nova instalação. Ao fazer a configuração inicial do app, você precisará inserir sua frase-semente (`Chaves de acesso` > ` Inserir frase-semente`) e armazená-la no Keycard. Você irá recuperar sua conta e todas as interações com suas chaves privadas serão agora protegidas pelo Keycard.'
+    keycard-other:
+      title: 'Outras perguntas para Keycard'
+      q1:
+        question: 'Eu possuo um Keycard, posso usá-lo com vários telefones, ou vários aplicativos simultaneamente? '
+        answer: 'Sim, você pode. O seu Keycard tem um código de emparelhamento que pode permitir a configuração de 5 canais seguros simultâneos. '
+      q2:
+        question: 'Eu perdi minha senha de 6 dígitos, o que devo fazer?'
+        answer: 'Se você fizer mais de 3 tentativas erradas de sua senha, você será solicitado a digitar seu código PUK para redefinir e alterar sua senha. '
+      q3:
+        question: 'Eu perdi o meu código PUK, o que devo fazer?'
+        answer: 'Se você perdeu seu código PUK e sua senha de 6 dígitos, você se encontra em uma situação muito ruim porque você não poderá usar o seu Keycard. Para recuperar seus fundos, você deve usar sua frase-semente e recuperá-la (ou seja, `Chaves de acesso`) novamente na Status ou em outra carteira. Se você está familiarizado com a CLI e perdeu sua senha e código PUK, a equipe de desenvolvimento do Keycard pode ajudá-lo a redefinir seu Keycard, por favor acesse <a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''> https://join.status.im/chat/public/status-keycard </a>'
+      q4:
+        question: 'Perdi meu código de emparelhamento, o que devo fazer?'
+        answer: 'Se você perdeu o código de emparelhamento, verifique se você anotou sua frase inicial. Sem seu código de emparelhamento e sua frase inicial, você corre o risco de perder o acesso aos seus fundos se você perder o seu celular.'
+      q5:
+        question: 'Eu perdi a minha frase inicial, o que devo fazer?'
+        answer: 'Se você perdeu sua frase inicial para sua conta atual, você deve agir porque você corre o risco de perder todos os seus fundos em algum momento se perder seu Keycard ou se esquecer do código PUK / emparelhamento. Você deve criar imediatamente uma nova carteira com uma nova frase inicial e transferir seus ativos da sua conta atual para ela.'

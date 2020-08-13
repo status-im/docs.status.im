@@ -18,8 +18,13 @@
 					</div>
 				</div>
 				<div class="relative mt-24 px-8 md:mt-0">
-					<div class="md:-mt-24 mx-auto -ml-12 -mr-12 md:ml-0 md:mr-0 flex justify-end items-center md:pt-20">
-						<%- image_tag("/img/account-creation-intro.png", { srcset: '/img/account-creation-intro-2x.png 2x'}) %>
+					<div class="md:-mt-24 mx-auto -ml-12 -mr-12 md:ml-0 md:mr-0 flex justify-center items-center relative md:pt-20">
+						<video width="422" height="760" class="hidden md:block" autoplay muted loop>
+							<source src="/video/account-creation-intro.webm" type="video/webm">
+							<source src="/video/account-creation-intro.mp4" type="video/mp4">
+						</video>
+						<%- image_tag("/img/account-creation-intro-3d.png", { srcset: '/img/account-creation-intro-3d-2x.png 2x', class: 'hidden md:block absolute bottom-0 right-0 transform translate-x-32 translate-y-16'}) %>
+						<%- image_tag("/img/account-creation-intro.png", { srcset: '/img/account-creation-intro-2x.png 2x', class: 'md:hidden'}) %>
 					</div>
 				</div>
 			</div>

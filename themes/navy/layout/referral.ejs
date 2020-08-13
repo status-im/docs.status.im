@@ -1,0 +1,247 @@
+<!-- The main content area -->
+<main id="main" role="main" class="overflow-hidden">
+	<!--REFERRAL-INTRO-->
+	<section class="pt-16 xl:pt-0">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="relative px-8 md:pr-32 self-center">
+					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.referral.intro.title') %></h1>
+					<div class="flex items-center -ml-12 mt-20">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+					<div>
+						<p class="text-gray-600 mt-16 md:mt-32 text-xl font-display font-medium leading-normal"><%- __('site.referral.intro.description') %></p>	
+						<p class="text-black-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.intro.bonus') %></p>	
+						<div class="flex mt-4">
+							<div class="flex flex flex-col md:flex-row items-start">
+								<%- image_tag("/img/snt.svg") %>
+								<div class="flex flex-col justify-center md:ml-4 mt-2 md:mt-0">
+									<p class="text-black-600 text-lg leading-normal font-display font-medium">150 SNT</p>
+									<p class="text-gray-600 text-lg leading-normal font-display font-medium">~3 USD</p>
+								</div>
+							</div>
+							<div class="flex ml-12 flex flex-col md:flex-row items-start">
+								<%- image_tag("/img/dai.svg") %>
+								<div class="flex flex-col justify-center md:ml-4 mt-2 md:mt-0">
+									<p class="text-black-600 text-lg font-display font-medium leading-normal">1 DAI</p>
+									<p class="text-gray-600 text-lg font-display font-medium leading-normal">~1 USD</p>
+								</div>
+							</div>
+						</div>
+						<p class="text-black-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.intro.starter') %></p>	
+						<div class="flex mt-4">
+							<div class="flex flex flex-col md:flex-row items-start">
+								<%- image_tag("/img/snt.svg") %>
+								<div class="flex flex-col justify-center md:ml-4 mt-2 md:mt-0">
+									<p class="text-black-600 text-lg font-display font-medium leading-normal">50 SNT</p>
+									<p class="text-gray-600 text-lg font-display font-medium leading-normal">~1 USD</p>
+								</div>
+							</div>
+							<div class="flex ml-12 flex flex-col md:flex-row items-start">
+								<%- image_tag("/img/dai.svg") %>
+								<div class="flex flex-col justify-center md:ml-4 mt-2 md:mt-0">
+									<p class="text-black-600 text-lg font-display font-medium leading-normal">1 DAI</p>
+									<p class="text-gray-600 text-lg font-display font-medium leading-normal">~1 USD</p>
+								</div>
+							</div>
+							<div class="flex ml-12 flex flex-col md:flex-row items-start">
+								<%- image_tag("/img/eth.svg") %>
+								<div class="flex flex-col justify-center md:ml-4 mt-2 md:mt-0">
+									<p class="text-black-600 text-lg font-display font-medium leading-normal">0.005 ETH</p>
+									<p class="text-gray-600 text-lg font-display font-medium leading-normal">~1 USD</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative mt-48 md:mt-0">
+					<span class="bg-black transform md:translate-x-64 w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="md:-ml-32 -mt-32 -mb-32 mx-auto flex justify-center items-center md:block md:pt-8">
+						<%- image_tag("/img/referral-intro.png", { srcset: '/img/referral-intro-2x.png 2x', 'class': '-translate-x-8 transform md:translate-x-0'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-INTRO-->
+	<!--REFERRAL-ALL-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-8 gap-24">
+				<div class="flex flex-col md:col-span-3 col-span-6 px-8 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.referral.all.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.all.description') %></p>
+				</div>
+				<div class="px-8 md:col-span-5 col-span-6">
+					<div class="mx-auto relative flex justify-center items-center md:block pb-32 md:py-48">
+						<div class="relative flex justify-center home-all">
+							<%- image_tag("/img/home-all-1.png", { srcset: '/img/home-all-1-2x.png 2x', class: 'img-1 top-0 transform -translate-x-64 absolute z-10'}) %>
+							<%- image_tag("/img/home-all-2.png", { srcset: '/img/home-all-2-2x.png 2x', class: 'img-2 z-10 relative'}) %>
+							<%- image_tag("/img/home-all-3.png", { srcset: '/img/home-all-3-2x.png 2x', class: 'img-3 top-0 transform translate-x-64 absolute z-10'}) %>
+							<div class="absolute overlay top-0 flex justify-center w-full left-0 z-20 opacity-0">
+								<%- image_tag("/img/home-all-splash.png", { srcset: '/img/home-all-splash-2x.png 2x'}) %>
+							</div>
+							<div class="absolute overlay top-0 md:flex h-full justify-center w-full left-0 z-20 opacity-0 hidden">
+								<div class="circles-container">
+									<span class="circle circle-1 absolute"></span>
+									<span class="circle circle-2 absolute"></span>
+									<span class="circle circle-3 absolute"></span>
+								</div>
+							</div>
+							<div class="absolute overlay top-0 h-full items-center flex justify-center w-full left-0 z-40 opacity-0">
+								<%- image_tag("/img/home-all-logo.svg", { class: 'logo -mt-16'}) %>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-ALL-->
+	<!--REFERRAL-TOKENS-->
+	<section class="bg-black text-center text-white">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 pt-32 md:py-64">
+			<div class="mb-16">
+				<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.referral.tokens.title') %></h3>
+			</div>
+			<div class="grid md:grid-cols-4 gap-24 pb-32 md:pb-0">
+				<div class="flex order-first md:order-last flex-col px-8 items-center md:items-start md:pt-0 mt-16 md:pt-32">
+					<%- image_tag("/img/referral-tokens-1.png", { srcset: '/img/referral-tokens-1-2x.png 2x'}) %>
+					<p class="text-white-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.tokens.description-1') %></p>
+				</div>
+				<div class="flex order-first md:order-last flex-col px-8 items-center md:items-start md:pt-0 mt-0 md:pt-32">
+					<%- image_tag("/img/referral-tokens-2.png", { srcset: '/img/referral-tokens-2-2x.png 2x'}) %>
+					<p class="text-white-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.tokens.description-2') %></p>
+				</div>
+				<div class="flex order-first md:order-last flex-col px-8 items-center md:items-start md:pt-0 mt-0 md:pt-32">
+					<%- image_tag("/img/referral-tokens-3.png", { srcset: '/img/referral-tokens-3-2x.png 2x'}) %>
+					<p class="text-white-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.tokens.description-3') %></p>
+				</div>
+				<div class="flex order-first md:order-last flex-col px-8 items-center md:items-start md:pt-0 mt-0 md:pt-32">
+					<%- image_tag("/img/referral-tokens-4.png", { srcset: '/img/referral-tokens-4-2x.png 2x'}) %>
+					<p class="text-white-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.tokens.description-4') %></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-TOKENS-->
+	<!--REFERRAL-STEP-1-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12 md:pt-64 pt-32 pb-16">
+			<div class="mb-16">
+				<h3 class="font-display text-center text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.referral.steps.title') %></h3>
+			</div>
+			<div class="grid md:grid-cols-8 grid-cols-1 gap-24">
+				<div class="flex flex-col md:col-start-2 md:col-span-2 px-8 justify-center md:items-start items-center md:pt-0 md:pt-32 pt-12">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl relative">
+						<span class="absolute rounded-full h-20 w-20 hidden items-center text-2xl justify-center md:flex text-white bg-black transform -translate-x-24 -ml-4">1</span>
+						<%- __('site.referral.step-1.title') %>
+					</h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.step-1.description') %></p>
+				</div>
+				<div class="px-8 md:col-span-4 md:col-start-4 text-right">
+					<div class="mx-auto flex justify-end items-center">
+						<%- image_tag("/img/referral-step-1.png", { srcset: '/img/referral-step-1-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-STEP-1-->
+	<!--REFERRAL-STEP-2-->
+	<section class="bg-black text-white">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 pt-24 md:pb-16 pb-24">
+			<div class="grid md:grid-cols-8 grid-cols-1 md:gap-24 gap-12">
+				<div class="px-8 order-1 md:order-none md:col-span-4 md:col-start-2 text-right -ml-16">
+					<div class="mx-auto flex justify-start items-center">
+						<%- image_tag("/img/referral-step-2.png", { srcset: '/img/referral-step-2-2x.png 2x'}) %>
+					</div>
+				</div>
+				<div class="flex flex-col md:col-start-6 md:col-span-2 px-8 justify-center md:items-start items-center md:pt-0 md:pt-32">
+					<h3 class="font-display text-white-600 text-4xl xl:text-5xl 2xl:text-6xl">
+						<span class="absolute rounded-full h-20 w-20 md:flex hidden items-center text-2xl justify-center text-black bg-white transform -translate-x-24 -ml-4">2</span>
+						<%- __('site.referral.step-2.title') %>
+					</h3>
+					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.step-2.description') %></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-STEP-2-->
+	<!--REFERRAL-STEP-3-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12 md:pt-64 pt-12 pb-16">
+			<div class="grid md:grid-cols-8 grid-cols-1 gap-24">
+				<div class="flex flex-col md:col-start-2 md:col-span-2 px-8 justify-center md:items-start items-center md:pt-0 md:pt-32 pt-12">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl relative">
+						<span class="absolute rounded-full h-20 w-20 hidden md:flex items-center text-2xl justify-center text-white bg-black transform -translate-x-24 -ml-4">3</span>
+						<%- __('site.referral.step-3.title') %>
+					</h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.step-3.description') %></p>
+				</div>
+				<div class="px-8 md:col-span-4 md:col-start-4 text-right">
+					<div class="mx-auto flex justify-end items-center">
+						<%- image_tag("/img/referral-step-3.png", { srcset: '/img/referral-step-3-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-STEP-3-->
+	<!--REFERRAL-STEP-4-->
+	<section class="bg-black text-white">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 pt-24 md:pb-16 pb-24">
+			<div class="grid md:grid-cols-8 grid-cols-1 md:gap-24 gap-12">
+				<div class="px-8 order-1 md:order-none md:col-span-4 md:col-start-2 text-right -ml-16">
+					<div class="mx-auto flex justify-start items-center">
+						<%- image_tag("/img/referral-step-4.png", { srcset: '/img/referral-step-4-2x.png 2x'}) %>
+					</div>
+				</div>
+				<div class="flex flex-col md:col-start-6 md:col-span-2 px-8 justify-center md:items-start items-center md:pt-0 md:pt-32">
+					<h3 class="font-display text-white-600 text-4xl xl:text-5xl 2xl:text-6xl">
+						<span class="absolute rounded-full h-20 w-20 md:flex hidden items-center text-2xl justify-center text-black bg-white transform -translate-x-24 -ml-4">4</span>
+						<%- __('site.referral.step-4.title') %>
+					</h3>
+					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.referral.step-4.description') %></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-STEP-4-->
+	<!--REFERRAL-TESTIMONIALS-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:pt-16 lg:px-20 pb-32 md:pb-0">
+			<div class="grid md:grid-cols-1">
+				<div class="flex flex-col justify-center lg:xl-48 px-8 items-center pt-32 pb-0">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.referral.testimonials.title') %></h3>
+					<div>
+						<p class="max-w-6xl text-center text-gray-600 mt-20 text-xl xl:text-2xl font-display font-medium leading-normal"><%- __('site.referral.testimonials.testimonial-1') %></p>
+						<div class="flex items-center justify-center mt-8">
+							<%- image_tag("/img/jenny-wilson.png", { srcset: '/img/jenny-wilson-2x.png 2x'}) %>
+							<div class="text-black-600 ml-6 text-xl font-display font-medium leading-normal">Jenny Wilson</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-REFERRAL-TESTIMONIALS-->
+	<!--FAQ-BANNER-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:py-48 lg:px-20">
+			<div class="grid md:grid-cols-1">
+				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.faq.banner.title') %></h3>
+					<a href="<%- show_lang() %>/faq/#keys-and-accounts" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
+						<%- __('site.faq.banner.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-FAQ-BANNER-->
+</main>

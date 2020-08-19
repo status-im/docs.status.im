@@ -52,5 +52,5 @@ Click on `Advertise device` on the other device, and `No info` should be replace
 
 # Examples
 
-![android-1](./img/pairing_set_name.png)
-![android-2](./img/pairing_sync.png)
+![android-1](/user_guides/img/pairing_set_name.png)
+![android-2](/user_guides/img/pairing_sync.png)

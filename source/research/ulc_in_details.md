@@ -305,5 +305,5 @@ Status.im is going to start using ULC to achieve greater censorship resistance a
 * [On ULC incentives](https://hackmd.io/6IhsF6zRSqmtggvNnp1sHQ)
 * Ethereum services are going to have microtransactions and this will make possible to create a market of LES server quotas using the proposed [LES service model](https://github.com/zsfelfoldi/ethereum-docs/blob/master/les/service_model.md#continous-auction)
 
-[1]: https://wiki.parity.io/The-Parity-Light-Protocol-(PIP)
+[1]: https://openethereum.github.io/wiki/index.html?q=The-Parity-Light-Protocol
 [2]: https://ethereum.github.io/yellowpaper/paper.pdf

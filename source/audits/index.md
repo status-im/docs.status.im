@@ -31,7 +31,7 @@ There are no current ongoing security audits.
 - [Blog post](https://our.status.im/status-mobile-app-security-audit-complete-ahead-of-v1-launch/)
 
 ### Sticker Market contracts with Trail of Bits
-- June 2019 - [Sticker Market Repository (with contracts)](github.com/status-im/sticker-market)
+- June 2019 - [Sticker Market Repository (with contracts)](https://github.com/status-im/sticker-market)
 - [Finalized Issue Document](https://docs.google.com/document/d/1zwORJkLjymjF7Z8UmNIURr9tlCjt7eI0qtcRYuJRPEA/edit?usp=sharing)
     - We opted to not request a finalized generated report from Trail of Bits for this audit, and instead tracked problems through a private repository maintained by Trail of Bits.  These were then fixed and summarized in the above document. 
     - All changes in that repository have been merged into the above linked repository.

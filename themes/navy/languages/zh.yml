@@ -81,7 +81,7 @@ site:
         link: 优化和注册您的Dapp
     get:
       title: '获取Status '
-      description: '开始享受iOS，Android和MacOS上的Status 。'
+      description: '开始享受iOS，Android，MacOS，Windows和Linux上的Status 。'
       link: 下载应用
   get-involved:
     index:
@@ -260,6 +260,9 @@ site:
         account-group-6:
           description: 'Status 菲律宾社区'
           occupation: 组织者
+        account-group-7:
+          description: Status土耳其社区
+          occupation: 组织者
   security:
     intro:
       title: 安全设计
@@ -344,25 +347,29 @@ site:
       link-2: '加入Status 安全通道'
   header:
     nav:
-      features:
-        link: "特征"
-        title: "特征"
       get-involved:
         title: 加入
         description: 'Status 是一个开源项目， <br>被人在世界各地制造。'
       security: 安全
       docs:
-        title: 开发 人员
+        title: 文档
         description: '用Status开始开发 <br> 所需的一切'
-        link: 开发 人员
+        link: 文档
         link-1: 'DApp 集成'
         link-2: 贡献者指南
-        link-3: 教程
+        link-3: 加入我们的团队
         link-4: 安全
         link-5: 规范
+        link-6: 用户指南
       about: 关于
       blog: 博客
       snt-utility: SNT的用途
+      features:
+        link: 功能
+        title: 功能
+        link-1: 查看所有功能
+        link-2: Keycard
+        description: 隐私聊天、加密钱包、<br>Web3浏览器等
   link:
     get-status: 获取Status
     get-involved: 加入
@@ -375,7 +382,6 @@ site:
     intro:
       title: 使命
       link-1: 我们的原则
-      link-2: 活跃团队
       link-3: 核心聊天
       description: Status致力于成为一款安全的尊重人权的通讯工具，目的是使信息自由流通，保护隐私的权利，安全的沟通交流和提升个人主权。
     principles:
@@ -427,6 +433,11 @@ site:
       description: Status并不是一个传统的组织，没有层级结构，也没有办公室和经理，只是为了某个共同的任务而在一起，然后大家可以自由地选择工作方式。
       link-1: 加入我们。查看所有空缺职位
       link-2: 了解更多Status的生活
+    join-us:
+      title: 加入我们
+    quarterly-reports:
+      title: 'Status Network 季度报告'
+      description: 我们迫不及待地想与您分享我们完成的一切。
   snt:
     intro:
       title: Status网络通证
@@ -500,6 +511,7 @@ site:
       description-1: 来自世界各地的社区贡献者对SNT用例的加密经济模型进行研究，为产品和功能开发提供信息，并激励Status网络。<br><br>这些加密经济模型是一项持续的研究工作，鼓励任何人研究、批评和审查这项工作。
       link-1: '加入#status'
       description-2: 加入公共频道并了解相关研究的更多信息
+      link-2: 社区创建的工作手册
     learn-more:
       title: 了解更多信息
       description: '许多 SNT 用例都在积极研究和开发中。加入公开讨论或阅读 SNT 常见问题解答以了解有关 SNT 用例和代币经济研究的更多信息。'
@@ -524,7 +536,7 @@ site:
       announcement: '这是alpha版软件，可能有漏洞。 <br>请期待修改版本。'
   docs:
     stripe:
-      title: 'Status Developers'
+      title: 'Status 文档'
     title: 欢迎访问Status文档！
     description: 在Status上运行您的DApp，深入研究我们的技术，了解我们的组织或帮助构建Status：
     categories:
@@ -576,9 +588,38 @@ site:
       box-link-1:
         title: 贡献者指南
         text: 'Status正在开发免费的开源软件，任何人都可以免费共享它，并可以从中受益。 <br>   <br>任何背景，技能水平和兴趣的社区成员都可以参与官方Status的发布。了解如何构建Status，为完成赏金而获得加密货币，修复错误或构建所需的功能。'
+        cta: 开始使用
       box-link-2:
         title: 'DApp 集成中心'
         text: 'Status包括隐私且安全的web3浏览器，并可以访问不断发展的去中心化应用程序生态系统<br>   <br> Dapp集成中心是分步指南，可优化集成到Status的dapp。这包括移动最佳实践，安全性和隐私要求，Status API的使用以及如何提交给dap.ps。'
+        cta: 开始使用
+      box-link-3:
+        title: 教程
+        text: "跟随并学习如何构建Status和某个Status Network项目，并贡献自己的力量。 <br> \_ <br>构建DApp，集成硬件安全性，使用Nimbus或Vac进行配置。学习核心贡献者和社区创建的教程。找不到您要找的内容吗？创造你自己的，让别人从中受益。"
+        cta: 查看所有教程
+        text-1: 'WebAssembly / eWasm –是什么以及为什么？'
+        description-1: Embark教程的详细信息
+        text-2: DApp前端安全性
+        description-2: Embark教程的详细信息
+    dev-tools:
+      title: '使用Status Network进行构建'
+      keycard:
+        title: Keycard
+        subtitle: 安全，非接触式，开源硬件钱包
+        description: 使用Keycard将硬件安全性集成到您的项目中
+      embark:
+        title: Embark
+        subtitle: 用于构建和部署DApp的一站式开发人员平台
+        description: 开发和部署去中心化的应用程序Embark
+      nimbus:
+        title: Nimbus
+        subtitle: '研究和实现以太坊 2.0 轻客户端'
+        description: 使用Nimbus研究以太坊2.0轻客户端
+      vac:
+        title: Vac
+        subtitle: 安全的点对点消息传递协议
+        description: 通过Vac进行隐私、安全、抗审查的通信
+    support: '不能找到你想要的内容？请在社区论坛<a href=''https://discuss.status.im/tags/faq''>Discuss</a>中查找。'
   footer:
     title: 准备好开启<br>Status之旅？
     product:
@@ -590,6 +631,8 @@ site:
       jobs: 工作机会
       white-paper: 白皮书
       media-kit: 媒体
+      analytics: 分析
+      open_positions: 招聘职位
     documentation:
       title: 文档
     status-network:
@@ -635,3 +678,243 @@ site:
     description-3: 看我们的
     faq: 常见问题解答
     mobile: 移动
+  keycard-integration:
+    intro:
+      title: 为您的Status增加硬件安全性
+      description: 使用Keycard（非接触式便捷体验的冷存储硬件钱包）保护您的资产和帐户。仅适用于Android。
+      button: '购买Keycard 29€'
+    about:
+      title: 什么是Keycard？
+      button-1: 了解更多
+      button-2: '购买Keycard 29€'
+    secure:
+      title: 使用Keycard保护Status
+      security:
+        title: 提高资产和交易的安全性
+        description: 将私钥离线存储在Keycard上后，即可将硬件强制授权添加到您的交易中。即使您的手机被盗，您的资金也将是安全的。
+        send: 发送交易
+        confirmed: 已确认的转出交易
+      account:
+        title: 帐户访问保护
+        description: '增强Status安全性，要求使用Keycard + 输入PIN作为两步验证，来访问您的帐户。'
+        confirmed: 成功登录
+    boxes:
+      box-1:
+        title: 自治和信心
+      box-2:
+        title: 移动优先的设计
+      box-3:
+        title: 经济实惠的安全性
+        description: 只需29欧元，Keycard即可提供强大的硬件安全保证，而无需支付昂贵的价格。
+        link: '购买Keycard 29€'
+    faq:
+      title: 有问题吗？
+      button: 了解更多
+  keycard:
+    intro:
+      title: 'Status x Keycard，用于隐私、安全的通信'
+      description: Status是一款隐私信使、安全的加密钱包和Web3浏览器。Keycard为体验增添了硬件安全性。在下面详细了解如何使用Keycard。
+      button: 常问问题
+    security:
+      title: 提高资产和交易的安全性
+      description: 将私钥离线存储在Keycard上后，即可将硬件强制授权添加到您的交易中。即使您的手机被盗，您的资金也将是安全的。
+      send: 发送交易
+      confirmed: 已确认的转出交易
+    account:
+      title: 保护您的帐户
+      description: '增强Status安全性，要求使用Keycard + 输入PIN作为两步验证，来登陆您的帐户。'
+      confirmed: 登录成功
+    faq:
+      title: 有问题吗？
+      button: 访问常见问题解答
+  faq:
+    title: 常问问题
+    description: '常见问题<br>找不到您想要的答案？在社区讨论论坛<a href=''https://discuss.status.im/'' target=''_blank''>在此处</a>查看或提问'
+    general:
+      title: 一般
+      q1:
+        question: 什么是Status？
+        answer: Status是一款隐私、安全的沟通工具，可以维护人权并赋予主权社区权力
+      q2:
+        question: 谁拥有Status？
+      q3:
+        question: 为什么要使用Status？
+      q4:
+        question: 为什么是信使？
+      q5:
+        question: 是什么让Status与其他聊天软件不同？
+      q6:
+        question: 如果政府试图屏蔽或审查Status，会发生什么？
+      q7:
+        question: Status如何连接到区块链？
+    keys-and-accounts:
+      q1:
+        question: 什么是密钥？
+      q2:
+        question: 什么是帐户？
+      q3:
+        question: 我的钱包地址是多少？
+      q4:
+        question: 我可以在Status中创建多少个帐户？
+    profile-and-settings:
+      title: 个人资料和设置
+      q1:
+        question: '什么是 ENS 用户名？'
+      q2:
+        question: alice.eth和alice.stateofus.eth有什么区别？
+      q3:
+        question: 什么是助记词？
+      q4:
+        question: 我如何处理助记词？
+        answer: 把它写下来，保持安全。将助记词抄写在纸上，远离您的设备，是最安全的选择。
+      q5:
+        question: 如果我丢失了手机，该如何访问我的帐户？
+      q6:
+        question: 为什么“备份助记词”显示为灰色？
+      q7:
+        question: 我丢失了助记词。我该怎么办？
+      q8:
+        question: 如何删除我的个人资料？
+        answer: 您的个人资料仅在本地存在。您发送的所有消息将在邮件服务器上保留30天。此后，该消息不再存在。您使用钱包中的帐户进行的交易将保留在区块链上。
+      q9:
+        question: 如果有人可以访问我的手机，我的个人资料的哪些内容被加密，哪些内容不加密？
+        answer: 您的私钥始终被加密，并且只能与密码或通行码一起用于签名交易。未加密的信息包括3个单词的名称，上次使用Status的时间（解锁密钥），个人资料图片和Keycard标识符（如果有的话）。
+      q10:
+        question: 如何尽量减少Status使用的移动数据？
+        answer: Status可能会占用大量带宽。防止过多数据消耗的最佳方法是仅在连接到wifi时使用Status。您可以通过在“个人资料>同步设置>移动数据”中调整设置来防止Ststus使用移动数据。
+    messenger:
+      title: 信使
+      q1:
+        question: 我的消息真的隐私吗？
+      q2:
+        question: 我的消息存储在哪里？它们在区块链上吗？
+        answer: 消息不存储在区块链上，也不需要任何费用发送。打开Status并连接到网络后，消息将在邮件服务器上存储30天，并在收到消息后存储在手机上。为了送达到您，消息通过Whisper的传输层devp2p，但没有通过以太坊虚拟机进行传输。
+      q3:
+        question: 谁托管存储消息的邮件服务器？
+        answer: 'Whisper需要一种特定的以太坊节点来存储和传输消息。Status是产品中使用的Whisper的唯一实例。因此，Status运行了一组特殊节点，以支持其用户。但是，任何人都可以使用适当的硬件运行邮件服务器节点。您可以在<a href=''https://discuss.status.im/t/get-your-node-running/1488/2'' target=''_blank''>这里</a>找到说明。'
+      q4:
+        question: 如何在Status中更改我的用户名？
+        answer: '如果要添加自定义昵称，则可以注册ENS用户名。转到个人资料> ENS用户名。注册或连接现有的<a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''> ENS用户名</a>到您的Status聊天码，然后其他人可以通过该用户名找到您。您也可以用它代替您的三个单词的显示名称。'
+      q5:
+        question: 如何邀请我的朋友加入Status？
+        answer: '您可以与Status以外的朋友分享您的个人资料或特定的聊天频道。 <br> <br>要共享您自己的个人资料和聊天码，请转到您的个人资料界面，然后单击右上角的共享按钮。将生成一个链接，您的朋友可以根据该链接获取Status并添加您的个人资料。 <br> <br>要共享公共聊天，请打开聊天界面，然后从右上角的[...]菜单中选择“共享聊天”。这将生成指向该聊天频道的链接，然后您可以将其发送给Status以外的朋友。'
+      q6:
+        question: 我加入了公共聊天，但没有看到任何消息。这是为什么？
+        answer: '公开聊天就像广播频道。您可以调谐到某个频道，但是只有其他人正在该频道上广播时，您才会看到消息。您可以通过右上角[...]并与他人共享频道来开始自己的对话并邀请其他人，例如<a href=''https://get.status.im/chat/public/introductions'' target=''_blank''> https://get.status.im/chat/public/introductions </a>'
+      q7:
+        question: 如何创建新的公共聊天室？
+        answer: '在“聊天”选项卡上，点击[+]按钮>加入公共聊天并输入聊天名称。如果该名称在网络上尚不存在，则会自动创建一个。 <br> <br>您看到＃标签就可以想到公共聊天。收集了所有使用相同＃标签的消息。'
+      q8:
+        question: '如何与Status上的的人进行 1对1 聊天？'
+        answer: '在“聊天”选项卡上，点击[+]按钮>开始新的聊天>输入ENS用户名或聊天码。或者，如果其他人在您旁边，请从他们的个人资料中扫描QR码。 <br> <br>如果要在公共频道中与某人开始 1：1 聊天，请点击他们的名称或头像>发送消息。'
+      q9:
+        question: 选择哪个邮件服务器有关系吗？
+        answer: '在地理上距离您更近的邮件服务器将更快地响应邮件。建议您保留自动邮件服务器选择的默认设置。启用自动选择后，Status可以测量服务器之间的邮件延迟，并为您选择最快的邮件。 <br> <br>如果要连接到自己的邮件服务器，或连接到特定的受信任设备上运行的邮件服务器，则可以添加自定义邮件服务器。'
+    browser:
+      title: 浏览器
+      q1:
+        question: 此浏览器与其他浏览器有什么不同？
+        answer: 'Status是支持Web3的浏览器。支持web3的浏览器可以打开任何网站，但除此之外，您还可以使用去中心化的应用程序或“ DApps”。为了做到这一点，Status将一个对象注入给定站点的DOM中，从而允许该站点在您的许可下引用您在区块链上的帐户。 <br> <br>通常，DApps使用以太坊区块链发送和接收信息并处理通常存储在中心化服务器上的付款。 DApp几乎没有任何一方可以控制您的数据并从中获利。'
+      q2:
+        question: 什么是DAp.ps？
+        answer: 'DAp.ps是为以太坊开发的DApp的去中心化和社区展策目录，因此您可以轻松浏览web3的精华。 DApp开发人员可以免费提交他们的DApp，也可以抵押SNT以提高排名。用户也可以使用SNT投票赞成或反对DApp列表。开发人员投入的SNT越多，对DApp的反对投票就越容易。'
+      q3:
+        question: '如何给 DApps 投票？'
+        answer: '转到<a href=''_blank'' target=''https://dap.ps''> https://dap.ps </a> ，找到您喜欢的DApp，然后点击“ upvote”。设置您要投票的SNT数量，然后点击“ upvote”。当您对DApp投倒票时，数量已设置好。 DApp开发人员为提高排名而投入的资金越多，您降低投票的价格就越便宜。这样可以减少资金充裕的DApp接管并操作DApp投票结果的风险。 <br> <i>请注意，投票需要SNT以及少量的ETH来支付交易费用。 </i>'
+      q4:
+        question: 什么是DApp权限？
+        answer: 'DApp必须获得许可才能查看和使用您的钱包地址和/或聊天密钥。通常，DApp会请求“连接您的钱包”。完成后，您会收到一个弹出窗口，询问“拒绝”或“允许”此请求。连接您的钱包地址的权限特定于您在钱包中持有的某个帐户。如果您授予新帐户许可，则先前连接的帐户的许可将被撤销。如果您拒绝许可请求，则DApp将不知道有关您的以太坊地址的任何信息，也将无法启动交易。 <br> <br>转到“个人资料” >隐私和安全” >设置DApp权限”以查看哪些DApp可以访问哪些帐户，并根据需要撤消权限。 <br> <br> <i>请注意，如果DApp已存储您的地址，则Status不能撤销该地址。 </i>'
+    wallet:
+      title: 钱包
+      q1:
+        question: 我的钱包有多安全？
+        answer: 'Status包括分层确定性（HD）钱包。在此钱包中生成的所有密钥均已加密，并且使用安全硬件（如果有）本地存储在手机上。除了您，没有人可以访问。为了增强安全性，您可以获取<a href=''https://keycard.tech/'' target=''_blank''>Keycard</a>来存储您的密钥。'
+      q2:
+        question: 签署交易意味着什么？
+        answer: 以太坊的任何变化均被视为交易。信息从一个地址传输到另一个地址。此信息可以是资产或协议。当您使用Status签名时，那么您正在批准这项交易。Status将通知您要求签名的是哪种交易。
+      q3:
+        question: 我的签名短语是什么？
+        answer: 签名短语是一种安全保障方法。首次使用Status时，钱包将显示您的签名短语，这是三个单词组成的独一无二的组合。只有您和应用程序知道此签名短语。每次您签署交易时，应用程序都会向您显示签名短语。如果识别出签名短语，则可以确定签名请求来自Status，并且可以安全签名。
+      q4:
+        question: Status钱包支持哪些资产？
+        answer: 钱包目前支持ETH和ERC20代币（例如OMG，BNB，BAT或DAI），还支持某些ERC721代币（例如Cryptokitties或数字艺术品）。
+      q5:
+        question: 为什么我的资产没有显示？
+        answer: '默认情况下，钱包中仅显示ETH和SNT。如果导入还存储其他代币的帐户，则Status也会显示这些代币。在其他情况下，例如，当您将代币发送到Status中的帐户时，则需要将这些代币添加到您的帐户列表中。 <br> <br>您可以转到钱包界面> 右上角的“ [...]”菜单> “管理资产”，将代币添加到帐户视图中。'
+      q6:
+        question: ENS和Status钱包是如何工作的？
+        answer: 您可以通过钱包>发送>选择收款人>输入收件人地址来向ENS名称发送资产。钱包将自动用ENS名称对应的钱包地址替换ENS名称。
+      q7:
+        question: 为什么我需要支付网络交易费用？
+        answer: '网络费，也称为“ gas”，涵盖在以太坊区块链上执行程序的计算成本。这是以太坊的特点。如果不花费大量gas费，就不能对以太坊区块链进行任何更改，包括用户之间的交易。 Status钱包允许调整每笔交易的网络费用。更高的费用将提高您的交易处理速度。'
+      q8:
+        question: 我该如何发送资产以及可以向哪些地址发送资产？
+        answer: 'Status钱包允许您将ETH和ERC20（例如OMG，BNB，BAT或DAI）发送到接受这些货币的钱包。要发送资产，请转到钱包，然后点击屏幕底部的发送图标[↗]。或者，转到钱包>帐户卡>发送<br> <br>然后输入金额>选择代币>从帐户中选择>选择收款人<br> <br>您可以通过地址格式识别接受ETH和以太坊系代币的钱包。地址将以0x开头。Status钱包会识别无效地址。最佳做法是在签署交易前始终手动再三确认地址。'
+      q9:
+        question: 我恢复了我的帐户，尽管创建了更多钱包，但现在我只看到一个钱包。我的资金丢失了吗？
+        answer: '不，他们没有丢失。如果您从Status中生成了其他钱包，然后又恢复了帐户，则需要按照创建它们的相同步骤来手动恢复其他钱包。在钱包中，您点击添加帐户>添加帐户。 Status不会生成新的钱包，而是会按顺序恢复您创建的钱包，您的资产将与它们一起恢复。 <br> <br>将来，我们确保将自动恢复您所有的Status钱包。'
+    keycard-general:
+      title: Keycard一般问题
+      q1:
+        question: Keycard有什么用？
+        answer: 'Keycard是可以与Status应用程序一起使用的硬件钱包。 <br> <br>它为Status用户私钥提供了更高级别的安全性和所有权。Keycard用于资产的冷存储。您在进行交易时需要将Keycard贴近手机（以及输入6位数的通行码）。 <br> <br>并且Keycard可以用于两步验证，以保护对Status的访问（即，聊天）。要解锁密钥并使用Status应用，您需要将您的卡贴近手机并输入6位通行码。'
+      q2:
+        question: Android和iOS上的Status是否支持Keycard？
+        answer: Keycard目前仅在Android上可与Status一起使用。Keycard团队目前正在进行iOS集成。
+      q3:
+        question: Keycard多少钱？
+        answer: Keycard零售价29欧元，可在此处购买。
+      q4:
+        question: Keycard是否与其他钱包集成？
+        answer: 'Status是与Keycard集成的第一个产品。但是，开发人员可以使用此处提供的开源Keycard API将Keycatd与其产品集成。'
+      q5:
+        question: 我要使用Status，需要先有Keycard吗？
+        answer: 不，您不需要Keycatd即可使用Status。Status钱包是非托管的，并通过第三方安全公司审计。它本身是安全的，但是通过Keycard，您可以提高到更高级别的硬件安全性。
+      q6:
+        question: Keycard可以作为借记卡/信用卡付款吗？
+        answer: 目前，Status用户只能将Keycatd用作硬件钱包。使用Keycard进行的物理支付，并将其作为开放、包容和无需许可的支付网络的一部分是我们路线图的一部分。在该网络中，支付终端可以是任何运行Status的手机。
+      q7:
+        question: 'Keycard 与其他硬件钱包（如Ledger或Trezor）有什么不同？'
+        answer: 'Keycard是以全新方式构建的，就像移动友好的硬件钱包一样。它通过集成NFC非接触式技术与您的手机通信，通过手机轻触卡片并输入6位数的通行码即可签署交易。而且它的外形非常便于携带。 <br> <br>Keycard没有屏幕或键盘，因此成本效益明显。与受信任的应用程序（例如Status）一起使用时，Keycard的安全级别类似于Ledger。'
+    keycard-security:
+      title: Keycard安全性
+      q1:
+        question: 如果丢失Keycard会怎样？
+        answer: '如果您丢失了Keycard，没有6位数字的通行码，没有人可以使用它。要恢复您的资金，您将需要使用12个单词的助记词来恢复您的帐户。 <br> <br>社会恢复工作正在进行，并将在将来的某个时间实施。如果丢失，这将使您能够通过同伴来协调恢复您的帐户。'
+      q2:
+        question: Keycard的安全性如何？
+        answer: '卡的安全性取决于卡上使用的小程序软件。此小程序是开源的（链接），并已由第三方安全审计公司进行了审计。 <br> <br>从硬件的角度来看，Keycatd是SE级安全性能，具有很高的硬件保护水平。它通过CC EAL5 +正式测试以进行安全性评估。'
+    keycard-setup:
+      title: Keycard设置
+      q1:
+        question: 如何使用Keycard和Status？
+        answer: 如果您是Status新用户，则只需下载Status，按照我们的入门流程，您必须选择是要生成一个新帐户还是要使用助记词导入一个帐户（即“使用已有密钥”），然后选择将其存储在Keycard中。设置完成以后，每当您要解锁密钥、使用Status或签署交易时，都将要求您使用Keycard并输入6位数通行码。
+      q2:
+        question: 什么是6位数密码？
+        answer: 您将在首次登录时创建6位数通行码。您将需要记住这个通行码，因为每次您在手机上使用卡时都会被要求输入该密码。
+      q3:
+        question: 什么是配对码和PUK码？
+        answer: '当您使用Status和Keycatd登入时，将为您提供配对代码和PUK代码。您必须非常仔细地写下这两个数据，因为它们将不再显示给您。 <br> <br>当您想将Keycard与其他手机或除Status外的其他应用程序配合使用时，将需要用到配对代码。 <br> <br>如果您忘记6位数的密码，则需要您的PUK码以进行重置和更改。'
+      q4:
+        question: 什么是助记词？
+        answer: 请参阅个人资料和设置。如果您丢失了Keycard、PUK码或手机的配对码，这是找回资金的唯一解决方案。
+      q5:
+        question: 我已经在Status中有了一个帐户，并希望将其与我的Keycard绑定使用，我应该如何操作？
+        answer: '您需要卸载Status才能开始全新安装。登陆时，您需要输入助记词（“使用已有密钥” > “输入助记词”）并将其存储在钥匙卡上。您将恢复帐户，并且所有与私钥的交互现在都将受到Keycard的保护。'
+    keycard-other:
+      title: 有关Ketcard的其他问题
+      q1:
+        question: 我拥有一张Keycard，我可以把它与多部手机或多个应用程序同时使用吗？
+        answer: 是的您可以。Keycard有一个配对代码，您可以同时设置5个安全通道。
+      q2:
+        question: 我丢失了6位数的密码，该怎么办？
+        answer: 如果您尝试3次以上密码错误，系统将要求您输入PUK码以重置和更改密码。
+      q3:
+        question: 我丢失了PUK码，该怎么办？
+        answer: '如果您丢失了PUK码和6位数密码，那么情况会非常糟糕，您将永远无法使用Keycard。要想找回资金，您应该使用助记词，然后在Status或其他钱包中再次找回（即“访问密钥”）。如果您熟悉CLI并丢失了密码和PUK码，则Keycard开发团队可能会帮助您恢复出厂设置，请联系<a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''> https://join.status.im/chat/public/status-keycard </a>'
+      q4:
+        question: 我丢失了配对代码，该怎么办？
+        answer: 如果您丢失了配对代码，则必须确保已记下助记词。如果没有配对码和助记词，那么在丢失手机的情况下，您可能会面临失去资金的风险。
+      q5:
+        question: 我丢失了助记词，该怎么办？
+        answer: '如果您丢失了当前帐户的助记词，则必须行动起来，因为如果再丢失Keycard或忘记PUK 码/配对码，则有可能损失所有资金。您应该立即创建一个有新助记词的新钱包，并从当前帐户中转移资产。'

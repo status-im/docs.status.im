@@ -14,6 +14,7 @@ site:
     all:
       title: "Message, Browse, Transact on your Terms"
       description: "Integrated into one powerful super app for private secure communication."
+      button: "Explore features"
     decentralized:
       subtitle: "Decentralized Communication"
       title: "Message, Browse, Transact on Your Terms"
@@ -36,7 +37,7 @@ site:
       title: "Private and Secure by Design"
       description: "Status uses the latest encryption and security tools to ensure your messages and transactions are yours and yours alone. Status removes intermediaries to keep your messages private and your assets secure. Confident, secure communication."
     status-network:
-      title: "Status Network"
+      title: "The Status Network"
       description: "The Status Network is a collection of projects that build the products, tools and infrastructure for resilient, sustainable and inclusive communities. Designing and building for security, equality, and for the sovereignty of individuals."
       link: "Learn more about The Status Network"
     account-creation:
@@ -624,6 +625,7 @@ site:
     keycard:
       title: "Hardware Security with Keycard"
       description: "Add a layer of security to your account and funds with Keycard - the contactless hardware wallet."
+      button: "Explore Keycard"
   account-creation:
     intro:
       title: "Pseudo-Anonymous Account Creation"

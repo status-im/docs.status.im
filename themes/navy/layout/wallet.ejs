@@ -58,13 +58,9 @@
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.security.title') %></h3>
 					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.security.description') %></p>
 					<div class="flex">
-						<a href="#" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+						<a href="https://specs.status.im/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 							<%- __('site.wallet.security.button') %>
 							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
-						</a>
-						<a href="#" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg ml-8">
-							<%- __('site.link.learn-more') %>
-							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
 						</a>
 					</div>
 				</div>
@@ -84,7 +80,7 @@
 				<div class="flex flex-col px-8 col-span-2 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.friends.title') %></h3>
 					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.friends.description') %></p>
-					<a href="<%- show_lang() %>/referral-program/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+					<a href="<%- show_lang() %>/referral/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 						<%- __('site.wallet.friends.button') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
 					</a>
@@ -158,7 +154,7 @@
 						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.keycard.title') %></h3>
 						<p class="text-xl text-gray-700"><%- __('site.wallet.keycard.description') %></p>
 						<a href="<%- show_lang() %>/keycard-integration/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
-							<%- __('site.link.learn-more') %>
+							<%- __('site.wallet.keycard.button') %>
 							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
 						</a>
 						<%- image_tag("/img/wallet-keycard.png", {srcset: "/img/wallet-keycard-2x.png 2x", class: '-mb-32 mt-32'}) %>

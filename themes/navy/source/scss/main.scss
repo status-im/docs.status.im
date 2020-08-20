@@ -171,6 +171,12 @@ body {
 }
 
 @media (max-width: 1199px) {
+  .js-mobile-nav-inner{
+    max-height: calc(100vh - 8rem);
+  }
+}
+
+@media (max-width: 1199px) {
   .video-wrapper {
     width: 100%;
     margin: auto;

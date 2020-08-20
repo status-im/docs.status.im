@@ -1,25 +1,21 @@
-<header class="flex items-center relative justify-between px-8 xl:px-20 py-6 xl:py-0 js-header z-20">
+<header class="flex items-center relative justify-between px-8 xl:px-20 py-6 xl:py-0 js-header z-50">
     <a href="<%- show_lang() %>/" class="logo w-32 xl:w-48 flex-shrink-0"><%- image_tag("img/logo.svg") %></a>
     <nav class="js-nav overflow-auto xl:overflow-visible font-display">
         <ul class="flex flex-col xl:flex-row xl:items-center text-xl xl:text-xl font-display">
             <li class="xl:px-8 py-4 xl:py-16 md:text-lg 2xl:text-xl js-has-submenu hover:text-primary-base <% if(is_current('features')) { %>active<% } %>">
-                <a href="<%- show_lang() %>/features/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
+                <a href="#" class="trigger-submenu hover:text-primary-base text-gray-800 font-medium inline-flex items-center w-full">
                   <%- __('site.header.nav.features.link') %> 
-                  <span class="hidden xl:block ml-4"><%- image_tag('/img/icon-arrow-down-small.svg') %></span>
+                  <span class="block xl:ml-4 ml-auto"><%- image_tag('/img/icon-arrow-down-small.svg') %></span>
                 </a>
-                <div class="bg-white shadow py-16 border-t text-gray-900 border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
+                <div class="bg-white xl:shadow xl:py-16 py-4 xl:border-t text-gray-900 border-gray-100 relative xl:absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu xl:block hidden z-10">
                     <div class="max-w-screen-lg mx-auto px-8 xl:px-12">
-                        <div class="grid grid-cols-2 gap-24 xl:gap-48">
-                            <div class="text-right">
+                        <div class="grid xl:grid-cols-2 grid-cols-1 gap-24 xl:gap-48">
+                            <div class="text-right xl:block hidden">
                                 <h4 class="text-4xl font-display font-normal"><%- __('site.header.nav.features.title') %></h4>
                                 <p class="text-2xl mt-4 font-display font-normal"><%- __('site.header.nav.features.description') %></p>
-                                <a href="<%- show_lang() %>/features/" class="group text-primary-base font-special font-semibold hover:text-primary-900 inline-flex items-center mt-8">
-                                  <%- __('site.header.nav.features.link-1') %>
-                                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-                                </a>
                             </div>
                             <div class="mt-4">
-                                <ul class="grid grid-cols-2 gap-8">
+                                <ul class="grid xl:grid-cols-2 gap-8 text-lg xl:text-xl">
                                     <li>
                                       <a href="<%- show_lang() %>/private-messenger/" class="flex items-center group">
                                         <%- __('site.header.nav.features.link-3') %>

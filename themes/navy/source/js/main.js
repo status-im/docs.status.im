@@ -54,6 +54,12 @@ $(document).ready(function($) {
   $(".js-box-remember").wrap("<div class='bg-gray-100 flex my-12 shadow-lg'></div>");
   $(".js-box-remember").before("<div class='bg-primary-base py-12 flex flex-shrink-0 w-32 items-center justify-center'><img src='/img/box-remember.svg' width='64')'></div>");
 
+  $('.trigger-submenu').on('click', function(event) {
+    if (w < 1199) {
+      $(this).next('.js-submenu').toggleClass('hidden invisible pointer-events-none opacity-0');
+    }
+  });
+
   function mobileMenu(w) {
     if (w < 1199) {
       $('.js-header .js-nav, .js-header .js-btns').appendTo('.js-mobile-nav-inner');
@@ -61,14 +67,14 @@ $(document).ready(function($) {
       $('.js-mobile-nav .js-nav, .js-mobile-nav .js-btns').insertBefore('.js-mobile-nav-trigger');
       $('.js-has-submenu').on('mouseover', function (event) {
         event.preventDefault();
-        $(this).find('.js-submenu').removeClass('invisible opacity-0 pointer-events-none');
+        $(this).find('.js-submenu').removeClass('invisible pointer-events-none opacity-0');
       });
       $('.js-has-submenu').on('mouseleave', function (event) {
         event.preventDefault();
-        $(this).find('.js-submenu').addClass('invisible opacity-0 pointer-events-none');
+        $(this).find('.js-submenu').addClass('invisible pointer-events-none opacity-0');
       });
     }
-  }2
+  }
 
   function mobileFooterMenu(w) {
     if (w < 768) {

@@ -38,6 +38,10 @@
 				<div class="flex flex-col md:col-span-3 col-span-6 px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.all.title') %></h3>
 					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.all.description') %></p>
+					<a href="#explore" class="js-scrollto transition-all duration-200 linear group py-4 pr-6 flex md:inline-flex justify-between items-center mt-32 border font-special font-semibold rounded border-white text-lg">
+						<%- __('site.home.private.link') %>
+						<span class="ml-6 group-hover:translate-y-1 rotate-90 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+					</a>
 				</div>
 				<div class="px-8 md:col-span-5 col-span-6">
 					<div class="mx-auto relative flex justify-center items-center md:block pb-32 md:py-48">
@@ -66,7 +70,7 @@
 	</section>
 	<!--END-HOME-ALL-->	
 	<!--HOME-DECENTRALIZED-PRIVATE-->
-	<section>
+	<section id="explore">
 		<div class="max-w-screen-2xl mx-auto lg:px-12">
 			<div class="grid md:grid-cols-2">
 				<div class="bg-blue-gray-light relative">
@@ -226,7 +230,7 @@
 				<div class="pb-32 md:pb-0">
 					<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
 					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.mission.description') %></p>
-					<a href="https://statusnetwork.com/" target="_blank" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
+					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
 						<%- __('site.link.learn-more') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
 					</a>
@@ -242,7 +246,7 @@
 				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.home.status-network.title') %></h3>
 					<p class="text-primary-200 font-thin text-xl max-w-screen-md px-12 text-center pt-12"><%- __('site.home.status-network.description') %></p>
-					<a href="https://dap.ps/" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
+					<a href="https://statusnetwork.com/" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
 						<%- __('site.home.status-network.link') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
 					</a>

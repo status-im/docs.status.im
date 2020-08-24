@@ -38,7 +38,7 @@ Insofar as not defined in these Conditions, the following terms when capitalized
 
 3.1  A Referrer invites a Recipient by sending a “Referral URL” to raise awareness of and to introduce the Recipient to the App. 
 
-3.2 If a Referrer invites a Recipient, a ‘referral code’ will be generated and connected to the Referrer’s Ethereum address. The Referrer can then share the Referral URL with multiple Recipients. A Recipient can use the Referral URL to download, install and onboard to the App. Upon onboarding, the Recipient is asked to accept these Conditions, the Recipient will receive a Starter Pack and Referral Bonus is attributed to the Referrer. Upon accepting, the IP address of the Recipient is stored to ensure a given recipient can use the referral code with the same IP address once and that the Referral URL is only used outside the USA.  The Referral Program is not offered in the USA and therefore Users from the USA fall outside of the scope of the Referral Program and these Conditions.
+3.2 If a Referrer invites a Recipient, a ‘referral code’ will be generated and connected to the Referrer’s Ethereum address. The Referrer can then share the Referral URL with multiple Recipients. A Recipient can use the Referral URL to download, install and onboard to the App. Upon onboarding, the Recipient is asked to accept these Conditions, the Recipient will receive a Starter Pack and Referral Bonus is attributed to the Referrer. Upon accepting, the IP address of the Recipient is stored to ensure a given recipient can use the referral code with the same IP address once and that the Referral URL is only used outside the USA, Iraq, Korea (the Democratic People's Republic of), Iran, Syrian Arab Republic, Sudan (the), and Cuba. The Referral Program is not offered in these countries and therefore Users from these countries fall outside of the scope of the Referral Program and these Conditions.
 
 3.3 To receive a Referral Bonus:
 - The Referrer first needs to accept these terms and conditions and create a Referral URL using the “invite friends” button in the App (Android only).
@@ -50,7 +50,7 @@ Insofar as not defined in these Conditions, the following terms when capitalized
 - The Recipient must use a Referral URL sent by a Referrer. 
 - Then the Recipient, via this Referral URL, needs to install and complete the onboarding flow of the App (using the Google Play Store).
 - The Recipient accepts these Conditions to release their Starter Pack and attribute the Referral Bonus (for the Referrer).
-A check is performed to ensure the referral code generated through the Referral URL has not been used on the same IP address the referral code is being used from and the IP address comes from outside of the USA (see clause 3.2).
+A check is performed to ensure the referral code generated through the Referral URL has not been used on the same IP address the referral code is being used from and the IP address comes from outside of the USA, Iraq, Korea (the Democratic People's Republic of), Iran, Syrian Arab Republic, Sudan (the), and Cuba. (see clause 3.2).
 
 3.5 For each Ethereum address of Referrer visible in the App, one (1) Referral URL can be created (not possible using a ‘watch-only address’).
 

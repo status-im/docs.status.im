@@ -54,7 +54,7 @@ site:
         learn-more: 了解有关Waku的更多信息
       feature-3:
         title: '完美向前保密 & <br> E2E 加密'
-        description: 'Status基于Whisper消息协议采用‘Double Ratchet‘算法进行端到端加密确保高等级的安全与隐私。'
+        description: 'Status在Whisper协议之上使用‘Double Ratchet‘算法并进行端到端加密，确保高等级的安全与隐私。'
     wallet:
       title: '集成 <br> 以太钱包'
       feature-1:
@@ -81,7 +81,7 @@ site:
         link: 优化和注册您的Dapp
     get:
       title: '获取Status '
-      description: '开始享受iOS，Android，MacOS，Windows和Linux上的Status 。'
+      description: '开始使用iOS，Android上的Status 。'
       link: 下载应用
   get-involved:
     index:
@@ -267,7 +267,7 @@ site:
     intro:
       title: 安全设计
       description-1: Status致力于成为一款真正去中心化通信工具，最终的目标是去掉所有第三方中间服务，最大限度减少恶意攻击者的攻击面。
-      description-2: 'Web3的真正好处是能够以我们自己的要求进行交易和沟通 - 没有中间人。在享受这样的自由沟通方式时我们必须确信我们的信息，交易，身份和资金都是安全的。以下可以详细了解Status是如何确保安全。'
+      description-2: 'Web3的真正好处是能够以我们自己的要求进行交易和沟通 - 没有中间人。在享受这样的自由沟通方式时我们必须确信我们的信息、交易、身份和资金都是安全的。以下可以详细了解Status是如何确保安全。'
     security-at-status:
       title: 'Status 安全消息传递'
       secure-inner-1:
@@ -282,7 +282,7 @@ site:
     security-content:
       content-1:
         title: 安全身份
-        description: 您在Status中的身份信息是通过本地生成的加密密钥对建立的，并通过密码进行保护。然后，用户可以向他们的个人资料添加信息，完善他们在Status中的个人档案信息。用户在任何时候都可以完全控制他们的信息，以及谁有权访问它。终端用户可以根据需要选择为公开或私密。
+        description: 您在Status中的身份信息是通过本地生成的加密密钥对建立的，并通过密码进行保护。然后，用户可以向他们的个人资料添加信息，完善他们在Status中的个人档案信息。用户在任何时候都可以完全控制他们的信息，以及谁有权访问它。终端用户可以根据需要选择为公开或保持隐私。
       content-2:
         title: 点对点消息传递协议
         description: 'Status使用Waku协议进行点对点（p2p）通信。 Waku依靠对等网络来相互路由消息。发送的每条消息都会广播到整个网络，并进行加密，只有预先确定的收件人才能够查看消息。通过消除中心化的弊端，消息的内容和元数据归您自己所有。但是，Status和Waku并不是完全的点对点，因为当对等方离线时，由邮件服务器管理消息。 Waku邮件服务器是Waku的扩展，用于存储消息并在对等方重新上线时向其发送消息。'
@@ -352,12 +352,12 @@ site:
         description: 'Status 是一个开源项目， <br>被人在世界各地制造。'
       security: 安全
       docs:
-        title: 文档
+        title: '开发 者'
         description: '用Status开始开发 <br> 所需的一切'
-        link: 文档
+        link: '开发 者'
         link-1: 'DApp 集成'
         link-2: 贡献者指南
-        link-3: 加入我们的团队
+        link-3: 教程
         link-4: 安全
         link-5: 规范
         link-6: 用户指南
@@ -419,7 +419,7 @@ site:
         description: 我们珍惜资源，随着我们的成长和资金的进入，对通证持有人我们负有义务打击组织内的官僚主义和效率低下的行为，这意味着需要我们高效解决问题并控制成本（包括资金、时间和资源）
     how-we-work:
       title: 我们的工作方式
-      description: 我们的团队成员分布在世界的各个角落通过远程办公的方式进行协作，为某个特定的目标组成一个2-5人的小团队，依照产品和功能特性结构化的方式来开发。
+      description: 我们的团队成员分布在世界各地，并进行远程办公。我们为某个特定的目标组成一个2-5人的小团队。
       research:
         title: 研究
       specifications-planning:
@@ -430,7 +430,7 @@ site:
         title: '沟通&反思'
     core-contributors:
       title: 核心贡献者
-      description: Status并不是一个传统的组织，没有层级结构，也没有办公室和经理，只是为了某个共同的任务而在一起，然后大家可以自由地选择工作方式。
+      description: Status并不是一个传统的组织。我们没有层级结构，也没有办公室和经理。我们只是为了某个共同的任务而在一起，然后大家可以自由地选择工作方式。
       link-1: 加入我们。查看所有空缺职位
       link-2: 了解更多Status的生活
     join-us:
@@ -470,7 +470,7 @@ site:
       teller-network:
         title: 柜员网络
         status: 已开发
-        description: '社区部署的DApp提供了无边界，点对点，法币兑换加密货币的Teller网络，使利益相关者可以找到附近的用户，用现金交换数字资产和货币。 必须持有SNT才能成为网络中的卖方。'
+        description: '社区部署的DApp提供了无边界，点对点，法币兑换加密货币的Teller网络，使利益相关者可以找到附近的用户，并将现金交换成数字资产和货币。 必须持有SNT才能成为网络中的卖方。'
       network-incentivization:
         title: 网络激励
         status: 研究
@@ -511,7 +511,7 @@ site:
       description-1: 来自世界各地的社区贡献者对SNT用例的加密经济模型进行研究，为产品和功能开发提供信息，并激励Status网络。<br><br>这些加密经济模型是一项持续的研究工作，鼓励任何人研究、批评和审查这项工作。
       link-1: '加入#status'
       description-2: 加入公共频道并了解相关研究的更多信息
-      link-2: 社区创建的工作手册
+      link-2: 加入Discussion
     learn-more:
       title: 了解更多信息
       description: '许多 SNT 用例都在积极研究和开发中。加入公开讨论或阅读 SNT 常见问题解答以了解有关 SNT 用例和代币经济研究的更多信息。'
@@ -536,7 +536,7 @@ site:
       announcement: '这是alpha版软件，可能有漏洞。 <br>请期待修改版本。'
   docs:
     stripe:
-      title: 'Status 文档'
+      title: Status开发者
     title: 欢迎访问Status文档！
     description: 在Status上运行您的DApp，深入研究我们的技术，了解我们的组织或帮助构建Status：
     categories:
@@ -584,14 +584,14 @@ site:
     index:
       intro:
         title: 开发者门户
-        teaser-1: 欢迎使用Status开发者门户。开始为Status做出贡献，构建自己的DApp或注册你的dapp
+        teaser-1: '欢迎来到Status开发人员门户。在这里您可以找到为Status做出贡献、构建您自己的 DApp 或在 {a href\''https：//dap.ps''dap.ps</a> 中注册 dapp 以及使用Status网络中的任何一个项目所需的一切。'
       box-link-1:
         title: 贡献者指南
         text: 'Status正在开发免费的开源软件，任何人都可以免费共享它，并可以从中受益。 <br>   <br>任何背景，技能水平和兴趣的社区成员都可以参与官方Status的发布。了解如何构建Status，为完成赏金而获得加密货币，修复错误或构建所需的功能。'
         cta: 开始使用
       box-link-2:
         title: 'DApp 集成中心'
-        text: 'Status包括隐私且安全的web3浏览器，并可以访问不断发展的去中心化应用程序生态系统<br>   <br> Dapp集成中心是分步指南，可优化集成到Status的dapp。这包括移动最佳实践，安全性和隐私要求，Status API的使用以及如何提交给dap.ps。'
+        text: 'Status包括安全隐私的web3浏览器，并可以访问不断发展的去中心化应用程序生态系统<br>   <br> Dapp集成中心是手把手操作指南，可优化集成到Status的dapp。这包括移动最佳实践，安全性和隐私要求，如何使用Status API以及如何提交给dap.ps。'
         cta: 开始使用
       box-link-3:
         title: 教程
@@ -685,6 +685,7 @@ site:
       button: '购买Keycard 29€'
     about:
       title: 什么是Keycard？
+      description: 'Keycard是一种冷存储硬件钱包，旨在使您的私钥完全离线，以提高资金安全性。 <br> <br>内置NFC技术和类似信用卡的设计，可提供无缝的非接触式体验。Keycard构建了一套开源的API，用于与第三方加密钱包、DApp和硬件集成。'
       button-1: 了解更多
       button-2: '购买Keycard 29€'
     secure:
@@ -701,8 +702,10 @@ site:
     boxes:
       box-1:
         title: 自治和信心
+        description: Status去除了不必要的第三方（例如银行）进行通信和交易。通过删除这些服务，人们现在要对自己和资金负责。Kecyard提供了安全保障，可以在没有他们的情况下放心地操作。
       box-2:
         title: 移动优先的设计
+        description: 借助非接触NFC技术和时尚、经典的产品设计，Keycard是一款安全的硬件钱包并提供像信用卡一样的便利性。
       box-3:
         title: 经济实惠的安全性
         description: 只需29欧元，Keycard即可提供强大的硬件安全保证，而无需支付昂贵的价格。
@@ -737,42 +740,86 @@ site:
         answer: Status是一款隐私、安全的沟通工具，可以维护人权并赋予主权社区权力
       q2:
         question: 谁拥有Status？
+        answer: 'Status由Status Network建立。 <a href=''https://statusnetwork.com/'' target=''_blank''>Status Network</a>为有弹性、可持续性和包容性社区构建产品、工具和基础架构。关于Status及其核心贡献者的更多信息在<a href=''https://status.im/about/'' target=''_blank''>这里</a> 。'
       q3:
         question: 为什么要使用Status？
+        answer: '在过去的20年中，众所周知，互联网受到少数公司的控制，并有收集和出售数据的动机。Status提供了一种替代方法。 Status使用最先进的技术来提供隐私、安全的通信。 Status使用点对点模型来防止任何第三者控制用户的数据。 Status将信使、加密钱包和Web3浏览器结合在一起，可让您完全控制自己的资产和通讯。'
       q4:
         question: 为什么是信使？
+        answer: '主权社区组织起来需要无审查、隐私和安全的通信。消息传递为扩大以太坊的应用提供了一条充满希望的道路，因为它适合移动手机使用。这反过来又为更多社区能够访问支付网络和其他去中心化的应用程序铺平了道路。<br><br>最后Status不仅仅是一个信使。将资产管理与加密钱包相结合，并通过 web3 浏览器访问去中心化应用程序，是一种最广义的通信工具。'
       q5:
         question: 是什么让Status与其他聊天软件不同？
+        answer: '大多数信使都提供端到端加密。这种标准保护意味着提供服务的公司无法阅读您的消息的内容。但是，他们网络上的信息流是公开的，可以解析出谁在哪里与谁聊天。传统信使注册账户需要身份信息，例如电话号码，并且该信息通常与您的其他个人数据相关。Status不需要任何个人信息即可开始使用。由于其点对点基础结构，Status不了解谁在与谁联系，也不知道消息的内容。 <a href=''https://github.com/status-im/specs'' target=''_blank''>在这里</a>您可以找到有关这项技术工作原理的规范。'
       q6:
         question: 如果政府试图屏蔽或审查Status，会发生什么？
+        answer: 'Status 信使不会使用中心化服务器与之通信，因为中心化的服务器可以屏蔽通信。相反，Status使用去中心化的邮件服务器网络。这样可以确保网络的弹性。如果关闭了一个邮件服务器，则可以连接到另一台邮件服务器或启动<a href=''https://discuss.status.im/t/get-your-node-running/1488/4?u=hester'' target=''_blank''>运行自己的邮件服务器</a> 。但是，网络中的Status服务器和邮件服务器仍然依赖于网络连接。如果电信运营商关闭了网络，则将无法使用Status。'
       q7:
         question: Status如何连接到区块链？
+        answer: Status与go-ethereum打包在一起，并连接到以太坊网络。要连接到以太坊你所需要做的就是运行Status应用程序！请注意，只有钱包和浏览器才与以太坊区块链交互。消息未存储在区块链上。
+      q8:
+        question: 我可以自己或在服务器上运行go-ethereum吗？
+        answer: '我们致力于使轻节点在资源受限的设备上运行。这将允许您直接从手机或IoT设备连接到以太坊，而无需服务器。更重要的是，它将提高整个网络的可访问性和可扩展性。有关更多信息，请查看<a href=''https://nimbus.team/'' target=''_blank''> https://nimbus.team/ </a> 。 <br> <br>如果要立即运行go-ethereum，可以在Linux设备上设置一个节点，并配置Status应用程序以连接到该节点。您可以在<a href=''https://discuss.status.im/t/get-your-node-running/'' target=''_blank''>此处</a>找到更多信息。'
+      q9:
+        question: 我可以在哪些设备上使用Status？
+        answer: 'Status经过测试可在Android 7+和iOS 13+上运行。'
+      q10:
+        question: Status也可以在桌面上运行吗？
+        answer: 现在不行。我们的代码库旨在使Status可以在移动或台式设备上运行。目前，Status桌面的开发处于暂停状态，因为团队专注于移动应用程序和其他基础架构项目。
+      q11:
+        question: 该应用程序支持哪些语言？
+        answer: 'Status目前有14种语言可用-英语，法语，意大利语，简体中文，繁体中文，한국어，اُردُو，русский！，Türkçe，Español，他加禄语，印度尼西亚语，Deutsch，Deutsch，Portuguêsdo Brasil <br> <br>任何人都可以在Status翻译中贡献力量。如果您发现拼写错误，翻译错误或者只是想Status显示您的语言，请加入<a href=''https://translate.status.im/'' target=''_blank''> translate.status.im </a> 。'
+      q12:
+        question: 该应用程序可以免费使用吗？
+        answer: '绝对的。使用Status的核心功能无需付费。为了好的Status使用体验，持有加密货币ETH（以太坊）和SNT（Status网络代币）确实是有帮助的。某些功能需要使用SNT，因为这有助于支持我们的项目。 <br> <br>要获得SNT，您可以在DApp形式的交易所中交易您已经拥有的加密货币来获得，或者您可以通过法币-加密货币交易对在交易所用法币（例如欧元或美元）购买ETH和SNT。'
+      q13:
+        question: 有费用吗？
+        answer: 'Status没有隐性费用。当您使用加密钱包进行交易时，您会看到网络费包含在费用中。该网络费用也被称为“ gas”，这是以太坊网络的要求，所有以太坊钱包和应用程序都使用完全相同的方式来促进交易。 Status对此费用没有任何抽成。'
+      q14:
+        question: 我想为这个项目做出贡献，我该从哪里开始？
+        answer: 'Status是一个开源项目，欢迎所有技术和非技术方面的贡献。 <a href=''https://ambassador.status.im/'' target=''_blank''>大使页面</a>是做贡献的很好的起点。在这里，您可以与积极的贡献者取得联系，他们可以在教育、推广下一代Web方面或为之做出贡献时为你提供支持。 <br> <br>如果您是开发人员并且想参与进来，请访问DApp开发文档中的文档。如果您自己是移动开发人员并且喜欢功能语言，那么请自己构建Status并开始提交PR。'
+      q15:
+        question: 如何请求开发某个功能？
+        answer: '由于Status是一个开源的，社区驱动的项目，因此您既可以请求开发某个功能也可以为功能开发做出贡献。在公共频道<a href=''https://get.status.im/chat/public/status'' target=''_blank''> #status </a>或我们的论坛上分享您的想法： <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> 。也欢迎您打开<a href=''https://github.com/status-im'' target=''_blank''> Github issue</a> 。 <br> <br>如果您是开发人员，请阅读<a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''>贡献者指南</a>以参与进来。'
+      q16:
+        question: 什么是SNT，它在应用程序中如何工作？
+        answer: SNT是Status网络代币。这是Status的ERC20（以太坊标准）代币，用于支持Status网络。某些功能要求用户存入或花费SNT。SNT代币的用途是Status网络的主要目标，因为SNT的价值有助于确保项目的长期发展。
     keys-and-accounts:
+      title: 密钥和帐户
       q1:
         question: 什么是密钥？
+        answer: 密钥是身份的一种形式，是Status和以太坊的主体。它们总是成对出现，分别是公钥和私钥。当您开始使用Status时，会生成第一对密钥，您可以将其视为主密钥对。之后，可以基于该第一对密钥对生成n个密钥对。创建类似身份密钥链之类的东西。聊天码是这个密钥链上的其中一对密钥。您可以在个人资料>共享图标中找到它。
       q2:
         question: 什么是帐户？
+        answer: 您可以将Status中的帐户与银行帐户进行比较。每个帐户都有其自己的密钥对。像银行帐户一样，帐户通常具有地址，余额并可以交易。每个帐户的交易历史记录都是公开的。为了获得最大的隐私，您可以使用多个帐户。您可以在钱包界面中查看您的帐户。
       q3:
         question: 我的钱包地址是多少？
+        answer: '您的钱包地址有42个字符，并以0x开头。这是您的以太坊账户的链上身份。如果您有多个帐户，则有多个地址。您可以通过转到钱包>帐户卡>接收或点击帐户卡上的共享图标来找到您的钱包地址。 <br> <br> <i>请注意，尽管看上去相似，但您的钱包地址与聊天码是不同的。您可以在个人资料>共享图标中找到您的聊天码。 </i>'
       q4:
         question: 我可以在Status中创建多少个帐户？
+        answer: '您可以根据需要创建任意数量的帐户。找到“钱包”>“添加帐户”。如果您失去对帐户的访问权限，则可以使用助记词以及主密钥对来恢复用这种方式添加的帐户。 <br> <br>您还可以在初使界面通过以下步骤创建更多主密钥对：密钥>生成密钥或者，如果您想从另一个钱包导入密钥则使用已有密钥或者，创建全新的身份密钥链。'
     profile-and-settings:
       title: 个人资料和设置
       q1:
         question: '什么是 ENS 用户名？'
+        answer: 'ENS用户名是在以太坊名称服务中注册的名称；将以太坊地址连接到人类可读的唯一的名称，例如Alice。就像注册网络域名一样，它带有特殊的后缀。如果通过Status注册名称，则将获得alice.stateofus.eth。当您注册ENS名称时，您可以在Status聊天中使用它，将您的随机名称（例如Sneaky White Koala）转换为您的ENS名称。这使其他人更容易找到并认出您。'
       q2:
         question: alice.eth和alice.stateofus.eth有什么区别？
+        answer: '购买stateofus.eth名称比较便宜。您需要支付10 SNT的押金来租用该名称，一年后您可以收回押金或继续使用该名称，而无需任何其他费用。 .eth域名目前（2020年1月）的ETH费用约为每年$ 5。您可以将两个名称都连接到您要使用的聊天密钥，例如，@ alice。'
       q3:
         question: 什么是助记词？
+        answer: 您在Status中的助记词由12个单词组成。它是您聊天密钥以及钱包中的帐户密钥的来源。所有密钥都是通过某种加密方法从第一个种子派生而来的。如果您失去了对帐户的访问权限（例如，丢失了手机），则可以使用助记词来访问密钥。相同的加密方法将使您重新生成完全相同的身份密钥链。
       q4:
         question: 我如何处理助记词？
         answer: 把它写下来，保持安全。将助记词抄写在纸上，远离您的设备，是最安全的选择。
       q5:
         question: 如果我丢失了手机，该如何访问我的帐户？
+        answer: '要访问您的帐户，您需要12个单词的助记词。使用此助记词，您可以重新访问主密钥对和所有帐户。 <br> <br>请注意，您可以还原以太坊上存在的帐户。但是，您将不会重新获得对聊天或联系人列表的访问权限，因为此信息仅存储在本地手机中。'
       q6:
         question: 为什么“备份助记词”显示为灰色？
+        answer: 当您已经按步骤写下助记词时，“备份助记词”选项将显示为灰色。此时，您将无法再在应用程序中查看助记词。该助记词将从本地存储中删除，以最大程度地降低出了您的其他人访问它的风险。
       q7:
         question: 我丢失了助记词。我该怎么办？
+        answer: '这确实很棘手。首先，确认是否无法再通过“个人资料” >“隐私和安全”下的”备份助记词“选项备份助记词。如果“备份助记词”选项变灰，则您将无法再访问助记词。 <br> <br>现在最好的选择是使用新i 助记词生成新密钥，然后将您的资产转移到这个新帐户中。在Status中，找到”注销“>”生成新密钥“。按照界面上的步骤存储和保护新密钥。完成后，找到“个人资料” >”隐私和安全性” > “备份助记词”。请离线安全地存储助记词。然后转到“钱包”>“共享图标或接收”>点击地址进行复制。然后注销。 <br> <br>使用密码解锁丢失了助记词的账户。将所有资产从您钱包中的帐户发送到您的新地址。'
       q8:
         question: 如何删除我的个人资料？
         answer: 您的个人资料仅在本地存在。您发送的所有消息将在邮件服务器上保留30天。此后，该消息不再存在。您使用钱包中的帐户进行的交易将保留在区块链上。
@@ -786,6 +833,7 @@ site:
       title: 信使
       q1:
         question: 我的消息真的隐私吗？
+        answer: '是的，Status目前使用以太坊的消息传递协议耳语协议。耳语提供点对点消息传递，对中心化服务器，数据中心或服务提供商零依赖。 <br> <br>每条消息都是端到端加密的，并在规定的时间内广播到网络中的每个对等点。这不仅使不希望的接受者无法阅读消息的内容，而且也无从知晓谁向谁发送消息。对于隐私1对1的消息，只有消息的预期收件人才能解密内容。对于公共聊天，任何知道聊天名称的人都可以解密内容。 <br> <br>另一个安全措施是在用户之间进行初始密钥交换之后，对每条消息都使用新的加密密钥（完美前向保密）。如果您的消息密钥被泄露，则仅该特定密钥的消息被泄露。无法访问过去的消息。 <br> <br> 耳语提供的隐私确实是以高数据使用量为代价的。正在开发替代方案。您可以在<a href=''https://forum.vac.dev/t/waku-project-and-progress/24'' target=''_blank''>此处</a>了解进度。'
       q2:
         question: 我的消息存储在哪里？它们在区块链上吗？
         answer: 消息不存储在区块链上，也不需要任何费用发送。打开Status并连接到网络后，消息将在邮件服务器上存储30天，并在收到消息后存储在手机上。为了送达到您，消息通过Whisper的传输层devp2p，但没有通过以太坊虚拟机进行传输。

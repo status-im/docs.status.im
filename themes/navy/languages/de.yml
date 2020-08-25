@@ -10,7 +10,7 @@ site:
         description: 'Status ist vollständig Open Source und wird von Mitwirkenden auf der ganzen Welt entwickelt. Entwickler, Designer, Schöpfer, Pädagogen, Hobbyisten, Enthusiasten und mehr – jeder hat freien und offenen Zugang zu den Repos, Assets und Informationen.'
       mission:
         title: 'Mission & Prinzipien'
-        description: 'Status ist bestrebt, ein sicheres Kommunikationsinstrument zu sein, das die Menschenrechte wahrt. Wir ermöglichen Gemeinschaftsgeld, Gemeinschaftsrecht und bewahren durch Privatsphäre die Kultur.'
+        description: 'Status strebt danach, ein sicheres Kommunikationsinstrument zu sein, das die Menschenrechte wahrt. Es wurde entwickelt, um den freien Informationsfluss zu ermöglichen, das Recht auf private, sichere Gespräche zu schützen und die Souveränität des Einzelnen zu fördern.'
     decentralized:
       subtitle: 'Dezentrale Kommunikation'
       title: 'Chatten, surfen und Transaktionen tätigen – zu Ihren Bedingungen'
@@ -21,7 +21,7 @@ site:
       title: 'Wirklich privates Messaging'
       description: 'Status verwendet das Peer-to-Peer-Protokoll Whisper und die Ende-zu-Ende-Verschlüsselung, um Ihre Kommunikation vor Dritten zu schützen. Nur Sie können Ihre Nachrichten sehen.'
     wallet:
-      subtitle: 'Community-Geld ist möglich'
+      subtitle: 'Grenzenlose Krypto-Zahlungen'
       title: 'Sichere Krypto-Wallet'
       description: 'Sicheres Senden, Speichern und Empfangen von Krypto-Assets, einschließlich ERC20- und einiger ERC721-Token. Nur Sie halten die Schlüssel für Ihre serverlose Wallet. Intuitives Design schützt Sie vor Angriffen.'
     browser:
@@ -81,7 +81,7 @@ site:
         link: 'Optimieren und registrieren Sie Ihre DApp'
     get:
       title: 'Status herunterladen'
-      description: 'Genießen Sie Status unter iOS, und Android.'
+      description: 'Genießen Sie Status unter iOS, Android, MacOS, Windows und Linux.'
       link: 'Apps herunterladen'
   get-involved:
     index:
@@ -344,25 +344,29 @@ site:
       link-2: 'Status-Sicherheits-Kanal beitreten'
   header:
     nav:
-      features:
-        link: "Funktionen"
-        title: "Funktionen"
       get-involved:
         title: 'Machen Sie mit'
         description: 'Status ist ein Open-Source-Projekt <br>von Menschen auf der ganzen Welt.</br>'
       security: Sicherheit
       docs:
-        title: Entwickler
+        title: Dokumentation
         description: 'Alles, was Sie brauchen, um <br>mit der Entwicklung von Status zu beginnen'
-        link: Entwickler
+        link: Dokumente
         link-1: DApp-Integration
         link-2: 'Leitfaden für Mitwirkende'
-        link-3: 'Tutorials'
+        link-3: 'Treten Sie unserem Team bei'
         link-4: Sicherheit
         link-5: 'Technische Daten'
+        link-6: Benutzerhandbücher
       about: Über
       blog: Blog
       snt-utility: SNT-Nutzen
+      features:
+        link: Funktionen
+        title: Funktionen
+        link-1: 'Alle Funktionen anzeigen'
+        link-2: Keycard
+        description: 'Private Messenger, Crypto Wallet, <br> Web3-Browser und mehr'
   link:
     get-status: 'Status herunterladen'
     get-involved: 'Machen Sie mit'
@@ -375,7 +379,6 @@ site:
     intro:
       title: 'Die Mission'
       link-1: 'Unsere Prinzipien'
-      link-2: 'Aktive Schwärme'
       link-3: Mitwirkende
       description: 'Status ist bestrebt, ein sicheres Kommunikationsinstrument zu sein, das die Menschenrechte wahrt. Wir ermöglichen Gemeinschaftsgeld, Gemeinschaftsrecht und bewahren durch Privatsphäre die Kultur.'
     principles:
@@ -427,6 +430,9 @@ site:
       description: 'Status ist keine traditionelle Organisation. Wir haben keine Hierarchie, es gibt keine Büros und keine Manager. Wir sind alle hier, um unsere Mission zu erfüllen, und wir haben die Freiheit zu entscheiden, wie wir es tun.'
       link-1: 'Treten Sie unserem Team bei. Alle offenen Positionen anzeigen'
       link-2: 'Erfahren Sie mehr über das Leben bei Status'
+    quarterly-reports:
+      title: 'Vierteljährliche Berichte vom Status Netzwerk'
+      description: 'Wir können es kaum erwarten zu berichten, was wir alles geschafft haben.'
   snt:
     intro:
       title: Status-Netzwerk-Token
@@ -500,6 +506,7 @@ site:
       description-1: 'Community Contributors aus der ganzen Welt forschen an kryptoökonomischen Modellen für SNT-Anwendungsfälle, um die Produkt- und Funktionsentwicklung sowie die Incentivierung des Statusnetzwerks zu informieren. <br><br>Diese kryptoökonomischen Modelle sind eine fortlaufende Forschungsarbeit, und jeder ist aufgefordert, die Arbeit zu untersuchen, zu kritisieren und zu überprüfen.'
       link-1: 'Treten Sie #status bei'
       description-2: 'Treten Sie dem öffentlichen Kanal bei und erfahren Sie mehr über die Forschung'
+      link-2: 'von der Gemeinschaft erstellte Arbeitsbücher'
     learn-more:
       title: 'Erfahren Sie mehr'
       description: 'Viele der SNT-Anwendungsfälle befinden sich in aktiver Forschung und Entwicklung. Nehmen Sie an den öffentlichen Diskussionen teil oder lesen Sie die SNT-FAQs, um mehr über die SNT-Anwendungsfälle und die Token-Wirtschaftsforschung zu erfahren.'
@@ -524,7 +531,7 @@ site:
       announcement: 'Dies ist Alpha-Software und kann Schwachstellen enthalten. <br> Bitte erwarten Sie Änderungen.'
   docs:
     stripe:
-      title: 'Status Developers'
+      title: 'Dokumentation von Status'
     title: 'Willkommen zur Dokumentation von Status!'
     description: 'Führen Sie Ihre DApp on Status aus, lernen Sie unsere Technologie, Organisation kennen oder helfen Sie bei der Entwicklung von Status:'
     categories:
@@ -576,9 +583,35 @@ site:
       box-link-1:
         title: 'Leitfaden für Mitwirkende'
         text: 'Status freie und quelloffene Software, die jedem frei zur Verfügung steht und von der alle profitieren können.<br>&nbsp;<br> Zu den offiziellen Status-Veröffentlichungen tragen Mitglieder der Gemeinschaft mit allen Hintergründen, Fähigkeiten und Interessen bei. Lernen Sie, wie Sie Status weiterentwickeln, Kryptowährung für das Abschließen von Bounties verdienen, Fehler beheben oder die Dinge bauen, die Sie brauchen.'
+        cta: Loslegen
       box-link-2:
         title: DApp-Integrationscenter
         text: 'Status umfasst einen privaten und sicheren Web3-Browser und den Zugriff auf ein wachsendes Ökosystem dezentralisierter Anwendungen <br>&nbsp;<br>Das Dapp Integration Center ist eine Schritt-für-Schritt-Anleitung zur Optimierung von Dapps für die Verwendung in Status. Dazu gehören empfohlene Vorgehensweisen für Mobile First, Sicherheits- und Datenschutzanforderungen, die Nutzung der Status-API und wie man bei dap.ps einreicht.'
+        cta: Loslegen
+      box-link-3:
+        title: Tutorials
+        cta: 'Alle Tutorials anzeigen'
+        text-1: 'Webassembly/EWasm - Was und Warum'
+        text-2: DApp-Frontend-Sicherheit
+    dev-tools:
+      title: 'Entwickle mit dem Status Netzwerk'
+      keycard:
+        title: Keycard
+        subtitle: 'Sicheres, kontaktloses, Open-Source-Hardwallet'
+        description: 'Integrieren Sie Hardware-Sicherheit in Ihr Projekt mit Keycard'
+      embark:
+        title: Embark
+        subtitle: 'Eine "alles in einem" Entwicklerplattform für die Entwicklung und den Einsatz von DApps'
+        description: 'Entwickle und Bereitstellung dezentralisierter Anwendungen mit Embark'
+      nimbus:
+        title: Nimbus
+        subtitle: 'Recherche und Implementierung von Light Ethereum 2.0-Clients'
+        description: 'Forschung an leichteren Ethereum 2.0-Clients mit Nimbus'
+      vac:
+        title: Vac
+        subtitle: 'Sicheres Peer-to-Peer-Messaging-Paket'
+        description: 'Private, sichere, Zensur-resistente Kommunikation mit Vac'
+    support: 'Können Sie nicht finden, was Sie suchen? Sehen Sie sich das Community-Forum unter <a href=''https://discuss.status.im/tags/faq''>Diskutieren</a> an.'
   footer:
     title: 'Bereit für den Einstieg <br>mit Status?'
     product:
@@ -590,6 +623,8 @@ site:
       jobs: Jobs
       white-paper: 'White Paper'
       media-kit: Werbemöglichkeiten
+      analytics: Analytik
+      open_positions: 'Offene Stellen'
     documentation:
       title: Dokumentation
     status-network:
@@ -635,3 +670,119 @@ site:
     description-3: 'Sehen Sie unsere'
     faq: 'Allgemeine FAQ'
     mobile: Mobil
+  keycard-integration:
+    faq:
+      title: 'Hast du Fragen?'
+  keycard:
+    faq:
+      title: 'Hast du Fragen?'
+  faq:
+    keys-and-accounts:
+      q3:
+        question: 'Was ist meine Börsen-Adresse?'
+      q4:
+        question: 'Wie viele Konten kann ich in Status erstellen?'
+    profile-and-settings:
+      title: 'Profil und Einstellungen'
+      q7:
+        question: 'Ich habe meine Seedphrase verloren. Was kann ich tun?'
+      q8:
+        question: 'Wie lösche ich mein Profil?'
+      q10:
+        question: 'Wie verringere ich die mobile Datennnutzung in Status?'
+    messenger:
+      title: Messenger
+      q1:
+        question: 'Sind meine Nachrichten wirklich privat?'
+      q2:
+        question: 'Wo werden meine Nachrichten gespeichert? Sind sie auf der Blockchain?'
+        answer: 'Die Nachrichten werden nicht in der Blockkette gespeichert und das Versenden kostet nichts. Nachrichten werden 30 Tage lang auf einem Mailserver gespeichert, und auf Ihrem Telefon, sobald Sie sie empfangen haben, indem Sie den Status öffnen und sich mit dem Netzwerk verbinden. Um Sie zu erreichen, werden Nachrichten über devp2p - die Transportschicht für Whisper - geleitet, aber nicht durch die virtuelle Maschine von Ethereum transportiert. '
+      q3:
+        question: 'Auf wessen Server werden meine Nachrichten gespeichert?'
+      q4:
+        question: 'Wie kann ich meinen Namen in Status ändern?'
+      q5:
+        question: 'Wie lade ich meine Freunde zu Status ein?'
+      q6:
+        question: 'Warum sehe ich keine Nachrichten nachdem ich einer öffentlichen Gruppe beigetreten bin?'
+        answer: 'Öffentliche Chats sind wie Radiokanäle. Sie können sich auf einen Kanal einstellen, aber Sie sehen nur Nachrichten, wenn andere auf diesem Kanal senden. Sie können Ihr eigenes Gespräch beginnen und andere einladen, indem Sie zu [...] in der oberen rechten Ecke gehen und den Kanal mit anderen teilen, z.B. <a href=''https://get.status.im/chat/public/introductions'' target=''_blank''>https://get.status.im/chat/public/introductions</a>'
+      q7:
+        question: 'Wie erstelle ich eine neue öffentliche Gruppe?'
+      q8:
+        question: 'Wie kann ich einen 1:1-Chat mit jemandem über Status beginnen?'
+      q9:
+        question: 'Spielt es eine Rolle welchen Mailserver ich auswähle?'
+    browser:
+      title: Browser
+      q1:
+        question: 'Was unterscheidet den Browser von anderen? '
+      q2:
+        question: 'Was ist DAp.ps?'
+      q3:
+        question: 'Wie stimme ich für DApps ab?'
+      q4:
+        question: 'Was sind DApp Berechtigungen?'
+    wallet:
+      title: Börse/Wallet
+      q1:
+        question: 'Wie sicher ist meine Wallet?'
+      q2:
+        question: 'Was bedeutet es eine Transaktion zu Signieren?'
+      q5:
+        question: 'Warum wird mein Guthaben nicht angezeigt?'
+      q6:
+        question: 'Wie funktioniert ENS mit Status?'
+      q7:
+        question: 'Warum muss ich Gebühren für Transaktionen zahlen?'
+    keycard-general:
+      title: 'Keycard Allgemein'
+      q1:
+        question: 'Wozu dient Keycard?'
+      q2:
+        question: 'Ist Keycard mit Status für Android und iOS verfügbar?'
+        answer: 'Keycard ist derzeit nur für Android verfügbar und kann mit Status verwendet werden. Das Keycard-Team arbeitet derzeit an der iOS-Integration.'
+      q3:
+        question: 'Wie viel kostet die Keycard?'
+      q5:
+        question: 'Brauche ich eine ''Keycard'' um Status zu verwenden?'
+      q6:
+        question: 'Kann ich meine Schlüsselkarte als Debit/Kreditkarte für Zahlungen verwenden?'
+      q7:
+        question: 'Wie unterscheidet sich die Keycard von anderen Hardware-Geldbörsen wie Ledger oder Trezor?'
+    keycard-security:
+      title: Keycard-Sicherheit
+      q1:
+        question: 'Was passiert, wenn ich meine Keycard verliere?'
+      q2:
+        question: 'Wie sicher ist eine Schlüsselkarte?'
+    keycard-setup:
+      title: 'Keycard Einrichtung'
+      q1:
+        question: 'Wie komme ich mit Keycard und Status voran?'
+      q2:
+        question: 'Was ist der 6-stellige PIN?'
+        answer: 'Ihren 6-stelligen Passcode definieren Sie während des Onboardings. Sie müssen sich diesen Passcode merken, da er jedes Mal abgefragt wird, wenn Sie Ihre Karte am Telefon abhören.'
+      q3:
+        question: 'Was sind Verbindungs- und PUK-Code?'
+      q4:
+        question: 'Was ist die Seed-Phrase?'
+        answer: 'Siehe Profil und Einstellungen. Wenn Sie Ihre Keycard, Ihren PUK-Code oder den Pairing-Code zusammen mit Ihrem Telefon verlieren, ist dies Ihre einzige Lösung, um auf Ihr Guthaben zuzugreifen.'
+      q5:
+        question: 'Ich verwende bereits ein Konto im Status und möchte es mit meiner Keycard verwenden, wie soll ich vorgehen?'
+        answer: 'Sie müssen Status deinstallieren, um mit einer Neuinstallation zu beginnen.  Wenn Sie an Bord gehen, müssen Sie Ihre Seed-Phrase eingeben (`Zugangsschlüssel` > `Seed-Phrase eingeben`) und sie auf der Keycard speichern. Sie werden Ihr Konto wiederherstellen und alle Interaktionen mit Ihren privaten Schlüsseln werden nun durch Keycard geschützt.'
+    keycard-other:
+      title: 'Keycard Andere Fragen'
+      q1:
+        question: 'Ich besitze eine Schlüsselkarte, kann ich diese mit mehreren Anwendungen oder Smartphones verwenden?'
+        answer: 'Ja, das können Sie. Ihre Keycard verfügt über einen Pairing-Code, mit dem Sie 5 sichere Kanäle gleichzeitig einrichten können. '
+      q2:
+        question: 'Ich habe meinen 6-stelligen Code verloren, was kann ich tun?'
+        answer: 'Wenn Sie mehr als 3 falsche Versuche mit Ihrem Passcode machen, werden Sie aufgefordert, Ihren PUK-Code einzugeben, um Ihren Passcode zurückzusetzen und zu ändern. '
+      q3:
+        question: 'Ich habe meinen PUK verloren, was kann ich tun?'
+      q4:
+        question: 'Ich habe meinen Verknüpfungs-Code verloren, was kann ich tun?'
+        answer: 'Wenn Sie Ihren Pairing-Code verloren haben, müssen Sie sicherstellen, dass Sie Ihre Seed-Phrase notiert haben. Ohne Ihren Pairing-Code und Ihre Seed-Phrase besteht die Gefahr, dass Sie den Zugriff auf Ihr Guthaben verlieren, wenn Sie Ihr Telefon verlieren.'
+      q5:
+        question: 'Ich habe meine Seed-Phrase verloren, was soll ich tun?'
+        answer: 'Wenn Sie Ihre Seed-Phrase für Ihr Account verloren haben, müssen Sie handeln, da Sie Gefahr laufen, irgendwann Ihr gesamtes Guthaben zu verlieren, wenn Sie Ihre Keycard verlieren oder Ihren PUK/Pairing-Code vergessen. Sie sollten sofort eine neue Wallet mit einer neuen Startphrase erstellen und Ihr Guthaben von Ihrem Account darauf übertragen. '

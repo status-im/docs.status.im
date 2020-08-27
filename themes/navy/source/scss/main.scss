@@ -10,7 +10,11 @@ html {
 
 body {
   @apply font-body;
-  font-size: 16px;
+  font-size: 14px;
+
+  @media screen and (min-width: 1420px) {
+    font-size: 16px;
+  }
 }
 
 // Custom Accordion
@@ -31,6 +35,11 @@ body {
 
 // Class for Standard Content Elements
 .custom-article {
+  @apply text-lg;
+
+  @media screen and (min-width: 1420px) {
+    @apply text-xl;
+  }
   a:not([class]) {
     @apply text-primary-base;
 

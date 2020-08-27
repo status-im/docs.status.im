@@ -2,7 +2,7 @@
     <a href="<%- show_lang() %>/" class="logo w-32 xl:w-48 flex-shrink-0"><%- image_tag("img/logo.svg") %></a>
     <nav class="js-nav overflow-auto xl:overflow-visible font-display">
         <ul class="flex flex-col xl:flex-row xl:items-center text-xl xl:text-xl font-display">
-            <li class="xl:px-8 py-4 xl:py-16 md:text-lg 2xl:text-xl js-has-submenu hover:text-primary-base <% if(is_current('features')) { %>active<% } %>">
+            <li class="xl:px-4 2xl:px-8 py-4 xl:py-16 md:text-lg 2xl:text-xl js-has-submenu hover:text-primary-base <% if(is_current('features')) { %>active<% } %>">
                 <a href="#" class="trigger-submenu hover:text-primary-base text-gray-800 font-medium inline-flex items-center w-full">
                   <%- __('site.header.nav.features.link') %> 
                   <span class="block xl:ml-4 ml-auto"><%- image_tag('/img/icon-arrow-down-small.svg') %></span>
@@ -12,10 +12,10 @@
                         <div class="grid xl:grid-cols-2 grid-cols-1 gap-24 xl:gap-48">
                             <div class="text-right xl:block hidden">
                                 <h4 class="text-4xl font-display font-normal"><%- __('site.header.nav.features.title') %></h4>
-                                <p class="text-2xl mt-4 font-display font-normal"><%- __('site.header.nav.features.description') %></p>
+                                <p class="2xl:text-2xl mt-4 font-display font-normal"><%- __('site.header.nav.features.description') %></p>
                             </div>
                             <div class="mt-4">
-                                <ul class="grid xl:grid-cols-2 gap-8 text-lg xl:text-xl">
+                                <ul class="grid xl:grid-cols-2 gap-8">
                                     <li>
                                       <a href="<%- show_lang() %>/private-messenger/" class="flex items-center group">
                                         <%- __('site.header.nav.features.link-3') %>
@@ -52,14 +52,14 @@
                     </div>
                 </div>
             </li>
-            <li class="js-has-submenu hover:text-primary-base py-4 border-t md:text-lg 2xl:text-xl border-gray-100 xl:border-t-0  xl:px-8 xl:py-16">
+            <li class="js-has-submenu hover:text-primary-base py-4 border-t md:text-lg 2xl:text-xl border-gray-100 xl:border-t-0 xl:px-4 2xl:px-8 xl:py-16">
                 <a href="<%- show_lang() %>/get-involved/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.get-involved.title') %> <span class="ml-4 hidden xl:block"><%- image_tag('/img/icon-arrow-down-small.svg') %></a></span>
                 <div class="bg-white shadow py-16 border-t border-gray-100 absolute w-full left-0 top-1/1 invisible pointer-events-none opacity-0 transition-all duration-200 linear js-submenu z-10">
                     <div class="max-w-screen-lg mx-auto px-8 xl:px-12">
                         <div class="grid grid-cols-2 gap-24 xl:gap-48">
                             <div class="text-right">
-                                <h4 class="text-2xl xl:text-4xl font-display text-gray-900"><%- __('site.header.nav.get-involved.title') %></h4>
-                                <p class="text-2xl text-gray-900 mt-4"><%- __('site.header.nav.get-involved.description') %></p>
+                                <h4 class="text-4xl xl:text-4xl font-display text-gray-900"><%- __('site.header.nav.get-involved.title') %></h4>
+                                <p class="2xl:text-2xl text-gray-900 mt-4"><%- __('site.header.nav.get-involved.description') %></p>
                                 <a href="<%- show_lang() %>/get-involved/" class="group text-primary-base font-special font-semibold inline-flex items-center hover:text-primary-900 mt-12">
                                   <%- __('site.link.learn-more') %>
                                   <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -133,9 +133,9 @@
                     </div>
                 </div>
             </li>
-            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 <% if(is_current('security')) { %>active<% } %>"><a href="<%- show_lang() %>/security/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.security') %></a></li>
-            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 <% if(is_current('snt-utility')) { %>active<% } %>"><a href="<%- show_lang() %>/snt-utility/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.snt-utility') %></a></li>
-            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 js-has-submenu <% if(is_current('docs')) { %>active<% } %>" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
+            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0 xl:px-4 2xl:px-8 xl:py-16 <% if(is_current('security')) { %>active<% } %>"><a href="<%- show_lang() %>/security/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.security') %></a></li>
+            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0 xl:px-4 2xl:px-8 xl:py-16 <% if(is_current('snt-utility')) { %>active<% } %>"><a href="<%- show_lang() %>/snt-utility/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center"><%- __('site.header.nav.snt-utility') %></a></li>
+            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0 xl:px-4 2xl:px-8 xl:py-16 js-has-submenu <% if(is_current('docs')) { %>active<% } %>" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                 <a href="<%- show_lang() %>/docs/" class="hover:text-primary-base text-gray-800 font-medium inline-flex items-center">
                   <%- __('site.header.nav.docs.link') %> 
                   <span class="hidden xl:block ml-4"><%- image_tag('/img/icon-arrow-down-small.svg') %></span>
@@ -145,7 +145,7 @@
                         <div class="grid grid-cols-2 gap-24 xl:gap-48">
                             <div class="text-right">
                                 <h4 class="text-2xl xl:text-4xl font-display text-gray-900"><%- __('site.header.nav.docs.title') %></h4>
-                                <p class="text-2xl mt-4 text-gray-900"><%- __('site.header.nav.docs.description') %></p>
+                                <p class="2xl:text-2xl mt-4 text-gray-900"><%- __('site.header.nav.docs.description') %></p>
                                 <a href="<%- show_lang() %>/docs/" class="group font-special font-semibold text-primary-base hover:text-primary-900 inline-flex items-center mt-8">
                                   <%- __('site.link.read-all') %>
                                   <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -189,8 +189,8 @@
                     </div>
                 </div>
             </li>
-            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16 <% if(is_current('about')) { %>active<% } %>"><a href="<%- show_lang() %>/about/" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center"><%- __('site.header.nav.about') %></a></li>
-            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0  xl:px-8 xl:py-16"><a href="https://our.status.im" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center"><%- __('site.header.nav.blog') %></a></li>
+            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0 xl:px-4 2xl:px-8 xl:py-16 <% if(is_current('about')) { %>active<% } %>"><a href="<%- show_lang() %>/about/" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center"><%- __('site.header.nav.about') %></a></li>
+            <li class="hover:text-primary-base py-4 border-t border-gray-100 md:text-lg 2xl:text-xl xl:border-t-0 xl:px-4 2xl:px-8 xl:py-16"><a href="https://our.status.im" class="text-gray-800 hover:text-primary-base font-medium inline-flex items-center"><%- __('site.header.nav.blog') %></a></li>
         </ul>
     </nav>
     <div class="flex flex-col xl:flex-row xl:items-center language-option js-btns">

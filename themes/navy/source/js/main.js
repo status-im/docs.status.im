@@ -822,6 +822,7 @@ $(document).ready(function($) {
     }
   });
 
+  // Trigger the animation for End-to-End Encryption in Private messenger page when the section is in viewport
   ScrollReveal().reveal('.private-and-secure', {
     opacity: 1,
     duration: 0,
@@ -833,8 +834,10 @@ $(document).ready(function($) {
     }
   });
 
+  // Animation for End-to-End Encryption in Private messenger page 
   function privateAndSecureAnimation(){
 
+    // Animate the avatar
     anime({
       targets: '.private-and-secure .avatar',
       keyframes: [
@@ -846,6 +849,7 @@ $(document).ready(function($) {
       easing: 'easeInOutQuad',
     });
 
+    // Animate the key up
     anime({
       targets: '.private-and-secure .key',
       opacity: 1,
@@ -856,6 +860,8 @@ $(document).ready(function($) {
       delay: 800,
       easing: 'linear',
       complete: function(anim) {
+
+        // Rotate the key
         anime({
           targets: '.private-and-secure .key',
           rotate: 90,
@@ -863,6 +869,8 @@ $(document).ready(function($) {
           easing: 'linear',
           delay: 300,
           complete: function(anim) {
+
+            // Open the lock
             anime({
               targets: '.private-and-secure .lock .absolute',
               translateY: -3,
@@ -870,6 +878,8 @@ $(document).ready(function($) {
               duration: 300,
               delay: 200,
               complete: function(anim) {
+
+                // Show the message
                 anime({
                   targets: '.private-and-secure .overlay',
                   opacity: [1, 0],
@@ -877,6 +887,8 @@ $(document).ready(function($) {
                   easing: 'linear',
                   delay: 200,
                   complete: function(anim) {
+
+                    // Reposition the lock
                     anime({
                       targets: '.private-and-secure .lock .absolute',
                       translateY: 0,
@@ -884,6 +896,8 @@ $(document).ready(function($) {
                       easing: 'linear',
                       delay: 1000,
                     });
+
+                    // Hide the overlay
                     anime({
                       targets: '.private-and-secure .overlay',
                       opacity: [0, 1],
@@ -891,6 +905,8 @@ $(document).ready(function($) {
                       easing: 'linear',
                       delay: 1000,
                     });
+
+                    // Reposition the key
                     anime({
                       targets: '.private-and-secure .key',
                       rotate: 0,
@@ -902,6 +918,8 @@ $(document).ready(function($) {
                       delay: 1000,
                       complete: function(anim) {
                         setTimeout(function() {
+
+                          // Execute the animation again
                           privateAndSecureAnimation();
                         }, 500);
                       }
@@ -917,6 +935,8 @@ $(document).ready(function($) {
 
   }
 
+
+  // Trigger the animation for overview section in homepage when the section is visible on viewport
   ScrollReveal().reveal('.home-all', {
     opacity: 1,
     delay: 500,
@@ -929,25 +949,35 @@ $(document).ready(function($) {
     }
   });
 
+
+  // Animation for overview section in homepage
   function homeAllAnimation(){
+
+    // Move the first phone to right
     anime({
       targets: '.home-all .img-1',
       translateX: [-160, 0],
       duration: 1000,
       easing: 'linear',
     });
+
+    // Move the third phone to right
     anime({
       targets: '.home-all .img-3',
       translateX: [160, 0],
       duration: 1000,
       easing: 'linear',
       complete: function(anim) {
+
+        // Show the overlay
         anime({
           targets: '.home-all .overlay',
           opacity: [0, 1],
           duration: 500,
           easing: 'linear',
           complete: function(anim) {
+
+            // Move the first phone to right
             anime({
               targets: '.home-all .circles-container',
               scale: [0, 1],
@@ -955,6 +985,8 @@ $(document).ready(function($) {
               duration: 1500,
               easing: 'linear',
               complete: function(anim) {
+
+                // Scale up the circles
                 anime({
                   targets: '.home-all .circles-container',
                   scale: [1, 0],
@@ -963,18 +995,24 @@ $(document).ready(function($) {
                   delay: 500,
                   easing: 'linear',
                   complete: function(anim) {
+
+                    // Scale down the circles
                     anime({
                       targets: '.home-all .overlay',
                       opacity: [1, 0],
                       duration: 500,
                       easing: 'linear',
                       complete: function(anim) {
+
+                        // Move the first image back to original position
                         anime({
                           targets: '.home-all .img-1',
                           translateX: [0, -160],
                           duration: 1000,
                           easing: 'linear',
                         });
+
+                        // Move the third image back to original position
                         anime({
                           targets: '.home-all .img-3',
                           translateX: [0, 160],
@@ -982,7 +1020,10 @@ $(document).ready(function($) {
                           easing: 'linear',
                           complete: function(anim) {
                             setTimeout(function() {
+
+                              // Execute the animation again
                               homeAllAnimation();
+
                             }, 1500);
                           }
                         });
@@ -998,14 +1039,19 @@ $(document).ready(function($) {
     });
   }
 
+  // Animation for intro section in Private messenger page
   function messengerIntroAnimation(){
     anime({
+
+      // Open the lock
       targets: '.privacy-first-step-1 .lock .absolute',
       translateY: -3,
       easing: 'linear',
       duration: 300,
       delay: 500,
       complete: function(anim) {
+
+        // Hide the encrypted message
         anime({
           targets: '.privacy-first-step-1',
           opacity: [1,0],
@@ -1013,6 +1059,8 @@ $(document).ready(function($) {
           duration: 300,
           delay: 300,
         })
+
+        // Show the unencrypted message
         anime({
           targets: '.privacy-first-step-2',
           opacity: [0,1],
@@ -1020,6 +1068,8 @@ $(document).ready(function($) {
           duration: 300,
           delay: 500,
           complete: function(anim) {
+
+            // Show the encrypted message
             anime({
               targets: '.privacy-first-step-1',
               opacity: [0,1],
@@ -1027,6 +1077,8 @@ $(document).ready(function($) {
               duration: 300,
               delay: 2000,
             })
+
+            // Hide the unencrypted message
             anime({
               targets: '.privacy-first-step-2',
               opacity: [1,0],
@@ -1034,6 +1086,8 @@ $(document).ready(function($) {
               duration: 300,
               delay: 2000,
               complete: function(anim) {
+
+                // Lock the lock
                 anime({
                   targets: '.privacy-first-step-1 .lock .absolute',
                   translateY: 0,
@@ -1042,7 +1096,10 @@ $(document).ready(function($) {
                   delay: 500,
                   complete: function(anim) {
                     setTimeout(function() {
+
+                      // Execute the animation again
                       messengerIntroAnimation();
+                      
                     }, 1500);
                   }
                 })
@@ -1054,6 +1111,7 @@ $(document).ready(function($) {
     })
   }
 
+  // Trigger the animation for intro section in Private messenger page
   messengerIntroAnimation();
 
   function timeDifference(current, previous) {

@@ -7,7 +7,7 @@
 				<div class="relative px-8 self-center">
 					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
 					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.wallet.intro.title') %></h1>
-					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+					<p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal">
 						<%- __('site.wallet.intro.description') %>
 					</p>
 					<div class="flex items-center -ml-12 mt-12">
@@ -40,7 +40,7 @@
 				</div>
 				<div class="flex flex-col px-8 order-first md:order-last justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.funds.title') %></h3>
-					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.funds.description') %></p>
+					<p class="text-gray-300 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.wallet.funds.description') %></p>
 					<a href="https://our.status.im/inside-the-non-custodial-wallet/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
 						<%- __('site.link.learn-more') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -56,7 +56,7 @@
 			<div class="grid md:grid-cols-2 gap-24">
 				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.security.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.security.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.wallet.security.description') %></p>
 					<div class="flex">
 						<a href="https://specs.status.im/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 							<%- __('site.wallet.security.button') %>
@@ -79,7 +79,7 @@
 			<div class="grid md:grid-cols-6 gap-24">
 				<div class="flex flex-col px-8 col-span-2 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.friends.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.friends.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.wallet.friends.description') %></p>
 					<a href="<%- show_lang() %>/referral/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 						<%- __('site.wallet.friends.button') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -100,13 +100,13 @@
 			<div class="grid md:grid-cols-2">
 				<div class="bg-blue-gray-light relative">
 					<span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 py-32 md:p-32">
+					<div class="h-full px-8 py-32 md:pr-32 md:pl-8">
 						<div class="row">
 							<div class="col-md-11 flex flex-col col-lg-10">
 								<%- image_tag("/img/wallet-payments.png", { srcset: '/img/wallet-payments-2x.png 2x'}) %>
 								<div class="order-first md:order-last mb-16 md:mb-0">
-									<h3 class="font-display text-4xl xl:text-6xl mt-4 md:mt-24"><%- __('site.wallet.payments.title') %></h3>
-									<p class="text-xl mt-4"><%- __('site.wallet.payments.description') %></p>
+									<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4 md:mt-24"><%- __('site.wallet.payments.title') %></h3>
+									<p class="text-lg 2xl:text-2xl mt-4"><%- __('site.wallet.payments.description') %></p>
 								</div>
 							</div>
 						</div>
@@ -116,8 +116,8 @@
 					<span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
 						<div class="flex-1">
-							<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.dapps.title') %></h3>
-							<p class="text-xl mt-4 text-gray-300"><%- __('site.wallet.dapps.description') %></p>
+							<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.wallet.dapps.title') %></h3>
+							<p class="text-lg 2xl:text-2xl mt-4 text-gray-300"><%- __('site.wallet.dapps.description') %></p>
 							<a href="https://dap.ps/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
 								<%- __('site.link.learn-more') %>
 								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -138,21 +138,21 @@
 			<div class="grid md:grid-cols-2">
 				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
 					<span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 md:p-32 text-white flex flex-col space-between">
+					<div class="h-full px-8 md:pr-32 md:pl-8 text-white flex flex-col space-between">
 						<div class="mt-12 mb-32 md:mb-0">
 							<%- image_tag("/img/wallet-accounts.svg") %>
 						</div>
 						<div class="flex-1 mt-16 md:mt-32 order-first md:order-last">
-							<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.accounts.title') %></h3>
-							<p class="text-xl text-gray-300 mt-4"><%- __('site.wallet.accounts.description') %></p>
+							<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.wallet.accounts.title') %></h3>
+							<p class="text-lg 2xl:text-2xl text-gray-300 mt-4"><%- __('site.wallet.accounts.description') %></p>
 						</div>
 					</div>
 				</div>
 				<div class="bg-blue-gray-light relative order-1 md:order-none">
 					<span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full px-8 py-32 md:p-32">
-						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.keycard.title') %></h3>
-						<p class="text-xl text-gray-700"><%- __('site.wallet.keycard.description') %></p>
+						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.wallet.keycard.title') %></h3>
+						<p class="text-lg 2xl:text-2xl text-gray-700"><%- __('site.wallet.keycard.description') %></p>
 						<a href="<%- show_lang() %>/keycard-integration/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
 							<%- __('site.wallet.keycard.button') %>
 							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>

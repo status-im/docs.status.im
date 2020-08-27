@@ -2,12 +2,12 @@
 <main id="main" role="main" class="overflow-hidden">
 	<!--HOME-INTRO-->
 	<section class="pt-16 xl:pt-0">
-		<div class="max-w-screen-2xl mx-auto lg:px-12">
+		<div class="max-w-screen-2xl mx-auto xl:px-12">
 			<div class="grid md:grid-cols-2">
 				<div class="relative px-8 md:pr-32 self-center">
 					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
 					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.home.intro.title') %></h1>
-					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+					<p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-medium leading-normal">
 						<%- __('site.home.intro.description') %>
 					</p>
 					<div class="flex items-center -ml-12 mt-12">
@@ -37,7 +37,7 @@
 			<div class="grid md:grid-cols-8 gap-24">
 				<div class="flex flex-col md:col-span-3 col-span-6 px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.all.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.all.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg font-medium 2xl:text-2xl font-display leading-relaxed"><%- __('site.home.all.description') %></p>
 					<a href="#explore" class="js-scrollto transition-all duration-200 linear group py-4 pr-6 flex md:inline-flex justify-between items-center mt-32 border font-special font-semibold rounded border-white text-lg">
 						<%- __('site.home.private.link') %>
 						<span class="ml-6 group-hover:translate-y-1 rotate-90 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -75,12 +75,12 @@
 			<div class="grid md:grid-cols-2">
 				<div class="bg-blue-gray-light relative">
 					<span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 py-32 md:p-32">
+					<div class="h-full px-8 py-32 md:pr-16">
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
 								<%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
-								<h3 class="font-display text-4xl xl:text-6xl mt-24"><%- __('site.home.private.title') %></h3>
-								<p class="text-xl mt-4"><%- __('site.home.private.description') %></p>
+								<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-24"><%- __('site.home.private.title') %></h3>
+								<p class="text-lg 2xl:text-xl mt-6"><%- __('site.home.private.description') %></p>
 								<a href="<%- show_lang() %>/private-messenger/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
 									<%- __('site.home.private.link') %>
 									<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -93,9 +93,9 @@
 					<span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
 						<div class="flex-1 md:mt-12">
-							<p class="text-xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
-							<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.wallet.title') %></h3>
-							<p class="text-xl text-gray-300 mt-4"><%- __('site.home.wallet.description') %></p>
+							<p class="text-lg 2xl:text-2xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
+							<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.home.wallet.title') %></h3>
+							<p class="text-lg 2xl:text-xl mt-6 text-gray-300"><%- __('site.home.wallet.description') %></p>
 							<a href="<%- show_lang() %>/secure-wallet/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
 								<%- __('site.link.learn-more') %>
 								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -116,11 +116,11 @@
 			<div class="grid md:grid-cols-2">
 				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
 					<span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
+					<div class="h-full flex flex-col space-between px-8 py-32 md:pr-16 text-white">
 						<div class="mt-12">
-							<p class="text-xl text-gray-300"><%- __('site.home.browser.subtitle') %></p>
-							<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.browser.title') %></h3>
-							<p class="text-xl text-gray-300 mt-4"><%- __('site.home.browser.description') %></p>
+							<p class="text-lg 2xl:text-xl text-gray-300"><%- __('site.home.browser.subtitle') %></p>
+							<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.home.browser.title') %></h3>
+							<p class="text-lg 2xl:text-xl text-gray-300 mt-4"><%- __('site.home.browser.description') %></p>
 							<a href="<%- show_lang() %>/web-three-browser/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
 								<%- __('site.link.learn-more') %>
 								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -137,9 +137,9 @@
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
 								<%- image_tag("/img/account-creation-illustration.png", { srcset: '/img/account-creation-illustration-2x.png 2x'}) %>
-								<p class="text-xl"><%- __('site.home.account-creation.subtitle') %></p>
-								<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.home.account-creation.title') %></h3>
-								<p class="text-xl mt-4"><%- __('site.home.account-creation.description') %></p>
+								<p class="text-lg 2xl:text-xl"><%- __('site.home.account-creation.subtitle') %></p>
+								<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.home.account-creation.title') %></h3>
+								<p class="text-lg 2xl:text-xl mt-4"><%- __('site.home.account-creation.description') %></p>
 								<a href="<%- show_lang() %>/account-creation/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
 									<%- __('site.link.learn-more') %>
 									<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
@@ -157,8 +157,8 @@
 		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
 			<div class="grid md:grid-cols-2 gap-24">
 				<div>
-					<h3 class="font-display text-4xl xl:text-6xl inline-flex items-center"><%- __('site.home.security.title') %></h3>
-					<p class="max-w-6xl text-gray-600 mt-12 text-xl xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl inline-flex items-center"><%- __('site.home.security.title') %></h3>
+					<p class="max-w-6xl text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
 					<a href="<%- show_lang() %>/security/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 						<%- __('site.link.learn-more') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -205,22 +205,22 @@
 			<div class="grid md:grid-cols-2 gap-24">
 				<div>
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.open-source.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.open-source.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.about.open-source.description') %></p>
 					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
 						<li class="mt-12 ml-12">
-							<a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base font-semibold font-special">
+							<a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base text-lg 2xl:text-2xl font-semibold font-special">
 								<%- image_tag("/img/developers-img.svg") %>
 								<span class="ml-4"><%- __('site.link.developers') %></span>
 							</a>
 						</li>
 						<li class="mt-12 ml-12">
-							<a href="<%- show_lang() %>/get-involved/educators/" class="inline-flex items-center text-primary-base font-semibold font-special">
+							<a href="<%- show_lang() %>/get-involved/educators/" class="inline-flex items-center text-lg 2xl:text-2xl text-primary-base font-semibold font-special">
 								<%- image_tag("/img/educators-img.svg") %>
 								<span class="ml-4"><%- __('site.link.educators') %></span>
 							</a>
 						</li>
 						<li class="mt-12 ml-12">
-							<a href="<%- show_lang() %>/get-involved/community-groups/" class="inline-flex items-center text-primary-base font-semibold font-special">
+							<a href="<%- show_lang() %>/get-involved/community-groups/" class="inline-flex items-center text-lg 2xl:text-2xl text-primary-base font-semibold font-special">
 								<%- image_tag("/img/community-group-img.svg") %>
 								<span class="ml-4"><%- __('site.link.community-groups') %></span>
 							</a>
@@ -228,9 +228,9 @@
 					</ul>
 				</div>
 				<div class="pb-32 md:pb-0">
-					<h3 class="font-display text-4xl xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.home.about.mission.description') %></p>
-					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.about.mission.description') %></p>
+					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base text-lg 2xl:text-2xl font-semibold font-special mt-12">
 						<%- __('site.link.learn-more') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
 					</a>
@@ -245,8 +245,8 @@
 			<div class="grid md:grid-cols-1">
 				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.home.status-network.title') %></h3>
-					<p class="text-primary-200 font-thin text-xl max-w-screen-md px-12 text-center pt-12"><%- __('site.home.status-network.description') %></p>
-					<a href="https://statusnetwork.com/" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
+					<p class="text-primary-200 font-thin text-lg 2xl:text-2xl max-w-screen-md px-12 text-center pt-12"><%- __('site.home.status-network.description') %></p>
+					<a href="https://statusnetwork.com/" target="_blank" class="group inline-flex group items-center text-white text-lg 2xl:text-2xl font-semibold font-special mt-12">
 						<%- __('site.home.status-network.link') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
 					</a>

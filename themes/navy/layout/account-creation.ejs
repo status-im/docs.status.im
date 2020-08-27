@@ -7,9 +7,9 @@
 				<div class="relative px-8 self-center">
 					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.account-creation.intro.title') %></h1>
 					<ul class="mt-16 mb-20">
-						<li class="flex items-center mb-4 text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-phone.svg", {class: "mr-8 md:w-auto w-16"}) %> No phone number</li>
-						<li class="flex items-center mb-4 text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-email.svg", {class: "mr-8 md:w-auto w-16"}) %> No email address</li>
-						<li class="flex items-center mb-4 text-gray-600 text-xl xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-bank.svg", {class: "mr-8 md:w-auto w-16"}) %> No bank account</li>
+						<li class="flex items-center mb-4 text-gray-600 text-xl 2xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-phone.svg", {class: "mr-8 md:w-auto w-16"}) %> No phone number</li>
+						<li class="flex items-center mb-4 text-gray-600 text-xl 2xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-email.svg", {class: "mr-8 md:w-auto w-16"}) %> No email address</li>
+						<li class="flex items-center mb-4 text-gray-600 text-xl 2xl:text-4xl font-display font-normal leading-normal"><%- image_tag("/img/no-bank.svg", {class: "mr-8 md:w-auto w-16"}) %> No bank account</li>
 					</ul>
 					<div class="flex items-center -ml-12 mt-12">
 						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
@@ -37,7 +37,7 @@
 			<div class="grid md:grid-cols-2 md:grid-cols-8 gap-24">
 				<div class="flex flex-col px-8 md:col-span-3 col-span-6 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.usernames.title') %></h3>
-					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.usernames.description') %></p>
+					<p class="text-gray-300 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.account-creation.usernames.description') %></p>
 					<a href="https://our.status.im/usernames-in-the-status-messenger/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
 						<%- __('site.account-creation.usernames.button') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -63,7 +63,7 @@
 				</div>
 				<div class="flex order-first md:order-last flex-col px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.key.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.key.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.account-creation.key.description') %></p>
 					<div class="flex">
 						<a href="<%- show_lang() %>/faq/#keys-and-accounts" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 							<%- __('site.account-creation.key.button') %>
@@ -81,7 +81,7 @@
 			<div class="grid md:grid-cols-2 gap-24">
 				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.status.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.status.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.account-creation.status.description') %></p>
 				</div>
 				<div class="px-8">
 					<div class="mx-auto flex justify-center items-center pb-24 md:block md:py-32">
@@ -98,7 +98,7 @@
 			<div class="grid md:grid-cols-8 gap-24">
 				<div class="flex flex-col px-8 col-span-6 md:col-span-3 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.account-creation.keycard.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.account-creation.keycard.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.account-creation.keycard.description') %></p>
 					<div class="flex">
 						<a href="<%- show_lang() %>/keycard-integration/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
 							<%- __('site.account-creation.keycard.button') %>

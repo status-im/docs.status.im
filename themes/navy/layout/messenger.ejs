@@ -6,7 +6,7 @@
 			<div class="grid md:grid-cols-2">
 				<div class="relative px-8 self-center">
 					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.messenger.intro.title') %></h1>
-					<p class="text-gray-600 mt-12 mb-16 text-xl xl:text-4xl font-display font-normal leading-normal">
+					<p class="text-gray-600 mt-12 mb-16 text-xl 2xl:text-4xl font-display font-normal leading-normal">
 						<%- __('site.messenger.intro.description') %>
 					</p>
 					<div class="flex items-center -ml-12 mt-12">
@@ -53,7 +53,7 @@
 				</div>
 				<div class="flex flex-col px-8 order-first md:order-last justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.message.title') %></h3>
-					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.messenger.message.description') %></p>
+					<p class="text-gray-300 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.messenger.message.description') %></p>
 				</div>
 			</div>
 		</div>
@@ -67,15 +67,15 @@
 					<div class="mx-auto flex justify-center items-center md:block pb-16 md:pt-48">
 						<%- image_tag("/img/messenger-payments.png", { srcset: '/img/messenger-payments-2x.png 2x'}) %>
 					</div>
-					<h3 class="font-display text-4xl mt-12 xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.payments.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.messenger.payments.description') %></p>
+					<h3 class="font-display mt-12 text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.payments.title') %></h3>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.messenger.payments.description') %></p>
 				</div>
 				<div class="px-8 mb-24 md:mb-0">
 					<div class="mx-auto flex justify-center items-center md:block pb-16 md:pt-48">
 						<%- image_tag("/img/messenger-stickers.png", { srcset: '/img/messenger-stickers-2x.png 2x'}) %>
 					</div>
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.stickers.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.messenger.stickers.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.messenger.stickers.description') %></p>
 					<a href="https://docs.google.com/forms/d/19itZB_V5bVW4cyV8a2ifDWHuQSr9V_dkVMCl6ARxOag/edit" target="_blank" class="inline-flex mt-16 items-center font-special font-semibold text-primary-base hover:text-primary-900 group">
 	                  	<%- __('site.messenger.stickers.button') %>
 	                    <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>
@@ -91,7 +91,7 @@
 			<div class="grid md:grid-cols-1">
 				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.messenger.idea.title') %></h3>
-					<p class="text-primary-200 font-thin text-xl max-w-screen-md px-12 text-center pt-12"><%- __('site.messenger.idea.description') %></p>
+					<p class="text-primary-200 font-thin text-lg 2xl:text-xl max-w-screen-md px-12 text-center pt-12"><%- __('site.messenger.idea.description') %></p>
 					<a href="https://discuss.status.im/c/features/51" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
 						<%- __('site.messenger.idea.link') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
@@ -110,21 +110,21 @@
 					<%- image_tag('/img/messenger-benefit-1.svg') %>
 					<div class="ml-8">
 						<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900"><%- __('site.messenger.benefits.benefit-1.title') %></h4>
-						<p class="text-gray-900 text-xl"><%- __('site.messenger.benefits.benefit-1.description') %></p>
+						<p class="text-gray-900 text-lg 2xl:text-xl"><%- __('site.messenger.benefits.benefit-1.description') %></p>
 					</div>
 				</li>
 				<li class="text-gray-200 text-2xl xl:text-5xl flex items-start">
 					<%- image_tag('/img/messenger-benefit-2.svg') %>
 					<div class="ml-8">
 						<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900"><%- __('site.messenger.benefits.benefit-2.title') %></h4>
-						<p class="text-gray-900 text-xl"><%- __('site.messenger.benefits.benefit-2.description') %></p>
+						<p class="text-gray-900 text-lg 2xl:text-xl"><%- __('site.messenger.benefits.benefit-2.description') %></p>
 					</div>
 				</li>
 				<li class="text-gray-200 text-2xl xl:text-5xl flex items-start">
 					<%- image_tag('/img/messenger-benefit-3.svg') %>
 					<div class="ml-8">
 						<h4 class="mb-12 text-2xl xl:text-4xl font-display text-gray-900"><%- __('site.messenger.benefits.benefit-3.title') %></h4>
-						<p class="text-gray-900 text-xl"><%- __('site.messenger.benefits.benefit-3.description') %></p>
+						<p class="text-gray-900 text-lg 2xl:text-xl"><%- __('site.messenger.benefits.benefit-3.description') %></p>
 					</div>
 				</li>
 			</ul>
@@ -137,7 +137,7 @@
 			<div class="grid md:grid-cols-2 gap-24">
 				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.p2p.title') %></h3>
-					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.messenger.p2p.description') %></p>
+					<p class="text-gray-300 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.messenger.p2p.description') %></p>
 					<div class="flex">
 						<a href="https://specs.status.im/spec/10" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white text-black rounded border-white bg-white text-lg">
 							<%- __('site.messenger.p2p.button') %>
@@ -197,14 +197,14 @@
 						</div>
 					</div>
 					<h3 class="font-display text-4xl mt-auto mt-12 xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.encryption.title') %></h3>
-					<p class="text-gray-600 mt-12 mb-20 text-xl font-display font-medium leading-normal"><%- __('site.messenger.encryption.description') %></p>
+					<p class="text-gray-600 mt-12 mb-20 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.messenger.encryption.description') %></p>
 				</div>
 				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pb-32 md:pb-0">
 					<div class="mx-auto flex justify-center items-center md:block pb-16 md:pt-48">
 						<%- image_tag("/img/messenger-protection.png", { srcset: '/img/messenger-protection-2x.png 2x'}) %>
 					</div>
 					<h3 class="font-display text-4xl mt-12 xl:text-5xl 2xl:text-6xl"><%- __('site.messenger.protection.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.messenger.protection.description') %></p>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-xl font-display font-medium leading-normal"><%- __('site.messenger.protection.description') %></p>
 					<a href="https://our.status.im/breaking-down-the-private-secure-messenger/" target="_blank" class="group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
 						<%- __('site.link.learn-more') %>
 						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="/img/icon-arrow-right.svg"></span>

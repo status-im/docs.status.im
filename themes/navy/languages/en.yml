@@ -743,6 +743,9 @@ site:
       q9:
         question: "I recovered my account and now I only see one wallet, though I created more. Did I lose my funds?"
         answer: "No, they’re not lost. If you generated additional wallets from within Status, and you later recover your account, you will need to manually recover the additional wallets by following the same steps you took to create them. From the wallet, you will Add account > Add an account. Rather than generating a brand new wallet, Status will recuperate each additional wallet you created in order, and your assets will be recovered with them. <br><br>In the future, we’ll ensure all of your Status wallets are recovered automatically."
+      q10:
+        question: "Does the wallet support BitCoin?"
+        answer: "No, currently Status does not support the Bitcoin blockchain, and only Ethereum and assets built on top are available within the application. BitCoin is a separate blockchain and uses a separate network of validators for its transactions, which is why currently it is impossible to make transactions between the two networks."
     keycard-general:
       title: "Keycard General"
       q1:

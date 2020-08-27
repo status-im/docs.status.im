@@ -118,6 +118,8 @@
         answer: 'site.faq.wallet.q6.answer'
       - question: 'site.faq.wallet.q8.question'
         answer: 'site.faq.wallet.q8.answer'
+      - question: 'site.faq.wallet.q10.question'
+        answer: 'site.faq.wallet.q10.answer'
 
 - title: 'site.faq.keycard-general.title'
   columns:

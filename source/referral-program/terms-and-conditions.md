@@ -48,7 +48,7 @@ Insofar as not defined in these Conditions, the following terms when capitalized
 
 3.4 To receive a Starter Pack:
 - The Recipient must use a Referral URL sent by a Referrer. 
-- Then the Recipient, via this Referral URL, needs to install and complete the onboarding flow of the App (using the Google Play Store).
+- Then the Recipient, via this Referral URL, needs to install and complete the onboarding flow of the App (using the Google Play Store App on an Android phone).
 - The Recipient accepts these Conditions to release their Starter Pack and attribute the Referral Bonus (for the Referrer).
 A check is performed to ensure the referral code generated through the Referral URL has not been used on the same IP address the referral code is being used from and the IP address comes from outside of the USA, Iraq, Korea (the Democratic People's Republic of), Iran, Syrian Arab Republic, Sudan (the), and Cuba. (see clause 3.2).
 

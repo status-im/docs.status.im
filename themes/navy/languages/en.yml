@@ -686,8 +686,8 @@ site:
       description: "Status leverages a modified version of the double ratchet algorithm for perfect forward secrecy. Protect your past and future messages even if your current encryption keys are somehow compromised."
   referral:
     intro:
-      title: "Install Status. Invite Friends. Earn Crypto. <br><br>Stay Private."
-      description: "Invite friends and earn when they create an account."
+      title: "Install Status. Invite Friends. Earn Crypto. <br>Stay Private."
+      description: "<b class='text-primary-base'>Invite friends and earn</b> <br>when they create an account."
       bonus: "You will receive the referral bonus"
       starter: "They will receive the Crypto Starter Pack"
     all:
@@ -703,19 +703,18 @@ site:
       title: "How to Refer and Earn"
     step-1:
       title: "Step 1"
-      description: "Create an Account in Status."
+      description: "You send a unique invite link to your friend to download and join Status."
     step-2:
       title: "Step 2"
-      description: "Choose Invite a Friend from the landing screen or tap the (+) button and choose Invite a Friend"
+      description: "Your friend downloads Status and creates and account."
     step-3:
       title: "Step 3"
-      description: "Choose the wallet address you wish to receive your referral bonues"
+      description: "A chat with your friend is started where they confirm your referral."
     step-4:
       title: "Step 4"
-      description: "Share your referral link with your friend. When they create an account, your funds will appear in your wallet"
+      description: "You receive your referral bonus, and your friend the Crypto Starter Pack"
     testimonials:
-      title: "People Love Status"
-      testimonial-1: "“With the Status mobile app, I was able to manage my crypto holding and defi positions all from my smartphone.”"
+      title: "People <b class='text-primary-base'>Love</b> Status"
   faq:
     title: "F.A.Q"
     description: "Frequently Asked Questions<br> Can't find what you are looking for? Check or ask in the community Discuss forum <a href='https://discuss.status.im/' target='_blank'>here</a>"

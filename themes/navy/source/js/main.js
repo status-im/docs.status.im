@@ -1114,6 +1114,45 @@ $(document).ready(function($) {
   // Trigger the animation for intro section in Private messenger page
   messengerIntroAnimation();
 
+  // Animate referral steps
+  if(w >= 1024){
+    ScrollReveal().reveal('.referral-steps', {
+      opacity: 1,
+      duration: 0,
+      viewFactor: .5,
+      afterReveal: function(){
+
+        $('.referral-steps a').each(function(index, el) {
+          var i = index;
+          anime({
+            targets: '.referral-steps a:nth-child('+ (i+1) +')',
+            opacity: 1,
+            delay: 1000 * i,
+            easing: 'linear',
+            begin: function(anim) {
+              setTimeout(function() {
+                $('.referral-steps img').addClass('opacity-0');
+                $('.referral-steps img:nth-child('+ (i+1) +')').removeClass('opacity-0');
+              }, 1500 * i);
+            }
+          });
+        });
+
+      }
+    });
+
+    // On click change active step
+    $('.referral-steps a').each(function(index, el) {
+      $(this).on('click', function(event) {
+        event.preventDefault();
+        $('.referral-steps a').attr('style', 'opacity: .5');
+        $(this).attr('style', 'opacity: 1');
+        $('.referral-steps img').addClass('opacity-0');
+        $('.referral-steps img:nth-child('+ (index+1) +')').removeClass('opacity-0');
+      });
+    });
+  }
+
   function timeDifference(current, previous) {
     
     var msPerMinute = 60 * 1000;

@@ -260,6 +260,9 @@ site:
         account-group-6:
           description: 'Status für die philippinische Community'
           occupation: Veranstalter
+        account-group-7:
+          description: 'Türkische Status Community'
+          occupation: Veranstalter
   security:
     intro:
       title: 'Sicher per Design'
@@ -430,6 +433,8 @@ site:
       description: 'Status ist keine traditionelle Organisation. Wir haben keine Hierarchie, es gibt keine Büros und keine Manager. Wir sind alle hier, um unsere Mission zu erfüllen, und wir haben die Freiheit zu entscheiden, wie wir es tun.'
       link-1: 'Treten Sie unserem Team bei. Alle offenen Positionen anzeigen'
       link-2: 'Erfahren Sie mehr über das Leben bei Status'
+    join-us:
+      title: 'Begleiten Sie uns'
     quarterly-reports:
       title: 'Vierteljährliche Berichte vom Status Netzwerk'
       description: 'Wir können es kaum erwarten zu berichten, was wir alles geschafft haben.'
@@ -590,9 +595,12 @@ site:
         cta: Loslegen
       box-link-3:
         title: Tutorials
+        text: 'Folgen Sie uns und erfahren Sie, wie Sie mit Status und einem der Status-Netzwerk-Projekte beitragen und aufbauen können:<br>&nbsp;<br>, DApps aufbauen, Hardware-Sicherheit integrieren, mit Nimbus oder Vac einrichten. Lernen Sie von den wichtigsten Beitragenden und von der Gemeinschaft erstellten Tutorials. Sie sehen nicht, wonach Sie suchen? Erstellen Sie Ihre eigenen, von denen andere profitieren können.</br>'
         cta: 'Alle Tutorials anzeigen'
         text-1: 'Webassembly/EWasm - Was und Warum'
+        description-1: 'Beenden Sie das Tutorial mit einer kurzen Reihe von Details'
         text-2: DApp-Frontend-Sicherheit
+        description-2: 'Beenden Sie das Tutorial mit einer kurzen Reihe von Details'
     dev-tools:
       title: 'Entwickle mit dem Status Netzwerk'
       keycard:
@@ -671,99 +679,270 @@ site:
     faq: 'Allgemeine FAQ'
     mobile: Mobil
   keycard-integration:
+    intro:
+      title: 'Hardware-Sicherheit zu Ihrer Status-Erfahrung hinzufügen'
+      description: 'Schützen Sie Ihr Vermögen und Ihre Konten mit Keycard - der kontaktlosen, bequemen Brieftasche für Hardware-Kühlspeicher. Nur Android.'
+      button: 'Holen Sie sich eine Keycard 29 €'
+    about:
+      title: 'Was ist eine Keycard?'
+      description: 'Die Keycard ist eine Hardware-Geldbörse, die so konzipiert ist, dass Ihre privaten Schlüssel für eine größere Sicherheit Ihres Guthabens vollständig offline bleiben. <br><br>Hergestellt mit NFC-Technologie und einem kreditkartenähnlichen Design für ein nahtloses, kontaktloses Erlebnis. Mit einer offenen API für die Integration mit Krypto-Geldbörsen, DApps und Hardware von Drittanbietern.'
+      button-1: 'Mehr erfahren'
+      button-2: 'Holen Sie sich eine Keycard 29 €'
+    secure:
+      title: 'Status mit Keycard sichern'
+      security:
+        title: 'Größere Sicherheit für Ihr Vermögen und Transaktionen'
+        description: 'Mit privaten Schlüsseln, die offline auf Ihrer Keycard gespeichert sind, können Sie Ihren Transaktionen hardwareunterstützte Berechtigungen hinzufügen. Selbst wenn Ihr Telefon gestohlen wird, sind Ihre Gelder sicher.'
+        send: 'Transaktion senden'
+        confirmed: 'Bestätigte ausgehende Transaktion'
+      account:
+        title: 'Schützen Sie den Zugang zu Ihren Konten'
+        description: 'Erhöhen Sie die Sicherheit und verlangen Sie die Eingabe von Keycard + PIN als Zwei-Faktor-Authentifizierung, um auf Ihre Konten mit Status zuzugreifen.'
+        confirmed: 'Erfolgreiche Anmeldung'
+    boxes:
+      box-1:
+        title: 'Autonomie und Vertrauen'
+        description: 'Durch Status werden unnötige Dritte, wie z.B. Banken, für die Kommunikation und die Abwicklung von Geschäften abgeschafft. Durch die Abschaffung dieser Dienstleistungen sind die Menschen nun für sich selbst und für Gelder verantwortlich. Kecyard bietet die Sicherheit ohne mit diesen zu arbeiten.'
+      box-2:
+        title: 'Ein mobiles Design'
+        description: 'Mit kontaktloser NFC-Technologie und einem schlanken, vertrauten Design bietet die Keycard den Komfort einer Kreditkarte mit der Sicherheit einer Hardware-Wallet.'
+      box-3:
+        title: 'Erschwingliche Sicherheit'
+        description: 'Für nur 29€ bietet die Keycard starke Hardware-Sicherheitsgarantien, ohne das teure Preisschild.'
+        link: 'Holen Sie sich eine Keycard 29 €'
     faq:
       title: 'Hast du Fragen?'
+      button: 'Mehr erfahren'
   keycard:
+    intro:
+      title: 'Status x Keycard für private & sichere Kommunikation'
+      description: 'Status ist ein privater Messenger, eine sichere Krypto-Wallet und ein Web3-Browser. Die Schlüsselkarte sorgt für zusätzliche Hardware-Sicherheit. Erfahren Sie unten mehr darüber, was Sie mit Keycard tun können.'
+      button: FAQ
+    security:
+      title: 'Größere Sicherheit für Ihr Vermögen und Transaktionen'
+      description: 'Mit privaten Schlüsseln, die offline auf Ihrer Keycard gespeichert sind, können Sie Ihren Transaktionen hardwareunterstützte Berechtigungen hinzufügen. Selbst wenn Ihr Telefon gestohlen wird, sind Ihre Gelder sicher.'
+      send: 'Transaktion senden'
+      confirmed: 'Bestätigte ausgehende Transaktion'
+    account:
+      title: 'Schützen Sie Ihr Konto'
+      description: 'Höhere Sicherheit und Erfordern der Eingabe von Keycard + PIN als Zwei-Faktor-Authentifizierung, um sich bei Ihrem Statuskonto anzumelden.'
+      confirmed: 'Erfolgreiche Anmeldung'
     faq:
       title: 'Hast du Fragen?'
+      button: 'FAQ besuchen'
   faq:
+    title: F.A.Q
+    description: 'Häufig gestellte Fragen<br> Können Sie nicht finden, was Sie suchen? Schauen Sie nach oder fragen Sie in der Gemeinschaft Diskussionsforum <a href=''https://discuss.status.im/'' target=''_blank''>hier</a>'
+    general:
+      title: Allgemein
+      q1:
+        question: 'Was ist Status?'
+        answer: 'Status ist ein privates, sicheres Kommunikationsmittel zur Wahrung der Menschenrechte und zur Stärkung souveräner Gemeinschaften'
+      q2:
+        question: 'Wer steht hinter Status?'
+        answer: 'Status wird durch das Status-Netzwerk aufgebaut. Das <a href=''https://statusnetwork.com/'' target=''_blank''>Status-Netzwerk</a> baut Produkte, Instrumente und Infrastrukturen für belastbare, nachhaltige und integrative Gemeinschaften auf. Mehr über das Status-Netzwerk und seine wichtigsten Mitwirkenden erfahren Sie <a href=''https://status.im/about/'' target=''_blank''>hier</a>.'
+      q3:
+        question: 'Warum Status verwenden?'
+        answer: 'In den letzten 20 Jahren wurde das Internet, wie wir es kennen, von einigen wenigen Unternehmen kontrolliert, mit dem Anreiz, Daten zu sammeln und zu verkaufen. Status bietet eine Alternative. Status verwendet modernste Technologie, um private, sichere Kommunikation zu ermöglichen. Status verwendet ein Peer-to-Peer-Modell, das verhindert, dass eine dritte Partei die Daten der Benutzer kontrolliert. Status kombiniert einen Messenger, eine Krypto-Brieftasche und einen Web3-Browser und gibt Ihnen die volle Kontrolle über Ihr Vermögen und Ihre Kommunikation. '
+      q4:
+        question: 'Warum ein Messenger?'
+        answer: 'Souveräne Gemeinschaften brauchen unzensierte, private und sichere Kommunikation, um sich zu organisieren. Die Nachrichtenübermittlung bietet aufgrund ihrer Eignung für den mobilen Einsatz einen vielversprechenden Weg für die Einführung von Ethereum. Dies wiederum kann den Weg ebnen, um Zahlungsnetzwerke und andere dezentralisierte Anwendungen für mehr Gemeinschaften zugänglich zu machen.<br><br>Letztendlich ist Status viel mehr als nur ein Messenger. Durch die Kombination von Vermögensverwaltung mit der Krypto-Geldbörse und dem Zugang zu einer Welt dezentralisierter Anwendungen über den Web3-Browser ist es ein Kommunikationswerkzeug im weitesten Sinne.'
+      q5:
+        question: 'Was unterscheidet Status von anderen Messaging-Anwendungen?'
+        answer: 'Die meisten Messenger bieten eine Ende-zu-Ende-Verschlüsselung an. Dieser Standardschutz bedeutet, dass die Firma, die den Dienst anbietet, den Inhalt Ihrer Nachrichten nicht lesen kann. Aber der Informationsfluss über ihr Netz ist öffentlich und erlaubt die Interpretation, wer von wo aus mit wem spricht. Traditionelle Messenger benötigen für die Anmeldung auch Identifizierungsinformationen, wie z.B. eine Telefonnummer, und diese sind in der Regel mit einer Vielzahl anderer persönlicher Daten über Sie verbunden. Der Status erfordert keinerlei persönliche Informationen, damit Sie anfangen können. Aufgrund seiner Peer-to-Peer-Infrastruktur hat Status keine Kenntnis darüber, wer wen kontaktiert, und auch nicht über den Inhalt Ihrer Nachrichten. <a href=''https://github.com/status-im/specs'' target=''_blank''>Hier</a> finden Sie Spezifikationen, wie diese Technologie funktioniert.'
+      q6:
+        question: 'Was passiert, wenn eine Regierung versucht, Status zu blockieren oder zu zensieren?'
+        answer: 'Der Status-Messenger verwendet keinen zentralen Server, zu und von dem die Kommunikation blockiert werden kann. Stattdessen verwendet Status ein verteiltes Netzwerk von Mail-Servern. Dadurch wird die Ausfallsicherheit des Netzwerks gewährleistet. Wenn ein Mail-Server abgeschaltet wird, können Sie eine Verbindung zu einem anderen Mail-Server herstellen oder einen eigenen Server in <a href=''https://discuss.status.im/t/get-your-node-running/1488/4?u=hester'' target=''_blank''>Betrieb</a> nehmen. Die Status- und Mail-Server im Netzwerk sind jedoch nach wie vor auf eine Internetverbindung angewiesen. Wenn das Internet über Telekommunikationsanbieter abgeschaltet wird, können Sie Status nicht verwenden.'
+      q7:
+        question: 'Wie verbindet sich Status mit der Blockchain?'
+        answer: 'Der Status wird mit Go-Ethereum verpackt, das an das Ethereum-Netzwerk angeschlossen ist. Alles, was Sie tun müssen, um sich mit Ethereum zu verbinden, ist die Status-App auszuführen! Beachten Sie, dass nur die Brieftasche und der Browser mit der Ethereum-Blockkette interagieren. Nachrichten werden nicht auf der Blockchain gespeichert.'
+      q8:
+        question: 'Kann ich go-ethereum selbst oder auf einem Server ausführen?'
+        answer: 'Wir setzen uns dafür ein, dass Light-Knoten auf ressourcenbeschränkten Geräten funktionieren. Dies würde es Ihnen ermöglichen, sich von Ihrem Mobiltelefon oder IoT-Gerät direkt mit Ethereum zu verbinden, ohne dass ein Server erforderlich ist. Wichtiger noch, es würde die Zugänglichkeit und Belastbarkeit des Netzwerks insgesamt erhöhen. Für weitere Informationen besuchen Sie bitte <a href=''https://nimbus.team/'' target=''_blank''>https://nimbus.team/</a>. <br><br>Wenn Sie go-ethereum jetzt ausführen möchten, können Sie einen Knoten auf einem Linux-Gerät einrichten und die Status-Anwendung so konfigurieren, dass sie eine Verbindung zu diesem Knoten herstellt. Weitere Informationen finden Sie <a href=''https://discuss.status.im/t/get-your-node-running/'' target=''_blank''>hier</a>.'
+      q9:
+        question: 'Auf welchen Geräten kann ich Status verwenden?'
+        answer: 'Status läuft auf Android 7+ und iOS 13+.'
+      q10:
+        question: 'Läuft Status auch auf dem Desktop?'
+        answer: 'Im Moment nicht. Unsere Codebasis ist so konzipiert, dass Status sowohl auf mobilen als auch auf Desktop-Geräten ausgeführt werden kann. Die Entwicklung des Status-Desktops ist derzeit unterbrochen, während sich das Team auf die mobile Anwendung und andere Infrastrukturprojekte konzentriert.'
+      q11:
+        question: 'In welchen Sprachen ist die App verfügbar?'
+        answer: 'Der Status ist derzeit in 14 Sprachen verfügbar - English, Français, Italiano, 简体 中文, 繁體 中文, 한국어, اُردُو, русский!, Türkçe, Español, Tagalog, Bahasa Indonesien, Deutsch, Português do Brasil <br> <br> Jeder kann einen Beitrag leisten zu Statusübersetzungen. Wenn Sie einen Tippfehler oder eine Fehlübersetzung sehen oder einfach nur möchten, dass Ihre Sprache dargestellt wird, besuchen Sie uns unter <a href=''https://translate.status.im/'' target=''_blank''> translate.status.im </a> .'
+      q12:
+        question: 'Ist die Nutzung der App kostenlos?'
+        answer: 'Auf jeden Fall. Für die Nutzung der Kernfunktionen von Status ist keine Zahlung erforderlich. Um das Beste aus Status herauszuholen, hilft es, die Krypto-Währungen ETH (Ethereum) und SNT (Status Network Token) zu halten. Bestimmte Funktionen erfordern die Verwendung von SNT, da dies zur Unterstützung unseres Projekts beiträgt. <br><br>Um SNT zu erhalten, können Sie eine Tausch-DApp verwenden, um Krypto zu tauschen, das Sie bereits besitzen, oder Sie können ETH und SNT im Tausch gegen eine Fiat-Währung (z.B. Euro oder US-Dollar) über einen Fiat-zu-Krypto-Tausch kaufen. '
+      q13:
+        question: 'Gibt es Gebühren?'
+        answer: 'Der Status hat keine versteckten Gebühren. Wenn Sie eine Transaktion mit Ihrer Crypto-Geldbörse durchführen, sehen Sie eine Netzwerkgebühr, die in den Kosten enthalten ist. Diese Netzwerkgebühr wird auch als "Gas" bezeichnet und ist eine Anforderung des Ethereum-Netzwerks, die von allen Ethereum-Geldbörsen und -Anwendungen in genau der gleichen Weise verwendet wird, um Transaktionen zu erleichtern. Status erhebt keinen Prozentsatz dieser Gebühr.'
+      q14:
+        question: 'Ich möchte einen Beitrag zu dem Projekt leisten, wo würden Sie vorschlagen, dass ich anfange?'
+        answer: 'Status ist ein Open-Source-Projekt und begrüßt alle Beiträge, sowohl technischer als auch nicht-technischer Art. Die <a href=''https://ambassador.status.im/'' target=''_blank''>Botschafter-Seite</a> ist ein großartiger Ort, um damit zu beginnen. Hier können Sie mit aktiven Mitwirkenden in Kontakt treten, die Sie dabei unterstützen können, für die nächste Generation des Web zu werben, darüber zu lehren oder anderweitig dazu beizutragen. <br><br>Wenn Sie ein Entwickler sind und sich die Hände schmutzig machen wollen, schauen Sie sich die Dokumentation zu den DApp-Entwicklungsdokumenten an. Wenn Sie selbst Entwickler für mobile Endgeräte sind und funktionale Sprachen lieben, dann bauen Sie Status selbst auf und beginnen Sie, diese PRs einzureichen.'
+      q15:
+        question: 'Wie kann ich Funktionen anfordern? '
+        answer: 'Da es sich bei Status um ein von der Gemeinschaft betriebenes Open-Source-Projekt handelt, können Sie die Entwicklung von Funktionen sowohl beantragen als auch dazu beitragen. Teilen Sie Ihre Gedanken im öffentlichen Kanal <a href=''https://join.status.im/status'' target=''_blank''>#status</a> oder in unserem Diskussionsforum mit: <a href=''https://discuss.status.im/'' target=''_blank''>https://discuss.status.im/</a>. Sie können auch gerne eine <a href=''https://github.com/status-im'' target=''_blank''>Github-Ausgabe</a> öffnen. <br><br>Wenn Sie ein Entwickler sind, folgen Sie unserem <a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''>Leitfaden für Beitragende</a>, um sich zu beteiligen. '
+      q16:
+        question: 'Was ist SNT und wie funktioniert es in der App?'
+        answer: 'SNT ist das Status-Netzwerk-Token. Es ist das Status'' ERC20 (Ethereum-Standard) Token, das zur Stromversorgung des Status-Netzwerks verwendet wird. Bestimmte Merkmale und Funktionen erfordern, dass Benutzer SNT hinterlegen oder ausgeben. Die Nützlichkeit des Tokens ist ein Hauptziel des Statusnetzwerks, da der Wert des SNT zur Langlebigkeit des Projekts beiträgt. '
     keys-and-accounts:
+      title: 'Schlüssel und Konten'
+      q1:
+        question: 'Was sind Schlüssel?'
+        answer: 'Schlüssel sind eine Form der Identität und das Rückgrat von Status und Ethereum. Es gibt sie immer paarweise, einen öffentlichen Schlüssel und einen privaten Schlüssel. Sie erzeugen das allererste Paar, wenn Sie mit Status beginnen, Sie können dies als das Hauptschlüsselpaar betrachten. Danach kann eine Anzahl von n Schlüsselpaaren auf der Grundlage dieses ersten Paares generiert werden. So etwas wie einen Schlüsselbund von Identitäten erzeugen. Einer der Schlüssel auf diesem Schlüsselbund ist Ihr Chat-Schlüssel; Sie finden ihn unter Profil > Teilen-Symbol.'
+      q2:
+        question: 'Was sind Konten?'
+        answer: 'Sie können Konten in Status mit Bankkonten vergleichen. Jedes Konto basiert auf einem eigenen Schlüsselpaar. Wie ein Bankkonto hat ein Konto in der Regel eine Adresse, einen Kontostand und kann Transaktionen durchführen. Jedes Konto hat auch seine eigene Historie von Transaktionen, die öffentlich zugänglich ist. Für ultimativen Datenschutz verwenden Sie mehrere Konten. Sie können Ihre Konten auf der Registerkarte Wallet einsehen.'
       q3:
         question: 'Was ist meine Börsen-Adresse?'
+        answer: 'Ihre Wallet-Adresse hat 42 Zeichen und beginnt mit 0x. Es handelt sich um eine On-Chain-Identität für Ihr Ethereum-Konto. Wenn Sie mehrere Konten haben, haben Sie mehrere Adressen. Sie finden die Adresse Ihrer Brieftasche unter Brieftasche > Kontokarte > Empfangen oder indem Sie auf das Freigabesymbol auf der Kontokarte tippen. <br><br><i>Beachten Sie, dass die Adresse Ihrer Brieftasche, obwohl sie ähnlich aussieht, nicht mit Ihrem Chat-Schlüssel übereinstimmt. Sie finden Ihren Chatschlüssel unter Profil > Freigabesymbol.</i>'
       q4:
         question: 'Wie viele Konten kann ich in Status erstellen?'
+        answer: 'Sie können so viele Konten erstellen, wie Sie wollen. Gehen Sie zu Brieftasche > Konto hinzufügen. Auf diese Weise hinzugefügte Konten können mit Ihrem Startsatz und Ihrem Hauptschlüsselpaar wiederhergestellt werden, wenn Sie den Zugang zu Ihrem Konto verlieren. <br><br>Sie können auch weitere Hauptschlüsselpaare erstellen, indem Sie auf den Startbildschirm Ihre Schlüssel > Schlüssel generieren oder auf vorhandene Schlüssel zugreifen, wenn Sie Schlüssel aus einer anderen Brieftasche importieren oder einen völlig neuen Schlüsselbund von Identitäten erstellen möchten.'
     profile-and-settings:
       title: 'Profil und Einstellungen'
+      q1:
+        question: 'Was ist ein ENS-Benutzername?'
+        answer: 'Ein ENS-Benutzername ist ein bei Ethereum Name Service registrierter Name; ein Register, das eine Ethereum-Adresse mit einem eindeutigen, von Menschen lesbaren Namen verbindet, z.B. Alice. Wie bei der Registrierung einer Web-Domain gibt es verschiedene Suffixe. Wenn Sie einen Namen über Status registrieren, erhalten Sie alice.stateofus.eth. Wenn Sie einen ENS-Namen registrieren, können Sie ihn im Status-Chat verwenden und Ihren zufälligen Namen, z.B. Sneaky White Koala, in Ihren ENS-Namen umwandeln. Das macht es für andere viel einfacher, Sie zu finden und zu erkennen.'
+      q2:
+        question: 'Was ist der Unterschied zwischen alice.eth und alice.stateofus.eth?'
+        answer: 'Der Kauf eines stateofus.eth-Namens ist billiger. Sie zahlen 10 SNT-Einzahlung, um den Namen zu lizenzieren. Nach 1 Jahr können Sie entweder das Geld zurückholen oder den Namen ohne weitere Kosten weiter verwenden. Eine .eth-Domain kostet an der ETH derzeit (Januar 2020) etwa 5 Dollar pro Jahr. Sie können beide Namen mit Ihrem Chat-Schlüssel verbinden, um Ihren Namen, z.B. @alice, im Chat zu benutzen.'
+      q3:
+        question: 'Was ist eine Seed-Phrase?'
+        answer: 'Ihre Seed-Phrase in Status besteht aus 12 Wörtern. Er ist der Ursprung Ihres Chatschlüssels sowie der Kontoschlüssel in Ihrer Brieftasche. Alle Schlüssel werden durch kryptographische Zauberei von diesem ersten Keim abgeleitet. Wenn Sie den Zugang zu Ihrem Konto verlieren, z.B. durch den Verlust Ihres Telefons, können Sie Ihre Schlüssel unter Verwendung Ihrer Seed-Phrase abrufen. Dieselbe Magie ermöglicht es Ihnen, genau denselben Schlüsselbund von Identitäten neu zu generieren.'
+      q4:
+        question: 'Was soll ich mit dieser Seed-Phrase machen?'
+        answer: 'Schreiben Sie sie auf. Bewahren Sie sie sicher auf. Am sichersten ist es, wenn Sie Ihre Seed-Phrase auf Papier, fern von Ihren Geräten aufbewahren.'
+      q5:
+        question: 'Wenn ich mein Telefon verliere, wie kann ich auf meine Konten zugreifen?'
+        answer: 'Um auf Ihre Konten zuzugreifen, benötigen Sie Ihren 12-Wort-Seed-Phrase. Mit diesem Seed-Phrase können Sie wieder Zugang zu Ihrem Hauptschlüsselpaar und all Ihren Konten erhalten. <br><br>Beachten Sie, dass Sie Konten, die auf Ethereum leben, wiederherstellen können. Sie erhalten jedoch keinen Zugang zu Ihren Chats oder Ihrer Kontaktliste zurück, da diese Informationen nur lokal auf Ihrem Telefon gespeichert sind.'
+      q6:
+        question: 'Warum ist "Seed-Phrase sichern" ausgegraut?'
+        answer: 'Das Element "Seed-Phrase sichern" ist ausgegraut, wenn Sie bereits durch die Bildschirme gegangen sind, in denen Sie aufgefordert werden, Ihre Seed-Phrase aufzuschreiben. Ab diesem Zeitpunkt können Sie die Startphrase in der App nicht mehr anzeigen. Die Phrase wird aus dem lokalen Speicher entfernt, um das Risiko zu minimieren, dass jemand außer Ihnen jemals darauf zugreifen kann.'
       q7:
         question: 'Ich habe meine Seedphrase verloren. Was kann ich tun?'
+        answer: 'Das ist eine Qual. Prüfen Sie zunächst, ob Sie Ihre Seed-Phrase unter Profil > Datenschutz und Sicherheit nicht mehr sichern können. Wenn der Punkt `Seed-Phrase sichern` ausgegraut ist, können Sie nicht mehr auf den Ausgangssatz zugreifen. <br><br>Am besten generieren Sie jetzt einen neuen Schlüssel mit einer neuen Ausgangsphrase und übertragen Ihr Vermögen auf dieses neue Konto. IN Status gehen Sie zu Abmeldung > Neuen Schlüssel generieren. Folgen Sie den Schritten auf dem Bildschirm, um diesen neuen Schlüssel zu speichern und zu sichern. Wenn Sie fertig sind, gehen Sie zu Profil > Datenschutz und Sicherheit > Seed-Phrase sichern. Speichern Sie die Seed-Phrase sicher offline. Gehen Sie dann zu Brieftasche > Teilen-Symbol oder Empfangen > Adresse zum Kopieren antippen. Melden Sie sich ab. <br><br>Entsperren Sie die Schlüssel, für die Sie Ihre Seed-Phrase verloren haben, mit Ihrem Passwort. Senden Sie alle Guthaben von den Konten in Ihrer Brieftasche an Ihre neue Adresse.'
       q8:
         question: 'Wie lösche ich mein Profil?'
+        answer: 'Ihr Profil existiert nur lokal. Alle Nachrichten, die Sie gesendet haben, bleiben 30 Tage lang auf den Mailservern. Danach hört die Nachricht auf zu existieren. Transaktionen, die Sie mit einem Konto in Ihrer Brieftasche getätigt haben, bleiben auf der Blockchain.'
+      q9:
+        question: 'Wenn jemand Zugang zu meinem Telefon erhält, welcher Teil meines Profils ist verschlüsselt und welcher nicht?'
+        answer: 'Ihre privaten Schlüssel sind jederzeit verschlüsselt und können von Ihnen nur in Verbindung mit Ihrem Passwort oder Passcode zum Signieren von Transaktionen verwendet werden. Informationen, die nicht verschlüsselt sind, umfassen den 3-Wort-Namen, wann Sie das letzte Mal den Status (Entsperren Ihrer Schlüssel) verwendet haben, Ihr Profilbild und die Kennung Ihrer Keycard, falls Sie eine haben.'
       q10:
         question: 'Wie verringere ich die mobile Datennnutzung in Status?'
+        answer: 'Der Status kann bandbreitenlastig sein. Der beste Weg, um einen zu hohen Datenverbrauch zu verhindern, ist die Verwendung von Status nur dann, wenn eine Verbindung mit WiFi besteht. Sie können verhindern, dass Status mobile Daten verwendet, indem Sie Ihre Einstellungen unter Profil > Sync-Einstellungen > Mobile Daten anpassen.'
     messenger:
       title: Messenger
       q1:
         question: 'Sind meine Nachrichten wirklich privat?'
+        answer: 'Ja, das sind sie. Status verwendet derzeit Whisper, das Messaging-Protokoll des Ethereum-Stacks. Whisper bietet Peer-to-Peer-Messaging ohne Abhängigkeit von zentralisierten Servern, Datenzentren oder Dienstanbietern. <br><br>Jede Nachricht wird Ende-zu-Ende-verschlüsselt und für eine bestimmte Zeit an jeden einzelnen Peer im Netzwerk gesendet. Dies macht es nicht nur für unbeabsichtigte Zuhörer unmöglich, den Inhalt von Nachrichten zu lesen, sondern auch zu sehen, wer Nachrichten an wen sendet. Bei privaten 1:1-Nachrichten ist nur der beabsichtigte Empfänger einer Nachricht in der Lage, den Inhalt zu entschlüsseln. Bei öffentlichen Chats kann jeder, der den Namen des Chats kennt, den Inhalt entschlüsseln. <br><br>Eine zusätzliche Sicherheit ist die Verwendung eines neuen Verschlüsselungsschlüssels mit jeder Nachricht nach dem ersten Schlüsselaustausch zwischen den Benutzern (Perfect Forward Secrecy). Wenn Ihr Nachrichtenschlüssel kompromittiert ist, ist nur die Nachricht für diesen bestimmten Schlüssel kompromittiert. Es besteht kein Zugriff auf frühere Nachrichten.<br><br>Die Privatsphäre, die Whisper bietet, geht auf Kosten einer hohen Datennutzung. Die Entwicklung einer Alternative ist im Gange. Sie können den Fortschritt <a href=''https://forum.vac.dev/t/waku-project-and-progress/24'' target=''_blank''>hier</a> verfolgen.'
       q2:
         question: 'Wo werden meine Nachrichten gespeichert? Sind sie auf der Blockchain?'
         answer: 'Die Nachrichten werden nicht in der Blockkette gespeichert und das Versenden kostet nichts. Nachrichten werden 30 Tage lang auf einem Mailserver gespeichert, und auf Ihrem Telefon, sobald Sie sie empfangen haben, indem Sie den Status öffnen und sich mit dem Netzwerk verbinden. Um Sie zu erreichen, werden Nachrichten über devp2p - die Transportschicht für Whisper - geleitet, aber nicht durch die virtuelle Maschine von Ethereum transportiert. '
       q3:
         question: 'Auf wessen Server werden meine Nachrichten gespeichert?'
+        answer: 'Whisper erfordert eine besondere Art von Ethereum-Knoten zum Speichern und Übertragen von Nachrichten. Status ist die einzige Instanz von Whisper, die in der Produktion verwendet wird. Daher beherbergt Status eine Reihe dieser speziellen Knoten, um seine Benutzer zu unterstützen. Es ist jedoch jeder in der Lage, einen Mail-Server-Knoten mit der richtigen Hardware zu hosten. Anweisungen dazu finden Sie <a href=''https://discuss.status.im/t/get-your-node-running/1488/2'' target=''_blank''>hier</a>.'
       q4:
         question: 'Wie kann ich meinen Namen in Status ändern?'
+        answer: 'Wenn Sie einen benutzerdefinierten Namen hinzufügen möchten, können Sie einen ENS-Benutzernamen registrieren. Gehen Sie zu Profil > ENS-Benutzernamen. Wenn Sie einen bestehenden <a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''>ENS-Benutzernamen</a> registrieren oder einen bestehenden <a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''>ENS-Benutzernamen</a> mit Ihrem Status-Chat-Schlüssel verbinden, können andere Sie dann über diesen Benutzernamen finden. Sie können ihn auch anstelle Ihres Dreiwortnamens anzeigen lassen.'
       q5:
         question: 'Wie lade ich meine Freunde zu Status ein?'
+        answer: 'Sie können entweder Ihr Profil oder einen bestimmten Chat für Freunde außerhalb des Status freigeben.<br><br>Um Ihr eigenes Profil und Ihren Chat-Key freizugeben, gehen Sie zu Ihrem Profilbildschirm und klicken Sie auf die Schaltfläche "Freigeben" in der oberen rechten Ecke. Es wird ein Link generiert, dem Ihr Freund folgen kann, um den Status zu erhalten und Ihr Profil zu laden.<br><br>Um einen öffentlichen Chat freizugeben, öffnen Sie den Chat und wählen Sie "Chat freigeben" aus dem Menü [...] in der oberen rechten Ecke. Dadurch wird ein Link zum Chat generiert, den Sie dann an Ihren Freund außerhalb des Status senden können.'
       q6:
         question: 'Warum sehe ich keine Nachrichten nachdem ich einer öffentlichen Gruppe beigetreten bin?'
         answer: 'Öffentliche Chats sind wie Radiokanäle. Sie können sich auf einen Kanal einstellen, aber Sie sehen nur Nachrichten, wenn andere auf diesem Kanal senden. Sie können Ihr eigenes Gespräch beginnen und andere einladen, indem Sie zu [...] in der oberen rechten Ecke gehen und den Kanal mit anderen teilen, z.B. <a href=''https://get.status.im/chat/public/introductions'' target=''_blank''>https://get.status.im/chat/public/introductions</a>'
       q7:
         question: 'Wie erstelle ich eine neue öffentliche Gruppe?'
+        answer: 'Tippen Sie auf der Registerkarte Chat auf die Schaltfläche [+] > An öffentlichem Chat teilnehmen und geben Sie einen Chatnamen ein. Wenn der Name noch nicht im Netzwerk existiert, erstellen Sie automatisch einen. <br><br>Sie können sich öffentliche Chats wie #-Tags vorstellen. Dort gibt es eine Sammlung aller Nachrichten, die das gleiche # verwenden.'
       q8:
         question: 'Wie kann ich einen 1:1-Chat mit jemandem über Status beginnen?'
+        answer: 'Tippen Sie auf der Registerkarte Chat auf die Schaltfläche [+] > Neuen Chat starten > Geben Sie den ENS-Benutzernamen oder den Chat-Schlüssel ein. Oder wenn die andere Person neben Ihnen sitzt, scannen Sie den QR-Code aus ihrem Profil.<br><br>Wenn Sie ein 1:1 mit jemandem in einem öffentlichen Channel beginnen möchten, tippen Sie auf dessen Namen oder Avatar > Nachricht senden.'
       q9:
         question: 'Spielt es eine Rolle welchen Mailserver ich auswähle?'
+        answer: 'Mailserver, die in geographischer Entfernung näher bei Ihnen sind, werden Nachrichten schneller zurücksenden. Es wird empfohlen, die Standardeinstellung für die automatische Mailserver-Auswahl beizubehalten. Wenn die automatische Auswahl aktiviert ist, kann Status die Latenzzeit von Nachrichten zwischen Servern messen und den schnellsten für Sie auswählen. <br><br>Wenn Sie eine Verbindung zu Ihrem eigenen Mail-Server oder zu einem Server herstellen möchten, der auf einem bestimmten vertrauenswürdigen Gerät läuft, können Sie einen benutzerdefinierten Mail-Server hinzufügen.'
     browser:
       title: Browser
       q1:
         question: 'Was unterscheidet den Browser von anderen? '
+        answer: 'Status ist ein web3-fähiger Browser. Ein web3-fähiger Browser kann jede beliebige Website öffnen, ermöglicht aber darüber hinaus die Nutzung dezentralisierter Anwendungen, so genannter DApps. Um dies zu tun, injiziert Status ein Objekt in das DOM einer bestimmten Site und erlaubt dieser Site, auf Ihr Konto in der Blockkette zu verweisen - mit Ihrer Erlaubnis. <br><br>Typischerweise verwenden DApps die Ethereum-Blockchain, um Informationen zu senden und zu empfangen und Zahlungen zu verarbeiten, die normalerweise auf einem zentralen Server gespeichert würden. DApps bergen ein geringes Risiko, dass eine einzige Partei Ihre Daten kontrolliert und von ihnen profitiert.'
       q2:
         question: 'Was ist DAp.ps?'
+        answer: 'DAp.ps ist ein dezentralisiertes und von der Gemeinschaft kuratiertes Verzeichnis von DApps, das für Ethereum erstellt wurde, so dass Sie einfach das Beste aus dem Web3 erkunden können. DApp-Entwickler können ihre DApps kostenlos einreichen oder SNT einsetzen, um ihr Ranking zu verbessern. Benutzer können DApp-Einträge auch mit SNT auf- oder abstimmen. Je mehr SNT ein Entwickler eingesetzt hat, desto einfacher ist es, seine DApp-Liste zu überstimmen. '
       q3:
         question: 'Wie stimme ich für DApps ab?'
+        answer: 'Gehen Sie zu <a href=''https://dap.ps'' target=''_blank''>https://dap.ps</a>, finden Sie Ihren bevorzugten DApp und tippen Sie Upvote. Stellen Sie den Betrag an SNT ein, den Sie verwenden möchten, und tippen Sie auf ''Upvote''. Wenn Sie ein DApp nach unten abstimmen, ist der Betrag bereits festgelegt. Je mehr DApp-Entwickler investiert haben, um ihr Ranking zu verbessern, desto billiger wird es für Sie sein, eine Abwärtsabstimmung durchzuführen. Dadurch verringert sich das Risiko, dass gut finanzierte DApps übernehmen und Ihre Stimme für die Nützlichkeit der DApps zählt. <br><i>Beachten Sie, dass für die Stimmabgabe sowohl die SNT als auch ein kleiner Betrag der ETH zur Bezahlung der Transaktion erforderlich ist.</i>'
       q4:
         question: 'Was sind DApp Berechtigungen?'
+        answer: 'DApps müssen um Erlaubnis bitten, Ihre Brieftaschenadresse und/oder Ihren Chatschlüssel einsehen und verwenden zu dürfen. Gewöhnlich bittet ein DApp darum, `Ihre Brieftasche anzuschließen`. Wenn dies geschieht, erhalten Sie ein Popup-Fenster, in dem Sie aufgefordert werden, diese Anfrage zu "Verweigern" oder "Zulassen". Die Erlaubnis, Ihre Brieftaschenadresse zu verbinden, ist spezifisch für jedes Konto, das Sie in Ihrer Brieftasche haben. Wenn Sie die Erlaubnis für ein neues Konto erteilen, wird die Erlaubnis für das zuvor verbundene Konto widerrufen. Wenn Sie einen Genehmigungsantrag ablehnen, erfährt die DApp weder etwas über Ihre Ethereum-Adresse, noch kann sie Transaktionen initiieren. <br><br>Gehen Sie zu Profil > Datenschutz und Sicherheit > DApp-Berechtigungen festlegen, um zu sehen, welche DApps auf welche Konten zugreifen können, und um die Berechtigungen zu widerrufen, wenn Sie dies wünschen. <br><br><i>Beachten Sie, dass, wenn das DApp Ihre Adresse gespeichert hat, diese nicht durch den Status widerrufen werden kann.</i>'
     wallet:
       title: Börse/Wallet
       q1:
         question: 'Wie sicher ist meine Wallet?'
+        answer: 'Der Status umfasst eine Hierarchisch-Deterministische (HD) Brieftasche. Alle in dieser Brieftasche generierten Schlüssel werden verschlüsselt und lokal auf Ihrem Telefon gespeichert, wobei sichere Hardware verwendet wird, falls verfügbar. Niemand außer Ihnen hat Zugriff. Für erhöhte Sicherheit können Sie eine <a href=''https://keycard.tech/'' target=''_blank''>Keycard</a> zur Speicherung Ihrer Schlüssel erhalten.'
       q2:
         question: 'Was bedeutet es eine Transaktion zu Signieren?'
+        answer: 'Jede Änderung auf Ethereum gilt als Transaktion. Informationen werden von einer Adresse zu einer anderen übertragen. Diese Informationen können Vermögenswerte oder eine Vereinbarung sein. Wenn Sie eine Transaktion mit Status unterzeichnen, genehmigen Sie diese Transaktion. Status sagt Ihnen, welche Art von Transaktion Sie unterzeichnen sollen. '
+      q3:
+        question: 'Wie lautet mein Signiersatz?'
+        answer: 'Der Signatursatz ist ein Sicherheitsmerkmal. Wenn Sie Status zum ersten Mal verwenden, zeigt Ihnen die Brieftasche Ihren Unterzeichnungssatz, der aus einer einzigartigen Kombination von drei Wörtern besteht. Nur Sie und die App kennen diesen Unterzeichnungssatz. Jedes Mal, wenn Sie eine Transaktion unterzeichnen, zeigt Ihnen die App den Unterzeichnungssatz an. Wenn Sie den Unterzeichnungssatz erkennen, wissen Sie sicher, dass die Unterschriftsanforderung vom Status kommt und sicher zu unterschreiben ist.'
+      q4:
+        question: 'Welche Assets unterstützt die Status-Wallet?'
+        answer: 'Die Wallet unterstützt derzeit ETH- und ERC20-Token (z.B. OMG, BNB, BAT oder DAI) sowie einige ERC721-Token (z.B. Cryptokitties oder digitale Kunstwerke).'
       q5:
         question: 'Warum wird mein Guthaben nicht angezeigt?'
+        answer: 'Standardmässig werden nur ETH und SNT in Ihrer Brieftasche angezeigt. Wenn Sie ein Konto importieren, das auch andere Tokens enthält, zeigt der Status diese ebenfalls an. In anderen Fällen, z.B. wenn Sie Tokens an ein Konto im Status senden, müssen Sie diese Ihrer Kontoansicht hinzufügen. <br><br>Sie können Token zu Ihrer Kontoansicht hinzufügen, indem Sie zu Ihrem `Brieftaschen-Übersichtsbildschirm` > `[...]` Menü in der oberen rechten Ecke > `Vermögen verwalten` gehen. '
       q6:
         question: 'Wie funktioniert ENS mit Status?'
+        answer: 'Sie können Assets an einen ENS-Namen senden, indem Sie zu Wallet > Senden > Empfänger auswählen > Empfängeradresse eingeben gehen. Die Brieftasche ersetzt automatisch den ENS-Namen durch die Adresse der Brieftasche, der sie gehört. '
       q7:
         question: 'Warum muss ich Gebühren für Transaktionen zahlen?'
+        answer: 'Die Netzgebühr, auch als "Gas" bekannt, deckt die rechnerischen Kosten für die Durchführung einer Aktion auf der Ethereum-Blockkette. Sie ist Standard für das Netzwerk. An der Ethereum-Blockkette können keine Änderungen vorgenommen werden, auch nicht bei Transaktionen zwischen Benutzern, ohne dass dafür Gas ausgegeben wird. Die Status-Geldbörse ermöglicht es Ihnen, die Netzgebühr bei jeder Transaktion anzupassen. Eine höhere Gebühr verbessert die Verarbeitungsgeschwindigkeit für Ihre Transaktion.'
+      q8:
+        question: 'Wie und an welche Adressen kann ich Vermögenswerte senden?'
+        answer: 'Die Statusbörse ermöglicht es Ihnen, ETH und ERC20 (z.B. OMG, BNB, BAT oder DAI) an Wallets zu senden, die diese Währungen akzeptieren. Um Vermögenswerte zu senden, gehen Sie zu Wallet und tippen Sie auf das Sende-Symbol [↗] am unteren Bildschirmrand. Alternativ gehen Sie zu Brieftasche > Kontokarte > Senden <br><br>Dann Betrag eingeben > Token auswählen > Aus Konto auswählen > Empfänger auswählen <br><br>Brieftaschen, die ETH- und Ethereum-basierte Token akzeptieren, erkennen Sie am Adressformat. Die Adresse beginnt mit 0x...  Status Wallet prüft auf ungültige Adressen. Bewährte Praxis ist es, die Adresse immer dreifach manuell zu prüfen, bevor eine Transaktion unterzeichnet wird. '
+      q9:
+        question: 'Ich habe mein Konto wiederhergestellt, und jetzt sehe ich nur noch eine Brieftasche, obwohl ich mehr erstellt habe. Habe ich mein Geld verloren?'
+        answer: 'Nein, sie sind nicht verloren. Wenn Sie zusätzliche Brieftaschen aus Status heraus generiert haben und später Ihr Konto wiederherstellen, müssen Sie die zusätzlichen Brieftaschen manuell wiederherstellen, indem Sie die gleichen Schritte befolgen, wie Sie sie erstellt haben. Von der Brieftasche aus werden Sie Konto hinzufügen > Konto hinzufügen. Anstatt eine nagelneue Brieftasche zu erstellen, wird Status jede weitere Brieftasche, die Sie im Auftrag erstellt haben, wiederherstellen, und Ihre Guthaben werden mit ihnen wiederhergestellt. <br><br>Künftig werden wir dafür sorgen, dass alle Ihre Status-Brieftaschen automatisch wiederhergestellt werden.'
     keycard-general:
       title: 'Keycard Allgemein'
       q1:
         question: 'Wozu dient Keycard?'
+        answer: 'Die Keycard ist eine Hardware-Brieftasche, die Sie mit Ihrer Status-Anwendung verwenden können. <br><br>Sie bietet ein höheres Maß an Sicherheit und Besitz für die privaten Schlüssel der Status-Benutzer. Die Keycard ist ein Speicher für Ihre Vermögenswerte, die Sie (zusammen mit der Eingabe eines 6-stelligen Passworts) auf Ihrem Telefon abhören müssen, wenn Sie eine Transaktion durchführen. <br><br>Und die Keycard kann als 2FA verwendet werden, um den Zugang zum Status zu schützen (z.B. Benutzung des Chat). Um Ihre Schlüssel freizuschalten und die Anwendung zu benutzen, müssen Sie Ihre Karte antippen und Ihren 6-stelligen Passcode eingeben.'
       q2:
         question: 'Ist Keycard mit Status für Android und iOS verfügbar?'
         answer: 'Keycard ist derzeit nur für Android verfügbar und kann mit Status verwendet werden. Das Keycard-Team arbeitet derzeit an der iOS-Integration.'
       q3:
         question: 'Wie viel kostet die Keycard?'
+        answer: 'Die Keycard kostet 29€ im Einzelhandel und kann hier erworben werden.'
+      q4:
+        question: 'Ist die Keycard in andere Brieftaschen integriert?'
+        answer: 'Status ist die erste Produktionsintegration mit Keycard. Entwickler können Keycard jedoch mit der hier verfügbaren Open Source Keycard API in ihre Produkte integrieren. '
       q5:
         question: 'Brauche ich eine ''Keycard'' um Status zu verwenden?'
+        answer: 'Nein, für die Verwendung von Status benötigen Sie keine Keycard. Die Status Wallet ist ohne Freiheitsentzug und wird von Sicherheitsfirmen Dritter geprüft. Sie ist für sich allein sicher, aber mit der Keycard bieten Sie ein noch höheres Maß an Hardware-Sicherheit.'
       q6:
         question: 'Kann ich meine Schlüsselkarte als Debit/Kreditkarte für Zahlungen verwenden?'
+        answer: 'Zur Zeit kann die Keycard nur vom Status-Benutzer als Hardware-Geldbörse verwendet werden. Es ist Teil unseres Fahrplans, physische Zahlungen mit Keycard als Teil eines offenen, integrativen und erlaubnisfreien Zahlungsnetzwerks einzuführen, in dem Zahlungsterminals jedes Telefon mit Status sind.'
       q7:
         question: 'Wie unterscheidet sich die Keycard von anderen Hardware-Geldbörsen wie Ledger oder Trezor?'
+        answer: 'Die Keycard ist von Grund auf wie eine mobile freundliche Hardware-Brieftasche aufgebaut. Sie ist mit der kontaktlosen NFC-Technologie ausgestattet, um mit Ihrem Mobiltelefon zu kommunizieren und die Transaktion durch Antippen der Karte und Eingabe Ihres 6-stelligen Passcodes zu unterzeichnen. Darüber hinaus ist ihr Formfaktor sehr bequem zum Mitnehmen. <br><br>Die Keycard hat weder einen Bildschirm noch eine Tastatur, was sie kostengünstig macht. Das Sicherheitsniveau der Keycard ist ähnlich dem eines Ledgers, wenn sie mit einer vertrauenswürdigen Anwendung wie Status verwendet wird.'
     keycard-security:
       title: Keycard-Sicherheit
       q1:
         question: 'Was passiert, wenn ich meine Keycard verliere?'
+        answer: 'Wenn Sie Ihre Keycard verlieren, kann sie niemand ohne Ihren 6-stelligen Passcode benutzen. Und um Ihre Gelder wiederzuerlangen, müssen Sie Ihren 12-Wort-Seed-Phrase verwenden, um Ihr Konto wiederzuerlangen. <br><br>Der soziale Aufschwung ist in Arbeit und wird irgendwann in der Zukunft umgesetzt werden. Dies wird es Ihnen ermöglichen, sich mit Gleichgesinnten zu koordinieren, um Ihr Konto im Falle eines Verlustes wiederzuerlangen.'
       q2:
         question: 'Wie sicher ist eine Schlüsselkarte?'
+        answer: 'Die Sicherheit der Karte hängt von der Applet-Software ab, die auf der Karte verwendet wird. Dieses Applet ist Open Source (Link) und wurde von einer dritten Sicherheitsprüfungsfirma geprüft. <br><br>Aus der Hardware-Perspektive ist die Keycard ein SE-Sicherheitselement mit einem sehr hohen Grad an Hardwareschutz. Sie besteht den formalen CC EAL5+-Test für ihre Sicherheitsbewertung.'
     keycard-setup:
       title: 'Keycard Einrichtung'
       q1:
         question: 'Wie komme ich mit Keycard und Status voran?'
+        answer: 'Wenn Sie ein neuer Status-Benutzer sind, dann müssen Sie nur Status herunterladen, unseren Onboarding-Strömen folgen, Sie müssen wählen, ob Sie ein neues Konto erstellen oder eines importieren möchten (d.h. `Zugangsschlüssel`), indem Sie eine Seed-Phrase verwenden, und dann wählen, diese in Ihrer Keycard zu speichern. Von dort aus werden Sie aufgefordert, Ihre Keycard an ihr Telefon zu tippen und Ihren 6-stelligen Passcode einzugeben, wann immer Sie Ihre Schlüssel entsperren und den Status verwenden oder eine Transaktion unterzeichnen möchten. '
       q2:
         question: 'Was ist der 6-stellige PIN?'
         answer: 'Ihren 6-stelligen Passcode definieren Sie während des Onboardings. Sie müssen sich diesen Passcode merken, da er jedes Mal abgefragt wird, wenn Sie Ihre Karte am Telefon abhören.'
       q3:
         question: 'Was sind Verbindungs- und PUK-Code?'
+        answer: 'Wenn Sie mit Status und Keycard an Bord sind, erhalten Sie einen Kopplungscode und einen PUK-Code. Sie müssen diese beiden Daten sehr sorgfältig aufschreiben, da sie Ihnen nie wieder vorgelegt werden. <br><br>Ihr Kopplungscode wird benötigt, wenn Sie Ihre Keycard mit einem anderen Telefon oder einer anderen Anwendung als Status verwenden möchten. <br><br>Wenn Sie Ihren 6-stelligen Passcode vergessen haben, wird Ihr PUK-Code benötigt, um ihn zurückzusetzen und zu ändern.'
       q4:
         question: 'Was ist die Seed-Phrase?'
         answer: 'Siehe Profil und Einstellungen. Wenn Sie Ihre Keycard, Ihren PUK-Code oder den Pairing-Code zusammen mit Ihrem Telefon verlieren, ist dies Ihre einzige Lösung, um auf Ihr Guthaben zuzugreifen.'
@@ -780,6 +959,7 @@ site:
         answer: 'Wenn Sie mehr als 3 falsche Versuche mit Ihrem Passcode machen, werden Sie aufgefordert, Ihren PUK-Code einzugeben, um Ihren Passcode zurückzusetzen und zu ändern. '
       q3:
         question: 'Ich habe meinen PUK verloren, was kann ich tun?'
+        answer: 'Wenn Sie Ihren PUK-Code und Ihren 6-stelligen Passcode verloren haben, dann befinden Sie sich in einer ziemlich schlechten Situation, Sie werden Ihre Keycard niemals benutzen können. Um Ihre Gelder wiederzuerlangen, sollten Sie Ihre Startphrase verwenden und diese (d.h. `Zugangsschlüssel`) wieder im Status oder einer anderen Brieftasche wiedererlangen. Wenn Sie mit der CLI vertraut sind und Ihren Passcode und PUK-Code verloren haben, kann Ihnen das Keycard-Entwicklungsteam möglicherweise helfen, Ihre Keycard auf die Werkseinstellungen zurückzusetzen. Bitte wenden Sie sich an <a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''>https://join.status.im/chat/public/status-keycard.</a>'
       q4:
         question: 'Ich habe meinen Verknüpfungs-Code verloren, was kann ich tun?'
         answer: 'Wenn Sie Ihren Pairing-Code verloren haben, müssen Sie sicherstellen, dass Sie Ihre Seed-Phrase notiert haben. Ohne Ihren Pairing-Code und Ihre Seed-Phrase besteht die Gefahr, dass Sie den Zugriff auf Ihr Guthaben verlieren, wenn Sie Ihr Telefon verlieren.'

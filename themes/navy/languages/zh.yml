@@ -779,7 +779,7 @@ site:
         answer: 'Status是一个开源项目，欢迎所有技术和非技术方面的贡献。 <a href=''https://ambassador.status.im/'' target=''_blank''>大使页面</a>是做贡献的很好的起点。在这里，您可以与积极的贡献者取得联系，他们可以在教育、推广下一代Web方面或为之做出贡献时为你提供支持。 <br> <br>如果您是开发人员并且想参与进来，请访问DApp开发文档中的文档。如果您自己是移动开发人员并且喜欢功能语言，那么请自己构建Status并开始提交PR。'
       q15:
         question: 如何请求开发某个功能？
-        answer: '由于Status是一个开源的，社区驱动的项目，因此您既可以请求开发某个功能也可以为功能开发做出贡献。在公共频道<a href=''https://get.status.im/chat/public/status'' target=''_blank''> #status </a>或我们的论坛上分享您的想法： <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> 。也欢迎您打开<a href=''https://github.com/status-im'' target=''_blank''> Github issue</a> 。 <br> <br>如果您是开发人员，请阅读<a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''>贡献者指南</a>以参与进来。'
+        answer: '由于Status是一个开源的，社区驱动的项目，因此您既可以请求开发某个功能也可以为功能开发做出贡献。在公共频道<a href=''https://get.status.im/chat/public/status'' target=''_blank''> #status </a>或我们的论坛上分享您的想法： <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> 。也欢迎您打开<a href=''https://github.com/status-im'' target=''_blank''> Github issue</a> 。 <br> <br>如果您是开发人员，请阅读<a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''>贡献者指南</a>。'
       q16:
         question: 什么是SNT，它在应用程序中如何工作？
         answer: SNT是Status网络代币。这是Status的ERC20（以太坊标准）代币，用于支持Status网络。某些功能要求用户存入或花费SNT。SNT代币的用途是Status网络的主要目标，因为SNT的价值有助于确保项目的长期发展。
@@ -868,7 +868,7 @@ site:
         answer: 'DAp.ps是为以太坊开发的DApp的去中心化和社区展策目录，因此您可以轻松浏览web3的精华。 DApp开发人员可以免费提交他们的DApp，也可以抵押SNT以提高排名。用户也可以使用SNT投票赞成或反对DApp列表。开发人员投入的SNT越多，对DApp的反对投票就越容易。'
       q3:
         question: '如何给 DApps 投票？'
-        answer: '转到<a href=''_blank'' target=''https://dap.ps''> https://dap.ps </a> ，找到您喜欢的DApp，然后点击“ upvote”。设置您要投票的SNT数量，然后点击“ upvote”。当您对DApp投倒票时，数量已设置好。 DApp开发人员为提高排名而投入的资金越多，您降低投票的价格就越便宜。这样可以减少资金充裕的DApp接管并操作DApp投票结果的风险。 <br> <i>请注意，投票需要SNT以及少量的ETH来支付交易费用。 </i>'
+        answer: '转到<a href=''_blank'' target=''https://dap.ps''> https://dap.ps </a> ，找到您喜欢的DApp，然后点击“ upvote”。设置您要投票的SNT数量，然后点击“ upvote”。当您对DApp投倒票时，数量已设置好。 DApp开发人员为提高排名而投入的资金越多，您降低投票的价格就越便宜。这样可以减少资金充裕的DApp开发人员接管并操作DApp投票的风险。 <br> <i>请注意，投票需要SNT以及少量的ETH来支付交易费用。 </i>'
       q4:
         question: 什么是DApp权限？
         answer: 'DApp必须获得许可才能查看和使用您的钱包地址和/或聊天密钥。通常，DApp会请求“连接您的钱包”。完成后，您会收到一个弹出窗口，询问“拒绝”或“允许”此请求。连接您的钱包地址的权限特定于您在钱包中持有的某个帐户。如果您授予新帐户许可，则先前连接的帐户的许可将被撤销。如果您拒绝许可请求，则DApp将不知道有关您的以太坊地址的任何信息，也将无法启动交易。 <br> <br>转到“个人资料” >隐私和安全” >设置DApp权限”以查看哪些DApp可以访问哪些帐户，并根据需要撤消权限。 <br> <br> <i>请注意，如果DApp已存储您的地址，则Status不能撤销该地址。 </i>'

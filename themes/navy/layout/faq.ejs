@@ -9,9 +9,9 @@
     </section>
 
     <section class="mt-20 lg:mt-64" id="general">
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+        <div class="max-w-screen-2xl mx-auto px-8 lg:px-12 pb-16">
             <% for (let category of site.data.faq) { %>
-            <h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __(category.title) %></h3>
+            <h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center mt-16"><%- __(category.title) %></h3>
             <div class="grid md:grid-cols-2 gap-12">
                 <% for (let column of category.columns) { %>
                 <div>

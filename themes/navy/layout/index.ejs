@@ -1,194 +1,258 @@
 <!-- The main content area -->
 <main id="main" role="main" class="overflow-hidden">
-
 	<!--HOME-INTRO-->
 	<section class="pt-16 xl:pt-0">
-  		<div class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24">
-          <div class="grid md:grid-cols-2">
-  						<div class="relative px-8 md:pr-32 self-center">
-                <span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
-  							<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.home.intro.title') %></h1>
-  							<p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-medium leading-normal">
-                  <%- __('site.home.intro.description') %>
-                </p>
-  							<div class="flex items-center -ml-12 mt-12">
-  								<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
-  								<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
-  								<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
-  							</div>
-  							<a href="#" target="_blank" class="group js-announcement inactive mt-32 font-special font-light text-lg text-gray-600 hover:text-primary-base hidden md:flex items-center">
-                  <span class="mr-4 bg-black uppercase tracking-wide font-special text-white text-base rounded p-2 leading-none"><%- __('site.home.intro.news') %></span>
-                  <b></b>
-                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-                </a>
-  						</div>
-              <div class="bg-black relative mt-48 md:mt-0">
-                <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
-  				      <div class="md:-ml-32 -mt-32 md:mt-0 mx-auto flex justify-center items-center md:block md:pt-20">
-                  <%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %>
-                </div>
-              </div>
-          </div>
-      </div>
-	</section>
-	<!--END-HOME-INTRO-->
-
-	<!--HOME-ABOUT-->
-	<section class="mt-20 lg:mt-64">
-		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12 xl:px-24">
-			<div class="grid md:grid-cols-2 gap-24">
-				<div>
-					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.open-source.title') %></h3>
-					<p class="text-gray-600 mt-12 text-lg font-medium 2xl:text-2xl font-display leading-relaxed"><%- __('site.home.about.open-source.description') %></p>
-					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
-						<li class="mt-12 ml-12 text-lg 2xl:text-xl ">
-              <a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base font-semibold font-special">
-                <%- image_tag("/img/developers-img.svg") %> 
-                <span class="ml-4"><%- __('site.link.developers') %></span>
-              </a>
-            </li>
-						<li class="mt-12 ml-12 text-lg 2xl:text-xl ">
-              <a href="<%- show_lang() %>/get-involved/educators/" class="inline-flex items-center text-primary-base font-semibold font-special">
-                <%- image_tag("/img/educators-img.svg") %> 
-                <span class="ml-4"><%- __('site.link.educators') %></span>
-              </a>
-            </li>
-						<li class="mt-12 ml-12 text-lg 2xl:text-xl ">
-              <a href="<%- show_lang() %>/get-involved/community-groups/" class="inline-flex items-center text-primary-base font-semibold font-special">
-                <%- image_tag("/img/community-group-img.svg") %> 
-                <span class="ml-4"><%- __('site.link.community-groups') %></span>
-              </a>
-            </li>
-					</ul>
+		<div class="max-w-screen-2xl mx-auto xl:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="relative px-8 md:pr-32 self-center">
+					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.home.intro.title') %></h1>
+					<p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-medium leading-normal">
+						<%- __('site.home.intro.description') %>
+					</p>
+					<div class="flex items-center -ml-12 mt-12">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+					<a href="#" target="_blank" class="group js-announcement inactive mt-32 font-special font-light text-lg text-gray-600 hover:text-primary-base hidden md:flex items-center">
+						<span class="mr-4 bg-black uppercase tracking-wide font-special text-white text-base rounded p-2 leading-none"><%- __('site.home.intro.news') %></span>
+						<b></b>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+					</a>
 				</div>
-				<div>
-					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
-					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-medium leading-relaxed font-display"><%- __('site.home.about.mission.description') %></p>
-					<a href="<%- show_lang() %>/about/" class="text-lg 2xl:text-xl group inline-flex group items-center text-primary-base font-semibold font-special mt-12">
-            <%- __('site.link.learn-more') %>
-            <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-          </a>
+				<div class="bg-black relative mt-48 md:mt-0">
+					<span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="md:-ml-32 -mt-32 md:mt-0 mx-auto flex justify-center items-center md:block md:pt-20">
+						<%- image_tag("/img/teaser-image.png", { srcset: '/img/teaser-image-2x.png 2x'}) %>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--END-HOME-ABOUT-->
-
-	<!--HOME-DECENTRALIZED-PRIVATE-->
+	<!--END-HOME-INTRO-->
+	<!--HOME-ALL-->
 	<section>
-		<div class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24 mt-20 lg:mt-64">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-8 gap-24">
+				<div class="flex flex-col md:col-span-3 col-span-6 px-8 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.all.title') %></h3>
+					<p class="text-gray-600 mt-12 text-lg font-medium 2xl:text-2xl font-display leading-relaxed"><%- __('site.home.all.description') %></p>
+					<a href="#explore" class="js-scrollto transition-all duration-200 linear group py-4 pr-6 flex md:inline-flex justify-between items-center mt-32 border font-special font-semibold rounded border-white text-lg">
+						<%- __('site.home.private.link') %>
+						<span class="ml-6 group-hover:translate-y-1 rotate-90 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+					</a>
+				</div>
+				<div class="px-8 md:col-span-5 col-span-6">
+					<div class="mx-auto relative flex justify-center items-center md:block pb-32 md:py-48">
+						<div class="relative flex justify-center home-all">
+							<%- image_tag("/img/home-all-1.png", { srcset: '/img/home-all-1-2x.png 2x', class: 'img-1 top-0 transform -translate-x-64 absolute z-10'}) %>
+							<%- image_tag("/img/home-all-2.png", { srcset: '/img/home-all-2-2x.png 2x', class: 'img-2 z-10 relative'}) %>
+							<%- image_tag("/img/home-all-3.png", { srcset: '/img/home-all-3-2x.png 2x', class: 'img-3 top-0 transform translate-x-64 absolute z-10'}) %>
+							<div class="absolute overlay top-0 flex justify-center w-full left-0 z-20 opacity-0">
+								<%- image_tag("/img/home-all-splash.png", { srcset: '/img/home-all-splash-2x.png 2x'}) %>
+							</div>
+							<div class="absolute overlay top-0 md:flex h-full justify-center w-full left-0 z-20 opacity-0 hidden">
+								<div class="circles-container">
+									<span class="circle circle-1 absolute"></span>
+									<span class="circle circle-2 absolute"></span>
+									<span class="circle circle-3 absolute"></span>
+								</div>
+							</div>
+							<div class="absolute overlay top-0 h-full items-center flex justify-center w-full left-0 z-40 opacity-0">
+								<%- image_tag("/img/home-all-logo.svg", { class: 'logo -mt-16'}) %>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-ALL-->	
+	<!--HOME-DECENTRALIZED-PRIVATE-->
+	<section id="explore">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
 			<div class="grid md:grid-cols-2">
 				<div class="bg-blue-gray-light relative">
-          <span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 py-32 md:p-32">
+					<span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
+					<div class="h-full px-8 py-32 md:pr-16">
 						<div class="row">
 							<div class="col-md-11 col-lg-10">
-								<%- image_tag("/img/decentralized-illustration.png", { srcset: '/img/decentralized-illustration-2x.png 2x'}) %>
-								<p class="text-lg 2xl:text-2xl text-gray-700 mt-12"><%- __('site.home.decentralized.subtitle') %></p>
-								<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.decentralized.title') %></h3>
-								<p class="text-lg 2xl:text-xl mt-6"><%- __('site.home.decentralized.description') %></p>
-								<a href="<%- show_lang() %>/features/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
-                  <%- __('site.home.decentralized.link') %>
-                  <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-                </a>
+								<%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
+								<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-24"><%- __('site.home.private.title') %></h3>
+								<p class="text-lg 2xl:text-xl mt-6"><%- __('site.home.private.description') %></p>
+								<a href="<%- show_lang() %>/private-messenger/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+									<%- __('site.home.private.link') %>
+									<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="bg-black relative md:-mt-16">
-          <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+					<span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
-            <div class="flex-1 order-2 md:order-none">
-  						<p class="text-lg 2xl:text-2xl text-gray-300"><%- __('site.home.private.subtitle') %></p>
-  						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.private.title') %></h3>
-  						<p class="text-lg 2xl:text-xl mt-6 text-gray-300"><%- __('site.home.private.description') %></p>
-              <a href="<%- show_lang() %>/features/#secure-messenger" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
-                <%- __('site.link.learn-more') %>
-                <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-              </a>
-            </div>
-            <div class="mt-20 order-1 md:order-none mb-12 md:mb-0">
-              <%- image_tag("/img/private-message-illustration.png", { srcset: '/img/private-message-illustration-2x.png 2x'}) %>
-            </div>
+						<div class="flex-1 md:mt-12">
+							<p class="text-lg 2xl:text-2xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
+							<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.home.wallet.title') %></h3>
+							<p class="text-lg 2xl:text-xl mt-6 text-gray-300"><%- __('site.home.wallet.description') %></p>
+							<a href="<%- show_lang() %>/secure-wallet/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+								<%- __('site.link.learn-more') %>
+								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+							</a>
+						</div>
+						<div class="mt-12 md:-mb-32">
+							<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x', class: 'mx-auto'}) %>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--END-HOME-DECENTRALIZED-PRIVATE-->
-
 	<!--HOME-WALLET-BROWSER-->
 	<section>
-		<div class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
 			<div class="grid md:grid-cols-2">
 				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
-          <span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 md:p-32 text-white flex flex-col space-between">
-						<div class="flex-1 mt-32">
-              <p class="text-lg 2xl:text-2xl text-gray-300"><%- __('site.home.wallet.subtitle') %></p>
-  						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.wallet.title') %></h3>
-  						<p class="text-lg 2xl:text-xl text-gray-300 mt-6"><%- __('site.home.wallet.description') %></p>
-  						<a href="<%- show_lang() %>/features/#integrated-ethereum-wallet" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
-                <%- __('site.link.learn-more') %>
-                <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-              </a>
-            </div>
-						<div class="mt-12 md:-mb-32">
-							<%- image_tag("/img/wallet-illustration.png", { srcset: '/img/wallet-illustration-2x.png 2x', class: 'mx-auto'}) %>
+					<span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
+					<div class="h-full flex flex-col space-between px-8 py-32 md:pr-16 text-white">
+						<div class="mt-12">
+							<p class="text-lg 2xl:text-xl text-gray-300"><%- __('site.home.browser.subtitle') %></p>
+							<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.home.browser.title') %></h3>
+							<p class="text-lg 2xl:text-xl text-gray-300 mt-4"><%- __('site.home.browser.description') %></p>
+							<a href="<%- show_lang() %>/web-three-browser/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+								<%- __('site.link.learn-more') %>
+								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+							</a>
+						</div>
+						<div class="mt-12 md:mt-4 my-auto flex items-center justify-center flex-1">
+							<%- image_tag("/img/browser-illustration.png", { srcset: '/img/browser-illustration-2x.png 2x', class: 'mx-auto'}) %>
 						</div>
 					</div>
 				</div>
 				<div class="bg-blue-gray-light relative order-1 md:order-none">
-          <span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
+					<span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full px-8 py-32 md:p-32">
-						<%- image_tag("/img/browser-illustration.png", {srcset: "/img/browser-illustration-2x.png 2x"}) %>
-						<p class="text-lg 2xl:text-2xl text-gray-700 mt-12"><%- __('site.home.browser.subtitle') %></p>
-						<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl leading-snug mt-4"><%- __('site.home.browser.title') %></h3>
-						<p class="text-lg 2xl:text-xl text-gray-700 mt-6"><%- __('site.home.browser.description') %></p>
-						<a href="<%- show_lang() %>/features/#web3-browser" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-16 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
-              <%- __('site.link.learn-more') %>
-              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-            </a>
+						<div class="row">
+							<div class="col-md-11 col-lg-10">
+								<%- image_tag("/img/account-creation-illustration.png", { srcset: '/img/account-creation-illustration-2x.png 2x'}) %>
+								<p class="text-lg 2xl:text-xl"><%- __('site.home.account-creation.subtitle') %></p>
+								<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4"><%- __('site.home.account-creation.title') %></h3>
+								<p class="text-lg 2xl:text-xl mt-4"><%- __('site.home.account-creation.description') %></p>
+								<a href="<%- show_lang() %>/account-creation/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+									<%- __('site.link.learn-more') %>
+									<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--END-HOME-WALLET-BROWSER-->
-
 	<!--HOME-SECURITY-->
-	<section class="mt-20 lg:mt-64 pb-20 lg:pb-64">
-		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12 xl:px-24">
+	<section class="mt-20 lg:mt-64 pb-20 lg:pb-64 pt-12">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
 			<div class="grid md:grid-cols-2 gap-24">
 				<div>
-					
-						<h3 class="text-4xl xl:text-5xl 2xl:text-6xl inline-flex items-center">
-              <%- image_tag("/img/lock-small.svg") %>
-              <span class="ml-8"><%- __('site.home.security.title') %></span>
-            </h3>
-						<p class="max-w-6xl text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
-						<a href="<%- show_lang() %>/security/" class="group inline-flex items-center text-primary-base font-semibold text-lg 2xl:text-2xl font-special mt-12">
-              <%- __('site.link.learn-more') %>
-              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-            </a>
-					
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl inline-flex items-center"><%- __('site.home.security.title') %></h3>
+					<p class="max-w-6xl text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.security.description') %></p>
+					<a href="<%- show_lang() %>/security/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+						<%- __('site.link.learn-more') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
 				</div>
 				<div>
-					
-						<h3 class="text-4xl xl:text-5xl 2xl:text-6xl inline-flex items-center">
-              <%- image_tag("/img/status-network-small.svg") %>
-              <span class="ml-8"><%- __('site.home.status-network.title') %></span>
-            </h3>
-						<p class="max-w-6xl text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.status-network.description') %></p>
-            <a href="https://statusnetwork.com/" target="_blank" class="group inline-flex items-center text-primary-base font-semibold text-lg 2xl:text-2xl font-special mt-12">
-              <%- __('site.home.status-network.link') %>
-              <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
-            </a>
-					
+					<div class="relative h-64">
+						<div class="absolute inset-0 flex items-center justify-center">
+							<%- image_tag("/img/private-and-secure-bg.png", { srcset: '/img/private-and-secure-bg-2x.png 2x'}) %>
+						</div>
+						<div class="absolute inset-0 flex items-center justify-center private-and-secure">
+							<div class="flex">
+								<div class="flex mr-6 items-end relative">
+									<div class="relative flex">
+										<%- image_tag("/img/private-and-secure-avatar.png", { srcset: '/img/private-and-secure-avatar-2x.png 2x', class: 'avatar relative z-20'}) %>
+										<div class="absolute inset-0 flex items-center justify-center key z-index: 10 opacity-0">
+											<%- image_tag("/img/private-and-secure-key.svg") %>
+										</div>
+									</div>
+								</div>
+								<div class="inner relative">
+									<div class="description py-6">
+										<p class="max-w-6xl text-black-600 md:text-4xl text-1xl font-display leading-snug px-12">hey, what is everyone up to <br class="hidden md:inline">this long weekend?</p>
+									</div>
+									<div class="overlay h-full w-full justify-between px-16 items-center flex bg-black top-0 absolute">
+										<div class="text-white bold md:text-4xl text-1xl">1ßI30#{%3</div>
+										<div class="lock relative">
+											<%- image_tag("/img/private-and-secure-lock-bottom.svg") %>
+											<%- image_tag("/img/private-and-secure-lock-top.svg", {class: 'absolute top-0'}) %>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--END-HOME-SECURITY-->
-
+	<!--HOME-ABOUT-->
+	<section class="pt-24">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div>
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.open-source.title') %></h3>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.about.open-source.description') %></p>
+					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
+						<li class="mt-12 ml-12">
+							<a href="<%- show_lang() %>/technical/" class="inline-flex items-center text-primary-base text-lg 2xl:text-2xl font-semibold font-special">
+								<%- image_tag("/img/developers-img.svg") %>
+								<span class="ml-4"><%- __('site.link.developers') %></span>
+							</a>
+						</li>
+						<li class="mt-12 ml-12">
+							<a href="<%- show_lang() %>/get-involved/educators/" class="inline-flex items-center text-lg 2xl:text-2xl text-primary-base font-semibold font-special">
+								<%- image_tag("/img/educators-img.svg") %>
+								<span class="ml-4"><%- __('site.link.educators') %></span>
+							</a>
+						</li>
+						<li class="mt-12 ml-12">
+							<a href="<%- show_lang() %>/get-involved/community-groups/" class="inline-flex items-center text-lg 2xl:text-2xl text-primary-base font-semibold font-special">
+								<%- image_tag("/img/community-group-img.svg") %>
+								<span class="ml-4"><%- __('site.link.community-groups') %></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="pb-32 md:pb-0">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.home.about.mission.title') %></h3>
+					<p class="text-gray-600 mt-12 text-lg 2xl:text-2xl font-display font-medium leading-normal"><%- __('site.home.about.mission.description') %></p>
+					<a href="<%- show_lang() %>/about/" class="group inline-flex group items-center text-primary-base text-lg 2xl:text-2xl font-semibold font-special mt-12">
+						<%- __('site.link.learn-more') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-ABOUT-->
+	<!--HOME-NETWORK-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:py-48 lg:px-12">
+			<div class="grid md:grid-cols-1">
+				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.home.status-network.title') %></h3>
+					<p class="text-primary-200 font-thin text-lg 2xl:text-2xl max-w-screen-md px-12 text-center pt-12"><%- __('site.home.status-network.description') %></p>
+					<a href="https://statusnetwork.com/" target="_blank" class="group inline-flex group items-center text-white text-lg 2xl:text-2xl font-semibold font-special mt-12">
+						<%- __('site.home.status-network.link') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-NETWORK-->
 </main>

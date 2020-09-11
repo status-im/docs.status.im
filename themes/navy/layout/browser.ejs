@@ -1,0 +1,130 @@
+<!-- The main content area -->
+<main id="main" role="main" class="overflow-hidden">
+	<!--BROWSER-INTRO-->
+	<section class="pt-16 xl:pt-0">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="relative px-8 self-center">
+					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.browser.intro.title') %></h1>
+					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+						<%- __('site.browser.intro.description') %>
+					</p>
+					<div class="flex items-center -ml-12 mt-12">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+				</div>
+				<div class="relative mt-24 md:mt-0">
+					<div class="md:-mt-24 mx-auto flex justify-center items-center md:block md:pt-20">
+						<%- image_tag("/img/browser-intro.png", { srcset: '/img/browser-intro-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-BROWSER-INTRO-->
+	<!--BROWSER-DEFI-->
+	<section class="mt-12 text-white bg-black">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.browser.defi.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.browser.defi.description') %></p>
+					<a href="https://dap.ps/discover-dapps/categories/EXCHANGES" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+						<%- __('site.browser.defi.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+					</a>
+				</div>
+				<div class="px-8">
+					<div class="mx-auto flex justify-center items-center md:block md:pt-20">
+						<%- image_tag("/img/browser-defi.png", { srcset: '/img/browser-defi-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-BROWSER-DEFI-->
+	<!--BROWSER-GAMES-->
+	<section class="mt-12">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div>
+					<div class="mx-auto flex justify-center items-center md:block lg:pt-48">
+						<%- image_tag("/img/browser-games.svg") %>
+					</div>
+				</div>
+				<div class="flex flex-col justify-center lg:px-48 px-8 items-start md:pt-0 lg:pt-48 pt-12 order-first md:order-last">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.browser.games.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.browser.games.description') %></p>
+					<a href="https://dap.ps/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+						<%- __('site.browser.games.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-BROWSER-GAMES-->
+	<!--BROWSER-COMMUNITY-->
+	<section class="mt-12">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 pb-24 lg:pb-64">
+			<div class="grid md:grid-cols-2 gap-24 lg:pt-48 pt-16">
+				<div class="flex flex-col justify-center lg:xl-48 px-8 items-start md:pt-0">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.browser.community.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.browser.community.description') %></p>
+					<a href="https://our.status.im/how-to-curate-dapps-simply/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+						<%- __('site.link.learn-more') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+				<div class="mx-auto flex justify-end items-center lg:px-0 px-8">
+					<div class="mx-auto flex justify-end items-center">
+						<%- image_tag("/img/browser-community.svg") %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-BROWSER-COMMUNITY-->
+	<!--BROWSER-SUBMIT-->
+	<section class="mt-12 bg-blue-gray-light">
+		<div class="max-w-screen-2xl mx-auto lg:px-12 bg-blue-gray-light ">
+			<div class="grid md:grid-cols-8 lg:pt-48 pt-32">
+				<div class="flex flex-col justify-center md:col-start-3 md:col-span-4 lg:xl-48 px-8 items-center md:pt-0">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.browser.submit.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl text-center font-display font-medium leading-normal"><%- __('site.browser.submit.description') %></p>
+					<a href="<%- show_lang() %>/developer_tools/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+						<%- __('site.browser.submit.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="grid md:grid-cols-1 lg:pt-48 pt-32">
+			<div class="mx-auto flex justify-end items-center lg:px-0 w-full">
+				<div class="mx-auto flex justify-end items-center w-full">
+					<%- image_tag("/img/browser-logos.svg", { class: 'w-full hidden md:flex'}) %>
+					<%- image_tag("/img/browser-logos-mobile.png", { srcset: '/img/browser-logos-mobile-2x.png 2x', class: 'w-full md:hidden'}) %>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-BROWSER-SUBMIT-->
+	<!--FAQ-BANNER-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:py-48 lg:px-20">
+			<div class="grid md:grid-cols-1">
+				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.faq.banner.title') %></h3>
+					<a href="<%- show_lang() %>/faq/#browser" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
+						<%- __('site.faq.banner.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-FAQ-BANNER-->
+</main>

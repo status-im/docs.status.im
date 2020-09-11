@@ -1,0 +1,186 @@
+<!-- The main content area -->
+<main id="main" role="main" class="overflow-hidden">
+	<!--WALLET-INTRO-->
+	<section class="pt-16 xl:pt-0">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="relative px-8 self-center">
+					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.wallet.intro.title') %></h1>
+					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+						<%- __('site.wallet.intro.description') %>
+					</p>
+					<div class="flex items-center -ml-12 mt-12">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" id="official:ios" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" id="official:apk" class="ml-12 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+				</div>
+				<div class="relative mt-24 md:mt-0">
+					<div class="md:-mt-24 mx-auto -ml-12 -mr-12 md:ml-0 md:mr-0 flex justify-end items-center md:pt-20">
+						<video width="662" height="756" class="hidden md:block" autoplay muted loop>
+							<source src="/video/wallet-intro.webm" type="video/webm">
+							<source src="/video/wallet-intro.mp4" type="video/mp4">
+						</video>
+						<%- image_tag("/img/wallet-intro.png", { srcset: '/img/wallet-intro-2x.png 2x', class: 'md:hidden'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-WALLET-INTRO-->
+	<!--WALLET-FUND-->
+	<section class="mt-12 text-white bg-black">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div class="px-8">
+					<div class="mx-auto flex justify-center items-center md:block md:py-48 pb-12">
+						<%- image_tag("/img/wallet-funds.png", { srcset: '/img/wallet-funds-2x.png 2x'}) %>
+					</div>
+				</div>
+				<div class="flex flex-col px-8 order-first md:order-last justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.funds.title') %></h3>
+					<p class="text-gray-300 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.funds.description') %></p>
+					<a href="https://our.status.im/inside-the-non-custodial-wallet/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+						<%- __('site.link.learn-more') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-WALLET-FUNDS-->
+	<!--WALLET-SECURITY-->
+	<section class="bg-blue-gray-light">
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.security.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.security.description') %></p>
+					<div class="flex">
+						<a href="#" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+							<%- __('site.wallet.security.button') %>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+						</a>
+						<a href="#" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg ml-8">
+							<%- __('site.link.learn-more') %>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+						</a>
+					</div>
+				</div>
+				<div class="px-8">
+					<div class="mx-auto flex justify-center items-center md:block pb-32 md:py-48">
+						<%- image_tag("/img/wallet-security.png", { srcset: '/img/wallet-security-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-WALLET-SECURITY-->
+	<!--WALLET-FRIENDS-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-6 gap-24">
+				<div class="flex flex-col px-8 col-span-2 justify-center items-start md:pt-0 pt-32">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.friends.title') %></h3>
+					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.friends.description') %></p>
+					<a href="<%- show_lang() %>/referral-program/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
+						<%- __('site.wallet.friends.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+				<div class="px-8 col-span-4">
+					<div class="mx-auto flex justify-center items-center md:block pb-32 md:py-48">
+						<%- image_tag("/img/wallet-friends.png", { srcset: '/img/wallet-friends-2x.png 2x'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-WALLET-FRIENDS-->
+	<!--WALLET-PAYMENTS-DAPPS-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12 md:mt-20">
+			<div class="grid md:grid-cols-2">
+				<div class="bg-blue-gray-light relative">
+					<span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
+					<div class="h-full px-8 py-32 md:p-32">
+						<div class="row">
+							<div class="col-md-11 flex flex-col col-lg-10">
+								<%- image_tag("/img/wallet-payments.png", { srcset: '/img/wallet-payments-2x.png 2x'}) %>
+								<div class="order-first md:order-last mb-16 md:mb-0">
+									<h3 class="font-display text-4xl xl:text-6xl mt-4 md:mt-24"><%- __('site.wallet.payments.title') %></h3>
+									<p class="text-xl mt-4"><%- __('site.wallet.payments.description') %></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-black relative md:-mt-16">
+					<span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
+						<div class="flex-1">
+							<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.dapps.title') %></h3>
+							<p class="text-xl mt-4 text-gray-300"><%- __('site.wallet.dapps.description') %></p>
+							<a href="https://dap.ps/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+								<%- __('site.link.learn-more') %>
+								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+							</a>
+						</div>
+						<div class="mt-20 order-1 md:order-none -ml-8 -mr-8 md:mx-0 mb-12 md:mb-0 md:mt-48">
+							<%- image_tag("/img/wallet-dapps.png", { srcset: '/img/wallet-dapps-2x.png 2x', class: 'md:-ml-32 w-screen-2 w-screen'}) %>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-WALLET-PAYMENTS-DAPPS-->
+	<!--WALLET-ACCOUNTS-KEYCARD-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
+					<span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
+					<div class="h-full px-8 md:p-32 text-white flex flex-col space-between">
+						<div class="mt-12 mb-32 md:mb-0">
+							<%- image_tag("/img/wallet-accounts.svg") %>
+						</div>
+						<div class="flex-1 mt-16 md:mt-32 order-first md:order-last">
+							<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.accounts.title') %></h3>
+							<p class="text-xl text-gray-300 mt-4"><%- __('site.wallet.accounts.description') %></p>
+						</div>
+					</div>
+				</div>
+				<div class="bg-blue-gray-light relative order-1 md:order-none">
+					<span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="h-full px-8 py-32 md:p-32">
+						<h3 class="font-display text-4xl xl:text-6xl mt-4"><%- __('site.wallet.keycard.title') %></h3>
+						<p class="text-xl text-gray-700"><%- __('site.wallet.keycard.description') %></p>
+						<a href="<%- show_lang() %>/keycard-integration/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+							<%- __('site.link.learn-more') %>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right.svg') %></span>
+						</a>
+						<%- image_tag("/img/wallet-keycard.png", {srcset: "/img/wallet-keycard-2x.png 2x", class: '-mb-32 mt-32'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-WALLET-ACCOUNTS-KEYCARD-->
+	<!--FAQ-BANNER-->
+	<section>
+		<div class="max-w-screen-2xl mx-auto lg:py-48 lg:px-20">
+			<div class="grid md:grid-cols-1">
+				<div class="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32 bg-primary-base">
+					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center"><%- __('site.faq.banner.title') %></h3>
+					<a href="<%- show_lang() %>/faq/#wallet" target="_blank" class="group inline-flex group items-center text-white font-semibold font-special mt-12">
+						<%- __('site.faq.banner.button') %>
+						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-FAQ-BANNER-->
+</main>

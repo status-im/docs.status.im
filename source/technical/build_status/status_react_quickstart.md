@@ -40,29 +40,28 @@ Building out your own dev version of Status is the best way to experiment before
 Open up three terminal windows (or tabs), and ensure you keep all three open.  In the first, enter the command:
 
 ```bash
-make startdev-ios-simulator
+make run-clojure
 ```
-(Read the `Known Issues` section below if you run MacOS 10.15 "Catalina" or later)
 
 Under the hood, this command runs the equivalent of:
 
 ```bash
-clj -R:dev build.clj watch --platform ios --ios-device simulator
+yarn shadow-cljs watch mobile
 ```
 
 With that entered, you should see the following, after a short time:
 
-![simulator_initial_success](/technical/build_status/img/startdev-ios-simulator_initial_success.png)
+![simulator_initial_success](/technical/build_status/img/make_run_clojure.png)
 
-With Figwheel started, re-frisk started, and the ClojureScript REPL started, you can move onto the second window, and enter the next command:
+With re-frisk started and the ClojureScript REPL started, you can move onto the second window, and enter the next command:
 
 ```bash
-make react-native-ios
+make run-metro
 ```
 
 By executing this make script, a Nix environment will be created for iOS, running status-go in the background, and Metro Bundler in the foreground.  Upon success, after a short while you should see:
 
-![react-native-ios_initial_success.png](/technical/build_status/img/react-native-ios_initial_success.png)
+![react-native-ios_initial_success.png](/technical/build_status/img/make_run_metro.png)
 
 The image above reflects how the terminal window will remain, until the third command has been successfully executed.  Head into the third Terminal window, and enter: 
  
@@ -72,29 +71,13 @@ make run-ios
 
 This Make script will start up the iOS debugger / simulator.  This is the main reason we had to ensure XCode was installed at the beginning of this guide.  With this successfully run, not only will the iPhone simulator open up, but in the terminal window, you should see:
 
-![run-ios_succeeded.png](/technical/build_status/img/run-ios_succeeded.png)
+![run-ios_succeeded.png](/technical/build_status/img/make_run_ios.png)
 
 As you can see in the image, the Status Ethereum debug client is started, and we're nearly ready to go!
-
-If you open back up the second Terminal window, you will see the dependency graphs now building out, and the progress being charted:
-
-![react-native-ios-final_success.png](/technical/build_status/img/react-native-ios-final_success.png)
-
-Finally, if you open back up the first Terminal window, you will see the ClojureScript REPL started and ready to go:
-
-![startdev-ios-simulator_final_success.png](/technical/build_status/img/startdev-ios-simulator_final_success.png)
-
-This REPL is where you can execute your Clojure code, making any additions / edits to the Status dev codebase!
 
 So, with all of these commands successfully run, you're now ready to go, and (hopefully) have reached that "aha!" moment for status-react!
 
 ![successful-build.png](/technical/build_status/img/successful-build.png)
-
-# Debugging &amp; Developing with re-frisk
-
-As mentioned above, our Makefiles loaded up a re-frisk instance for us, to aid development / debugging.  If you open a browser window and head over to `http://localhost:4567` – you can make use of this.
-
-![re-frisk-monitoring.png](/technical/build_status/img/re-frisk-monitoring.png)
 
 # Re-installing & Cleaning Up
 
@@ -111,4 +94,4 @@ make nix-purge
 
 # Known Issues
 
-[MacOS 10.15 "Catalina" or later](https://github.com/status-im/status-react/blob/develop/nix/README.md#macos-1015-catalina)
+- [Nix on MacOS 10.15 or higher](https://github.com/status-im/status-react/blob/develop/nix/README.md#macos-1015-catalina)

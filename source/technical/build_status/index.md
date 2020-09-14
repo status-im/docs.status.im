@@ -70,7 +70,7 @@ In the first terminal window, just run:
 make run-clojure
 ```
 
-By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging). You should wait until it shows you `Prompt will show when Figwheel connects to your application` before running the React Native packager.
+By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging). You should wait until it shows you `Build completed` before running the React Native packager.
 
 For additional information check the following:
 

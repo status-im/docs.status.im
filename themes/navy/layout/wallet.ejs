@@ -4,10 +4,10 @@
 	<section class="pt-16 xl:pt-0">
 		<div class="max-w-screen-2xl mx-auto lg:px-12">
 			<div class="grid md:grid-cols-2">
-				<div class="relative px-8 self-center">
+				<div class="relative px-8 self-center xl:mb-32">
 					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
 					<h1 class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl"><%- __('site.wallet.intro.title') %></h1>
-					<p class="text-gray-600 mt-12 text-xl xl:text-4xl font-display font-normal leading-normal">
+					<p class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal">
 						<%- __('site.wallet.intro.description') %>
 					</p>
 					<div class="flex items-center -ml-12 mt-12">
@@ -51,7 +51,7 @@
 	</section>
 	<!--END-WALLET-FUNDS-->
 	<!--WALLET-SECURITY-->
-	<section class="bg-blue-gray-light">
+	<section class="bg-white">
 		<div class="max-w-screen-2xl mx-auto lg:px-12">
 			<div class="grid md:grid-cols-2 gap-24">
 				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
@@ -77,34 +77,13 @@
 		</div>
 	</section>
 	<!--END-WALLET-SECURITY-->
-	<!--WALLET-FRIENDS-->
-	<section>
-		<div class="max-w-screen-2xl mx-auto lg:px-12">
-			<div class="grid md:grid-cols-6 gap-24">
-				<div class="flex flex-col px-8 col-span-2 justify-center items-start md:pt-0 pt-32">
-					<h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl"><%- __('site.wallet.friends.title') %></h3>
-					<p class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal"><%- __('site.wallet.friends.description') %></p>
-					<a href="<%- show_lang() %>/referral-program/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black text-white rounded border-black bg-black text-lg">
-						<%- __('site.wallet.friends.button') %>
-						<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
-					</a>
-				</div>
-				<div class="px-8 col-span-4">
-					<div class="mx-auto flex justify-center items-center md:block pb-32 md:py-48">
-						<%- image_tag("/img/wallet-friends.png", { srcset: '/img/wallet-friends-2x.png 2x'}) %>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--END-WALLET-FRIENDS-->
 	<!--WALLET-PAYMENTS-DAPPS-->
 	<section>
 		<div class="max-w-screen-2xl mx-auto lg:px-12 md:mt-20">
 			<div class="grid md:grid-cols-2">
 				<div class="bg-blue-gray-light relative">
 					<span class="bg-blue-gray-light w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 py-32 md:p-32">
+					<div class="h-full px-8 py-32 md:p-32 lg:pr-64 lg:pl-8">
 						<div class="row">
 							<div class="col-md-11 flex flex-col col-lg-10">
 								<%- image_tag("/img/wallet-payments.png", { srcset: '/img/wallet-payments-2x.png 2x'}) %>
@@ -142,7 +121,7 @@
 			<div class="grid md:grid-cols-2">
 				<div class="bg-black relative md:-mb-16 order-2 md:order-none">
 					<span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
-					<div class="h-full px-8 md:p-32 text-white flex flex-col space-between">
+					<div class="h-full px-8 md:p-32 lg:pr-64 lg:pl-8 text-white flex flex-col space-between">
 						<div class="mt-12 mb-32 md:mb-0">
 							<%- image_tag("/img/wallet-accounts.svg") %>
 						</div>

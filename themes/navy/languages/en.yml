@@ -632,7 +632,7 @@ site:
       title: "Pseudo-Anonymous Account Creation"
     usernames:
       title: "Three-Word Default Usernames and Privacy"
-      description: "When creating an account a randomization process selects three words – Adjective, adjective, animal. This becomes your default username in Status and results in true pseudo-anonymity."
+      description: "When creating an account, a randomization process selects three words – Adjective, adjective, animal. This becomes your default username in Status and results in true pseudo-anonymity."
       button: "Learn More about Status Usernames"
     key:
       title: "Secure Key Generation"

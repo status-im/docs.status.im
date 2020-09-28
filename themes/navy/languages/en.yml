@@ -480,7 +480,6 @@ site:
           commit: May 07, 2018 - Status-go and Status-react repos with Deja Vu 
           report: report 
           blog: blog post
-
       content-11:
         title: "Educate yourself to stay safe"
         description: "Decentralized, serverless products such as Status remove a number of unnecessary intermediaries, enabling you to chat, transact, and browse without fear of surveillance, censorship, and data leakage. This is because you are in control of your data and your own digital safety. Therefore, it is important you understand how to protect yourself. Learn more about how to stay safe with this Status Security Best Practice Guide."
@@ -497,19 +496,13 @@ site:
       link-1: "Learn More"
       link-2: " Join Status Security Channel"
   get:
+    download: "Download Status for"
     mobile:
       title: "Mobile"
-      description: "Chat, transact, and access a revolutionary world of DApps. Install Status in the App and Google Playstore and say hello in the public channel #introductions."
-      apk-file: "APK file here"
-      link-1: "iOS App"
-      link-2: "Android App"
+      description: "Private messaging, secure crypto transactions, Web3 DApp browsing in your pocket."
     desktop:
-      title: "Mac, Windows or Linux"
-      description: "Download & install the latest Desktop alpha and start messaging from where you work."
-      link-1: "macOS App"
-      link-2: "Linux App"
-      link-3: "Windows App"
-      announcement: "This is alpha software and may contain vulnerabilities. <br>Please expect changes."
+      title: "Desktop"
+      description: "Test out Desktop Beta for private, secure communication where you work."
   landing-page-v1:
     intro:
       private-messaging:

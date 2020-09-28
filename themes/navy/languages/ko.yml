@@ -533,19 +533,13 @@ site:
       description: '누구든지 워크북의 토큰 경제 모델을 테스트 해볼 수 있습니다. 만약 여러분이 연구원, 경제학자이시거나 재무 모델에 대해 더 궁금하다면, 스테이터스와 함께 연구에 참여해주시기 바랍니다.'
       link: 'SNT 토큰 모델 테스트'
   get:
+    download: "스테이터스"
     mobile:
-      title: 모바일
-      description: '채팅하고, 거래하고, 혁신적인 디앱을 사용해보세요! 구글 Playstore 또는 애플 App store에서 스테이터스를 설치하고, #introductions 채널에서 인사를 나누어보세요.'
-      apk-file: 'APK 파일을 여기에서 다운로드하세요'
-      link-1: 'iOS 앱'
-      link-2: '안드로이드 앱'
+      title: '모바일'
+      description: '내 주머니 속 <br> 검열 없는 메시징, 안전한 암호화폐 거래, 웹3 브라우징'
     desktop:
-      title: '맥, 윈도우 및 리눅스'
-      description: '데스크톱 앱 최신 알파 버전을 다운로드하고 설치하세요. 언제 어디서든지 메시지를 보낼 수 있습니다.'
-      link-1: '맥OS 앱'
-      link-2: '리눅스 앱'
-      link-3: '윈도우 앱'
-      announcement: '이 소프트웨어는 알파 소프트웨어로서, 몇가지 취약점을 포함할 수 있습니다. <br> 소프트웨어의 변경이 있을 수 있으니 참고 부탁드립니다.'
+      title: '데스크톱'
+      description: '안전한 커뮤니케이션을 돕는 <br> 데스크톱 베타 버전을 테스트 해보세요'
   docs:
     stripe:
       title: '스테이터스 개발자'

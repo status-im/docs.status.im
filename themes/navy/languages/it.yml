@@ -20,6 +20,7 @@ site:
       subtitle: 'Preservare la privacy'
       title: 'Messaggi veramente privati'
       description: 'Status utilizza il protocollo peer-to-peer Whisper e la crittografia end-to-end per proteggere la comunicazione da interferenze di terzi. Solo tu puoi visualizzare i tuoi messaggi.'
+      link: 'Esplora il Messenger di Status'
     wallet:
       subtitle: 'Pagamenti senza confini basate su criptovalute'
       title: 'Portafoglio sicuro criptovalute'
@@ -35,6 +36,13 @@ site:
       title: 'Status Network'
       description: 'Status Network è una raccolta di progetti che realizzano prodotti, strumenti e infrastrutture per comunità resilienti, sostenibili e inclusive. Progettando e costruendo con attenzione alla sicurezza, all''uguaglianza e all''autodeterminazione degli individui.'
       link: 'Scopri di più sulla Rete Status'
+    all:
+      title: 'Chatta, Sfoglia, Esegui transazioni alle tue condizioni'
+      description: 'Integrata in un''unica potente super applicazione per una comunicazione privata e sicura.'
+    account-creation:
+      subtitle: 'Mantieni la tua Privacy'
+      title: 'Creazione di un account pseudo-anonimo'
+      description: 'Non ti verrà mai chiesto un numero di telefono, un indirizzo email o un conto bancario durante la creazione di un account di Status. Mantieni la riservatezza e rivelati selettivamente al mondo con Status.'
   features:
     intro:
       title: 'Il potere di Ethereum in tasca'
@@ -524,16 +532,9 @@ site:
     mobile:
       title: Mobile
       description: 'Chatta, esegui transazioni e accedi al rivoluzionario mondo di DApps. Installa Status dal Google Playstore e presentati nel canale pubblico #introductions.'
-      apk-file: 'File APK qui'
-      link-1: 'App per iOS'
-      link-2: 'App Android'
     desktop:
       title: 'Mac, Windows o Linux'
       description: 'Scarica e installa l''ultimo desktop Alpha e avvia la messaggistica da dove lavori.'
-      link-1: 'App macOS'
-      link-2: 'App Linux'
-      link-3: 'App di Windows'
-      announcement: 'Questo è un software alfa e può contenere vulnerabilità. <br> Per favore aspettati cambiamenti.'
   docs:
     stripe:
       title: 'Sviluppatori di Status'
@@ -901,6 +902,9 @@ site:
       q9:
         question: 'Ho recuperato il mio account e ora vedo solo un portafoglio, anche se ne ho creati di più. Ho perso i miei fondi?'
         answer: 'No, non sono persi. Se hai generato portafogli aggiuntivi da Status e successivamente ripristini il tuo account, dovrai recuperare manualmente i portafogli aggiuntivi seguendo gli stessi passaggi che hai seguito per crearli. Dal portafoglio, seleziona Account > Aggiungi un profilo. Invece di generare un nuovo portafoglio, Status recupererà ogni portafoglio aggiuntivo che hai creato in ordine e le tue criptovalute verranno recuperate con loro. <br> <br> In futuro, garantiremo il ripristino automatico di tutti i tuoi portafogli Status.'
+      q10:
+        question: 'Il portafoglio supporta BitCoin?'
+        answer: 'No, attualmente Status non supporta la blockchain di Bitcoin e l''applicazione supporta solo token Ethereum e asset sviluppate sulla sua blockchain. BitCoin è una blockchain separata e utilizza una rete separata di validatori per le sue transazioni, motivo per cui attualmente è impossibile effettuare transazioni tra le due reti.'
     keycard-general:
       title: 'Informazioni generali su Keycard'
       q1:
@@ -966,3 +970,65 @@ site:
       q5:
         question: 'Ho perso la frase di recupero, cosa devo fare?'
         answer: 'Se hai perso la frase di recupero per il tuo account, devi porre rimedio perché rischi di perdere tutti i tuoi fondi se perdi a un certo punto la tua Keycard o dimentichi il tuo codice PUK / Codice di accoppiamento. Dovresti creare immediatamente un nuovo portafoglio con una nuova frase di recupero e trasferire le tue risorse dal tuo account corrente su quello nuovo appena creato, così da poter accedere grazie alla nuova frase di recupero.'
+  browser:
+    intro:
+      title: 'Browser Web3 privato e sicuro'
+      description: 'Accedi alle ultime defi dapps, agli exchange di token, ai marketplace, a giochi e altro ancora con il Browser Web3'
+    defi:
+      title: 'Guadagna, Risparmia, Scambia con Defi'
+      description: 'Accedi al crescente ecosistema di strumenti e servizi finanziari decentralizzati dal tuo cellulare.'
+      button: 'Esplora le DApp Defi'
+    games:
+      title: 'Giochi, Marketplace e altro ancora'
+      description: 'Gioca, raccogli, scambia e naviga con tutte le tue applicazioni decentralizzate preferite da un unico punto.'
+      button: 'Vedi tutte le DApp'
+    community:
+      description: 'Dap.ps è una soluzione di terze parti per la scoperta di dapp che mira a creare un mercato di dapp equo e gestito con token. Sfruttando SNT e le token economics, Dap.ps decentralizza il modo in cui esploriamo e troviamo le ultime DApps'
+    submit:
+      title: 'Vuoi inviare la tua DApp a Dap.ps per farla conoscere al mondo?'
+      description: 'Segui le istruzioni presenti nel nostro Centro di integrazione DApp'
+      button: 'Centro di integrazione DApp'
+  wallet:
+    intro:
+      title: 'Un Super Portafoglio Crypto'
+      description: 'Con il Portafoglio di Stato sicuro e non custodito, hai il controllo completo dei tuoi fondi.'
+    funds:
+      title: 'Prendi il controllo dei tuoi fondi'
+      description: 'Il Portafoglio di Stato è completamente autonomo - solo tu hai accesso ai tuoi fondi. Ne le banche. Nemmeno Status. Invia, ricevi e conserva ETH, SNT, DAI, risorse e altri asset basati su ethereum sempre alle tue condizioni.'
+    security:
+      title: 'Progettato per la sicurezza'
+      button: 'Visualizza le specifiche'
+    friends:
+      title: 'Guadagna con gli amici'
+      description: 'Presenta un amico e guadagna con il Crypto Starter Pack. Token saranno inviati direttamente al tuo e al loro portafoglio quando creano un account.'
+      button: 'Presenta un amico'
+    payments:
+      title: 'Pagamenti semplici e senza frontiere'
+      description: 'Perfettamente integrato con l''app di messaggistica interna, puoi inviare e ricevere pagamenti da e verso chiunque, in qualsiasi parte del mondo.'
+    dapps:
+      title: 'Defi e altro a portata di mano'
+      button: 'Esplora Dap.ps'
+    accounts:
+      title: 'Portafogli multipli per una maggiore privacy'
+      description: 'Crea più account nel tuo portafoglio di Status. Seleziona l''account che usi per interagire con le DApp, inviare pagamenti e archiviare fondi.'
+    keycard:
+      title: 'Sicurezza fisica con la Keycard'
+      description: 'Aggiungi un livello di sicurezza al tuo account e ai tuoi fondi con Keycard - il portafoglio hardware contactless.'
+  account-creation:
+    intro:
+      title: 'Creazione di un account pseudo-anonimo'
+    usernames:
+      title: 'Nomi utente predefiniti di tre parole e privacy'
+      description: 'Quando crei un account, un processo di randomizzazione seleziona tre parole: Aggettivo, aggettivo, animale. Questo diventa il tuo nome utente predefinito in Stato e si traduce in vero pseudo-anonimato.'
+      button: 'Ulteriori informazioni sui nomi utente di Status'
+    key:
+      title: 'Generazione sicura delle chiavi'
+      button: 'Ulteriori informazioni sulla generazione chiave'
+    status:
+      title: 'Nomi utente "State of Us" con ENS'
+      button: 'Registra un Nome utente "State of Us"'
+    keycard:
+      button: 'Acquista una Keycard'
+  messenger:
+    message:
+      title: 'Messaggia alle tue condizioni'

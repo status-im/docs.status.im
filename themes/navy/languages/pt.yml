@@ -27,7 +27,7 @@ site:
     browser:
       subtitle: 'Seja dono dos seus dados'
       title: 'Navegador Web3 Descentralizado'
-      description: 'Navegue no ecossistema crescente de aplicativos descentralizados de nosso navegador habilitado para Web3. Sem rastreamento. Sem espiões. Só você e seus dados. Navegue pelos últimos mercados, trocas, jogos e muito mais com o aplicativo descentralizado da Status.'
+      description: 'Navegue pelo crescente ecossistema de DApps incluindo marketplaces, corretoras descentralizadas, jogos e redes sociais. Os mais recentes padrões de segurança garantem uma experiência de navegação privada.'
     security:
       title: 'Privado e Seguro por Design'
       description: 'A Status usa as ferramentas de criptografia e segurança mais recentes para garantir que suas mensagens e transações sejam suas e somente suas. A Status remove intermediários para manter suas mensagens privadas e seus ativos seguros. Comunicação confiável e segura.'
@@ -370,6 +370,10 @@ site:
         link-1: 'Veja todos os recursos'
         link-2: Keycard
         description: 'Mensageiro Privado, Carteira de Criptomoedas, <br>Navegador Web3, e mais</br>'
+        link-3: 'Messenger Privado'
+        link-4: 'Criação de conta'
+        link-5: 'Carteira de Criptomoedas Segura'
+        link-6: 'Navegador Web3'
   link:
     get-status: 'Baixar a Status'
     get-involved: Envolva-se
@@ -524,16 +528,10 @@ site:
     mobile:
       title: Móvel
       description: 'Converse, transacione e acesse um mundo revolucionário de DApps. Instale o Status no App Store e no Google Playstore e diga olá no canal público #introductions.'
-      apk-file: 'Arquivo APK aqui'
-      link-1: 'Aplicativo para iOS'
-      link-2: 'Aplicativo Android'
     desktop:
       title: 'Mac, Windows ou Linux'
       description: 'Faça o download e instale o Aplicativo Desktop alpha mais recente e inicie as mensagens de onde você trabalha.'
-      link-1: 'Aplicativo macOS'
-      link-2: 'Aplicativo Linux'
-      link-3: 'Aplicativo Windows'
-      announcement: 'Este é um software alfa e pode conter vulnerabilidades. <br> Por favor, espere mudanças.'
+    download: 'Baixe o Status para'
   docs:
     stripe:
       title: 'Desenvolvedores Status'
@@ -779,7 +777,7 @@ site:
         answer: 'Status é um projeto de código aberto e agradece todas as contribuições, tanto técnicas quanto não técnicas. A <a href=''https://ambassador.status.im/'' target=''_blank''> página de embaixadores </a> é um ótimo lugar para começar. Aqui você pode entrar em contato com colaboradores ativos que podem apoiá-lo na promoção, ensino ou contribuição para a próxima geração da web. <br> <br> Se você é um desenvolvedor e quer sujar as mãos, vá para a documentação de desenvolvimento do DApp. Se você é um desenvolvedor móvel e adora linguagens funcionais, construa na sua máquina o projeto da Status e comece a enviar esses PRs.'
       q15:
         question: 'Como posso solicitar recursos?'
-        answer: 'Como a Status é um projeto de código aberto dirigido pela comunidade, você pode solicitar e contribuir para o desenvolvimento de recursos. Compartilhe suas idéias no canal público <a href=''https://get.status.im/chat/public/status'' target=''_blank''> #status </a> ou em nosso fórum de discussão: <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> . Você também pode abrir uma <a href=''https://github.com/status-im'' target=''_blank''> questão no Github </a> . <br> <br> Se você é um desenvolvedor, siga nosso <a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''> guia do contribuidor </a> para ficar por dentro.'
+        answer: 'Como a Status é um projeto de código aberto dirigido pela comunidade, você pode solicitar e contribuir para o desenvolvimento de funcionalidades. Compartilhe suas idéias no canal público  <a href=''https://join.status.im/status'' target=''_blank''>#status </a> ou em nosso fórum de discussão: <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> . Você também pode abrir uma <a href=''https://github.com/status-im'' target=''_blank''> requisição no Github </a> . <br> <br> Se você é um desenvolvedor, siga nosso <a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''> guia do contribuidor </a> para ficar por dentro.'
       q16:
         question: 'O que é SNT e como funciona no aplicativo?'
         answer: 'SNT é o token de rede da Status. É o token ERC20 (padrão Ethereum) da Status, usado para alimentar a Rede da Status. Certos recursos e funcionalidades exigem que os usuários depositem ou gastem SNT. A utilidade do token é um objetivo principal da Rede da Status, pois o valor de SNT ajuda a garantir a longevidade do projeto.'
@@ -868,7 +866,7 @@ site:
         answer: 'DAp.ps é um diretório descentralizado, curado pela comunidade de DApps, criado para Ethereum, para que você possa explorar facilmente o melhor da web3. Os desenvolvedores DApp podem enviar seus DApps gratuitamente ou fazer uma aposta SNT para aumentar sua classificação. Os usuários também podem votar positiva ou negativamente em listagens DApp com SNT. Quanto mais SNT um desenvolvedor apostar, mais fácil será avaliar negativamente seu DApp.'
       q3:
         question: 'Como eu voto para DApps?'
-        answer: 'Vá para <a href=''_blank'' target=''https://dap.ps''> https://dap.ps </a> , encontre seu DApp favorito e toque em Upvote. Defina a quantidade de SNT que deseja usar e toque em ''upvote''. Quando você vota negativamente um DApp, o valor já está definido. Quanto mais os desenvolvedores DApp investirem para aumentar sua classificação, mais barato será para você votar contra ele. Isso reduz o risco de DApps bem financiados assumir o controle e fazer seu voto na utilidade de DApps contar. <br> <i> Observe que a votação requer SNT, bem como uma pequena quantia de ETH para pagar pela transação. </i>'
+        answer: 'Vá para <a href=''https://dap.ps'' target=''_blank''>https://dap.ps</a> , encontre seu DApp favorito e toque em Upvote. Defina a quantidade de SNT que deseja usar e toque em ''upvote''. Quando você vota negativamente um DApp, o valor já está definido. Quanto mais os desenvolvedores DApp investirem para aumentar sua classificação, mais barato será para você votar contra ele. Isso reduz o risco de DApps bem financiados assumirem o controle e fazer seu voto na utilidade de DApps contar. <br> <i> Observe que a votação requer SNT, bem como uma pequena quantia de ETH para pagar pela transação. </i>'
       q4:
         question: 'O que são as permissões do DApp?'
         answer: 'Os DApps precisam pedir permissão para visualizar e usar o endereço da sua carteira e/ou sua chave de bate-papo. Normalmente, um DApp pede para `Conectar sua carteira`. Quando isso acontece, você recebe um pop-up solicitando ''Negar'' ou ''Permitir'' essa solicitação. As permissões para conectar o endereço da sua carteira são específicas para cada conta que você possui na sua carteira. Se você der permissão para uma nova conta, a permissão para a conta conectada anteriormente será revogada. Se você rejeitar uma solicitação de permissão, o DApp não saberá nada sobre o seu endereço Ethereum, nem poderá iniciar transações. <br> <br> Vá para Perfil > Privacidade e segurança > Defina as permissões do DApp para ver quais DApps podem acessar quais contas e revogar permissões, se desejar. <br> <br> <i> Observe que, se o DApp armazenou seu endereço, isso não pode ser revogado pela Status. </i>'
@@ -901,6 +899,9 @@ site:
       q9:
         question: 'Recuperei minha conta e agora só vejo uma carteira, embora tenha criado mais. Perdi meus fundos?'
         answer: 'Não, eles não estão perdidos. Se você gerou carteiras adicionais a partir da Status e, posteriormente, recuperou sua conta, será necessário recuperar manualmente as carteiras adicionais seguindo as mesmas etapas que executou para criá-las. Na carteira, você irá em Adicionar conta > Adicionar uma conta. Em vez de gerar uma carteira totalmente nova, a Status recuperará cada carteira adicional que você criou em ordem, e seus ativos serão recuperados com elas. <br> <br> No futuro, vamos garantir que todas as suas carteiras da Status sejam recuperadas automaticamente.'
+      q10:
+        question: 'A carteira é compatível com BitCoin?'
+        answer: 'Não, atualmente a Status não suporta o blockchain do Bitcoin, e apenas Ethereum e ativos construídos em sua tecnologia estão disponíveis no aplicativo. O BitCoin é um blockchain separado e usa uma rede separada de validadores para suas transações, razão pela qual atualmente é impossível fazer transações entre as duas redes.'
     keycard-general:
       title: 'Keycard Geral'
       q1:
@@ -966,3 +967,16 @@ site:
       q5:
         question: 'Eu perdi a minha frase inicial, o que devo fazer?'
         answer: 'Se você perdeu sua frase inicial para sua conta atual, você deve agir o quanto antes, porque você corre o risco de perder todos os seus fundos em algum momento se perder seu Keycard ou se esquecer do código PUK/emparelhamento. Você deve criar imediatamente uma nova carteira com uma nova frase inicial e transferir seus ativos da sua conta atual para ela.'
+    banner:
+      title: 'Tem perguntas? Confira o FAQ'
+      button: 'Perguntas frequentes'
+  messenger:
+    p2p:
+      description: 'Status remove pontos de estrangulamento centralizados de suas mensagens para maior privacidade e segurança. Utilizando uma rede ponto a ponto em vez de servidores centralizados para o roteamento de mensagens, sua comunicação é sua e somente sua.'
+      button: 'Ver as Especificações'
+    encryption:
+      title: 'Criptografia de ponta-a-ponta<br> por padrão'
+      description: 'Maior privacidade com criptografia ponta a ponta (p2p) em todas as suas mensagens privadas por padrão. Ninguém além de você e o seu destinatário pode ver suas mensagens - nem mesmo a Status.'
+    protection:
+      title: 'Proteja suas mensagens passadas e futuras'
+      description: 'Status utiliza uma versão modificada do algoritmo de catraca dupla (double ratchet) para sigilo de encaminhamento perfeito. Proteja suas mensagens passadas e futuras, mesmo se suas chaves de criptografia atuais estiverem de alguma forma comprometidas.'

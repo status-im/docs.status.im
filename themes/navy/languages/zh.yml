@@ -370,6 +370,10 @@ site:
         link-1: 查看所有功能
         link-2: Keycard
         description: 隐私聊天、加密钱包、<br>Web3浏览器等
+        link-3: ' 隐私信使'
+        link-4: 账户创建
+        link-5: 安全加密钱包
+        link-6: Web3浏览器
   link:
     get-status: 获取Status
     get-involved: 加入
@@ -524,16 +528,9 @@ site:
     mobile:
       title: 移动
       description: '聊天、交易和访问 DApp 的革命性世界。在App和 Google Playstore 中安装Status，并在公共频道#introductions中打个招呼。'
-      apk-file: APK文件在这里
-      link-1: 'iOS 应用'
-      link-2: 'Android 应用'
     desktop:
       title: 'Mac，Windows 或 Linux'
       description: '下载并安装最新的桌面 alpha 版本, 并让它成为你工作中的通讯工具。'
-      link-1: 'macOS 版应用程序'
-      link-2: 'Linux 版应用程序'
-      link-3: 'Windows 版应用程序'
-      announcement: '这是alpha版软件，可能有漏洞。 <br>请期待修改版本。'
   docs:
     stripe:
       title: Status开发者
@@ -848,7 +845,7 @@ site:
         answer: '您可以与Status以外的朋友分享您的个人资料或特定的聊天频道。 <br> <br>要共享您自己的个人资料和聊天码，请转到您的个人资料界面，然后单击右上角的共享按钮。将生成一个链接，您的朋友可以根据该链接获取Status并添加您的个人资料。 <br> <br>要共享公共聊天，请打开聊天界面，然后从右上角的[...]菜单中选择“共享聊天”。这将生成指向该聊天频道的链接，然后您可以将其发送给Status以外的朋友。'
       q6:
         question: 我加入了公共聊天，但没有看到任何消息。这是为什么？
-        answer: '公开聊天就像广播频道。您可以调谐到某个频道，但是只有其他人正在该频道上广播时，您才会看到消息。您可以通过右上角[...]并与他人共享频道来开始自己的对话并邀请其他人，例如<a href=''https://get.status.im/chat/public/introductions'' target=''_blank''> https://get.status.im/chat/public/introductions </a>'
+        answer: '公共聊天就像广播频道。您可以调谐到某个频道，但是只有其他人正在该频道上广播时，您才会看到消息。您可以通过右上角[...]并与他人共享频道来开始自己的对话并邀请其他人，例如<a href=''https://get.status.im/chat/public/introductions'' target=''_blank''> https://get.status.im/chat/public/introductions </a>'
       q7:
         question: 如何创建新的公共聊天室？
         answer: '在“聊天”选项卡上，点击[+]按钮>加入公共聊天并输入聊天名称。如果该名称在网络上尚不存在，则会自动创建一个。 <br> <br>您看到＃标签就可以想到公共聊天。收集了所有使用相同＃标签的消息。'
@@ -966,3 +963,52 @@ site:
       q5:
         question: 我丢失了助记词，该怎么办？
         answer: '如果您丢失了当前帐户的助记词，则必须行动起来，因为如果再丢失Keycard或忘记PUK 码/配对码，则有可能损失所有资金。您应该立即创建一个有新助记词的新钱包，并从当前帐户中转移资产。'
+    banner:
+      title: 有疑问？查看常见问题解答
+      button: 常见问题
+  account-creation:
+    status:
+      button: 注册.stateofus.eth用户名
+    keycard:
+      title: 用Keycard保护您的帐户
+      description: 使用Keycard向您的Status帐户添加离线的，硬件强制的两步身份验证。要求验证卡+密码以增强帐户安全性。
+      button: 获取Keycard
+  messenger:
+    intro:
+      title: 隐私优先的信使
+      description: 发送隐私1对1，群聊和公共聊天。轻松将付款发送给世界各地的朋友。采用点对点技术构建，以消除第三方的监视。
+    message:
+      title: 按您的意愿发送消息
+      description: 发送1对1隐私聊天，群组聊天，并加入或创建公共聊天频道，让社区通过Status相互联系。
+    payments:
+      title: 简单，无边界的支付
+      description: Status与加密钱包无缝集成，使任何地方的任何人都可以在聊天中直接向全球发送付款
+    stickers:
+      title: 发送贴纸，创建贴纸和使用贴纸赚钱
+      description: 发送没有中间人的表情贴纸。甚至创建自己的贴纸包，并在去中心化贴纸市场上赚取SNT
+      button: 提交包
+    idea:
+      title: 对新功能有建议吗？
+      description: 根据您的经验Status缺少什么功能吗？在我们的系统中创建功能请求
+      link: 社区论坛
+    benefits:
+      title: 利益
+      benefit-1:
+        title: 隐私和假名
+        description: 创建免费的Status帐户时，不需要电话号码、电子邮件地址或银行帐户。
+      benefit-2:
+        title: 抗审查
+        description: 删除中心化服务可保护您的消息免遭第三方审查。
+      benefit-3:
+        title: 免费和开源
+        description: Status既是免费的开源软件，任何人都可以审查，也可以免费安装。
+    p2p:
+      title: 点对点消息传递
+      description: Status在消息传递过程中删除中心化的服务，以提高隐私和安全性。利用点对点网络而不是集中式服务器来路由消息，您的通信由您自己掌控。
+      button: 查看规范
+    encryption:
+      title: 默认情况下端到端加密<br>
+      description: 默认情况下，通过对所有隐私消息进行端到端加密（e2ee）来提高隐私性。除了您和预定的收件人之外，没有其他人可以查看您的消息，即使是Status也无法查看。
+    protection:
+      title: 保护您过去和未来的信息
+      description: Status利用修改后的双棘轮算法版本来实现完美的前向保密性。即使您当前的加密密钥受到某种损害，也会保护您过去和将来的消息。

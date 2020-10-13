@@ -6,10 +6,6 @@
 - name: "Henry Dada"
   image: "henry.jpg"
 
-- name: "Eduardo Garza"
-  image: "eduardo.jpg"
-  twitter: "dondesomos1"
-
 - name: "Cryptounknown"
   image: "cryptounknown.jpg"
   twitter: "CryptoUnknown"
@@ -28,10 +24,6 @@
 - name: "Daniel Bar"
   image: "danieltbar.jpg"
   twitter: "danieltbar"
-
-- name: "Kris Calabio"
-  image: "kris.jpg"
-  twitter: "KuyaKris88"
  
 - name: "Sourav Kumar Nanda"
   image: "nanda.jpg"
@@ -43,7 +35,6 @@
 
 - name: "Lilsiri"
   image: "lilsiri.jpg"
-  twitter: "onebotband"
 
 - name: "Rachid Moulakhnif"
   image: "rachid.jpg"

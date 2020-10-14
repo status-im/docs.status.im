@@ -27,7 +27,7 @@ site:
     wallet:
       subtitle: "Borderless Crypto Payments"
       title: "Secure Crypto Wallet"
-      description: "Safely send, store and receive cryptocurrencies including ERC20 and ERC721 tokens with the Status crypto wallet. Only you hold the keys to your funds. Intuitive design protects you from attack."
+      description: "Safely send, store and receive cryptocurrencies including ERC20 and ERC721 tokens with the Status crypto wallet. Only you hold the keys to your funds. Status' intuitive design protects you and your funds from attacks."
     browser:
       subtitle: "Own Your Data"
       title: "Decentralized Web3 Browser"

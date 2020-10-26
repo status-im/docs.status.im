@@ -531,6 +531,7 @@ site:
     desktop:
       title: 'Mac，Windows 或 Linux'
       description: '下载并安装最新的桌面 alpha 版本, 并让它成为你工作中的通讯工具。'
+    download: '下载 Status'
   docs:
     stripe:
       title: Status开发者
@@ -966,8 +967,45 @@ site:
     banner:
       title: 有疑问？查看常见问题解答
       button: 常见问题
+  wallet:
+    funds:
+      title: 控制您的资金
+      description: 'Status钱包完全不受监管-只有您有权使用资金。银行不能。甚至Status团队也不能访问您的资金。发送、接收和存储 ETH，SNT，DAI，收藏品和其他以太坊资产，全部由您自己决定。'
+    security:
+      title: 专为安全而设计
+      description: 使用最新的安全标准、反网络钓鱼机制以及本地生成和存储的公钥和私钥来保护您的资金。Status钱包，值得信赖。
+      button: 查看规范
+    friends:
+      title: 与朋友一起赚钱
+      description: 推荐朋友并使用加密货币新人礼包赚钱。代币在创建帐户时直接发送到您和他们的钱包中。
+      button: 推荐朋友
+    payments:
+      title: 简单，无边界的支付
+      description: 与隐私信使无缝集成，可以与世界各地的任何人收发付款。
+    dapps:
+      title: 'Defi 触手可及'
+      description: '通过集钱包和Web3浏览器于一体的 Status 访问不断增长的 Web3 Dapp 世界并与之交互。'
+      button: 探索Dap.ps
+    accounts:
+      title: 钱包多帐户，实现更高的隐私性
+      description: '在您的 Status 钱包中创建多个帐户。选择用于与DApp进行交互、收付款和存储资金的帐户。'
+    keycard:
+      title: 'Keycard 硬件级安全性'
+      description: 使用非接触式硬件钱包Keycard为您的帐户和资金增加安全性。
   account-creation:
+    intro:
+      title: 伪匿名帐户创建
+    usernames:
+      title: 三字默认用户名和隐私
+      description: '创建帐户时，会随机选择三个词-形容词，形容词，动物。这将成为 Status 中的默认用户名，并形成真正的伪匿名。'
+      button: 了解有关Status用户名的更多信息
+    key:
+      title: 安全密钥生成
+      description: 在帐户创建过程中，将通过BIP39助记词短语的BIP43派生路径生成聊天和钱包密钥对。只有您可以访问私钥，因此请确保安全。
+      button: 了解有关密钥生成的更多信息
     status:
+      title: stateofus的ENS用户名
+      description: 'ENS代表以太坊名称服务，并允许基于文本的自定义名称替换以太坊地址。任何人都可以在个人资料选项卡中抵押 10 个 SNT 来注册 statusofus.eth 用户名。 <br> <br>需要特别注意的是，当您使用给定的钱包地址注册ENS名称时，因为该地址已与用户名相关联，所以会降低该帐户的隐私性。'
       button: 注册.stateofus.eth用户名
     keycard:
       title: 用Keycard保护您的帐户

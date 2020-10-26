@@ -7,10 +7,10 @@ site:
     about:
       open-source:
         title: 'Un proyecto de código abierto'
-        description: 'Status es completamente de código abierto y hecho por contribuidores de todo el mundo. Desarrolladores, diseñadores, creadores, educadores, aficionados, entusiastas y más - todos tienen acceso libre y abierto a los repos, activos e información.'
+        description: 'Totalmente de código abierto y creado por colaboradores de todo el mundo. Los desarrolladores, diseñadores, creadores, educadores, entusiastas y más tienen acceso libre y abierto a los repositorios, los activos y la información. Diseñado para ser resistente a la censura y libre de control de terceros.'
       mission:
         title: 'Misión y principios'
-        description: 'Status se esfuerza por ser una herramienta de comunicación segura que respete los derechos humanos. Hacemos posible que el dinero de la comunidad, el derecho comunitario y a través de la privacidad, preserve la cultura.'
+        description: 'Status se esfuerza por ser una herramienta de comunicación segura que defienda los derechos humanos. Diseñado para permitir el libre flujo de información, proteger el derecho a conversaciones privadas y seguras y promover la soberanía de las personas.'
     decentralized:
       subtitle: 'Comunicación descentralizada'
       title: 'Mensajee, Navegue, Transaccione en sus Propios Términos'
@@ -521,7 +521,7 @@ site:
   get:
     mobile:
       title: Móvil
-      description: 'Chatea, realiza transacciones y accede a un revolucionario mundo de DApps. Instala Status en la App y Google Playstore y saluda en el canal público #introductions.'
+      description: 'Mensajería privada, cripto transacciones seguras, navegación Web3 DApp en tu bolsillo.'
     desktop:
       title: Escritorio
       description: 'Descarga e instala la última alfa de escritorio e inicia la mensajería desde donde trabajas.'
@@ -575,7 +575,7 @@ site:
       title: 'Recientemente actualizado'
     index:
       intro:
-        title: 'Portal para desarrolladores'
+        title: 'Status Desarrolladores'
         teaser-1: 'Bienvenido al portal de desarrolladores de Status. Encuentra todo lo que necesitas para empezar a contribuir a Status, construyendo tus propios DApps, o ampliando tu trabajo con las funciones nativas de Status.'
       box-link-1:
         title: 'Guía de colaboradores'
@@ -657,13 +657,64 @@ site:
     faq: 'Preguntas frecuentes generales'
     mobile: Móvil
   keycard-integration:
+    about:
+      button-1: 'Ver más'
     faq:
       title: '¿Tenés preguntas?'
+      button: 'Ver más'
   keycard:
+    intro:
+      button: 'Preguntas Frecuentes'
+    security:
+      send: 'Enviar transacción'
+    account:
+      title: 'Proteja su Cuenta'
+      confirmed: 'Inicio de sesión exitoso'
     faq:
       title: '¿Tenés preguntas?'
+      button: 'Visite las Preguntas Frecuentes'
   faq:
+    title: 'Preguntas Frecuentes'
+    general:
+      title: General
+      q1:
+        question: '¿Qué es Status?'
+      q2:
+        question: '¿Quién está detrás de Status?'
+      q3:
+        question: '¿Por qué usar Status?'
+      q4:
+        question: '¿Por qué una mensajería instantánea?'
+      q5:
+        question: '¿Qué hace que Status sea diferente de otras aplicaciones de mensajería?'
+      q6:
+        question: '¿Qué sucede si un gobierno intenta bloquear o censurar Status?'
+      q7:
+        question: '¿Cómo se conecta Status a la cadena de bloques?'
+      q14:
+        question: 'Me gustaría contribuir al proyecto, ¿dónde sugieres que empiece?'
+      q15:
+        question: '¿Cómo puedo solicitar funciones?'
+      q16:
+        question: '¿Qué es SNT y cómo funciona en la aplicación?'
+    keys-and-accounts:
+      title: 'Llaves y Cuentas'
+      q1:
+        question: '¿Qué son las llaves?'
+      q2:
+        question: '¿Qué son las cuentas?'
+      q3:
+        question: '¿Cuál es la dirección de mi billetera?'
     profile-and-settings:
+      title: 'Perfil y Ajustes'
+      q1:
+        question: '¿Qué es un nombre de usuario de ENS?'
+      q2:
+        question: '¿Cuál es la diferencia entre alice.eth y alice.stateofus.eth?'
+      q3:
+        question: '¿Qué es una frase semilla?'
+      q4:
+        question: '¿Qué debo hacer con esta frase semilla?'
       q5:
         question: 'Si pierdo mi teléfono, ¿cómo puedo acceder a mis cuentas?'
       q6:
@@ -672,7 +723,13 @@ site:
         question: 'Perdí mi frase semilla. ¿Qué debo hacer?'
       q8:
         question: '¿Cómo elimino mi perfil?'
+      q9:
+        question: 'Si alguien tiene acceso a mi teléfono, ¿qué parte de mi perfil está encriptada y qué no?'
+      q10:
+        question: '¿Cómo minimizo el uso de datos móviles de Status?'
     messenger:
+      q1:
+        question: '¿Son mis mensajes realmente privados?'
       q2:
         question: '¿Dónde se almacenan mis mensajes? ¿Están en la cadena de bloques?'
       q3:
@@ -705,8 +762,22 @@ site:
         question: '¿Qué significa firmar una transacción?'
       q3:
         question: '¿Cuál es mi frase de firma?'
+      q4:
+        question: '¿Qué activos soporta la billetera de Status?'
+      q5:
+        question: '¿Por qué no se muestran mis activos?'
+      q6:
+        question: '¿Cómo funciona el ENS con la billetera de estado?'
+      q7:
+        question: '¿Por qué tengo que pagar una tarifa de red por las transacciones?'
       q10:
         question: '¿La billetera es compatible con BitCoin?'
+    keycard-general:
+      title: 'Keycard General'
+      q1:
+        question: '¿Para qué sirve la Keycard?'
+      q5:
+        question: '¿Necesito una Keycard para usar Status?'
     keycard-security:
       title: 'Seguridad de la Keycard'
       q2:
@@ -717,17 +788,32 @@ site:
         question: '¿Qué es el código de acceso de 6 dígitos?'
       q4:
         question: '¿Qué es la frase semilla?'
+    keycard-other:
+      title: 'Keycard Otras preguntas'
+      q2:
+        question: 'Perdí mi contraseña de 6 dígitos, ¿qué debo hacer?'
+      q3:
+        question: 'Perdí mi código PUK, ¿qué debo hacer?'
+      q4:
+        question: 'Perdí mi código de emparejamiento, ¿qué debo hacer?'
     banner:
       title: '¿Tiene preguntas? Consulte las Preguntas Frecuentes'
       button: 'Preguntas Frecuentes'
   browser:
+    intro:
+      title: 'Navegador Web3 Privado y Seguro'
     defi:
       title: 'Gane, Ahorre, Intercambie con Defi'
+      button: 'Explore las DApps de Defi'
     games:
+      title: 'Juegos, Mercados y Más'
       button: 'Ver todas las DApps'
     submit:
+      description: 'Siga las instrucciones en nuestro Centro de integración de DApp'
       button: 'Centro de Integración de DApp'
   wallet:
+    intro:
+      title: 'Una Súper Billetera Cripto'
     funds:
       title: 'Tome el Control de Sus Fondos'
     security:
@@ -746,6 +832,10 @@ site:
     keycard:
       title: 'Seguridad de Hardware con Keycard'
   account-creation:
+    intro:
+      title: 'Creación de Cuenta Pseuso-Anónima'
+    usernames:
+      description: 'Al crear una cuenta, un proceso de aleatorización selecciona tres palabras: adjetivo, adjetivo, animal. Esto se convierte en su nombre de usuario predeterminado en Status y da como resultado un verdadero pseudoanonimato.'
     key:
       title: 'Generación de Claves Seguras'
       button: 'Más información sobre la Generación de Claves'

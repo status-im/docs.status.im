@@ -20,6 +20,7 @@ site:
       subtitle: 'Pagpapanatili ng Pagkapribado'
       title: 'Tunay na Pribadong Pagmemensahe'
       description: 'Ang Status ay gumagamit ng open-source, peer-to-peer protocol, at end-to-end encryption upang maprotektahan ang iyong mga mensahe mula sa mga third party. Panatilihing pribado ang iyong mga pribadong mensahe sa Status.'
+      link: 'Galugarin ang Messenger'
     wallet:
       subtitle: 'Borderless Crypto Payments'
       title: 'Secure ang Crypto Wallet'
@@ -27,7 +28,7 @@ site:
     browser:
       subtitle: 'Pag-aari ng Iyong Data'
       title: 'Desentralisadong Browser sa Web3'
-      description: 'Mag-navigate sa lumalagong ecosystem ng mga desentralisadong aplikasyon mula sa aming browser na pinagana ng Web3. Walang pagsubaybay. Walang mga tiktik. Ikaw lang at ang iyong data Mag-browse sa pinakabagong mga merkado, pakipag palitan, laro, at higit pa sa desentralisadong Status app.'
+      description: 'I-browse ang lumalaking ecosystem ng DApps kabilang ang mga marketplaces, palitan, laro at mga social network. Pinakabagong mga pamantayan sa seguridad ay tinitiyak ang isang pribadong karanasan sa pagba-browse.'
     security:
       title: 'Pribado at Secure ng Disenyo'
       description: 'Ang Status ay gumagamit ng bagong encryption at security tools upang matiyak ang iyong mga mensahe at transaksyon ang iyo ay iyo mag-isa lang. Ang Status nagtatanggal ng mga tagapamagitan upang panatilihing pribado ang iyong mga mensaheat ligtas ang iyong mga pag-aari. Tiwala, ligtas na komunikasyon.'
@@ -35,6 +36,13 @@ site:
       title: 'Status Network'
       description: 'Ang Status Network ay isang koleksyon ng proyekto na bumuo ng produkto, tools at imprastraktura para sa matibay, mapanatili at para sa pamayanan. Idinesenyo at binuo para sa seguridad, pagkakapantay-pantay at para sa soberanya bawat isa.'
       link: 'Dagdagan ang nalalaman tungkol sa Status Network'
+    all:
+      title: 'Mensahe, Mag-browse, Mag-transact sa iyong Mga Tuntunin'
+      description: 'Isinama sa isang malakas na super app para sa pribadong secure na komunikasyon.'
+    account-creation:
+      subtitle: 'Panatilihin ang Iyong Pagkapribado'
+      title: 'Pseudo-Anonymous Account Creation'
+      description: 'Hindi ka hihilingin para sa isang numero ng telepono, email address, o bank account kapag lumilikha ng isang Status account. Manatiling pribado at pili na ihayag ang iyong sarili sa mundo na may Status.'
   features:
     intro:
       title: 'Ang kapangyarihan ng Ethereum ay nasa iyong bulsa'
@@ -370,6 +378,10 @@ site:
         link-1: 'Tingnan ang Lahat ng Mga Tampok'
         link-2: Keycard
         description: 'Pribadong Messenger, Crypto Wallet, <br>Web3 Browser, at iba pa.'
+        link-3: 'Pribadong Messenger'
+        link-4: 'Paglikha ng Account'
+        link-5: 'Secure Crypto Wallet'
+        link-6: 'Web3 Browser'
   link:
     get-status: 'Kumuha ng Status'
     get-involved: 'Maging kasangkot'
@@ -430,7 +442,7 @@ site:
         title: 'Komunikasyon at Post-mortem'
     core-contributors:
       title: 'Core Contributors'
-      description: 'Ang Status ay hindi isang tradisyunal na samahan. Wala kaming hierarchy, walang opisina at walang tagapamahala. Narito kaming lahat upang makamit ang aming misyon, at may kalayaan tayong pumili kung paano natin ito ginagawa.'
+      description: 'Ang Status ay hindi isang tradisyunal na samahan. Wala kaming hierarchy, walang managers at at hinihimok namin ang kalayaan ng lokasyon. Nandito kaming lahat upang makamit ang aming misyon, at may kalayaan tayong pumili kung paano natin ito gagawin.'
       link-1: 'Sumali na at tignan lahat ng bakanteng posisyon'
       link-2: 'Matuto nang higit pa tungkol sa Status'
     join-us:
@@ -509,7 +521,7 @@ site:
     crypto-research:
       title: 'Cryptoeconomic Research'
       description-1: 'Mga Kontribyutor ng Komunidad mula sa buong mundo ay nagsagawa ng pananaliksik sa mga modelo ng cryptoeconomic para sa use case ng SNT upang ipaalam sa produkto at tampok na pag-unlad pati na rin ang insentibo sa Status Network. <br><br> Ang mga modelong cryptoeconomic na ito ay isang patuloy na pagsisikap sa pagsasaliksik at kahit sino ay hinihikayat na mag-explore, kritika, at suriin ang gawain.'
-      link-1: 'Sumali #status'
+      link-1: 'Sumali sa #status'
       description-2: 'Sumali sa public channel at matuto nang higit pa tungkol sa aming pananaliksik'
       link-2: 'Sumali sa aming talakayan'
     learn-more:
@@ -523,17 +535,11 @@ site:
   get:
     mobile:
       title: Mobile
-      description: 'Makipag-chat, makipag-transaksyon, at ma-access ang isang rebolusyonaryo ng mundo ng DApps. I-Install ang Status App sa Google Playstore at mag-hello sa pampublikong channel  #mga panimula'
-      apk-file: 'APK file ay nandito'
-      link-1: 'iOS App'
-      link-2: 'Android App'
+      description: 'Pribadong pagmemensahe, ligtas ang mga transaksyon sa crypto, pag-browse sa Web3 DApp sa iyong bulsa.'
     desktop:
-      title: 'Mac, Windows o Linux'
-      description: 'Mag-Download at i-install ang bagong Desktop alpha at simulan mag mensahe kahit saan ka magtrabaho.'
-      link-1: 'macOS App'
-      link-2: 'Linux App'
-      link-3: 'Windows App'
-      announcement: 'Ito ang Alpha Software at maaaring maglaman ng vulnerabilities.<br>Mangyaring asahan ang mga pagbabago.'
+      title: Desktop
+      description: 'Subukan ang Desktop Beta para sa pribado, ligtas na komunikasyon kung saan ka nagtatrabaho.'
+    download: 'I-download ang Status para sa'
   docs:
     stripe:
       title: 'Status Developers'
@@ -901,6 +907,9 @@ site:
       q9:
         question: 'Nabawi ko ang aking account at ngayon lang ako nakakita ng isang pitaka, kahit na gumawa ako ng higit pa. Nawalan ba ako ng pondo?'
         answer: 'Hindi, hindi sila nawala. Kung nakalikha ka ng mga karagdagang mga pitaka mula sa Status at mamaya makuha mo ang iyong account, kakailanganin mong manu-manong mabawi ang karagdagang mga wallets sa pamamagitan ng pagsunod sa parehong mga hakbang na ginawa mo upang lumikha ng mga ito. Mula sa pitaka, magdagdag ka ng account> Magdagdag ng isang account. Sa halip na makabuo ng isang bagong tatak na pitaka, babawiin ng Status ang bawat karagdagang pitaka na nilikha mo nang maayos, at ang iyong mga pag-aari ay mababawi sa kanila. <br><br> sa hinaharap, sisiguraduhin naming lahat ay awtomatikong mababawi sa pitaka.'
+      q10:
+        question: 'Sinusuportahan ba ng wallet ang BitCoin?'
+        answer: 'Hindi, kasalukuyang ang Status ay hindi sumusuporta sa Bitcoin blockchain, at tanging ang Ethereum at mga assets na itinayo sa itaas ang magagamit sa loob ng application. Ang BitCoin ay isang hiwalay na blockchain at gumagamit ng isang magkakahiwalay na network ng mga validator para sa mga transaksyon nito, kaya''t sa kasalukuyan imposibleng gumawa ng mga transaksyon sa pagitan ng dalawang network.'
     keycard-general:
       title: 'Pangkalahatang Keycard'
       q1:
@@ -966,3 +975,111 @@ site:
       q5:
         question: 'Nawala ko ang aking parirala ng binhi (Seed phrase), ano ang dapat kong gawin?'
         answer: 'Kung nawala mo ang iyong seed phrase para sa iyong kasalukuyang account, kailangan mong kumilos dahil nasa peligro ka na, at maaring mawala ang lahat ng iyong mga pondo sa ilang punto kung nawala mo ang iyong Keycard o nakalimutan ang iyong PUK / Pagpapares code. Dapat kang lumikha agad ng isang bagong pitaka/wallet na may bagong seedn phrase at ilipat ang iyong mga assets mula sa iyong kasalukuyang account dito.'
+    banner:
+      title: 'May Mga Katanungan? Suriin ang FAQ'
+      button: 'Mga Madalas Itanong'
+  browser:
+    intro:
+      title: 'Pribado at Secure na Web3 Browser'
+      description: 'I-access ang pinakabagong mga defi dapp, palitan, merkado, laro at higit pa sa Web3 Browser'
+    defi:
+      title: 'Kumita, Magtipid, Makipagpalitan kay Defi'
+      description: 'I-access ang lumalaking ecosystem ng desentralisadong mga tool sa pananalapi at serbisyo lahat mula sa iyong mobile phone.'
+      button: 'Galugarin ang Defi DApps'
+    games:
+      title: 'Mga Laro, Marketplace at marami pa'
+      description: 'Maglaro, mangolekta, makipagkalakalan, at mag-browse sa lahat ng iyong mga paboritong desentralisadong aplikasyon sa isang lugar.'
+      button: 'Tingnan ang lahat ng DApps'
+    community:
+      title: 'Community Curated Discovery kasama ang Dap.ps'
+      description: 'Ang Dap.ps ay isang third party na solusyon sa pagtuklas ng dapp na naglalayong lumikha ng isang patas, token na na-curate na dapp marketplace. Paggamit ng SNT at token economics, ang Dap.ps ay desentralisahin ang paraan ng aming paggalugad at paghanap ng pinakabagong DApps'
+    submit:
+      title: 'Nais mong isumite ang iyong DApp sa Dap.ps para makita ng mundo?'
+      description: 'Sundin ang mga tagubilin sa aming DApp Integration Center'
+      button: 'DApp Integration Center'
+  wallet:
+    intro:
+      title: 'Isang Crypto Super Wallet'
+      description: 'Gamit ang ligtas,non-custodial na Status Wallet, kumpleto ang kontrol mo sa iyong mga pondo.'
+    funds:
+      title: 'Kontrolin ang iyong mga Pondo'
+      description: 'Ang Status Wallet ay ganap na non-custodial - mayroon kang access sa iyong mga pondo. Hindi mga bangko. Kahit ang Status ay hindi. Magpadala, tumanggap, at mag-imbak ng ETH, SNT, DAI, mga koleksiyon at iba pang mga assets ng Ethereum sa iyong mga tuntunin.'
+    security:
+      title: 'Dinisenyo para sa Seguridad'
+      description: 'Protektahan ang iyong pondo gamit ang pinakabagong mga pamantayan sa seguridad, mga mekanismo laban sa phishing, at lokal na nabuo at naimbak na pampubliko at pribadong mga key. Magtiwala na ligtas ang iyong mga assets sa Status Wallet.'
+      button: 'Tingnan ang mga Detalye'
+    friends:
+      title: 'Kumita kasama ang iyong Kaibigan'
+      description: 'I-refer ang iyong kaibigan at kumita gamit ang Crypto Starter Pack. Direktang ipinadala ang mga token sa iyo at sa kanilang wallet kapag lumikha sila ng isang account.'
+      button: 'I-refer ang iyong Kaibigan'
+    payments:
+      title: 'Simple, Walang Hangganan na mga Pagbabayad'
+      description: 'Mahusay na isinama sa pribadong messenger, magpadala at tumanggap ng mga pagbabayad sa at mula sa sinuman, saanman sa mundo.'
+    dapps:
+      title: 'Defi at Higit Pa sa iyong mga Daliri'
+      description: 'Pag-access at pakikipag-ugnay sa lumalaking mundo ng web3 dapps gamit ang pinagsamang wallet at web3 browser.'
+      button: 'Galugarin ang Dap.ps'
+    accounts:
+      title: 'Maramihang mga Wallet Account para sa mas Malaking Privacy'
+      description: 'Lumikha ng maraming mga account sa iyong Status wallet. Piliin kung aling account ang ginagamit mo para sa pakikipag-ugnay sa DApps, pagpapadala ng mga pagbabayad, at pag-iimbak ng mga pondo.'
+    keycard:
+      title: 'Hardware Security gamit ang Keycard'
+      description: 'Magdagdag ng isang layer ng seguridad sa iyong account at mga pondo gamit ang Keycard - ang contactless hardware wallet.'
+  account-creation:
+    intro:
+      title: 'Pseudo-Anonymous Account Creation'
+    usernames:
+      title: 'Three-Word Default Usernames at Privacy'
+      description: 'Kapag lumilikha ng isang account, ang isang proseso ng randomization ay pipili ng tatlong mga salita - Pang-uri, pang-uri, hayop. Ito ang iyong naging default na username sa Katayuan at nagreresulta sa tunay na pseudo-pagkawala ng lagda.'
+      button: 'Matuto Nang Higit Pa tungkol sa mga Username ng Status'
+    key:
+      title: 'Secure Key Generation'
+      description: 'Sa panahon ng proseso ng paglikha ng account, ang isang chat at wallet keypair ay mabubuo sa pamamagitan ng isang landas na nagmula sa BIP43 mula sa isang BIP39 mnemonic seed phrase. Ikaw lang ang may access sa mga pribadong key kaya''t panatilihing ligtas ang mga ito.'
+      button: 'Matuto Nang Higit Pa tungkol sa Key Generation'
+    status:
+      title: 'Mga Username ng Estado ng Us na may ENS'
+      description: 'Ang ENS ay nangangahulugang Ethereum Name Service, at pinapayagan ang mga Ethereum addresses na mapalitan ng mga pasadyang pangalan na batay sa teksto. Kahit sino ay maaaring magrehistro ng isang username na statusofus.eth sa pamamagitan ng pag-staking ng 10 SNT mula sa loob ng Profile Tab. <br> <br> Mahalagang tandaan, na kapag nagrehistro ka ng isang pangalan ng ENS na may isang naibigay na wallet address, ang address na iyon ay nauugnay ngayon sa username, binabawasan ang privacy ng account na iyon.'
+      button: 'Magrehistro ng Status ng Us Username'
+    keycard:
+      title: 'Protektahan ang iyong Account gamit ang Keycard'
+      description: 'Magdagdag offline, ipinatupad ng hardware na two-factor-authentication sa iyong Status account gamit ang Keycard. Hilingin ang tap ng isang card + pin entry para sa higit na seguridad sa iyong account.'
+      button: 'Kumuha ng isang Keycard'
+  messenger:
+    intro:
+      title: 'Isang Privacy-First Messenger'
+      description: 'Magpadala ng pribadong 1: 1, grupo, at mga pampublikong chat. Madaling magpadala ng mga pagbabayad sa mga kaibigan sa buong mundo. Itinayo sa teknolohiyang peer-to-peer upang alisin ang pagsubaybay sa mga third party.'
+    message:
+      title: 'Mensahe sa iyong mga tuntunin'
+      description: 'Magpadala ng 1: 1 mga pribadong chat, pribadong group chats, at sumali o lumikha ng mga pampublikong channel upang kumonekta sa iyong komunidad.'
+    payments:
+      title: 'Simple, Walang Hangganan na mga Pagbabayad'
+      description: 'Mahusay na isinama sa crypto wallet, nagbibigay-daan ang Status sa sinuman, saanman upang magpadala ng mga pandaigdigang pagbabayad nang direkta sa isang chat'
+    stickers:
+      title: 'Magpadala, Lumikha, at Kumita gamit ang mga Sticker'
+      description: 'Magpadala ng mga nagpapahiwatig na sticker nang walang middle men.w Lumikha pa ng iyong sariling mga pack at kumita ng SNT sa desentralisadong marketplace ng sticker'
+      button: 'Magsumite ng Pack'
+    idea:
+      title: 'May ideya ba para sa isang bagong tampok?'
+      description: 'Mayroon bang kulang sa iyong karanasan? Lumikha ng isang feature request sa aming'
+      link: 'Community forum'
+    benefits:
+      title: 'Mga benepisyo'
+      benefit-1:
+        title: 'Pribado at Pseudonymous'
+        description: 'Walang kinakailangang numero ng telepono, email address, o bank account kapag lumilikha ng iyong libreng Status Account.'
+      benefit-2:
+        title: 'Lumalaban sa Censorship'
+        description: 'Ang pag-aalis ng mga sentralisadong choke point ay pinoprotektahan ang iyong mga mensahe mula sa pag-censor ng mga third party.'
+      benefit-3:
+        title: 'Libre at Bukas na Mapagkukunan'
+        description: 'Ang Status ay parehong libre (libre) bukas na mapagkukunan ng software na maaaring suriin ng sinuman pati na rin ang libreng (walang gastos) pag-install.'
+    p2p:
+      title: 'Peer-to-Peer na Pagmemensahe'
+      description: 'Tinatanggal ng Status ang mga sentralisadong choke points mula sa iyong mga mensahe para sa higit na privacy at seguridad. Pag-lever ng isang peer-to-peer network sa halip na sentralisadong mga server para sa pagruruta ng mga mensahe, ang iyong komunikasyon ay sa iyo at ikaw lamang.'
+      button: 'Tingnan ang mga Detalye'
+    encryption:
+      title: 'End-to-End Encryption <br> bilang Default.'
+      description: 'Tumaas na privacy na may end-to-end na pag-encrypt (e2ee) sa lahat ng iyong mga pribadong mensahe bilang default. Walang sinuman maliban sa iyo at sa iyong nilalayon na tatanggap ang maaaring tumingin ng iyong mga mensahe - kahit na ang Status.'
+    protection:
+      title: 'Protektahan ang Iyong Nakaraan at Mga Hinaharap na Mensahe'
+      description: 'Pinakikinabangan ng Status ang isang binagong bersyon ng double ratchet algorithm para sa perpektong lihim na pasulong. Protektahan ang iyong nakaraan at hinaharap na mga mensahe kahit na ang iyong kasalukuyang mga key ng pag-encrypt ay sa anumang paraan nakompromiso.'

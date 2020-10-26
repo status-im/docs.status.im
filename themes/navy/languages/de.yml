@@ -13,13 +13,14 @@ site:
         description: 'Status strebt danach, ein sicheres Kommunikationsinstrument zu sein, das die Menschenrechte wahrt. Es wurde entwickelt, um den freien Informationsfluss zu ermöglichen, das Recht auf private, sichere Gespräche zu schützen und die Souveränität des Einzelnen zu fördern.'
     decentralized:
       subtitle: 'Dezentrale Kommunikation'
-      title: 'Chatten, surfen und Transaktionen tätigen – zu Ihren Bedingungen'
+      title: 'Chatten, surfen und Transaktionen tätigen – zu Deinen Bedingungen'
       description: 'Status kombiniert einen dezentralen Messenger, eine Wallet und einen DApp-Browser zu einem leistungsstarken, privaten und sicheren Kommunikationstool.'
       link: 'Entdecken Sie alle Funktionen'
     private:
       subtitle: 'Wahrung der Privatsphäre'
       title: 'Wirklich privates Messaging'
       description: 'Status verwendet das Peer-to-Peer-Protokoll Whisper und die Ende-zu-Ende-Verschlüsselung, um Ihre Kommunikation vor Dritten zu schützen. Nur Sie können Ihre Nachrichten sehen.'
+      link: 'Entdecken Sie Messenger'
     wallet:
       subtitle: 'Grenzenlose Krypto-Zahlungen'
       title: 'Sichere Krypto-Wallet'
@@ -35,6 +36,13 @@ site:
       title: Status-Netzwerk
       description: 'Das Status-Netzwerk ist eine Sammlung von Projekten, die Produkte, Tools und Infrastruktur für belastbare, nachhaltige und integrative Gemeinschaften aufbauen. Entwerfen und Bauen für Sicherheit, Gleichheit und für die Souveränität des Einzelnen.'
       link: 'Erfahren Sie mehr über das Status-Netzwerk'
+    all:
+      title: 'Nachricht, Durchsuchen, Geschäfte zu Ihren Bedingungen tätigen'
+      description: 'Integriert in eine leistungsstarke Superanwendung für private sichere Kommunikation.'
+    account-creation:
+      subtitle: 'Bewahren Sie Ihre Privatsphäre'
+      title: 'Pseudo-Anonyme Konto-Erstellung'
+      description: 'Sie werden bei der Erstellung eines Statuskontos niemals nach einer Telefonnummer, E-Mail-Adresse oder einem Bankkonto gefragt. Bleiben Sie privat und offenbaren Sie sich der Welt selektiv mit Status.'
   features:
     intro:
       title: 'Die Kraft von Ethereum in Ihrer Tasche'
@@ -81,7 +89,7 @@ site:
         link: 'Optimieren und registrieren Sie Ihre DApp'
     get:
       title: 'Status herunterladen'
-      description: 'Genießen Sie Status unter iOS, Android, MacOS, Windows und Linux.'
+      description: 'Genieße Status unter iOS und Android.'
       link: 'Apps herunterladen'
   get-involved:
     index:
@@ -141,11 +149,11 @@ site:
           title: 'Ungelöste Fragen von Status-Go'
           link: 'Alle offenen Fragen anzeigen'
         earn-crypto:
-          title: 'Verdienen Sie Kryptowährung für das <br>Abschließen von Bounties'
+          title: 'Verdiene Kryptowährung für das <br>Abschließen von Bounties'
           description: 'Die vollständige Liste der technischen Prämien finden Sie hier'
           link: Gitcoin
         report-a-security-vulnerability:
-          title: 'Melden sie eine Sicherheitsschwachstelle <br>und beheben Sie diese'
+          title: 'Melde eine Sicherheitsschwachstelle <br>und behebe diese'
           description: 'Erfahren Sie mehr über'
           link: Bug-Bounty-Programm
       development-dapp:
@@ -199,7 +207,7 @@ site:
           link-1-description: 'Schauen Sie sich diesen Leitfaden an, der vom Community-Mitglied Warsoverjohn erstellt wurde.'
           link-2: Glossar
           link-2-description: 'In diesem Open Source-Dokument finden Sie Begriffe, Definitionen, Ressourcen und Konzepte. Fühlen Sie sich frei, weitere Informationen hinzuzufügen.'
-          link-3: FAQs
+          link-3: FAQ
           link-3-description: 'Hier finden Sie eine fortlaufende Liste häufig gestellter Fragen von allen Mitgliedern der Status-Community.'
         create:
           title: Erstellen
@@ -353,7 +361,7 @@ site:
       security: Sicherheit
       docs:
         title: Dokumentation
-        description: 'Alles, was Sie brauchen, um <br>mit der Entwicklung von Status zu beginnen'
+        description: 'Alles, was Du brauchst, um <br>mit der Entwicklung von Status anzufangen.'
         link: Dokumente
         link-1: DApp-Integration
         link-2: 'Leitfaden für Mitwirkende'
@@ -370,6 +378,10 @@ site:
         link-1: 'Alle Funktionen anzeigen'
         link-2: Keycard
         description: 'Private Messenger, Crypto Wallet, <br> Web3-Browser und mehr'
+        link-3: 'Privater Messenger'
+        link-4: Konto-Erstellung
+        link-5: 'Sichere Krypto-Brieftasche'
+        link-6: Web3-Browser
   link:
     get-status: 'Status herunterladen'
     get-involved: 'Machen Sie mit'
@@ -518,22 +530,16 @@ site:
       link: 'Treten Sie #status bei'
     create-your-snt:
       title: 'Erstellen Sie Ihr eigenes SNT-Finanzmodell'
-      description: 'Wir ermutigen jeden, sich zu engagieren und die in den Arbeitsmappen beschriebenen Wirtschaftsmodelle zu testen. Wenn Sie Forscher, Ökonom oder einfach nur neugierig auf Finanzmodelle sind, engagieren Sie sich bitte.'
+      description: 'Wir ermutigen jeden, sich zu engagieren und die in den Arbeitsmappen beschriebenen Wirtschaftsmodelle zu testen. Wenn Du Forscher, Ökonom oder einfach nur neugierig auf Finanzmodelle bist, engagieren Dich bitte.'
       link: 'Testen Sie die SNT-Token-Modelle'
   get:
     mobile:
       title: Mobil
       description: 'Chatten Sie, transferieren Sie Kryptowährung und greifen Sie auf eine revolutionäre Welt von DApps zu. Installieren Sie Status im App Store und Google Playstore und sagen Sie "Hallo" im öffentlichen Kanal #introductions.'
-      apk-file: 'APK-Datei hier'
-      link-1: iOS-App
-      link-2: Android-App
     desktop:
       title: 'Mac, Windows oder Linux'
       description: 'Laden Sie das neueste Desktop Alpha herunter und installieren Sie es. Starten Sie Messaging von Ihrem Arbeitsplatz aus.'
-      link-1: macOS-App
-      link-2: Linux-App
-      link-3: Windows-App
-      announcement: 'Dies ist Alpha-Software und kann Schwachstellen enthalten. <br> Bitte erwarten Sie Änderungen.'
+    download: 'Downloaden Sie Status für'
   docs:
     stripe:
       title: 'Dokumentation von Status'
@@ -595,7 +601,7 @@ site:
         cta: Loslegen
       box-link-3:
         title: Tutorials
-        text: 'Folgen Sie uns und erfahren Sie, wie Sie mit Status und einem der Status-Netzwerk-Projekte beitragen und aufbauen können:<br>&nbsp;<br>, DApps aufbauen, Hardware-Sicherheit integrieren, mit Nimbus oder Vac einrichten. Lernen Sie von den wichtigsten Beitragenden und von der Gemeinschaft erstellten Tutorials. Sie sehen nicht, wonach Sie suchen? Erstellen Sie Ihre eigenen, von denen andere profitieren können.</br>'
+        text: 'Folge uns und erfahre, wie Du mit Status und einem der Status-Netzwerk-Projekte beitragen kannst: <br>&nbsp;<br>, Erstelle dApps, integriere Hardwaresicherheit und integriere mit Nimbus oder Vac. Lerne von den wichtigsten Beitragenden und von der Gemeinschaft erstellter Tutorials. Du findest nicht, wonach Du suchst? ~Erstelle Deinen eigenen, von denen andere profitieren können.~'
         cta: 'Alle Tutorials anzeigen'
         text-1: 'Webassembly/EWasm - Was und Warum'
         description-1: 'Beenden Sie das Tutorial mit einer kurzen Reihe von Details'
@@ -901,6 +907,9 @@ site:
       q9:
         question: 'Ich habe mein Konto wiederhergestellt, und jetzt sehe ich nur noch eine Brieftasche, obwohl ich mehr erstellt habe. Habe ich mein Geld verloren?'
         answer: 'Nein, sie sind nicht verloren. Wenn Sie zusätzliche Brieftaschen aus Status heraus generiert haben und später Ihr Konto wiederherstellen, müssen Sie die zusätzlichen Brieftaschen manuell wiederherstellen, indem Sie die gleichen Schritte befolgen, wie Sie sie erstellt haben. Von der Brieftasche aus werden Sie Konto hinzufügen > Konto hinzufügen. Anstatt eine nagelneue Brieftasche zu erstellen, wird Status jede weitere Brieftasche, die Sie im Auftrag erstellt haben, wiederherstellen, und Ihre Guthaben werden mit ihnen wiederhergestellt. <br><br>Künftig werden wir dafür sorgen, dass alle Ihre Status-Brieftaschen automatisch wiederhergestellt werden.'
+      q10:
+        question: 'Unterstützt diese Wallet Bitcoin?'
+        answer: 'Nein, derzeit unterstützt Status die Bitcoin-Blockchain nicht. In der Anwendung sind nur Ether und auf Ethereum aufbauende Assets verfügbar. Bitcoin ist eine separate Blockchain und verwendet für seine Transaktionen ein separates Protokoll. Daher ist es derzeit nicht möglich, Transaktionen zwischen den beiden Blockchains durchzuführen.'
     keycard-general:
       title: 'Keycard Allgemein'
       q1:
@@ -966,3 +975,111 @@ site:
       q5:
         question: 'Ich habe meine Seed-Phrase verloren, was soll ich tun?'
         answer: 'Wenn Sie Ihre Seed-Phrase für Ihr Account verloren haben, müssen Sie handeln, da Sie Gefahr laufen, irgendwann Ihr gesamtes Guthaben zu verlieren, wenn Sie Ihre Keycard verlieren oder Ihren PUK/Pairing-Code vergessen. Sie sollten sofort eine neue Wallet mit einer neuen Startphrase erstellen und Ihr Guthaben von Ihrem Account darauf übertragen. '
+    banner:
+      title: 'Sie haben Fragen? Bitte schauen Sie in die FAQ'
+      button: 'Häufig gestellte Fragen'
+  browser:
+    intro:
+      title: 'Privater & sicherer Web3-Browser'
+      description: 'Mit dem Web3-Browser haben Sie Zugang zu den neuesten Defi-Dapps, Tauschbörsen, Marktplätzen, Spielen und mehr'
+    defi:
+      title: 'Verdienen, Sparen, Tauschen mit Defi'
+      description: 'Greifen Sie von Ihrem Mobiltelefon aus auf das wachsende Ökosystem dezentralisierter Finanzwerkzeuge und -dienstleistungen zu.'
+      button: 'Entdecken Sie Defi DApps'
+    games:
+      title: 'Spiele, Marktplätze und mehr'
+      description: 'Spielen, sammeln, tauschen und browsen Sie mit all Ihren bevorzugten dezentralen Anwendungen an einem Ort.'
+      button: 'Alle DApps anzeigen'
+    community:
+      title: 'Gemeinschaftskuratierte Entdeckung mit Dap.ps'
+      description: 'Dap.ps ist eine Dapp-Discovery-Lösung von Drittanbietern, die darauf abzielt, einen fairen, von Token kuratierten Dapp-Marktplatz zu schaffen. Dap.ps nutzt die SNT- und Token-Ökonomie und dezentralisiert die Art und Weise, wie wir die neuesten DApps erkunden und finden'
+    submit:
+      title: 'Möchten Sie Ihre DApp bei Dap.ps einreichen, damit die Welt sie sehen kann?'
+      description: 'Folgen Sie den Anweisungen in unserem DApp-Integrationszentrum'
+      button: DApp-Integrationszentrum
+  wallet:
+    intro:
+      title: 'Eine Crypto Super Wallet'
+      description: 'Mit dem sicheren, nicht auf Freiheitsentzug basierenden Status Wallet haben Sie die vollständige Kontrolle über Ihre Gelder.'
+    funds:
+      title: 'Übernehmen Sie die Kontrolle über Ihre Gelder'
+      description: 'Die Status Wallet ist vollständig frei verfügbar - nur Sie haben Zugriff auf Ihre Gelder. Keine Banken. Nicht einmal Status. Senden, empfangen und lagern Sie ETH, SNT, DAI, Sammlerstücke und andere Vermögenswerte von ethereum zu Ihren Bedingungen.'
+    security:
+      title: 'Entwickelt für Sicherheit'
+      description: 'Schützen Sie Ihre Gelder mit den neuesten Sicherheitsstandards, Anti-Phishing-Mechanismen und lokal erzeugten und gespeicherten öffentlichen und privaten Schlüsseln. Vertrauen Sie darauf, dass Ihre Vermögenswerte mit der Status Wallet sicher sind.'
+      button: 'Ansicht der Spezifikationen'
+    friends:
+      title: 'Mit Freunden verdienen'
+      description: 'Werben Sie einen Freund und verdienen Sie mit dem Crypto Starter Pack. Token werden direkt zu Ihnen und Ihrer Brieftasche geschickt, wenn sie ein Konto erstellen.'
+      button: 'Einen Freund werben'
+    payments:
+      title: 'Einfache, grenzenlose Zahlungen'
+      description: 'Nahtlos in den privaten Messenger integriert, senden und empfangen Sie Zahlungen an und von jedem, überall auf der Welt.'
+    dapps:
+      title: 'Defi & More immer zur Hand'
+      description: 'Mit der integrierten Brieftasche und dem Web3-Browser können Sie auf die wachsende Welt der Web3-Dapps zugreifen und mit ihr interagieren.'
+      button: 'Entdecken Sie Dap.ps.'
+    accounts:
+      title: 'Mehrere Brieftaschenkonten für mehr Privatsphäre'
+      description: 'Erstellen Sie mehrere Konten in Ihrer Status-Wallet. Wählen Sie aus, welches Konto Sie für die Interaktion mit DApps, das Senden von Zahlungen und die Speicherung von Geldern verwenden.'
+    keycard:
+      title: 'Hardware-Sicherheit mit Keycard'
+      description: 'Fügen Sie Ihrem Konto und Ihrem Guthaben mit Keycard - der kontaktlosen Hardware-Brieftasche - eine zusätzliche Sicherheitsebene hinzu.'
+  account-creation:
+    intro:
+      title: 'Pseudo-Anonyme Konto-Erstellung'
+    usernames:
+      title: 'Dreiwort-Standardbenutzernamen und Datenschutz'
+      description: 'Bei der Erstellung eines Kontos wählt ein Randomisierungsprozess drei Wörter aus - Adjektiv, Adjektiv, Tier. Dies wird Ihr Standard-Benutzername in Status und führt zu echter Pseudo-Anonymität.'
+      button: 'Erfahren Sie mehr über Status-Benutzernamen'
+    key:
+      title: 'Sichere Schlüsselgenerierung'
+      description: 'Während des Erstellungsprozesses eines Kontos wird ein Chat- und Wallet-Schlüsselpaar über einen von BIP43 abgeleiteten Pfad aus einer BIP39 mnemonischen Anfangsphrase generiert. Nur Sie haben Zugriff auf die privaten Schlüssel, also bewahren Sie sie sicher auf.'
+      button: 'Erfahren Sie mehr über die Schlüsselgenerierung'
+    status:
+      title: 'State of Us Benutzername mit ENS'
+      description: 'ENS steht für Ethereum Name Service und ermöglicht es, Ethereum-Adressen durch benutzerdefinierte, textbasierte Namen zu ersetzen. Jeder kann einen statusofus.eth-Benutzernamen registrieren, indem er 10 SNT von der Registerkarte Profil aus einsetzt. <br><br>Es ist wichtig zu beachten, dass bei der Registrierung eines ENS-Namens mit einer bestimmten Brieftaschenadresse diese Adresse nun mit dem Benutzernamen verknüpft wird, wodurch die Privatsphäre dieses Kontos eingeschränkt wird.'
+      button: 'Registrieren sie einen Status of Us Benutzername'
+    keycard:
+      title: 'Schützen Sie Ihr Konto mit Keycard'
+      description: 'Fügen Sie Ihrem Statuskonto mit Keycard eine hardwareerzwungene Zwei-Faktor-Authentifizierung hinzu. Für eine höhere Sicherheit Ihres Kontos ist der Einsatz einer Karte + Pin-Eingabe erforderlich.'
+      button: 'Holen Sie sich eine Keycard'
+  messenger:
+    intro:
+      title: 'Ein Privacy-First Messenger'
+      description: 'Senden Sie private 1:1, Gruppen- und öffentliche Chats. Senden Sie einfach Zahlungen an Freunde auf der ganzen Welt. Entwickelt mit Peer-to-Peer-Technologie, um überwachende Dritte zu entfernen.'
+    message:
+      title: 'Nachricht zu Ihren Bedingungen'
+      description: 'Senden Sie private 1:1-Chats, private Gruppenchats und treten Sie öffentlichen Kanälen bei oder schaffen Sie öffentliche Kanäle, um mit Ihrer Gemeinde in Verbindung zu treten.'
+    payments:
+      title: 'Einfache, grenzenlose Zahlungen'
+      description: 'Nahtlos in die Krypto-Brieftasche integriert, ermöglicht es Status jedem, überall und jederzeit, globale Zahlungen direkt in einem Chat zu senden'
+    stickers:
+      title: 'Versenden, erstellen und verdienen Sie mit Aufklebern'
+      description: 'Versenden Sie aussagekräftige Sticker ohne Zwischenhändler. Erstellen Sie sogar Ihre eigenen Pakete und verdienen Sie SNT auf dem dezentralisierten Aufkleber-Marktplatz'
+      button: 'Paket einreichen'
+    idea:
+      title: 'Haben Sie eine Idee für ein neues Feature?'
+      description: 'Fehlt etwas in Ihrer Erfahrung? Erstellen Sie eine Feature-Anfrage in unserem'
+      link: Gemeinschaftsforum
+    benefits:
+      title: Vorteile
+      benefit-1:
+        title: 'Privat & Pseudonym'
+        description: 'Bei der Erstellung Ihres kostenlosen Statuskontos sind keine Telefonnummer, E-Mail-Adresse oder Bankkonto erforderlich.'
+      benefit-2:
+        title: Zensurresistent
+        description: 'Die Entfernung der zentralisierten Drosselpunkte schützt Ihre Nachrichten vor der Zensur Dritter.'
+      benefit-3:
+        title: 'Frei und Open Source'
+        description: 'Status ist sowohl freie (libre) Open-Source-Software, die von jedermann überprüft werden kann, als auch frei (keine Kosten) zu installieren.'
+    p2p:
+      title: Peer-to-Peer-Messaging
+      description: 'Status entfernt zentralisierte Engpässe in Ihren Nachrichten für mehr Privatsphäre und Sicherheit. Durch die Nutzung eines Peer-to-Peer-Netzwerks anstelle von zentralisierten Servern für die Weiterleitung von Nachrichten, gehört Ihre Kommunikation Ihnen und nur Ihnen allein.'
+      button: 'Ansicht der Spezifikationen'
+    encryption:
+      title: 'Ende-zu-Ende-Verschlüsselung <br> standardmäßig'
+      description: 'Erhöhte Privatsphäre durch Ende-zu-Ende-Verschlüsselung (e2ee) bei all Ihren privaten Nachrichten. Niemand außer Ihnen und dem vorgesehenen Empfänger kann Ihre Nachrichten einsehen - auch nicht den Status.'
+    protection:
+      title: 'Schütze Deine alten und zukünftigen Nachrichten'
+      description: 'Status nutzt eine modifizierte Version des "double ratchet algorithm" für perfekte Vorwärtsgeheimhaltung. Schützen Sie Ihre vergangenen und zukünftigen Nachrichten, selbst wenn Ihre aktuellen Verschlüsselungsschlüssel irgendwie kompromittiert sind.'

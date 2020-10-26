@@ -28,7 +28,7 @@ site:
     browser:
       subtitle: 'Possiedi i tuoi dati'
       title: 'Browser Web3 decentralizzato'
-      description: 'Esplora il crescente ecosistema di applicazioni decentralizzate dal nostro browser abilitato per il Web3, senza essere monitorato. Sfoglia gli ultimi mercati, scambi, giochi e altro ancora.'
+      description: 'Sfoglia il crescente ecosistema delle DApp, che comprende mercati, scambi, giochi e social network. Gli ultimi standard di sicurezza garantiscono un''esperienza di navigazione privata.'
     security:
       title: 'Privato e sicuro per design'
       description: 'Status utilizza una tecnologia all''avanguardia per garantire che i tuoi messaggi e le tue transazioni siano solamente tuoi. Status rimuove gli intermediari per mantenere privati i tuoi messaggi e proteggere i tuoi beni. Comunica con fiducia.'
@@ -378,6 +378,10 @@ site:
         link-1: 'Vedi tutte le caratteristiche'
         link-2: Keycard
         description: 'Messaggistica privata, Portafoglio Crypto valuta, <br>Browser Web3 e altro ancora</br>'
+        link-3: 'Messenger privato'
+        link-4: 'Colore dell''account'
+        link-5: 'Portafoglio criptovalute sicuro'
+        link-6: 'Browser Web3'
   link:
     get-status: 'Scarica Status'
     get-involved: Partecipa
@@ -531,10 +535,11 @@ site:
   get:
     mobile:
       title: Mobile
-      description: 'Chatta, esegui transazioni e accedi al rivoluzionario mondo di DApps. Installa Status dal Google Playstore e presentati nel canale pubblico #introductions.'
+      description: 'Messaggistica privata, transazioni crittografiche sicure, navigazione DApp Web3 in tasca.'
     desktop:
-      title: 'Mac, Windows o Linux'
-      description: 'Scarica e installa l''ultimo desktop Alpha e avvia la messaggistica da dove lavori.'
+      title: Desktop
+      description: 'Prova la versione Beta dell''applicazione Desktop per una comunicazione privata e sicura dove lavori.'
+    download: 'Scarica Status per'
   docs:
     stripe:
       title: 'Sviluppatori di Status'
@@ -970,6 +975,9 @@ site:
       q5:
         question: 'Ho perso la frase di recupero, cosa devo fare?'
         answer: 'Se hai perso la frase di recupero per il tuo account, devi porre rimedio perché rischi di perdere tutti i tuoi fondi se perdi a un certo punto la tua Keycard o dimentichi il tuo codice PUK / Codice di accoppiamento. Dovresti creare immediatamente un nuovo portafoglio con una nuova frase di recupero e trasferire le tue risorse dal tuo account corrente su quello nuovo appena creato, così da poter accedere grazie alla nuova frase di recupero.'
+    banner:
+      title: 'Hai domande? Controlla le FAQ'
+      button: 'Domande frequenti'
   browser:
     intro:
       title: 'Browser Web3 privato e sicuro'
@@ -983,6 +991,7 @@ site:
       description: 'Gioca, raccogli, scambia e naviga con tutte le tue applicazioni decentralizzate preferite da un unico punto.'
       button: 'Vedi tutte le DApp'
     community:
+      title: 'Discovery gestito dalla Communità con Dap.ps'
       description: 'Dap.ps è una soluzione di terze parti per la scoperta di dapp che mira a creare un mercato di dapp equo e gestito con token. Sfruttando SNT e le token economics, Dap.ps decentralizza il modo in cui esploriamo e troviamo le ultime DApps'
     submit:
       title: 'Vuoi inviare la tua DApp a Dap.ps per farla conoscere al mondo?'
@@ -997,6 +1006,7 @@ site:
       description: 'Il Portafoglio di Stato è completamente autonomo - solo tu hai accesso ai tuoi fondi. Ne le banche. Nemmeno Status. Invia, ricevi e conserva ETH, SNT, DAI, risorse e altri asset basati su ethereum sempre alle tue condizioni.'
     security:
       title: 'Progettato per la sicurezza'
+      description: 'Proteggi i tuoi fondi con i più recenti standard di sicurezza, meccanismi anti-phishing e chiavi pubbliche e private generate e archiviate localmente. Puoi fidarti del fatto che i tuoi asset sono al sicuro con Status Wallet.'
       button: 'Visualizza le specifiche'
     friends:
       title: 'Guadagna con gli amici'
@@ -1007,6 +1017,7 @@ site:
       description: 'Perfettamente integrato con l''app di messaggistica interna, puoi inviare e ricevere pagamenti da e verso chiunque, in qualsiasi parte del mondo.'
     dapps:
       title: 'Defi e altro a portata di mano'
+      description: 'Accedi e interagisci con il crescente mondo delle dapps web3 con il portafoglio integrato e il browser web3.'
       button: 'Esplora Dap.ps'
     accounts:
       title: 'Portafogli multipli per una maggiore privacy'
@@ -1023,12 +1034,52 @@ site:
       button: 'Ulteriori informazioni sui nomi utente di Status'
     key:
       title: 'Generazione sicura delle chiavi'
+      description: 'Durante il processo di creazione dell''account, verrà generata una coppia di chiavi per la chat e per il portafoglio tramite un percorso derivato da BIP43 da una frase seme mnemonica BIP39. Solo tu hai accesso alle chiavi private, quindi tienile al sicuro.'
       button: 'Ulteriori informazioni sulla generazione chiave'
     status:
       title: 'Nomi utente "State of Us" con ENS'
+      description: 'ENS sta per Ethereum Name Service e consente la sostituzione degli indirizzi Ethereum con nomi personalizzati di tipo testuale. Chiunque può registrare un nome utente statusofus.eth prelevando 10 SNT dalla scheda Profilo. <br> <br> E'' importante notare che quando registri un nome ENS con un determinato indirizzo di portafoglio, quell''indirizzo è ora associato al nome utente, riducendo la privacy di quell''account.'
       button: 'Registra un Nome utente "State of Us"'
     keycard:
+      title: 'Proteggi il tuo Account con Keycard'
+      description: 'Aggiungi al tuo account Status l''autenticazione offline a due fattori di tipo fisico grazie a Keycard. Richiede il tocco della tessera Keycard + l''inserimento di un PIN per una maggiore sicurezza sul tuo account.'
       button: 'Acquista una Keycard'
   messenger:
+    intro:
+      title: 'Un Messenger votato alla Privacy'
+      description: 'Inviare messaggi privati 1:1, di gruppo e pubblici. Invia facilmente i pagamenti agli amici in tutto il mondo. Costruito con la tecnologia peer-to-peer per rimuovere possibili intrusioni e sorveglianza di terzi.'
     message:
       title: 'Messaggia alle tue condizioni'
+      description: 'Invia messaggi privati 1: 1, partecipa a chat di gruppo private e unisciti o crea canali pubblici per entrare in contatto con la tua comunità.'
+    payments:
+      title: 'Pagamenti semplici e senza confini'
+      description: 'Perfettamente integrato con il portafoglio criptato, Status consente a chiunque, ovunque si trovi, di inviare pagamenti globali direttamente in chat'
+    stickers:
+      title: 'Invia, crea e guadagna con gli adesivi'
+      description: 'Invia adesivi espressivi senza intermediari. Crea anche i tuoi pacchetti e guadagna SNT nel mercato degli adesivi decentralizzato'
+      button: 'Invia pacchetto'
+    idea:
+      title: 'Hai un''idea per una nuova funzionalità?'
+      description: 'Manca qualcosa alla tua esperienza? Create una richiesta di funzionalità nel nostro'
+      link: 'Forum della Comunità'
+    benefits:
+      title: Vantaggi
+      benefit-1:
+        title: 'Privato & Pseudonimo'
+        description: 'Non è necessario un numero di telefono, un indirizzo e-mail o un conto bancario quando si crea un Account di Status gratuito.'
+      benefit-2:
+        title: 'Resistente alla censura'
+        description: 'La rimozione dei punti di convergenza centralizzati protegge i messaggi dalla censura di terze parti.'
+      benefit-3:
+        title: 'Gratuito e Open Source'
+        description: 'Status è sia un software open source gratuito (libero) revisionabile da chiunque sia gratuito (senza costi) da installare.'
+    p2p:
+      title: 'Messaggistica Peer-to-Peer'
+      description: 'Status rimuove dai tuoi messaggi i punti di convergenza centralizzati per assicurarti una maggiore privacy e sicurezza. Sfruttando una rete peer-to-peer invece di server centralizzati per l''instradamento dei messaggi, la tua comunicazione è tua e tua soltanto.'
+      button: 'Visualizza le specifiche'
+    encryption:
+      title: 'Crittografia end-to-end <br> per impostazione predefinita'
+      description: 'Maggiore privacy con crittografia end-to-end (e2ee) su tutti i tuoi messaggi privati per impostazione predefinita. Nessun altro, oltre a te e al tuo destinatario, può visualizzare i vostri messaggi - nemmeno Status.'
+    protection:
+      title: 'Proteggi i tuoi messaggi passati e futuri'
+      description: 'Status sfrutta una versione modificata dell''algoritmo double ratchet per una perfetta segretezza. Proteggi i tuoi messaggi passati e futuri anche se le tue attuali chiavi di cifratura vengano in qualche modo compromesse.'

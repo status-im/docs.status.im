@@ -40,7 +40,7 @@
       - question: 'site.faq.keys-and-accounts.q3.question'
         answer: 'site.faq.keys-and-accounts.q3.answer'
     - - question: 'site.faq.keys-and-accounts.q2.question'
-        answer: 'site.faq.general.q2.answer'
+        answer: 'site.faq.keys-and-accounts.q2.answer'
       - question: 'site.faq.keys-and-accounts.q4.question'
         answer: 'site.faq.keys-and-accounts.q4.answer'
 

@@ -633,7 +633,7 @@ site:
       button: "Learn More about Key Generation"
     status:
       title: "State of Us Usernames with ENS"
-      description: "ENS stands for Ethereum Name Service, and allows Ethereum addresses to be replaced by custom text-based names. Anyone can register a statusofus.eth username by staking 10 SNT from within the Profile Tab. <br><br>Its important to note, that when you register an ENS name with a given wallet address, that address is now associated with the username, reducing the privacy of that account."
+      description: "ENS stands for Ethereum Name Service, and allows Ethereum addresses to be replaced by custom text-based names. Anyone can register a stateofus.eth username by staking 10 SNT from within the Profile Tab. <br><br>Its important to note, that when you register an ENS name with a given wallet address, that address is now associated with the username, reducing the privacy of that account."
       button: "Register an Status of Us Username"
     keycard:
       title: "Protect your Account with Keycard"

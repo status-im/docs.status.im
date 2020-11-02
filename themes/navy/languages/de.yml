@@ -1038,7 +1038,7 @@ site:
       button: 'Erfahren Sie mehr über die Schlüsselgenerierung'
     status:
       title: 'State of Us Benutzername mit ENS'
-      description: 'ENS steht für Ethereum Name Service und ermöglicht es, Ethereum-Adressen durch benutzerdefinierte, textbasierte Namen zu ersetzen. Jeder kann einen statusofus.eth-Benutzernamen registrieren, indem er 10 SNT von der Registerkarte Profil aus einsetzt. <br><br>Es ist wichtig zu beachten, dass bei der Registrierung eines ENS-Namens mit einer bestimmten Brieftaschenadresse diese Adresse nun mit dem Benutzernamen verknüpft wird, wodurch die Privatsphäre dieses Kontos eingeschränkt wird.'
+      description: 'ENS steht für Ethereum Name Service und ermöglicht es, Ethereum-Adressen durch benutzerdefinierte, textbasierte Namen zu ersetzen. Jeder kann einen stateofus.eth-Benutzernamen registrieren, indem er 10 SNT von der Registerkarte Profil aus einsetzt. <br><br>Es ist wichtig zu beachten, dass bei der Registrierung eines ENS-Namens mit einer bestimmten Brieftaschenadresse diese Adresse nun mit dem Benutzernamen verknüpft wird, wodurch die Privatsphäre dieses Kontos eingeschränkt wird.'
       button: 'Registrieren sie einen Status of Us Benutzername'
     keycard:
       title: 'Schützen Sie Ihr Konto mit Keycard'

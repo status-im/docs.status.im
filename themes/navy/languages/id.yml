@@ -1038,7 +1038,7 @@ site:
       button: 'Pelajari Lebih Lanjut tentang Pembuatan Kunci'
     status:
       title: 'Nama Pengguna Sebutan kami dengan ENS'
-      description: 'ENS adalah singkatan dari Ethereum Name Service, dan memungkinkan alamat Ethereum diganti dengan nama berbasis teks khusus. Siapa pun dapat mendaftarkan nama pengguna statusofus.eth dengan mempertaruhkan 10 SNT dari dalam Tab Profil. <br> <br> Penting untuk diperhatikan, bahwa ketika Anda mendaftarkan nama ENS dengan alamat dompet yang diberikan, alamat tersebut sekarang dikaitkan dengan nama pengguna, mengurangi privasi akun tersebut.'
+      description: 'ENS adalah singkatan dari Ethereum Name Service, dan memungkinkan alamat Ethereum diganti dengan nama berbasis teks khusus. Siapa pun dapat mendaftarkan nama pengguna stateofus.eth dengan mempertaruhkan 10 SNT dari dalam Tab Profil. <br> <br> Penting untuk diperhatikan, bahwa ketika Anda mendaftarkan nama ENS dengan alamat dompet yang diberikan, alamat tersebut sekarang dikaitkan dengan nama pengguna, mengurangi privasi akun tersebut.'
       button: 'Daftarkan Status Username'
     keycard:
       title: 'Lindungi Akun Anda dengan Kartu Kunci'

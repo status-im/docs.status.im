@@ -1005,7 +1005,7 @@ site:
       button: 了解有关密钥生成的更多信息
     status:
       title: stateofus的ENS用户名
-      description: 'ENS代表以太坊名称服务，并允许基于文本的自定义名称替换以太坊地址。任何人都可以在个人资料选项卡中抵押 10 个 SNT 来注册 statusofus.eth 用户名。 <br> <br>需要特别注意的是，当您使用给定的钱包地址注册ENS名称时，因为该地址已与用户名相关联，所以会降低该帐户的隐私性。'
+      description: 'ENS代表以太坊名称服务，并允许基于文本的自定义名称替换以太坊地址。任何人都可以在个人资料选项卡中抵押 10 个 SNT 来注册 stateofus.eth 用户名。 <br> <br>需要特别注意的是，当您使用给定的钱包地址注册ENS名称时，因为该地址已与用户名相关联，所以会降低该帐户的隐私性。'
       button: 注册.stateofus.eth用户名
     keycard:
       title: 用Keycard保护您的帐户

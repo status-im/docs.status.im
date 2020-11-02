@@ -1038,7 +1038,7 @@ site:
       button: 'Matuto Nang Higit Pa tungkol sa Key Generation'
     status:
       title: 'Mga Username ng Estado ng Us na may ENS'
-      description: 'Ang ENS ay nangangahulugang Ethereum Name Service, at pinapayagan ang mga Ethereum addresses na mapalitan ng mga pasadyang pangalan na batay sa teksto. Kahit sino ay maaaring magrehistro ng isang username na statusofus.eth sa pamamagitan ng pag-staking ng 10 SNT mula sa loob ng Profile Tab. <br> <br> Mahalagang tandaan, na kapag nagrehistro ka ng isang pangalan ng ENS na may isang naibigay na wallet address, ang address na iyon ay nauugnay ngayon sa username, binabawasan ang privacy ng account na iyon.'
+      description: 'Ang ENS ay nangangahulugang Ethereum Name Service, at pinapayagan ang mga Ethereum addresses na mapalitan ng mga pasadyang pangalan na batay sa teksto. Kahit sino ay maaaring magrehistro ng isang username na stateofus.eth sa pamamagitan ng pag-staking ng 10 SNT mula sa loob ng Profile Tab. <br> <br> Mahalagang tandaan, na kapag nagrehistro ka ng isang pangalan ng ENS na may isang naibigay na wallet address, ang address na iyon ay nauugnay ngayon sa username, binabawasan ang privacy ng account na iyon.'
       button: 'Magrehistro ng Status ng Us Username'
     keycard:
       title: 'Protektahan ang iyong Account gamit ang Keycard'

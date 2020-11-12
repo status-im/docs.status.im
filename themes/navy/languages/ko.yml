@@ -533,13 +533,13 @@ site:
       description: '누구든지 워크북의 토큰 경제 모델을 테스트 해볼 수 있습니다. 만약 여러분이 연구원, 경제학자이시거나 재무 모델에 대해 더 궁금하다면, 스테이터스와 함께 연구에 참여해주시기 바랍니다.'
       link: 'SNT 토큰 모델 테스트'
   get:
-    download: "스테이터스"
     mobile:
-      title: '모바일'
+      title: 모바일
       description: '내 주머니 속 <br> 검열 없는 메시징, 안전한 암호화폐 거래, 웹3 브라우징'
     desktop:
-      title: '데스크톱'
+      title: 데스크톱
       description: '안전한 커뮤니케이션을 돕는 <br> 데스크톱 베타 버전을 테스트 해보세요'
+    download: 스테이터스
   docs:
     stripe:
       title: '스테이터스 개발자'
@@ -1063,7 +1063,7 @@ site:
       description: '놓치신게 있나요? 아래 커뮤니티 포럼에 질문해주세요'
       link: '커뮤니티 포럼'
     benefits:
-      title: 스테이터스의 장점
+      title: '스테이터스의 장점'
       benefit-1:
         title: '비밀 & 익명'
         description: '전화번호, 이메일 주소, 은행 계좌 정보, 아무것도 필요 없이 무료로 계정을 생성할 수 있습니다.'

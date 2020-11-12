@@ -20,6 +20,7 @@ site:
       subtitle: 保护隐私
       title: 真正的私人消息
       description: Status使用开源的代码，点对点协议和端到端加密来保护您的消息免受第三方攻击。使用Status保护您的隐私消息。
+      link: 探索信使
     wallet:
       subtitle: 无边界加密支付
       title: 安全加密钱包
@@ -27,7 +28,7 @@ site:
     browser:
       subtitle: 拥有你的数据
       title: 去中心化Web3浏览器
-      description: '从支持Web3的浏览器中浏览不断发展的去中心化应用程序生态系统。没有追踪。没有间谍，只有您和您的数据。使用去中心化的Status App浏览最新的市场，交易所，游戏等。'
+      description: 浏览不断发展的DApp生态系统，包括市场、交易所、游戏和社交网络。最新的安全标准确保了隐私浏览体验。
     security:
       title: 设计私密且安全
       description: Status使用最新的加密和安全工具来确保您的消息和交易仅属于您自己。Status去除了中间方，使您的消息保持隐私并确保资产安全。自信，安全的沟通。
@@ -35,6 +36,13 @@ site:
       title: 'Status Network'
       description: Status网络是项目的集合，这些项目为具有弹性、可持续发展和包容性的社区构建产品，工具和基础架构。为安全，平等和个人主权而设计和构建。
       link: '了解有关Status Network的更多信息'
+    all:
+      title: 信息、浏览、按您的意愿进行交易
+      description: 集成到一个强大的超级隐私安全通讯应用程序。
+    account-creation:
+      subtitle: 保留您的隐私信息
+      title: 伪匿名帐户创建
+      description: 创建Status帐户时，不会要求您提供电话号码、电子邮件地址或银行帐户。保持隐私并通过Status有选择地向世界展现自己的隐私信息。
   features:
     intro:
       title: 您口袋里的以太坊之窗
@@ -434,7 +442,7 @@ site:
         title: '沟通&反思'
     core-contributors:
       title: 核心贡献者
-      description: Status并不是一个传统的组织。我们没有层级结构，也没有办公室和经理。我们只是为了某个共同的任务而在一起，然后大家可以自由地选择工作方式。
+      description: Status不是传统组织结构。我们没有等级制度，没有管理者，我们鼓励本地独立贡献者。我们都在这里实现我们的使命，我们有充分的自由选择我们如何完成我们的使命。
       link-1: 加入我们。查看所有空缺职位
       link-2: 了解更多Status的生活
     join-us:
@@ -527,10 +535,10 @@ site:
   get:
     mobile:
       title: 移动
-      description: '聊天、交易和访问 DApp 的革命性世界。在App和 Google Playstore 中安装Status，并在公共频道#introductions中打个招呼。'
+      description: '在您口袋中进行隐私消息传递、安全的加密交易、Web3 DApp浏览。'
     desktop:
-      title: 'Mac，Windows 或 Linux'
-      description: '下载并安装最新的桌面 alpha 版本, 并让它成为你工作中的通讯工具。'
+      title: 桌面
+      description: 测试桌面测试版，用于您工作中的隐私安全通信。
     download: '下载 Status'
   docs:
     stripe:
@@ -899,6 +907,9 @@ site:
       q9:
         question: 我恢复了我的帐户，尽管创建了更多钱包，但现在我只看到一个钱包。我的资金丢失了吗？
         answer: '不，他们没有丢失。如果您从Status中生成了其他钱包，然后又恢复了帐户，则需要按照创建它们的相同步骤来手动恢复其他钱包。在钱包中，您点击添加帐户>添加帐户。 Status不会生成新的钱包，而是会按顺序恢复您创建的钱包，您的资产将与它们一起恢复。 <br> <br>将来，我们确保将自动恢复您所有的Status钱包。'
+      q10:
+        question: 钱包是否支持比特币？
+        answer: 否，当前Status不支持比特币，并且Status仅支持以太坊和基于以太坊构建的资产。比特币是一个独立的区块链，并使用一个独立的验证器网络进行交易，这就是为什么目前无法在两个网络之间进行交易的原因。
     keycard-general:
       title: Keycard一般问题
       q1:
@@ -967,7 +978,29 @@ site:
     banner:
       title: 有疑问？查看常见问题解答
       button: 常见问题
+  browser:
+    intro:
+      title: 隐私和安全的Web3浏览器
+      description: '使用Web3浏览器访问最新的DeFi Dapp、交易所、市场和游戏等'
+    defi:
+      title: '用 DeFi 挣钱、存钱和交易'
+      description: 通过您的手机访问不断增长的去中心化金融工具和服务生态系统。
+      button: '探索Defi DApps'
+    games:
+      title: 游戏、市场等
+      description: 一站式体验所有喜欢的去中心化应用程序，享受一站式播放、收集、交易和浏览功能。
+      button: 查看所有DApp
+    community:
+      title: 使用Dap.ps进行社区展策
+      description: 'Dap.ps 第三方 dapp 发现解决方案，旨在创建一个公平、代币化的 dapp 市场。利用 SNT 和代币经济，Dap.ps 将以去中心化的方式探索和查找最新 DApp '
+    submit:
+      title: 想要将您的DApp提交给Dap.ps，让全世界看到吗？
+      description: '按照我们的 DApp 集成中心的说明进行操作'
+      button: 'DApp 集成中心'
   wallet:
+    intro:
+      title: 加密货币超级钱包
+      description: 使用安全的非托管Status钱包，您可以完全控制资金。
     funds:
       title: 控制您的资金
       description: 'Status钱包完全不受监管-只有您有权使用资金。银行不能。甚至Status团队也不能访问您的资金。发送、接收和存储 ETH，SNT，DAI，收藏品和其他以太坊资产，全部由您自己决定。'
@@ -1005,7 +1038,7 @@ site:
       button: 了解有关密钥生成的更多信息
     status:
       title: stateofus的ENS用户名
-      description: 'ENS代表以太坊名称服务，并允许基于文本的自定义名称替换以太坊地址。任何人都可以在个人资料选项卡中抵押 10 个 SNT 来注册 stateofus.eth 用户名。 <br> <br>需要特别注意的是，当您使用给定的钱包地址注册ENS名称时，因为该地址已与用户名相关联，所以会降低该帐户的隐私性。'
+      description: 'ENS代表以太坊名称服务，并允许基于文本的自定义名称替换以太坊地址。任何人都可以在个人资料选项卡中抵押 10 个 SNT 来注册 statusofus.eth 用户名。 <br> <br>需要特别注意的是，当您使用给定的钱包地址注册ENS名称时，因为该地址已与用户名相关联，所以会降低该帐户的隐私性。'
       button: 注册.stateofus.eth用户名
     keycard:
       title: 用Keycard保护您的帐户

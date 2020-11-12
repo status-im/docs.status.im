@@ -2,7 +2,7 @@ site:
   home:
     intro:
       title: 'Comunicazione privata e sicura'
-      description: 'Status è un''applicazione di messaggistica, un portafoglio di criptovalute ed un browser Web3 realizzato con tecnologia all''avanguardia.'
+      description: 'Status è un''applicazione di messaggistica, un portafoglio di cripto valute e un browser Web3 realizzato con tecnologia all''avanguardia.'
       news: Notizie
     about:
       open-source:
@@ -1038,7 +1038,7 @@ site:
       button: 'Ulteriori informazioni sulla generazione chiave'
     status:
       title: 'Nomi utente "State of Us" con ENS'
-      description: 'ENS sta per Ethereum Name Service e consente la sostituzione degli indirizzi Ethereum con nomi personalizzati di tipo testuale. Chiunque può registrare un nome utente stateofus.eth prelevando 10 SNT dalla scheda Profilo. <br> <br> E'' importante notare che quando registri un nome ENS con un determinato indirizzo di portafoglio, quell''indirizzo è ora associato al nome utente, riducendo la privacy di quell''account.'
+      description: 'ENS sta per Ethereum Name Service e consente la sostituzione degli indirizzi Ethereum con nomi personalizzati di tipo testuale. Chiunque può registrare un nome utente statusofus.eth prelevando 10 SNT dalla scheda Profilo. <br> <br> E'' importante notare che quando registri un nome ENS con un determinato indirizzo di portafoglio, quell''indirizzo è ora associato al nome utente, riducendo la privacy di quell''account.'
       button: 'Registra un Nome utente "State of Us"'
     keycard:
       title: 'Proteggi il tuo Account con Keycard'

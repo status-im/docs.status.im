@@ -1,0 +1,1085 @@
+site:
+  home:
+    intro:
+      title: 隱密、安全的通訊
+      description: Status是使用最新技術建構的通訊軟體、加密錢包和Web3瀏覽器。
+      news: 新聞
+    about:
+      open-source:
+        title: 開放原始碼專案
+        description: Status是完全開源的，由世界各地的貢獻者創造。開發人員、設計師、創作者、教育者、愛好者等，每個人都可以自由開放地搜尋數據庫、數位資產和資訊。目的是防止審查制度，以及避免被第三方控制。
+      mission:
+        title: 宗旨與原則
+        description: Status致力於成為維護人權的安全溝通工具。旨在實現資訊的自由流通、保護個人隱私、安全的對話，並促進個人自主權。
+    decentralized:
+      subtitle: 去中心化通訊
+      title: 依循您的方式進行聊天、瀏覽與交易
+      description: Status將分散式即時訊息軟體、加密貨幣錢包，和DApps瀏覽器，組合成為功能強大、個人專用且安全的通訊工具，旨在保護您的消息和資訊不受第三方干擾。
+      link: 探索所有功能
+    private:
+      subtitle: 保護隱私
+      title: 真正的隱密訊息
+      description: Status使用開源軟體、點對點協議，以及端到端加密來保護您的訊息免受第三方攻擊。讓Status來保密您的私人訊息。
+      link: 探索通訊軟體
+    wallet:
+      subtitle: 無國界的加密支付
+      title: 安全的加密錢包
+      description: Status加密錢包能夠安全地發送、儲存和接收包含ERC20和ERC721規範的加密貨幣。只有您掌握資金的鑰匙，直覺的設計可保護您免受攻擊。
+    browser:
+      subtitle: 掌握自己的數據
+      title: 分散式Web3瀏覽器
+      description: 瀏覽不斷發展的DApps生態系統，包括市集、交易所、遊戲與社交網路。以最新的安全標準，確保個人的隱私瀏覽體驗。
+    security:
+      title: 保護隱私與安全的設計
+      description: Status使用最新的加密和安全工具，來確保您的訊息和交易專屬於您。Status移除了中介代理，以維護您的訊息私密性和資產安全。進行自信，安全的溝通。
+    status-network:
+      title: 'Status Network'
+      description: 'Status Network是一群協作項目的集合，包含多種產品、工具和基礎架構，主要為了彈性、永續與包容的網路社群所建構出來。其設計與編寫強調安全、平等和個人掌控。'
+      link: '了解更多有關Status Network的訊息'
+    all:
+      title: 依循您的方式進行聊天、瀏覽與交易
+      description: 整合到一個功能強大的應用程式中，提供您隱密、安全的通訊交流。
+    account-creation:
+      subtitle: 保留您的隱私
+      title: 偽匿名帳戶創建
+      description: 建立Status帳戶時，不會要求您提供電話號碼、電子郵件地址或銀行帳戶。保護隱私，並透過Status，有選擇性地向世界展示自己。
+  features:
+    intro:
+      title: 隨時掌握以太幣的力量
+      description: Status是一種多功能通訊工具，結合了隱私通訊軟體，分散式加密錢包和Web3瀏覽器。
+      link-messenger: 通訊軟體
+      link-wallet: 加密錢包
+      link-browser: 瀏覽器和DApps
+    messenger:
+      title: 安全的通訊軟體
+      feature-1:
+        title: 公共的、私人的和群組聊天
+        description: 可加入任意數量的公共頻道，或發送一對一私人訊息，或者群聊。您甚至可以直接在私人對話中發送和接收加密付款。
+        link: 加入Status公共頻道
+      feature-2:
+        title: 以Waku傳送私密訊息
+        description: Waku是一種點對點（p2p）訊息傳遞協議，可從訊息中刪除通過的中心化節點。經由刪除中心化的第三方，您的訊息才是自己掌握，並且更加私密和安全。
+        learn-more: 了解更多有關Waku的訊息
+      feature-3:
+        title: 完美的發送保密和<br>端到端加密
+        description: 'Status使用Whisper之上的“Double Ratchet”演算法，和端到端加密來實現最高級別的安全性和隱私性。'
+    wallet:
+      title: 整合<br>以太幣錢包
+      feature-1:
+        title: 安全錢包
+        description: 去除中介機構可以使您完全掌控自己的資金。只有您自己持有加密貨幣的私鑰，並且沒有中間人可以介入使用。
+      feature-2:
+        title: 兼容ERC20和ERC721
+        description: 支援以太幣網路上的ERC20和ERC721類別代幣。使用Status，能安心地發送，儲存和接收代幣，並輕鬆將ERC-20代幣新增到您的錢包中。
+      feature-3:
+        title: 與Peers和DApps進行互動
+        description: Status錢包將Messenger和瀏覽器整合在一起，使您能夠與其他端點和DApp進行互動。所有交易都需要驗證簽名短語，以保護您免受網路釣魚攻擊。
+    browser:
+      title: Web3瀏覽器
+      feature-1:
+        title: 訪問分散式應用程序
+        description: 您的口袋中會有不斷發展的DApp生態系統。瀏覽最新的去中心化交易所、市場、遊戲，社交網路等。
+        link: 安裝Status
+      feature-2:
+        title: 隱密和安全地瀏覽
+        description: Status實施最新的安全標準，以確保您安全並且不受追踪和數據收集的影響，按照您的使用進行瀏覽。
+      feature-3:
+        title: 在Status上將您的DApp<br>最佳化
+        description: 'Status Dapp整合中心使任何dapp開發人員都可以輕鬆投入Status，進行最佳化以在Status中執行，沿用其獨特功能，以及在Dap.ps中進行註冊。'
+        link: 最佳化並註冊您的Dapp
+    get:
+      title: 下載Status
+      description: 在iOS和Android系統上開始享受Status。
+      link: 下載應用程式
+  get-involved:
+    index:
+      intro:
+        title: 開放原始碼社群
+        description: 無論您是開發人員、教育者、社群發起者，還是熱情的支持者，您都可以為Status做出貢獻。這裡是幫助您開始的資源。
+      resources:
+        resource-1:
+          title: 開發者
+          description: 'Status正在建構根據Mozilla Public License v2.0許可的免費開源軟件。 <br> <br>不論背景，技術水平和有興趣的社群成員都可以參與正式Status發布。這包括對由Status資助獎勵的貢獻，及新功能的社群推動計劃。'
+        resource-2:
+          title: 教育工作者
+          description: 'Status認為教育和熱情的環境，對於成功的開源項目至關重要。 <br> <br>我們歡迎任何人協助教導他人如何建立Status、使用Status，在社群中拓展，甚至分享自己的項目經驗。'
+        resource-3:
+          title: 社群團體
+          description: Status內有許多Status主持運作和社群組織的群組。<br><br>加入現有小組，或根據您的個人興趣創建自己的團隊。世界各地的人們正幫助推廣和發展這個開放原始碼計畫。
+      contributors:
+        title: Status推廣代表
+        link: 加入Status，查看所有的職位空缺
+        subtitle: 我們是Status
+        subtitle-2: 作為大使，你可以做什麼
+        description: Status大使建立、教育、推廣，並為下一代的網路做出貢獻。
+        description-1: 大使可以自由選擇並作出自己的貢獻。有些大使編寫代碼，有些則撰寫部落格文章。另有人籌畫主題活動或是網絡研討會。
+        description-2: Status大使的工作跨足多個領域，並以許多方式合作。
+        link-2: 成為大使
+        link-3: 頂尖社群貢獻者
+        link-4: 查看我們的共享項目公板
+        subtitle-3: 傾聽Status社區的聲音
+        description-3: 從播客到市政廳會議，加入Status社區。
+        link-5: 在這裡聆聽
+    developers:
+      intro:
+        subtitle: 開放原始碼社群
+        title: 發展歷程
+        description: 歡迎來到Status的開發者入口網站。您可以在這裡尋找所需的一切，開始為Status做出貢獻，建立您自己的DApp，或利用Status的既有功能擴展您的工作。
+      quick-nav-sub:
+        link-1: 開始使用
+        link-2: 程式庫、問題與獎勵
+        link-3: 開發人員資源
+        link-4: Github
+      contribute-to-status:
+        title: 開始使用
+        description: 我們的開源項目
+        link: 貢獻者指引
+        status-react:
+          title: Status-React
+          description: 以Clojure編寫－這是我們處理各種互動的地方，包括Waku與應用程式、錢包功能、使用者和其想要搜尋的DApp等，也是使用者介面邏輯所在的位置。
+          link: 查看資料庫
+        status-go:
+          title: Status-Go
+          description: 用Go語言編寫－這是我們實現所有區塊鏈邏輯、交易和輕量客戶端工作的地方。
+          link: 查看資料庫
+        open-issues-status-react:
+          title: 'Status-React 未解決問題'
+          link: 查看所有未解決的問題
+        open-issues-status-go:
+          title: 'Status-Go 未解決問題'
+          link: 查看所有未解決的問題
+        earn-crypto:
+          title: 完成<br>獎勵計畫賺取加密貨幣
+          description: 請參閱技術獎勵的完整列表
+          link: Gitcoin
+        report-a-security-vulnerability:
+          title: 報告一個<br>安全漏洞並進行修復
+          description: 進一步了解
+          link: 漏洞回報獎勵計畫
+      development-dapp:
+        build-dapp:
+          title: 建構您自己的DApp
+          description: 開始使用我們的工具和框架來建構您自己的去中心化應用程序。
+          link-1: DApp整合中心
+          link-2: 使用Embark建構自己的DApp
+          link-3: 訪問Web3提供程序並檢測Status
+          link-4: '將您的DApp提交到Status DApp列表'
+        extend-dapp:
+          title: 擴展您的DApp
+          description: 擴充功能允許您在DApp中利用Status的本機功能。
+          link-1: 擴充功能簡介
+          link-2: 示範教學
+          link-3: 範例和現有擴充功能
+      get-in-touch:
+        title: 進行聯繫
+        join-status:
+          link: '加入#status'
+          description: 一般Status新聞和討論。
+        join-status-core:
+          link: 加入＃status-core
+          description: 有關核心開發的公共頻道。
+        join-introductions:
+          link: '加入#introductions'
+          description: Status的新手？請介紹自己並打聲招呼！
+        contact-us:
+          link: 與我們聯繫
+          description: 對於其他內容，請直接發送電子郵件給我們。
+      repositories:
+        title: 程式庫、待解決問題與獎勵
+      build-for-status:
+        title: Status相容
+        description: 在下方取得Status上的DApp：
+        link: DApp整合中心
+    educators:
+      intro:
+        subtitle: 一個開源社群
+        title: 教育
+        description: 歡迎每個人協助教導他人如何建立Status、使用Status，開始在社群中拓展，甚至分享自己的項目經驗。
+      quick-nav-sub:
+        link-1: 教育與創造
+        link-2: 翻譯
+        link-3: 教育者資源
+        link-4: Github
+      educate-contribute:
+        how-to-get-started:
+          title: 如何開始
+          link-1: 社群成員初學者指南
+          link-1-description: 查看由社群成員創建的這本指南。
+          link-2: 詞彙表
+          link-2-description: 有關術語、定義、資源和概念，請參閱此開源文檔。隨時添加。
+          link-3: 常見問題
+          link-3-description: 這是Status社群中的個人常見問題解答列表。持續更新。
+        create:
+          title: 建立
+          link-1: 建立非技術性的示範教學
+          link-1-description: 幫助新手設置帳戶並瀏覽Status應用和社群。與我們聯繫以在部落格上共享您的示範教學。
+          link-2: 建立技術示範教學
+          link-2-description: 幫助開發人員建構Status、建構DApp、創造擴充功能，或任何您想要共享的內容，請與我們聯繫。
+          link-3: 發表部落格貼文
+          link-3-description: 在Status部落格上分享故事，成為Status上的部落客
+      translate:
+        title: 翻譯
+        description: 幫助我們將Status在地化為您的語言。我們使用lokalise來翻譯應用程序、網站，文檔等其中所有的內容。
+        link: 翻譯Status
+        link-2: 貢獻者
+      educator-resources:
+        title: 教育者資源
+        link-1: 樣式指引和資產
+        link-1-description: 搜尋最新的樣式指引以及品牌資產、範本和字型。
+        link-2: 討論
+        link-2-description: 參加關於Status的長篇討論。
+        link-3: 講解
+        link-3-description: 了解如何建構內容或查看其他社群製作的教學範例。
+        link-4: 部落格
+        link-4-description: 查看最近的Status新聞和更新。
+        link-5: Nightlies
+        link-5-description: 安裝並測試適用於行動裝置和電腦的最新Nightly版本。
+        link-6: 查看最新版本說明
+        link-8: 查看Status公共頻道的完整列表
+      get-in-touch:
+        join-statusphere:
+          link: '加入#statusphere'
+          description: 日漸壯大的Status推廣代表和愛好者社群
+    community:
+      intro:
+        subtitle: 一個開源社群
+        title: 社群團體
+        description: Status內有許多Status主持運作和社群組織的群組。加入現有小組或根據您的個人興趣創建自己的小組。
+        link-1: 請參閱下面的群組
+        link-2: 提交新群組
+      community-groups:
+        account-group-1:
+          description: 一群致力於幫助、貢獻和建立Status社群的人。
+          occupation: 主辦者
+          name: 我們
+        account-group-2:
+          description: 一群來自南韓的熱情的開發人員、製造商、創作者和愛好者。
+          occupation: 主辦者
+        account-group-3:
+          description: 西班牙文版Status
+          occupation: 主辦者
+        account-group-4:
+          description: 中文版Status
+          occupation: 主辦者
+        account-group-5:
+          description: 生命的意義是什麼？
+          occupation: 主辦者
+          name: 亞里斯多德
+        account-group-6:
+          description: 菲律賓社群的Status
+          occupation: 組織者
+        account-group-7:
+          description: Status土耳其社群
+          occupation: 主辦者
+  security:
+    intro:
+      title: 安全保護設計
+      description-1: Status旨在成為真正的去中心化通訊工具－最終移除所有第三方，並最大程度地減少惡意行為者的攻擊媒介。
+      description-2: Web3的真正好處是，可以按照我們自己的設定進行交易和交流－無需中間人。為了享受這種自由的交流，我們必須確信個人的訊息、交易、身份和資金都是安全可靠的。請至下方了解更多有關Status的安全性資訊。
+    security-at-status:
+      title: 以Status進行安全的訊息傳遞
+      secure-inner-1:
+        title: 安全的<br>訊息傳遞
+        description: 訊息不會被審查、阻擋，且用戶可以選擇將它們保持模擬匿名狀態。只有指定的收件人才能查看訊息。
+      secure-inner-2:
+        title: 安全的金融<br>交易
+        description: 在Status錢包內發送、儲存和接收加密貨幣或代幣十分安全，不會受到攻擊。私鑰永遠不會公開。只有在私鑰所有者啟動並確認交易後，交易才會被處理。
+      secure-inner-3:
+        title: 安全<br>瀏覽
+        description: 瀏覽Web3時，任何第三方未經同意，均無法取得終端用戶數據和瀏覽訊息。使用Status瀏覽器進行的任何交易，也都實施與Status錢包相同的安全標準和最佳典範。
+    security-content:
+      content-1:
+        title: 保護身分
+        description: 您在Status中的身份，是用本地生成的加密金鑰對起始，然後通過密碼進行保護，僅此而已。接著，用戶可以將資訊添加到個人資料中，來建立自己在Status呈現的身分。使用者可以全程控制自己的訊息，以及有權訪問該資訊的人。用戶端也可以根據需求選擇顯示或隱藏這些資訊。
+      content-2:
+        title: 點對點訊息傳送協議
+        description: 'Status使用Waku協議進行點對點(p2p)通訊。Waku依靠對等網路來相互傳遞訊息。發送的每條訊息都會廣播到整個網路，並進行加密，但只有指定的收件人能開啟。通過去除中心化的處理節點，訊息內容和中繼數據都屬於您自己的。然而，Status和Waku並不是完全對等的，因為當對方離線時，仍需要郵件伺服器用於管理資訊。 Waku郵件伺服器是Waku的擴充功能，用於儲存訊息並在對方再次上線時發送。'
+        link: 了解更多有關Waku的訊息
+      content-3:
+        title: 預設為端到端加密
+        description: 默認情況下，通過應用發送的所有私人訊息都是端到端加密。創建Status帳戶時，我們將生成一個加密密鑰對來加密您的訊息，並將其儲存在本地設備上。當您在Status中添加新聯絡人時，你們將交換公共密鑰，以便該人可以在接收到你的訊息時將其解密。
+      content-4:
+        title: 完美的轉寄保密
+        description: 'PFS是特定密鑰共識協定的一項功能，可以確保即使參與者的私鑰受到破壞，您的對話密鑰也不會受到影響。特別的是，傳送後訊息不能由獲得私鑰的第三方解密。這是建立在Open Whisper Systems的X3DH和Double Ratchet規格基礎上，並進行了一些修改以在分散的環境中運行。PFS為您所有一對一的私密聊天提供了額外的安全保護。'
+        link: 了解更多有關PFS的訊息
+      content-5:
+        title: 無伺服器帳戶創建
+        description: 在Status上創建新帳號時，我們永遠不會要求您進行第三方驗證，例如電子郵件或電話號碼。這意味著您可以註冊並創建一個Status帳號，並保持模擬匿名狀態。創建帳號時，只需您和您的密鑰即可。這也意味著，Status不具備雙重身份驗證和密碼恢復功能－因此，請務必記住您的密碼和助記詞，並將其離線儲存在非常安全的地方。
+      content-6:
+        title: Status如何儲存我的密鑰？
+        description-1: Status絕不會使用第三方服務，來管理和儲存您的公鑰和私鑰。生成後，第一個BIP44密鑰將保存在設備本地的密鑰庫json文件中。該文件會以您為Status帳號選擇的密碼加密，並只能由Status應用程式讀取。當您的設備上有敏感資訊時，我們會優先將其儲存在可以加密的設備中。
+        description-2: 為了增加安全性，我們引入了金鑰卡，該金鑰卡用作離線冷儲存，用於私鑰管理及其操作。
+        description-3: '有關金鑰卡的更多訊息，請訪問%s 。'
+      content-7:
+        title: 安全瀏覽
+        description: Status瀏覽器旨在使終端用戶了解其資金安全。預設開啟瀏覽器的隱私模式。這意味著，在連接到您的錢包之前，DApp必須先徵得許可，這可能會導致某些DApp中斷（如果它們與此安全措施不兼容）。最後，Status瀏覽器能相容EIP712，該修補旨在提高鏈上使用鏈外訊息簽名的可用性。我們看到越來越多的人採用鏈下訊息簽名，因為它可以節省gas消耗並減少區塊鏈上的交易數量。目前顯示給用戶的簽名訊息，是難以理解的十六進位字串，幾乎沒有關於組成訊息項目的上下文。
+        link: 了解有關EIP的更多資訊
+      content-8:
+        title: Status如何保護我的加密貨幣？
+        description: Status是使用非託管錢包建構的，無需使用伺服器即可完全控制資金。私鑰以加密方式儲存在您的設備上。您的資金全由您掌控，只要沒有私鑰，任何人都無法動用。因此，如果您丟失了助記詞，則將永遠無法恢復對資金的權限。因此，請將私鑰安全地保存在離線位置。
+      content-9:
+        title: 簽名短語可防止網絡釣魚攻擊
+        description: Status使用一個簽名短語，以確認並“簽署”所有交易。簽名短語是為您隨機生成的3個單詞的短語，並儲存在本地設備上，每次您嘗試發送交易時都會顯示該短語。在確認交易之前，將為您顯示簽名短語並要求您接受。如果您看見不相符的三個字，或者根本沒有顯示三個字時，請取消交易，退出Status並向%s報告問題。
+        link: 了解更多有關網絡釣魚
+      content-10:
+        title: 嚴格審核
+        description-1: 在達到開發的重大里程碑，並經過幾輪內部審查和審核之後，我們會與行業領先的第三方審核公司聯繫，以核實我們的完整性，且兩次甚至三次檢查我們所做的工作。這些安全審核不能完全保證與它們相關項目的安全。但這些客觀第三方的額外檢查，有助於加強我們對預期功能安全性的自信。
+        description-2: '有關所有外部審核的資訊和詳細內容，請參閱%s 。'
+        description-3: 如果您在我們的代碼中發現錯誤或漏洞，請向%s報告。
+        ENS:
+          title: 'Sigma Prime的ENS智能合約查核'
+          commit: '2018年10月－ENS用戶名合約功能－提交記錄代碼 eaefa92'
+          report: 回報
+          tests: 測試
+          code: 程式碼
+          blog: 部落格貼文
+        dejavu:
+          title: 'Deja Vu Beta審核'
+          commit: '2018年5月7日－Status-go和Status-react程式庫提交給Deja Vu審查'
+          report: 回報
+          blog: 部落格貼文
+      content-11:
+        title: 教育自己以策安全
+        description: 諸如Status之類的分散式應用，去除了許多不必要的中介程序，使您可以聊天、進行事務處理和瀏覽，而不必擔心監視、檢查和數據洩漏。這是因為您可以控制數據和自己的數位安全。因此，了解如何保護自己很重要。請通過Status《狀態安全最佳實踐指南》進一步了解保持安全的更多資訊。
+        link: 請參閱最佳做法指南
+      content-12:
+        title: 安全性支援
+        description: 我們提供問題協助。如果您對安全性有任何疑問或擔憂，請發送電子郵件至%s，或利用Status安全性公共頻道%s與我們聯繫。
+      content-13:
+        title: 漏洞回報獎勵計畫
+        description: '如果您是安全研究人員或開發人員，並且發現安全性漏洞，請加入Status漏洞回報獎勵計畫，與%s聯繫。我們還與HackerOne共同展開一項獎勵計畫，目的在激勵駭客檢視專案。我們也正積極提升我們的個人協作內容，將很快向大家報告！有關漏洞回報獎勵計畫的更多訊息，請聯繫%s 。'
+    protect-yourself:
+      title: 保護自己
+      description: Status採用最先進的技術構建，以確保產品盡可能安全。在Web3網路瀏覽時，一切盡在您的掌控之中。請參閱我們的安全性措施列表並確認控制選項。
+      link-1: 了解更多
+      link-2: 加入Status安全議題頻道
+  header:
+    nav:
+      get-involved:
+        title: 參與加入
+        description: 'Status是一個開源項目， <br>由世界各地的人們一同參與協作而成。'
+      security: 安全性
+      docs:
+        title: 開發人員
+        description: 有您與Status進行<br>協同開發所需的一切
+        link: 開發人員
+        link-1: DApp整合中心
+        link-2: 貢獻者手冊
+        link-3: 示範教學
+        link-4: 安全
+        link-5: 規格
+        link-6: 用戶指南
+      about: 關於
+      blog: 部落格
+      snt-utility: SNT應用程序
+      features:
+        link: 特色功能
+        title: 特色功能
+        link-1: 查看所有功能
+        link-2: 金鑰卡
+        description: '個人即時通訊，加密錢包， <br>Web3瀏覽器和更多功能'
+        link-3: 個人通訊軟體
+        link-4: 帳戶創建
+        link-5: 安全加密錢包
+        link-6: Web3瀏覽器
+  link:
+    get-status: 下載Status
+    get-involved: 參與加入
+    developers: 開發者
+    educators: 教育工作者
+    community-groups: 社群團體
+    learn-more: 了解更多
+    read-all: 閱讀全部
+  about:
+    intro:
+      title: 使命
+      link-1: 我們的原則
+      link-3: 主要貢獻者
+      description: Status致力於成為維護人權的安全溝通工具。旨在實現資訊的自由流通、保護個人隱私、安全的對話，並促進個人所有權。
+    principles:
+      title: 我們的原則
+      description: 這些原則充當工具，作為思考，溝通和分權決策的工具。這些原則使我們對缺乏遠見的地方仍然可以保持誠實。
+      principle-1:
+        title: 自由
+        description: 我們相信個人的主權。作為代表個人自由的平台，我們旨在最大程度地促進社會，政治和經濟自由，亦包括對抗脅迫。
+      principle-2:
+        title: 反抗審查制度
+        description: '我們致力於訊息的自由流通，沒有內容受到監視。我們遵守加密經濟設計原則：反抗審查制度。Status 還更進一步，是一個跨系統的訊息傳遞平台。'
+      principle-3:
+        title: 安全性
+        description: 構建功能時，我們不會在安全性上妥協。我們使用最先進的技術，並研究新的安全方法和技術，以提供強大的安全保證。
+      principle-4:
+        title: 隱私
+        description: 隱私權是一種選擇性地向世界展示自己的力量。對我們來說，保護通訊和交易中的隱私，以及成為模擬匿名平台至關重要。此外，我們努力提供完全匿名的權利。
+      principle-5:
+        title: 透明度
+        description: 我們致力在組織內部實現資訊的完全開放和對稱，並且在核心貢獻者和社區之間沒有邊界。我們坦白自己的缺點，特別是在為實現我們的長期目標而進行短期權衡時。
+      principle-6:
+        title: 開放性
+        description: 我們創建的軟體是公共財。它是通過免費開放源代碼許可提供的，任何人都可以共享，修改和受益。我們相信減少管制式的參與。
+      principle-7:
+        title: 去中心化
+        description: 我們將軟體和組織間的集中度最小化。換句話說，我們最大化了組成網路的實體主機的數量，並且最大化了對我們正在構建的系統進行控制的人數。
+      principle-8:
+        title: 包容性
+        description: 我們的軟體提供公平及廣泛的使用性，並強調簡單易用。這還擴展到社會包容性，無管制的參與，互操作性以及對教育的投入。
+      principle-9:
+        title: 持續性
+        description: 我們創建的軟體能激勵代幣持有者，促使其綿延存續及改進，而不需一個人或任何現有團隊成員的管理。
+      principle-10:
+        title: 足智多謀
+        description: 我們運作的資源充足。可以隨著我們的成長適時動用資金，我們對代幣持有者有義務對抗組織中的官僚主義和效率低下的問題。這意味著以最低的經濟成本（就資金，時間和資源而言）以最有效的方式解決問題。
+    how-we-work:
+      title: 我們的工作方式
+      description: 我們是一個分佈在世界各地的團隊，利用遠端工具在世界各角落進行工作。而針對具體項目，我們會組成2-5人的小型團隊來推動進行。
+      research:
+        title: 研究
+      specifications-planning:
+        title: 規格與計劃
+      implementation:
+        title: 實作
+      communication-post-mortem:
+        title: 溝通與反思
+    core-contributors:
+      title: 主要貢獻者
+      description: Status不是一個傳統組織。這裡沒有階級區分，沒有辦公室，也沒有管理者。我們在此實現我們的使命，並可以自由選擇我們想要如何執行。
+      link-1: 加入我們！查看所有的職位空缺
+      link-2: 了解更多在Status的生活
+    join-us:
+      title: 加入我們
+    quarterly-reports:
+      title: 'Status Network的季度報告'
+      description: 我們迫不及待地想與您分享我們已完成的一切。
+  snt:
+    intro:
+      title: 'Status Network Token'
+      description: 'SNT能驅動並激勵使用者參與<br>Status Network'
+      link-1: 基礎
+      link-2: 使用SNT
+      link-3: 研究
+      link-4: 參與加入
+    the-basics:
+      title: 基礎
+      inner-1:
+        title: ERC-20代幣
+        description: 'SNT是一種ERC-20代幣，用於連接Status Network和其應用，並在其中流通，以提供分散式的服務。'
+        link: 查看所有SNT應用案例
+      inner-2:
+        title: 開放原始碼
+        description: Status是一個完全開源的項目，任何人都可以使用代碼和令牌來滿足他們的需求。Status已被Messari披露註冊表驗證。
+        link: 'Messari 公告的註冊名單'
+      inner-3:
+        title: 持有代幣的使用者
+        description: 經由SNT，我們可建立一個持有代幣的使用者網路，進而使網路上的使用行為，與軟體發展，都能更加符合用戶期望。
+        link: 前往白皮書以了解詳情
+      inner-4:
+        title: 研究
+        description: '貢獻者針對加密經濟模型和點對點技術進行研究，以確保Status Network能持續健全地發展。'
+        link: 了解更多有關該研究的訊息
+    using-snt:
+      title: 使用SNT
+      description: 某些應用功能需要使用SNT，來促成開源、去中心化的經濟環境。深入研究下面的每個SNT案例，以了解有關加密經濟學研究，與其價值如何在網路中流動。
+      teller-network:
+        title: 交易員網路
+        status: 已開發
+        description: '由社群所部署的DApp，能夠提供不限國界、點對點、法幣到加密貨幣的 “交易員網路”，使代幣持有者可以找到附近的用戶，讓其以現金交換數位資產和貨幣。而想成為網路中的賣方必須使用SNT。'
+      network-incentivization:
+        title: 網路激勵
+        status: 研究
+        description: '創建一個框架和激勵結構，供人們部署和使用Status節點。 SNT用於激勵和獎勵網路參與者運行節點。這確保Status託管群集中的所有節點都關閉時，該應用程序仍能繼續運行。這包括為轉發的消息和線下消息付費。'
+      ens-user-name:
+        title: ENS使用者名稱
+        status: Live
+        description: 'ENS地址看起來就像是用戶名，例如：Jenny.eth。它可以指向個人帳戶，讓其他人可以發送代幣，或顯示在Status的對話中。ENS地址可以在Status的聊天室，錢包和瀏覽器中搜尋使用。<br> <br> 在stateofus.eth註冊ENS名稱的費用為10 SNT。確認保留名稱後，SNT將會被鎖定在區塊鏈合約上，為期一年。一年之後，您才可以釋放名稱並取回SNT，也可以不採取任何措施來保留它。'
+        link: 註冊ENS
+      sticker-market:
+        title: 貼圖市集
+        status: Live
+        description: '貼圖為使用者提供一種有趣的方式，使其能直覺地與朋友和家人互動。Status內建的貼圖市集，允許任何人創建並出售自己的設計給世界各地的用戶，並能夠在每個Status聊天中使用。<br> <br> 部分貼圖需要透過市集購買並花費SNT。'
+      tribute-to-talk:
+        title: 付費聊天
+        status: 開發
+        description: '付費聊天－作為基於經濟理論的反垃圾郵件過濾器－在這裡主要是用於區隔接收的訊息，和"降溫"好友請求的數量。這讓代幣持有者可以設置必須收到的最小數量SNT，才會允許他們好友以外的某人與他/她直接聯繫。'
+      dao-governance:
+        title: DAO與治理
+        status: 研究
+        description: '讓代幣持有者能夠選擇軟體發展方向，是Status Network Token (SNT) 核心思考的一部分。SNT將用於對提案進行決策，任何代幣持有者都可以擬定提案。對於每個決策，代幣都將複製成為獨立的決策代幣。您當下持有的代幣數量，將轉換為您對該決定的投票權，因此不需要使用SNT來投票。'
+      dapp-curation:
+        title: DApp策展
+        status: 進行中
+        description: 'Dap.ps 提供一種讓網內代幣持有者探索DApps的方式，是由其他社群成員所推出。它也提供按類別和評等瀏覽的方法，使用戶能夠更精確找到自己想要的東西。目錄中的策展和標註將需要SNT。希望提高自身DApp能見度的開發人員，也需要存入SNT。'
+        link: 瀏覽DApp
+      voting-dapp:
+        title: 投票DApp
+        status: 進行中
+        description: 'Status Voting DApp是邁向社群治理的第一步，它讓代幣持有者能夠影響網路的未來，任何人都可以使用Voting DApp與SNT，建立社群投票。而經由二次方投票(quadratic voting)的機制，則代表著您錢包中的SNT數量，將決定了您可以投多少票。'
+        link: 查看投票DApp
+      acquisition-engine:
+        title: 採集引擎
+        status: 研究
+        description: '要達成我們使命最重要的一件事就是：提升使用者的普及率。而利用Status Network Token (SNT)，我們可以憑藉在Web 2.0中研究過和測試得到的方法來改進設計，同時為參與者提供更大的透明度，和更好的獎勵機制。至於Status採集引擎，則提供一種透過密碼的可證明性，且透明的方式，來推動用戶數的成長。'
+    crypto-research:
+      title: 加密經濟學研究
+      description-1: '來自世界各地的社群貢獻人員，透過對於SNT使用案例的加密經濟學模型研究，來開發功能與產品，也同時激勵Status Network的拓展。 <br> <br>這些加密經濟學模型是一項持續性的研究工作，歡迎任何人參與探索，評論和檢驗這些項目。'
+      link-1: '加入 #status'
+      description-2: 加入公共頻道並了解更多有關該研究的資訊
+      link-2: 加入討論
+    learn-more:
+      title: 了解更多
+      description: '我們正在積極研究和拓展SNT的使用案例。加入公共討論或閱讀SNT FAQ，來了解更多有關SNT的使用案例和代幣經濟研究的資訊。'
+      link: '加入 #status'
+    create-your-snt:
+      title: 建立您自己的SNT財務金融模組
+      description: 歡迎任何人參與並測試工作簿中概述的經濟模型。如果您是研究人員、經濟學家或是對財務模型有興趣，歡迎加入協助。
+      link: 測試SNT代幣模組
+  get:
+    mobile:
+      title: 行動
+      description: 個人即時通訊、安全的加密交易、Web3瀏覽器，盡在您的口袋中
+    desktop:
+      title: 桌面
+      description: 測試桌面Beta版本，讓您無論在何處工作，也能進行隱密、安全的通訊。
+    download: 下載Status
+  docs:
+    stripe:
+      title: Status開發人員
+    title: 歡迎使用Status文件庫！
+    description: 在Status上執行您的DApp，深入研究我們的技術，了解我們的組成，或協助建構Status：
+    categories:
+      technical-documentation:
+        title: 貢獻者指引手冊
+        description: 加入我們的散布狀生態系統
+      developer-tools:
+        title: DApp整合中心
+        description: 在Status上執行您的DApp
+      build-status:
+        title: 建構Status
+        description: 適用於行動裝置與桌面
+      research:
+        title: 研究主題
+        description: 建立散布化的未來
+      team:
+        title: 我們的團隊
+        description: 加入Status
+      audits:
+        title: 外部查核
+        description: 外部技術審核
+      keycard:
+        title: '金鑰卡API (應用程式介面)'
+        description: 安全、感應式、開放原始碼的硬體錢包
+    pinned-repositories:
+      title: 釘選的程式庫
+      status-react:
+        title: status-react
+        description: 一個免費（自由）開放原始碼的以太幣行動操作系統
+      status-go:
+        title: status-go
+        description: Status功能模組可能需要消耗以太幣
+      specs:
+        title: 規格
+        description: Status用戶端的規格需求
+    help:
+      title: 我們能提供協助！
+      description: 我們將很樂意為您提供代碼，或任何相關問題的幫助。
+      link-1: 回報錯誤
+      link-2: Status社群聊天
+      link-3: 與我們聊聊
+      link-4: 在reddit上詢問
+    update:
+      title: 最近更新
+    index:
+      intro:
+        title: Status開發人員
+        teaser-1: '歡迎來到Status的開發人員入口。您可以在這裡尋找所需的一切，開始為Status做出貢獻，建立自己的DApps，或註冊您的<a href=''https://dap.ps''>dap.ps</a>應用，以及與Status網路上的任何人展開專案合作。'
+      box-link-1:
+        title: 貢獻者指南
+        text: "Status是自由建置的開放原始碼軟體，任何人都可以免費共享該軟體並從中受益。 <br> \_ <br> 不論各種背景、技術能力，有意願貢獻的社群成員，都可以參與官方的Status發布。了解如何建立Status、完成任務來獲得加密貨幣、修復錯誤，或加入新功能。"
+        cta: 開始
+      box-link-2:
+        title: DApp整合中心
+        text: 'Status內含保護隱私和安全的Web3瀏覽器，並可以使用數量持續增加的去中心化應用。<br>&nbsp;<br>Dapp整合中心也提供在Status內將dapps最佳化的快速指引，包括行動最佳化、安全性和隱私要求，調用Status API，以及如何提交給dap.ps。'
+        cta: 開始
+      box-link-3:
+        title: 示範教學
+        text: '依照教學，學習如何使用Status，以及協助Status Network上的專案項目推進。 <br>&nbsp;<br> 包括編寫DApps、硬體安全性整合，使用Nimbus或Vac進行設置。都是由核心貢獻者和社群自發創建的課程。找不到您想要的東西嗎？試著為更多人創造屬於自己的教學。'
+        cta: 查看所有教學
+        text-1: 'WebAssembly / eWasm －什麼，為什麼？'
+        description-1: Embark教學的細節簡介
+        text-2: DApp前端安全
+        description-2: Embark示範教學的細節簡介
+    dev-tools:
+      title: '利用The Status Network進行構建'
+      keycard:
+        title: 金鑰卡
+        subtitle: 安全、感應式、開放原始碼的硬體錢包
+        description: 利用金鑰卡將硬體安全性整合進入您的專案
+      embark:
+        title: Embark
+        subtitle: 建構和部署DApps的多合一開發人員平台
+        description: 使用Embark開發和部署去中心化應用程序
+      nimbus:
+        title: Nimbus
+        subtitle: 研究並實現輕量級以太坊2.0客戶端
+        description: 使用Nimbus進行更輕量級的以太坊2.0客戶端開發
+      vac:
+        title: Vac
+        subtitle: 安全的點對點訊息傳送堆疊
+        description: 隱密、安全、抗審查的通訊方式，採用Vac架構
+    support: '找不到你想要的？請到社群論壇<a href=''https://discuss.status.im/tags/faq''>討論</a>查看。'
+  footer:
+    title: 準備好與Status一起開始<br>？
+    product:
+      title: 產品
+      apps: 取得應用程式
+      nightly: 開發中版本
+    status:
+      title: Status
+      jobs: 工作機會
+      white-paper: 白皮書
+      media-kit: 媒體工具包
+      analytics: 分析工具
+      open_positions: 職位空缺
+    documentation:
+      title: 文獻資料
+    status-network:
+      title: 'Status Network'
+      embark: Embark
+      nimbus: Nimbus
+      keycard: 金鑰卡
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: 子空間
+      teller: 交易員
+      assemble: 組裝
+    connect: 外部社群連結
+    privacy-policy:
+      title: 隱私權政策
+      description: 'Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland'
+    site-analytics: 網站分析
+    messari: 'Messari 的透明度審核'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 真正的私密訊息
+        description: 在沒有任何中央伺服器的情況下，發送和接收完全加密的訊息。
+      secure-wallet:
+        title: 安全的加密錢包
+        description: 安全地儲存您的ETH、SNT和其他加密貨幣資產。
+      web3-browser:
+        title: 分散式Web3瀏覽器
+        description: 開發分散式應用程式的生態圈，就在這裡。
+    invite:
+      title: '加入我們的公共頻道<a href=''https://join.status.im/chat/public/%s'' target=''_blank''> ＃ %s </a> ，以了解如何贏取SNT'
+      prize:
+        option-1: '註冊stateofus.eth ENS名稱'
+        option-2: 購買貼圖
+        option-3: 在dap.ps中投票給您喜歡的dapp
+        option-4: 參與Status社群治理提案
+  nightly:
+    title-1: 'Status Nightly 版本'
+    title-2: 龍出沒注意！
+    updated: 更新
+    description-1: '警告：Nightly版本適用於開發測試，可能包含錯誤和其他問題。您或許會想使用<a href=''https://status.im/get/''>穩定版本</a> 。'
+    description-2: 通過下載和安裝這些內部版本，您知道必須自行承擔全部責任，以及所有數據和資金相關的風險。Status不保證這些版本中的資金安全性或完整性。Status建議在Nightly版本使用不同的恢復詞組。
+    description-3: 請參閱我們的
+    faq: 一般常見問題
+    mobile: 手機
+  keycard-integration:
+    intro:
+      title: 將硬體安全性加入到您的Status體驗
+      description: 使用金鑰卡來保護您的資產和帳戶－離線式儲存的硬體錢包，結合非接觸式、便利性的體驗。現僅適用於Android。
+      button: 取得金鑰卡－29歐元
+    about:
+      title: 什麼是金鑰卡？
+      description: '金鑰卡是一種離線儲存式硬體錢包，目的是使您的私鑰完全離開連線裝置，以提高資金安全性。<br><br>卡片內有NFC技術和類似信用卡的設計，能提供無縫、非接觸式體驗。並使用開放應用程式介面（open API），能將第三方加密錢包、DApp和硬體整合在一起。'
+      button-1: 了解更多
+      button-2: 以29歐元取得金鑰卡
+    secure:
+      title: 使用金鑰卡保護Status
+      security:
+        title: 為您的資產和交易提供更高的安全性
+        description: 將私鑰離線儲存在您的金鑰卡上後，便能將硬體強制授權認證，添加到您的交易流程中。即使您的手機被盜，您的資金也能夠安全無虞。
+        send: 發送交易
+        confirmed: 確認對外交易
+      account:
+        title: 保護對您帳戶的存取
+        description: 增加更強的安全性，需要使用金鑰卡+輸入PIN密碼作為雙重驗證，才能登入您的Status帳戶。
+        confirmed: 登入成功
+    boxes:
+      box-1:
+        title: 自治與自信
+        description: Status去除了不必要的第三方（例如銀行）仍可進行通訊和交易。但是移除這些服務商，人們現在需要對自己和資金負責。這種情況下，金鑰卡可以提供更安全的，與令人放心的操作環境。
+      box-2:
+        title: 行動優先的設計
+        description: 透過非接觸式NFC技術，結合時尚、熟悉的設計元素，金鑰卡藉由硬體錢包的安全特性，提供了與信用卡相同的便利。
+      box-3:
+        title: 經濟實惠的安全性
+        description: 只需29歐元，金鑰卡即可提供強大的硬體安全保證，無需支付昂貴的價格。
+        link: 取得金鑰卡－29歐元
+    faq:
+      title: 有任何疑問嗎？
+      button: 了解更多
+  keycard:
+    intro:
+      title: 'Status x 金鑰卡－提供隱密與安全的通訊'
+      description: Status是隱密的通訊軟體、安全的加密錢包和Web3瀏覽器。金鑰卡為使用上進一步提供了硬體安全性。請至下方詳細了解如何使用金鑰卡。
+      button: 常見問題
+    security:
+      title: 為您的資產和交易提供更高的安全性
+      description: 將私鑰離線儲存在您的金鑰卡上後，便能將硬體強制授權認證，添加到您的交易流程中。即使您的手機被盜，您的資金也能夠安全無虞。
+      send: 發送交易
+      confirmed: 確認對外交易
+    account:
+      title: 保護您的帳戶
+      description: 已新增更強的安全性，需要使用金鑰卡+輸入PIN密碼作為雙重驗證，才能登入您的Status帳戶。
+      confirmed: 登入成功
+    faq:
+      title: 有任何疑問嗎？
+      button: 前往常見問題解答
+  faq:
+    title: 常見問題
+    description: '常見問題<br>找不到您想要的解答？請到社群討論論壇<a href=''https://discuss.status.im/'' target=''_blank''>此處</a>進一步查看或詢問。'
+    general:
+      title: 一般問題
+      q1:
+        question: Status是什麼？
+        answer: Status是一種隱密、安全的溝通工具，可以維護人權並賦予主權社群權力
+      q2:
+        question: Status的背後是由誰支持？
+        answer: 'Status是由Status Network建立。<a href=''https://statusnetwork.com/'' target=''_blank''>Status Network</a>為各種具有彈性、永續性，和包容性的社群，建構產品、技術工具與基礎架構。更多關於Status，以及其核心貢獻者的資訊，請至<a href=''https://status.im/about/'' target=''_blank''>此處</a>。'
+      q3:
+        question: 為什麼要使用Status？
+        answer: 在過去的20年中，眾所皆知，網際網路受到少數公司的控制，並有動機地收集和出售數據。Status提供了另一種替代方案。Status使用目前最先進的技術，來提供隱密、安全的通訊，Status也使用點對點模型，來防止任何第三者控制使用者的數據。Status更結合了通訊軟體、加密錢包和Web3瀏覽器，可讓您完全控制自己的資產和溝通。
+      q4:
+        question: 為什麼是作為通訊軟體？
+        answer: 主權社群需要能對抗審查的、隱密的，和安全的通訊方式來進行溝通。通訊軟體因其適合行動使用，讓以太坊在此方向上，拓展出了一條可行的應用道路。反過來，這也可以使更多社群，觸及支付網路和其他的分散式應用程式。<br><br>Status不僅僅是一個通訊軟體，還將資產管理與加密錢包結合在一起，並通過Web3瀏覽器開啟分散式應用，期望最終成為世界上最廣泛使用的日常交流工具。
+      q5:
+        question: 相較於其他通訊應用軟體，是什麼讓Status與眾不同？
+        answer: '大多數通訊軟體都有提供端到端加密。這項標準保護措施，代表提供服務的公司無法閱讀您的訊息內容。但是，他們網路上的資訊流向是公開的，因此可以得知誰在哪裡，以及與誰說話。傳統的通訊軟體，也需要個人識別資料來註冊，例如電話號碼，並且該資訊常與您的其他個人數據相連結。Status不需要任何填個人資料即可上手。基於點對點的基礎架構，Status不會得知誰在與誰聯繫，也無法知道訊息內容。<a href=''https://github.com/status-im/specs'' target=''_blank''>在這裡</a>您可以找到有關這項技術運作方式的規格。'
+      q6:
+        question: 如果政府試圖阻擋或審查Status，會發生什麼？
+        answer: 'Status的通訊軟體，不是使用單獨的中央伺服器提供服務，因為這容易讓通訊被阻斷。相反地，Status使用分散式的郵件伺服器網路，這樣可以確保網路的彈性。如果關閉了某一個郵件服務器，則會連接到另一台郵件伺服器，您也可以架設<a href=''https://discuss.status.im/t/get-your-node-running/1488/4?u=hester'' target=''_blank''>運行自己的</a>郵件伺服器。但是，Status伺服器和郵件伺服器，仍需依賴網際網路連結。如果電信服務商關閉了網際網路，您就無法使用Status。'
+      q7:
+        question: Status如何連接到區塊鏈？
+        answer: Status與go-ethereum整合在一起，後者即是提供連接到以太坊網路。因此您只需要打開Status應用程式，便能連上以太坊！請注意，只有錢包和瀏覽器才能與以太坊區塊鏈進行交易互動。聊天訊息則不會儲存在區塊鏈上。
+      q8:
+        question: 我可以自行安裝以太坊go-ethereum程式，或是在伺服器上執行嗎？
+        answer: '我們致力於使輕量節點在資源受限的設備上執行。這能讓您直接以手機或是物聯網設備連接到以太坊，無需伺服器。更重要的是，它將改善整個網路的無障礙和彈性。更多相關資訊，請查看<a href=''https://nimbus.team/'' target=''_blank''> https://nimbus.team/ </a>。<br><br>如果您想要動手執行go-ethereum，可以在Linux設備上設置一個節點，並設定讓Status應用程式能夠連結到該節點。您可以在<a href=''https://discuss.status.im/t/get-your-node-running/'' target=''_blank''>此處</a>找到更多訊息。'
+      q9:
+        question: 我可以在哪些行動裝置上使用Status？
+        answer: '經過測試，Status可以在Android 7+和iOS 13+的系統上安裝使用。'
+      q10:
+        question: Status也可以在個人電腦上運行嗎？
+        answer: 目前不行。雖然我們的程式碼規劃是使Status可以在行動裝置或個人電腦上運行，但目前個人電腦部分的開發處於暫停狀態，而團隊專注於行動應用程式和其他基礎架構項目。
+      q11:
+        question: 這個應用程式支援哪些語言？
+        answer: 'Status目前有14種語言可用－英語、法語、意大利語、簡體中文、繁體中文、韓語、巴基斯坦語、俄語、土耳其語、西班牙語、菲律賓語、印尼語、德語、葡萄牙語。<br><br>任何人都可以為Status翻譯做出貢獻。如果您發現拼寫錯誤、翻譯錯誤，或是想新增您的使用語言，請加入<a href=''https://translate.status.im/'' target=''_blank''> translate.status.im </a>並提出。'
+      q12:
+        question: 這個應用程式可以免費使用嗎？
+        answer: '當然可以。使用Status的基本功能無需任何費用。而為了能充分發揮Status的用途，持有加密貨幣ETH（以太坊）和SNT（Status Network Token）會更加便利。某些功能需要使用SNT，因為這有助於支持我們的項目。<br><br>如要獲取SNT，您可以使用交易DApp來轉換您已經擁有的加密貨幣，或者您可以使用法定貨幣（例如歐元或美元），在允許法幣交易的加密貨幣交易所，購買ETH和SNT。'
+      q13:
+        question: 需要支付費用嗎？
+        answer: 'Status沒有隱藏性的費用。當您使用加密錢包進行交易時，您會看到網路交易費用顯示在支出中。該網路費用也稱為“ gas”，是以太坊網路的一項要求，所有以太坊錢包和應用程式都使用完全相同的方式來進行交易。Status沒有從其中收取任何比率的費用。'
+      q14:
+        question: 我想為這個項目做出貢獻，你們會建議我從哪裡開始？
+        answer: 'Status是一個開源項目，歡迎所有人的參與貢獻，不論是技術和非技術領域。<a href=''https://ambassador.status.im/'' target=''_blank''>推廣大使頁面</a>是一個很好的起點。在這裡，您可以與活躍的貢獻者取得聯繫，他們可以提供您在推廣、教學相關，或是改善下一代Web項目上的支援。<br><br>如果您是開發人員，並且想親自動手，請查閱DApp開發目錄上的文件檔。如果您是行動開發人員，並且偏愛函數式語言，那麼請自己建構心目中的Status，並開始提交這些PR (Pull Request)。'
+      q15:
+        question: 我該如何要求功能改進？
+        answer: '由於Status是一個開源、社群驅動的項目，因此您可以要求功能改進，也可以為功能開發做出貢獻。請在公共頻道 <a href=''https://join.status.im/status'' target=''_blank''> #status</a>，或我們的論壇上分享您的想法：<a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a>。也歡迎您打開<a href=''https://github.com/status-im'' target=''_blank''> Github issue</a>回報。 <br><br>如果您是開發人員，請遵循我們的<a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''>貢獻者指南</a>來投入參與。'
+      q16:
+        question: 什麼是SNT，它在應用程式中的功能是？
+        answer: 'SNT是Status Network Token的縮寫簡稱。這是Status的ERC20（一種以太坊標準）代幣，用於維持Status網路運行。應用程式中的某些功能會要求用戶存入或花費SNT。代幣的流動是Status網路的首要目標，因為SNT的價值有助於確保項目能持續更新。'
+    keys-and-accounts:
+      title: 金鑰和帳號
+      q1:
+        question: 什麼是金鑰（私鑰/密鑰）？
+        answer: 金鑰是一種確認身份的形式，是Status和以太坊的骨架。它們總是成對出現，分別稱為公鑰和私鑰。當您第一次使用Status時，會產生出第一對，您可以將它視為主密鑰對。之後，便能從該第一對密鑰，產生n個關聯密鑰對，據此建立類似身份鑰匙串的資料結構。這鑰匙串的其中之一，便是您的聊天金鑰。您可以在個人資料>共享按鈕中找到它。
+      q2:
+        question: 什麼是帳號？
+        answer: 您可以將Status中的帳號想像為類似銀行帳戶。與銀行帳戶一樣，帳號會具有地址（數字號碼）和餘額，並可以進行交易。且每個帳號都有自身的歷史交易紀錄，能夠公開查詢。您可以使用多個帳號來維護自己的隱私。點選錢包按鈕，即會顯示出您的帳號。
+      q3:
+        question: 我的錢包地址是什麼？
+        answer: 您的錢包地址有42個字元，以0x開頭。這是您的以太坊帳號，也是區塊鏈上的身分識別。如果您擁有多個帳號，則也會有多個地址。您可以透過進入錢包>帳號圖示>接收，或是點選帳號圖示上的分享按鈕，來找到您的錢包地址。<br><br><i>請注意，儘管看上去十分相似，但您的錢包地址與聊天金鑰並不相同。您可以在個人資料>共享按鈕中找到您的聊天金鑰。</i>
+      q4:
+        question: 我可以在Status中建立幾個帳戶？
+        answer: '您可以根據需要建立不限數量的子帳號。進入錢包>新增帳號。如果您失去對使用者帳戶的存取權限，則可以使用種子詞組以及主密鑰對來恢復以此方式添加的子帳號。<br><br>您還可以通過以下步驟創建更多主密鑰對：在你的金鑰頁面>產生新的金鑰，或想要從另一個錢包導入金鑰，並建立全新的使用者密鑰鏈，則選擇"使用現有金鑰"。'
+    profile-and-settings:
+      title: 個人資料與設定
+      q1:
+        question: ENS用戶名是什麼？
+        answer: 'ENS用戶名是在以太坊名稱服務中註冊的名稱；將以太坊地址連接到唯一的人可讀的名稱，例如Alice。就像註冊網域名稱一樣，它帶有不同的後綴。如果通過Status進行註冊，則會獲得alice.stateofus.eth。當您註冊一個ENS名稱時，您可以在Status聊天中使用它，將您的隨機暱稱（例如Sneaky White Koala）轉換為您的ENS名稱。這使其他人更容易找到並辨認出您。'
+      q2:
+        question: alice.eth和alice.stateofus.eth有什麼區別？
+        answer: '購買stateofus.eth名稱比較便宜。您僅需支付10 SNT的押金來取得該名稱的使用權，一年後您可以選擇收回資金，或是繼續使用該名稱，無需追加任何其他費用。而 .eth域名目前（2020年1月）的費用約為每年$ 5美元（用以太幣支付）。您也可以將兩個名稱都連接到您要使用的聊天金鑰，例如@ alice。'
+      q3:
+        question: 種子詞組是什麼？
+        answer: 您Status中的種子詞組，是由12個單字組成。它是您的聊天金鑰以及錢包中的子帳號金鑰的來源。所有金鑰都是通過特定加密計算從第一個種子產生的。如果您失去了對帳戶的使用權限（例如，遺失手機），則可以使用種子詞組來取回金鑰。相同的加密過程，能使您重新產生與原本完全相同的身份金鑰串。
+      q4:
+        question: 我該怎麼處理這個種子詞組？
+        answer: 請寫下來，並存放在安全之處。最保險的方式是將種子詞組記在紙本上，遠離您的使用裝置。
+      q5:
+        question: 如果我遺失了手機，該如何取回我的帳戶？
+        answer: 要取回您的帳戶，您需要原本12個單字的種子詞組。使用此種子詞組，您可以重新取回主金鑰對和所有子帳號。<br><br>請注意，您可以還原以太坊上存在的帳戶。但是，您將無法恢復聊天頻道或好友名單，因為這些資訊僅儲存在您原有裝置中。
+      q6:
+        question: 為什麼“備份種子詞組”顯示為灰色？
+        answer: 當您曾按照螢幕指示，紀錄下種子詞組後，“備份種子詞組”選項將顯示為灰色。此時，您將無法在應用程式中查看種子詞組。這項資訊也會從此一裝置中刪除，以盡可能減少被其他人探查得知的風險。
+      q7:
+        question: 我遺失了我的種子詞組，該怎麼辦？
+        answer: '相當棘手。首先，請檢查是否已經無法備份“個人資料”>“隱私權和安全性”中的種子詞組。如果“備份種子詞組”項目呈現灰色，則表示您已無法再取回種子詞組。<br><br>在此情況下，最佳選擇是使用新種子詞組生成新的金鑰，並將您的資產轉移到該新的使用者帳戶。在Status的個人資料中，選擇登出>我的金鑰右方[...]圖示>產生新的金鑰。然後，按照螢幕上的步驟儲存和收藏此新的金鑰。完成後，進入新帳戶的“個人資料”>隱私權和安全性”>“備份種子詞組”，將其存放在離線安全之處。然後進入錢包>Status account圖示>接收圖示>點擊地址來進行複製，之後，再次登出。<br><br>使用六位數密碼解鎖已經遺失了種子詞組的使用者。將所有資產從您的舊錢包中，發送到新的錢包地址。'
+      q8:
+        question: 如何刪除我的個人資料？
+        answer: 您的個人資料僅儲存在手機裝置上。而您發送的所有訊息將在郵件伺服器上保留30天。此後，該訊息將不復存在。至於您透過錢包中帳號進行的交易，將被紀錄在區塊鏈上。
+      q9:
+        question: 如果有人可以存取我的手機，我的個人資料的哪一部分有被加密，什麼資料沒有被加密？
+        answer: 您的私鑰不論何時都是被加密保護著，並只能與六位數密碼一起用於簽署交易。至於未加密的資訊，則包括以3個單字表示的帳戶名稱、上次使用Status（解鎖私鑰）的時間，以及個人資料圖片和金鑰卡識別符號（如果有使用金鑰卡的話）。
+      q10:
+        question: 我該如何讓Status的行動數據使用量降到最低？
+        answer: Status可能會佔用大量頻寬。防止消耗傳輸量的最佳方法是僅在連接到wifi時使用Status。您可以透過在個人資料＞同步設定＞行動數據下，調整設定來防止Status使用行動數據傳輸量。
+    messenger:
+      title: 通訊軟體
+      q1:
+        question: 我的訊息真的隱密嗎？
+        answer: '對，訊息是隱密的。Status目前使用以太坊建構的通訊協議Whisper。它提供點對點通訊，對於中央式伺服器，資料中心或服務提供商的依賴為零。<br><br>每則訊息，都是端到端加密的，並在設定時間內廣播到網路中的每個端點。這不僅能讓旁人無法讀取訊息內容，而且也無法顯示是誰向誰發送訊息。對於個人一對一的訊息，只有訊息的指定收件人，才能解密內容。而在公共聊天頻道，知道頻道名稱的任何人都可以解密內容。<br><br>另一個安全措施，是在用戶之間進行初始密鑰交換之後，對每則訊息都使用新的加密密鑰（完全轉發保密）。如果您的聊天金鑰被洩露，則僅有該金鑰的訊息會被解密。但無法讀取過去的訊息。<br><br> Whisper所提供的隱私，確實是需要以高數據傳輸量為代價。我們正在開發替代方案。您可以在<a href=''https://forum.vac.dev/t/waku-project-and-progress/24'' target=''_blank''>此處</a>了解目前進度。'
+      q2:
+        question: 我的聊天訊息被儲存在哪裡？它們被記錄在區塊鏈上嗎？
+        answer: 聊天訊息不是儲存在區塊鏈上，也不消耗任何費用發送。通過打開Status並連接到網路，訊息將在郵件伺服器上保留30天，並在訊息已讀後儲存到手機上。為了傳遞訊息，資訊乃是透過Whisper的傳輸層－devp2p，但沒有通過以太坊虛擬機進行傳輸。
+      q3:
+        question: 由誰管理儲存訊息的郵件伺服器？
+        answer: 'Whisper需要一種特殊的以太坊節點來儲存和傳送訊息。而Status目前是使用Whisper的唯一應用實例。因此，Status創建了一組這些特殊節點，以服務其用戶。但是，任何人都可以在符合要求的硬體上，配置郵件伺服器節點。您可以在<a href=''https://discuss.status.im/t/get-your-node-running/1488/2'' target=''_blank''>節點運行配置</a>找到說明。'
+      q4:
+        question: 要如何在Status中更改我的顯示名稱？
+        answer: '如果要新增自訂名稱，您可以註冊ENS用戶名。請進入個人資料>ENS用戶名稱。然後進行新的註冊，或使用既有的<a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''>ENS用戶名稱</a>與您的Status聊天金鑰連接。之後，其他人便可以透過該用戶名稱找到您。您也可以選擇顯示它，用以代替您在聊天中的三個單字暱稱。'
+      q5:
+        question: 如何邀請我的朋友加入Status？
+        answer: '您可以與Status以外的朋友，分享您的個人資料或特定的聊天頻道。<br><br>要共享自己的個人資料和聊天金鑰，請進入您的個人資料頁面，然後單點右上角的分享按鈕。這會產生一個分享連結，您的朋友可以經由該連結，取得Status應用並加入您的個人資料。<br><br>要分享公共聊天頻道，請打開該頻道頁面，然後從右上角的[...]圖示，選擇分享聊天。這將產生該聊天頻道的連結，然後您就能夠傳送給Status以外的朋友。'
+      q6:
+        question: 我加入了某個公共聊天頻道，但沒有看到任何訊息。這是為什麼？
+        answer: '公共聊天就像廣播。您可以選定某個頻道來接收，但是只有其他人正在該頻道上廣播時，您才會看到訊息。您可以通過頻道頁面右上角[...]圖示，選擇分享聊天，來展開自己的聊天頻道並邀請其他人，例如<a href=''https://get.status.im/chat/public/introductions'' target=''_blank''>https://get.status.im/chat/public/introductions</a>'
+      q7:
+        question: 如何建立新的公共聊天頻道？
+        answer: '在聊天室頁面中，點擊[+]圖示按鈕＞加入公共聊天，並輸入聊天頻道名稱。如果該名稱在網絡上尚未建立，則將會自動新建一個。<br><br>您應該發現到公共聊天頻道就像＃標籤，即收集了所有標註相同＃的訊息。'
+      q8:
+        question: 如何與在Status中的某使用者展開一對一的聊天？
+        answer: '在聊天室頁面中，點擊[+]圖示按鈕＞開始新聊天＞輸入對方的ENS用戶名或聊天金鑰。或者，如果對方坐在您旁邊，請從他們的個人資料頁面，點選用戶名稱後，掃描QR碼。<br><br>如果要在公共頻道中與某人開始聊天，請先點擊他們的暱稱或頭像＞發訊息。'
+      q9:
+        question: 我選擇哪個郵件伺服器會有影響嗎？
+        answer: 選擇在地理上距離您較近的郵件伺服器，將更快地傳送回訊息。建議保留郵件伺服器自動選擇的預設值。啟用自動選擇後，Status可以測量伺服器間的網路延遲，並為您選擇最快速的伺服器。<br><br>如果要連接到自己的郵件伺服器，或是連接到特定的受信任設備上，則可以新增自行定義郵件伺服器。
+    browser:
+      title: 瀏覽器
+      q1:
+        question: 這裡的瀏覽器與其他瀏覽器有何不同？
+        answer: Status包含有啟用Web3的瀏覽器。啟用Web3的瀏覽器除了可以打開任何網站之外，您還可以同時使用分散式應用程序或稱“DApps”。為實現這一點，Status將一個物件，注入到給定網站的文件物件模型（DOM）中，從而允許該網站在您的許可下，引用您在區塊鏈上的帳戶。<br><br>通常，DApps使用以太坊區塊鏈發送和接收資訊，類似傳統處理儲存在中央伺服器上的付款流程。而DApp在過程中，能改善過去單方面控制您的數據，並從中獲利的風險。
+      q2:
+        question: 什麼是DAp.ps？
+        answer: 'DAp.ps是為以太坊開發的DApp去中心化分佈式社群應用平台，因此您可以輕鬆瀏覽web3的精華。 DApp開發人員可以免費提交他們的DApp，也可以投入SNT來提高排名。用戶則是可以使用SNT投票－我喜歡或我不喜歡，來改變排名。而且，開發人員投入的SNT越多，對DApp的不喜歡投票就越容易。'
+      q3:
+        question: 我要如何投票支持DApp？
+        answer: '進入 <a href=''https://dap.ps'' target=''_blank''>https://dap.ps</a>，找到您喜歡的DApp，然後點選Upvote。設定您要使用的SNT數量，然後點選“upvote”。當您投給DApp－Downvote（我不喜歡）時，金額將不用設定。原因是，DApp開發人員為提高排名而投入的資金越多，您在此投票的價格就越便宜。這樣可以減少資金充裕的DApp進行操控，並確保DApp的實用性。<br><i>請注意，投票需要花費SNT以及少量ETH來支付交易驗證費用。</i>'
+      q4:
+        question: 什麼是DApp權限請求？
+        answer: 'DApps必須獲得權限，才能查看和使用您的錢包地址以及聊天密鑰。通常，一個DApp會先請求“連接您的錢包”，然後，您會看見一個彈出視窗，詢問“拒絕”或“同意”此請求。此連接到您錢包地址的權限，僅限於您在此錢包中持有的帳號。如果您是授予給新使用者帳戶，則先前連接的帳戶許可將被撤銷。如果您拒絕請求，則該DApp將不能取得您的以太坊地址相關訊息，也就無法啟動交易。 <br><br>進入個人資料＞隱私權和安全性＞設定DApp訪問權限，以查看哪些DApp可以連接哪些帳號，並根據需要取消權限。 <br><br><i>請注意，如果DApp另儲存了您的地址，則Status無法對此撤銷。 </i>'
+    wallet:
+      title: 錢包
+      q1:
+        question: 我的錢包有多安全？
+        answer: 'Status建有分層確定性（HD）錢包。在此錢包中產生的所有密鑰均有加密，並使用手機內的安全硬體（如果具備）儲存在您的裝置上。除了您，沒有人可以存取。為了增強安全性，您還可以取得<a href=''https://keycard.tech/'' target=''_blank''>金鑰卡</a>來儲存您的密鑰。'
+      q2:
+        question: 簽署交易意味著什麼？
+        answer: 以太坊鏈上的任何改變均被視為交易。代表訊息從一個地址傳輸到另一個地址。這個訊息可以是資產或協議。當您使用Status簽署交易時，表示您正在同意該交易。Status會提示您正要求簽署哪種交易。
+      q3:
+        question: 什麼是我的簽署詞組？
+        answer: 簽署詞組是一種安全機制。首次使用Status時，錢包將為您顯示您的簽署詞組，這是三個單字的獨特組合。只有您和應用程式知道此簽署詞組。往後每次您要簽署交易時，應用程式都會向您顯示此一詞組。如果您有看見簽署詞組正確顯示，就能夠確定此請求來自Status，並且可以放心簽名。
+      q4:
+        question: Status錢包支援哪些ETH代幣資產？
+        answer: Status錢包目前支援ETH和ERC20代幣（例如OMG、BNB、BAT或DAI），以及某些ERC721代幣（例如謎戀貓Cryptokitties或數位藝術品）。
+      q5:
+        question: 為什麼我的資產沒有顯示出來？
+        answer: '預設情況下，錢包中僅會顯示ETH和SNT。如果您導入的帳戶還包含其他代幣，則Status錢包也會顯示這些代幣。在其他狀況下，例如，當您向Status中的帳號發送不同種類代幣時，則需要手動將其添加到代幣列表中。<br><br>您可以通過點擊錢包頁面右上角的[...]圖示> 選擇“管理資產”，將代幣添加到代幣列表中。'
+      q6:
+        question: ENS如何與Status錢包配合使用？
+        answer: 您可以點選錢包>發送圖示>選擇收款人>輸入收款地址，然後以ENS名稱發送資產。錢包會自動將ENS名稱替換為擁有它的錢包地址。
+      q7:
+        question: 為什麼我進行交易必須支付網路費？
+        answer: '以太坊的網路費，也稱為"gas"，能顯示在以太坊區塊鏈上執行動作的計算成本。這是該網路的標準。如果不支付這筆費用，就不能對以太坊區塊鏈進行任何更改，包括用戶之間的交易。Status錢包允許您調整每筆交易的網路費用。較高的費用將能提高您的交易處理速度。'
+      q8:
+        question: 我應該如何以及向哪個地址發送資產？
+        answer: 'Status錢包允許您將ETH和ERC20代幣（例如OMG、BNB、BAT或DAI）發送到接受這些資產的錢包。要發送資產，請選擇錢包頁面，然後點擊螢幕底部的發送圖示[↗]。或者，進入錢包>點擊帳戶>發送<br><br>然後輸入金額>選擇資產種類>選擇從哪個帳戶>選擇收款人<br><br>您可以通過地址格式，識別接受ETH和基於以太坊代幣的錢包。地址將以0x開頭。Status錢包會檢查無效地址，但還是建議您在簽署交易前，有再三確認地址無誤。'
+      q9:
+        question: 我恢復了我的帳戶，但我只看到一個錢包地址，之前我曾經在應用程式內建立其他地址，這表示我失去我的資金了嗎？
+        answer: '不，您的資產沒有消失。如果您在Status中建立了其他錢包地址，然後又恢復帳戶，目前您需要按照新增它們的相同步驟來手動恢復。請進入錢包頁面，然後選擇新增帳號＞新增帳號。 此時，Status不會生成新的地址，而是會恢復您按順序建立的個別錢包地址，您的資產將會與它們一起取回。 <br><br>未來，我們會加以改善，將自動恢復您所有的錢包地址。'
+      q10:
+        question: 這裡的錢包是否支援比特幣？
+        answer: 沒有，目前Status不支援比特幣區塊鏈，應用程式內只能使用以太坊和與其區塊鏈相容的資產。比特幣是一個獨立的區塊鏈，並使用自身的驗證網路來確認交易，這也就是為什麼目前無法在此兩區塊鏈之間進行交易的原因。
+    keycard-general:
+      title: 金鑰卡概要
+      q1:
+        question: 金鑰卡有什麼用？
+        answer: '金鑰卡是與Status一起使用的硬體錢包。 <br><br>它針對Status的用戶私鑰，提供更高等級的安全性和所有權。金鑰卡是用於儲存資產的冷錢包，當您進行交易時，需要在手機上感應（並且輸入6位數密碼）。 <br><br>金鑰卡也可用作雙重認證（2FA）來保護對Status的存取（即使用聊天功能）。想要解鎖並使用程式，您需要感應卡片並輸入6位數密碼。'
+      q2:
+        question: 金鑰卡是否能與Android和iOS系統上安裝的Status一起使用？
+        answer: 金鑰卡目前僅可在Android系統與Status一起使用。開發團隊正在進行iOS系統的整合測試。
+      q3:
+        question: 金鑰卡的售價是多少？
+        answer: 金鑰卡零售價29歐元，可在此處購買。
+      q4:
+        question: 金鑰卡是否能與其他錢包綁定在一起？
+        answer: Status是第一個能與金鑰卡整合的應用。但是，開發人員可以使用此處提供的開源金鑰卡API，將金鑰卡與其他產品整合在一起。
+      q5:
+        question: 我需要有金鑰卡才能使用Status嗎？
+        answer: 不，您不需要有金鑰卡就能使用Status。Status錢包是非託管的，並經由第三方的安全審核。它本身即是安全的，但是通過金鑰卡，您可以獲得更高層級的硬體安全性。
+      q6:
+        question: 我可以使用金鑰卡作為現金卡/信用卡付款嗎？
+        answer: 目前，Status用戶只能將金鑰卡作為硬體錢包。但這是我們未來計畫路線的一部分，導入使用金鑰卡進行實體支付，並將其作為開源、兼容和開放式支付網路的一部分，在該網路中，任何使用Status的手機都能成為支付裝置。
+      q7:
+        question: 金鑰卡與Ledger或Trezor等其他硬體錢包有何不同？
+        answer: '金鑰卡是針對行動裝置，重新建構的友善硬體錢包。它內含NFC非接觸式技術，可與您的手機進行通訊，只要輕靠一下卡並輸入6位數密碼，即可簽署交易。而且它非常方便攜帶。 <br><br>金鑰卡沒有螢幕或鍵盤，因此成本不高。與受信任的應用程式（例如Status）一起使用時，金鑰卡的安全性級別類與Ledger硬體錢包相當。'
+    keycard-security:
+      title: 金鑰卡安全性
+      q1:
+        question: 如果遺失金鑰卡會怎樣？
+        answer: '如果您遺失了金鑰卡，只要沒有6位數密碼，就沒有人可以使用它。想要恢復您的資產，您需要使用有12個單字的種子詞組來取回您的帳戶。 <br> <br>社交恢復功能正在進行開發，並會在未來的某個時候導入。這將能讓您透過與節點確認，以恢復您的帳戶。'
+      q2:
+        question: 金鑰卡的安全性如何？
+        answer: '卡片的安全性取決於其使用的小程式。此軟體是開源的（連結），並已由第三方安全審核公司進行了查核。 <br><br>從硬體的角度，金鑰卡是一個完整的安全元件模組，具有很高的硬體保護性。它通過資訊技術安全評估共同準則（CC）的正式測試，並取得EAL5+的安全等級。'
+    keycard-setup:
+      title: 金鑰卡設定
+      q1:
+        question: 如何使用Status和金鑰卡？
+        answer: 如果您是Status的新用戶，只需下載應用程式，並按照指示設定。您可以選擇要生成一個新帳戶，或是使用種子詞組導入既有帳戶（即“存取密鑰”），之後並可選擇將密鑰儲存在金鑰卡中。設置完成後，每當您要在Status中使用密鑰或簽署交易時，便會要求您感應金鑰卡並輸入6位數登入密碼。
+      q2:
+        question: 什麼是6位數密碼？
+        answer: 您會在安裝時設定您的6位數登入密碼。您需要記住該密碼，因為每次您在手機上使用金鑰卡時，都會詢問該密碼。
+      q3:
+        question: 什麼是配對碼和PUK碼？
+        answer: '當您設置Status和金鑰卡綁定時，將會提供您一個配對碼和一個PUK碼。您必須非常仔細地寫下這兩個資訊，因為它們之後將不會再次顯示。 <br> <br>當您要將金鑰卡與除Status以外的手機，或其他應用程式一起使用時，將需要您的配對碼。 <br> <br>如果您忘記6位數的登入密碼，則需要您的PUK碼以進行重置和修改。'
+      q4:
+        question: 種子詞組是什麼？
+        answer: 請進入個人資料的設定中查看。如果您的金鑰卡遺失，PUK碼或手機的配對碼遺忘，這是取回資金的唯一解決方案。
+      q5:
+        question: 我在Status已經有一個使用中的帳戶，並且希望將該帳戶與我的金鑰卡一起使用，我該如何進行？
+        answer: '您需要先解除安裝Status，才能再次重新安裝。登入時，您需要輸入種子詞組（“快速鍵” > “輸入種子詞組”）並將其儲存在金鑰卡上。您將恢復原有帳戶，而所有與私鑰的互動，現在都會受到金鑰卡的保護。'
+    keycard-other:
+      title: 金鑰卡的其他問題
+      q1:
+        question: 我擁有一張金鑰卡，我可以同時使用多支手機或多個應用程序嗎？
+        answer: 是的，您可以。您的金鑰卡具有一個配對代碼，可讓您同時設置5個安全通道。
+      q2:
+        question: 我遺失了我的六位數密碼，該怎麼辦？
+        answer: 如果您嘗試3次以上密碼錯誤，系統將要求您輸入PUK碼以重置並更改密碼。
+      q3:
+        question: 我遺失了我的PUK密碼，該怎麼辦？
+        answer: '如果您遺忘了PUK碼和6位數密碼，那麼您的處境堪憂，因為您將永遠無法使用金鑰卡。要取回資金，您應該使用種子詞組，然後在Status或其他錢包中再次找回（即“訪問密鑰”）。如果您熟悉CLI命令列介面，並且遺忘了密碼和PUK碼，則金鑰卡開發團隊可能會協助您恢復原始設定，請聯繫<a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''> https://join.status.im/chat/public/status-keycard </a>'
+      q4:
+        question: 我遺失了我的配對代碼，該怎麼辦？
+        answer: 如果您遺忘了配對碼，則必須確定已記下種子詞組。如果沒有配對碼和種子詞組，在手機遺失的情況下，您可能面臨失去使用資金權限的風險。
+      q5:
+        question: 我遺失了我的種子詞組，該怎麼辦？
+        answer: '如果您遺失了當前帳戶的種子詞組，則必須採取行動，因為這會讓您曝露在損失所有資金的風險中，特別是當您遺忘了金鑰卡，或忘記了PUK /配對碼時。您應該立即創建一個帶有新種子詞組的新錢包，並從其當前帳戶中轉移您的資產。'
+    banner:
+      title: 有疑問嗎？請查看常見問題
+      button: 常見問題
+  browser:
+    intro:
+      title: 個人且安全的Web3瀏覽器
+      description: '透過Web3瀏覽器，取得最新的DeFi dapps、交易所、市集、遊戲，以及更多應用。'
+    defi:
+      title: 報酬、保管、交易所與DeFi
+      description: 從您的手機立即使用快速多樣的DeFi工具和服務。
+      button: '探索Defi DApps'
+    games:
+      title: 遊戲、市集與更多相關...
+      description: 不論是遊玩、收藏、交易和瀏覽，您最喜愛的去中心化應用程式都集中在此。
+      button: 查看所有DApps
+    community:
+      title: 社群策展探索與Dap.ps
+      description: 'Dap.ps是透過第三方dapp的探索性解決方案，目的在建立一個公平、代幣治理的dapp市集。利用SNT和代幣經濟學，Dap.ps 將改變我們探索和發現最新DApp的方式。'
+    submit:
+      title: 想要將您的DApp提交給Dap.ps，讓全世界看見嗎？
+      description: 請遵循我們DApp整合中心的說明
+      button: DApp整合中心
+  wallet:
+    intro:
+      title: 卓越出眾的加密錢包
+      description: 使用安全、非保管性質的Status錢包，您可以完全掌握資金。
+    funds:
+      title: 掌握您的資金
+      description: Status錢包是完全非保管性質－只有您有權使用資金。銀行不能，甚至Status也無法。不論是發送、接收和儲存ETH、SNT、DAI、收藏品，以及各種以太坊資產，均遵循您的決定。
+    security:
+      title: 專為安全而設計
+      description: 使用最新的安全標準、反網路釣魚機制，以及本機產生和儲存的公鑰與私鑰來保護您的資金。選擇Status錢包來確保您的資產安全。
+      button: 查看規格
+    friends:
+      title: 與朋友一起取得獎勵
+      description: '推薦給朋友並獲取Crypto Starter Pack。代幣會在對方建立帳戶後，直接發送到您與朋友的錢包。'
+      button: 推薦給好友
+    payments:
+      title: 簡單、無邊界的付款
+      description: 無縫整合至個人通訊軟體中，能直接向世界各地的任何人收發付款。
+    dapps:
+      title: 'DeFi 盡在指尖'
+      description: '透過整合的錢包和Web3瀏覽器，拜訪快速多樣的Web3 Dapps世界，並與其互動。'
+      button: 探索Dap.ps
+    accounts:
+      title: 多重錢包帳戶，大幅提高隱私性
+      description: 您的Status錢包中可建立多個帳戶。能自行區隔用於與DApp進行交易、發送付款，以及存放資金的帳戶。
+    keycard:
+      title: 金鑰卡與硬體安全性
+      description: 使用金鑰卡－非接觸式硬體錢包，為您的帳戶和資金加強安全性。
+  account-creation:
+    intro:
+      title: 偽匿名帳戶建立
+    usernames:
+      title: 三單字的預設用戶名與隱私
+      description: 新建帳戶時，程式會隨機選擇三個詞－形容詞、形容詞、動物。這將成為您在Status中的預設用戶名，並塑造出實用的偽匿名機制。
+      button: 了解更多有關Status的用戶名稱
+    key:
+      title: 安全密鑰產生
+      description: 在帳戶建立過程中，將從BIP39助記短語，透過BIP43的衍生路徑產生聊天和錢包密鑰對。記住，只有您可以訪問私鑰，因此請確保它們的安全。
+      button: 了解更多有關密鑰產生的資訊
+    status:
+      title: 'ENS與State of Us用戶名'
+      description: 'ENS是一種以太坊名稱服務，允許以自定的英文名稱，來替換以太坊地址。任何人都可以在個人資料頁面中，用 10 SNT來註冊屬於自己的statusofus.eth用戶名。 <br> <br> 需要特別注意的是，當您使用特定的錢包地址註冊ENS名稱時，該地址將會與用戶名建立關聯，進而減少了該帳戶的隱私。'
+      button: '註冊Status of Us專屬用戶名'
+    keycard:
+      title: 使用金鑰卡保護您的帳戶
+      description: 配合使用金鑰卡，能向您的Status帳戶增加離線、硬體強制的雙重身份驗證。往後將要求感應卡片，並輸入密碼來加強帳戶安全性。
+      button: 取得金鑰卡
+  messenger:
+    intro:
+      title: 隱私優先的通訊軟體
+      description: 發送一對一的個人訊息、群組聊天和公共頻道聊天。輕鬆進行付款，發送給世界各地的朋友。採用點對點技術建立，以消除監視的第三方。
+    message:
+      title: 按您的意願發送訊息
+      description: 發送一對一個人聊天、私人聊天群組，以及加入或建立公共頻道來與您的社群聯繫。
+    payments:
+      title: 簡單，無邊界的付款
+      description: Status與加密錢包無縫接軌，使任何地方的任何人都可以在聊天中直接付款至全球另一端
+    stickers:
+      title: 發送、創作貼圖和用以賺取獎勵
+      description: 發送不經過中間人的表情貼圖，或創作自己的貼圖包，並在去中心化的貼圖市集中賺取SNT
+      button: 回報建議
+    idea:
+      title: 有對於新功能的想法嗎？
+      description: 您覺得還缺少什麼嗎？請在我們的系統中提出功能請求
+      link: 社群論壇
+    benefits:
+      title: 好處
+      benefit-1:
+        title: 隱密且暱名
+        description: 創建免費的Status帳戶時，不需要電話號碼，電子郵件地址或銀行帳戶。
+      benefit-2:
+        title: 防止審查
+        description: 刪除中心化節點可保護您的訊息免受第三方審查。
+      benefit-3:
+        title: 免費並開放原始碼
+        description: Status既是免費的（自由的）開源軟體，任何人都可以審查，也可以自由地（免費地）安裝。
+    p2p:
+      title: 點對點訊息傳送
+      description: Status從您的訊息中刪除中心化的節點，以提高隱私和安全性。利用對等網路而不是中央伺服器來傳遞訊息，您的通訊就由您自己掌握了。
+      button: 查看規格
+    encryption:
+      title: 預設為端到端加密<br>
+      description: 預設情況下，通過對所有私人訊息進行端到端加密（e2ee）來提高隱私性。除了您和預定的收件人之外，沒有其他人可以讀取您的訊息，甚至無法查看Status。
+    protection:
+      title: 保護您過去和未來的訊息
+      description: Status利用雙棘輪演算法的修改版本，來實現完美的前向保密性。即使您當前的加密密鑰受到某種程度的損害，也要保護您過去和未來的訊息。

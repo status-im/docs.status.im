@@ -23,7 +23,7 @@ Please note that all of our positions are remote - we welcome contributors from 
     }
   }
 </script>
-<div class="grid grid-cols-4 sm:grid-cols-2 xl:grid-cols-6 my-12">
+<div class="my-12">
 <div class="col-span-1"></div>
 <iframe id="greenhouse-job-board" class="col-span-2 xl:col-span-4" onload="openSpecificJobPage();" height="600em" width="100%" src="https://boards.greenhouse.io/status72"  title="GreenHouse Job Board"></iframe>
 </div>

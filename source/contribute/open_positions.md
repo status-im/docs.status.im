@@ -1,1 +1,0 @@
-source/our_team/open_positions.md

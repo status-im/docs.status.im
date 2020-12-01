@@ -24,7 +24,7 @@ site:
     wallet:
       subtitle: 'Pagamenti senza confini basate su criptovalute'
       title: 'Portafoglio sicuro criptovalute'
-      description: 'Invia, archivia e ricevi in modo sicuro le criptovalute, tra cui ERC20 ed alcuni token ERC721. Solo tu hai le chiavi di accesso ai tuoi fondi. Il design intuitivo ti protegge dagli attacchi.'
+      description: 'Invia, archivia e ricevi in modo sicuro le criptovalute, tra cui token ERC20 e ERC721. Solo tu hai le chiavi di accesso ai tuoi fondi. Il design intuitivo ti protegge dagli attacchi.'
     browser:
       subtitle: 'Possiedi i tuoi dati'
       title: 'Browser Web3 decentralizzato'

@@ -1,0 +1,1085 @@
+site:
+  home:
+    intro:
+      title: 'Peribadi, Komunikasi Selamat'
+      description: 'Status adalah aplikasi pesanan selamat, dompet crypto, dan penyemak imbas Web3 yang dibina dengan teknologi canggih.'
+      news: Berita
+    about:
+      open-source:
+        title: 'Projek Sumber Terbuka'
+        description: 'Sumber terbuka sepenuhnya dan dibuat oleh penyumbang di seluruh dunia. Pembangun, pereka, pencipta, pendidik, peminat, dan banyak lagi mempunyai akses percuma dan terbuka ke repositori, aset, dan maklumat. Direka untuk tahan penapisan dan bebas dari kawalan pihak ketiga.'
+      mission:
+        title: 'Misi & Prinsip'
+        description: 'Status berusaha untuk menjadi alat komunikasi yang selamat yang menegakkan hak asasi manusia. Direka untuk membolehkan aliran maklumat bebas, melindungi hak untuk percakapan peribadi, selamat, dan mempromosikan kedaulatan individu.'
+    decentralized:
+      subtitle: 'Komunikasi Desentralisasi'
+      title: 'Mesej, Semak Imbas, Transaksi dengan Syarat Anda'
+      description: 'Status menggabungkan pemesejan terpusat swasta, dompet cryptocurrency, dan penyemak imbas DApps menjadi alat komunikasi yang kuat, peribadi, dan selamat. Direka untuk melindungi mesej dan maklumat anda daripada gangguan pihak ketiga.'
+      link: 'Terokai semua ciri'
+    private:
+      subtitle: 'Memelihara Privasi'
+      title: 'Pemesejan Peribadi'
+      description: 'Status menggunakan sumber terbuka, protokol peer-to-peer, dan enkripsi end-to-end untuk melindungi mesej anda dari pihak ketiga. Pastikan mesej peribadi anda tetap dengan Status.'
+      link: 'Terokai Messenger'
+    wallet:
+      subtitle: 'Pembayaran Crypto Tanpa Sempadan'
+      title: 'Dompet Crypto Selamat'
+      description: 'Hantar, simpan dan terima cryptocurrency dengan selamat termasuk token ERC20 dan ERC721 dengan dompet crypto Status. Hanya anda yang memegang kunci dana anda. Reka bentuk intuitif Status melindungi anda dan dana anda daripada serangan.'
+    browser:
+      subtitle: 'Memiliki Data Anda'
+      title: 'Penyemak Imbas Web3 yang terdesentralisasi'
+      description: 'Jelajahi ekosistem DApps yang sedang berkembang termasuk pasar, pertukaran, permainan dan rangkaian sosial. Piawaian keselamatan terkini memastikan pengalaman melayari peribadi.'
+    security:
+      title: 'Peribadi dan Selamat dengan Reka Bentuk'
+      description: 'Status menggunakan alat penyulitan dan keselamatan terkini untuk memastikan mesej dan transaksi anda adalah milik anda sendiri. Status membuang perantara agar mesej anda tetap peribadi dan aset anda selamat. Komunikasi yakin, selamat.'
+    status-network:
+      title: 'Rangkaian Status'
+      description: 'Status Network adalah kumpulan projek yang membina produk, alat dan infrastruktur untuk komuniti yang berdaya tahan, lestari dan inklusif. Merancang dan membangun untuk keselamatan, kesaksamaan, dan untuk kedaulatan individu.'
+      link: 'Ketahui lebih lanjut mengenai The Status Network'
+    all:
+      title: 'Mesej, Semak Imbas, Transaksi dengan Syarat anda'
+      description: 'Diintegrasikan ke dalam satu aplikasi super yang kuat untuk komunikasi selamat peribadi.'
+    account-creation:
+      subtitle: 'Pertahankan Privasi Anda'
+      title: 'Pembuatan Akaun Pseudo-Anonymous'
+      description: 'Anda tidak akan pernah diminta untuk mendapatkan nombor telefon, alamat e-mel, atau akaun bank semasa membuat akaun Status. Tetap bersendirian dan tunjukkan diri anda secara terpilih ke dunia dengan Status.'
+  features:
+    intro:
+      title: 'Kekuatan Ethereum dalam Poket Anda'
+      description: 'Status adalah alat komunikasi pelbagai guna yang menggabungkan pemesejan peribadi, dompet crypto terdesentralisasi, dan penyemak imbas Web3.'
+      link-messenger: Utusan
+      link-wallet: Crypto-wallet
+      link-browser: 'Penyemak Imbas & DApps'
+    messenger:
+      title: 'Messenger yang selamat'
+      feature-1:
+        title: 'Sembang Awam, Swasta dan Kumpulan'
+        description: 'Sertailah sebilangan besar saluran awam atau hantar sembang 1: 1 atau kumpulan. Anda bahkan boleh menghantar dan menerima pembayaran crypto secara langsung di sembang peribadi anda.'
+        link: 'Sertailah Saluran Awam Status'
+      feature-2:
+        title: 'Pemesejan Peribadi dengan Waku'
+        description: 'Waku adalah protokol pemesejan peer-to-peer (p2p) yang menghilangkan titik tersekat dari mesej anda. Dengan membuang pihak ketiga yang terpusat, mesej anda adalah milik anda dan lebih peribadi dan selamat.'
+        learn-more: 'Ketahui lebih lanjut mengenai Waku'
+      feature-3:
+        title: 'Perfect Forward Kerahsiaan & <br> E2E penyulitan'
+        description: 'Status menggunakan algoritma ''Double Ratchet'' di atas Whisper dan enkripsi end-to-end untuk tahap keselamatan dan privasi tertinggi.'
+    wallet:
+      title: 'Integrated <br> Ethereum Wallet'
+      feature-1:
+        title: 'Dompet Selamat'
+        description: 'Pembuangan perantara memberi anda kawalan terhadap dana anda. Anda dan anda sahaja yang menyimpan kunci peribadi anda untuk cryptocurrency anda, dan tidak ada orang tengah yang mempunyai akses.'
+      feature-2:
+        title: 'ERC20 & ERC721 Sesuai'
+        description: 'Sokongan untuk token ERC20 dan ERC721 di rangkaian Ethereum. Kirim, simpan, dan terima token anda dengan yakin dalam Status. Tambahkan token ERC-20 dengan mudah ke dompet anda.'
+      feature-3:
+        title: 'Berinteraksi dengan Rakan Sebaya & DApps'
+        description: 'Dompet Status disatukan dengan utusan dan penyemak imbas - membolehkan anda berinteraksi dengan rakan sebaya dan DApps. Semua transaksi memerlukan pengesahan frasa penandatanganan untuk melindungi anda daripada serangan pancingan data.'
+    browser:
+      title: 'Penyemak Imbas Web3'
+      feature-1:
+        title: 'Akses Aplikasi Berpusat'
+        description: 'Ekosistem DApps yang semakin meningkat di dalam poket anda. Lihat pertukaran terdesentralisasi terkini, pasar, permainan, rangkaian sosial dan banyak lagi'
+        link: 'Pasang Status'
+      feature-2:
+        title: 'Penyemakan Imbas Peribadi & Selamat'
+        description: 'Status menerapkan standard keselamatan terkini untuk memastikan anda selamat dan bebas daripada pengesanan dan pengumpulan data. Lihat syarat anda.'
+      feature-3:
+        title: 'Mengoptimumkan DAPP anda <br> Mengenai Status'
+        description: 'Pusat Integrasi Status Dapp memudahkan mana-mana pembangun dapp untuk belajar mengenai Status, mengoptimumkan untuk berjalan dalam Status, memanfaatkan ciri uniknya, dan mendaftar di Dap.ps.'
+        link: 'Optimumkan dan Daftarkan Dapp anda'
+    get:
+      title: 'Dapatkan Status'
+      description: 'Mula menikmati Status di iOS dan Android.'
+      link: 'Muat turun Aplikasi'
+  get-involved:
+    index:
+      intro:
+        title: 'Komuniti Sumber Terbuka'
+        description: 'Sama ada anda seorang pembangun, pendidik, penganjur komuniti, atau penyokong yang bersemangat, anda boleh menyumbang kepada Status. Berikut adalah sumber untuk memulakan anda.'
+      resources:
+        resource-1:
+          title: Pemaju
+          description: 'Status membina perisian sumber terbuka dan bebas yang dilesenkan di bawah Mozilla Public License v2.0. <br> <br> Anggota komuniti dari semua latar belakang, tahap kemahiran, dan minat menyumbang kepada siaran Status rasmi. Ini termasuk sumbangan terbuka untuk pemberian dana yang dibiayai Status dan inisiatif yang didorong oleh masyarakat untuk ciri baru.'
+        resource-2:
+          title: Pendidik
+          description: 'Status menganggap pendidikan dan persekitaran yang mesra sangat penting untuk projek sumber terbuka yang berjaya. <br> <br> Kami mengalu-alukan sesiapa sahaja untuk membantu mendidik orang lain tentang cara membangun Status, menggunakan Status, memulakan komuniti, atau bahkan berkongsi pengalaman mereka sendiri dengan projek tersebut.'
+        resource-3:
+          title: 'Kumpulan Komuniti'
+          description: 'Terdapat sebilangan kumpulan yang dijalankan Status dan kumpulan yang diatur dalam komuniti Status. <br> <br> Sertailah kumpulan yang ada atau mulakan kumpulan anda sendiri berdasarkan minat peribadi anda. Orang ramai mengatur seluruh dunia untuk membantu mempromosikan dan mengembangkan projek sumber terbuka ini.'
+      contributors:
+        title: 'Duta Status'
+        link: 'Sertailah Pasukan Status. Lihat semua Kedudukan Terbuka'
+        subtitle: 'Kami adalah Status'
+        subtitle-2: 'Apa yang anda boleh lakukan sebagai duta besar'
+        description: 'Duta status membina, mendidik, mempromosikan, dan menyumbang kepada generasi Web seterusnya.'
+        description-1: 'Duta bebas memilih sumbangan kami sendiri. Sebilangan duta menulis kod, yang lain menulis catatan blog. Beberapa acara hos dan sebilangan webinar hos.'
+        description-2: 'Duta status bekerja di pelbagai bidang dan bekerjasama dalam pelbagai cara.'
+        link-2: 'Menjadi duta besar'
+        link-3: 'Penyumbang Komuniti Teratas'
+        link-4: 'Lihat papan projek bersama kami'
+        subtitle-3: 'Dengarkan suara komuniti Status'
+        description-3: 'Dari podcast hingga mesyuarat Townhall, sertai komuniti Status.'
+        link-5: 'Dengarkan di sini'
+    developers:
+      intro:
+        subtitle: 'Komuniti Sumber Terbuka'
+        title: Pembangunan
+        description: 'Selamat datang ke Portal Pembangun Status. Cari semua yang anda perlukan untuk mula menyumbang kepada Status, membina DApps anda sendiri, atau memperluas pekerjaan anda dengan ciri-ciri Status asli.'
+      quick-nav-sub:
+        link-1: Bermula
+        link-2: 'Repos, Isu, Karunia'
+        link-3: 'Sumber Pembangun'
+        link-4: Github
+      contribute-to-status:
+        title: Bermula
+        description: 'Projek sumber terbuka kami'
+        link: 'Panduan Penyumbang'
+        status-react:
+          title: Status-Reaksi
+          description: 'Ditulis dalam Clojure - di sinilah kita menangani interaksi antara Waku dan aplikasi; antara dompet, pengguna dan mana-mana Aplikasi Terdistribusi (DApp) yang ingin mereka akses; dan di mana logik UI tinggal.'
+          link: 'Lihat Repositori'
+        status-go:
+          title: Status-Go
+          description: 'Ditulis dalam Go - di sinilah semua logik, urus niaga, dan pelanggan ringan blockchain berfungsi dengan baik.'
+          link: 'Lihat Repositori'
+        open-issues-status-react:
+          title: 'Status Isu Terbuka-React'
+          link: 'Lihat semua isu terbuka'
+        open-issues-status-go:
+          title: 'Buka Isu Status-Pergi'
+          link: 'Lihat semua isu terbuka'
+        earn-crypto:
+          title: 'Dapatkan kripto untuk <br> melengkapkan karunia'
+          description: 'Lihat senarai penuh karunia teknikal'
+          link: Gitcoin
+        report-a-security-vulnerability:
+          title: 'Melaporkan keselamatan <br> kelemahan dan memperbaikinya'
+          description: 'Ketahui lebih lanjut mengenai'
+          link: 'Program karunia pepijat'
+      development-dapp:
+        build-dapp:
+          title: 'Bina DApp anda sendiri'
+          description: 'Mulakan dengan alat dan kerangka kerja kami untuk membina aplikasi terdesentralisasi anda sendiri.'
+          link-1: 'Pusat Integrasi DApp'
+          link-2: 'Bina DApp anda sendiri dengan Embark'
+          link-3: 'Akses penyedia Web3 dan mengesan Status'
+          link-4: 'Kirim DApp anda ke senarai Status DApp'
+        extend-dapp:
+          title: 'Panjangkan DApp anda'
+          description: 'Sambungan membolehkan anda memanfaatkan ciri-ciri asli Status dalam DApp anda.'
+          link-1: 'Pengenalan Sambungan'
+          link-2: Tutorial
+          link-3: 'Contoh & Sambungan Sedia Ada'
+      get-in-touch:
+        title: Hubungi
+        join-status:
+          link: 'Sertailah #status'
+          description: 'Berita dan perbincangan Status Am.'
+        join-status-core:
+          link: 'Sertailah # status-teras'
+          description: 'Saluran awam mengenai pembangunan teras.'
+        join-introductions:
+          link: 'Sertailah #introductions'
+          description: 'Baru ke Status? Perkenalkan diri anda dan bertanya khabar!'
+        contact-us:
+          link: 'Hubungi Kami'
+          description: 'Untuk yang lain, hantarkan terus kepada kami.'
+      repositories:
+        title: 'Repositori, Terbitan Terbitan dan Wang'
+      build-for-status:
+        title: 'Bina untuk Status'
+        description: 'Dapatkan DApp anda pada Status di'
+        link: 'Pusat Integrasi DApp'
+    educators:
+      intro:
+        subtitle: 'Komuniti Sumber Terbuka'
+        title: Pendidikan
+        description: 'Semua orang dialu-alukan untuk membantu mendidik orang lain tentang cara membina Status, menggunakan Status, memulakan komuniti, atau bahkan berkongsi pengalaman mereka sendiri dengan projek tersebut.'
+      quick-nav-sub:
+        link-1: 'Mendidik dan mencipta'
+        link-2: Terjemahkan
+        link-3: 'Sumber Pendidik'
+        link-4: Github
+      educate-contribute:
+        how-to-get-started:
+          title: 'Cara Memulakan'
+          link-1: 'Panduan Pemula Ahli Komuniti'
+          link-1-description: 'Lihat panduan ini yang dibuat oleh ahli komuniti.'
+          link-2: Glosari
+          link-2-description: 'Rujuk dokumen sumber terbuka ini untuk terma, definisi, sumber dan konsep. Jangan ragu untuk menambahnya.'
+          link-3: 'Soalan Lazim'
+          link-3-description: 'Berikut adalah senarai soalan yang sering diajukan dari semua orang dalam komuniti Status.'
+        create:
+          title: Buat
+          link-1: 'Buat Tutorial Bukan Teknikal'
+          link-1-description: 'Bantu pendatang baru menyiapkan akaun mereka dan menavigasi aplikasi Status dan komuniti. Hubungi kami untuk berkongsi tutorial anda di blog.'
+          link-2: 'Buat Tutorial Teknikal'
+          link-2-description: 'Bantu pembangun membina Status, membina DApps, membuat peluasan atau apa sahaja yang anda ingin kongsi. Hubungi Kami.'
+          link-3: 'Tulis catatan blog'
+          link-3-description: 'Berkongsi cerita di blog Status Menjadi penerbit di Blog Status'
+      translate:
+        title: Terjemahkan
+        description: 'Bantu kami melokalkan Status ke dalam bahasa anda. Kami menggunakan lokalise untuk menterjemahkan segala-galanya dari aplikasi, laman web, dokumentasi dan banyak lagi.'
+        link: 'Status Terjemahan'
+        link-2: Penyumbang
+      educator-resources:
+        title: 'Sumber Pendidik'
+        link-1: 'Panduan Gaya & Aset'
+        link-1-description: 'Cari Styleguide terkini bersama aset, templat, dan fon berjenama.'
+        link-2: Bincangkan
+        link-2-description: 'Sertailah perbincangan panjang lebar mengenai semua perkara Status.'
+        link-3: Tutorial
+        link-3-description: 'Ketahui cara membina sesuatu atau lihat beberapa contoh tutorial buatan masyarakat lain.'
+        link-4: Blog
+        link-4-description: 'Lihat berita dan kemas kini Status terkini.'
+        link-5: Nightlies
+        link-5-description: 'Pasang dan uji binaan malam terkini untuk mudah alih dan desktop.'
+        link-6: 'Lihat nota pelepasan terkini'
+        link-8: 'Lihat senarai penuh Saluran Awam Status'
+      get-in-touch:
+        join-statusphere:
+          link: 'Sertailah #statusphere'
+          description: 'Komuniti Duta Status dan peminat yang semakin meningkat'
+    community:
+      intro:
+        subtitle: 'Komuniti Sumber Terbuka'
+        title: 'Kumpulan Komuniti'
+        description: 'Terdapat sebilangan kumpulan yang dijalankan Status dan kumpulan yang disusun oleh komuniti dalam Status. Sertailah kumpulan yang ada atau mulakan kumpulan anda sendiri berdasarkan minat peribadi anda.'
+        link-1: 'Lihat kumpulan di bawah'
+        link-2: 'Hantar kumpulan baru'
+      community-groups:
+        account-group-1:
+          description: 'Sekumpulan orang yang berdedikasi untuk membantu, menyumbang, dan membina komuniti Status.'
+          occupation: Penganjur
+          name: Kami
+        account-group-2:
+          description: 'Sekumpulan pemaju, pembuat, pencipta, dan peminat yang bersemangat yang berpusat di Korea Selatan.'
+          occupation: Penganjur
+        account-group-3:
+          description: 'Status en Español'
+          occupation: Penganjur
+        account-group-4:
+          description: 'Status dalam bahasa Cina'
+          occupation: Penganjur
+        account-group-5:
+          description: 'Apakah erti kehidupan?'
+          occupation: Penganjur
+          name: Aristotle
+        account-group-6:
+          description: 'Status masyarakat Filipina'
+          occupation: Penganjur
+        account-group-7:
+          description: 'Status masyarakat Turki'
+          occupation: Penganjur
+  security:
+    intro:
+      title: 'Selamat Dengan Reka Bentuk'
+      description-1: 'Status bertujuan untuk menjadi alat komunikasi yang benar-benar terdesentralisasi - akhirnya membuang semua pihak ketiga dan meminimumkan vektor serangan untuk pelaku jahat.'
+      description-2: 'Manfaat sebenar Web3 adalah kemampuan untuk bertransaksi dan berkomunikasi dengan istilah kita sendiri - tanpa orang tengah. Untuk menikmati komunikasi percuma seperti ini, kita harus yakin bahawa mesej, transaksi, identiti, dan dana kita selamat dan terjamin. Ketahui lebih lanjut mengenai pendekatan Status terhadap keselamatan di bawah.'
+    security-at-status:
+      title: 'Pemesejan Selamat di Status'
+      secure-inner-1:
+        title: 'Selamat <br> Pesanan'
+        description: 'Mesej tidak disensor, disekat, dan ia tetap palsu-anonim jika pengguna memilihnya. Hanya penerima yang dimaksudkan yang dapat melihat mesej.'
+      secure-inner-2:
+        title: 'Urus Niaga Urus Niaga <br>'
+        description: 'Menghantar, menyimpan, dan menerima cryptocurrency atau token di dalam dompet Status selamat dari serangan. Kunci peribadi tidak pernah didedahkan. Transaksi hanya diproses apabila dimulakan dan disahkan oleh pemilik kunci peribadi.'
+      secure-inner-3:
+        title: 'Selamat <br> Browsing'
+        description: 'Semasa melayari Web3, data pengguna akhir dan maklumat pelayaran tidak dapat diakses oleh mana-mana pihak ketiga tanpa persetujuan. Segala urus niaga yang dibuat semasa menggunakan penyemak imbas Status melaksanakan standard keselamatan dan amalan terbaik yang sama yang digunakan dalam dompet Status.'
+    security-content:
+      content-1:
+        title: 'Identiti Selamat'
+        description: 'Identiti anda dalam Status bermula dengan pad kekunci kriptografi yang dihasilkan secara tempatan, yang kemudian dilindungi melalui kata laluan. Itu sahaja yang diperlukan. Pengguna kemudian dapat menambahkan maklumat ke profil mereka untuk membina siapa mereka dalam Status. Setiap masa pengguna mempunyai kawalan penuh terhadap maklumat mereka, dan siapa yang dapat mengaksesnya. Pengguna akhir boleh menjadi awam atau peribadi seperti yang mereka mahukan.'
+      content-2:
+        title: 'Protokol Pemesejan Peer-to-Peer'
+        description: 'Status menggunakan protokol Waku untuk komunikasi peer-to-peer (p2p). Waku bergantung pada rangkaian rakan sebaya untuk menghantar mesej antara satu sama lain. Setiap pesan yang dikirim disiarkan ke seluruh rangkaian, dan dienkripsi hanya untuk penerima yang ingin dibuka. Dengan membuang titik tersekat yang terpusat, kandungan mesej dan metadata anda tetap menjadi milik anda. Walau bagaimanapun, Status dan Waku belum sepenuhnya peer-to-peer kerana pelayan e-mel digunakan untuk menguruskan mesej ketika rakan sebaya berada di luar talian. Waku mailserver adalah sambungan Waku yang menyimpan mesej dan menyampaikannya ketika rakan sebaya kembali dalam talian.'
+        link: 'Ketahui lebih lanjut mengenai Waku'
+      content-3:
+        title: 'Enkripsi End-to-End secara Lalai'
+        description: 'Semua mesej peribadi yang dihantar dalam Status dienkripsi dari hujung ke hujung secara lalai. Semasa anda membuat akaun Status, pad kekunci kriptografi dihasilkan untuk menyulitkan mesej anda dan disimpan secara tempatan pada peranti anda. Apabila anda menambah kenalan baru dalam Status, anda menukar kunci awam sehingga orang itu dapat menyahsulitkan mesej anda ketika diterima melalui rangkaian.'
+      content-4:
+        title: 'Kerahsiaan Maju Sempurna'
+        description: 'PFS adalah ciri protokol perjanjian kunci tertentu yang memberikan jaminan bahawa kunci sesi anda tidak akan dikompromikan walaupun kunci peribadi peserta terganggu. Secara khusus, mesej masa lalu tidak dapat didekripsi oleh pihak ketiga yang berjaya mendapatkan kunci peribadi. Ia dibina berdasarkan spesifikasi X3DH dan Double Ratchet dari Open Whisper Systems, dengan beberapa penyesuaian untuk beroperasi di persekitaran yang terdesentralisasi. Perfect Forward Secrecy adalah lapisan keselamatan tambahan untuk semua sembang peribadi 1: 1 anda.'
+        link: 'Ketahui lebih lanjut mengenai PFS'
+      content-5:
+        title: 'Pembuatan Akaun Pseudo-Anonymous'
+        description: 'Apabila anda membuat akaun baru di Status, anda tidak akan pernah diminta untuk pengesahan pihak ketiga seperti e-mel atau nombor telefon. Ini bermakna anda boleh mendaftar dan membuat akaun Status dan tetap tidak dikenali. Apabila anda membuat akaun, hanya anda dan kunci anda. Ini juga bermaksud bahawa pengesahan dua faktor dan pemulihan kata laluan bukan ciri dalam Status - jadi pastikan anda mengingati kata laluan dan frasa mnemonik anda dan simpan di luar talian di tempat yang sangat selamat.'
+      content-6:
+        title: 'Bagaimana kunci saya disimpan?'
+        description-1: 'Status tidak akan pernah menggunakan perkhidmatan pihak ketiga untuk mengurus dan menyimpan kunci awam dan peribadi anda. Setelah dihasilkan, kunci BIP44 pertama disimpan dalam fail json keystore secara tempatan pada peranti anda. Fail ini dienkripsi dengan kata laluan yang anda pilih untuk akaun Status anda dan hanya dapat diakses oleh aplikasi Status. Kami mengutamakan menyimpan maklumat sensitif dalam perkakasan selamat apabila tersedia pada peranti anda.'
+        description-2: 'Untuk tahap keselamatan tambahan, kami telah memperkenalkan Keycard yang berfungsi sebagai penyimpanan sejuk luar talian untuk pengurusan kunci peribadi dan operasi mereka.'
+        description-3: 'Untuk maklumat lebih lanjut mengenai Kad Kunci, lawati %s .'
+      content-7:
+        title: 'Melayari Selamat'
+        description: 'Penyemak imbas Status direka untuk memastikan pengguna akhir mendapat maklumat dan dana mereka selamat. Mod Privasi Penyemak Imbas diaktifkan secara lalai. Ini bermaksud DApps akan diminta untuk meminta izin sebelum menyambung ke dompet anda, dan mungkin menyebabkan beberapa DApps pecah (jika tidak sesuai dengan langkah keselamatan ini). Akhirnya, penyemak imbas Status mengimplementasikan EIP712 yang bertujuan untuk meningkatkan kebolehgunaan penandatanganan pesanan di luar rangkaian untuk digunakan di rantai. Kami melihat peningkatan penggunaan penandatanganan pesanan di luar rantai kerana ia menjimatkan gas dan mengurangkan jumlah transaksi di blockchain. Mesej yang ditandatangani pada masa ini adalah rentetan heksa legap yang dipaparkan kepada pengguna dengan sedikit konteks mengenai item yang membentuk mesej tersebut.'
+        link: 'Ketahui lebih lanjut mengenai EIP'
+      content-8:
+        title: 'Bagaimana Status melindungi cryptocurrency saya?'
+        description: 'Status dibina dengan dompet bukan kustodian, memberikan anda kawalan penuh ke atas dana anda tanpa menggunakan pelayan. Kunci peribadi disimpan dengan cara yang disulitkan pada peranti anda. Wang anda berada di bawah kawalan anda, dan tidak dapat diakses oleh sesiapa tanpa kunci peribadi. Oleh itu, jika anda kehilangan frasa mnemonik anda, anda tidak akan dapat memulihkan akses ke dana anda. Oleh itu, simpan kunci peribadi anda di tempat yang selamat di luar talian.'
+      content-9:
+        title: 'Menandatangani Frasa untuk melindungi daripada serangan pancingan data'
+        description: 'Status melaksanakan frasa penandatanganan yang diperlukan untuk mengesahkan dan "menandatangani" semua transaksi. Frasa menandatangani adalah frasa 3 kata yang dihasilkan secara rawak untuk anda dan disimpan secara tempatan pada peranti anda yang ditunjukkan setiap kali anda cuba menghantar transaksi. Anda akan diberikan frasa penandatanganan anda dan diminta untuk menerimanya sebelum transaksi disahkan. Sekiranya anda tidak mengenali tiga perkataan anda, atau sama sekali tidak disajikan dengan tiga perkataan tersebut, batalkan transaksi, log keluar dari Status dan laporkan masalah ini kepada %s'
+        link: 'Ketahui lebih lanjut mengenai pancingan data'
+      content-10:
+        title: 'Pengauditan yang ketat'
+        description-1: 'Ketika kita mencapai tonggak utama dalam pembangunan, setelah melakukan tinjauan dan pengauditan dalaman, kami menjangkau firma audit pihak ketiga yang terkemuka di industri untuk mengesahkan kewarasan kami, dan memeriksa semula / melakukan tiga kali ganda pekerjaan yang kami lakukan. Audit keselamatan ini bukanlah jaminan keselamatan dalam projek yang berkaitan dengannya. Ini adalah pemeriksaan tambahan dari pihak ketiga yang objektif untuk membantu meningkatkan keyakinan terhadap keselamatan fungsi yang dimaksudkan.'
+        description-2: 'Untuk maklumat dan perincian mengenai semua audit luaran, sila lihat %s .'
+        description-3: 'Sekiranya anda menemui bug atau kerentanan dalam kod kami, laporkan kepada %s .'
+        ENS:
+          title: 'Kontrak pintar ENS dengan Sigma Prime'
+          commit: 'Oktober 2018 - Kontrak Nama Pengguna ENS - komitmen hash eaefa92'
+          report: lapor
+          tests: ujian
+          code: kod
+          blog: 'catatan blog'
+        dejavu:
+          title: 'Audit Deja Vu Beta'
+          commit: '07 Mei 2018 - Repo Status-go dan Status-react dengan Deja Vu'
+          report: lapor
+          blog: 'catatan blog'
+      content-11:
+        title: 'Didiklah diri agar sentiasa selamat'
+        description: 'Produk tanpa server yang terdesentralisasi seperti Status menghapus sejumlah perantara yang tidak perlu, yang membolehkan anda berbual, bertransaksi, dan melayari tanpa rasa takut akan pengawasan, penapisan, dan kebocoran data. Ini kerana anda mengawal data dan keselamatan digital anda sendiri. Oleh itu, penting untuk anda memahami bagaimana melindungi diri anda. Ketahui lebih lanjut mengenai cara kekal selamat dengan Panduan Amalan Terbaik Keamanan Status ini.'
+        link: 'Lihat Panduan Amalan Terbaik'
+      content-12:
+        title: 'Sokongan Keselamatan'
+        description: 'Kami sedia membantu. Sekiranya anda mempunyai pertanyaan atau kebimbangan mengenai keselamatan, hantarkan e-mel ke %s atau hubungi kami di Saluran Awam Keselamatan Status %s .'
+      content-13:
+        title: 'Program Bug Bounty'
+        description: 'Sekiranya anda seorang penyelidik keselamatan atau pembangun dan ingin melaporkan kerentanan, sila hubungi %s mengenai Program Bug Bug Status. Kami juga mengadakan kempen dengan HackerOne, program bug bounty yang memberi insentif kepada penggodam untuk melihat projek. Kami secara aktif meningkatkan kempen peribadi kami, dan akan membukanya kepada pendedahan awam tidak lama lagi! Untuk maklumat lebih lanjut mengenai Program Bug Bounty, sila hubungi %s .'
+    protect-yourself:
+      title: 'Lindungi Diri Anda'
+      description: 'Status dibina dengan teknologi canggih untuk memastikan produk yang selamat mungkin. Semasa menavigasi Web3, anda berada dalam kawalan. Lihat senarai amalan terbaik keselamatan kami dan kendalikan.'
+      link-1: 'Ketahui Lebih Lanjut'
+      link-2: 'Sertailah Saluran Keselamatan Status'
+  header:
+    nav:
+      get-involved:
+        title: 'Melibatkan diri'
+        description: 'Status adalah projek sumber terbuka <br> dibuat oleh orang di seluruh dunia.'
+      security: Keselamatan
+      docs:
+        title: Pemaju
+        description: 'Semua yang anda perlukan untuk memulakan <br> membangun dengan Status'
+        link: Pemaju
+        link-1: 'Integrasi DApp'
+        link-2: 'Panduan Penyumbang'
+        link-3: Tutorial
+        link-4: Keselamatan
+        link-5: Spesifikasi
+        link-6: 'Panduan Pengguna'
+      about: Mengenai
+      blog: Blog
+      snt-utility: 'Utiliti SNT'
+      features:
+        link: ciri-ciri
+        title: ciri-ciri
+        link-1: 'Lihat Semua Ciri'
+        link-2: 'Kad '
+        description: 'Private Messenger, Crypto Wallet, <br> Web3 Browser dan banyak lagi'
+        link-3: 'Mesej '
+        link-4: 'Penjanaan '
+        link-5: 'Dompet Crypto Selamat'
+        link-6: 'Penyemak Imbas Web3'
+  link:
+    get-status: 'Dapatkan Status'
+    get-involved: 'Melibatkan diri'
+    developers: Pemaju
+    educators: Pendidik
+    community-groups: 'Kumpulan Komuniti'
+    learn-more: 'Ketahui Lebih Lanjut'
+    read-all: 'Baca Semua'
+  about:
+    intro:
+      title: Misi
+      link-1: 'Prinsip Kami'
+      link-3: 'Penyumbang Teras'
+      description: 'Status berusaha untuk menjadi alat komunikasi yang selamat yang menegakkan hak asasi manusia. Direka untuk membolehkan aliran maklumat bebas, melindungi hak untuk percakapan peribadi, selamat, dan mempromosikan kedaulatan individu.'
+    principles:
+      title: 'Prinsip Kami'
+      description: 'Prinsip-prinsip ini bertindak sebagai alat. Alat untuk berfikir, untuk komunikasi, dan untuk membuat keputusan yang terdesentralisasi. Mereka membuat kita jujur tentang di mana kita gagal dalam penglihatan kita.'
+      principle-1:
+        title: Kebebasan
+        description: 'Kami mempercayai kedaulatan individu. Sebagai platform yang bermaksud perjuangan kebebasan peribadi, kami bertujuan untuk memaksimumkan kebebasan sosial, politik, dan ekonomi. Ini termasuk tahan paksaan.'
+      principle-2:
+        title: 'Penentangan Penapisan'
+        description: 'Kami membolehkan aliran maklumat percuma. Tidak ada kandungan yang diawasi. Kami mematuhi prinsip reka bentuk kriptoekonomi terhadap penapisan penapisan. Lebih kuat lagi, Status adalah platform agnostik untuk mendapatkan maklumat.'
+      principle-3:
+        title: Keselamatan
+        description: 'Kami tidak berkompromi dengan keselamatan semasa membina ciri. Kami menggunakan teknologi canggih, dan meneliti kaedah dan teknologi keselamatan baru untuk membuat jaminan keselamatan yang kuat.'
+      principle-4:
+        title: Privasi
+        description: 'Privasi adalah kekuatan untuk menyatakan diri secara selektif kepada dunia. Bagi kami, sangat mustahak untuk melindungi privasi dalam komunikasi dan transaksi, dan juga sebagai platform palsu tanpa nama. Selain itu, kami berusaha untuk memberikan hak tanpa nama sepenuhnya.'
+      principle-5:
+        title: Ketelusan
+        description: 'Kami berusaha untuk keterbukaan sepenuhnya dan simetri maklumat dalam organisasi, dan tidak mempunyai sempadan antara penyumbang teras kami dan komuniti kami. Kami berterus terang mengenai kekurangan kami, terutamanya ketika membuat pertukaran jangka pendek untuk memenuhi matlamat jangka panjang kami.'
+      principle-6:
+        title: Keterbukaan
+        description: 'Perisian yang kami buat adalah kebaikan awam. Ia disediakan melalui lesen sumber terbuka dan percuma, bagi sesiapa sahaja untuk berkongsi, mengubah suai dan memanfaatkannya. Kami percaya dengan penyertaan tanpa kebenaran.'
+      principle-7:
+        title: Desentralisasi
+        description: 'Kami meminimumkan pemusatan kedua-dua perisian dan organisasi itu sendiri. Dengan kata lain, kita memaksimumkan jumlah komputer fizikal yang menyusun rangkaian, dan memaksimumkan jumlah individu yang mempunyai kawalan terhadap sistem yang kita bangunkan.'
+      principle-8:
+        title: Inklusif
+        description: 'Kami percaya pada akses yang adil dan meluas ke perisian kami, dengan penekanan pada kemudahan penggunaan. Ini juga meliputi inklusif sosial, penyertaan tanpa izin, interoperabilitas, dan pelaburan dalam usaha pendidikan.'
+      principle-9:
+        title: Kesinambungan
+        description: 'Kami membuat perisian yang diberi insentif untuk terus ada dan bertambah baik, tanpa pengawasan dari satu entiti atau mana-mana anggota pasukan semasa.'
+      principle-10:
+        title: Kepandaian
+        description: 'Kami tidak henti-hentinya bijak. Ketika kita berkembang dan mempunyai akses kepada modal, menjadi kewajiban kita kepada pemegang tanda untuk memerangi birokrasi dan ketidakcekapan dalam organisasi. Ini bermaksud menyelesaikan masalah dengan cara yang paling berkesan mungkin dengan kos ekonomi yang lebih rendah (dari segi modal, masa dan sumber).'
+    how-we-work:
+      title: 'Bagaimana kita bekerja'
+      description: 'Kami adalah pasukan yang diedarkan di seluruh dunia yang bekerja dari jauh dari seluruh pelosok dunia. Kami bekerja dalam pasukan kecil yang terdiri daripada 2-5 orang dengan matlamat yang sangat spesifik.'
+      research:
+        title: Penyelidikan
+      specifications-planning:
+        title: 'Spesifikasi & Perancangan'
+      implementation:
+        title: Pelaksanaan
+      communication-post-mortem:
+        title: 'Komunikasi & bedah siasat'
+    core-contributors:
+      title: 'Penyumbang Teras'
+      description: 'Status bukan organisasi tradisional. Kami tidak mempunyai hierarki, tidak ada pengurus, dan kami mendorong kebebasan lokasi. Kita semua berada di sini untuk mencapai misi kita, dan kita mempunyai kebebasan untuk memilih bagaimana kita melakukannya.'
+      link-1: 'Sertai kami. Lihat semua kedudukan terbuka'
+      link-2: 'Ketahui lebih lanjut mengenai kehidupan di Status'
+    join-us:
+      title: 'Sertai kami'
+    quarterly-reports:
+      title: 'Laporan Suku Tahunan Rangkaian Status'
+      description: 'Kami tidak sabar untuk berkongsi dengan anda semua yang telah kami capai.'
+  snt:
+    intro:
+      title: 'Token Rangkaian Status'
+      description: 'SNT memberi kuasa dan memberi insentif kepada penyertaan <br> dalam Status Network.'
+      link-1: Asas-asas
+      link-2: 'Menggunakan SNT'
+      link-3: Penyelidikan
+      link-4: 'Melibatkan diri'
+    the-basics:
+      title: Asas-asas
+      inner-1:
+        title: 'Token ERC-20'
+        description: 'SNT adalah token ERC-20 yang digunakan untuk mengakses dan memberi kuasa perkhidmatan terdesentralisasi dalam Status dan aplikasi Rangkaian.'
+        link: 'Lihat semua Kes Penggunaan SNT'
+      inner-2:
+        title: 'Sumber terbuka'
+        description: 'Status adalah projek sumber terbuka sepenuhnya di mana sesiapa sahaja boleh menggunakan kod dan token untuk memenuhi keperluan mereka. Status disahkan oleh Pendaftaran Pendedahan Messari.'
+        link: 'Pendaftaran Pendedahan Messari'
+      inner-3:
+        title: 'Pengguna-sebagai-Pemangku Kepentingan'
+        description: 'Dengan SNT, kami membuat rangkaian Pengguna-sebagai-Pemangku Kepentingan, yang memungkinkan perilaku rangkaian dan perisiannya, agar selaras dengan kepentingan Pengguna-penggunanya.'
+        link: 'Ketahui lebih lanjut dalam Kertas Putih'
+      inner-4:
+        title: Penyelidikan
+        description: 'Penyumbang melakukan penyelidikan mengenai model cryptoeconomic, dan teknologi peer-to-peer untuk memastikan kesihatan Jaringan Status jangka panjang.'
+        link: 'Ketahui lebih lanjut mengenai penyelidikan'
+    using-snt:
+      title: 'Menggunakan SNT'
+      description: 'SNT diperlukan untuk mengaktifkan ciri aplikasi tertentu dan mewujudkan sumber terbuka, ekonomi terdesentralisasi. Selami lebih dalam setiap Kes Penggunaan SNT di bawah untuk mengetahui lebih lanjut mengenai penyelidikan cryptoeconomic dan bagaimana nilai mengalir ke seluruh rangkaian.'
+      teller-network:
+        title: 'Rangkaian Teller'
+        status: Dibangunkan
+        description: 'Komuniti yang menggunakan DApp yang menyediakan ''Teller Network'' fiat-to-crypt tanpa had, peer-to-peer, yang membolehkan Stakeholder mencari pengguna berdekatan untuk menukar wang tunai mereka dengan aset digital dan mata wang. SNT diperlukan untuk menjadi penjual dalam rangkaian.'
+      network-incentivization:
+        title: 'Galakan Rangkaian'
+        status: Penyelidikan
+        description: 'Buat kerangka dan struktur insentif bagi orang untuk menggunakan dan menggunakan nod Status. SNT digunakan untuk memberi insentif dan memberi ganjaran kepada peserta rangkaian untuk menjalankan nod untuk memastikan aplikasi terus berfungsi jika semua node dalam kluster yang dihoskan Status dimatikan. Ini termasuk membayar untuk pesanan yang diteruskan dan membayar untuk pesanan di luar talian.'
+      ens-user-name:
+        title: 'Nama Pengguna ENS'
+        status: Langsung
+        description: 'Alamat ENS adalah seperti nama pengguna. Nama Jenny.eth boleh menunjuk ke akaun peribadi, yang membolehkan orang lain menghantar token atau mencari di sembang Status. Alamat ENS boleh dicari dalam sembang Status, dompet dan penyemak imbas. <br> <br> Mendaftar stateofus.eth nama ENS berharga 10 SNT. Setelah nama terpelihara, SNT dikunci dalam kontrak pendaftaran selama 1 tahun. Setelah tahun ini habis, nama itu dapat dilepaskan untuk mendapatkan token kembali — atau tidak mengambil tindakan untuk menahannya.'
+        link: 'Daftarkan ENS'
+      sticker-market:
+        title: 'Pasar Pelekat'
+        status: Langsung
+        description: 'Pelekat menawarkan cara yang menyeronokkan bagi pengguna untuk berinteraksi secara visual dengan rakan dan keluarga mereka. Stiker Market dalam Status akan membolehkan sesiapa sahaja membuat dan menjual reka bentuknya sendiri kepada pengguna di seluruh dunia, dan mula menggunakan pelekat dalam mana-mana sembang Status. <br> <br> SNT diperlukan untuk membeli beberapa pek pelekat di pasar.'
+      tribute-to-talk:
+        title: 'Penghormatan untuk Bercakap'
+        status: Dibangunkan
+        description: 'Tribute to Talk akan memperkenalkan penapis anti-spam berasaskan ekonomi - dalam hal ini untuk menerima mesej dan permintaan kenalan "dingin" dari pengguna. Ini membolehkan pihak berkepentingan untuk menetapkan jumlah minimum SNT yang mesti didepositkan agar seseorang di luar rangkaian mereka menghubungi dia secara langsung.'
+      dao-governance:
+        title: 'DAO & Tadbir Urus'
+        status: Penyelidikan
+        description: 'Bahagian inti dari Status Network Token adalah memberi para pemangku kepentingan kemampuan untuk memilih arah pengembangan perisian. SNT digunakan untuk membuat keputusan mengenai proposal, yang dapat dibuat oleh mana-mana Pihak Berkepentingan. Untuk setiap keputusan, token diklon menjadi token keputusan yang berasingan. Jumlah token yang anda miliki pada masa itu menjadi kuasa suara anda untuk keputusan tersebut dan tidak memerlukan SNT untuk mengundi.'
+      dapp-curation:
+        title: 'Tempoh DApp'
+        status: Langsung
+        description: 'Dap.ps menyediakan cara bagi pihak berkepentingan dalam rangkaian untuk menemukan DApps, seperti yang dikendalikan oleh anggota masyarakat lain. Ia juga akan menyediakan cara untuk menavigasi mengikut kategori dan penilaian, yang membolehkan pengguna mencari dengan tepat apa yang mereka cari. SNT diperlukan untuk penyusunan dan pemberian isyarat dalam direktori. Deposit SNT akan diperlukan oleh DApp Developers yang ingin mendapatkan perhatian yang lebih besar terhadap DApp mereka.'
+        link: 'Semak imbas DApps'
+      voting-dapp:
+        title: 'Mengundi DApp'
+        status: Langsung
+        description: 'Langkah pertama menuju tadbir urus masyarakat, Status Voting DApp memungkinkan pihak berkepentingan untuk mempengaruhi masa depan jaringan. The Voting DApp dapat digunakan oleh siapa saja untuk membuat undian masyarakat dengan SNT. Dengan memanfaatkan pengundian kuadratik, jumlah SNT di dompet anda menentukan berapa banyak suara yang dapat anda berikan.'
+        link: 'Lihat DApp Pengundian'
+      acquisition-engine:
+        title: 'Enjin Perolehan'
+        status: Penyelidikan
+        description: 'Untuk mencapai misi kita memerlukan satu perkara: penggunaan pengguna akhir yang meluas. Dengan menggunakan Status Network Token, kita dapat merancang mekanisme pertumbuhan yang telah dicoba dan diuji di Web 2.0, sambil memberikan ketelusan yang lebih besar dan penyelarasan insentif yang lebih baik untuk peserta. Status Pemerolehan Mesin menyediakan kaedah yang dapat dibuktikan dan telus secara kriptografi untuk mengembangkan asas pengguna.'
+    crypto-research:
+      title: 'Penyelidikan Cryptoeconomic'
+      description-1: 'Penyumbang Komuniti dari seluruh dunia melakukan penyelidikan mengenai model cryptoeconomic untuk kes penggunaan SNT untuk memberitahu perkembangan produk dan ciri serta insentif dari Status Network. <br> <br> Model-model cryptoeconomic ini adalah usaha penyelidikan yang berterusan dan setiap orang digalakkan untuk meneroka, mengkritik, dan mengkaji karya tersebut.'
+      link-1: 'Sertailah #status'
+      description-2: 'Sertailah saluran awam & ketahui lebih lanjut mengenai penyelidikan'
+      link-2: 'Sertai Perbincangan'
+    learn-more:
+      title: 'Ketahui Lebih Lanjut'
+      description: 'Sebilangan besar kes penggunaan SNT dalam penyelidikan dan pengembangan aktif. Sertailah perbincangan awam atau baca FAQ SNT untuk mengetahui lebih lanjut mengenai kes penggunaan SNT dan bukti ekonomi.'
+      link: 'Sertailah #status'
+    create-your-snt:
+      title: 'Buat Model Kewangan SNT Anda Sendiri'
+      description: 'Sesiapa sahaja boleh terlibat dan menguji model ekonomi yang digariskan dalam buku kerja. Sekiranya anda seorang penyelidik, ahli ekonomi, atau hanya ingin tahu mengenai model kewangan, sila terlibat.'
+      link: 'Uji Model Token SNT'
+  get:
+    mobile:
+      title: 'Mudah alih'
+      description: 'Pemesejan peribadi, urus niaga crypto selamat, penyemakan imbas Web3 DApp di dalam poket anda.'
+    desktop:
+      title: Desktop
+      description: 'Uji Desktop Beta untuk komunikasi peribadi dan selamat di tempat anda bekerja.'
+    download: 'Muat turun Status untuk'
+  docs:
+    stripe:
+      title: 'Pembangun Status'
+    title: 'Selamat datang ke Dokumentasi Status!'
+    description: 'Jalankan DApp anda pada Status, gali teknologi kami, pelajari mengenai organisasi kami atau bantu membina Status:'
+    categories:
+      technical-documentation:
+        title: 'Panduan Penyumbang'
+        description: 'Sertailah ekosistem kami yang diedarkan'
+      developer-tools:
+        title: 'Pusat Integrasi DApp'
+        description: 'Jalankan DApp anda pada Status'
+      build-status:
+        title: 'Status Binaan'
+        description: 'Untuk mudah alih dan desktop'
+      research:
+        title: 'Topik Penyelidikan'
+        description: 'Membangun masa depan yang diedarkan'
+      team:
+        title: 'Pasukan kami'
+        description: 'Sertailah Status'
+      audits:
+        title: 'Audit Luar'
+        description: 'Audit Teknikal Luar'
+      keycard:
+        title: 'API Kad Kunci'
+        description: 'Hardwallet Sumber Terbuka yang Selamat, Tanpa Kontak'
+    pinned-repositories:
+      title: 'Repositori yang Disematkan'
+      status-react:
+        title: 'status-bertindak balas'
+        description: 'OS mudah alih (percuma) sumber terbuka, OS mudah alih untuk Ethereum.'
+      status-go:
+        title: status-go
+        description: 'Modul Status yang menggunakan go-ethereum.'
+      specs:
+        title: spesifikasi
+        description: 'Spesifikasi untuk pelanggan Status.'
+    help:
+      title: 'Kami sedia membantu!'
+      description: 'Kami sentiasa senang membantu dengan kod atau sebarang pertanyaan yang anda ada.'
+      link-1: 'Laporkan Bug'
+      link-2: 'Sembang Komuniti Status'
+      link-3: 'Berbual dengan kami'
+      link-4: 'Tanya pada reddit'
+    update:
+      title: 'Baru dikemas kini'
+    index:
+      intro:
+        title: 'Pembangun Status'
+        teaser-1: 'Selamat datang ke Portal Pembangun Status. Cari semua yang anda perlukan untuk mula menyumbang kepada Status, membina DApps anda sendiri, atau mendaftarkan dapp anda di <a href=''https://dap.ps''> dap.ps </a> , dan bekerja dengan salah satu projek dalam Rangkaian Status.'
+      box-link-1:
+        title: 'Panduan Penyumbang'
+        text: "Status membina perisian sumber terbuka dan bebas yang percuma bagi sesiapa sahaja untuk berkongsi, mengubah suai dan memanfaatkannya. <br> \_ <br> Anggota komuniti dari semua latar belakang, tahap kemahiran, dan minat menyumbang kepada siaran Status rasmi. Pelajari cara membina Status, dapatkan crypto untuk menyelesaikan karunia, memperbaiki bug, atau membina perkara yang anda perlukan."
+        cta: Bermula
+      box-link-2:
+        title: 'Pusat Integrasi DApp'
+        text: "Status merangkumi penyemak imbas web3 peribadi dan selamat dan akses ke ekosistem aplikasi yang terdesentralisasi. <br> \_ <br> Pusat Integrasi Dapp adalah panduan langkah demi langkah untuk mengoptimumkan dapps untuk digunakan dalam Status. Ini termasuk amalan terbaik pertama, keperluan keselamatan dan privasi mudah alih, memanfaatkan Status Status, dan cara menghantar ke dap.ps."
+        cta: Bermula
+      box-link-3:
+        title: Tutorial
+        text: "Ikuti dan belajar bagaimana menyumbang dan membina dengan Status dan salah satu projek The Status Network. <br> \_ <br> DApps Build, mengintegrasikan keselamatan perkakasan, mendapat ditubuhkan dengan Nimbus atau Vac. Belajar dari penyumbang utama dan tutorial yang dibuat komuniti. Tidak nampak apa yang anda cari? Buat sendiri untuk orang lain mendapat manfaat."
+        cta: 'Lihat semua Tutorial'
+        text-1: 'WebAssembly / eWasm - Apa, dan Mengapa?'
+        description-1: 'Ikuti butiran ringkas tutorial'
+        text-2: 'Keselamatan Depan DApp'
+        description-2: 'Ikuti butiran ringkas tutorial'
+    dev-tools:
+      title: 'Bangun dengan Rangkaian Status'
+      keycard:
+        title: 'Kad '
+        subtitle: 'Hardwallet Sumber Terbuka yang Selamat, Tanpa Kontak'
+        description: 'Gabungkan keselamatan perkakasan ke projek anda dengan Kad Kunci'
+      embark:
+        title: Menaiki
+        subtitle: 'Platform pemaju all-in-one untuk membina & menggunakan DApps'
+        description: 'Kembangkan dan terapkan aplikasi terdesentralisasi dengan Embark'
+      nimbus:
+        title: Nimbus
+        subtitle: 'Meneliti dan melaksanakan klien Ethereum 2.0 ringan'
+        description: 'Meneliti pelanggan Ethereum 2.0 yang lebih ringan dengan Nimbus'
+      vac:
+        title: 'Tempat kosong'
+        subtitle: 'Tumpukan pesanan rakan sebaya selamat'
+        description: 'Komunikasi peribadi, selamat dan tahan penapisan dengan Vac'
+    support: 'Tidak dapat mencari apa yang anda cari? Lihat forum komuniti di <a href=''https://discuss.status.im/tags/faq''>Discuss</a>.'
+  footer:
+    title: 'Bersedia untuk memulakan <br> dengan Status?'
+    product:
+      title: Produk
+      apps: 'Dapatkan Aplikasi'
+      nightly: 'Setiap malam'
+    status:
+      title: Status
+      jobs: Pekerjaan
+      white-paper: 'Kertas putih'
+      media-kit: 'Kit Media'
+      analytics: Analisis
+      open_positions: 'Buka Kedudukan'
+    documentation:
+      title: Dokumentasi
+    status-network:
+      title: 'Rangkaian Status'
+      embark: Menaiki
+      nimbus: Nimbus
+      keycard: 'Kad kunci'
+      vac: 'Tempat kosong'
+      dap-ps: Dap.ps
+      subspace: 'Ruang bawah'
+      teller: Pencerita
+      assemble: Berkumpul
+    connect: Sambung
+    privacy-policy:
+      title: 'Dasar Privasi'
+      description: 'Status Penyelidikan & Pembangunan GmbH, Baarerstrasse 10, Zug, Switzerland'
+    site-analytics: 'Analisis Laman web'
+    messari: 'Ketelusan Messari Disahkan'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 'Pemesejan Peribadi Betul'
+        description: 'Hantar dan terima mesej yang disulitkan sepenuhnya tanpa pelayan pusat.'
+      secure-wallet:
+        title: 'Dompet Crypto Selamat'
+        description: 'Simpan ETH, SNT dan aset crypto anda yang lain dengan selamat.'
+      web3-browser:
+        title: 'Penyemak Imbas Web3 yang terdesentralisasi'
+        description: 'Cari ekosistem aplikasi terdesentralisasi, semuanya bersatu di satu tempat.'
+    invite:
+      title: 'Sertailah kami di saluran awam <a href=''https://join.status.im/chat/public/%s'' target=''_blank''> # %s </a> dan ketahui bagaimana anda boleh memenangi beberapa SNT'
+      prize:
+        option-1: 'Daftarkan nama stateofus.eth ENS'
+        option-2: 'Beli pek pelekat'
+        option-3: 'Naikkan dapps kegemaran anda dalam dap.ps'
+        option-4: 'Ikut serta dalam cadangan Tadbir Urus Komuniti Status'
+  nightly:
+    title-1: 'Status Bangun Malam'
+    title-2: 'Hati-hati Naga!'
+    updated: 'Dikemas kini'
+    description-1: 'Amaran: Pembinaan setiap malam bertujuan untuk ujian pembangunan dan mungkin merangkumi pepijat dan masalah lain. Anda mungkin ingin menggunakan <a href=''https://status.im/get/''> pelepasan stabil </a> .'
+    description-2: 'Dengan memuat turun dan memasang binaan ini, anda memikul tanggungjawab penuh untuk semua risiko mengenai data dan dana anda. Status tidak membuat tuntutan keselamatan atau integriti dana dalam binaan ini. Status menasihatkan penggunaan frasa pemulihan yang berbeza dalam mimpi buruk.'
+    description-3: 'Lihat kami'
+    faq: 'Soalan Lazim Umum'
+    mobile: 'Mudah alih'
+  keycard-integration:
+    intro:
+      title: 'Tambahkan Keselamatan Perkakasan ke Pengalaman Status Anda'
+      description: 'Lindungi aset dan akaun anda dengan Keycard - dompet perkakasan penyimpanan sejuk dengan pengalaman mudah dihubungi. Android sahaja.'
+      button: 'Dapatkan Kad Kunci 29 €'
+    about:
+      title: 'Apa itu Kad Kunci?'
+      description: 'Keycard adalah dompet perkakasan penyimpanan sejuk yang direka untuk menyimpan kunci peribadi anda sepenuhnya di luar talian untuk keselamatan wang anda yang lebih tinggi. <br> <br> Dibangun dengan teknologi NFC dan reka bentuk seperti kad kredit untuk pengalaman tanpa sentuhan. Dibangun dengan API terbuka untuk penyatuan dengan dompet crypto pihak ketiga, DApps, dan perkakasan.'
+      button-1: 'Ketahui Lebih Lanjut'
+      button-2: 'Dapatkan Kad Kunci 29 €'
+    secure:
+      title: 'Menjamin Status dengan Kad Kunci'
+      security:
+        title: 'Keselamatan yang Lebih Besar untuk Aset dan Urus Niaga Anda'
+        description: 'Dengan kunci peribadi yang disimpan di luar talian pada Kad Kunci anda, tambahkan kebenaran yang dikuatkuasakan oleh perkakasan untuk transaksi anda. Walaupun telefon anda dicuri, dana anda akan selamat.'
+        send: 'Hantar transaksi'
+        confirmed: 'Transaksi keluar yang disahkan'
+      account:
+        title: 'Lindungi Akses ke Akaun Anda'
+        description: 'Tambahkan keselamatan yang lebih besar dan memerlukan kemasukan Keycard + PIN sebagai pengesahan dua faktor untuk mengakses akaun anda dengan Status.'
+        confirmed: 'Log Masuk Berjaya'
+    boxes:
+      box-1:
+        title: 'Autonomi dan Keyakinan'
+        description: 'Status membuang pihak ketiga yang tidak perlu seperti bank untuk berkomunikasi dan bertransaksi. Dengan membuang perkhidmatan ini, orang kini bertanggungjawab terhadap diri mereka sendiri dan dana. Kecyard memberikan keselamatan untuk beroperasi dengan yakin tanpa mereka.'
+      box-2:
+        title: 'Reka Bentuk Pertama Bergerak'
+        description: 'Dibina dengan teknologi NFC tanpa sentuhan dan reka bentuk yang ramping dan biasa, Keycard memberikan kemudahan kad kredit dengan keselamatan dompet perkakasan.'
+      box-3:
+        title: 'Keselamatan yang berpatutan'
+        description: 'Dengan harga hanya 29 €, Keycard memberikan jaminan keselamatan perkakasan yang kuat, tanpa tanda harga yang mahal.'
+        link: 'Dapatkan Kad Kunci 29 €'
+    faq:
+      title: 'Anda ada soalan?'
+      button: 'Ketahui Lebih Lanjut'
+  keycard:
+    intro:
+      title: 'Status x Kad Kunci untuk Komunikasi Peribadi dan Selamat'
+      description: 'Status adalah utusan peribadi, dompet crypto selamat, dan penyemak imbas Web3. Keycard menambah keselamatan perkakasan untuk pengalaman. Ketahui lebih lanjut mengenai perkara yang boleh anda lakukan dengan Kad Kunci di bawah.'
+      button: 'Soalan '
+    security:
+      title: 'Keselamatan yang Lebih Besar untuk Aset dan Urus Niaga Anda'
+      description: 'Dengan kunci peribadi yang disimpan di luar talian pada Kad Kunci anda, tambahkan kebenaran yang dikuatkuasakan oleh perkakasan untuk transaksi anda. Walaupun telefon anda dicuri, dana anda akan selamat.'
+      send: 'Hantar '
+      confirmed: 'Transaksi keluar yang disahkan'
+    account:
+      title: 'Lindungi Akaun anda'
+      description: 'Menambah keselamatan yang lebih tinggi dan memerlukan kemasukan Keycard + PIN sebagai pengesahan dua faktor untuk log masuk ke Akaun Status anda.'
+      confirmed: 'Login '
+    faq:
+      title: 'Anda ada soalan?'
+      button: 'Lawati Soalan Lazim'
+  faq:
+    title: 'Soalan '
+    description: 'Soalan Lazim <br> Tidak dapat mencari apa yang anda cari? Semak atau tanya di komuniti Bincangkan forum <a href=''https://discuss.status.im/'' target=''_blank''> di sini </a>'
+    general:
+      title: Am
+      q1:
+        question: 'Apakah Status?'
+        answer: 'Status adalah alat komunikasi peribadi dan selamat untuk menegakkan hak asasi manusia dan memperkasakan masyarakat berdaulat'
+      q2:
+        question: 'Siapa di belakang Status?'
+        answer: 'Status dibina oleh Status Network. <a href=''https://statusnetwork.com/'' target=''_blank''> Rangkaian Status </a> membina produk, alat dan infrastruktur untuk komuniti yang berdaya tahan, lestari dan inklusif. Lebih lanjut mengenai Status dan penyumbang utamanya <a href=''https://status.im/about/'' target=''_blank''> di sini </a> .'
+      q3:
+        question: 'Mengapa menggunakan Status?'
+        answer: 'Selama 20 tahun terakhir, internet seperti yang kita ketahui telah dikendalikan oleh beberapa syarikat, dengan insentif untuk mengumpulkan dan menjual data. Status memberikan alternatif. Status menggunakan teknologi canggih untuk menyediakan komunikasi peribadi dan selamat. Status menggunakan model peer-to-peer yang menghalang mana-mana pihak ke-3 mengawal data pengguna. Status menggabungkan pemesejan, dompet crypto, dan penyemak imbas web3 dan memberi anda kawalan penuh terhadap aset dan komunikasi anda.'
+      q4:
+        question: 'Mengapa utusan?'
+        answer: 'Masyarakat berdaulat memerlukan komunikasi yang tidak disensor, peribadi dan selamat untuk diatur. Pemesejan menawarkan jalan yang menjanjikan untuk penggunaan Ethereum kerana kesesuaiannya untuk penggunaan mudah alih. Ini seterusnya dapat membuka jalan untuk menjadikan rangkaian pembayaran dan aplikasi terdesentralisasi lain dapat diakses oleh lebih banyak komuniti. <br> <br> Status Terakhir adalah lebih daripada sekadar utusan. Menggabungkan pengurusan aset dengan dompet crypto dan akses ke dunia aplikasi yang terdesentralisasi melalui penyemak imbas web3, ini adalah alat komunikasi dalam arti luas.'
+      q5:
+        question: 'Apakah perbezaan Status dengan aplikasi mesej yang lain?'
+        answer: 'Sebilangan besar utusan menawarkan enkripsi dari hujung ke hujung. Perlindungan standard ini bermaksud bahawa syarikat yang menyediakan perkhidmatan tersebut tidak dapat membaca kandungan mesej anda. Tetapi aliran maklumat melalui rangkaian mereka bersifat umum, dan memungkinkan untuk menafsirkan siapa yang bercakap dengan siapa, dari mana. Utusan tradisional juga memerlukan maklumat pengenalan untuk mendaftar, seperti nombor telefon, dan ini biasanya dihubungkan dengan sejumlah data peribadi lain tentang anda. Status tidak memerlukan maklumat peribadi apa pun untuk anda memulakannya. Oleh kerana infrastruktur peer-to-peernya, Status tidak mengetahui tentang siapa yang menghubungi siapa, dan juga mengenai kandungan mesej anda. <a href=''https://github.com/status-im/specs'' target=''_blank''> Di sini </a> anda boleh mendapatkan spesifikasi bagaimana teknologi ini berfungsi.'
+      q6:
+        question: 'Apa yang berlaku sekiranya pemerintah cuba menyekat atau menapis Status?'
+        answer: 'Utusan status tidak menggunakan satu pelayan pusat ke dan dari mana komunikasi dapat disekat. Sebaliknya Status menggunakan rangkaian pelayan mel yang diedarkan. Ini memastikan ketahanan rangkaian. Sekiranya pelayan mel dimatikan, anda boleh menyambung ke pelayan mel lain atau memulakan <a href=''https://discuss.status.im/t/get-your-node-running/1488/4?u=hester'' target=''_blank''> menjalankan sendiri </a> . Walau bagaimanapun, Status dan pelayan mel dalam rangkaian masih bergantung pada adanya sambungan Internet. Sekiranya Internet dimatikan melalui penyedia telekomunikasi, anda tidak akan dapat menggunakan Status.'
+      q7:
+        question: 'Bagaimana Status menyambung ke blockchain?'
+        answer: 'Status dikemas dengan go-ethereum, yang menghubungkan ke rangkaian Ethereum. Yang perlu anda lakukan untuk menyambung ke Ethereum adalah menjalankan aplikasi Status! Perhatikan bahawa hanya dompet dan penyemak imbas yang berinteraksi dengan blockchain Ethereum. Mesej tidak disimpan di blockchain.'
+      q8:
+        question: 'Bolehkah saya menjalankan go-ethereum sendiri atau di pelayan?'
+        answer: 'Kami komited untuk mendapatkan node ringan yang berfungsi pada peranti terhad sumber. Ini membolehkan anda menyambung ke Ethereum dari telefon bimbit atau peranti IoT anda secara langsung, tidak diperlukan pelayan. Lebih penting lagi, ia akan meningkatkan aksesibilitas dan ketahanan rangkaian secara keseluruhan. Untuk maklumat lebih lanjut, sila lihat <a href=''https://nimbus.team/'' target=''_blank''> https://nimbus.team/ </a> . <br> <br> Jika anda ingin menjalankan go-ethereum sekarang, anda dapat menyiapkan node pada peranti Linux dan mengkonfigurasi aplikasi Status untuk menyambung ke simpul ini. Anda boleh mendapatkan lebih banyak maklumat <a href=''https://discuss.status.im/t/get-your-node-running/'' target=''_blank''> di sini </a> .'
+      q9:
+        question: 'Pada peranti apa saya boleh menggunakan Status?'
+        answer: 'Status diuji untuk dijalankan pada Android 7+ dan iOS 13+.'
+      q10:
+        question: 'Adakah Status juga dijalankan di desktop?'
+        answer: 'Tidak pada masa ini. Pangkalan kod kami dirancang supaya Status dapat berjalan di mana-mana peranti mudah alih atau desktop. Pembangunan status Status pada masa ini dijeda sementara pasukan memberi tumpuan kepada aplikasi mudah alih dan projek infrastruktur lain.'
+      q11:
+        question: 'Dalam bahasa apa aplikasi itu tersedia?'
+        answer: 'Status kini tersedia dalam 14 bahasa - Bahasa Inggeris, Français, Italiano, 简体 中文, 繁體 中文, 한국어, اُردُو, русский !, Türkçe, Español, Tagalog, Bahasa Indonesia, Deutsch, Português do Brasil <br> <br> Sesiapa sahaja boleh menyumbang ke terjemahan Status. Sekiranya anda melihat kesalahan ketik, salah terjemahan atau hanya mahu bahasa anda diwakili, sertai kami di <a href=''https://translate.status.im/'' target=''_blank''> translate.status.im </a> .'
+      q12:
+        question: 'Adakah aplikasi ini percuma?'
+        answer: 'Tentunya. Tidak diperlukan pembayaran untuk menggunakan ciri teras Status. Untuk memanfaatkan Status sepenuhnya, ia sangat membantu untuk menahan cryptocurrency ETH (Ethereum) dan SNT (Status Network Token). Ciri-ciri tertentu memerlukan SNT untuk digunakan, kerana ini membantu menyokong projek kami. <br> <br> Untuk mendapatkan SNT, anda dapat menggunakan DApp pertukaran untuk memperdagangkan kripto yang sudah Anda miliki, atau anda dapat membeli ETH dan SNT sebagai pertukaran untuk mata wang fiat (misalnya Euro atau dolar AS) menggunakan fiat-ke-kripto pertukaran.'
+      q13:
+        question: 'Adakah terdapat sebarang bayaran?'
+        answer: 'Status tidak mempunyai bayaran tersembunyi. Apabila anda membuat urus niaga menggunakan dompet crypto anda, anda akan melihat bayaran rangkaian termasuk dalam kos. Bayaran rangkaian ini dikenal sebagai "gas," dan merupakan keperluan rangkaian Ethereum, yang digunakan dengan cara yang sama oleh semua dompet dan aplikasi Ethereum untuk memudahkan transaksi. Status tidak mengumpulkan peratusan yuran ini.'
+      q14:
+        question: 'Saya ingin menyumbang untuk projek ini, di mana anda mencadangkan saya memulakannya?'
+        answer: 'Status adalah projek sumber terbuka dan mengalu-alukan semua sumbangan, baik teknikal dan bukan teknikal. <a href=''https://ambassador.status.im/'' target=''_blank''> halaman duta </a> adalah tempat yang bagus untuk memulakan. Di sini anda dapat menghubungi penyumbang aktif yang dapat menyokong anda dalam mempromosikan, mengajar tentang atau menyumbang kepada generasi web seterusnya. <br> <br> Sekiranya anda seorang pembangun dan ingin kotor tangan anda, baca dokumentasi mengenai dokumen pengembangan DApp. Sekiranya anda seorang pembangun mudah alih sendiri dan menyukai bahasa fungsional, maka bina Status anda sendiri dan mulailah menyerahkan PR tersebut.'
+      q15:
+        question: 'Bagaimana saya boleh meminta ciri?'
+        answer: 'Oleh kerana Status adalah projek sumber terbuka yang berasaskan komuniti, anda boleh meminta dan menyumbang untuk pengembangan fitur. Kongsi pendapat anda di saluran awam <a href=''https://join.status.im/status'' target=''_blank''> #status </a> atau di forum perbincangan kami: <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> . Anda juga boleh membuka <a href=''https://github.com/status-im'' target=''_blank''> terbitan Github </a> . <br> <br> Sekiranya anda seorang pembangun, ikuti <a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''> panduan penyumbang </a> untuk mendapatkan terbabit.'
+      q16:
+        question: 'Apa itu SNT dan bagaimana ia berfungsi dalam aplikasi?'
+        answer: 'SNT adalah Token Rangkaian Status. Token Status ''ERC20 (standard Ethereum), digunakan untuk memberi kuasa kepada Status Network. Ciri dan fungsi tertentu menghendaki pengguna mendeposit atau menghabiskan SNT. Utiliti token adalah tujuan utama Status Network, kerana nilai SNT membantu memastikan jangka masa panjang projek.'
+    keys-and-accounts:
+      title: 'Kunci dan Akaun'
+      q1:
+        question: 'Apakah kunci?'
+        answer: 'Kunci adalah bentuk identiti dan tulang belakang Status dan Ethereum. Mereka selalu berpasangan, kunci awam dan kunci peribadi. Anda menghasilkan pasangan pertama ketika mula menggunakan Status, anda boleh menganggapnya sebagai pasangan kunci induk. Selepas itu, bilangan pasangan kunci dapat dihasilkan berdasarkan pasangan pertama ini. Membuat sesuatu seperti rantai kunci identiti. Salah satu kunci rantai ini adalah kunci sembang anda; Anda boleh menemuinya di Profil > ikon Kongsi.'
+      q2:
+        question: 'Apa itu akaun?'
+        answer: 'Anda boleh membandingkan akaun dalam Status dengan akaun bank. Setiap akaun berdasarkan pasangan kunci sendiri. Seperti akaun bank, akaun biasanya mempunyai alamat, baki dan boleh bertransaksi. Setiap akaun juga mempunyai sejarah transaksi tersendiri yang bersifat umum. Untuk privasi utama anda menggunakan banyak akaun. Anda boleh melihat akaun anda di tab Wallet.'
+      q3:
+        question: 'Apakah alamat dompet saya?'
+        answer: 'Alamat dompet anda mempunyai 42 aksara dan bermula dengan 0x. Ini adalah identiti rantai untuk akaun Ethereum anda. Sekiranya anda mempunyai banyak akaun, anda mempunyai banyak alamat. Anda boleh mencari alamat dompet anda dengan pergi ke Wallet > Kad akaun > Terima atau dengan mengetuk ikon kongsi pada kad Akaun. <br> <br> <i> Perhatikan bahawa walaupun kelihatan serupa, alamat dompet anda tidak sama dengan kunci sembang anda. Anda boleh menemui kunci sembang anda di Profil > ikon Kongsi. </i>'
+      q4:
+        question: 'Berapa banyak akaun yang boleh saya buat dalam Status?'
+        answer: 'Anda boleh membuat seberapa banyak akaun yang anda mahukan. Pergi ke Wallet > Tambah akaun. Akaun yang ditambahkan dengan cara ini dapat dipulihkan dengan frasa utama anda, bersama dengan pasangan utama anda, jika anda kehilangan akses ke akaun anda. <br> <br> Anda juga boleh membuat lebih banyak pasangan kunci induk dengan pergi ke skrin permulaan Kekunci anda > Hasilkan kunci atau Akses kekunci yang ada jika anda ingin mengimport kunci dari dompet lain atau atau membuat rantai kunci identiti yang sama sekali baru.'
+    profile-and-settings:
+      title: 'Profil dan Tetapan'
+      q1:
+        question: 'Apakah nama pengguna ENS?'
+        answer: 'Nama pengguna ENS adalah nama yang didaftarkan dengan Ethereum Name Service; Daftar yang menghubungkan alamat Ethereum ke nama unik yang boleh dibaca manusia, seperti Alice. Seperti mendaftarkan domain web, ia dilengkapi dengan akhiran yang berbeza. Sekiranya anda mendaftarkan nama melalui Status, anda akan mendapat alice.stateofus.eth. Apabila anda mendaftarkan nama ENS, anda boleh menggunakannya dalam sembang Status, mengubah nama rawak anda, contohnya Sneaky White Koala, menjadi nama ENS anda. Ini menjadikan orang lain lebih mudah untuk mencari dan mengenali anda.'
+      q2:
+        question: 'Apakah perbezaan antara alice.eth berbanding alice.stateofus.eth?'
+        answer: 'Membeli nama stateofus.eth lebih murah. Anda membayar 10 deposit SNT untuk melesenkan nama itu, setelah 1 tahun anda boleh mendapatkan dana atau terus menggunakan nama tersebut tanpa sebarang kos lagi. Domain .eth pada masa ini (Januari 2020) berharga sekitar $ 5 setiap tahun di ETH. Anda boleh menghubungkan kedua-dua nama itu ke kunci sembang untuk digunakan, nama anda, misalnya, @alice, dalam sembang.'
+      q3:
+        question: 'Apakah frasa biji?'
+        answer: 'Frasa benih anda dalam Status terdiri daripada 12 perkataan. Ini adalah asal kunci sembang anda dan juga kunci akaun di dompet anda. Semua kunci diambil dari benih pertama ini melalui beberapa ilmu sihir kriptografi. Sekiranya anda kehilangan akses ke akaun anda, misalnya dengan kehilangan telefon anda, anda boleh mengakses kunci anda menggunakan frasa pilihan anda. Penyihir yang sama akan membolehkan anda menjana semula rantai kunci identiti yang sama.'
+      q4:
+        question: 'Apa yang perlu saya lakukan dengan frasa biji ini?'
+        answer: 'Tuliskan. Pastikan ia selamat. Menyimpan frasa benih anda di atas kertas, jauh dari peranti anda, adalah pilihan yang paling selamat.'
+      q5:
+        question: 'Sekiranya saya kehilangan telefon, bagaimana saya boleh mengakses akaun saya?'
+        answer: 'Untuk mengakses akaun anda, anda memerlukan frasa 12 kata anda. Dengan ungkapan utama ini, anda boleh mendapatkan semula akses kepada pasangan kunci utama dan semua akaun anda. <br> <br> Perhatikan bahawa anda boleh memulihkan akaun yang tinggal di Ethereum. Walau bagaimanapun, anda tidak akan mendapat kembali akses ke sembang atau senarai kenalan anda, kerana maklumat ini hanya disimpan secara tempatan di telefon anda.'
+      q6:
+        question: 'Mengapa ''Frasa benih sandaran'' berwarna kelabu?'
+        answer: 'Item ''Back up seed frasa'' berwarna kelabu apabila anda sudah melalui skrin yang memerintahkan anda untuk menulis frasa benih anda. Pada ketika ini, anda tidak lagi dapat melihat frasa biji dalam aplikasi. Frasa dikeluarkan dari storan tempatan untuk mengurangkan risiko sesiapa sahaja tetapi anda pernah dapat mengaksesnya.'
+      q7:
+        question: 'Saya kehilangan frasa benih saya. Apa yang saya buat?'
+        answer: 'Sakit itu. Periksa terlebih dahulu jika anda tidak lagi dapat membuat sandaran frasa pilihan anda di bawah Profil > Privasi dan Keselamatan. Sekiranya item `Frasa benih sandaran` berwarna kelabu, anda tidak lagi dapat mengakses frasa biji. <br> <br> Pilihan terbaik sekarang adalah menjana kunci baru menggunakan benih baru, dan memindahkan aset anda ke akaun baru ini. Dalam Status pergi ke Keluar > Hasilkan kunci baru. Ikuti langkah-langkah di skrin untuk menyimpan dan melindungi kunci baru ini. Setelah selesai, pergi ke Profil > Privasi dan Keselamatan > Sandarkan frasa pilihan. Simpan frasa benih di luar talian dengan selamat. Kemudian pergi ke Dompet > ikon Kongsi atau Terima > Ketuk alamat untuk menyalin. Keluar. <br> <br> Buka kunci kunci yang kehilangan kata kunci anda menggunakan kata laluan anda. Hantarkan semua aset dari akaun di dompet anda ke alamat baru anda.'
+      q8:
+        question: 'Bagaimana saya memadamkan profil saya?'
+        answer: 'Profil anda hanya terdapat di dalam negara. Sebarang mesej yang anda hantarkan akan kekal di pelayan mel selama 30 hari. Selepas itu, mesej itu tidak lagi wujud. Transaksi yang anda buat dengan menggunakan akaun di dompet anda akan kekal di blockchain.'
+      q9:
+        question: 'Sekiranya seseorang mendapat akses ke telefon saya, bahagian profil saya mana yang dienkripsi dan apa yang tidak?'
+        answer: 'Kunci peribadi anda dienkripsi setiap saat dan hanya dapat digunakan oleh anda untuk menandatangani transaksi yang digabungkan dengan kata laluan atau kod laluan anda. Maklumat yang tidak dienkripsi merangkumi 3 kata nama, ketika anda terakhir menggunakan Status (membuka kunci anda), gambar profil anda, dan pengecam Kad Kunci anda jika anda mempunyai satu.'
+      q10:
+        question: 'Bagaimana cara meminimumkan penggunaan data mudah alih mengikut Status?'
+        answer: 'Status boleh menjadi lebar jalur lebar. Cara terbaik untuk mengelakkan penggunaan data terlalu banyak adalah dengan menggunakan Status hanya ketika disambungkan ke wifi. Anda dapat mencegah Status menggunakan data mudah alih dengan menyesuaikan tetapan di bawah Profil > Tetapan penyegerakan > Data mudah alih.'
+    messenger:
+      title: Utusan
+      q1:
+        question: 'Adakah mesej saya benar-benar peribadi?'
+        answer: 'Ya mereka. Status pada masa ini menggunakan Whisper, protokol pemesejan tumpukan Ethereum. Whperper menyediakan pesanan peer-to-peer tanpa bergantung pada pelayan terpusat, pusat data atau penyedia perkhidmatan. <br> <br> Setiap pesan dienkripsi dari ujung ke ujung, dan disiarkan ke setiap peer dalam jaringan untuk waktu yang ditentukan. Hal ini membuat audiens yang tidak disengajakan tidak hanya membaca isi pesan, tetapi juga melihat siapa yang mengirim pesan kepada siapa. Untuk mesej peribadi 1: 1, hanya penerima mesej yang dimaksudkan yang dapat menyahsulitkan kandungannya. Untuk sembang awam, sesiapa sahaja yang mengetahui nama sembang boleh menyahsulitkan kandungannya. <br> <br> Perlindungan tambahan adalah penggunaan kunci enkripsi baru dengan setiap pesan, setelah pertukaran kunci awal antara pengguna (Kerahasiaan Maju Sempurna). Sekiranya kunci mesej anda dikompromikan, hanya mesej untuk kunci tertentu yang dikompromikan. Tidak ada akses ke mesej yang lalu. <br> <br> Privasi Whisper memberikan kos penggunaan data yang tinggi. Pembangunan alternatif sedang dilakukan. Anda boleh mengikuti kemajuan <a href=''https://forum.vac.dev/t/waku-project-and-progress/24'' target=''_blank''> di sini </a> .'
+      q2:
+        question: 'Di manakah mesej saya disimpan? Adakah mereka berada di blockchain?'
+        answer: 'Mesej tidak disimpan di blockchain dan tidak memerlukan kos untuk dihantar. Mesej disimpan di pelayan e-mel selama 30 hari, dan di telefon anda setelah anda menerimanya dengan membuka Status dan menyambung ke rangkaian. Untuk menghubungi anda, mesej melewati devp2p — lapisan pengangkutan untuk Whisper — tetapi tidak diangkut melalui Mesin Maya Ethereum.'
+      q3:
+        question: 'Siapa yang menghoskan pelayan mel yang menyimpan mesej?'
+        answer: 'Whisper memerlukan nod Ethereum khas untuk menyimpan dan memindahkan mesej. Status adalah satu-satunya contoh Whisper yang digunakan dalam pengeluaran. Oleh itu, Status menjadi tuan rumah sekumpulan nod khas ini untuk menyokong penggunanya. Walau bagaimanapun, sesiapa sahaja dapat menghoskan nod pelayan mel dengan perkakasan yang betul. Anda boleh mendapatkan arahan mengenai cara melakukannya <a href=''https://discuss.status.im/t/get-your-node-running/1488/2'' target=''_blank''> di sini </a> .'
+      q4:
+        question: 'Bagaimana saya boleh menukar nama saya dalam Status?'
+        answer: 'Sekiranya anda ingin menambahkan nama khas, anda boleh mendaftarkan nama pengguna ENS. Pergi ke Profil > nama pengguna ENS. Apabila anda mendaftar atau sambungkan sedia ada <a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''> ENS nama pengguna </a> ke kekunci sembang Status anda, orang lain kemudian dapat mencari anda dengan nama pengguna ini. Anda juga boleh memaparkannya sebagai ganti nama tiga perkataan anda.'
+      q5:
+        question: 'Bagaimanakah cara menjemput rakan anda ke Status?'
+        answer: 'Anda boleh berkongsi profil anda atau sembang khusus dengan rakan di luar Status. <br> <br> Untuk berkongsi profil dan kunci sembang anda sendiri, pergi ke skrin profil anda dan klik butang kongsi di sudut kanan atas. Pautan akan dihasilkan yang dapat diikuti oleh rakan anda untuk mendapatkan Status dan memuatkan profil anda. <br> <br> Untuk berkongsi sembang umum, buka obrolan, dan pilih "Bagikan sembang" dari menu [...] di sudut kanan atas. Ini akan menghasilkan pautan ke sembang, yang kemudian anda boleh hantar kepada rakan anda di luar Status.'
+      q6:
+        question: 'Saya menyertai sembang awam, tetapi saya tidak melihat sebarang mesej. Kenapa begitu?'
+        answer: 'Sembang awam seperti saluran radio. Anda boleh menyesuaikan saluran, tetapi anda hanya akan melihat mesej jika orang lain menyiarkan saluran tersebut. Anda boleh memulakan perbualan anda sendiri dan menjemput orang lain dengan pergi ke [...] di sudut kanan atas dan berkongsi saluran dengan orang lain, misalnya <a href=''https://get.status.im/chat/public/introductions'' target=''_blank''> https://get.status.im/chat/public/introductions </a>'
+      q7:
+        question: 'Bagaimana saya membuat sembang awam yang baru?'
+        answer: 'Pada tab Sembang, ketuk butang [+] > Sertai sembang awam dan taipkan nama sembang. Sekiranya nama itu belum ada di rangkaian, anda akan membuatnya secara automatik. <br> <br> Anda boleh memikirkan sembang umum seperti # -tag. Terdapat koleksi semua mesej yang menggunakan # yang sama.'
+      q8:
+        question: 'Bagaimana saya boleh memulakan sembang 1: 1 dengan seseorang di Status?'
+        answer: 'Pada tab Sembang, ketuk butang [+] > Mulakan sembang baru > Masukkan nama pengguna atau kunci sembang ENS. Atau jika orang lain duduk di sebelah anda, imbas kod QR dari profil mereka. <br> <br> Jika anda ingin memulai 1: 1 dengan seseorang di saluran Awam, ketuk nama atau avatar mereka > Kirim pesan.'
+      q9:
+        question: 'Adakah penting pelayan mel yang saya pilih?'
+        answer: 'Pelayan e-mel yang lebih dekat dengan anda dalam jarak geografi akan menghantar mesej dengan lebih cepat. Anda disyorkan untuk mengekalkan tetapan lalai untuk pemilihan pelayan mel automatik. Dengan pilihan automatik diaktifkan, Status dapat mengukur kependaman mesej antara pelayan dan memilih yang terpantas untuk anda. <br> <br> Sekiranya anda ingin menyambung ke pelayan e-mel anda sendiri, atau ke server yang berjalan pada perangkat tepercaya tertentu, Anda dapat menambahkan pelayan e-mel khusus.'
+    browser:
+      title: 'Penyemak Imbas'
+      q1:
+        question: 'Bagaimana penyemak imbas ini berbeza dengan penyemak imbas lain?'
+        answer: 'Status adalah penyemak imbas berkemampuan web3. Penyemak imbas berkemampuan web3 dapat membuka laman web mana pun, tetapi di atasnya membolehkan anda menggunakan aplikasi terdesentralisasi, atau ''DApps''. Untuk melakukannya, Status menyuntikkan objek ke dalam DOM dari laman web tertentu, yang membolehkan laman web tersebut merujuk akaun anda di blockchain — dengan izin anda terlebih dahulu. <br> <br> Biasanya, DApps menggunakan blockchain Ethereum untuk menghantar dan menerima maklumat dan memproses pembayaran yang biasanya disimpan pada pelayan terpusat. DApps mempunyai sedikit risiko pihak tunggal mengawal dan mendapat keuntungan dari data anda.'
+      q2:
+        question: 'Apa itu DAp.ps?'
+        answer: 'DAp.ps adalah direktori DApps yang terdesentralisasi dan disusun oleh masyarakat yang dibina untuk Ethereum, supaya anda dapat meneroka yang terbaik dari web3. Pembangun DApp dapat menyerahkan DApps mereka secara percuma, atau mempertaruhkan SNT untuk meningkatkan peringkat mereka. Pengguna juga boleh menyokong atau menurunkan senarai DApp dengan SNT. Semakin banyak SNT yang dipertaruhkan oleh pemaju, semakin mudah untuk menurunkan DApp mereka.'
+      q3:
+        question: 'Bagaimana saya mengundi DApps?'
+        answer: 'Pergi ke <a href=''https://dap.ps'' target=''_blank''> https://dap.ps </a> , cari DApp kegemaran anda dan ketuk Suara. Tetapkan jumlah SNT yang ingin anda gunakan dan ketik ''suara positif''. Apabila anda mengundurkan DApp, jumlahnya sudah ditetapkan. Semakin banyak pembangun DApp melabur untuk meningkatkan kedudukan mereka, semakin murah anda akan memberikan undian. Ini mengurangkan risiko DApps yang dibiayai dengan baik untuk mengambil alih dan membuat undian anda mengenai kegunaan DApps dikira. <br> <i> Perhatikan bahawa pengundian memerlukan SNT dan sejumlah kecil ETH untuk membayar transaksi tersebut. </i>'
+      q4:
+        question: 'Apakah kebenaran DApp?'
+        answer: 'DApps mesti meminta izin untuk melihat dan menggunakan alamat dompet dan / atau kunci sembang anda. Biasanya, DApp meminta untuk `Sambungkan dompet anda ''. Apabila berlaku, anda akan menerima pop timbul yang meminta ''Tolak'' atau ''Benarkan'' permintaan ini. Kebenaran untuk menyambungkan alamat dompet anda adalah khusus untuk setiap akaun yang anda pegang di dompet anda. Sekiranya anda memberi kebenaran untuk akaun baru, kebenaran untuk akaun yang disambungkan sebelumnya akan dicabut. Sekiranya anda menolak permintaan kebenaran, DApp tidak akan mengetahui apa-apa mengenai alamat Ethereum anda, dan juga tidak akan dapat melakukan transaksi. <br> <br> Pergi ke Profil > Privasi dan keamanan > Tetapkan izin DApp untuk melihat DApps mana yang dapat mengakses akun mana, dan untuk mencabut izin jika Anda mau. <br> <br> <i> Perhatikan bahawa jika DApp telah menyimpan alamat anda, ini tidak dapat dicabut oleh Status. </i>'
+    wallet:
+      title: Dompet
+      q1:
+        question: 'Seberapa selamat dompet saya?'
+        answer: 'Status merangkumi dompet Hierarki Deterministik (HD). Segala kunci yang dihasilkan dalam dompet ini dienkripsi dan disimpan secara tempatan di telefon anda, menggunakan perkakasan selamat jika ada. Tiada siapa yang mempunyai akses melainkan anda. Untuk keselamatan yang dipertingkatkan, anda boleh mendapatkan <a href=''https://keycard.tech/'' target=''_blank''> Kad Kekunci </a> untuk menyimpan kunci anda.'
+      q2:
+        question: 'Apa maksud menandatangani transaksi?'
+        answer: 'Sebarang perubahan pada Ethereum dianggap sebagai transaksi. Maklumat dipindahkan dari satu alamat ke alamat lain. Maklumat ini boleh menjadi aset atau perjanjian. Apabila anda menandatangani transaksi menggunakan Status, anda menyetujui transaksi ini. Status akan memberitahu anda jenis urus niaga yang diminta untuk ditandatangani.'
+      q3:
+        question: 'Apakah frasa menandatangani saya?'
+        answer: 'Frasa menandatangani adalah ciri keselamatan. Apabila anda menggunakan Status untuk pertama kalinya, dompet akan menunjukkan frasa penandatanganan anda, yang merupakan gabungan tiga perkataan yang unik. Hanya anda dan aplikasi yang mengetahui frasa menandatangani ini. Setiap kali anda menandatangani transaksi, aplikasi akan menunjukkan frasa penandatanganan. Sekiranya anda mengenali frasa penandatanganan, anda pasti tahu bahawa permintaan tandatangan datang dari Status dan selamat ditandatangani.'
+      q4:
+        question: 'Apa aset yang disokong oleh dompet Status?'
+        answer: 'Dompet pada masa ini menyokong token ETH dan ERC20 (contohnya OMG, BNB, BAT atau DAI), dan juga token ERC721 (misalnya Cryptokitties atau karya seni digital).'
+      q5:
+        question: 'Mengapa aset saya tidak ditunjukkan?'
+        answer: 'Secara lalai, hanya ETH dan SNT yang dipaparkan di dompet anda. Sekiranya anda mengimport akaun yang juga memegang token lain, Status menunjukkan ini juga. Dalam kes lain, misalnya apabila anda mengirim token ke akaun dalam Status, anda perlu menambahkannya ke paparan akaun anda. <br> <br> Anda boleh menambah token untuk paparan akaun anda dengan pergi ke `Wallet anda gambaran keseluruhan screen` > ` [...] `Menu di sudut kanan atas > ` Urus assets`.'
+      q6:
+        question: 'Bagaimana ENS berfungsi dengan dompet Status?'
+        answer: 'Anda boleh menghantar aset ke nama ENS dengan pergi ke Wallet > Kirim > Pilih penerima > Masukkan alamat penerima. Dompet secara automatik akan menggantikan nama ENS dengan alamat dompet yang memilikinya.'
+      q7:
+        question: 'Mengapa saya perlu membayar yuran rangkaian untuk transaksi?'
+        answer: 'Bayaran rangkaian, juga dikenal sebagai "gas," meliputi kos komputasi untuk melaksanakan tindakan pada blockchain Ethereum. Ini standard untuk rangkaian. Tidak ada perubahan yang dapat dilakukan pada blockchain Ethereum, termasuk transaksi antara pengguna, tanpa pengeluaran gas. Dompet Status membolehkan anda menyesuaikan bayaran rangkaian dengan setiap transaksi. Bayaran yang lebih tinggi akan meningkatkan kelajuan pemprosesan transaksi anda.'
+      q8:
+        question: 'Bagaimana dan ke alamat apa saya boleh menghantar aset?'
+        answer: 'Dompet status membolehkan anda menghantar ETH dan ERC20 (contohnya OMG, BNB, BAT atau DAI) ke dompet yang menerima mata wang ini. Untuk menghantar aset pergi ke Wallet dan ketuk ikon kirim [↗] di bahagian bawah skrin. Atau pergi ke Wallet > Kad akaun > Kirim <br> <br> Kemudian Masukkan Jumlah > Pilih token > Pilih dari akaun > Pilih penerima <br> <br> Anda boleh mengenali dompet yang menerima token berdasarkan ETH dan Ethereum mengikut format alamat. Alamat akan dimulakan dengan 0x… Status dompet memeriksa alamat yang tidak sah. Amalan terbaik adalah selalu memeriksa alamat secara tiga kali secara manual sebelum menandatangani transaksi.'
+      q9:
+        question: 'Saya memulihkan akaun saya dan sekarang saya hanya melihat satu dompet, walaupun saya membuat lebih banyak. Adakah saya kehilangan dana saya?'
+        answer: 'Tidak, mereka tidak tersesat. Sekiranya anda membuat dompet tambahan dari dalam Status, dan kemudian memulihkan akaun anda, anda perlu memulihkan dompet tambahan secara manual dengan mengikuti langkah yang sama yang anda ambil untuk membuatnya. Dari dompet, anda akan Tambah akaun > Tambah akaun. Daripada membuat dompet baru, Status akan memulihkan setiap dompet tambahan yang anda buat mengikut urutan, dan aset anda akan dipulihkan bersamanya. <br> <br> Pada masa akan datang, kami akan memastikan semua dompet Status anda dipulihkan secara automatik.'
+      q10:
+        question: 'Adakah dompet menyokong BitCoin?'
+        answer: 'Tidak, Status pada masa ini tidak menyokong blockchain Bitcoin, dan hanya Ethereum dan aset yang terdapat di atas yang tersedia dalam aplikasi. BitCoin adalah blockchain yang berasingan dan menggunakan rangkaian validator yang berasingan untuk urus niaganya, sebab itulah saat ini mustahil untuk melakukan transaksi antara kedua-dua rangkaian tersebut.'
+    keycard-general:
+      title: 'Kad kunci '
+      q1:
+        question: 'Apa fungsi kad kunci?'
+        answer: 'Keycard adalah dompet perkakasan yang boleh anda gunakan dengan aplikasi Status anda. <br> <br> Ini memberikan tahap keselamatan dan pemilikan yang lebih tinggi kepada kunci peribadi pengguna Status. Keycard adalah penyimpanan sejuk untuk aset anda yang perlu anda ketuk (bersama dengan memasukkan kod laluan 6 digit) di telefon anda semasa membuat transaksi. <br> <br> Dan Keycard dapat digunakan 2FA untuk melindungi akses ke Status (iaitu penggunaan Chat). Untuk membuka kunci kunci dan menggunakan aplikasi, anda perlu mengetuk kad anda dan memasukkan kod laluan 6 digit anda.'
+      q2:
+        question: 'Adakah Keycard tersedia dengan Status pada Android dan iOS?'
+        answer: 'Kad Kunci pada masa ini hanya tersedia di Android untuk digunakan dengan Status. Pasukan Keycard kini sedang berusaha untuk integrasi iOS.'
+      q3:
+        question: 'Berapakah harga kad kunci?'
+        answer: 'Kad kunci berharga 29 € Runcit dan boleh dibeli di sini.'
+      q4:
+        question: 'Adakah Keycard disatukan dengan dompet lain?'
+        answer: 'Status adalah penyatuan pengeluaran pertama dengan Keycard. Namun, pembangun dapat mengintegrasikan Keycard dengan produk mereka dengan Open Source Keycard API yang terdapat di sini.'
+      q5:
+        question: 'Adakah saya memerlukan Kad Kunci untuk menggunakan Status?'
+        answer: 'Tidak, anda tidak memerlukan Kad Kunci untuk menggunakan Status. Dompet status tidak disimpan dan diaudit oleh firma keselamatan pihak ketiga. Ia selamat dengan sendirinya, tetapi dengan Keycard, anda menambahkan tahap keselamatan perkakasan yang lebih unggul.'
+      q6:
+        question: 'Bolehkah saya menggunakan Kad Kunci sebagai kad debit / kredit untuk membuat pembayaran?'
+        answer: 'Buat masa ini Keycard dapat digunakan oleh pengguna Status sebagai dompet perkakasan sahaja. Ini adalah sebahagian daripada peta jalan kami untuk memperkenalkan pembayaran fizikal dengan Keycard sebagai sebahagian daripada rangkaian pembayaran terbuka, inklusif dan tanpa izin di mana terminal pembayaran adalah sebarang telefon yang berstatus.'
+      q7:
+        question: 'Bagaimana Keycard berbeza dari dompet perkakasan lain seperti Ledger atau Trezor?'
+        answer: 'Keycard adalah dari bawah yang dibina seperti dompet perkakasan mesra mudah alih. Ini menyertakan teknologi tanpa sentuh NFC untuk berkomunikasi dengan telefon bimbit anda dan menandatangani transaksi dengan ketukan kad dan memasukkan kod laluan 6 digit anda. Lebih-lebih lagi faktor bentuknya sangat senang dibawa. <br> <br> Kad Kunci tidak mempunyai layar atau papan kekunci, sehingga kosnya efektif. Tahap keselamatan Keycard serupa dengan Ledger apabila digunakan dengan aplikasi yang dipercayai seperti Status.'
+    keycard-security:
+      title: 'Keselamatan Kad Kunci'
+      q1:
+        question: 'Apa yang berlaku sekiranya saya kehilangan Kad Kunci saya?'
+        answer: 'Sekiranya anda kehilangan Kad Kunci anda, tidak ada yang dapat menggunakannya tanpa kod laluan 6 digit anda. Untuk mendapatkan semula wang anda, anda perlu menggunakan frasa 12 kata anda untuk memulihkan akaun anda. <br> <br> Pemulihan sosial sedang dikerjakan dan akan dilaksanakan suatu saat nanti. Ini akan membolehkan anda berkoordinasi dengan rakan sebaya untuk memulihkan akaun anda sekiranya hilang.'
+      q2:
+        question: 'Seberapa selamatkah Keycard?'
+        answer: 'Keselamatan kad bergantung pada perisian applet yang digunakan pada kad. Applet ini adalah sumber terbuka (pautan) dan telah diaudit oleh firma audit keselamatan pihak ketiga. <br> <br> Dari perspektif perkakasan, Keycard adalah elemen selamat SE dengan tahap perlindungan perkakasan yang sangat tinggi. Ia lulus ujian formal CC EAL5 + untuk penilaian keselamatannya.'
+    keycard-setup:
+      title: 'Penyediaan Kad Kekunci'
+      q1:
+        question: 'Bagaimana saya boleh menggunakan Kad Kunci dan Status?'
+        answer: 'Sekiranya anda pengguna Status baru, maka anda hanya perlu memuat turun Status, ikuti aliran onboarding kami, anda harus memilih jika anda ingin membuat akaun baru atau mengimport satu (iaitu `Kunci akses '') menggunakan frasa awal, dan kemudian memilih untuk menyimpannya di Kad Kunci anda. Dari sana, anda akan diminta untuk mengetuk Kad Kunci anda dan memasukkan kod laluan 6 digit anda setiap kali anda mahu membuka kunci anda dan menggunakan Status, atau menandatangani transaksi.'
+      q2:
+        question: 'Apakah kod laluan 6 digit itu?'
+        answer: 'Anda akan menentukan kod laluan 6 digit anda semasa onboarding. Anda perlu mengingat kod laluan ini kerana ini akan diminta setiap kali anda mengetuk kad anda di telefon.'
+      q3:
+        question: 'Apakah kod pasangan dan kod PUK?'
+        answer: 'Apabila anda menaiki Status dan Kad Kunci, anda akan diberi kod pasangan dan kod PUK. Anda harus menuliskan dua keping data ini dengan teliti kerana data tersebut tidak akan dikemukakan lagi kepada anda. <br> <br> Kod pasangan anda akan diperlukan ketika anda ingin menggunakan Kad Kunci anda dengan telefon lain atau aplikasi lain daripada Status. <br> <br> Kod PUK anda akan diperlukan jika anda lupa kod laluan 6 digit anda, untuk menetapkan semula dan mengubahnya.'
+      q4:
+        question: 'Apakah frasa biji?'
+        answer: 'Lihat Profil dan Tetapan. Sekiranya anda kehilangan Kad Kunci anda, kehilangan kod PUK anda, atau kod Pairing dengan telefon anda, itu satu-satunya penyelesaian anda untuk mengakses dana anda.'
+      q5:
+        question: 'Saya sudah menggunakan akaun dalam Status dan ingin menggunakannya dengan Kad Kunci saya, bagaimana saya harus meneruskannya?'
+        answer: 'Anda perlu menyahpasang Status untuk memulakan dari pemasangan baru. Semasa menaiki kapal, anda perlu memasukkan frasa benih anda (`Kunci akses` > ` Masukkan frasa benih`) dan simpan di Keycard. Anda akan memulihkan akaun anda dan semua interaksi dengan kunci peribadi anda kini akan dilindungi oleh Keycard.'
+    keycard-other:
+      title: 'Soalan lain kad '
+      q1:
+        question: 'Saya memiliki satu Kad Kunci, bolehkah saya menggunakannya dengan beberapa telefon, atau beberapa aplikasi secara serentak?'
+        answer: 'Ya awak boleh. Kad Kunci anda mempunyai satu kod pasangan yang membolehkan anda menyiapkan 5 saluran selamat serentak.'
+      q2:
+        question: 'Saya kehilangan kod laluan 6 digit saya, apa yang perlu saya lakukan?'
+        answer: 'Sekiranya anda membuat lebih daripada 3 percubaan yang salah dari kod laluan anda, anda akan diminta memasukkan kod PUK anda untuk menetapkan semula dan menukar kod laluan anda.'
+      q3:
+        question: 'Saya kehilangan kod PUK saya, apa yang perlu saya buat?'
+        answer: 'Jika anda kehilangan kod PUK anda dan kod laluan 6 digit anda, maka anda berada dalam keadaan yang cukup buruk, anda tidak akan dapat menggunakan Keycard anda. Untuk mendapatkan semula dana anda, anda perlu menggunakan frasa benih anda dan pulih (iaitu ''Kekunci akses'') sekali lagi dalam Status atau dompet lain. Jika anda sudah biasa dengan CLI dan kehilangan kod kod laluan dan PUK anda, pasukan pembangunan Keycard mungkin dapat membantu anda menetapkan semula kilang anda, sila hubungi <a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''>https://join.status.im/chat/public/status-keycard</a>'
+      q4:
+        question: 'Saya kehilangan kod Pasangan, apa yang perlu saya lakukan?'
+        answer: 'Sekiranya anda kehilangan kod pasangan anda, anda mesti memastikan bahawa anda telah mencatat frasa awal anda. Tanpa kod pasangan dan frasa utama anda, anda berisiko kehilangan akses ke dana anda sekiranya anda kehilangan telefon.'
+      q5:
+        question: 'Saya kehilangan frasa benih saya, apa yang perlu saya lakukan?'
+        answer: 'Sekiranya anda kehilangan frasa awal untuk akaun semasa anda, anda harus bertindak kerana anda berisiko kehilangan semua dana anda pada satu ketika sekiranya anda kehilangan Kad Kunci anda atau lupa kod PUK / Pasangan anda. Anda harus segera membuat dompet baru dengan frasa baru dan memindahkan aset anda dari akaun semasa anda di atasnya.'
+    banner:
+      title: 'Ada Soalan? Lihat Soalan Lazim'
+      button: 'Soalan-soalan lazim'
+  browser:
+    intro:
+      title: 'Penyemak Imbas Web3 Peribadi & Selamat'
+      description: 'Akses aplikasi, pertukaran, pasar, permainan dan pelbagai lagi defi terbaru dengan Penyemak Imbas Web3'
+    defi:
+      title: 'Dapatkan, Simpan, Tukar dengan Defi'
+      description: 'Akses ekosistem alat dan perkhidmatan kewangan terdesentralisasi yang berkembang dari telefon bimbit anda.'
+      button: 'Terokai Defi DApps'
+    games:
+      title: 'Permainan, Pasar dan banyak lagi'
+      description: 'Main, kumpulkan, berniaga, dan layari dengan semua aplikasi desentralisasi kegemaran anda di satu tempat.'
+      button: 'Lihat semua '
+    community:
+      title: 'Penemuan Terancang Komuniti dengan Dap.ps'
+      description: 'Dap.ps adalah penyelesaian penemuan dapp pihak ketiga yang bertujuan untuk mewujudkan pasaran dapp yang adil dan terpilih. Memanfaatkan SNT dan ekonomi token, Dap.ps mendesentralisasi cara kita meneroka dan mencari DApps terkini'
+    submit:
+      title: 'Ingin menghantar DApp anda ke Dap.ps untuk dilihat oleh dunia?'
+      description: 'Ikuti arahan di Pusat Integrasi DApp kami'
+      button: 'Pusat Integrasi DApp'
+  wallet:
+    intro:
+      title: 'Dompet Super Crypto'
+      description: 'Dengan Dompet Status yang tidak selamat, anda dapat mengawal sepenuhnya dana anda.'
+    funds:
+      title: 'Kendalikan Dana Anda'
+      description: 'Dompet Status sepenuhnya bukan kustodian - hanya anda yang mempunyai akses ke dana anda. Bukan bank. Status pun tidak. Hantar, terima, dan simpan ETH, SNT, DAI, barang koleksi dan aset ethereum lain mengikut syarat anda.'
+    security:
+      title: 'Direka untuk Keselamatan'
+      description: 'Lindungi dana anda dengan standard keselamatan terkini, mekanisme anti-pancingan data, dan kunci awam dan peribadi yang dihasilkan dan disimpan secara tempatan. Percayai aset anda selamat dengan Status Wallet.'
+      button: 'Lihat Spesifikasi'
+    friends:
+      title: 'Dapatkan dengan Rakan'
+      description: 'Rujuk rakan dan dapatkan dengan Crypto Starter Pack. Token dihantar terus ke dompet anda dan mereka semasa mereka membuat akaun.'
+      button: 'Rujuk kepada kawan'
+    payments:
+      title: 'Pembayaran Tanpa Sederhana'
+      description: 'Bersepadu dengan utusan peribadi, menghantar dan menerima pembayaran ke dan dari sesiapa sahaja, di mana sahaja di dunia.'
+    dapps:
+      title: 'Defi & Lagi di Hujung Jari Anda'
+      description: 'Akses dan berinteraksi dengan dapps web3 yang semakin berkembang dengan dompet dan penyemak imbas web3 yang bersepadu.'
+      button: 'Terokai Dap.ps'
+    accounts:
+      title: 'Pelbagai Akaun Dompet untuk Privasi yang Lebih Besar'
+      description: 'Buat banyak akaun di dompet Status anda. Pilih akaun mana yang anda gunakan untuk berinteraksi dengan DApps, mengirim pembayaran, dan menyimpan dana.'
+    keycard:
+      title: 'Keselamatan Perkakasan dengan Kad Kunci'
+      description: 'Tambahkan lapisan keselamatan ke akaun dan dana anda dengan Keycard - dompet perkakasan tanpa sentuh.'
+  account-creation:
+    intro:
+      title: 'Pembuatan Akaun Pseudo-Anonymous'
+    usernames:
+      title: 'Nama Pengguna dan Privasi Lalai Tiga Kata'
+      description: 'Semasa membuat akaun, proses pengacakan memilih tiga perkataan - Kata sifat, kata sifat, haiwan. Ini menjadi nama pengguna lalai anda dalam Status dan menghasilkan nama samaran sebenar.'
+      button: 'Ketahui Lebih Lanjut mengenai Nama Pengguna Status'
+    key:
+      title: 'Penjanaan Kunci Selamat'
+      description: 'Semasa proses pembuatan akaun, kekunci sembang dan dompet akan dihasilkan melalui jalan yang berasal dari BIP43 dari frasa benih mnemonik BIP39. Hanya anda yang mempunyai akses ke kunci peribadi, jadi selamatkannya.'
+      button: 'Ketahui Lebih Lanjut mengenai Penjanaan Kunci'
+    status:
+      title: 'Nama Pengguna Negeri dengan ENS'
+      description: 'ENS bermaksud Ethereum Name Service, dan membolehkan alamat Ethereum diganti dengan nama berdasarkan teks tersuai. Sesiapa sahaja boleh mendaftarkan nama pengguna stateofus.eth dengan memasukkan 10 SNT dari dalam Tab Profil. <br> <br> Penting untuk diperhatikan, bahawa apabila anda mendaftarkan nama ENS dengan alamat dompet tertentu, alamat tersebut kini dikaitkan dengan nama pengguna, sehingga mengurangkan privasi akaun tersebut.'
+      button: 'Daftarkan Status Nama Pengguna Kami'
+    keycard:
+      title: 'Lindungi Akaun anda dengan Kad Kunci'
+      description: 'Tambahkan di luar talian, pengesahan dua faktor yang dikuatkuasakan perkakasan ke akaun Status anda dengan Kad Kunci. Memerlukan ketukan kad + entri pin untuk keselamatan yang lebih besar ke atas akaun anda.'
+      button: 'Dapatkan Kad Kunci'
+  messenger:
+    intro:
+      title: 'Utusan Privasi-Utusan Pertama'
+      description: 'Hantar sembang peribadi 1: 1, kumpulan dan awam. Hantar pembayaran dengan mudah kepada rakan di seluruh dunia. Dibangunkan dengan teknologi peer-to-peer untuk menghilangkan pihak ketiga pengawasan.'
+    message:
+      title: 'Mesej mengenai syarat anda'
+      description: 'Hantar sembang peribadi 1, 1, sembang kumpulan peribadi, dan sertai atau buat saluran awam untuk berhubung dengan komuniti anda.'
+    payments:
+      title: 'Pembayaran Tanpa Sederhana'
+      description: 'Bersepadu dengan dompet crypto, Status membolehkan sesiapa sahaja, di mana sahaja menghantar pembayaran global secara langsung dalam sembang'
+    stickers:
+      title: 'Hantar, Buat, & Dapatkan dengan Pelekat'
+      description: 'Hantar pelekat ekspresif tanpa orang tengah. Malah buat pek anda sendiri dan dapatkan SNT di pasaran pelekat yang terdesentralisasi'
+      button: 'Hantar Pek'
+    idea:
+      title: 'Ada idea untuk ciri baru?'
+      description: 'Adakah sesuatu yang hilang dari pengalaman anda? Buat permintaan ciri di kami'
+      link: 'Forum komuniti'
+    benefits:
+      title: Kelebihan
+      benefit-1:
+        title: 'Peribadi & nama samaran'
+        description: 'Tidak diperlukan nombor telefon, alamat e-mel, atau rekening bank semasa membuat Akaun Status percuma.'
+      benefit-2:
+        title: 'Tahan Penapisan'
+        description: 'Penyingkiran titik tersekat berpusat melindungi mesej anda daripada menapis pihak ketiga.'
+      benefit-3:
+        title: 'Sumber Percuma dan Terbuka'
+        description: 'Status adalah perisian sumber terbuka (percuma) yang boleh dikaji semula oleh sesiapa sahaja dan juga percuma (tanpa kos) untuk dipasang.'
+    p2p:
+      title: 'Pemesejan Rakan Sebaya'
+      description: 'Status membuang titik tersekat dari mesej anda untuk privasi dan keselamatan yang lebih besar. Menggunakan rangkaian peer-to-peer dan bukannya pelayan terpusat untuk penghalaan mesej, komunikasi anda adalah milik anda dan anda sendiri.'
+      button: 'Lihat Spesifikasi'
+    encryption:
+      title: 'Penyulitan End-to-End <br> Lalai'
+      description: 'Peningkatan privasi dengan enkripsi end-to-end (e2ee) pada semua mesej peribadi anda secara lalai. Tidak ada orang lain selain anda dan penerima yang anda inginkan dapat melihat mesej anda - bahkan Status.'
+    protection:
+      title: 'Lindungi Mesej Masa Lalu dan Masa Depan Anda'
+      description: 'Status memanfaatkan versi yang diubah suai dari algoritma ratchet berganda untuk kerahsiaan hadapan yang sempurna. Lindungi mesej masa lalu dan masa depan anda walaupun kunci penyulitan semasa anda entah bagaimana dikompromikan.'

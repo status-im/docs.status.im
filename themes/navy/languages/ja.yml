@@ -1,0 +1,1085 @@
+site:
+  home:
+    intro:
+      title: プライベートでセキュアなコミュニケーション
+      description: Statusは最先端の技術で構築されたメッセンジャー・暗号資産ウォレット・Web3ブラウザです。
+      news: ニュース
+    about:
+      open-source:
+        title: オープンソースプロジェクト
+        description: Statusは完全にオープンソースのプロジェクトで、世界中のコントリビュータによって開発されています。開発者、デザイナー、クリエイター、エデュケーターの誰もが、オープンにリポジトリや情報へアクセスできます。検閲耐性があり、外部から介入がしにくく設計されています。
+      mission:
+        title: ミッションと信念
+        description: Statusは、人権を守るセキュアなコミュニケーションツールを目指しています。自由に情報をやり取りすることを可能にし、プライベートで安全に会話をする権利を保護し、個人の主権を促進することを理念として設計されています。
+    decentralized:
+      subtitle: 分散型コミュニケーション
+      title: メッセージ、ブラウザ、取引を思いどおりに
+      description: Statusは、分散型メッセンジャー、暗号資産ウォレット、DAppsブラウザを統合した、パワフルでプライベートでセキュアなコミュニケーションツールです。外部からメッセージと情報を保護するように設計されています。
+      link: すべての機能を見る
+    private:
+      subtitle: プライバシーの保護
+      title: 真のプライベートメッセージング
+      description: Statusは、オープンソースのピアツーピアプロトコルとエンドツーエンド暗号化を使用して、外部からあなたのメッセージを保護します。Statusであなたのメッセージをプライベートにしましょう。
+      link: メッセンジャーを詳しく
+    wallet:
+      subtitle: 世界のどこでも送れる、受け取れる
+      title: セキュアな暗号資産ウォレット
+      description: ERC20やERC721トークンなどの暗号資産を安全に送信、受信、保管します。あなたの資産の鍵を持つのはあなただけです。直感的なデザインで、外部の攻撃からあなたを守ります。
+    browser:
+      subtitle: 自分のデータを自分で所有する
+      title: 分散型Web3ブラウザ
+      description: ゲーム、マーケットプレイス、取引所、ソーシャルネットワークなど、広がり続ける分散型アプリ（DApps）の世界にアクセスしましょう。最新のセキュリティ基準により、プライベートなブラウジング体験を約束します。
+    security:
+      title: プライベートでセキュアな設計
+      description: Statusは最新の暗号化セキュリティを用いて、あなたのメッセージとトランザクションをあなただけのものにします。仲介者を排除し、メッセージをプライベートに、資産をセキュアに保ちます。
+    status-network:
+      title: 'Status Network'
+      description: 'The Status Networkは、持続可能で包括的なコミュニティのための製品、ツール、インフラを構築するプロジェクトの集合体です。すべてはセキュリティ、平等、個人の主権のために設計・構築しています。'
+      link: 'The Status Network についてもっと知る'
+    all:
+      title: メッセージ、ブラウザ、取引を思いどおりに
+      description: プライベートで安全なコミュニケーションを、1つのパワフルなスーパーアプリに統合しました。
+    account-creation:
+      subtitle: プライバシーを守る
+      title: 疑似匿名アカウント
+      description: Statusアカウントを作成する際に、電話番号、メールアドレス、銀行口座を聞かれることはありません。Statusでは、そのままプライベートに使うのも、世界にあなたを公開するのも自由です。
+  features:
+    intro:
+      title: イーサリアムのパワーをあなたのポケットに
+      description: Statusはプライベートメッセンジャー、暗号資産ウォレット、Web3ブラウザを統合した多目的コミュニケーションツールです。
+      link-messenger: メッセンジャー
+      link-wallet: 暗号資産ウォレット
+      link-browser: DAppsブラウザ
+    messenger:
+      title: セキュアなメッセンジャー
+      feature-1:
+        title: パブリック、プライベート、グループチャット
+        description: '公開チャンネルに参加したり、プライベートな1:1チャット、グループチャットで会話しましょう。プライベートチャットでは、チャット内で暗号資産を送受信することができます。'
+        link: Statusの公開チャンネルに参加する
+      feature-2:
+        title: Wakuを使ったプライベートメッセージング
+        description: Wakuはピアツーピア（p2p）メッセージングプロトコルで、メッセージから管理サーバのような集中的なポイントを取り除きます。中央集権的な第三者を排除することで、あなたのメッセージはあなた自身のものとなり、よりプライベートで安全なものとなります。
+        learn-more: Wakuについてもっと知る
+      feature-3:
+        title: 完全な前方秘匿性と<br>エンドツーエンド暗号化
+        description: Statusは、Whisperの上にダブルラチェットアルゴリズムを使用し、セキュリティとプライバシーでの最高グレードのエンドツーエンド暗号化を実現しています。
+    wallet:
+      title: 統合された<br>イーサリアムウォレット
+      feature-1:
+        title: 安全なウォレット
+        description: 管理者や仲介者を排除することで、あなただけが自分の資産をコントロールできます。暗号資産の秘密鍵を持っているのはあなただけであり、他の誰にもアクセスできません。
+      feature-2:
+        title: ERC20とERC721に対応
+        description: イーサリアムネットワーク上のERC20とERC721トークンをサポート。Statusなら心配なくトークンを送信、受信、保管できます。ほかのERC20トークンも簡単にウォレットに追加できます。
+      feature-3:
+        title: 友達もDAppもつながる
+        description: Statusウォレットはメッセンジャーやブラウザが統合されており、友達やDAppsでの交流ができます。すべてのトランザクションには、フィッシング攻撃からユーザを守る署名フレーズの確認が必要です。
+    browser:
+      title: Web3ブラウザ
+      feature-1:
+        title: 分散型アプリにアクセス
+        description: 広がり続けるDAppsエコシステムをポケットに。最新のゲーム、マーケットプレイス、分散型取引所、ソーシャルネットワークにアクセスできます。
+        link: Statusをインストール
+      feature-2:
+        title: プライベートでセキュアなブラウジング
+        description: Statusは最新のセキュリティ標準を実装しており、トラッキングやデータ収集から安全性を確保しています。思いのままにブラウジングしてください。
+      feature-3:
+        title: DAppを最適化<br>Statusで
+        description: 'Status Dapp統合センターでは、どんなDApp開発者でも簡単に、Statusについて学び、Statusでの実行を最適化し、そのユニークな機能を活用し、Dap.psに登録することができます。'
+        link: Dappを最適化して登録する
+    get:
+      title: ダウンロード
+      description: StatusをiOSとAndroidで始めよう
+      link: アプリをダウンロード
+  get-involved:
+    index:
+      intro:
+        title: オープンソースコミュニティ
+        description: あなたが開発者、エデュケーター、コミュニティ主催者や熱心なサポーターのいずれであっても、Statusに貢献することができます。始めるためのリソースがこちらです。
+      resources:
+        resource-1:
+          title: 開発者
+          description: 'Statusは、Mozilla Public License v2.0にライセンスされたフリーでオープンソースのソフトウェアを構築しています。<br><br>あらゆるバックグラウンド、技術レベル、関心を持ったコミュニティメンバーが、Statusの公式リリースに貢献しています。これには、Statusが報奨金を提供するオープンなコントリビューションと、新機能のためコミュニティが主導で行うもののどちらも含まれます。'
+        resource-2:
+          title: 教育者
+          description: Statusはオープンソースプロジェクトを成功させるには、教育と迎え入れる環境が重要であると考えています。<br><br>私たちは、Statusの構築の仕方、Statusの使い方、コミュニティをどう始めるか、あるいは自身が持つ経験をどうやってプロジェクトに共有するかについて、周りに教え、手助けする人々を歓迎します。
+        resource-3:
+          title: コミュニティグループ
+          description: Statusコミュニティには、Statusが行うグループとコミュニティ主催のグループがいくつも並んであります。<br><br>自分が興味のあるものがあれば、既存のグループに参加したり、自分のグループを立ち上げたりしてください。世界中の人がこのオープンソースプロジェクトを促進し成長させるために活動しています。
+      contributors:
+        title: Statusアンバサダー
+        link: Statusチームに参加してください。すべての募集を見る
+        subtitle: 私たちはStatusです
+        subtitle-2: アンバサダーとしてできること
+        description: Statusアンバサダーは、構築し、教育し、プロモーションをして、次世代のウェブに貢献します。
+        description-1: アンバサダーは自分が貢献したいことを自由に選ぶことができます。アンバサダーの中にはコードを書く人もいれば、ブログ記事を書く人もいます。イベントを主催する人も、ウェビナーを主催する人もいます。
+        description-2: Statusアンバサダーは様々な分野で活動し、様々な形で協力しています。
+        link-2: アンバサダーになる
+        link-3: トップコミュニティコントリビュータ
+        link-4: 共有プロジェクトボードをチェック
+        subtitle-3: Statusコミュニティの声を聞く
+        description-3: ポッドキャストからタウンホールミーティングまで、Statusコミュニティに参加しましょう。
+        link-5: ここで聞く
+    developers:
+      intro:
+        subtitle: オープンソースコミュニティ
+        title: 開発
+        description: 'Status 開発者ポータルへようこそ。Statusへの貢献、自身の DApps構築、Statusのネイティブ機能を活用した拡張の開発を始めるためのすべての情報がここに掲載されています。'
+      quick-nav-sub:
+        link-1: はじめに
+        link-2: リポジトリ、問題、バウンティ
+        link-3: 開発者向けリソース
+        link-4: Github
+      contribute-to-status:
+        title: はじめに
+        description: 私たちのオープンソースプロジェクト
+        link: コントリビュータガイド
+        status-react:
+          title: Status-React
+          description: 'Clojureで書かれています - ここではWakuとアプリ間のインタラクション、ウォレットとユーザとそれらがアクセスする分散型アプリ（DApp）間のインタラクション、そしてUIロジックがあります。'
+          link: リポジトリを表示
+        status-go:
+          title: Status-Go
+          description: 'Goで書かれています - これはすべてのブロックチェーンロジック、トランザクション、およびライトクライアントワークが行われる場所です。'
+          link: リポジトリを表示
+        open-issues-status-react:
+          title: Status-Reactの未解決の問題
+          link: 未解決の問題をすべて表示
+        open-issues-status-go:
+          title: Status-Goの未解決の問題
+          link: 未解決の問題をすべて表示
+        earn-crypto:
+          title: バウンティをクリアして<br>暗号資産を獲得
+          description: 技術的なバウンティの全リストを見る
+          link: Gitcoin
+        report-a-security-vulnerability:
+          title: セキュリティ脆弱性を<br>報告して修正する
+          description: 詳細については、
+          link: バグバウンティプログラム
+      development-dapp:
+        build-dapp:
+          title: 自分のDAppを構築する
+          description: 分散型アプリを構築するためのツールやフレームワークをご利用ください。
+          link-1: DApp統合センター
+          link-2: Embarkで自分のDAppを構築する
+          link-3: Web3プロバイダーにアクセスしてStatusを検出する
+          link-4: 'あなたのDAppをStatus DAppリストに提出する'
+        extend-dapp:
+          title: DAppを拡張する
+          description: 拡張機能を使用すると、DApp内でStatusのネイティブ機能を活用することができます。
+          link-1: 拡張機能の概要
+          link-2: チュートリアル
+          link-3: 例と既存の拡張機能
+      get-in-touch:
+        title: 連絡する
+        join-status:
+          link: '#status に参加する'
+          description: 一般的なStatusのニュースとディスカッション
+        join-status-core:
+          link: '#status-core に参加する'
+          description: コア開発に関する公開チャネル
+        join-introductions:
+          link: '#introductions に参加する'
+          description: Statusは初めてですか？挨拶と自己紹介をしましょう！
+        contact-us:
+          link: お問い合わせ
+          description: それ以外の場合は、直接メールでお問い合わせください。
+      repositories:
+        title: リポジトリ、未解決の問題とバグバウンティ
+      build-for-status:
+        title: Statusをビルドする
+        description: StatusでDAppを手に入れるなら
+        link: DApp統合センター
+    educators:
+      intro:
+        subtitle: オープンソースコミュニティ
+        title: エデュケーション
+        description: Statusは、人に役立つ情報を提供するエデュケータを歓迎します。それは、Statusをビルドする方法に限らず、Statusの使い方、コミュニティへの参加の仕方、自身の経験をプロジェクトに情報共有する方、すべての人々です。
+      quick-nav-sub:
+        link-1: エデュケータになろう
+        link-2: 翻訳
+        link-3: エデュケータ向けリソース
+        link-4: Github
+      educate-contribute:
+        how-to-get-started:
+          title: はじめに
+          link-1: コミュニティメンバー・ビギナーズガイド
+          link-1-description: コミュニティメンバーが作成したガイドをチェックしてみてください。
+          link-2: 用語集
+          link-2-description: 用語、定義、リソース、概念について、このオープンソースドキュメントを参照してください。また、ご自由に追記してください。
+          link-3: FAQ
+          link-3-description: Statusコミュニティに寄せられるよくある質問を紹介します。
+        create:
+          title: Create
+          link-1: 一般向けのチュートリアルの作成
+          link-1-description: 初めてのユーザ向けに、アカウントの設定方法や、Statusアプリ、コミュニティを解説する手伝いをしませんか。チュートリアルをブログに掲載する方は、私たちにご連絡ください。
+          link-2: テクニカルチュートリアルの作成
+          link-2-description: Status、DApps、あるいは拡張機能など、開発者の助けになる情報を広めたい方は、私たちにお問い合わせください。
+          link-3: ブログ記事を書く
+          link-3-description: Statusブログの投稿者となってストーリーを共有しましょう
+      translate:
+        title: 翻訳
+        description: 'Statusをあなたの国の言語にローカライズするのを手伝ってください。私たちは lokalise を使用して、アプリケーション、ウェブサイト、ドキュメントなどのすべてを翻訳しています。'
+        link: Statusを翻訳する
+        link-2: コントリビュータ
+      educator-resources:
+        title: エデュケータ向けリソース
+        link-1: スタイルガイドとデザインアセット
+        link-1-description: ブランド、テンプレート、フォントなど、最新のスタイルガイドはこちらです。
+        link-2: ディスカッション
+        link-2-description: Statusのあらゆることについて議論しましょう。
+        link-3: チュートリアル
+        link-3-description: ビルドする方法を学んだり、他のコミュニティで作られたチュートリアルを見てみましょう。
+        link-4: ブログ
+        link-4-description: Statusに関する最新ニュースとアップデートです。
+        link-5: ナイトリービルド
+        link-5-description: モバイルとデスクトップ用の最新のナイトリービルドをインストールしてテストできます。
+        link-6: 最新のリリースノートを確認する
+        link-8: Status公開チャンネルの全ての一覧を見る
+      get-in-touch:
+        join-statusphere:
+          link: '#statusphere に参加する'
+          description: Statusアンバサダーと熱烈なファンが集うコミュニティ
+    community:
+      intro:
+        subtitle: オープンソースコミュニティ
+        title: コミュニティグループ
+        description: Statusコミュニティには、Statusが行うグループとコミュニティ主催のグループがいくつも並んであります。自分が興味のあるグループに参加したり、自分のグループを立ち上げてみましょう。
+        link-1: 以下のグループをご覧ください
+        link-2: 新しいグループを登録申請する
+      community-groups:
+        account-group-1:
+          description: ひたすらStatusコミュニティを支援し、貢献し、構築するグループ
+          occupation: 主催者
+          name: 私たち
+        account-group-2:
+          description: 韓国に拠点を置く熱心な開発者、メーカー、クリエイター、愛好家のグループです。
+          occupation: 主催者
+        account-group-3:
+          description: Statusスペイン
+          occupation: 主催者
+        account-group-4:
+          description: Status中国
+          occupation: 主催者
+        account-group-5:
+          description: 人生の意味とは？
+          occupation: 主催者
+          name: Aristotle
+        account-group-6:
+          description: 'Statusフィリピン コミュニティ'
+          occupation: 主催者
+        account-group-7:
+          description: 'Statusトルコ コミュニティ'
+          occupation: 主催者
+  security:
+    intro:
+      title: セキュリティ・バイ・デザイン
+      description-1: Statusは、真の分散型コミュニケーションツールを目指しています。最終的にはすべての第三者を排除し、悪意のある行為者の攻撃ベクトルを最小化します。
+      description-2: Web3の真の利点は、中間者を介さずに、自分の決めた条件でトランザクションやコミュニケーションができることです。こうした自由なコミュニケーションを楽しむためには、メッセージ、トランザクション、アイデンティティ、資産がセキュアであると確信できなければなりません。セキュリティに対するStatusのアプローチについては、以下をご覧ください。
+    security-at-status:
+      title: Statusのセキュアメッセージング
+      secure-inner-1:
+        title: セキュアな<br>メッセージング
+        description: メッセージは検閲もブロックもされません。ユーザが望むなら疑似匿名のままです。意図した受信者だけがメッセージを表示できます。
+      secure-inner-2:
+        title: セキュアな<br>金融トランザクション
+        description: Statusウォレット内での暗号資産やトークンの保管、送受信は、攻撃に対して安全です。秘密鍵が公開されることはありません。トランザクションは、秘密鍵の所有者によって開始、確認された場合にのみ実行されます。
+      secure-inner-3:
+        title: セキュアな<br>ブラウジング
+        description: Web3を閲覧する際、エンドユーザのデータや閲覧情報は、同意なしに第三者にアクセスされることはありません。Statusブラウザを使用している間に行われるすべてのトランザクションは、Statusウォレットで使用されているのと同じセキュリティ基準とベストプラクティスを実装しています。
+    security-content:
+      content-1:
+        title: セキュアなアイデンティティ
+        description: StatusでのあなたのIDは、ローカルで生成された暗号キーペアで始まり、パスワードで保護されます。必要なのはそれだけです。その後、ユーザは自分のプロフィールに情報を追加して、Statusでの自分を作り上げることができます。ユーザはいつでも自分の情報とそこにアクセスできる人を完全にコントロールすることができます。エンドユーザは、公開または非公開を自由に設定することができます。
+      content-2:
+        title: ピアツーピアメッセージングプロトコル
+        description: 'Statusはピアツーピア（p2p）通信にWakuプロトコルを使用します。 Wakuは、ピアのネットワークに依存してメッセージを相互にルーティングします。送信された各メッセージはネットワーク全体にブロードキャストされ、意図した受信者のみが開くことができるように暗号化されます。中央集権的なチョークポイントを取り除くことで、メッセージのコンテンツとメタデータはあなただけのものになります。ただし、ピアがオフラインのときに履歴ノードがメッセージを管理するため、StatusとWakuはまだ完全なピアツーピアではありません。Waku履歴ノードは、メッセージを保存し、ピアがオンラインに戻ってきたときにメッセージを配信する Waku の拡張機能です。'
+        link: Wakuについてもっと知る
+      content-3:
+        title: デフォルトのエンドツーエンド暗号化
+        description: Statusで送信されるすべてのプライベートメッセージは、デフォルトでエンドツーエンド暗号化されます。Statusアカウントを作成すると、メッセージを暗号化するための暗号化キーペアが生成され、デバイスのローカルに保存されます。Statusで新しい連絡先を追加すると、公開鍵を交換し、相手がネットワーク経由で受信したときにメッセージを復号化できるようにします。
+      content-4:
+        title: 'Perfect Forward Secrecy（前方秘匿性）'
+        description: 'PFSは、参加者が秘密鍵が漏洩してもセッション鍵が漏洩しないことを保証する、特定の鍵共有プロトコルの機能です。具体的には、第三者が秘密鍵を入手したとしても過去のメッセージを復号化することはできません。これは、Open Whisper Systems の X3DH とダブルラチェット仕様をベースに、分散環境で動作するようにいくつかの改良を加えたものです。Perfect Forward Secrecy は、すべての 1:1 プライベートチャットに一段階上のセキュリティをもたらします。'
+        link: PFSの詳細
+      content-5:
+        title: 疑似匿名アカウントの作成
+        description: Statusで新しいアカウントを作成する際、電子メールや電話番号などの第三者認証を要求されることはありません。これはサインアップ時に、Statusアカウントを作成しても疑似匿名のままでいられるということです。アカウントを作成するときにあるのは、シンプルにあなた（ユーザ名）とあなたの鍵だけです。これはまた、二要素認証やパスワードの復旧がStatusの機能ではないということでもあります。ですので、あなたのパスワードとニーモニックフレーズを忘れずに、オフラインの安全な場所で保存するようにしてください。
+      content-6:
+        title: 鍵はどのように保管されますか？
+        description-1: 'Statusは、公開鍵と秘密鍵の管理と保存にサードパーティのサービスを使用することはありません。生成されると、最初のBIP44キーは、デバイス上のローカルにあるkeystore jsonファイルに保存されます。このファイルは、Statusアカウント用にあなたが作成したパスワードで暗号化され、Statusアプリからのみアクセス可能です。お使いのデバイスで利用可能な場合は、機密情報はセキュアなハードウェアに保存することを優先しています。'
+        description-2: 'セキュリティの追加レイヤーとして、秘密鍵管理とその運用がオフラインのコールドストレージのように機能する Keycard を紹介します。'
+        description-3: 'Keycardの詳細については、%s にアクセスしてください。'
+      content-7:
+        title: セキュアなブラウジング
+        description: Statusブラウザは、エンドユーザに情報を提供し、資産を安全に保管するように設計されています。ブラウザのプライバシーモードはデフォルトで有効になっています。これは、DAppsがウォレットに接続する前に都度許可を要する機能であり、そのため一部のDAppsは（このセキュリティ対策に対応していない場合）機能しない可能性があります。最後に、StatusブラウザはEIP712を実装しています。これは、オンチェーンで使用するためのオフチェーンメッセージ署名のユーザビリティを向上させることを目的としています。オフチェーンメッセージ署名はガスを節約し、ブロックチェーン上のトランザクション数を減らすことができるため、ますます採用が進んでいます。現在署名されているメッセージはわかりにくい16進数の文字列で、ほとんどメッセージを構成するアイテムに関するコンテキストはありません。
+        link: EIPについてもっと詳しく知る
+      content-8:
+        title: Statusは私の暗号資産をどのように守るのか？
+        description: Statusは、サーバを使用せず自身で資産を完全にコントロールできる非保管型ウォレットで構築されています。秘密鍵は暗号化された状態であなたのデバイスに保存されます。あなたの資産はあなたの管理下にあり、秘密鍵なしでは誰もアクセスできません。そのため、ニーモニックフレーズを紛失した場合、あなたの資産へのアクセスを復旧することができなくなります。ですので、秘密鍵はオフラインの場所で大切に保管してください。
+      content-9:
+        title: フィッシング攻撃から守るための署名フレーズ
+        description: Statusは、すべてのトランザクションを確認および「署名」するために必要な署名フレーズを実装しています。署名フレーズは、3つの単語のフレーズで、ランダムに生成され、あなたのデバイスのローカルに保存されます。署名フレーズは、トランザクションを確認する際に表示され、それを受け入れる必要があります。3つの単語に覚えがない場合や、3つの単語が全く表示されない場合は、トランザクションをキャンセルしてStatusからログアウトし、問題を%sに報告してください。
+        link: フィッシングの詳細
+      content-10:
+        title: 厳格なコード監査
+        description-1: 開発の重要なマイルストーンに到達すると、内部レビューと監査を繰り返した後、私たちは業界をリードするサードパーティ監査会社に連絡を取り、当社の健全性を検証し、当社の作業を二重、三重にチェックしています。これらのセキュリティ監査は、関連するプロジェクトのセキュリティを保証するものではありません。これらの監査は、客観的な第三者による追加的なチェックであり、目的とする機能においてセキュリティの信頼性を高めるためのものです。
+        description-2: すべての外部監査の情報と詳細については、%sを参照してください。
+        description-3: 当社のコードにバグや脆弱性を見つけた場合は、%sに報告してください。
+        ENS:
+          title: 'ENSスマートコントラクト（Sigma Prime社）'
+          commit: '2018年10月 - ENS名コントラクト - コミットハッシュeaefa92'
+          report: レポート
+          tests: テスト
+          code: コード
+          blog: ブログ投稿
+        dejavu:
+          title: DejaVu社ベータ監査
+          commit: '2018年5月7日 - Status-goおよびStatus-reactリポジトリ（DejaVu社）'
+          report: レポート
+          blog: ブログ投稿
+      content-11:
+        title: 正しく学び安全を確保する
+        description: Statusのような分散化されたサーバーレスプロダクトは、多くの不要な仲介者を取り除き、監視、検閲、データ漏洩の心配なくチャット、取引、閲覧を可能にします。これは、あなたが自分のデータと自分自身のデジタルセーフティを管理できるからです。そのため、自分の身を守る方法を理解することが重要になります。このStatusセキュリティ・ベストプラクティスガイドで、安全を確保する方法の詳細をご覧ください。
+        link: ベストプラクティスガイドを見る
+      content-12:
+        title: セキュリティサポート
+        description: 'セキュリティに関する質問やご不明点がありましたら、メール（%s）またはStatusセキュリティチャンネル %s までご連絡ください。'
+      content-13:
+        title: バグバウンティプログラム
+        description: セキュリティ研究者や開発者の方で脆弱性を報告したい場合は、Statusバグバウンティプログラムについて%sまでご連絡ください。また、HackerOneとのキャンペーンも行っています。これはハッカーにプロジェクトを見てもらうためのインセンティブを与えるバグバウンティプログラムです。私たちはプライベートキャンペーンについても積極的に展開しており、それらは近日中に公開する予定です。バグバウンティプログラムの詳細については%sまでお問い合わせください。
+    protect-yourself:
+      title: 自分自身で守る
+      description: Statusは、プロダクトが可能な限りセキュアであることを保証するために、最先端の技術で構築されています。Web3のナビゲートに関して、あなたがコントロールすることになります。セキュリティのベストプラクティスを参照してコントロールしてください。
+      link-1: もっと詳しく知る
+      link-2: Statusのセキュリティチャンネルに参加する
+  header:
+    nav:
+      get-involved:
+        title: 参加する
+        description: Statusは世界中の人々からなる<br>オープンソースプロジェクトです
+      security: セキュリティ
+      docs:
+        title: 開発者
+        description: Statusの開発を始めるために<br>必要な情報のすべて
+        link: 開発者
+        link-1: DApp統合センター
+        link-2: コントリビュータガイド
+        link-3: チュートリアル
+        link-4: セキュリティ
+        link-5: 仕様
+        link-6: ユーザガイド
+      about: About
+      blog: ブログ
+      snt-utility: SNTの用途
+      features:
+        link: 機能
+        title: 機能
+        link-1: すべての機能を見る
+        link-2: Keycard
+        description: 'プライベートメッセンジャー、暗号資産ウォレット、 <br> Web3ブラウザなど'
+        link-3: プライベートメッセンジャー
+        link-4: 自分だけのアカウント
+        link-5: 暗号資産ウォレット
+        link-6: Web3ブラウザ
+  link:
+    get-status: Statusを入手
+    get-involved: 参加しよう
+    developers: 開発者
+    educators: エデュケーター
+    community-groups: コミュニティ
+    learn-more: もっと詳しく知る
+    read-all: すべて読む
+  about:
+    intro:
+      title: ミッション
+      link-1: Statusの信念
+      link-3: コアコントリビュータ
+      description: Statusは、人権を守る安全なコミュニケーションツールであることを目指します。情報の自由な流れを可能にし、プライベートで安全な会話をする権利を保護し、個人の主権を促進するように設計されています。
+    principles:
+      title: Statusの信念
+      description: これらの原則はツールとして機能します。思考、コミュニケーション、そして分散型の意思決定のためのツールです。これらの原則は、私たちがビジョンが足りず失敗しているときに、私たちを正直にさせてくれます。
+      principle-1:
+        title: 自由
+        description: 私たちは個人の主権を信じています。個人の自由の大義を表すプラットフォームとして、社会的、政治的、経済的な自由を最大化することを目指します。これは強制への耐性があることを含みます。
+      principle-2:
+        title: 検閲耐性
+        description: 私たちは情報が自由に流れることを可能にします。どのコンテンツも監視下にありません。私たちは、検閲耐性という暗号エコノミクス設計の原則を遵守しています。それにも増して強力なのは、Statusは情報の不可知論的プラットフォームであるということです。
+      principle-3:
+        title: セキュリティ
+        description: 私たちは機能を実装する際にセキュリティに妥協しません。最先端の技術を駆使して、新しいセキュリティ手法や技術を研究し、強固なセキュリティを保証します。
+      principle-4:
+        title: プライバシー
+        description: プライバシーとは、自分自身を世界に公開するかどうかを選択する権利です。私たちにとって、通信と取引の両面でプライバシーを保護することは、疑似匿名プラットフォームであることと同様に不可欠だと考えます。さらに、我々は完全な匿名性の権利を提供するように努めています。
+      principle-5:
+        title: 透明性
+        description: 私たちは、組織内で情報が完全にオープンであり情報が対称性を持つことを目指しており、コアコントリビュータとコミュニティとの間の境界線をなくします。私たちは、特に長期的な目標のために短期的なトレードオフを行う際には、自分たちの欠点について率直に話します。
+      principle-6:
+        title: オープン
+        description: 私たちが作成するソフトウェアは公共財です。それは、誰もが共有し、変更し、利益を得られるよう、フリーでオープンソースのライセンスという形で利用可能になっています。私たちはパーミッションレスの参加の在り方を信じています。
+      principle-7:
+        title: 分散化
+        description: 私たちは、ソフトウェアと組織そのものの両方の集中化を最小化します。言い換えれば、ネットワークを構成する物理的なコンピュータの数を最大化し、構築されたシステムを制御する個人の数を最大化します。
+      principle-8:
+        title: 包摂
+        description: 私たちは使いやすさを重視し、ソフトウェアが公正で広範に利用されることを信じています。これはまた、社会的包摂性、承認不要な参加、相互運用性、教育への投資にも及びます。
+      principle-9:
+        title: 継続
+        description: 私たちは、個人や現在のチームメンバーを管理監督することなく、存続し、改善し続けることを奨励するソフトウェアを作成します。
+      principle-10:
+        title: 機知
+        description: 私たちは絶え間なく知恵を回します。私たちが成長し、資金調達が容易になるにつれて組織内に起こる官僚主義や非効率性と戦うことが、私たちのトークンホルダーに対する義務となります。これは（資本、時間、リソースの面で）経済的なコストを抑えながら、可能な限り最も効果的な方法で問題を解決することを意味します。
+    how-we-work:
+      title: Statusの働き方
+      description: 私たちのチームは世界中に分散しており、世界のあらゆる場所からリモートで仕事をしています。2～5人の少人数チームで、とても具体的な目標を持って仕事をしています。
+      research:
+        title: 研究
+      specifications-planning:
+        title: 仕様と企画
+      implementation:
+        title: 実装
+      communication-post-mortem:
+        title: コミュニケーション＆事後解析
+    core-contributors:
+      title: コアコントリビュータ
+      description: Statusは伝統的な組織ではありません。私たちはヒエラルキーを持たず、マネージャーもおらず、決められたオフィスもありません。全員がミッションを達成するために集まり、それをどう行うかを決める自由を持っています。
+      link-1: 参加しませんか。すべての採用を見る
+      link-2: Statusでの生活についてもっと知る
+    join-us:
+      title: 参加しませんか
+    quarterly-reports:
+      title: 'Status Network 四半期レポート'
+      description: 私たちが成し遂げたことをいち早く皆さんに共有します。
+  snt:
+    intro:
+      title: 'Status Network Token'
+      description: SNTは、Statusネットワークを強くし<br>参加するインセンティブを与えます。
+      link-1: 基礎知識
+      link-2: SNTを使う
+      link-3: 研究
+      link-4: 参加する
+    the-basics:
+      title: 基礎知識
+      inner-1:
+        title: ERC-20トークン
+        description: SNTは、Statusネットワークとアプリで提供される分散型サービスにアクセスし動力として使用されるERC-20トークンです。
+        link: すべてのSNTユースケースを見る
+      inner-2:
+        title: オープンソース
+        description: 'Statusは完全なオープンソースプロジェクトで、誰もが自分のニーズに合わせてコードやトークンを利用できます。Statusは Messari Disclosures Registry によって検証されています。'
+        link: 'Messari Disclosures Registry'
+      inner-3:
+        title: ステークホルダーとしてのユーザ
+        description: SNTを用いて、ステークホルダーとしてのユーザのネットワークを構築し、ネットワークとそのソフトウェアのあり方がユーザの利益とマッチするようにします。
+        link: ホワイトペーパーを見る
+      inner-4:
+        title: 研究
+        description: コントリビュータは、Statusネットワークの長期的な健全性を確保するため、暗号エコノミクスモデルとピアツーピア技術に関する研究を行っています。
+        link: 研究についてもっと詳しく知る
+    using-snt:
+      title: SNTを使う
+      description: SNTは、特定のアプリケーション機能を強化し、オープンソースの分散型エコノミーを設計するために必要とされています。SNTが使われる以下のユースケースをさらに掘り下げて、暗号エコノミクスの研究とネットワーク全体でのバリューフローについて詳しく学びましょう。
+      teller-network:
+        title: テラーネットワーク
+        status: 開発中
+        description: あるコミュニティでは、ボーダーレスでピアツーピア、フィアットトゥクリプト（法定通貨と暗号資産の交換）の「テラーネットワーク」のDAppを提供しました。ステークホルダーが近くのユーザを見つけて現金をデジタル資産やアセットに交換することを可能にします。SNTは、このネットワーク内で売り手となるために必要になります。
+      network-incentivization:
+        title: ネットワークインセンティブ設計
+        status: 研究中
+        description: 'Statusノードを人々が デプロイして使用するためのフレームワークとインセンティブ構造を設計します。仮にStatusがホストするすべてのノードがダウンしてもアプリが動作し続けることを保証できるよう、ノードを実行するネットワーク参加者に報酬とインセンティブを与えるためにSNTが使用されます。これには、メッセージの転送やオフラインメッセージに対する支払いが含まれます。'
+      ens-user-name:
+        title: ENSユーザ名
+        status: Live
+        description: 'ENSアドレスはユーザ名のようなものです。Jenny.eth という名前は個人アカウントを指すことができ、他の人がトークンを送信したり、Statusチャットで見つけることができます。ENSアドレスは、Statusチャット、ウォレット、ブラウザで検索することができます。<br><br> stateofus.ethのENS名の登録には10 SNTの費用がかかります。一度名前を登録すると、SNTは1年間のレジストリ契約にロックされます。'
+        link: ENSを登録する
+      sticker-market:
+        title: ステッカーマーケット
+        status: Live
+        description: ステッカーは、ユーザが友達や家族と視覚的に楽しく交流する方法を提供します。Status内のステッカーマーケットでは、誰でも自分のデザインを作成して世界中のユーザに販売することができ、Statusのチャット内でステッカーの使用を始めることができます。<br><br>SNTはステッカーマーケットでステッカーを購入するために使われます。
+      tribute-to-talk:
+        title: トリビュートトーク
+        status: 開発中
+        description: トリビュートトークでは、経済学に基づいたスパム対策フィルタを導入します。ここでは、ユーザからメッセージを受信したり、突然の連絡リクエストを受けることを想定しています。これによりステークホルダーは、ネットワーク外の誰かが直接連絡を取るにあたり必要なSNT最低額を設定することができます。
+      dao-governance:
+        title: DAOとガバナンス
+        status: 研究中
+        description: 'Status Network Tokenの核となるのは、ソフトウェアの開発方針についてステークホルダーがその決定権を持つことです。SNTは、どのような利害関係者であれ提案に関する意思決定を行うために使用されます。決定事項単位で、トークンはまた別の投票用のトークンとして使われます。保有しているトークンの数量があなたの投票パワーということになり、投票には実際のSNTのコストはかかりません。'
+      dapp-curation:
+        title: DAppキュレーション
+        status: Live
+        description: Dap.psは、ネットワークの関係者が他のコミュニティメンバーによってキュレーションされたDAppsを発見するための方法を提供します。また、カテゴリや評価でナビゲートする方法を提供し、ユーザが探しているものを正確に見つけられるようにします。ディレクトリ内のキュレーションとシグナリングにはSNTが必要です。DAppの注目度を高めたいDApp開発者は、SNTのデポジットが必要となります。
+        link: DAppsをブラウズする
+      voting-dapp:
+        title: 投票DApp
+        status: Live
+        description: 'Status Voting DApp は、コミュニティガバナンスへの第一歩として利害関係者がネットワークの将来に影響を与えることを可能にします。Voting DAppでは、誰でもSNTによるコミュニティ投票を設定することができます。Quadratic Votingを活用して、ウォレット内のSNTの量によって投票できる数量が決まります。'
+        link: 投票DAppをチェックする
+      acquisition-engine:
+        title: 獲得エンジン
+        status: 研究中
+        description: '私たちのミッション達成に求められることは、究極的にはただ1つ、エンドユーザに幅広く使われることです。Status Network Token を使用することで、Web 2.0で試行錯誤されてきた成長のためのメカニズムを設計することができ、一方で、より高い透明性と、参加者にとってのインセンティブをより良く調整する機能を提供することができます。Status獲得エンジンは、暗号論的に証明可能で、ユーザベースを成長させる透明性の高い手段を提供します。'
+    crypto-research:
+      title: 暗号エコノミクスの研究
+      description-1: '世界中のコミュニティコントリビュータが、製品や機能の開発、そしてStatus Networkにおけるインセンティブ向上に役立つ情報を提供するため、SNTのユースケースとなる暗号エコノミクスモデルの研究を行っています。<br><br>この暗号エコノミクスモデルはいままさに進行中の研究であり、誰もが研究を探求し、批評し、レビューすることを奨励されています。'
+      link-1: ' #status に参加する'
+      description-2: 公開チャンネルに参加して、研究についてもっと学びましょう
+      link-2: ディスカッションに参加する
+    learn-more:
+      title: もっと詳しく
+      description: SNTのユースケースの多くは研究開発段階にあります。公開ディスカッションに参加したり、FAQを読んでSNTのユースケースやトークンエコノミクスについて詳しく学びましょう。
+      link: '#status に参加する'
+    create-your-snt:
+      title: 独自のSNT金融モデルを構築する
+      description: ワークブックで紹介されている経済モデルを試してみたい方を私たちは歓迎します。研究者、エコノミストの方、また単純に金融モデルに興味のある方は、ぜひ参加してみてください。
+      link: SNTのトークンモデルをテストする
+  get:
+    mobile:
+      title: モバイル
+      description: 'プライベートメッセージング、セキュアな暗号資産、Web3 DAppブラウジングをあなたのポケットに。'
+    desktop:
+      title: デスクトップ
+      description: デスクトップベータ版で、プライベートでセキュアなコミュニケーションを試してみてください。
+    download: Statusをダウンロード
+  docs:
+    stripe:
+      title: 'Status Developers'
+    title: Statusのドキュメントへようこそ！
+    description: StatusでDAppを実行したり、当社の技術について調べたり、Statusの組織について学んだり構築を手伝ったりすることができます。
+    categories:
+      technical-documentation:
+        title: コントリビュータガイド
+        description: 分散型エコシステムに参加する
+      developer-tools:
+        title: DApp統合センター
+        description: StatusでDAppを実行する
+      build-status:
+        title: Statusをビルドする
+        description: モバイルおよびデスクトップ
+      research:
+        title: 研究テーマ
+        description: 分散型の未来を構築する
+      team:
+        title: 私たちのチーム
+        description: Statusに参加する
+      audits:
+        title: 外部監査
+        description: 外部技術監査
+      keycard:
+        title: 'Keycard API'
+        description: セキュア、非接触、オープンソースのハードウォレット
+    pinned-repositories:
+      title: 'Pinned リポジトリ'
+      status-react:
+        title: status-react
+        description: 無料でオープンソースのイーサリアムモバイルOS
+      status-go:
+        title: status-go
+        description: go-ethereumに基づいたStatusモジュール。
+      specs:
+        title: 仕様
+        description: Statusクライアントの仕様
+    help:
+      title: サポートが必要ですか？
+      description: コードでも質問でも、いつでもお気軽にお問い合わせください。
+      link-1: バグを報告
+      link-2: コミュニティチャット
+      link-3: 私たちとチャット
+      link-4: redditで質問
+    update:
+      title: 最新アップデート
+    index:
+      intro:
+        title: 'Status Developers'
+        teaser-1: 'Statusの開発者ポータルへようこそ。オリジナルのDApps構築や、<a href=''https://dap.ps''>dap.ps</a>へのDApp登録、あるいはStatusへの貢献をスタートすることも、ここにはThe Status Networkのすべてのプロジェクトで活動を始めるために必要なものがあります。'
+      box-link-1:
+        title: コントリビュータガイド
+        text: Statusは、誰もが自由に共有し、変更し、役立てることができるフリーでオープンソースのソフトウェアを構築しています。<br><br>あらゆるバックグラウンド、スキルレベル、興味を持つコミュニティメンバーが、Statusの公式リリースに貢献しています。Statusをビルドする方法を学んだり、報奨金をクリアして暗号資産を獲得したり、バグを修正したり、自分が必要なものを構築したりすることができます。
+        cta: 始めよう
+      box-link-2:
+        title: DApp統合センター
+        text: 'Statusは、プライベートでセキュアなWeb3ブラウザと、分散型アプリのエコシステムへのアクセスがあります。<br><br>DApp統合センターは、StatusでDappsを最適に利用するためのステップバイステップのガイドです。これには、モバイルファーストへのベストプラクティス、セキュリティとプライバシーの要件、Status API の活用、dap.ps への申請方法などが含まれます。'
+        cta: 始めよう
+      box-link-3:
+        title: チュートリアル
+        text: "The Status NetworkプロジェクトとStatusでビルドして貢献する方法を学びましょう。<br><br>\n\nDAppsをビルドする、ハードウェアセキュリティと統合する、NimbusやVacでセットアップする。コアコントリビュータとコミュニティが作成したチュートリアルで学びましょう。\n\n探しているものが見つからない場合は、自身で作成して他の人に役立てましょう。"
+        cta: すべてのチュートリアルを見る
+        text-1: 'WebAssembly / eWasm – 何か、なぜ必要か？'
+        description-1: Embarkチュートリアルの概要
+        text-2: DAppフロントエンドセキュリティ
+        description-2: Embarkチュートリアルの概要
+    dev-tools:
+      title: 'The Status Network で構築'
+      keycard:
+        title: Keycard
+        subtitle: セキュア、非接触、オープンソースのハードウォレット
+        description: Keycardでハードウェアセキュリティをあなたのプロジェクトに統合する
+      embark:
+        title: Embark
+        subtitle: DApps構築とデプロイのためのオールインワン開発プラットフォーム
+        description: Embarkで分散型アプリを開発してデプロイする
+      nimbus:
+        title: Nimbus
+        subtitle: '軽量Ethereum 2.0クライアントの研究と実装'
+        description: 'Nimbusで軽量Ethereum 2.0クライアントを研究する'
+      vac:
+        title: Vac
+        subtitle: セキュアなピアツーピアメッセージングスタック
+        description: Vacでプライベート、セキュア、検閲耐性のあるコミュニケーションを
+    support: '探しているものが見つかりませんか？コミュニティフォーラムの <a href=''https://discuss.status.im/tags/faq''>Discuss</a> をチェックしてください。'
+  footer:
+    title: Statusを始めよう！<br>
+    product:
+      title: プロダクト
+      apps: アプリを取得する
+      nightly: ナイトリービルド
+    status:
+      title: Status
+      jobs: 採用情報
+      white-paper: ホワイトペーパー
+      media-kit: メディアキット
+      analytics: アナリティクス
+      open_positions: 採用
+    documentation:
+      title: ドキュメント
+    status-network:
+      title: 'Status Network'
+      embark: Embark
+      nimbus: Nimbus
+      keycard: Keycard
+      vac: Vac
+      dap-ps: Dap.ps
+      subspace: Subspace
+      teller: Teller
+      assemble: Assemble
+    connect: Statusとつながる
+    privacy-policy:
+      title: プライバシーポリシー
+      description: 'Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland'
+    site-analytics: アナリティクスに関して
+    messari: 'Messari Transparency Verified'
+  landing-page-v1:
+    intro:
+      private-messaging:
+        title: 真にプライベートなメッセージング
+        description: 中央サーバを使わずに、完全に暗号化されたメッセージを送受信します。
+      secure-wallet:
+        title: 暗号資産ウォレット
+        description: ETHも、SNTも、他の暗号資産も安全に保管します
+      web3-browser:
+        title: 分散型Web3ブラウザ
+        description: 分散型アプリのエコシステムを一挙にまとめてご紹介します。
+    invite:
+      title: '私たちの公開チャンネル <a href=''https://join.status.im/chat/public/%s'' target=''_blank''>#%s</a> に参加して、SNTの獲得方法を学びましょう'
+      prize:
+        option-1: 'stateofus.eth のENS名を取得する'
+        option-2: ステッカーを購入する
+        option-3: 'dap.ps でお気に入りのDAppsに投票する'
+        option-4: Statusコミュニティガバナンスの提案に参加する
+  nightly:
+    title-1: Statusナイトリービルド
+    title-2: じゃじゃ馬につきご注意を！
+    updated: 更新
+    description-1: '警告：ナイトリービルドは開発テストのためのものであり、バグやその他の問題が含まれている可能性があります。代わりに <a href=''https://status.im/get/''>安定版リリース</a> のご利用を検討ください。'
+    description-2: こちらのビルドをダウンロードしてインストールする際は、お客様はご自身のデータと資産に関するリスクについて全責任を負うものとします。Statusは、本ビルドにおける資産の安全性や完全性を断言できません。Statusは、ナイトリーにおいては別のシードフレーズを使用することを推奨します。
+    description-3: 困ったときは
+    faq: よくある質問
+    mobile: モバイル
+  keycard-integration:
+    intro:
+      title: Statusエクスペリエンスにハードウェアセキュリティを
+      description: '非接触で便利に使えるコールドストレージのハードウェアウォレット Keycard で資産とアカウントを守ろう。Androidのみ。'
+      button: 'Keycardを購入 29€'
+    about:
+      title: Keycardとは？
+      description: Keycardは、プライベートキーを完全にオフラインで保管し、資産の安全性を高めるために設計されたコールドストレージのハードウェアウォレットです。<br><br>NFCテクノロジーとクレジットカードのようなデザインを採用し、シームレスで非接触の体験を提供します。サードパーティの暗号化ウォレット、DApps、ハードウェアと統合するためのオープンAPIを搭載しています。
+      button-1: もっと詳しく
+      button-2: 'Keycardを購入 29€'
+    secure:
+      title: KeycardでStatusをセキュアに
+      security:
+        title: 資産とトランザクションにより強固なセキュリティを
+        description: Keycardに秘密鍵をオフラインで保存すると、トランザクションにハードウェアによる認証を追加できます。スマートフォンを盗まれたとしても、資産は安全に保たれます。
+        send: トランザクションの送信
+        confirmed: 送信トランザクションを承認しました
+      account:
+        title: アカウントへのアクセスを保護する
+        description: 'セキュリティを強化し、Statusアカウントにログインするための二要素認証として Keycard + PIN の入力が必要になります。'
+        confirmed: ログイン成功
+    boxes:
+      box-1:
+        title: 自律と自信
+        description: Statusは、通信や取引を行うにあたり銀行などの第三者を介在しません。そうした介在を取り除くことで、人々は自分自身と資産の管理に責任を負うことになります。Kecyardは、第三者の存在なしに安心して運用できるセキュリティを提供します。
+      box-2:
+        title: モバイルファーストのデザイン
+        description: 非接触型のNFCテクノロジーと洗練された親しみやすいデザインを採用したKeycardは、クレジットカードの利便性とハードウェアウォレットの安全性を兼ね備えています。
+      box-3:
+        title: お手頃な価格
+        description: Keycardはわずか29ユーロで、高価な価格設定をすることなく、強力なハードウェアセキュリティを保証します。
+        link: 'Keycardを購入 29€'
+    faq:
+      title: 質問はありますか？
+      button: もっと詳しく
+  keycard:
+    intro:
+      title: 'Status x Keycard でプライベート＆セキュアな通信'
+      description: Statusは、プライベートメッセンジャー、安全な暗号資産ウォレット、Web3ブラウザです。Keycardは、ハードウェアセキュリティを追加します。Keycardでできることの詳細については、以下をご覧ください。
+      button: よくある質問
+    security:
+      title: 資産とトランザクションにより強固なセキュリティを
+      description: Keycardに秘密鍵をオフラインで保存すると、トランザクションにハードウェアによる認証を追加できます。スマートフォンを盗まれたとしても、資産は安全に保たれます。
+      send: トランザクションの送信
+      confirmed: 送信トランザクションを承認しました
+    account:
+      title: アカウントを保護する
+      description: 'セキュリティを強化し、Statusアカウントにログインするための二要素認証として Keycard + PIN の入力が必要になります。'
+      confirmed: ログインに成功しました
+    faq:
+      title: 質問はありますか？
+      button: よくある質問をご覧ください
+  faq:
+    title: よくある質問
+    description: 'Statusに関して、よくある質問や基本的な使い方を紹介します。<br>わからないことがあれば、<a href=''https://discuss.status.im/'' target=''_blank''>こちら</a>のコミュニティのディスカッションフォーラムで質問してください。'
+    general:
+      title: 一般
+      q1:
+        question: Statusとは何ですか？
+        answer: Statusはプライベートでセキュアなコミュニケーションツールです。それにより人権を守り、独立したコミュニティを支援することを目的としています。
+      q2:
+        question: Statusの背後にいるのは誰ですか？
+        answer: 'StatusはStatus Networkによって構築されています。<a href=''https://statusnetwork.com/'' target=''_blank''>Status Network</a>は、耐久性があり、持続可能で、包括的なコミュニティのための製品、ツール、インフラストラクチャを構築しています。Status とその主要貢献者についての詳細は、<a href=''https://status.im/about/'' target=''_blank''>こちら</a>をご覧ください。'
+      q3:
+        question: Statusを使うメリットは？
+        answer: 過去20年以上に渡って、私たちが知るインターネットは、データを収集して販売する少数の営利企業によって支配されてきました。Statusはこの代替案を提供します。Statusはプライベートで安全な通信を提供するために最先端の技術を使用しています。Statusはピアツーピアモデルを使用しており、外部の第三者がユーザのデータを収集することを防ぎます。Statusは、メッセンジャー、暗号資産ウォレット、Web3ブラウザを組み合わせ、あなただけが自分の資産とコミュニケーションを管理する仕組みを提供します。
+      q4:
+        question: なぜメッセンジャーなのですか？
+        answer: 独立したコミュニティが自由に活動するには、検閲がなく、プライベートで安全なコミュニケーションが必要です。メッセージングは、モバイルと相性が良く、イーサリアムでの活用を望まれるものの1つとして強く期待されています。これにより、決済ネットワークやその他の分散型アプリをより多くのコミュニティが利用できるようにする道が開かれます。<br><br>究極的には、Statusはメッセンジャー以上の機能を持っています。暗号資産とウォレットを組み合わせ、Web3ブラウザを介して分散型アプリの世界にアクセスすることで、広い意味でのコミュニケーションツールとなっています。
+      q5:
+        question: Statusと他のメッセージアプリとの違いは何ですか？
+        answer: 'ほとんどのメッセンジャーは、エンドツーエンドの暗号化を提供しています。この標準的な保護は、サービス提供会社があなたのメッセージの内容を読むことができないことを意味します。しかし、ネットワーク上の情報は公開されており、誰がどこから誰に向けて話しているのかを解読することができます。従来のメッセンジャーでは、登録する際に電話番号のような個人情報が必要となります。Statusでは、個人情報は一切必要ありません。ピアツーピアのインフラストラクチャのため、Statusは誰が誰と連絡を取っているのか、またメッセージの内容について把握できません。<a href=''https://github.com/status-im/specs'' target=''_blank''>こちら</a>では、どのような技術で機能しているかの仕様を見ることができます。'
+      q6:
+        question: 政府がStatusの通信をブロックまたは検閲しようとするとどうなりますか？
+        answer: 'Statusメッセンジャーは、通信をブロックできてしまうような1箇所のサーバでの運用をしていません。Status では履歴ノードを分散ネットワークで構成しており、これにより、ネットワークの耐久性を確保しています。1つの履歴ノードが停止した場合は、別の履歴ノードに接続したり、<a href=''https://discuss.status.im/t/get-your-node-running/1488/4?u=hester'' target=''_blank''>自分の履歴ノードを起動する</a>こともできます。しかしながら、ネットワーク内のStatusや履歴ノードは、依然としてインターネット接続があることを前提としています。インターネットが通信事業者によって全面的にシャットダウンされた場合、Status を使用することができなくなります。'
+      q7:
+        question: Statusはどのようにブロックチェーンに接続しますか？
+        answer: 'Statusにはイーサリアムネットワークに接続する go-ethereum がパッケージ化されています。イーサリアムに接続するために必要なことは、Statusアプリを実行するだけです！ウォレットとブラウザだけがイーサリアムブロックチェーンとやり取りすることに注意してください。メッセージはブロックチェーンには保存されません。'
+      q8:
+        question: '自分でまたはサーバ上で go-ethereum を実行できますか？'
+        answer: 'リソースが制限されたデバイスでもライトノードが動作するようにすることを目指しています。これにより、スマートフォンやIoTデバイスから直接イーサリアムに接続できるようになり、サーバは不要になります。さらに重要なのは、ネットワーク全体の利便性と耐久性を高めることになります。詳しくは、<a href=''https://nimbus.team/'' target=''_blank''>https://nimbus.team/</a>をご覧ください。<br><br>今すぐ go-ethereum を実行したい場合は、Linuxデバイス上にノードを設定し、このノードに接続するようにStatusアプリを設定することができます。詳細は<a href=''https://discuss.status.im/t/get-your-node-running/'' target=''_blank''>こちら</a>をご覧ください。'
+      q9:
+        question: どのデバイスでStatusを使用できますか？
+        answer: 'StatusはAndroid 7+、iOS 13+で動作確認済みです。'
+      q10:
+        question: Statusはデスクトップ版もリリースしますか？
+        answer: 今のところはありません。私たちのコードベースは、Statusがモバイルデバイスとデスクトップデバイスのどちらでも実行できるように設計されています。チームがモバイルアプリや他のインフラプロジェクトに集中している間、Statusデスクトップの開発は現在休止されています。
+      q11:
+        question: どの言語でアプリが利用可能ですか？
+        answer: 'Statusは現在、14の言語で利用可能です - 英語、Français、 Italiano、 简体中文、繁體中文、한국어、اُردُو、русский! Türkçe、Español、タガログ語、Bahasa Indonesia、Deutsch、Português do Brasil <br><br>誰でもStatusの翻訳に貢献できます。タイプミスや誤訳を発見した場合、あるいは自国の言語を表示してほしい場合は、<a href=''https://translate.status.im/'' target=''_blank''>translate.status.im</a>までご連絡ください。'
+      q12:
+        question: アプリは無料で使用できますか？
+        answer: 'もちろんです。Statusの主要な機能を利用するのに支払いは一切必要ありません。Statusを最大限に活用するためには、ETH（イーサリアム）とSNT（Status Network Token）という暗号資産を保有しておくと便利です。特定の機能では、SNTを使用する必要があります。<br><br>SNTを取得するには、すでに所有している暗号資産をDEX等のDAppで両替するか、法定通貨を使える取引所でETHとSNTを購入します。'
+      q13:
+        question: 手数料はかかりますか？
+        answer: Statusでは隠れた手数料というのはありません。あなたが暗号資産ウォレットを使用してトランザクションを行うときは、ネットワーク手数料がコストとして表示されます。このネットワーク手数料は「ガス」と呼ばれるもので、イーサリアムネットワークで求められるものであり、トランザクションを容易にするためにすべてのイーサリアムウォレットやアプリでまったく同じ方法で使われています。Statusはこの手数料にまったく上乗せをしていません。
+      q14:
+        question: プロジェクトに貢献したいのですが、どこから始めたらいいですか？
+        answer: 'Statusはオープンソースプロジェクトであり、技術的なものも非技術的なものも含めて、すべての貢献を歓迎します。<a href=''https://ambassador.status.im/'' target=''_blank''>アンバサダーページ</a>は、スタートするのに最適な場所です。このページでは、あなたが次世代のWebについてプロモーションや教育、貢献をするためのサポートをしてくれるアクティブなコントリビューターと連絡を取ることができます。<br><br>開発者の方で実際に手を動かしたくない方は、DApp開発ドキュメントに目を向けてみてください。モバイル開発者で機能的な言語が好きならば、自身でStatusを構築してPRを提出し始めましょう。'
+      q15:
+        question: 機能をリクエストするにはどうすればよいですか？
+        answer: 'Status はオープンソースでコミュニティ主導のプロジェクトですので、機能をリクエストしたり開発に貢献したりすることができます。<a href=''https://join.status.im/status'' target=''_blank''>#status</a> またはディスカッションフォーラム（<a href=''https://discuss.status.im/'' target=''_blank''>https://discuss.status.im/</a>）であなたの意見を共有してください。また、<a href=''https://github.com/status-im'' target=''_blank''>Github issue</a>を開くことも歓迎します。<br><br>開発者の方は、<a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''>コントリビューターガイド</a>を参照してください。'
+      q16:
+        question: SNTとは何ですか？それはアプリでどのように機能しますか？
+        answer: 'SNT は Status Network Token の頭文字をとったものです。StatusのERC20（イーサリアム標準）トークンで、Status Network を動かす原動力として使用されます。特定の機能を利用するには、SNTをデポジットしたり、支払ったりする必要があります。トークンがより実用的であることで、SNTの価値は高まり、プロジェクトが長期的に継続することに繋がるため、それがStatus Networkの第一の目標となっています。'
+    keys-and-accounts:
+      title: 鍵とアカウント
+      q1:
+        question: 鍵とは何ですか？
+        answer: '鍵はアイデンティティの一形態であり、Statusとイーサリアムのバックボーンです。鍵は常に公開鍵と秘密鍵のペアで成っています。Statusを使い始めると最初のペアが生成されますが、これがマスターキーのペアと考えることができます。その後、この最初のペアを元に、n-数 のキーペアを生成することができます。ID のキーチェーンのようなものを作成します。このキーチェーンのキーの一つがチャットキーです。チャットキーはプロフィール画面の共有アイコンで表示できます。'
+      q2:
+        question: アカウントとは何ですか？
+        answer: Statusのアカウントは銀行口座と比べることができます。各アカウントは独自のキーペアに基づいています。銀行口座と同様に、アカウントにはアドレス（口座番号）と残高があり、取引することが可能です。また、各アカウントには自分の取引履歴が記録されており、これは公開されています。プライバシーを守るため、複数のアカウントを使い分けることが有効です。アカウントは「ウォレット」タブで見ることができます。
+      q3:
+        question: 私のウォレットアドレスは何ですか？
+        answer: ウォレットアドレスは0xから始まる42文字です。これはあなたのイーサリアムアカウントのオンチェーンIDです。複数のアカウントを持っている場合は、複数のアドレスを持っていることになります。ウォレットアドレスは、「ウォレット」→「アカウントカード」→「受信」と進むか、アカウントカードの共有アイコンをタップすることで見ることができます。<br><br><i>ウォレットアドレスとチャットキーは似ているように見えますが同じではないことに注意してください。</i>
+      q4:
+        question: Statusではいくつのアカウントを作成できますか？
+        answer: 'アカウントは何個でも作成できます。ウォレット → アカウントの追加 で追加作成できます。ここで追加されたアカウントは、マスターキーのペアと一緒に、シードフレーズを使って復元することができます。<br><br>また、スタート画面の「あなたの鍵」→「鍵を生成」または「既存の鍵で復元する」を選択することで、より多くのマスターキーペアを作成することができます。'
+    profile-and-settings:
+      title: プロフィールと設定
+      q1:
+        question: ENS名とは何ですか？
+        answer: 'ENS名とは、Ethereum Name Service に登録された名前のことで、イーサリアムアドレスと読みやすい固有の名前（例：Alice）を結びつけるための登録簿です。ウェブドメインを登録するのと同じように、異なる識別子が付いてきます。Statusで名前を登録すると、alice.stateofus.eth という名前になります。ENS名を登録すると、Statusチャットでその名前を使うことができ、例えば Sneaky White Koala のようなランダムに生成された名前ではなく自分のENS名で表示することができます。これにより他の人があなたを見つけやすく認識しやすくなります。'
+      q2:
+        question: 'alice.eth と alice.stateofus.eth の違いは何ですか？'
+        answer: 'stateofus.eth のほうが安く取得できます。stateofus.eth は名前の取得時に 10 SNT をデポジットし、更新等もなく名前を使い続けることができます。気に入らなければ1年後に返金してもらうことも可能です。 .ethドメインは、現在（2020年1月）のETH換算で年間約5ドルの費用がかかります。Statusでは、stateofus.eth と .eth の両方の名前をチャットキーに紐付けて使用することができます。'
+      q3:
+        question: シードフレーズとは何ですか？
+        answer: Statusのシードフレーズは12個の単語で構成されています。これはあなたのチャットキーとウォレット内のアカウントキーの元になります。すべてのキーは、いくつかの暗号技術を使ってこの最初のシードから派生して作られています。スマートフォンを紛失するなどしてアカウントにアクセスできなくなった場合、シードフレーズを使ってキーにアクセスすることができます。
+      q4:
+        question: このシードフレーズをどうすればよいですか？
+        answer: 書き留めて大切に保管しましょう。シードフレーズを紙に書いて、ネットワークに繋がらない場所に保管するのが最も安全です。
+      q5:
+        question: スマートフォンを紛失した場合、どうすればアカウントにアクセスできますか？
+        answer: 別の機器からアカウントにアクセスするには、12単語のシードフレーズが必要です。このシードフレーズがあれば、マスターキーのペアとすべてのアカウントへのアクセスを復旧することができます。<br><br>イーサリアム上に存在するアカウントを復元することは可能ですが、過去のチャットや連絡先リストは復元アクセスされません。
+      q6:
+        question: 「シードフレーズのバックアップ」がグレー表示されるのはなぜですか？
+        answer: 一度シードフレーズをバックアップする手順を踏んだあとは「シードフレーズをバックアップ」の項目はグレーアウトされます。この時点で、二度とアプリ内でシードフレーズを表示することはできなくなります。このフレーズはスマートフォンのハードディスクからも削除され、あなた以外の誰もアクセスできなくなるようリスクを最小限に抑えます。
+      q7:
+        question: シードフレーズを紛失しました。どうすればよいですか？
+        answer: まず「プロフィール」→「プライバシーとセキュリティ」でシードフレーズのバックアップができなくなったかどうかを確認します。もし「シードフレーズをバックアップする」という項目がグレーアウトされている場合は、そのシードフレーズにアクセスできなくなっています。<br><br>最良の方法は、新たに別の鍵を生成して、資産をこの新しいアカウントに移すことです。まずStatusをサインアウトして「新しい鍵を生成」に進みます。画面の手順通りに進めて、完了したら「プロフィール」→「プライバシーとセキュリティ」→「シードフレーズをバックアップ」に進みます。このシードフレーズはネットワークの繋がらない場所で大切に保管してください。その後、ウォレット画面にある共有アイコンまたは受信をタップし、アドレスをコピーします。一度サインアウトします。<br><br>紛失した方の鍵を選択し、パスワードを入力してロック解除します。先ほどコピーしたアドレスに、ウォレットからすべての資産を送信します。
+      q8:
+        question: プロフィールを削除するにはどうすればよいですか？
+        answer: あなたのプロフィールはスマートフォンの中にのみ存在します。あなたが送信したメッセージは、30日間は履歴ノードに残ります。その後メッセージは存在しなくなります。ウォレットのアカウントを使用して行われたトランザクションは、ブロックチェーン上に残ります。
+      q9:
+        question: 何者かが私のスマートフォンにアクセスした場合、私のプロフィールのどの部分が暗号化され、何が暗号化されていませんか？
+        answer: あなたの秘密鍵は常に暗号化されており、パスワードまたはパスコードと組み合わせて取引を行う場合にのみ使用することができます。暗号化されていない情報は、3つの単語の名前、プロフィール写真、（Keycardを持っている場合は）Keycardの識別子です。
+      q10:
+        question: Statusでモバイルデータ使用量を抑えるにはどうすればよいですか？
+        answer: 'Statusを使うのは多くのデータ量がかかります。あまりに多くのデータを消費しないようにするには、Wifiに接続されているときだけStatusを使用するのが最善の方法です。プロフィール → 同期設定 →モバイルデータ で設定を調整することで、Statusがモバイルデータを使用しないようにすることができます。'
+    messenger:
+      title: メッセンジャー
+      q1:
+        question: 私のメッセージは本当にプライベートですか？
+        answer: 'もちろんです。Statusでは現在、イーサリアムスタックのメッセージングプロトコルであるWhisperを使用しており、Whisperは中央集権的なサーバやデータセンター、サービスプロバイダに依存しないピアツーピアのメッセージングを提供します。<br><br>すべてのメッセージはエンドツーエンドで暗号化され、ネットワーク内のすべてのデバイスに一定時間ブロードキャストされます。そのため、意図しない誰かがメッセージの内容を読むことができないだけでなく、誰が誰にメッセージを送っているのかを確認することもできません。 1:1のプライベートチャットでは、意図した相手だけが内容を解読することができます。公開チャットでは、公開チャット名を知っている人なら誰でもコンテンツを複合化できます。<br><br>追加の安全策として、ユーザ間での最初の鍵交換後にすべてのメッセージで新しい暗号化キーを使用します（Perfect Forward Secrecy）。メッセージキーが侵害された場合はその特定のキーのメッセージのみが侵害されます。過去のメッセージに渡ってアクセスすることはできません。<br><br>Whisperが提供するプライバシーでは、データ使用量が多くなってしまいます。それへの代替案については開発を進めています。<a href=''https://forum.vac.dev/t/waku-project-and-progress/24'' target=''_blank''>こちら</a>で進捗状況を確認できます。'
+      q2:
+        question: メッセージはどこに保存されていますか？ブロックチェーンですか？
+        answer: 'メッセージはブロックチェーン上には保存されず、送信するのに費用はかかりません。メッセージは履歴ノードに30日間保存され、Statusアプリでメッセージを受信するとスマートフォンにも保存されます。メッセージは、Whisperのトランスポートレイヤーである devp2p を通過しますが、イーサリアムVMを経由して転送されるわけではありません。'
+      q3:
+        question: メッセージを格納する履歴ノードは誰が管理しているのですか？
+        answer: 'Whisper はメッセージの保存と転送に特別な種類のイーサリアムノードを必要とします。Status は本番で使用されている Whisper の唯一のインスタンスです。そのため、Status はユーザーをサポートするために、これらの特別なノードの一式を提供しています。しかし、適切なハードウェアがあれば、誰でも履歴ノードを立てることができます。その方法については<a href=''https://discuss.status.im/t/get-your-node-running/1488/2'' target=''_blank''>こちら</a>を参照してください。'
+      q4:
+        question: Statusで名前を変更するにはどうすればよいですか？
+        answer: 'ユーザ名を追加したい場合は、ENSのユーザ名を登録します。プロフィール → ENS名 に移動します。既存の<a href=''https://docs.google.com/document/d/1NO7wBRQU-cxKvoxvUx0hCyCbyaoGfdlI6l-d1_9U4mI/edit#bookmark=id.zgy4mci21861'' target=''_blank''>ENS名</a>をStatusチャットキーに紐付けると、相手はこのユーザ名であなたを見つけることができます。また、3つの単語の名前の代わりに表示することもできます。'
+      q5:
+        question: 友達をStatusに招待するにはどうすればよいですか？
+        answer: '友達の招待は、プロフィールの共有と公開チャットへの招待の2つの方法があります。<br><br>プロフィールとチャットキーを共有するには、自分のプロフィール画面で右上の共有ボタンをクリックします。「リンクを共有」から生成されるリンクを友達に共有し、友達はそのリンク先の手順に従ってあなたのプロフィールを読み込みます。<br><br>公開チャットを共有するには、チャットを開き、右上の [...] メニューから「チャットを共有」を選択します。チャットへのリンクが生成され、友達はそこから公開チャットに参加することができます。'
+      q6:
+        question: 公開チャットに参加しましたがメッセージが表示されません。なぜですか？
+        answer: "公開チャットはラジオのチャンネルのようなものです。チャンネルを選択することはできますが、他の人がそのチャンネルで放送している場合のみメッセージを見ることができます。右上の [...] をクリックして、他の人とチャンネルを共有することで、自分の会話を始めたり、他の人を招待したりすることができます。\n例：<a href='https://get.status.im/chat/public/introductions' target='_blank'>https://get.status.im/chat/public/introductions</a>"
+      q7:
+        question: 新しい公開チャットを作成するにはどうすればよいですか？
+        answer: 'チャット画面の [+] ボタンをタップして「公開チャットに参加」し、チャット名を入力します。すでに作られた名前のものが存在しない場合は、自動的に新規の公開チャットが作成されます。<br><br>公開チャットは、#タグのようなものと考えることができます。同じ#を使ったメッセージの集合体です。'
+      q8:
+        question: Statusで1対1のチャットを開始するにはどうすればよいですか？
+        answer: 'チャット画面で [+] ボタンをタップし「新しいチャットを開始」をクリックします。もしその相手が近くにいるなら、相手のプロフィールからQRをスキャンします。<br><br>公開チャットにいる誰かと1対1でチャットをしたい場合は、相手の名前かアイコンをタップし「メッセージを送信」をタップします。'
+      q9:
+        question: どの履歴ノードを選ぶかは重要ですか？
+        answer: '地理的な距離が近い履歴ノードを選んだ方が、より早くメッセージを読み込んでくれます。履歴ノードの自動選択のデフォルト設定を維持することをお勧めします。 <br><br>自分が保有する履歴ノードや、自分が信頼できると思うデバイス上で動作する履歴ノードに接続したい場合は、履歴ノードを追加することができます。'
+    browser:
+      title: ブラウザ
+      q1:
+        question: このブラウザは他のブラウザとどう違うのですか？
+        answer: 'StatusはWeb3に対応したブラウザです。現行ブラウザと同じウェブサイトを開くだけでなく、Web3対応ブラウザでは分散型アプリ、つまり「DApps」を使うことができます。 <br><br>ほとんどの場合、DAppsはイーサリアムブロックチェーンを使用して情報を送受信し、支払いを処理します。Dappsでは、従来運営会社が独占的にデータと利益を保持していたリスクを、分散型ネットワークを用いて解消していきます。'
+      q2:
+        question: DAp.psとは何ですか？
+        answer: DAp.psは、イーサリアム用に構築されたDApp（分散型アプリ）のアプリストアで、最高のWeb3アプリを簡単に見つけることができます。アプリ開発者は無料でDAppを投稿したり、SNTをステークしてランキングを上げたりできます。ユーザは、SNTを使ってDAppをアップボート・ダウンボートで評価することができます。開発者のSNTステーク額が多いほど、DAppのダウンボートが影響しやすくなっています。
+      q3:
+        question: DAppに投票するにはどうすればよいですか？
+        answer: '<a href=''https://dap.ps'' target=''_blank''>https://dap.ps</a>にアクセスして、お気に入りのDAppにはUpvote（アップボート＝高評価）をタップします。使用するSNTの量を設定してアップボートします。DAppをダウンボートすると、すでに設定した量のSNTぶんが反映されます。DApp開発者がDap.psのランキングを上げるために投じた金額が多いほど、あなたがダウンボートするための金額は安くなります。これにより、資金力のあるDAppにランキング上位を独占されるリスクを減らし、DAppsでのあなたの投票が有効に働くようになります。<br><i>投票するにはSNTと少量のETHが必要なことに注意してください。</i>'
+      q4:
+        question: 'DApp のアクセス許可とは何ですか？'
+        answer: 'DAppは、あなたのウォレットアドレスやチャットキーを表示したり使用したりするための許可が必要になります。通常、DAppは「ウォレットを接続してください」と要求します。その際には、この要求を「拒否」または「許可」するポップアップが表示されます。ウォレットアドレスを接続する許可は、ウォレットにあるアカウントごとについて許可をすることになります。新しいアカウントで許可をすると、以前に接続されていたアカウントの許可は取り消されます。 <br><br>「プロフィール」→「プライバシーとセキュリティ」→「DAppのアクセス許可を設定」で、どのDAppがどのアカウントにアクセスできるかを確認し、必要に応じてこの許可を取り消すことができます。<br><br><i>DAppがあなたのアドレスを保存している場合は、Statusでは取り消すことができないことに注意してください。</i>'
+    wallet:
+      title: ウォレット
+      q1:
+        question: ウォレットはどれくらい安全ですか？
+        answer: 'StatusにはHDウォレットが含まれています。このウォレットで生成されたすべての鍵が暗号化され、お使いのスマートフォンの中に保存されます。これはあなた以外の誰もアクセスできません。さらにセキュリティを強化するため、<a href=''https://keycard.tech/'' target=''_blank''>Keycard</a>を購入して鍵を保存することができます。'
+      q2:
+        question: トランザクションに署名するとはどういう意味ですか？
+        answer: イーサリアム上での変更はすべてトランザクションとみなされます。情報はあるアドレスから別のアドレスに転送されます。この情報は資産であったり、契約であったりします。Statusを使ってトランザクションに署名することは、この取引を承認することを意味します。Statusでは署名を求められているのがどういった種類のトランザクションであるのかがわかりやすくなっています。
+      q3:
+        question: 署名フレーズとは何ですか？
+        answer: 署名フレーズはセキュリティ機能です。初めてStatusを利用したときに、ウォレットには3つの単語を組み合わせた固有の署名フレーズが表示されます。この署名フレーズは、あなたとアプリだけが知っています。あなたがトランザクションに署名をするたびに、アプリはこの署名フレーズを表示します。あなたがこの署名フレーズを認識していれば、署名が正しくStatusから求められていることを確実に知ることができ、署名しても安全であると判断できます。
+      q4:
+        question: Statusウォレットはどのアセットをサポートしていますか？
+        answer: ウォレットは現在、ETH、ERC20トークン（OMG、BNB、BAT、DAIなど）と、一部のERC721トークン（クリプトキティーやデジタルアートワークなど）をサポートしています。
+      q5:
+        question: すべてのトークンが表示されないのはなぜですか？
+        answer: '初期設定では、ウォレットにはETHとSNTのみが表示されます。その他のトークンを保持するアカウントをインポートした場合は、Statusでは自動的にこれらも表示されます。 <br><br>別のトークンを追加表示させるには、ウォレット概要画面の右上にある [...] ボタンから「アセットを管理する」をクリックします。'
+      q6:
+        question: ENSはStatusウォレットでどのように使われますか？
+        answer: 'ウォレット → 送信 → 受信者の選択 → 受信者アドレスの入力　の場面で、ENS名を入力して資産を送ることができます。ウォレットはそのENS名を自動的にウォレットアドレスに置き換えます。'
+      q7:
+        question: なぜネットワーク手数料を支払う必要があるのですか？
+        answer: ネットワーク手数料は「ガス」とも呼ばれ、イーサリアムブロックチェーン上でアクションを実行するための計算コストとして支払われます。これは分散型ネットワークでは標準的なルールです。ガスを支払わなければ、ユーザ間の送受信はもとより、イーサリアムブロックチェーンで何の変更を加えることもできません。Statusウォレットでは、トランザクションごとにネットワーク手数料を変更することができます。手数料が高いほど、取引の処理速度が向上します。
+      q8:
+        question: アセットを送信する方法とアドレスを教えてください。
+        answer: 'Statusウォレットでは、ETHとERC20トークン（OMG、BNB、BAT、DAIなど）を送信することができます。トークンを送信するには、ウォレット画面を開き、画面下部の送信アイコン [↗︎] をタップします。または、ウォレット → アカウントを選択 → 送信 <br><br>その後、金額を入力 → トークンを選択 → 送信元アカウントを選択 → 受信者を選択 <br><br>ETHやイーサリアムベースのトークンを受け取る側のウォレットは、アドレス形式で入力することになります。0xから始まるアドレスです。Statusウォレットは無効なアドレスを自動でチェックします。万全を期すために、トランザクションに署名する前に必ずアドレスを何度かチェックしましょう。'
+      q9:
+        question: アカウントを復元しましたがウォレットが1つしか表示されません。もっと作成していたのですが、資産がなくなってしまったのでしょうか？
+        answer: いいえ、なくなったわけではありません。Statusで追加のウォレットを作成し、後でアカウントを復元したのであれば、追加のウォレットを作成したのと同じ手順で手動で復元する必要があります。ウォレットから「アカウントの追加」→「アカウントの追加」となります。完全に新規のウォレットを生成するのではなく、追加したウォレットを順番に復元していくことで、あなたの資産がリカバリーされることになります。<br><br>将来的には、Statusのウォレットではすべてが自動的に復元されるようになります。
+      q10:
+        question: ウォレットはビットコインをサポートしていますか？
+        answer: いいえ、現在Statusはビットコインブロックチェーンをサポートしていません。アプリ内で利用できるのはイーサリアムとそこに構築されたアセットのみです。ビットコインは別のブロックチェーンであり、現在のところ両ネットワーク間で取引を行うことはできません。
+    keycard-general:
+      title: Keycardについて
+      q1:
+        question: Keycardとは何ですか？
+        answer: Keycardは、Statusアプリで使用できるハードウェアウォレットです。<br><br>Statusユーザの秘密鍵に、より高いレベルのセキュリティと所有権を提供します。Keycardはあなたの資産におけるコールドストレージであり、取引を行う際にはスマートフォンでタップ（6桁のパスコードの入力も）する必要があります。<br><br>そしてKeycardは、Statusへのアクセス（つまりチャットの利用）を保護するための二段階認証としても機能しています。鍵をロック解除してアプリを使用するには、カードをタップして6桁のパスコードを入力する必要があります。
+      q2:
+        question: KeycardはAndroidとiOSのStatusで利用できますか？
+        answer: Keycardは現在、AndroidでのみStatusで使用できます。Keycardチームは現在、iOSの統合に取り組んでいます。
+      q3:
+        question: Keycardの価格はいくらですか？
+        answer: Keycardは29ユーロで販売されており、こちらで購入することができます。
+      q4:
+        question: Keycardは他のウォレットでも使えますか？
+        answer: 'Statusは、Keycardと最初にインテグレートした製品です。開発者はこちらのオープンソースのKeycard APIを使って、Keycardを自社の製品に組み合わせることができます。'
+      q5:
+        question: Statusを使用するにはKeycardは必要ですか？
+        answer: いいえ。Statusを使用するのにKeycardは必須ではありません。Statusウォレットは第三者機関のセキュリティ会社によって監査されています。それ自体でも安全ですが、Keycardを使用することでさらに優れたレベルのハードウェアセキュリティを追加することができます。
+      q6:
+        question: Keycardをデビットカードやクレジットカードとして支払うことはできますか？
+        answer: 今のところ、Keycardはハードウェアウォレットとしてのみ使用することができます。これは、決済端末でStatusが実行されるオープンで包括的な分散型決済ネットワークの一部として、Keycardを使った物理的な決済を導入することが、我々のロードマップの一部となっています。
+      q7:
+        question: KeycardはLedgerやTrezorなどの他のハードウェアウォレットとどこが違いますか？
+        answer: Keycardはモバイルフレンドリーなハードウェアウォレットとなるようゼロから構築されています。NFC非接触技術を採用しており、カードをタップして6桁のパスコードを入力するだけで、スマートフォンと通信し取引を行うことができます。<br><br>Keycardには画面やキーボードがないため、費用対効果に優れています。Keycardのセキュリティレベルは、Statusのような信頼できるアプリケーションと一緒に使用することで、Leagerと同レベルになります。
+    keycard-security:
+      title: Keycardのセキュリティ
+      q1:
+        question: 'Keycardを紛失した場合はどうなりますか?'
+        answer: Keycardを紛失した場合、6桁のパスコードを知らなければ他の誰かに使用されることはありません。そして資産を復旧するためには、12単語のシードフレーズを使ってアカウントを復元する必要があります。<br><br>Statusはソーシャルリカバリーについて現在取り組んでおり、将来的には実装される予定です。これが実装されると、カードを紛失した場合に、仲間と連携してアカウントを復旧することが可能になります。
+      q2:
+        question: Keycardはどれくらい安全ですか？
+        answer: 'カードのセキュリティというのは、カードで使用されているアプレットソフトウェアに依存します。このアプレットはオープンソース（リンク）で、第三者のセキュリティ監査会社による監査を受けています。<br><br>ハードウェアの観点から見ると、Keycardは非常に高いレベルのハードウェア保護を備えたセキュアエレメントです。そのセキュリティ評価において CC EAL5+ の正式テストに合格しています。'
+    keycard-setup:
+      title: Keycardの設定
+      q1:
+        question: KeycardとStatusを使用するにはどうすればよいですか？
+        answer: 初めてStatusを始める方は、Statusをダウンロードして、初期セットアップ画面の流れに沿って、新しいアカウントを作成するか、シードフレーズを使用してアカウントをインポートするか（既存の鍵で復元する）を選択します。Keycardは、鍵をロック解除してStatusを使用したいときや、トランザクションに署名をしたいときなどに、Keycardにタップするよう求められます。
+      q2:
+        question: 6桁のパスコードとは何ですか？
+        answer: 6桁のパスコードは初期セットアップ画面で設定します。スマートフォンでカードをタップするたびに聞かれるため、このパスコードを覚えておく必要があります。
+      q3:
+        question: ペアリングコードとPUKコードとは何ですか？
+        answer: StatusとKeycardの初期セットアップ画面で、ペアリングコードとPUKコードが提供されます。この2つのデータは二度と表示されないため、必ずメモしておいてください。<br><br>Keycardを他のスマートフォンやStatus以外のアプリで使用したい場合に、ペアリングコードが必要になります。<br><br>6桁のパスコードを忘れた場合、リセットや変更する際にPUKコードが必要になります。
+      q4:
+        question: 'シードフレーズとは何ですか?'
+        answer: プロフィールと設定を参照してください。Keycardを紛失した場合、PUKコードを紛失した場合、またはスマートフォンと一緒にペアリングコードを紛失した場合、シードフレーズがあなたの資産にアクセスするための唯一の解決策となります。
+      q5:
+        question: すでにStatusのアカウントを持っており、Keycardで使用したいのですがどうすればよいですか？
+        answer: '新規にインストールから始めるには、Statusをアンインストールする必要があります。初期セットアップ画面で「既存の鍵で復元する」→「シードフレーズを入力」へと進み、シードフレーズを入力し、Keycardに保存します。これでアカウントは復旧完了し、秘密鍵とのやりとりはすべてKeycard で保護されるようになります。'
+    keycard-other:
+      title: Keycardのその他の質問
+      q1:
+        question: 1つのキーカードを所有していますが、複数のスマートフォンや複数のアプリケーションで同時に使用できますか？
+        answer: はい、できます。Keycardには1つのペアリングコードがあり、5つのセキュアチャンネルを同時に設定することができます。
+      q2:
+        question: 6桁のパスコードを忘れました。どうすればよいですか？
+        answer: パスコードを3回以上間違えると、パスコードをリセットして変更するため、PUKコードを入力するよう求められます。
+      q3:
+        question: PUKコードを紛失しました。どうすればよいですか？
+        answer: "6桁のパスコードを忘れ、PUKコードを紛失した場合は、最悪の場合、Keycardが使えなくなります。資産を復元するにはシードフレーズを使用して、Statusまたは別のウォレットで再度ウォレットを復元する必要があります。あなたがCLIに慣れている場合は、Keycard開発チームがKeycardの工場出荷時のリセットをお手伝いできるかもしれません。\n<a href='https://join.status.im/chat/public/status-keycard' target='_blank'>https://join.status.im/chat/public/status-keycard</a>"
+      q4:
+        question: ペアリングコードを紛失しました。どうすればよいですか？
+        answer: ペアリングコードを紛失した場合は、シードフレーズをメモしておく必要があります。ペアリングコードとシードフレーズがないと、スマートフォンを紛失した場合に資産へのアクセスができなくなる危険があります。
+      q5:
+        question: シードフレーズを紛失しました。どうすればよいですか？
+        answer: シードフレーズを紛失した場合、キーカードやPUKコード／ペアリングコードのいずれかを失くした際に復旧ができなくなり、ウォレット内のすべての資産を失う危険があります。すぐに新たな別のウォレットを作成し、現在のアカウントにある資産をそちらに移してください。
+    banner:
+      title: 質問がありますか？よくある質問をご覧ください
+      button: よくある質問
+  browser:
+    intro:
+      title: プライベートでセキュアなWeb3ブラウザ
+      description: Web3ブラウザで最新のDeFiアプリ、取引所、マーケットプレイス、ゲームなどにアクセスしよう。
+    defi:
+      title: DeFiで資産運用
+      description: 成長を続ける分散型金融サービス（DeFi）のエコシステムに、スマートフォンからアクセスできます。
+      button: DeFiアプリにアクセスする
+    games:
+      title: ゲームもマーケットプレイスも
+      description: お気に入りの分散型アプリをプレイする、コレクションする、売買する、を一つのブラウザで。
+      button: すべてのDAppを表示
+    community:
+      title: Dap.ps：コミュニティで作るdapp検索サービス
+      description: "Dap.psは分散型アプリのDAppストアです。サードパーティのDApp検索ソリューションで、公正にキュレーションされたDAppマーケットプレイスを目指しています。\nSNTとトークンエコノミクスを活用し、Dap.psは最新のDAppsを見つけやすくする方法を分散化します。"
+    submit:
+      title: あなたのDAppを世界に公開しませんか？
+      description: DApp統合センターでその手順に従ってください。
+      button: DApp統合センター
+  wallet:
+    intro:
+      title: スーパー暗号資産ウォレット
+      description: 安全で、管理者のいないStatusウォレットで、あなたの資金を自在に管理することができます。
+    funds:
+      title: あなたの資産はあなただけのもの
+      description: Statusウォレットには管理会社が存在しません。あなたの資産にアクセスできるのはあなただけです。銀行ではありません。我々Statusでさえもありません。ETH、SNT、DAI、コレクションなどの資産を、自分で好きなように送受信し保管することができます。
+    security:
+      title: セキュリティのための設計
+      description: 最新のセキュリティ基準、フィッシング防止メカニズム、オフラインで生成・保存された公開鍵と秘密鍵を使って資産を保護します。Statusウォレットならあなたの資産は安全であり続けます。
+      button: 仕様を見る
+    friends:
+      title: 友達と一緒にボーナスをもらう
+      description: お友達を紹介して、初回特典のボーナスを獲得しましょう。ボーナスは、友達がアカウントを作成すると、あなたと友達のウォレットに直接送られます。
+      button: 友達を紹介する
+    payments:
+      title: シンプルなペイメント
+      description: プライベートメッセンジャーとシームレスに統合され、世界中の誰とでも支払いを送受信できます。
+    dapps:
+      title: あなたの指先でDefiもそれ以外も
+      description: '統合されたウォレットとWeb3ブラウザを使って、広がり続けるWeb3 分散型アプリ（Dapps）の世界にアクセスしましょう。'
+      button: Dap.psにアクセスする
+    accounts:
+      title: 複数のウォレットアカウントでプライバシーを強化
+      description: Statusウォレットに複数のアカウントを作成します。分散型アプリへのアクセス、支払いの送信、資産の保管に、アカウントを使い分けられます。
+    keycard:
+      title: Keycardでハードウェアセキュリティを
+      description: Keycardは非接触型ハードウェアウォレットです。アカウントと資産に一段階上のセキュリティを追加しましょう。
+  account-creation:
+    intro:
+      title: 疑似匿名アカウント
+    usernames:
+      title: 3つの単語がデフォルトのユーザー名に
+      description: アカウントを作成する際、ランダム化プロセスにより「形容詞・形容詞・動物」の3つの単語が選択されます。これがStatusでのデフォルトのユーザー名となり、真の疑似匿名性が得られます。
+      button: Statusのユーザ名について詳しく学ぶ
+    key:
+      title: セキュアな鍵生成
+      description: アカウント作成時には、BIP39のニーモニックシードフレーズからBIP43の派生パスを経由してチャットとウォレットのキーペアが生成されます。秘密鍵にアクセスできるのは自分だけなので、大切に保管しておきましょう。
+      button: キー生成についてもっと詳しく
+    status:
+      title: ENSとStatesユーザー名
+      description: 'ENSはEthereum Name Serviceの略で、イーサリアムアドレスを任意のテキスト名に置き換えることができます。Statusでは「Profile」タブの中から「10 SNT」をデポジットすれば、誰でも stateofus.eth のユーザ名を登録することができます。<br><br>注意点としては、ENS名を登録するとウォレットアドレスがユーザ名に関連付けられ、アカウントのプライバシーが損なわれることがあります。'
+      button: Statusユーザー名を登録する
+    keycard:
+      title: Keycardでアカウントを保護する
+      description: Keycardを使って、Statusアカウントにオフラインでハードウェアによる二要素認証を追加します。アカウントのセキュリティを高めるため、カードのタップとピンコードの入力を求めます。
+      button: Keycardを購入
+  messenger:
+    intro:
+      title: プライバシーファーストのメッセンジャー
+      description: '1：1 のプライベートチャット、グループチャット、公開チャットを送信します。世界中の友達に簡単に支払いを送ることができます。ピアツーピア技術を使用して構築され、第三者から監視を防ぎます。'
+    message:
+      title: メッセージを思いどおりに
+      description: '1：1 のプライベートチャットやプライベートグループチャットで会話したり、公開グループに参加したりして、あなたの好きなコミュニティとつながることができます。'
+    payments:
+      title: シンプルなペイメント
+      description: 暗号資産ウォレットとシームレスに統合されたStatusなら、誰でも、どこでも、チャットで直接支払いを送ることができます。
+    stickers:
+      title: ステッカーを送る、作る、稼ぐ
+      description: 多彩なステッカーを送ろう。オリジナルのステッカーセットを作って、分散型ステッカーマーケットプレイスでSNTを獲得できます。
+      button: ステッカーセットを販売
+    idea:
+      title: 新機能のアイデアをお持ちですか？
+      description: あなたが足りないと感じる機能はありますか？ここで追加機能をリクエストしよう。
+      link: コミュニティフォーラム
+    benefits:
+      title: ベネフィット
+      benefit-1:
+        title: プライベート、匿名性
+        description: Statusアカウントを作成するのに、電話番号もメールアドレスも、銀行口座も必要ありません。
+      benefit-2:
+        title: 検閲耐性
+        description: 集中的な管理サーバをなくすことで、第三者の検閲からあなたのメッセージを守ります。
+      benefit-3:
+        title: 無料、オープンソース
+        description: Statusは、誰でも自由にレビューできる（FREE）オープンソース・ソフトウェアであると同時に、インストールが無料（FREE）の、2つのFREEを提供します。
+    p2p:
+      title: ピアツーピアメッセージング
+      description: Statusは、プライバシーとセキュリティをより高めるため、サーバ管理者のような集中的な位置付けを取り除きました。メッセージのやり取りに集中的な管理サーバを中継することなく、ピアツーピアネットワークを用いることで、あなたのコミュニケーションはあなただけのものになります。
+      button: 仕様を見る
+    encryption:
+      title: 'エンドツーエンド暗号化<br> をすべてのメッセージに'
+      description: エンドツーエンド暗号化（e2ee）を標準で使用することで、プライバシーが向上します。あなたと相手以外には誰もあなたのメッセージを見ることはできません。
+    protection:
+      title: メッセージは永久に守られます
+      description: Statusは、ダブルラチェットアルゴリズムの修正版を利用して完全な前方秘匿性を実現しています。現在の暗号化キーが何らかの形で漏洩した場合でも、過去と将来に渡ってメッセージを保護します。

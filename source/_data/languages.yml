@@ -16,6 +16,9 @@ cn:
 ko:
   short: ko
   long: 한국어
+ja:
+  short: ja
+  long: 日本語
 ru:
   short: ru
   long: Русский
@@ -31,6 +34,9 @@ it:
 tl:
   short: tl
   long: Tagalog
+ms:
+  short: ms
+  long: Melayu
 id:
   short: id
   long: Bahasa Indonesia

@@ -2,7 +2,7 @@ site:
   home:
     intro:
       title: 'Communication Privée et Sécurisée'
-      description: 'Le statut est un messager, de la crypto-monnaie et Web3 navigateur construit avec la pointe de la technologie.'
+      description: 'Status est une application de messagerie sécurisée, un portefeuille de crypto-monnaie et un navigateur Web3 construit avec une technologie de pointe.'
       news: Nouvelles
     about:
       open-source:
@@ -13,7 +13,7 @@ site:
         description: 'Status s''efforce d''être un outil de communication sécurisé qui défend les droits de la personne. Nous permettons l''argent communautaire, le droit communautaire et, par le biais de la vie privée, à préserver la culture.'
     decentralized:
       subtitle: 'Communication décentralisée'
-      title: 'Chattez, parcourez, effectuez des transactions selon vos conditions'
+      title: 'Chattez, parcourez et effectuez des transactions à vos conditions'
       description: 'Status combine un navigateur de messagerie, un portefeuille et un navigateur DApp décentralisés en un outil de communication puissant, privé et sécurisé.'
       link: 'Explorez toutes les fonctionnalités'
     private:
@@ -33,7 +33,7 @@ site:
       description: 'Status utilise une technologie de pointe pour garantir que vos messages et vos transactions sont les vôtres. Status supprime les intermédiaires pour protéger vos messages et sécuriser vos actifs. Communiquez en toute confiance.'
     status-network:
       title: 'Réseau Status'
-      description: 'Le réseau Status est un ensemble de projets et de personnes qui se consacrent à la création d''outils et d''infrastructures pour des communautés résilientes, durables et inclusives.'
+      description: 'Le réseau Status est un ensemble de projets qui se consacrent à la création de produits, d''outils et d''infrastructures pour des communautés résilientes, durables et inclusives. Conçus et crées pour la sécurité, l''égalité et la souveraineté des individus.'
       link: 'En savoir plus sur le réseau de Status'
   features:
     intro:
@@ -47,12 +47,11 @@ site:
         title: 'Chats publics, privés et de groupe'
         description: 'Rejoignez n''importe quel nombre de chaînes publiques ou envoyez des conversations privées 1:1 ou de groupe. Vous pouvez même envoyer et recevoir des paiements cryptos directement dans vos chats privés.'
         link: 'Rejoindre Status Public Channel'
-      feature-2:
-        title: 'Messagerie privée avec Waku'
-        learn-more: 'En savoir plus sur Waku'
       feature-3:
         title: 'Perfect Forward Secrecy - <br>E2E Cryptage'
         description: 'Status utilise l''algorithme «Double Ratchet» en plus de Whisper et un cryptage de bout en bout pour le plus haut niveau de sécurité et de confidentialité.'
+      feature-2:
+        learn-more: 'En savoir plus sur Waku'
     wallet:
       title: 'Intégré <br>Ethereum Portefeuille'
       feature-1:
@@ -61,7 +60,6 @@ site:
       feature-2:
         title: 'ERC20 et ERC721 Compatible'
         description: 'Assistance avec les jetons ERC20 et ERC721 sur le réseau Ethereum. Envoyez, stockez et recevez vos jetons en toute confiance dans Status. Ajoutez facilement des jetons ERC-20 à votre portefeuille.'
-        link: 'Rejoindre Status Wallet Public Channel'
       feature-3:
         title: 'Interagir avec des Pairs & DApps'
         description: 'Le portefeuille Status s''intègre au messager et au navigateur, ce qui vous permet d''interagir avec vos pairs et DApps. Toutes les transactions nécessitent la vérification d''une phrase de signature pour vous protéger contre les attaques de phishing.'
@@ -80,7 +78,7 @@ site:
         link: 'Optimiser et enregistrer votre Dapp'
     get:
       title: 'Obtenir Status'
-      description: 'Commencez à profiter de Status sur iOS et Android.'
+      description: 'Commencez à profiter de Status sur iOS, Android, MacOS, Windows et Linux.'
       link: 'Télécharger Apps'
   get-involved:
     index:
@@ -195,10 +193,9 @@ site:
         how-to-get-started:
           title: 'Comment commencer'
           link-1: 'Guide des membres de la communauté pour débutants'
-          link-1-description: 'Consultez ce guide créé par le membre de la communauté.'
           link-2: Glossaire
           link-2-description: 'Reportez-vous à ce document open source pour connaître les termes, définitions, ressources et concepts. N''hésitez pas à ajouter.'
-          link-3: 'FAQ''s'
+          link-3: FAQ
           link-3-description: 'Voici une liste continue de questions fréquemment posées par tous les membres de la communauté Status.'
         create:
           title: Créer
@@ -246,15 +243,12 @@ site:
         account-group-2:
           description: 'Un groupe de développeurs, fabricants, créateurs et passionnés passionnés basés en Corée du Sud.'
           occupation: Organisateur
-          name: 'Jinho Jang'
         account-group-3:
           description: 'Status en Español'
           occupation: Organisateur
-          name: 'Lalo Garza'
         account-group-4:
           description: 'Status en chinois'
           occupation: Organisateur
-          name: 'Steven Zhu'
         account-group-5:
           description: 'Quel est le sens de la vie?'
           occupation: Organisateur
@@ -267,9 +261,7 @@ site:
       title: 'Sécurisé par conception'
       description-1: 'Status se veut un outil de communication véritablement décentralisé - éliminant éventuellement toutes les tierces parties et minimisant les vecteurs d''attaque pour les acteurs malveillants.'
       description-2: 'Le véritable avantage de Web3 est la capacité de traiter et de communiquer selon nos propres conditions - sans intermédiaire. Pour pouvoir profiter de ce type de communication gratuite, nous devons être sûrs que nos messages, transactions, identités et fonds sont protégés. En savoir plus sur l''approche de la sécurité de Status ''ci-dessous.'
-    security-at-status: 
-      secure-inner-1:
-        title: 'Sécurisé <br>Messagerie'
+    security-at-status:
       secure-inner-2:
         title: 'Sécurité financière <br> Transactions'
         description: 'L''envoi, le stockage et la réception de crypto-devises ou de jetons dans le portefeuille d''état sont protégés des attaques. Les clés privées ne sont jamais exposées. Les transactions ne sont traitées que lorsqu''elles sont initiées et confirmées par le propriétaire des clés privées.'
@@ -280,8 +272,6 @@ site:
       content-1:
         title: 'Identité sécurisée'
         description: 'Votre identité dans Status commence par une paire de clés cryptographique générée localement, qui est ensuite protégée par un mot de passe. C''est tout ce qui est requis. L''utilisateur a ensuite la possibilité d''ajouter des informations à son profil pour définir son statut. En tout temps, l''utilisateur contrôle totalement ses informations et les personnes qui y ont accès. L''utilisateur final peut être aussi public ou privé s’il le souhaite.'
-      content-2:
-        link: 'En savoir plus sur Waku'
       content-3:
         title: 'Chiffrement de bout en bout par Défaut'
       content-4:
@@ -327,10 +317,10 @@ site:
         link: 'Voir le Guide des Meilleures Pratiques'
       content-12:
         title: 'Support de sécurité'
-        description: 'Nous sommes là pour vous aider. Si vous avez des questions ou des préoccupations au sujet de la sécurité, envoyez un courriel à %s ou communiquez avec nous par l''intermédiaire du canal public de sécurité Status %s.'
+        description: 'Nous sommes là pour vous aider. Si vous avez des questions ou des préoccupations au sujet de la sécurité, envoyez un courriel à %s ou communiquez avec nous sur la chaîne publique de sécurité Status %s.'
       content-13:
         title: 'Programme Bug Bounty'
-        description: 'Si vous êtes un chercheur en sécurité ou un développeur et que vous souhaitez signaler un problème, veuillez communiquer avec %s sur le Bug Bounty Program de Status. Nous avons également une campagne avec HackerOne, un bounty bug programme qui stimule les pirates à regarder les projets. Nous préparons activement notre campagne privée, et nous l''ouvrirons au public bientôt! Pour plus d''informations sur le Bug Bounty Programme, veuillez communiquer avec %s.'
+        description: 'Si vous êtes un chercheur en sécurité ou un développeur et que vous souhaitez signaler une vulnérabilité, veuillez contacter %s au sujet du Bug Bounty Program de Status. Nous avons également une campagne avec HackerOne, un bounty bug programme qui incitent les pirates à consulter les projets. Nous préparons activement notre campagne privée et nous l''ouvrirons bientôt au public !Pour plus d''informations sur le Bug Bounty Programme, veuillez contacter %s.'
     protect-yourself:
       title: Protégez-Vous
       description: 'Status est construit avec une technologie de pointe pour garantir la sécurité du produit. En matière de navigation sur Web3, vous avez le contrôle. Consultez notre liste des meilleures pratiques en matière de sécurité et prenez le contrôle.'
@@ -338,25 +328,27 @@ site:
       link-2: 'Rejoindre Status Security Channel'
   header:
     nav:
-      features:
-        link: "Aspects"
-        title: "Aspects"
       get-involved:
         title: 'S''impliquer'
         description: 'Status est un projet open source <br>réalisé par des gens du monde entier.'
       security: Sécurité
       docs:
-        title: Développeuses
+        title: Développeurs
         description: 'Tout ce dont vous avez besoin pour commencer à <br>développer avec Status'
-        link: Développeuses
+        link: Développeurs
         link-1: 'Intégration de la DApp'
         link-2: 'Guide du contributeur'
-        link-3: 'Tutoriels'
+        link-3: Tutoriels
         link-4: Sécurité
         link-5: Spécifications
       about: 'A propos'
       blog: Blog
       snt-utility: 'Utilité SNT'
+      features:
+        link-3: 'Messagerie Privée'
+        link-4: 'Création de compte'
+        link-5: 'Portefeuille Crypto sécurisé'
+        link-6: 'Navigateur Web3'
   link:
     get-status: 'Obtenir Status'
     get-involved: 'S''impliquer'
@@ -369,7 +361,6 @@ site:
     intro:
       title: 'La Mission'
       link-1: 'Nos principes'
-      link-2: 'Les essaims actifs'
       link-3: 'Contributeurs de base'
       description: 'Status s''efforce d''être un outil de communication sécurisé respectant les droits de l''homme. Nous favorisons l''argent de la communauté, le droit communautaire et, dans la vie privée, préservons la culture'
     principles:
@@ -452,11 +443,11 @@ site:
       description: 'Les SNT sont nécessaires pour alimenter certaines fonctionnalités de l''application et créer une économie open source et décentralisée. Explorez chacun des cas d''utilisation SNT ci-dessous pour en savoir plus sur la recherche cryptoéconomique et sur les flux de valeur sur le réseau.'
       teller-network:
         title: 'Réseau Teller'
-        status: 'En cours de développement'
+        status: Développé
         description: 'Conçu comme un DApp dans Status qui fournit un réseau de guichets automatiques sans frontière, d''égal à égal, permettant aux parties prenantes de trouver des utilisateurs à proximité pour échanger leur argent contre des actifs numériques et des devises. SNT est nécessaire pour devenir un vendeur sur le réseau.'
       network-incentivization:
         title: 'Incitation au réseau'
-        status: 'En recherche'
+        status: Recherche
         description: 'Créez une structure et une structure d''incitation pour que les utilisateurs déploient et utilisent les nœuds Status. SNT est utilisé pour inciter et récompenser les participants du réseau à exécuter un nœud afin de s''assurer que l''application continue de fonctionner si tous les nœuds du cluster hébergé par Status sont hors service. Cela inclut le paiement des messages transférés et des messages hors connexion.'
       ens-user-name:
         title: 'Nom d''utilisateur ENS'
@@ -465,15 +456,15 @@ site:
         link: 'Enregistrer un ENS'
       sticker-market:
         title: 'Marché des autocollants'
-        status: 'En cours de développement'
+        status: 'En direct'
         description: 'Les autocollants offrent aux utilisateurs un moyen amusant d’interagir visuellement avec leurs amis et leur famille. Le marché des autocollants dans Status permet à quiconque de créer et de vendre ses propres dessins à des utilisateurs du monde entier, et de commencer à utiliser des autocollants dans les discussions sur Status. <br> <br> SNT devra acheter des autocollants sur un marché organisé.'
       tribute-to-talk:
         title: 'Tribute to talk'
-        status: 'En cours de développement'
+        status: Développé
         description: 'Tribute to Talk introduira un filtre anti-spam basé sur des considérations économiques - dans ce cas, il permet de recevoir des messages et des demandes de contact «à froid» des utilisateurs. Cela permet aux parties prenantes de définir un montant minimum de SNT à déposer pour que quelqu''un de l''extérieur de leur réseau le contacte directement.'
       dao-governance:
         title: 'DAO et gouvernance'
-        status: 'En recherche'
+        status: Recherche
         description: 'Un élément essentiel du Status Network Token permet aux parties prenantes de choisir la direction dans laquelle le logiciel est développé. SNT est utilisé pour prendre des décisions sur les propositions, qui peuvent être faites par n''importe quel intervenant. Pour chaque décision, le jeton est cloné dans un jeton de décision séparé. La quantité de jetons que vous détenez à ce moment-là devient votre pouvoir de vote pour cette décision et il ne coûte pas de vote à SNT.'
       dapp-curation:
         title: 'Curation DApp'
@@ -487,17 +478,18 @@ site:
         link: 'Découvrez le DApp de vote'
       acquisition-engine:
         title: 'Moteur d''acquisition'
-        status: 'En recherche'
+        status: Recherche
         description: 'La réalisation de notre mission exige en fin de compte une chose : l''adoption généralisée par les utilisateurs finaux. Grâce au Status Network Token, nous pouvons concevoir des mécanismes de croissance qui ont fait leurs preuves sur le Web 2.0, tout en offrant une plus grande transparence et un meilleur alignement des incitations aux participants. Le moteur d''acquisition d''état fournit un moyen cryptographique prouvable et transparent d''élargir la base d''utilisateurs.'
     crypto-research:
       title: 'Recherche Cryptoéconomique'
-      description-1: 'L''équipe de Status mène des recherches sur les modèles crypto-économiques pour chaque cas d''utilisation SNT afin d''éclairer le développement des produits et des caractéristiques ainsi que l''incitation au Réseau Status. <br><br>Ces modèles cryptoéconomiques sont un effort de recherche continu et nous encourageons quiconque à explorer, critiquer et réviser le travail.'
-      link-1: 'Rejoindre #token-economics'
+      description-1: 'L''équipe de Status mène des recherches sur les modèles crypto-économiques pour chaque cas d''utilisation SNT afin d''éclairer le développement des produits et des caractéristiques ainsi que l''incitation au Réseau Status. <br><br>Ces modèles cryptoéconomiques sont un effort de recherche continu et nous encourageons quiconque à explorer, critiquer et réviser le travail. <br><br>Les modèles aident à projeter la valeur d''une caractéristique d''un service public SNT et son impact sur les valeurs des services publics combinés du réseau d''état en fonction de l''utilisation, du taux de croissance, de l''approvisionnement snt et de la circulation. '
+      link-1: 'Rejoindre Status'
       description-2: 'Joignez-vous à la chaîne publique et en savoir plus sur la recherche'
+      link-2: 'Participez à la discussion'
     learn-more:
       title: 'En Savoir Plus'
       description: 'Un grand nombre des cas d''utilisation du SNT sont en cours de recherche et développement. Participez aux discussions publiques ou lisez les FAQ de SNT pour en savoir plus sur les cas d''utilisation de SNT et la recherche économique sur les jetons.'
-      link: 'Rejoindre #token-economics'
+      link: 'Rejoindre #status'
     create-your-snt:
       title: 'Créez votre propre modèle financier SNT'
       description: 'Nous encourageons tout le monde à s''impliquer et à tester les modèles économiques décrits dans les cahiers de consultation. Si vous êtes chercheur, économiste ou simplement curieux de connaître les modèles financiers, n''hésitez pas à vous impliquer.'
@@ -505,20 +497,14 @@ site:
   get:
     mobile:
       title: Mobile
-      description: 'Discutez, effectuez des transactions et accédez à un monde révolutionnaire de DApps. Installez Status dans l''application et Google Playstore et dites bonjour sur la chaîne publique #introductions.'
-      apk-file: 'Fichier APK ici'
-      link-1: 'Application pour iOS'
-      link-2: 'Application pour Android'
+      description: 'Messagerie privée, transactions cryptées sécurisées, navigation Web3 DApp dans votre poche.'
     desktop:
-      title: 'Mac, Windows ou Linux'
-      description: 'Téléchargez et installez la dernière version Desktop alpha et démarrez la messagerie à partir de votre lieu de travail.'
-      link-1: 'Application pour macOS'
-      link-2: 'Application pour Linux'
-      link-3: 'Application pour Windows'
-      announcement: 'C''est un logiciel alpha et peut contenir des vulnérabilités. <br> Attendez-vous à des changements.'
+      title: Bureau
+      description: 'Testez le Bureau Beta pour une communication privée et sécurisée à partir de votre lieu de travail.'
+    download: "Télécharger le statut pour Android \n\nPour télécharger Status Network dans votre smartphone Android c'est très simple il suffit de vous rendre dans votre Google Play Store ensuite télécharger Status Network. Puis vous allez créer votre compte une fois le téléchargement fini et vous aurez droit directment à un espace des conversations sur plusieurs sujets qui sont considerer comme forum chez de discussion chez Status Network"
   docs:
     stripe:
-      title: 'Status Developers'
+      title: 'Status Développeurs'
     title: 'Bienvenue dans la documentation Status!'
     description: 'Exécutez votre DApp sur Status, explorez notre technologie, découvrez notre organisation ou aidez à construire Status :'
     categories:
@@ -565,14 +551,14 @@ site:
       title: 'Récemment mis à jour'
     index:
       intro:
-        title: 'Portail des développeurs'
-        teaser-1: 'Bienvenue sur le portail de Status pour développeurs. Trouvez tout ce dont vous avez besoin pour commencer à contribuer à Status, créer vos propres DApp ou enregistrer votre dapp dans'
+        title: 'Status Développeurs'
+        teaser-1: 'Bienvenue sur le portail de Status pour développeurs. Trouvez tout ce dont vous avez besoin pour commencer à contribuer à Status, créer vos propres DApp ou enregistrer votre <a href=''https://dap.ps''>dap.ps</a> et travailler avec l''un des projets du réseau Status.'
       box-link-1:
         title: 'Guide des contributeurs'
         text: 'Status développe des logiciels libres et open source à partager et à modifier et dont tous peuvent bénéficier.<br>&nbsp;<br>Les membres de la communauté de toute origine, niveau de compétence et intérêts contribuent aux versions officielles de Status. Apprenez à construire Status, à gagner des cryptos en complétant des bounties, à corriger des bogues ou à construire ce dont vous avez besoin.'
       box-link-2:
         title: 'Centre d''intégration DApp'
-        text: 'Status comprend un navigateur Web3 privé et sécurisé et un accès à un écosystème en croissance d''applications décentralisé<br>&nbsp;<br>Le centre d''intégration Dapp est un guide pour optimiser les dapps à utiliser dans Status. Cela inclut les meilleures pratiques en matière de téléphonie mobile, les exigences de sécurité et de confidentialité, l''utilisation de l''API Status et la façon de soumettre une requête à dap.ps.'
+        text: 'Status comprend un navigateur Web3 privé et sécurisé et un accès à un écosystème en croissance d''applications décentralisées.<br>&nbsp;<br>Le centre d''intégration Dapp est un guide pour optimiser les dapps à utiliser dans Status. Cela inclut les meilleures pratiques en matière de téléphonie mobile, les exigences de sécurité et de confidentialité, l''utilisation de l''API Status et la façon de soumettre une requête à dap.ps.'
   footer:
     title: 'Prêt à démarrer <br> avec Status ?'
     product:
@@ -620,10 +606,6 @@ site:
         option-2: 'Acheter des packs d''autocollants'
         option-3: 'Voter pour vos dapps préférés dans dap.ps'
         option-4: 'Participer aux propositions de gouvernance communautaire de Status'
-  nft-nyc:
-    invite:
-      prize:
-        option-4: 'Participer aux propositions de gouvernance communautaire de Status'
   nightly:
     title-1: 'Versions nocturnes de Status'
     title-2: 'Méfiez-vous des dragons!'
@@ -633,3 +615,105 @@ site:
     description-3: 'Consultez notre'
     faq: 'FAQ générale'
     mobile: Mobile
+  keycard-integration:
+    faq:
+      title: 'Avez-vous des questions ?'
+  keycard:
+    faq:
+      title: 'Avez-vous des questions ?'
+  faq:
+    general:
+      q15:
+        answer: 'Étant donné que Status est un projet open source axé sur la communauté, vous pouvez à la fois demander et contribuer au développement de fonctionnalités. Partagez vos réflexions sur la chaîne publique <a href=''https://join.status.im/status'' target=''_blank''> #status </a> ou sur notre forum de discussion: <a href=''https://discuss.status.im/'' target=''_blank''> https://discuss.status.im/ </a> . Vous pouvez également ouvrir un <a href=''https://github.com/status-im'' target=''_blank''> problème Github </a> . <br> <br> Si vous êtes développeur, suivez notre <a href=''https://dev.status.im/technical/contributor_guide.html'' target=''_blank''> guide du contributeur </a> pour obtenir impliqué.'
+    browser:
+      q3:
+        answer: 'Accédez à <a href=''https://dap.ps'' target=''_blank''> https://dap.ps </a> , trouvez votre DApp préféré et appuyez sur Upvote. Définissez la quantité de SNT que vous souhaitez utiliser et appuyez sur «vote favorable». Lorsque vous votez contre un DApp, le montant est déjà fixé. Plus les développeurs DApp investissent pour augmenter leur classement, moins il vous sera avantageux de voter. Cela réduit le risque que des DApps bien financés prennent le relais et que votre vote sur l''utilité des DApps compte. <br> <i> Notez que le vote nécessite SNT ainsi qu''une petite quantité d''ETH pour payer la transaction. </i>'
+    banner:
+      title: 'Vous avez des questions ? Consultez notre section FAQ'
+      button: 'Foire aux questions'
+  wallet:
+    intro:
+      title: 'Un super portefeuille crypto'
+      description: 'Avec le portefeuille de Status sécurisé et non dépositaire, vous contrôlez totalement vos fonds.'
+    funds:
+      title: 'Prenez le contrôle de vos fonds'
+      description: 'Le portefeuille de statut est entièrement non dépositaire - vous seul avez accès à vos fonds. Pas des banques. Pas même Status. Envoyez, recevez et stockez ETH, SNT, DAI, objets de collection et autres actifs ethereum selon vos conditions.'
+    security:
+      title: 'Conçu pour la sécurité'
+      description: 'Protégez vos fonds avec les dernières normes de sécurité, les mécanismes anti-hameçonnage et les clés publiques et privées générées et stockées localement. Faites confiance à vos actifs avec le Status Wallet.'
+      button: 'Voir les spécifications'
+    friends:
+      title: 'Gagnez avec vos amis'
+      description: 'Parrainez un ami et vous serez récompensé avec le Crypto Starter Pack. Des jetons sont envoyés directement dans votre portefeuille et celui de votre ami lorsqu''ils créent un compte.'
+      button: 'Parrainer un ami'
+    payments:
+      title: 'Des paiements simples et sans frontières'
+      description: 'Parfaitement intégré à la messagerie privée, envoyez et recevez des paiements à n''importe qui et n''importe où dans le monde.'
+    dapps:
+      title: 'Defi & autres à votre disposition'
+      description: 'Accédez à l''univers en émergence des dapps web3 et intéragissez avec celui-ci avec le portefeuille intégré et le navigateur Web3.'
+      button: 'Explorez Dap.ps'
+    accounts:
+      title: 'Comptes à portefeuilles multiples pour une plus grande confidentialité'
+      description: 'Créez plusieurs comptes dans votre portefeuille Status. Sélectionnez un compte pour interagir avec les DApps, envoyer des paiements et stocker des fonds.'
+    keycard:
+      title: 'Sécurité matérielle avec Keycard'
+      description: 'Ajoutez une couche de sécurité à votre compte et à vos fonds avec Keycard, le portefeuille matériel sans contact.'
+  account-creation:
+    intro:
+      title: 'Création de compte pseudo-anonyme'
+    usernames:
+      title: 'Noms d''utilisateur en trois mots par défaut et confidentialité'
+      description: 'Lors de la création d''un compte, un processus de randomisation sélectionne trois mots - Adjectif, adjectif, animal. Cela devient votre nom d''utilisateur par défaut dans Status et entraîne un véritable pseudo-anonymat.'
+      button: 'En savoir plus sur les noms d''utilisateur de Status'
+    key:
+      title: 'Génération de clé sécurisée'
+      description: 'Au cours du processus de création de compte, une paire de clés de chat et de portefeuille sera générée à partir d''un canal BIP43 dérivé d''une phrase mnémonique BIP39. Vous seul avez accès aux clés privées, gardez-les donc en sécurité.'
+      button: 'En savoir plus sur la génération de clés'
+    status:
+      title: 'Noms d''utilisateurs avec ENS de notre Status'
+      description: 'ENS signifie Ethereum Name Service et permet aux adresses Ethereum d''être remplacées par des noms personnalisés sous un format de texte. Toute personne peut enregistrer un nom d''utilisateur stateofus.eth en donnant 10 SNT dans l''onglet Profil. <br> <br> Il est important de noter que lorsque vous enregistrez un nom ENS avec une adresse de portefeuille existante, cette adresse est désormais associée au nom d''utilisateur, réduisant la confidentialité de ce compte.'
+      button: 'Enregistrer nom d''utilisateur sur notre Status'
+    keycard:
+      title: 'Protégez votre compte avec Keycard'
+      description: 'Ajoutez une authentification à deux facteurs, hors ligne et appliquée sur du hardware, à votre compte Status avec Keycard. Exigez la saisie d''une carte et d''un code PIN pour plus de sécurité pour votre compte.'
+      button: 'Obtenez une Keycard'
+  messenger:
+    intro:
+      title: 'Une messagerie axée sur la confidentialité'
+      description: 'Envoyez des messages individuels, de groupe et publiques de manière privée. Payez facilement vos amis dans le monde entier. Construit avec la technologie pair à pair pour supprimer la surveillance par des tiers.'
+    message:
+      title: 'Envoyez des messages à vos conditions'
+      description: 'Commencez des discussions individuelles privées, des discussions de groupe privées et rejoignez ou créez des chaînes publiques pour vous connecter à votre communauté.'
+    payments:
+      title: 'Des paiements simples et sans frontières'
+      description: 'Intégré de manière transparente au portefeuille crypté, Status permet à n''importe qui, n''importe où, d''envoyer des paiements internationaux directement dans un chat'
+    stickers:
+      title: 'Envoyez, créez et gagnez avec des autocollants'
+      description: 'Envoyez des autocollants expressifs sans les intermédiaires. Créez même vos propres packs et gagnez des SNT sur le marché décentralisé des autocollants'
+      button: 'Soumettre le pack'
+    idea:
+      title: 'Vous avez une idée pour une nouvelle fonctionnalité?'
+      description: 'Il manque quelque chose à votre expérience? Créez une demande de fonctionnalité dans notre'
+      link: 'Forum communautaire'
+    benefits:
+      title: Avantages
+      benefit-1:
+        title: 'Privé et pseudonyme'
+        description: 'Aucun numéro de téléphone, adresse e-mail ou compte bancaire requis lors de la création de votre compte Status gratuit.'
+      benefit-2:
+        title: 'Résistant à la censure'
+        description: 'La suppression des points d''étranglement centralisés protège vos messages de la censure de tiers.'
+      benefit-3:
+        title: 'Gratuit et Open Source'
+        description: 'Status est à la fois un logiciel open source gratuit (libre) révisable par n''importe qui et gratuit (sans frais) à installer.'
+    p2p:
+      title: 'Messagerie pair à pair'
+      description: 'Status supprime les goulots d''étranglement centralisés de vos messages pour plus de confidentialité et de sécurité. Grâce à l''utilisation d''un réseau pair à pair au lieu de serveurs centralisés pour le routage des messages, votre communication vous appartient exclusivement.'
+      button: 'Voir les spécifications'
+    encryption:
+      title: 'Chiffrement de bout en bout<br> par défaut'
+      description: 'Une meilleure protection de la confidentialité grâce au chiffrement de bout en bout (E2EE) par défaut de tous vos messages privés. Personne d''autre que vous et votre destinataire ne peut consulter vos messages, pas même Status.'
+    protection:
+      title: 'Protégez vos messages anciens et nouveaux'
+      description: 'Status s''appuie sur une version modifiée de l''algorithme à double cliquet pour une confidentialité persistante parfaite. Protégez vos  messages anciens et nouveaux au cas où vos clés de chiffrement actuelles seraient compromises.'

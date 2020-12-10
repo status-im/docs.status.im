@@ -386,6 +386,94 @@ $(document).ready(function($) {
 
   }
 
+  // Partner campaign landing page start
+  if (document.title === 'Status - Partner Campaign Template' || document.title === 'Status - criptomaniacos') {
+
+    let width =  w;
+
+    const statusLogoMobile = {
+      "position": "absolute",
+      "left": "50%",
+      "transform": "translate(-50%)"
+    }
+
+    const statusLogoDesktop = {
+      "position": "",
+      "left": "",
+      "transform": ""
+    }
+
+    const partnerHeroDesktop = {
+      "width": "65%",
+      "padding-left": "45px",
+      "padding-bottom": "50px",
+      "height": ""
+    }
+
+    const partnerHeroMobile = {
+      "height": "400px",
+      "width": "",
+      "padding-left": "",
+      "padding-bottom": ""
+    }
+
+    const partnerPhone = {
+      "margin": "100px auto 0 auto",
+      "height": "400px"
+    }
+
+    const partnerPhoneMobile = {
+      "margin-top": "30px",
+      "width": "300px",
+      "height": "350px"
+    }
+
+    $('footer').css("display", "none");
+    $('.splide__arrow').css("display", "none");
+    $('.splide__pagination').css("bottom", "-3rem");
+    $('.splide__pagination__page.is-active').css("background", "#ccc");
+    $('.partner-phone img').css(partnerPhone);
+    $('.partner-phone-mobile img').css(partnerPhoneMobile);
+
+    if (w < 768) {
+      $('.logo img').css(statusLogoMobile);
+      $('header').css("margin-top", "5px");
+      $('.partner-hero-image img').css(partnerHeroMobile);
+      $('.image-slider').show();
+      $('.desktop-tiles').hide();
+      $('.partner-cta-mobile').show();
+      $('.desktop-features').hide();
+    } else {
+      $('.logo img').css(statusLogoDesktop);
+      $('.partner-hero-image img').css(partnerHeroDesktop);
+      $('.image-slider').hide();
+      $('.desktop-tiles').show();
+      $('.partner-cta-mobile').hide();
+      $('.desktop-features').show();
+    }
+
+    window.addEventListener("resize", function(event) {
+      width = document.body.clientWidth;
+      if (width < 768) {
+        $('.logo img').css(statusLogoMobile);
+        $('.partner-hero-image img').css(partnerHeroMobile);
+        $('header').css("margin-top", "5px");
+        $('.image-slider').show();
+        $('.desktop-tiles').hide();
+        $('.partner-cta-mobile').show();
+        $('.desktop-features').hide();
+      } else {
+        $('.logo img').css(statusLogoDesktop);
+        $('.partner-hero-image img').css(partnerHeroDesktop);
+        $('.image-slider').hide();
+        $('.desktop-tiles').show();
+        $('.partner-cta-mobile').hide();
+        $('.desktop-features').show();
+      }
+    })
+  }
+  // Partner campaign landing page end
+
   if($('.js-right-sub-navigation').length){
     $('.js-editor-content h1, .js-editor-content h2, .js-editor-content h3').each(function (index, element) {
       var id = $(this).attr('id');

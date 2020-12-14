@@ -15,10 +15,10 @@ layout: landingpage
       1. Download the app and join our community. We'd love to see you there. 
     </p>
     <p>
-      2. We're an Open Source project, so you can check out our repositories and [contribute code here](https://github.com/status-im). Look for the label: "[good first issue](https://github.com/status-im/status-react/labels/good%20first%20issue)" to get started.
+      2. We're an Open Source project, so you can check out our repositories and <a href="https://github.com/status-im">contribute code here</a>. Look for the label: <a href="https://github.com/status-im/status-react/labels/good%20first%20issue" >"good first issue"</a> to get started.
     </p>
     <p>
-      3. Complete one of our [bounties listed on gitcoin](https://gitcoin.co/explorer?network=mainnet&idx_status=open&keywords=status.im&order_by=-web3_created).
+      3. Complete one of our <a href="https://gitcoin.co/explorer?network=mainnet&idx_status=open&keywords=status.im&order_by=-web3_created">bounties listed on gitcoin</a>
     </p>
     <p>
       4. Occasionally we look to hire core contributors to join us on a full/part time basis. Use the navigation to the left to find out more.

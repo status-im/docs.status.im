@@ -17,3 +17,7 @@ hexo.extend.tag.register('note', function(args, content) {
 
   return result;
 }, true);
+
+hexo.extend.tag.register('get_build_url', function(args, content) {
+  return hexo.extend.helper.store.get_build_url.call(this, args[0], args[1]);
+});

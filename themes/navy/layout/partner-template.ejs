@@ -1,0 +1,256 @@
+<!-- The main content area -->
+<main role="main" class="overflow-hidden">
+
+	<!--START-HOME-INTRO-->
+	<section class="pt-16 xl:pt-0">
+		<div class="max-w-screen-2xl mx-auto xl:px-12">
+			<div class="grid md:grid-cols-2">
+				<div class="relative px-8 md:pr-32 self-center">
+					<span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+          <p class="font-display text-18 md-max:text-14 md:mt-8 text-6xl font-medium md-max:mt-16 md-max:text-center md-max:text-3xl leading-normal">Own your money <br/> with Status<p>
+            <p class="font-display text-18 md-max:text-14 mt-8 md-max:text-center md:w-11/12 xl:w-3/4 2xl:w-2/3" style="color: #444444;">Private messaging, secure crypto wallet, and DeFi all in your pocket.</p>
+					<div class="flex items-center -ml-12 mt-12 md-max:justify-center md-max:px-2">
+						<a href="<%- get_build_url('official', 'APPSTORE') %>" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+						<a href="<%- get_build_url('official', 'PLAYSTORE') %>" class="ml-8 app-download"><%- image_tag("/img/google-play.svg") %></a>
+						<a href="<%- get_build_url('official', 'DIRECT_APK') %>" class="ml-8 app-download"><%- image_tag("/img/apk.svg") %></a>
+					</div>
+					<div class="flex md-max:justify-center pt-24 md-max:pt-20 pb-12">
+            <%- image_tag("/img/criptomaniacos-logo.svg", { srcset: '/img/criptomaniacos-logo.svg'}) %>
+          </div>
+          <p class="font-display text-18 md-max:text-14 md-max:text-center lg:w-3/4">Join the channel <a href="https://join.status.im/criptomaniacos" class="font-bold">#criptomaniacos</a> for exclusive content, tips, and the ability to chat with your favorite creators.</p>
+				</div>
+				<div class="bg-black relative mt-48 md:mt-0">
+					<span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+					<div class="partner-hero-image md:-ml-32 -mt-32 md:mt-0 mx-auto flex justify-center items-center md:block md:pt-20">
+						<%- image_tag("/img/criptomaniacos.png", { srcset: '/img/criptomaniacos.png'}) %>
+					</div>
+				</div>
+			</div>
+		</div>
+  </section>
+  <!--END-HOME-INTRO-->
+
+	<div class="my-20">
+    <div class="max-w-screen-2xl mx-auto xl:px-12">
+      <div class="grid md:grid-cols-2">
+        <div class="relative px-8 md:pr-32 self-center">
+          <h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl md-max:text-center md:mb-20">
+            What is Status?
+          </h3>
+        </div>
+      </div>
+    </div>
+
+	  <div class="max-w-screen-xl mx-auto px-8 lg:px-12">
+      <!--START-DESKTOP-FEATURES-->
+      <div class="desktop-features">
+        <div class="grid grid-cols-4 gap-16 mt-12 mb-48">
+          <div class="font-display">
+            <img class="mx-auto" style="height: 430px;" src="/img/private-messenger.png">
+            <h4 class="font-medium mt-12 text-center text-18">Private Messenger</h4>
+            <div class="mt-8 text-center text-16" style="color: #444444;">
+              End-to-end encrypted & built on a censorship-resistant peer-to-peer network
+            </div>
+          </div>
+          <div class="font-display">
+            <img class="mx-auto" style="height: 430px;" src="/img/crypto-wallet-new.png">
+            <h4 class="font-medium mt-12 text-center text-18">Crypto Wallet</h4>
+            <div class="mt-8 text-center text-16" style="color: #444444;">
+              Secure, non-custodial wallet seamlessly integrated in the messenger and browser
+            </div>
+          </div>
+          <div class="font-display">
+            <img class="mx-auto" style="height: 430px;" src="/img/web3-browser.png">
+            <h4 class="font-medium mt-12 text-center text-18">Web3 Browser</h4>
+            <div class="mt-8 text-center text-16" style="color: #444444;">
+              Access the world of DApps and DeFi right from your phone.
+            </div>
+          </div>
+          <div class="font-display">
+            <img class="mx-auto" style="height: 430px;" src="/img/social-feed.png">
+            <h4 class="font-medium mt-12 text-center text-18">Social Feed</h4>
+            <div class="mt-8 text-center text-16" style="color: #444444;">
+              Share to the world what’s on your mind.
+            </div>
+          </div>
+        </div>
+        <!--END-DESKTOP-FEATURES-->
+		</div>
+  </div>
+
+  <!--START-MOBILE-CAROUSEL-->
+  <div class="image-slider splide mt-12">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide font-display">
+          <img class="mx-auto" style="height: 400px;" src="/img/private-messenger.png">
+          <h4 class="font-medium text-center mt-12">Private Messenger</h4>
+          <div class="text-center mt-8 px-12">
+            End-to-end encrypted & built on a censorship-resistant peer-to-peer network
+          </div>
+        </li>
+        <li class="splide__slide font-display">
+          <img class="mx-auto" style="height: 400px;" src="/img/crypto-wallet-new.png">
+          <h4 class="font-medium text-center mt-12">Crypto Wallet</h4>
+          <div class="text-center mt-8 px-12">
+            Secure, non-custodial wallet seamlessly integrated in the messenger and browser
+          </div>
+        </li>
+        <li class="splide__slide font-display">
+          <img class="mx-auto" style="height: 400px;" src="/img/web3-browser.png">
+          <h4 class="font-medium text-center mt-12">Web3 Browser</h4>
+          <div class="text-center mt-8 px-12">
+            Access the world of DApps and DeFi right from your phone
+          </div>
+        </li>
+        <li class="splide__slide font-display">
+          <img class="mx-auto" style="height: 400px;" src="/img/social-feed.png">
+          <h4 class="font-medium text-center mt-12">Social Feed</h4>
+          <div class="text-center mt-8 px-12">
+            Share to the world what’s on your mind
+          </div>
+        </li>
+        <li class="splide__slide font-display">
+          <img class="mx-auto" style="height: 374px;" src="/img/private-account-creation.png">
+          <h4 class="font-medium text-center mt-20">Private Account Creation</h4>
+          <div class="text-center mt-8 px-12">
+            No phone number. No email. No bank account. We care about your privacy
+          </div>
+        </li>
+        <li class="splide__slide font-display">
+          <img class="mx-auto relative" style="width: 330px; top: 50px;" src="/img/global-payments.png">
+          <h4 class="font-medium text-center mt-56">Global Payments</h4>
+          <div class="text-center mt-8 px-12">
+            send money to your family and friends all across the world, instantly
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--END-MOBILE-CAROUSEL-->
+
+  <!--START-DESKTOP-TILES-->
+  <div class="desktop-tiles">
+    <section>
+      <div class="max-w-screen-2xl mx-auto lg:px-12">
+        <div class="grid md:grid-cols-2">
+          <!--START-PRIVATE-ACCOUNT-CREATION-->
+          <div class="bg-black relative">
+            <span class="bg-black w-screen absolute -z-1 right-0 h-full"></span>
+            <div class="h-full py-32 md:pr-16 md:pl-16">
+              <div class="row">
+                <div class="col-md-11 col-lg-10">
+                  <%- image_tag("/img/private-account-creation.svg", { width: '75%'}) %>
+                  <h3 class="font-display text-white text-4xl xl:text-5xl 2xl:text-6xl mt-12">Private Account Creation</h3>
+                  <p class="text-18 font-normal font-display text-white mt-6">No phone number. No email. No bank account. <br> We care about your privacy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END-PRIVATE-ACCOUNT-CREATION-->
+  
+          <!--START-GLOBAL-PAYMENTS-->
+          <div class="bg-blue-gray-light relative md:-mt-16">
+            <span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
+            <div class="h-full flex flex-col space-between px-8 2xl:pl-32 lg:pl-24 md:pl-16 py-32 items-center md:pr-8 text-white">
+              <div class="pb-12">
+                <h3 class="font-display text-black text-4xl xl:text-5xl 2xl:text-6xl mt-4">Global Payments</h3>
+                <p class="text-18 font-normal font-display mt-6 text-gray-300">Chat and send money to your family and friends all across the world, instantly.</p>
+              </div>
+              <div class="mt-12 md:-mb-32 pl-20">
+                <%- image_tag("/img/wallet-payments.png", { srcset: '/img/wallet-payments-2x.png 2x'}) %>
+              </div>
+            </div>
+          </div>
+          <!--END-GLOBAL-PAYMENTS-->
+          
+        </div>
+      </div>
+    </section>
+    <!--END-HOME-DECENTRALIZED-PRIVATE-->
+    <!--HOME-WALLET-BROWSER-->
+    <section>
+      <div class="max-w-screen-2xl mx-auto lg:px-12">
+        <div class="grid md:grid-cols-2">
+          <!--START-CTA-->
+          <div class="relative md:-mb-16 order-2 md:order-none" style="background-color:#4360DF;height: 500px;">
+            <span class="w-screen absolute -z-1 right-0 h-full" style="background-color:#4360DF"></span>
+            <div class="h-full xl:w-2/3 flex flex-col space-between py-32 md:pr-16 md:pl-16 text-white">
+              <div class="mt-12">
+                <h3 class="font-display text-4xl xl:text-5xl 2xl:text-6xl mt-4">#criptomaniacos</h3>
+                <p class="text-white text-18 mt-8 font-normal font-display">Join the channel <b>#criptomaniacos</b> for exclusive content, tips, and the ability to chat with your favorite creators.</p>
+              </div>
+              <a href="https://join.status.im/criptomaniacos" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex 
+                justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg" style="width: 200px;">
+								Join channel
+								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+							</a>
+            </div>
+          </div>
+          <!--END-CTA-->
+  
+          <!--START-SMARTPHONE-->
+          <div class="bg-black relative order-1 md:order-none" style="height: 500px;">
+            <span class="bg-black w-screen absolute -z-1 left-0 h-full"></span>
+            <div class="h-full">
+              <div class="row">
+                <div class="partner-phone" >
+                  <%- image_tag("/img/partner-iphone-image.png", { srcset: '/img/partner-iphone-image.png'}) %>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--END-SMARTPHONE-->
+        </div>
+      </div>
+    </section>
+    <!--END-DESKTOP-TILES-->
+  </div>
+
+
+  <!--START-MOBILE-JOIN-SECTION-->
+  <div class="partner-cta-mobile bg-black relative mt-24">
+    <span class="bg-black w-screen absolute -z-1 left-0 h-full" style="left:-20px;"></span>
+    <div class="partner-phone-mobile mx-auto flex justify-center md:block md:pt-20 md:pb-20 md-max:w-10/12">
+      <%- image_tag("/img/partner-iphone-image.png", { srcset: '/img/partner-iphone-image.png'}) %>
+    </div>
+    <div class="bottom-0 w-screen" style="background-color:#4360DF;height: 300px;">
+      <p class="font-display text-32 text-center text-white pt-16">#criptomaniacos</p>
+      <p class="font-display text-14 text-center text-white pt-12 px-10">
+        Join the channel <b>#criptomaniacos</b> for exclusive content, tips, and the ability to chat with your favorite creators.
+      </p>
+      <a href="https://join.status.im/criptomaniacos" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex 
+        justify-between items-center mt-12 border font-special text-white font-semibold hover:bg-white hover:text-black rounded border-white text-lg" style="margin: 30px auto 0 auto;width: 150px;">
+        Join channel
+        <span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><%- image_tag('/img/icon-arrow-right-white.svg') %></span>
+      </a>
+    </div>
+  </div>
+  <!--END-MOBILE-JOIN-SECTION-->
+
+  <!--START-CTA-SECTION-->
+  <div class="relative md-max:mt-20 mt-48 md:mb-56 px-8">
+    <span class="bg-white w-screen absolute -z-1 right-0 h-full"></span>
+    <p class="font-display text-18 md-max:text-14 font-bold mt-8 text-center">Own your money with Status<p>
+    <p class="font-display text-18 md-max:text-14 text-center">Private messaging, secure crypto wallet, and DeFi all in your pocket.</p>
+    <div class="flex justify-center items-center -ml-12 mt-16">
+      <a href="<%- get_build_url('official', 'APPSTORE') %>" class="ml-12 app-download"><%- image_tag("/img/app-store.svg") %></a>
+      <a href="<%- get_build_url('official', 'PLAYSTORE') %>" class="ml-8 app-download"><%- image_tag("/img/google-play.svg") %></a>
+      <a href="<%- get_build_url('official', 'DIRECT_APK') %>" class="ml-8 app-download"><%- image_tag("/img/apk.svg") %></a>
+    </div>
+  </div>
+  <!--END-CTA-SECTION-->
+
+</div>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+<script>
+  var splide = new Splide( '.image-slider' ).mount();
+
+  splide.on( 'pagination:updated', function() {
+    $('.splide__pagination__page.is-active').css("background", "#ccc");
+  } );
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">

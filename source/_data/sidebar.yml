@@ -58,6 +58,8 @@ docs:
         path: pairing_devices.html
       - title: Security Best Practices
         path: best_security_practices.html
+      - title: Desktop Beta Installation
+        path: ../user_guides/desktop_beta_install.html
 
   - title: Audits
     path: audits/

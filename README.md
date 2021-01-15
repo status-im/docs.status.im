@@ -20,7 +20,8 @@ Make sure you have node.js installed first.
 
 1. Open Terminal and navigate to the project root directory
 2. Run `yarn install`
-3. Run `yarn devel`
+3. Run `yarn build`
+4. Run `yarn devel`
 
 ## Contributing More
 

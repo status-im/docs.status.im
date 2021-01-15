@@ -503,6 +503,7 @@ site:
     desktop:
       title: "Desktop"
       description: "Test out Desktop Beta for private, secure communication where you work."
+      instructions: "* Read the installation instructions <u>here</u>."
   landing-page-v1:
     intro:
       private-messaging:

@@ -788,7 +788,7 @@ site:
         answer: "Messages are not stored on the blockchain and do not cost anything to send. By default, encrypted messages are cached on Status nodes for 30 days so that you can still receive messages even if your phone is offline. Even when encrypted messages are stored in this manner, it is impossible for the Status nodes to read the contents of any of the messages, or to know who is talking to who."
       q3:
         question: "Who hosts the Status nodes that temporarily store encrypted messages?"
-        answer: "Waku requires a special kind of Status node that stores encrypted messages while users may be offline. Currently, Status hosts a set of these special nodes in order to support its users. However, anyone is able to host such a Status node with the proper hardware. You can find instructions on how to do so <a href='https://discuss.status.im/t/get-your-node-running/1488/2' target='_blank'>here</a>."
+        answer: "Waku requires a special kind of Status node that stores encrypted messages while users may be offline. Currently, Status hosts a set of these special nodes in order to support its users. However, anyone is able to host such a Status node with the proper hardware. You can find instructions on how to do so <a href='https://status.im/technical/run_status_node.html' target='_blank'>here</a>."
       q4:
         question: "How can I change my name in Status?"
         answer: "If you want to add a custom name, you can register an ENS username. Go to Profile > ENS usernames. When you register or connect an existing ENS username to your Status chat key, others can then find you by this username. You can also display it in place of your three word name."

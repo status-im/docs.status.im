@@ -591,7 +591,7 @@ site:
       description: "Dap.ps is a third party dapp discovery solution that aims to create a fair, token curated dapp marketplace. Leveraging SNT and token economics, Dap.ps decentralizes the way we explore and find the latest DApps"
     submit:
       title: "Want to submit your DApp to Dap.ps for the world to see?"
-      description: "Follow the instructions at our DApp Integration Center"
+      description: "Follow the instructions at the DApp Integration Center"
       button: "DApp Integration Center"
   wallet:
     intro:

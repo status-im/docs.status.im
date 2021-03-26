@@ -6,7 +6,7 @@ description: Check out the built-in DApp store in Status.
 
 # Curated DApp Store 
 
-Status includes a DApp Store where the DApps that deliver the most value to the community rise to the top of the ranked list. Integration into Status helps new Ethereum users to quickly identity the Web3 DApps most deserving of their attention. 
+Status includes a DApp Store where the DApps that deliver the most value to the community rise to the top of the ranked list. Integration into Status helps new Ethereum users to quickly identify the Web3 DApps most deserving of their attention. 
 
 The DApp list and rankings are curated by two complementary methods.
 

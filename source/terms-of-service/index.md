@@ -43,7 +43,7 @@ Click [here](/account-generation/) to learn more about account generation.
 
 ### We care about your privacy
 
-Status uses an open-source, peer-to-peer protocol with end-to-end encryption and metadata suppression to protect your identity, messages, wallet, and browsing information from third parties. We don’t monetize your private user data, including private messages and browser information, to advertisers or other third parties. Users may be asked to opt-in to anonymous analytics reporting for the purpose of helping us develop the software. Be aware that information posted to a blockchain is public.
+Status uses an open-source, peer-to-peer protocol with end-to-end encryption and metadata suppression to protect your identity, messages, wallet, and browsing information from third parties. We don’t monetize your private user data, including private messages and browser information, to advertisers or other third parties. Users may be asked to opt-in to share usage data for the purpose of helping us develop the software. Be aware that information posted to a blockchain is public.
 
 Guided by our principles, Status is designed to protect your privacy and process as little personal data as possible for the network to thrive; Status enables pseudo anonymity, strives to provide the right of total anonymity, and offers ways to selectively reveal oneself to the world.
 

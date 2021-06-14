@@ -9,6 +9,8 @@ docs:
       path: contributor_workflow.html
     - title: Running A Status Node
       path: run_status_node.html
+    - title: Status Node QuickStart
+      path: status_node_quick_start.html
     - title: Github Labels
       path: org_github_labels.html 
     - title: Perfect Forward Security 

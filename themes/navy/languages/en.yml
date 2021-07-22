@@ -683,8 +683,8 @@ site:
       title: "Protect Your Past and Future Messages"
       description: "Status leverages a modified version of the double ratchet algorithm for perfect forward secrecy. Protect your past and future messages even if your current encryption keys are somehow compromised."
   faq:
-    title: "F.A.Q"
-    description: "Frequently Asked Questions<br> Can't find what you are looking for? Check or ask in the community Discuss forum <a href='https://discuss.status.im/' target='_blank'>here</a>"
+    title: "F.A.Q."
+    description: "Frequently Asked Questions<br> Can't find what you are looking for? Check or ask in the community Discuss forum <a href='https://discuss.status.im/' target='_blank'>here</a>."
     general:
       title: "General"
       q1:

@@ -1,0 +1,33 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<section class="bg-black text-white px-8 py-8 lg:px-20 flex items-center justify-between">
+	  <p class="text-gray-200">Influencer Guidelines</p>
+	  <form id="search-form" class="flex items-center relative">
+      <span class="text-gray-500 mr-6">
+        <%- image_tag('/img/search.svg') %>
+      </span>
+	    <input type="text" name="userSearch" id="search-input" placeholder="Search documentation..." class="bg-transparent placeholder-gray-400 text-lg">
+	    <div id="search-results" class="absolute top-0 bg-white px-4 mt-12 shadow-lg rounded z-10"></div>
+	  </form>
+	</section>
+
+	<section class="single-docs-content mt-24 mb-40">
+		<div class="mx-auto px-8 lg:px-20">
+		  <div class="grid grid-cols-12 gap-12">
+		    <div class="col-span-12 md:col-span-3 xl:col-span-2">
+		    </div>
+		    <div class="col-span-12 md:col-span-7 xl:col-span-8">
+  				<div class="custom-article js-editor-content">
+  					<%- page_anchor(page.content) %>
+  				</div>
+  				<div class="mt-32 border-t border-gray-200 pt-8 text-gray-500 text-center text-lg font-special">
+  					Last update: <%- page.updated.format(config.date_format) %>
+  					<%- page_nav() %>
+  				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</main>
